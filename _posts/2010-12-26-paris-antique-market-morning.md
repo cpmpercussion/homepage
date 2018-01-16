@@ -1,0 +1,38 @@
+---
+layout: post
+title: Paris, Antique market morning
+categories:
+- Photoblog
+tags:
+- France
+- Travel
+- Paris
+status: publish
+type: post
+published: true
+meta: {}
+---
+
+![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f382e4b0b45850a90f9b_5019f382e4b0b45850a90f9c_1293397433000__img.jpg_)
+  
+
+  
+   
+![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f382e4b0b45850a90f9b_5019f382e4b0b45850a90f9d_1293397433000__img.jpg_)
+  
+
+  
+   
+![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f382e4b0b45850a90f9b_5019f382e4b0b45850a90f9e_1293397433000__img.jpg_)
+  
+
+  
+   
+![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f382e4b0b45850a90f9b_5019f382e4b0b45850a90f9f_1293397433000__img.jpg_)
+  
+
+  
+   
+![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f382e4b0b45850a90f9b_5019f382e4b0b45850a90fa0_1293397433000__img.jpg_)
+
+-Charles

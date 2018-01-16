@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Strike on Stage development: 27.3.10'
+categories: []
+tags:
+- belconnen
+- belconnen arts centre
+- Strike on Stage
+- development
+status: publish
+type: post
+published: true
+meta: {}
+---
+
+![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_53aa4b9ce4b061a29b7c52d7_1403669465182__img.jpg_)
+  
+
+
+Development day at Belconnen Arts Centre.
+
+Tested screen materials using speaker stands and pegs. White stretchy material is the winner.
+
+Lights: cheap flood is ok when reflected against the wall. Good IR and colour. Infrared LED arrays are very uneven but will do the job if aimed at a a shallow angle and diffused with some tracing paper. Need six in two groups of three to cover the screen. Compact fluorescent lamps have no IR.
+
+Programming - aiming to extend gesture... spraying pixels. Need tripods for camera and projector.
+
+Contact microphones work on screen, very low frequency but still useful for triggering.
