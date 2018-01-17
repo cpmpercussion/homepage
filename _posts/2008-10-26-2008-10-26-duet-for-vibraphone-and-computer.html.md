@@ -15,12 +15,12 @@ published: true
 meta: {}
 ---
 
-[](http://farm4.static.flickr.com/3245/2941746254_6a8402d3f1.jpg)
-[](http://farm4.static.flickr.com/3058/2960539661_34874e2e0b.jpg)
+![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-setup.jpg)
+![Computer setup for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-screenshot.png)
 
 Performers who use computers to make music often spend a lot of time creating and learning to play new instruments. As a percussionist incorporating computer music technology into my performance I have been faced with a conundrum. I want to be able to control and interact with a computer system in my performance but I don't want to abandon the incredibly expressive act of playing percussion instruments. The topic of my current research is to find solutions to this problem, that is, techniques for controlling computer music systems while playing with conventional techniques on a relatively unmodified instrument.
 
-One of my projects is to create improvised duets for computer and vibraphone. My idea is that a computer would play short pre-recorded vibraphone sounds as a counterpoint to my live improvisation. The computer runs a custom piece of software written in the Pure Data language (Pd) to analyse audio input from a microphone over the vibraphone. The computer software is able to recognise attacks and detect the pitch and dynamic of notes that I play. This information is used to send MIDI messages to control software such as (Ableton) Live and (Apple) Logic Studio which plays back the pre-recorded sounds and applies effects.
+One of my projects is to create improvised duets for computer and vibraphone. My idea is that a computer would play short pre-recorded vibraphone sounds as a counterpoint to my live improvisation. The computer runs a custom piece of software written in the Pure Data language  (Pd) to analyse audio input from a microphone over the vibraphone. The computer software is able to recognise attacks and detect the pitch and dynamic of notes that I play. This information is used to send MIDI messages to control software such as (Ableton) Live and (Apple) Logic Studio which plays back the pre-recorded sounds and applies effects.
 
 For example, in a particular improvised piece called, I divide the vibraphone into ten (imaginary) zones, each one consisting of 3 or 4 adjacent notes. When I strike a note in a particular zone, the Pd program hears the attack and fires off a MIDI message to Ableton Live which then plays one of ten vibraphone recordings. Thus, when I play a melodic line on the vibraphone the computer simultaneously plays a melodic line constructed from sections of the ten recordings. In practice, this simple concept produces a striking variety of sounds from the computer that have a natural and clear relationship to what I play on the vibraphone.
 

@@ -12,7 +12,9 @@ published: true
 meta: {}
 ---
 
-[![](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0)](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0)
+![Cognition part 2 poster]({{ site.baseurl }}/squarespace_images/cognition2-poster.jpg)
+
+<!-- [![](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0)](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0) -->
 
 Cognition Part 2 is being performed this week in Street 2 at the Street Theatre, Canberra. There are shows on Wednesday 15th - Saturday 18th of October at 8:30pm and on Saturday afternoon at 2pm.
 
@@ -22,4 +24,6 @@ We're also using Pd and Gem for interactive visuals that are incorporated into t
 
 Tickets are $8. Here's my setup:
 
-[![](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0)](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0)
+![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-setup.jpg)
+
+<!-- [![](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0)](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0) -->

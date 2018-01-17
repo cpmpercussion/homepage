@@ -15,32 +15,19 @@ published: true
 meta: {}
 ---
 
-[](http://1.bp.blogspot.com/_KBlvp5i4Mkk/Spp_Iqkm7bI/AAAAAAAABn0/0TdcdtuaH_U/s1600/IMG_2932.JPG)[](http://1.bp.blogspot.com/_KBlvp5i4Mkk/Spp_Iqkm7bI/AAAAAAAABn0/0TdcdtuaH_U/s1600/IMG_2932.JPG)
-**updates!**
+![]({{ site.baseurl }}/squarespace_images/lmtd-CRW_3272.jpg)
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_Su__hE9WcuI_AAAAAAAABrE_QUCAVdXupmE_s320_CRW_3272.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/Su__hE9WcuI/AAAAAAAABrE/QUCAVdXupmE/s1600-h/CRW_3272.jpg)We used the computer vision table in a performance at the Street Theatre and at This is Not Art in Newcastle. The final version had an aluminium frame which can be pulled apart (thx for the idea 
+We used the computer vision table in a performance at the Street Theatre and at This is Not Art in Newcastle. The final version had an aluminium frame which can be pulled apart (thx for the idea 
 [Lisa](http://www.laichihsia.com/)). and two small downward firing lights.
 
-In the performance we made an iceberg of paper over the  bottom of the frame so that the light would reflect more easily. The camera sits on a neat plastic box that also helps to diffuse the light. We didn't put any sides on the table so that the audience see what was going on.
+In the performance we made an iceberg of paper over the  bottom of the frame so that the light would reflect more easily. The camera sits on a neat plastic box that also helps to diffuse the light. We didn't put any sides on the table so that the audience see what was going on. With this setup and the PS3 camera and ReacTIVision running on Ubuntu 9.04 we had a very clear image of the surface and it was possible to see fiducials right up the edge of the table. In the show, the teacups were lighted with superbright LEDs courtesy of Muttley, so cool.
 
-With this setup and the PS3 camera and ReacTIVision running on Ubuntu 9.04 we had a very clear image of the surface and it was possible to see fiducials right up the edge of the table.
+![]({{ site.baseurl }}/squarespace_images/lmtd-IMG_2932.jpg)
 
-In the show, the teacups were lighted with superbright LEDs courtesy of Muttley, so cool.
-
-
-
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_Spp_Iqkm7bI_AAAAAAAABn0_0TdcdtuaH_U_s320_IMG_2932.JPG_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/Spp_Iqkm7bI/AAAAAAAABn0/0TdcdtuaH_U/s1600/IMG_2932.JPG)
-
-
-I've been working on a computer vision instrument for 
-, a cross artform performance with my group 
-[Last Man to Die](http://www.lastmantodie.net/).
-
-
+I've been working on a computer vision instrument for a cross artform performance with my group [Last Man to Die](http://www.lastmantodie.net/).
 
 Much of our performance is based around interactions with a computer vision surface, a semi-clear table with a PlayStation Eye camera underneath it. Our props have special symbols on the bottom that the computer can see.
 
+![]({{ site.baseurl }}/squarespace_images/lmtd-IMG_2939.jpg)
 
-
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SqCsznMcy4I_AAAAAAAABn8_B9YsXJllgKw_s320_IMG_2939.JPG_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SqCsznMcy4I/AAAAAAAABn8/B9YsXJllgKw/s1600-h/IMG_2939.JPG)My desktop computer running Ubuntu will be running the reacTIVision software to detect the special symbols and SuperCollider to organise everything and trigger some audio cues throughout the performance. SuperCollider forwards TUIO data to my laptop for other musical systems and to 
-[Ben Forster](http://www.emptybook.net/)'s laptop which is running the live visuals.
+My desktop computer running Ubuntu will be running the reacTIVision software to detect the special symbols and SuperCollider to organise everything and trigger some audio cues throughout the performance. SuperCollider forwards TUIO data to my laptop for other musical systems and to [Ben Forster](http://www.emptybook.net/)'s laptop which is running the live visuals.

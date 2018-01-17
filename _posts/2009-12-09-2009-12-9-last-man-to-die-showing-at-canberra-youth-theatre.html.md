@@ -13,4 +13,4 @@ Last Man to Die is showing a few of our new works at Canberra Youth Theatre, 9th
 
 Come and be another data point in our ongoing exploration of life and death while being refreshed by iced tea and scones.
 
-![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_Sx70-TpgrSI_AAAAAAAABro_cmTFq2D9tYg_s320_IMG_0217.JPG_)
+![]({{ site.baseurl }}/squarespace_images/lmtd-IMG_0217.JPG)

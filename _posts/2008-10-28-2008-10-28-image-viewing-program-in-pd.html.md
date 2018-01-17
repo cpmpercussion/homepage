@@ -12,7 +12,7 @@ published: true
 meta: {}
 ---
 
-[![]({{ site.baseurl }}/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SQZuhBZq1sI_AAAAAAAAAKw_FCrdP4wUSyE_s400_PicturesPd.jpg)](http://www.flickr.com/photos/chuck_notorious/2979386957/)
+[![]({{ site.baseurl }}/squarespace_images/Cognition2-PicturesPd.jpg)](http://www.flickr.com/photos/chuck_notorious/2979386957/)
 
 I created a program in Pd that displays a set of jpeg images. You can flick through the images using MIDI notes, a sustain or expression pedal (just a MIDI CC#) or by producing a percussive sound into a microphone (attack detection using [bonk~]).
 

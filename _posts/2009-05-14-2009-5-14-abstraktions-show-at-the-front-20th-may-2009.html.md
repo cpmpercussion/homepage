@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/200905-AbstraktionsGigPoster.jpg)
+![]({{ site.baseurl }}/squarespace_images/AbstraktionsGigPoster-200905.jpg)
 
 I'm playing at an Abstraktions Show at The Front on Wednesday the 20th of May! Shoeb Ahmad of HelloSquare recordings and Spartak runs these shows every month. Always some great music and interesting artists both local and brought in from interstate. Sometimes even from overseas. It's a small venue though, so the room is usually packed.
 

@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-[![](http://farm4.static.flickr.com/3114/2389243312_68bc38f011_m.jpg)](http://www.flickr.com/photos/chuck_notorious/2389243312/)
+![]({{ site.baseurl }}/squarespace_images/roland-vs-2000.jpg)
 
 [Roland VS-2000 Digital Studio Workstation](http://www.flickr.com/photos/chuck_notorious/2389243312/)
 

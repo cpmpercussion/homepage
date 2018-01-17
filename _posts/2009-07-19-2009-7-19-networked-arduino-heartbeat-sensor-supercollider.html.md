@@ -16,7 +16,7 @@ meta: {}
 I made a simple heartbeat sensor using an Arduino which sends OSC signals at each heartbeat over a network. I'm using the heartbeat sensor as an awesome prop in my show 
  which is on at the Street Theatre in Canberra!
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SujdCVWgYdI_AAAAAAAABp4_IqCOX2By2uE_s400_21102009914.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SujdCVWgYdI/AAAAAAAABp4/IqCOX2By2uE/s1600-h/21102009914.jpg)
+![]({{ site.baseurl }}/squarespace_images/heartbeat-enclosure.jpg)
 
 There's a new video [here](http://gallery.me.com/cpmartin#100259).
 
@@ -133,7 +133,7 @@ Here's some older information about the process of making this sensor!
 
 I wanted it to communicate with the computer and send data to SuperCollider. As a proof of concept, I've connected the Arduino to SuperCollider via a Processing script that translates serial data from the Arduino into OSC messages. Here's a video demonstration:
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SmMYCqG594I_AAAAAAAABl0_W5RWTIvFqMM_s320_heartbeatSensorTestCircuit.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SmMYCqG594I/AAAAAAAABl0/W5RWTIvFqMM/s1600-h/heartbeatSensorTestCircuit.jpg)
+![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-test-circuit.jpg)
 
 Arduino and the sensor circuit. My phone camera can see in infrared.
 
@@ -144,7 +144,8 @@ The sensor uses two simple components, an IR LED and an IR phototransistor. Both
 * 10KOhm resistor
 * 220Ohm resistor
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_S00xIs4OkGI_AAAAAAAABtA_7SD72PIntUc_s320_ArduinoHeartbeatSensor-Circuit-Diagram1.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/S00xIs4OkGI/AAAAAAAABtA/7SD72PIntUc/s1600-h/ArduinoHeartbeatSensor-Circuit-Diagram1.jpg)
+![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-circuit-diagram.jpg)
+
 
 The simple circuit is the same as for an IR range sensor, commonly used in robot projects. The easiest way to start looking at data form an Arduino's analogue input is to follow the 
 [Arduino Graph tutorial](http://www.arduino.cc/en/Tutorial/Graph).
@@ -153,14 +154,20 @@ The idea is that when your heart beats you have a quick rush of blood into tiny 
 
 The phototransistor is connected to the Arduino in a similar way to a potentiometer. One lead is connected to +5V and the other to ground. The +5V lead is also connected to an analogue input on the Arduino. When the phototransistor receives more IR light it becomes more resistive and a lower voltage is detected by the analogue input.
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_S00xUb1oj0I_AAAAAAAABtI_nna28cUMxLM_s200_HeartbeatSensor-Closeup.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/S00xUb1oj0I/AAAAAAAABtI/nna28cUMxLM/s1600-h/HeartbeatSensor-Closeup.jpg)[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SmwqtKgjhiI_AAAAAAAABl8_xIzDB5h2eDo_s200_HeartbeatCircuitFreeform.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SmwqtKgjhiI/AAAAAAAABl8/xIzDB5h2eDo/s1600-h/HeartbeatCircuitFreeform.jpg)
+![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-closeup.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/heartbeat-circuit-freeform.jpg)
 
 The circuit all soldered together and held together with double sided tape. It was then wrapped up in electrical tape to protect it and shield the phototransistor from other light sources.
 
-![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SmMXW2OtujI_AAAAAAAABls_FpZp3Pa21TQ_s320_Picture%2B1.png_)
+![Graph of the sensor output! Each little bump is a heartbeat!]({{ site.baseurl }}/squarespace_images/heartbeat-data.png)
+
 Graph of the sensor output! Each little bump is a heartbeat!
 
 Similar projects around the internet have used an amplifier to boost the signal from the phototransistor. I found that the data was clear enough for the Arduino to track heartbeats accurately. My Arduino program follows the (average) rate of change of the phototransistor voltage and uses this to judge whether a heartbeat is occuring or not.
+
+<iframe src="https://player.vimeo.com/video/46865426" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/46865426">Arduino Heartbeat Sensor</a> from <a href="https://vimeo.com/cpmpercussion">Charles Martin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Arduino code:
 

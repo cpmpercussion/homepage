@@ -14,10 +14,6 @@ published: true
 meta: {}
 ---
 
-Last Man to Die performed a preview of our upcoming project 
- at Newcastle’s famous This Is Not Art festival. 
+_Last Man to Die_ performed a preview of our upcoming project at Newcastle’s famous _This Is Not Art_ festival. 
 
-
-
-Thankyou so much to our audience who attended the two performances at the 
-. Especially to those who stood at the back and in the corridor! Also, thanks to David Finnigan and Gillian Schwab, the illustrious managers. This was Crack’s debut year and they made it a seriously cool and happening part of This Is Not Art.
+Thankyou so much to our audience who attended the two performances at the. Especially to those who stood at the back and in the corridor! Also, thanks to David Finnigan and Gillian Schwab, the illustrious managers. This was Crack’s debut year and they made it a seriously cool and happening part of _This Is Not Art_.

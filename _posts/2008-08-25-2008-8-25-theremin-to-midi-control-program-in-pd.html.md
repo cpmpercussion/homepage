@@ -16,8 +16,6 @@ meta: {}
 
 ![]({{ site.baseurl }}/squarespace_images/ThereminController.jpg)
 
-<!-- (http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SLSTuAsMYbI/AAAAAAAAAHc/wIoRlpBYckk/s1600-h/ThereminController.jpg) -->
-
 *Update:* throughout 2008 and 2009 I used these techniques with the vibraphone in my piece "Duet for Vibraphone and Computer"
 
 Over the weekend I wrote a simple program in Pd that analyses an audio input and then uses pitch and amplitude information to output a midi control value.
