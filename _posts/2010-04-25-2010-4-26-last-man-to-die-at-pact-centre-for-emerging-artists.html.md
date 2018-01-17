@@ -15,9 +15,6 @@ published: true
 meta: {}
 ---
 
-
- 
-
 Hanna Cormick,
 Benjamin Forster,
 Charles Martin.

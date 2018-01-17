@@ -9,8 +9,6 @@ published: true
 meta: {}
 ---
 
-
-
 ![](http://posterous.com/getfile/files.posterous.com/charlesmartin/9dipdGXfuSOxtzU7qfxJGBkawsFsRa782hmNqNGqmQ1Svc4lvPLDtzYkjPp6/DAVE-SAMUELS.jpg) 
 Dave Samuels + Anders Åstrand + ANU DRUMatiX
 

@@ -9,8 +9,6 @@ published: true
 meta: {}
 ---
 
-
-
 There's still one performance to go: tonight, Thursday 8th of July, 8:30pm, Street 2, The Street Theatre.
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/KbNhjPpsGTXSd9qsIAsnvu0uSv6owSVWIPVr3FbE4H4Ox5ngG4htDmgRQ9Zp/photo_1.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/5EwW2B3RPoKdT6SWWZXIrFsWvDqDpvZFw8ampzuazWy7jnhx2SHeY4tGJ9id/photo_1.jpg.scaled.1000.jpg) 
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/WSy4mS72yYVFREQjwh0ZJB7ITMLTjo2hqDEhKU5fPKeNeGJG0Fb90wPzLUZo/photo_2.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/4i5IAaGyCYwSQknI2Xl91WLkFaZmUnTlm9c0HVtSFRt47OxkjXoTx9f8EiGJ/photo_2.jpg.scaled.1000.jpg) 

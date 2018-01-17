@@ -13,22 +13,15 @@ meta: {}
 
 THE LAST MAN TO DIE is on at Street 2, The Street Theatre, Canberra next week! July 7-8, 8:30pm.
 
-
-
 It's going to be awesome.
-
-
 
 MORE:
 
+    ATTENTION CITIZEN:
 
-
-ATTENTION CITIZEN:
-
-
-YOU are invited to a strictly limited pilot production of THE LAST MAN TO DIE, an interactive performance experiment allowing you to step into the distant future and look backwards in time. Join us at the Street Theatre on July 7 and 8 as we explore the emotional and social consequences of artificial extension of human life - as well as the theories and responses from literature, pop culture and the media.
-This performance / installation involves interactions between the audience, live performers and computer driven audio and visuals.
-THE LAST MAN TO DIE sees the venue transformed into an abandoned museum from the future that celebrates humankind's ability to extend their lifespan indefinitely. On entering the venue, you will be presented with a special ticket allowing you to influence the direction of the performance. The non-traditional performance space will allow you to explore the work and even interact with the performers.
+    YOU are invited to a strictly limited pilot production of THE LAST MAN TO DIE, an interactive performance experiment allowing you to step into the distant future and look backwards in time. Join us at the Street Theatre on July 7 and 8 as we explore the emotional and social consequences of artificial extension of human life - as well as the theories and responses from literature, pop culture and the media.
+    This performance / installation involves interactions between the audience, live performers and computer driven audio and visuals.
+    THE LAST MAN TO DIE sees the venue transformed into an abandoned museum from the future that celebrates humankind's ability to extend their lifespan indefinitely. On entering the venue, you will be presented with a special ticket allowing you to influence the direction of the performance. The non-traditional performance space will allow you to explore the work and even interact with the performers.
 
 Created by Canberra based cross-artform group, Last Man to Die, the work features actor, Hanna Cormick, artist, Benjamin Forster, percussionist Charles Martin and writer Peter Butz.
 DATE: July 7 and 8
