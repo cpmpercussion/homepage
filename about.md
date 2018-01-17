@@ -28,3 +28,9 @@ More information about Charles’ music and research can be found on his website
 [3]: http://www.lastmantodie.net
 [4]: http://charlesmartin.bandcamp.com/album/nordlig-vinter
 [5]: http://www.charlesmartin.com.au
+
+<!-- code notes -->
+
+<!-- validate: bundle exec htmlproofer ./_site/ --only-4xx -->
+
+<!-- rename "s/\+/-/g" * -->
