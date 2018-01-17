@@ -14,16 +14,15 @@ published: true
 meta: {}
 ---
 
-[![](/squarespace_images/production_1370812_16892027__KBlvp5i4Mkk_SLSTuAsMYbI_AAAAAAAAAHc_wIoRlpBYckk_s320_ThereminController.jpg_)](http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SLSTuAsMYbI/AAAAAAAAAHc/wIoRlpBYckk/s1600-h/ThereminController.jpg)
-** Update - throughout 2008 and 2009 I used these techniques with the vibraphone in my piece "Duet for Vibraphone and Computer"
+![]({{ site.baseurl }}/squarespace_images/ThereminController.jpg)
+
+<!-- (http://s3.media.squarespace.com/production/1370812/16892027/_KBlvp5i4Mkk/SLSTuAsMYbI/AAAAAAAAAHc/wIoRlpBYckk/s1600-h/ThereminController.jpg) -->
+
+*Update:* throughout 2008 and 2009 I used these techniques with the vibraphone in my piece "Duet for Vibraphone and Computer"
 
 Over the weekend I wrote a simple program in Pd that analyses an audio input and then uses pitch and amplitude information to output a midi control value.
 
-
-
 My idea was to use my little theremin as the audio input and send the midi data to an internal midi bus which is received by Ableton Live for controlling parameters of some effects. Since the theremin has such a simple sound the pitch and amplitude analysis works extremely well. To achieve this feat I use the excellent fiddle~ object (written by Miller Puckette) and... well not much else really! A few * and + objects adjust the output values so that they are sensibly distributed between 0-127.
-
-
 
 Here's the code (or just copy from the picture!):
 
@@ -104,4 +103,4 @@ Here's the code (or just copy from the picture!):
 
 To check it out, copy and paste the code into a text editor, save it as a .pd file, then open in Pd! Click the little toggle boxes to first to view the data and then to send it to the midi output. This way you can shut off output of one parameter while you have Live (for example) learn the assignment.
 
-** Update - The program was a little bit wrong. Fixed now! Hello internet!
+**Update:** The program was a little bit wrong. Fixed now! Hello internet!

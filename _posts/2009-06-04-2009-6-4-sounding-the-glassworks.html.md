@@ -12,9 +12,9 @@ published: true
 meta: {}
 ---
 
+![Source: [CIMF Photos](http://www.flickr.com/people/cimfphotos/)]({{ site.baseurl }}/squarespace_images/3518272361_b19dec9db0_o.jpg)
 
+<!-- [![](http://farm4.static.flickr.com/3584/3518272361_f14789550a_m.jpg)](http://www.flickr.com/photos/cimfphotos/3518272361/) -->
 
-[![](http://farm4.static.flickr.com/3584/3518272361_f14789550a_m.jpg)](http://www.flickr.com/photos/cimfphotos/3518272361/)
-[Charles at `Sounding the Glassworks'](http://www.flickr.com/photos/cimfphotos/3518272361/)
-Source: 
-[CIMF Photos](http://www.flickr.com/people/cimfphotos/)
+[Charles at "Sounding the Glassworks"](http://www.flickr.com/photos/cimfphotos/3518272361/)
+
