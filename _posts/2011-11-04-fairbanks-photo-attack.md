@@ -13,7 +13,10 @@ type: post
 published: true
 meta:
   _thumbnail_id: '16'
----![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ea0_5019f373e4b0b45850a90ea1_1320440451000__img.jpg)
+---
+
+
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ea0_5019f373e4b0b45850a90ea1_1320440451000__img.jpg)
   
 
   
