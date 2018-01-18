@@ -15,7 +15,7 @@ meta: {}
 
 On Friday, I performed with Chi-Hsia Lai and Veronica Walshaw at the Hughes Festival of Music - in a bakery! The programme was:
 
-![]({{ site.baseurl }}/squarespace_images/hughes-festival-performance.jpg)
+![]({{ site.baseurl }}/assets/blogger/hughes-festival-performance.jpg)
 
 * Duet for Vibraphone and Computer - Charles Martin
 * Hands on Stage ^2 - Chi-Hsia Lai and Charles Martin
@@ -27,3 +27,5 @@ On Friday, I performed with Chi-Hsia Lai and Veronica Walshaw at the Hughes Fes
 * Ghanaian Bells - Gary France
 
 A bit tricky to fit a marimba, malletkat, computer vision surface and other percussion instruments into the venue but we did it!
+
+![]({{ site.baseurl }}/assets/blogger/hughes-festival-ec.jpg)

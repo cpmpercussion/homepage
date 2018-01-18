@@ -12,7 +12,7 @@ published: true
 meta: {}
 ---
 
-![Cognition part 2 poster]({{ site.baseurl }}/squarespace_images/cognition2-poster.jpg)
+![Cognition part 2 poster]({{ site.baseurl }}/assets/blogger/cognition2-poster.jpg)
 
 <!-- [![](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0)](http://farm4.static.flickr.com/3248/2937121919_3b44c71c5c.jpg?v=0) -->
 
@@ -24,6 +24,6 @@ We're also using Pd and Gem for interactive visuals that are incorporated into t
 
 Tickets are $8. Here's my setup:
 
-![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-setup.jpg)
+![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/assets/blogger/cognition2-setup.jpg)
 
 <!-- [![](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0)](http://farm4.static.flickr.com/3056/2937928516_57c2d87d12.jpg?v=0) -->

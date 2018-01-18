@@ -9,7 +9,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/cmoy-IMG_2546.JPG)
+![]({{ site.baseurl }}/assets/blogger/cmoy-IMG_2546.JPG)
 
 I finally finished my CMoy Headphone Amplifier. Very common design from [these plans](http://tangentsoft.net/audio/cmoy-tutorial/).
 

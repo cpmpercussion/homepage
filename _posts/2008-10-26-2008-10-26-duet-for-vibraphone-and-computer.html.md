@@ -15,8 +15,8 @@ published: true
 meta: {}
 ---
 
-![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-setup.jpg)
-![Computer setup for Cognition 2]({{ site.baseurl }}/squarespace_images/cognition2-screenshot.png)
+![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/assets/blogger/cognition2-setup.jpg)
+![Computer setup for Cognition 2]({{ site.baseurl }}/assets/blogger/cognition2-screenshot.png)
 
 Performers who use computers to make music often spend a lot of time creating and learning to play new instruments. As a percussionist incorporating computer music technology into my performance I have been faced with a conundrum. I want to be able to control and interact with a computer system in my performance but I don't want to abandon the incredibly expressive act of playing percussion instruments. The topic of my current research is to find solutions to this problem, that is, techniques for controlling computer music systems while playing with conventional techniques on a relatively unmodified instrument.
 

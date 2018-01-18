@@ -13,7 +13,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/in2change-setup.jpg)
+![]({{ site.baseurl }}/assets/blogger/in2change-setup.jpg)
 
 I'm performing at In2Change - an artistic response to urban renewal in Belconnen at the Belconnen bus interchange, Friday 22nd April, 6pm.
 

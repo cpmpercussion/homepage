@@ -12,6 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/fitters-workshop.jpg)
+![]({{ site.baseurl }}/assets/blogger/fitters-workshop.jpg)
 
 The Fitter's Workshop is a strange place. Click for big.

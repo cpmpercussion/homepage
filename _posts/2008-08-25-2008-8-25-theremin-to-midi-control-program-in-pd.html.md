@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/ThereminController.jpg)
+![]({{ site.baseurl }}/assets/blogger/ThereminController.jpg)
 
 *Update:* throughout 2008 and 2009 I used these techniques with the vibraphone in my piece "Duet for Vibraphone and Computer"
 

@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/roland-vs-2000.jpg)
+![]({{ site.baseurl }}/assets/blogger/roland-vs-2000.jpg)
 
 [Roland VS-2000 Digital Studio Workstation](http://www.flickr.com/photos/chuck_notorious/2389243312/)
 

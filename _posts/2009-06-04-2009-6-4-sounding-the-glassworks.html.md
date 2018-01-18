@@ -12,7 +12,7 @@ published: true
 meta: {}
 ---
 
-![Source: [CIMF Photos](http://www.flickr.com/people/cimfphotos/)]({{ site.baseurl }}/squarespace_images/fitters-workshop-striking.jpg)
+![Source: [CIMF Photos](http://www.flickr.com/people/cimfphotos/)]({{ site.baseurl }}/assets/blogger/fitters-workshop-striking.jpg)
 
 <!-- [![](http://farm4.static.flickr.com/3584/3518272361_f14789550a_m.jpg)](http://www.flickr.com/photos/cimfphotos/3518272361/) -->
 

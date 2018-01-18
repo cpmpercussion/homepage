@@ -16,7 +16,7 @@ meta: {}
 I made a simple heartbeat sensor using an Arduino which sends OSC signals at each heartbeat over a network. I'm using the heartbeat sensor as an awesome prop in my show 
  which is on at the Street Theatre in Canberra!
 
-![]({{ site.baseurl }}/squarespace_images/heartbeat-enclosure.jpg)
+![]({{ site.baseurl }}/assets/blogger/heartbeat-enclosure.jpg)
 
 There's a new video [here](http://gallery.me.com/cpmartin#100259).
 
@@ -133,7 +133,7 @@ Here's some older information about the process of making this sensor!
 
 I wanted it to communicate with the computer and send data to SuperCollider. As a proof of concept, I've connected the Arduino to SuperCollider via a Processing script that translates serial data from the Arduino into OSC messages. Here's a video demonstration:
 
-![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-test-circuit.jpg)
+![]({{ site.baseurl }}/assets/blogger/heartbeat-sensor-test-circuit.jpg)
 
 Arduino and the sensor circuit. My phone camera can see in infrared.
 
@@ -144,7 +144,7 @@ The sensor uses two simple components, an IR LED and an IR phototransistor. Both
 * 10KOhm resistor
 * 220Ohm resistor
 
-![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-circuit-diagram.jpg)
+![]({{ site.baseurl }}/assets/blogger/heartbeat-sensor-circuit-diagram.jpg)
 
 
 The simple circuit is the same as for an IR range sensor, commonly used in robot projects. The easiest way to start looking at data form an Arduino's analogue input is to follow the 
@@ -154,13 +154,13 @@ The idea is that when your heart beats you have a quick rush of blood into tiny 
 
 The phototransistor is connected to the Arduino in a similar way to a potentiometer. One lead is connected to +5V and the other to ground. The +5V lead is also connected to an analogue input on the Arduino. When the phototransistor receives more IR light it becomes more resistive and a lower voltage is detected by the analogue input.
 
-![]({{ site.baseurl }}/squarespace_images/heartbeat-sensor-closeup.jpg)
+![]({{ site.baseurl }}/assets/blogger/heartbeat-sensor-closeup.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/heartbeat-circuit-freeform.jpg)
+![]({{ site.baseurl }}/assets/blogger/heartbeat-circuit-freeform.jpg)
 
 The circuit all soldered together and held together with double sided tape. It was then wrapped up in electrical tape to protect it and shield the phototransistor from other light sources.
 
-![Graph of the sensor output! Each little bump is a heartbeat!]({{ site.baseurl }}/squarespace_images/heartbeat-data.png)
+![Graph of the sensor output! Each little bump is a heartbeat!]({{ site.baseurl }}/assets/blogger/heartbeat-data.png)
 
 Graph of the sensor output! Each little bump is a heartbeat!
 

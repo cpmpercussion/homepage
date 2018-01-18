@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/tangible-interfaces-drum.jpg)
+![]({{ site.baseurl }}/assets/blogger/tangible-interfaces-drum.jpg)
 
 My goal for today's hackday is to connect the trackmate system to supercollider. Tricky! (But it works!)
 
@@ -38,13 +38,13 @@ My first problem with trackmate was setting up the hardware and software. I've u
 
 BTW the binary release SuperCollider is so far incompatible with Safari 4 (at least the help browser), however there is a patch that can be applied to the source to correct the problem. Maybe I should post a howto?
 
-![]({{ site.baseurl }}/squarespace_images/tangible-interfaces-desk.jpg)
+![]({{ site.baseurl }}/assets/blogger/tangible-interfaces-desk.jpg)
 
 ### SuperCollider Test Script.
 
 I put together a test script in SuperCollider that uses the (x,y) position of a tag to change the frequency of two sine oscillators. Very simple, but it shows how the OSCresponder needs to be setup.
 
-![]({{ site.baseurl }}/squarespace_images/tangible-interfaces-trackmate-demo.jpg)
+![]({{ site.baseurl }}/assets/blogger/tangible-interfaces-trackmate-demo.jpg)
 
 
     // Super Simple SuperCollider LusidOSC script. (SuperSimpleCollider?)
