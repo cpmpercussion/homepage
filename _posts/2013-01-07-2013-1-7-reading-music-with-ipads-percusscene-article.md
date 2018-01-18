@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-[![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_50891aefe4b08eaef9ef439a_1351162620122_PercusScene+-+cpm+-+reading+from+iPads.jpg_)](http://charlesmartin.com.au/s/percusscene-cpm-reading-from-ipads.pdf)
+[![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_50891aefe4b08eaef9ef439a_1351162620122_PercusScene+-+cpm+-+reading+from+iPads.jpg)](http://charlesmartin.com.au/s/percusscene-cpm-reading-from-ipads.pdf)
   
 
 

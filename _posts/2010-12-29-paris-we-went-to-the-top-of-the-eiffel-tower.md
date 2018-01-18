@@ -14,11 +14,11 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4c_1293656072000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4c_1293656072000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4d_1293656072000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4d_1293656072000__img.jpg)
 
 christina was soooo scared.

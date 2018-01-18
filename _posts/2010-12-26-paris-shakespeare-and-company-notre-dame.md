@@ -13,21 +13,21 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f75_1293398423000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f75_1293398423000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f76_1293398423000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f76_1293398423000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f77_1293398423000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f77_1293398423000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f78_1293398423000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f74_5019f37de4b0b45850a90f78_1293398423000__img.jpg)
 
 -Charles

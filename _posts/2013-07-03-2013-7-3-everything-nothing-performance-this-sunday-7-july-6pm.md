@@ -19,25 +19,25 @@ meta:
 
 **Updates!** Thanks to David and the audience for a great performance! Super-thanks to Rohan Thomson for taking some amazing photos on the night, here's a gallery!
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea6bee4b0dbf53fa793d6_1386129107069_enp25-web-3491.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea6bee4b0dbf53fa793d6_1386129107069_enp25-web-3491.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea75ce4b0f341dc28b48a_1386129251971_enp25-web-3497.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea75ce4b0f341dc28b48a_1386129251971_enp25-web-3497.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea75fe4b0f341dc28b497_1386129249282_enp25-web-3500.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea75fe4b0f341dc28b497_1386129249282_enp25-web-3500.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea76de4b0f341dc28b4bb_1386129262705_enp25-web-3502.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529ea76de4b0f341dc28b4bb_1386129262705_enp25-web-3502.jpg)
   
        
-![Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51d3767fe4b0290bcc56bc47_1372812930357_hughes+festival+of+music++blue+electric+counterpoint.jpg_) Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira 
+![Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51d3767fe4b0290bcc56bc47_1372812930357_hughes+festival+of+music++blue+electric+counterpoint.jpg) Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira 
   
 
 

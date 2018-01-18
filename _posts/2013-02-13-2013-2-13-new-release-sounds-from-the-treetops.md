@@ -16,7 +16,7 @@ meta:
   _thumbnail_id: '365'
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_511b2bb7e4b0110f1ecbcf67_1360735160181_cdfront.jpeg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_511b2bb7e4b0110f1ecbcf67_1360735160181_cdfront.jpg)
   
 
 

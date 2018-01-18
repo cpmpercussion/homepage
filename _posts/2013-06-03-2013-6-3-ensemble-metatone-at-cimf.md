@@ -15,7 +15,7 @@ meta:
   _thumbnail_id: '710'
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8126e4b0c3f4e31c161e_1370259751527_201305-DrumatiXCIMF-NordligVinterEnsemble.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8126e4b0c3f4e31c161e_1370259751527_201305-DrumatiXCIMF-NordligVinterEnsemble.jpg)
   
 
 
@@ -25,34 +25,34 @@ My new group
 
 It was a wonderful concert with a very enthusiastic audience including many subscribers to the Festival. Thanks to Chris Latham, Pro Musica and the CIMF as well as the ANU School of Music for the opportunity to play! (Images courtesy of Peter Hislop - thanks!)
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8001e4b06ee5f32db14e_1370259458524_201305-DrumatiXCIMF-Charles.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8001e4b06ee5f32db14e_1370259458524_201305-DrumatiXCIMF-Charles.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8007e4b06a38e6056364_1370259464695_201305-DrumatiXCIMF-Christina.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8007e4b06a38e6056364_1370259464695_201305-DrumatiXCIMF-Christina.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8009e4b0f58778569bbc_1370259466420_201305-DrumatiXCIMF-Jonathan.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8009e4b0f58778569bbc_1370259466420_201305-DrumatiXCIMF-Jonathan.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8013e4b0f23596a69308_1370259476553_201305-DrumatiXCIMF-NordligVinterEnsemble.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8013e4b0f23596a69308_1370259476553_201305-DrumatiXCIMF-NordligVinterEnsemble.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8017e4b0f23596a6930d_1370259480676_201305-DrumatiXCIMF-Yvonne.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac8017e4b0f23596a6930d_1370259480676_201305-DrumatiXCIMF-Yvonne.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac800ee4b03d75a85b76d0_1370259471271_201305-DrumatiXCIMF-Yvonne.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac800ee4b03d75a85b76d0_1370259471271_201305-DrumatiXCIMF-Yvonne.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac801ae4b0dab73cf014e3_1370259483468_201305-DrumatiXCIMF-Steve.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ac801ae4b0dab73cf014e3_1370259483468_201305-DrumatiXCIMF-Steve.jpg)

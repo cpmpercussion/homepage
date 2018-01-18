@@ -12,19 +12,19 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec4_1312036266000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec4_1312036266000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec5_1312036266000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec5_1312036266000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec6_1312036266000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec6_1312036266000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec7_1312036266000__img.jpg_)Chrissy and I had great lunch in the East village yesterday. It was soooo hot.
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f373e4b0b45850a90ec3_5019f373e4b0b45850a90ec7_1312036266000__img.jpg)Chrissy and I had great lunch in the East village yesterday. It was soooo hot.

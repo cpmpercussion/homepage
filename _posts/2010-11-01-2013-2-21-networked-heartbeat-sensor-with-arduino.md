@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512574c0e4b0887e852129d2_1361409217964_interaction1-the+heartbeat+sensor.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512574c0e4b0887e852129d2_1361409217964_interaction1-the+heartbeat+sensor.jpg)
   
 
 
@@ -59,7 +59,7 @@ Of course, you also need an Arduino (from
 [Little Bird](http://www.littlebirdelectronics.com/products/Arduino-Uno.html)).
   
        
-![The heartbeat sensor circuit diagram.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512574e2e4b0d69820155bdf_1361409250989_interaction2+-+ArduinoHeartbeatSensor-Circuit-Diagram1.jpg_) The heartbeat sensor circuit diagram. 
+![The heartbeat sensor circuit diagram.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512574e2e4b0d69820155bdf_1361409250989_interaction2+-+ArduinoHeartbeatSensor-Circuit-Diagram1.jpg) The heartbeat sensor circuit diagram. 
   
 
 
@@ -81,13 +81,13 @@ The phototransistor is connected to the Arduino in a similar way to a potentiome
 Here's a picture of my test circuit on a breadboard, note that my IR receiver and emitter look like regular round LEDs so I set them up so that the lenses were adjacent and both pointing up. Different types of IR receivers/emitters look different, check the data sheet to see where the IR light enters/exits.
   
        
-![Arduino and the sensor circuit. My phone camera can see in infrared.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512575d0e4b0a141fc6b4e36_1361409489717_interaction3-heartbeatSensorTestCircuit.jpg_) Arduino and the sensor circuit. My phone camera can see in infrared. 
+![Arduino and the sensor circuit. My phone camera can see in infrared.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512575d0e4b0a141fc6b4e36_1361409489717_interaction3-heartbeatSensorTestCircuit.jpg) Arduino and the sensor circuit. My phone camera can see in infrared. 
   
 
 
   
        
-![Raw data from the heartbeat senso. Each little bump is a heartbeat!](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512575f3e4b0e3d521c36920_1361409524098_interaction4-Arduino-HeartbeatData.png_) Raw data from the heartbeat senso. Each little bump is a heartbeat! 
+![Raw data from the heartbeat senso. Each little bump is a heartbeat!]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512575f3e4b0e3d521c36920_1361409524098_interaction4-Arduino-HeartbeatData.png) Raw data from the heartbeat senso. Each little bump is a heartbeat! 
   
 
 
@@ -97,12 +97,12 @@ Time to test! I wanted to view the raw data from the IR detector to prove to mys
 
 To finish the circuit, I soldered it in free form style since I wanted it to be as small as possible, I used some foam tape to separate the detector and emitter leaving just the lens visible and held it together with electrical tape.
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5125764be4b0e3d521c369ef_1361409616599_interaction5+-+Finished+heartbeat+sensor+1.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5125764be4b0e3d521c369ef_1361409616599_interaction5+-+Finished+heartbeat+sensor+1.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5125764de4b0d698201565d0_1361409621022_interaction6+-+Finished+heartbeat+sensor+2.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5125764de4b0d698201565d0_1361409621022_interaction6+-+Finished+heartbeat+sensor+2.jpg)
 
 ##Programming
 
@@ -422,7 +422,7 @@ I wrapped the final result up in a crazy plastic box, so the audience can see th
 real thing and not a prop. Here's a photo from a rehearsal using the sensor:
   
       
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512576bbe4b01b12552d255a_1361409725561_interaction+7+-+Arduino_Heartbeat_Sensor_in_Action.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_512576bbe4b01b12552d255a_1361409725561_interaction+7+-+Arduino_Heartbeat_Sensor_in_Action.jpg)
   
 
 

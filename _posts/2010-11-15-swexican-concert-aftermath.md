@@ -16,14 +16,14 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91042_1289786444000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91042_1289786444000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91043_1289786444000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91043_1289786444000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91044_1289786444000__img.jpg_)it's me!
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91041_5019f387e4b0b45850a91044_1289786444000__img.jpg)it's me!

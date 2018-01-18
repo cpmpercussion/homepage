@@ -23,7 +23,7 @@ I wrote
 [master's thesis](http://pure.ltu.se/portal/en/studentthesis/mobile-computer-music-for-percussionists(180ad458-3f35-49eb-b483-8245469b0403).html)). It worked pretty well for the time, but soon after I put it together lots of iPhone music accessories came out that made my home-made monstrosity obsolete. So here's my modern "no-pickup" setup:
   
        
-![What's in my bag.. for a vibraphone and computer music gig.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e72cce4b0fc23446282c0_1402893020889__img.jpg_) What's in my bag.. for a vibraphone and computer music gig. 
+![What's in my bag.. for a vibraphone and computer music gig.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e72cce4b0fc23446282c0_1402893020889__img.jpg) What's in my bag.. for a vibraphone and computer music gig. 
   
 
 
@@ -61,9 +61,9 @@ I wrote
 
 (BTW, this setup really only works on a quiet stage, not in a loud band situation.)
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e73b9e4b090b60529ef30_1402893250405_2013-05-28+11-53-49+Nordlig+Vinter+Setup+for+NIME2013.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e73b9e4b090b60529ef30_1402893250405_2013-05-28+11-53-49+Nordlig+Vinter+Setup+for+NIME2013.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e73b9e4b0ba2ac78ec03b_1402893251641_2013-05-28+11-54-26+Microphone+Setup+for+Nordlig+Vinter+at+NIME2013.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_539e73b9e4b0ba2ac78ec03b_1402893251641_2013-05-28+11-54-26+Microphone+Setup+for+Nordlig+Vinter+at+NIME2013.jpg)

@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![Julmust testing rig.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5019f387e4b0b45850a9102a_1290536336000__img.jpg_) Julmust testing rig. 
+![Julmust testing rig.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5019f387e4b0b45850a9102a_1290536336000__img.jpg) Julmust testing rig. 
   
 
 

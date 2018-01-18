@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5076b4a1e4b07864e5d09787_1349956776887_Gary+and+Charles+playing+at+Lunchbox+Concert.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5076b4a1e4b07864e5d09787_1349956776887_Gary+and+Charles+playing+at+Lunchbox+Concert.jpg)
   
 
 

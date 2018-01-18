@@ -22,7 +22,7 @@ My master’s thesis,
 [Here’s the link.](http://pure.ltu.se/portal/en/studentthesis/mobile-computer-music-for-percussionists(180ad458-3f35-49eb-b483-8245469b0403).html)
   
       
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b355_1340666384173__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b355_1340666384173__img.jpg)
   
 
 

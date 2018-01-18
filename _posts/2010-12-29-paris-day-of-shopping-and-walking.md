@@ -11,24 +11,24 @@ status: publish
 type: post
 published: true
 meta: {}
----![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f50_1293655702000__img.jpg_)
+---![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f50_1293655702000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f51_1293655702000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f51_1293655702000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f52_1293655702000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f52_1293655702000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f53_1293655702000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f53_1293655702000__img.jpg)
   
 
   
    
-![](/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f54_1293655702000__img.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f54_1293655702000__img.jpg)

@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![Getting started with percussion and computer music.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537ac957e4b02899e924b6f3_1400555887409__img.png_) Getting started with percussion and computer music. 
+![Getting started with percussion and computer music.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537ac957e4b02899e924b6f3_1400555887409__img.png) Getting started with percussion and computer music. 
   
 
 

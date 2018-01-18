@@ -68,7 +68,7 @@ practice.
 
   
        
-![3p3p running in RjDj on an iPhone 4.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_52424376e4b0dd06055c257b_1380074362615_3p3p+on+iPhone+4.jpg_) 3p3p running in RjDj on an iPhone 4. 
+![3p3p running in RjDj on an iPhone 4.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_52424376e4b0dd06055c257b_1380074362615_3p3p+on+iPhone+4.jpg) 3p3p running in RjDj on an iPhone 4. 
   
 
 
@@ -80,7 +80,7 @@ To perform
 The three RjDj scenes each contained two generative compositional elements that could be switched on and off and would react to the phone's accelerometer. The scenes also featured reverb and pitch-shifting delay effects that processed sound from the phone's microphone. The prototype interface featured four buttons and an indicator of the accelerometer position.
   
        
-![Rehearsing 3p3p in Piteå](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243a7e4b090a9212c587e_1380074410448_3p3p-rehearsal.jpg_) Rehearsing 3p3p in Piteå 
+![Rehearsing 3p3p in Piteå]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243a7e4b090a9212c587e_1380074410448_3p3p-rehearsal.jpg) Rehearsing 3p3p in Piteå 
   
 
 
@@ -91,7 +91,7 @@ As an experiment for putting the phones into the percussionist's hands,
 
   
       
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243cde4b0b7f525a01474_1380074451323_nordligvinter-iPhone5.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243cde4b0b7f525a01474_1380074451323_nordligvinter-iPhone5.jpg)
   
 
 
@@ -106,7 +106,7 @@ Nordlig Vinter, the scene was later published as a native iOS app. 
 
   
        
-![My Nordlig Vinter setup for NIME2013 in Daejeon.](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243ffe4b090a9212c5909_1380074502108_nordligvinter-setup.jpg_) My Nordlig Vinter setup for NIME2013 in Daejeon. 
+![My Nordlig Vinter setup for NIME2013 in Daejeon.]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_524243ffe4b090a9212c5909_1380074502108_nordligvinter-setup.jpg) My Nordlig Vinter setup for NIME2013 in Daejeon. 
   
 
 
@@ -117,7 +117,7 @@ Nordlig Vinter's iPhone app had a corresponding result in creativity.
 
   
       
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_52424427e4b0dd06055c26d8_1380074539146_snowmusic-ipad.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_52424427e4b0dd06055c26d8_1380074539146_snowmusic-ipad.jpg)
   
 
 
@@ -128,7 +128,7 @@ Snow Music was the result of artistic research with Ensemble Evolution to joint
 Snow Music was completely improvised by the ensemble and used two marimbas, one vibraphone, assorted cymbals, two iPads, and one iPhone with the iOS devices directly connected to powered speakers. This piece was created collaboratively by the group over a series of rehearsals where the performers experimented with a variety of setups and musical motivations with feedback rolled into the app development.
   
       
-![](/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5242444ae4b08b05e59c9fc9_1380074574039_snowmusic-rehearsal.jpg_)
+![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_5242444ae4b08b05e59c9fc9_1380074574039_snowmusic-rehearsal.jpg)
   
 
 
