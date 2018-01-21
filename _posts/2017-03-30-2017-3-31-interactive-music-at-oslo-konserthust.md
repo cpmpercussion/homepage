@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '896'
 ---
 
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_58dd16e03a04114fc06709b7_1490884332187_IMG_7119.jpg)

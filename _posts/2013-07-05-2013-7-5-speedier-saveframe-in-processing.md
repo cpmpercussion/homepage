@@ -6,8 +6,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '641'
 ---
 
 I've been writing some very simple Processing sketches to visualise logs of OSC messages for my 

@@ -13,8 +13,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '860'
 ---
 
 In January 2015 I ran a four day workshop  in computer music, hardware hacking and new interfaces at the ANU School of Music.

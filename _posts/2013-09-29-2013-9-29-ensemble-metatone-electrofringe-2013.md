@@ -24,7 +24,7 @@ Ensemble Metatone is heading to Newcastle this weekend for the return of [Electr
 
 Here's our little blurb from the Electrofringe program:
 
-> Combining field recordings and sampled sounds, Ensemble Metatone use custom iPad-based instruments and percussion to create an improvised, sonic immersion.
+>Combining field recordings and sampled sounds, Ensemble Metatone use custom iPad-based instruments and percussion to create an improvised, sonic immersion.
 
 If you're heading to This Is Not Art, come along and check us out in our first foray outside of Canberra. If you're super keen you can even go grab [the MetaLonsdale iPad app from the iTunes store](https://itunes.apple.com/us/app/metalonsdale/id694075948?mt=8) and jam along!
 

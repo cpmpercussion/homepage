@@ -13,8 +13,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '673'
 ---
 
 **Updates!** Thanks to David and the audience for a great performance! Super-thanks to Rohan Thomson for taking some amazing photos on the night, here's a gallery!

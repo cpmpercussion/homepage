@@ -10,8 +10,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '902'
 ---
 
 Since about 2011, I've been performing music with various kinds of touch-screen devices in percussion ensembles, new music groups, improvisation workshops, installations, as well as my dedicated iPad group, 

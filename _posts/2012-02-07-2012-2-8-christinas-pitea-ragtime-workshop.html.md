@@ -16,18 +16,13 @@ published: true
 meta: {}
 ---
 
-When I started 
-Ensemble Evolution with Jacob and Maria in Piteå, we agreed to bring other artists to Piteå for our Percussion Repertoire Festival and other events. Christina wanted to come to our 2012 festival to present a ragtime xylophone workshop following her Honours project in Australia, but when we decided not to run the festival her session turned into a month of ragtime teaching, performances, composition and recording.
-
+When I started Ensemble Evolution with Jacob and Maria in Piteå, we agreed to bring other artists to Piteå for our Percussion Repertoire Festival and other events. Christina wanted to come to our 2012 festival to present a ragtime xylophone workshop following her Honours project in Australia, but when we decided not to run the festival her session turned into a month of ragtime teaching, performances, composition and recording.
 
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b34c_1339011390064_1000w_)
 
-
 The first project was a xylophone workshop with the undergraduate and pretertiary students in Piteå. We finished the workshop with concerts at Krokodil and Gallerian in Piteå and at Framnäs’ Aula.
 
-
 Christina had some new arrangements for xylophone, voice and percusson trio and quartet, so we enlisted our favourite interactive vocalist Anna Larson, and performed the works at our own concert at Piteå Musikhögskolan.
-
 
 Here’s our recording of “Knockin’ on Wood”, by Red Norvo, arranged by Bill Cahn:
 
@@ -41,8 +36,6 @@ Finally, Christina and I wanted to work on our duo xylophone and vibraphone set 
 
 
 
-So - a big month of ragtime - all our adventures are recorded on Christina’s ragtime blog: 
-[Rad Percussion Project](http://radpercussionproject.blogspot.com)
-
+So - a big month of ragtime - all our adventures are recorded on Christina’s ragtime blog: [Rad Percussion Project](http://radpercussionproject.blogspot.com)
 
 And here’s a video:

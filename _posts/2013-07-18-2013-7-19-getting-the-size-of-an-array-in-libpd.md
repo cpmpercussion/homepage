@@ -6,8 +6,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '646'
 ---
 
 I really enjoy using libpd to embed interactive sound into [iOS apps](http://charlesmartin.com.au/apps). One tradeoff of doing this is that [Pd externals are often GPL licenced](https://github.com/libpd/libpd/wiki/misc#using-externals) so you can't use them in projects that are destined for the App Store - in particular, you can't use expr or expr~ which are very widely used objects included in Pd Vanilla.

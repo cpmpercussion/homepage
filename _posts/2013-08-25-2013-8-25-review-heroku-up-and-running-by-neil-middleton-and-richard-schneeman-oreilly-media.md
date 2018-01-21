@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-# A behind the scenes look at Heroku
+### A behind the scenes look at Heroku
 
 "Heroku: Up and Running" is a behind the scenes look at the inner workings and rationale behind the Heroku Platform as a Service (PaaS). The authors, both web developers currently working at Heroku, explain the architecture of Heroku and walk the reader through some of the pitfalls of getting a web application up and running on Heroku while pointing out clever features along the way.
 

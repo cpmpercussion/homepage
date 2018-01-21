@@ -14,8 +14,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '874'
 ---
 
 I've just gotten back from NIME2015 in Baton Rouge where I presented a poster about my performance tracking system for iPad ensembles. Great to catch up with new and old NIMErs! The paper is 

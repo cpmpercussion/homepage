@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '644'
 ---
 
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51e4e466e4b0558fd9b845cd_1373955179139_PERCUSscene+Issue+07+Cover.jpg)

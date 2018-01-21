@@ -12,8 +12,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '881'
 ---
 
 I've been using iPads and iPhones in performances since 2011 and other performers often ask how I connect the iPads to the PA system. The easy answer is "just use the headphone output", but getting audio cables with a 3.5mm jack that are rugged enough to work on stage can be a bit of a problem.
