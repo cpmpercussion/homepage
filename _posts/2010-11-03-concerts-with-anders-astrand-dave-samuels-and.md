@@ -16,36 +16,36 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91086_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91086_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91087_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91087_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91088_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91088_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91089_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a91089_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108a_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108a_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108b_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108b_1288801484000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108c_1288801484000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a91085_5019f38ce4b0b45850a9108c_1288801484000__img.jpg)
 
 Last weekend, Ensemble Evolution and I played some concerts with Anders and Dave in Stockholm and Piteå. Fun!

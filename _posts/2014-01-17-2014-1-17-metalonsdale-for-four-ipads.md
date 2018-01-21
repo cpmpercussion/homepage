@@ -35,7 +35,7 @@ The MetaLonsdale app is
 [available on the iTunes App Store](https://itunes.apple.com/au/app/metalonsdale/id694075948?mt=8).
   
        
-![A graphical ]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_52d887bce4b034761cc2cf85_1432964058516__img.png) A graphical "score" of the MetaLonsdale performance, automatically generated from touch-interaction data. The x-axis represents time while each level on the y-axis represents a distinct gesture. The score makes it easy to see some of the ensemble interactions present in the performance such as a movement towards "tapping" gestures after the first third of the performance followed by solo playing with swirls and combination gestures by Charles (green) around the halfway point. 
+![A graphical ]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_52d887bce4b034761cc2cf85_1432964058516__img.png) A graphical "score" of the MetaLonsdale performance, automatically generated from touch-interaction data. The x-axis represents time while each level on the y-axis represents a distinct gesture. The score makes it easy to see some of the ensemble interactions present in the performance such as a movement towards "tapping" gestures after the first third of the performance followed by solo playing with swirls and combination gestures by Charles (green) around the halfway point. 
   
 
 

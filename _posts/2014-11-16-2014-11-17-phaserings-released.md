@@ -16,7 +16,7 @@ meta:
   _thumbnail_id: '815'
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54692ae1e4b098601f5789b4_1416178434777_image.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54692ae1e4b098601f5789b4_1416178434777_image.jpg)
   
 
 

@@ -13,7 +13,7 @@ published: true
 meta: {}
 ---
 
-[![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b340_1339026469953__img.jpg)](javascript:showFullImage('/display/ShowImage?imageUrl=%2Fstorage%2Fpost-images%2Fnattmusik-poster-small.jpg%3F__SQUARESPACE_CACHEVERSION%3D1339026471345',905,640);)
+[![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b340_1339026469953__img.jpg)](javascript:showFullImage('/display/ShowImage?imageUrl=%2Fstorage%2Fpost-images%2Fnattmusik-poster-small.jpg%3F__SQUARESPACE_CACHEVERSION%3D1339026471345',905,640);)
   
 
 

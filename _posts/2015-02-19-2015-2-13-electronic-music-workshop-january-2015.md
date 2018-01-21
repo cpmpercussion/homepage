@@ -25,16 +25,16 @@ In second half of the workshop, the students were challenged by Alec Hunter to c
 
 The workshop was really successful and I'm looking forward to running more events like this!
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67353e4b0165bdce98448_1424388950579_12-TestingAlligatorClips.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67352e4b03a84d2981770_1424388949818_13-PlasticPower.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67358e4b07c3f6552e1a2_1424388955146_IMG_4487.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e6735fe4b07c3f6552e1c3_1424388964080_IMG_4500.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67361e4b03a84d29817e2_1424388963106_IMG_4502.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67362e4b07c3f6552e1e0_1424388963878_IMG_4504.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67366e4b03a84d29817fe_1424388967364_IMG_4509.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e67366e4b07c3f6552e1f2_1424388968021_IMG_4528.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e673dde4b0c31341a8b3c0_1424389087916_ArduinoSpider.jpg)
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_54e673dae4b06d2d7213ec90_1424389085853_IMG_4498.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67353e4b0165bdce98448_1424388950579_12-TestingAlligatorClips.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67352e4b03a84d2981770_1424388949818_13-PlasticPower.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67358e4b07c3f6552e1a2_1424388955146_IMG_4487.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e6735fe4b07c3f6552e1c3_1424388964080_IMG_4500.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67361e4b03a84d29817e2_1424388963106_IMG_4502.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67362e4b07c3f6552e1e0_1424388963878_IMG_4504.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67366e4b03a84d29817fe_1424388967364_IMG_4509.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e67366e4b07c3f6552e1f2_1424388968021_IMG_4528.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e673dde4b0c31341a8b3c0_1424389087916_ArduinoSpider.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54e673dae4b06d2d7213ec90_1424389085853_IMG_4498.jpg)
 
 I also had the chance to play back the whole concert set on the Subsequence Radio show on Canberra's 2XX radio. 
 [Check it out here.](http://bit.do/subsequenceradio).

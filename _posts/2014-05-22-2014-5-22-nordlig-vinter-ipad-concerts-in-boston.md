@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537d8e35e4b0c89881895bed_1400737354040__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_537d8e35e4b0c89881895bed_1400737354040__img.jpg)
   
 
 
@@ -31,16 +31,16 @@ MetaLonsdale,
 Birds Nest which used our mini-percussion setup and my custom iPad apps and Jeremy's solo Ableton Live piece, 
 Wires.
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537d9052e4b0404fb5ca9e5c_1432964066244_2014-05-06+10-03-32+Touch+and+Tone+-+iPad+and+Percussion+Setup.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_537d9052e4b0404fb5ca9e5c_1432964066244_2014-05-06+10-03-32+Touch+and+Tone+-+iPad+and+Percussion+Setup.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537d904ae4b04d5ad2166191_1432964065860_2014-05-06+11-06-36+Touch+and+Tone+-+MetaLonsdale.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_537d904ae4b04d5ad2166191_1432964065860_2014-05-06+11-06-36+Touch+and+Tone+-+MetaLonsdale.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_537d906ee4b04d5ad216619e_1432964056650_2014-05-06+11-17-27+Touch+and+Tone+-+BirdsNest.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_537d906ee4b04d5ad216619e_1432964056650_2014-05-06+11-17-27+Touch+and+Tone+-+BirdsNest.jpg)
 
 After the concert, we invited the audience to come up to the stage and experiment with the iPad apps we used in the concert. It was great to show everybody how the apps were working and discuss my approach to computer/acoustic music-making with some fellow musicians and programmers!

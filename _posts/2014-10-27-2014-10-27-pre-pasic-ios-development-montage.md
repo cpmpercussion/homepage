@@ -14,7 +14,7 @@ meta:
   _thumbnail_id: '749'
 ---
 
-![Concept icons for new and old Metatone apps and our desktop application ]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_544dc704e4b048f0ef624068_1414383366256__img.jpg) Concept icons for new and old Metatone apps and our desktop application "Metatone Classifier" that can track and interact with a whole ensemble of iPad performers! 
+![Concept icons for new and old Metatone apps and our desktop application ]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_544dc704e4b048f0ef624068_1414383366256__img.jpg) Concept icons for new and old Metatone apps and our desktop application "Metatone Classifier" that can track and interact with a whole ensemble of iPad performers! 
   
 
 

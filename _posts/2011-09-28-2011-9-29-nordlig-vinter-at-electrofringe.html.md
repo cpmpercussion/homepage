@@ -30,4 +30,4 @@ The Electrofringe showcase was great and
 [Adam Thomas](http://www.flickr.com/photos/58053205@N06/) took a great photo of Christina and I playing:
   
       
-[![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_50741350e4b0b31fe0ce9f8b_1349784410421_6237130271_611551491c_b.jpg)](http://www.flickr.com/photos/58053205@N06/)
+[![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50741350e4b0b31fe0ce9f8b_1349784410421_6237130271_611551491c_b.jpg)](http://www.flickr.com/photos/58053205@N06/)

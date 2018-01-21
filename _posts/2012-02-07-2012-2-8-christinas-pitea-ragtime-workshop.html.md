@@ -20,7 +20,7 @@ When I started
 Ensemble Evolution with Jacob and Maria in Piteå, we agreed to bring other artists to Piteå for our Percussion Repertoire Festival and other events. Christina wanted to come to our 2012 festival to present a ragtime xylophone workshop following her Honours project in Australia, but when we decided not to run the festival her session turned into a month of ragtime teaching, performances, composition and recording.
 
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b34c_1339011390064_1000w_)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b34c_1339011390064_1000w_)
 
 
 The first project was a xylophone workshop with the undergraduate and pretertiary students in Piteå. We finished the workshop with concerts at Krokodil and Gallerian in Piteå and at Framnäs’ Aula.

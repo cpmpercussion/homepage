@@ -16,7 +16,7 @@ meta:
   _thumbnail_id: '636'
 ---
 
-![Capture sensor data! Send it over a network! But then what?]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51c8ec75e4b0f0514252eb08_1372122229533_cat.gif) 
+![Capture sensor data! Send it over a network! But then what?]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51c8ec75e4b0f0514252eb08_1372122229533_cat.jpg) 
 
 Capture sensor data! Send it over a network! But then what? 
 

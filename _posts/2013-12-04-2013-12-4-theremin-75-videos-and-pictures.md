@@ -26,17 +26,17 @@ Legions of Asmodeus was performed on one of Ostoja-Kotkowski's restored theremin
 
 Here's some photos from the rehearsals and performance. The ensemble was Christina Hopgood, Yvonne Lam, Jonathan Griffiths and me!
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529e83bae4b05941a0ad8c63_1386120127802_Theremin+Rehearsal+1.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_529e83bae4b05941a0ad8c63_1386120127802_Theremin+Rehearsal+1.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529e83b9e4b05941a0ad8c61_1386120125688_DSC_0052.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_529e83b9e4b05941a0ad8c61_1386120125688_DSC_0052.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_529e83bee4b08d6f1ac7b782_1432964067411_2013-10-25+17-58-00+MetaLonsdale+%40+Theremin75.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_529e83bee4b08d6f1ac7b782_1432964067411_2013-10-25+17-58-00+MetaLonsdale+%40+Theremin75.jpg)
 
 It was a bit tricky getting the four instruments up and running, theremins typically have small aerials while these instruments had quite large pieces of steel! As a result, our bodies were always in the electric field of the theremin so we had to tune the instruments while on stage. Given that the instruments were on display in a gallery we weren't able to look at each other so we used 
 [Decibel's ScorePlayer iPad app](http://decibel.waapamusic.com/decibelscoreplayer/) to synchronise a scrolling score to perform the work cohesively. The result was loud, crazy, and a lot of fun! Here's the video:

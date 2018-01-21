@@ -36,4 +36,4 @@ This app was created using the
 [PGMidi](https://github.com/petegoodliffe/PGMidi) libraries.
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_517a069ce4b0bf1bde351cd3_1366951581572_nordligvinterapp.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_517a069ce4b0bf1bde351cd3_1366951581572_nordligvinterapp.jpg)

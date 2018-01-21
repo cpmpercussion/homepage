@@ -15,7 +15,7 @@ meta:
   _thumbnail_id: '400'
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56415e4b087d92d56919d_1432964069155_Beiner+Bags+M55+Case+Set.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56415e4b087d92d56919d_1432964069155_Beiner+Bags+M55+Case+Set.jpg)
   
 
 
@@ -43,27 +43,27 @@ There are several photos of these cases around the internet (including in Tony M
 ##Frame Case
 
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b5658fe4b08f55af52d03f_1432964044899_Frame+Case+-+Closed.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b5658fe4b08f55af52d03f_1432964044899_Frame+Case+-+Closed.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b5658ce4b08305625097f1_1432964069229_Frame+Case+-+Open.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b5658ce4b08305625097f1_1432964069229_Frame+Case+-+Open.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56731e4b0f0ee887d2715_1432964069119_Frame+Case+-+Handle+Detail.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56731e4b0f0ee887d2715_1432964069119_Frame+Case+-+Handle+Detail.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56755e4b08305625098fe_1432964066536_Frame+Case+-+D-Ring+detail.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56755e4b08305625098fe_1432964066536_Frame+Case+-+D-Ring+detail.jpg)
 
 The frame is the heaviest and most awkward part of the M55. I find it really difficult to carry the frame any distance and to get it in and out of cars just because its hard to get a good grip on it without having the posts or wheels sticking into you.
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b568d5e4b0830c27f58b14_1432964051952_Frame+Case+-+Shoulder+Strap+Detail.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b568d5e4b0830c27f58b14_1432964051952_Frame+Case+-+Shoulder+Strap+Detail.jpg)
   
 
 
@@ -77,7 +77,7 @@ I’m a little bit worried about the durability of the ripstop fabric inside thi
 
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56867e4b087d92d5696f2_1370843244077_Resonator+Case+-+Open.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56867e4b087d92d5696f2_1370843244077_Resonator+Case+-+Open.jpg)
   
 
 
@@ -91,7 +91,7 @@ This case also includes a shoulder strap that I won’t use. Again, the D rings 
 
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56bcde4b04763035a36ab_1370844114968_Bar+Case+Outer+-+Standing+Up.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56bcde4b04763035a36ab_1370844114968_Bar+Case+Outer+-+Standing+Up.jpg)
   
 
 
@@ -99,12 +99,12 @@ The bar case comes with two parts: the cylindrical outer case and a soft inner c
 
 Like most mallet players I already had a reasonable system for transporting my bars using a small rolling suitcase and some thin blankets, but this case is a big step in convenience. The roll-up inner is very easy to organise and quite compact since the two sets of bars are rolled together. One extra detail I’ve added to my bar case are some little strips of denim to wrap around the springs at the low end of the bars to stop them scratching anything.
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56cf6e4b051b96cece2ae_1370844411049_Bar+Case+Inner+and+Outer.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56cf6e4b051b96cece2ae_1370844411049_Bar+Case+Inner+and+Outer.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56ce9e4b00dfc80873fe6_1370844398271_Bar+Case+Inner+-+Unrolled.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56ce9e4b00dfc80873fe6_1370844398271_Bar+Case+Inner+-+Unrolled.jpg)
 
 When the bars are rolled up they fit easily in the outer case. Again, I’m a bit worried carrying this case with just one handle. I would feel safer grabbing it on two sides. Probably I’m being paranoid and the handle will never break, but even then, it’s a bit easier and safer to grab a heavy case with in two places.
 
@@ -112,7 +112,7 @@ When the bars are rolled up they fit easily in the outer case. Again, I’m a bi
 
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56ddce4b027c2e3e62687_1370844642503_Crossbar+bag+-+Closed.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56ddce4b027c2e3e62687_1370844642503_Crossbar+bag+-+Closed.jpg)
   
 
 
@@ -121,7 +121,7 @@ This often overlooked part of the vibes finally gets a dedicated case - even tho
 Because this case isn’t padded it can be folded up when not in use and kept inside one of the other cases - yay space saving!
   
       
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51b56e0de4b027c2e3e626a7_1370844690188_Crossbar+bag+-+open.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51b56e0de4b027c2e3e626a7_1370844690188_Crossbar+bag+-+open.jpg)
   
 
 

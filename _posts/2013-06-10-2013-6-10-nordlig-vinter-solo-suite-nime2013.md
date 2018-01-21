@@ -16,27 +16,27 @@ meta:
   _thumbnail_id: '386'
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ad78ede4b0481a941de9b0_1370323186720_NIME2013+-+Nordlig+Vinter+1.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51ad78ede4b0481a941de9b0_1370323186720_NIME2013+-+Nordlig+Vinter+1.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ad78ebe4b059109709afbb_1370323185262_NIME2013+-+Nordlig+Vinter+2.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51ad78ebe4b059109709afbb_1370323185262_NIME2013+-+Nordlig+Vinter+2.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ad78f2e4b02d329fa0e8b7_1370323190577_NIME2013+-+Nordlig+Vinter+3.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51ad78f2e4b02d329fa0e8b7_1370323190577_NIME2013+-+Nordlig+Vinter+3.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ad78f8e4b0fd3461482536_1370323198111_NIME2013+-+Nordlig+Vinter+4.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51ad78f8e4b0fd3461482536_1370323198111_NIME2013+-+Nordlig+Vinter+4.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_51ad78f8e4b08dbef90a5ba8_1370323196060_NIME2013+-+Nordlig+Vinter+5.jpg)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51ad78f8e4b08dbef90a5ba8_1370323196060_NIME2013+-+Nordlig+Vinter+5.jpg)
 
 I performed my solo suite from 
 [Nordlig Vinter](/nordligvinter) recently at the 

@@ -21,7 +21,7 @@ meta: {}
 
   
        
-![The cover of Ensemble Evolution's forthcoming album!]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_500bb0b2e4b042ea6e35b13f_50725c1284aefb9a79aac174_1349671964891_cdfront.jpg.scaled1000.jpg.scaled1000.jpg) The cover of Ensemble Evolution's forthcoming album! 
+![The cover of Ensemble Evolution's forthcoming album!]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50725c1284aefb9a79aac174_1349671964891_cdfront.jpg.scaled1000.jpg.scaled1000.jpg) The cover of Ensemble Evolution's forthcoming album! 
   
 
 

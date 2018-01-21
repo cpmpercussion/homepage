@@ -15,27 +15,27 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91046_5019f387e4b0b45850a91047_1289786374000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91046_5019f387e4b0b45850a91047_1289786374000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91046_5019f387e4b0b45850a91048_1289786374000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91046_5019f387e4b0b45850a91048_1289786374000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91046_5019f387e4b0b45850a91049_1289786374000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91046_5019f387e4b0b45850a91049_1289786374000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91046_5019f387e4b0b45850a9104a_1289786374000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91046_5019f387e4b0b45850a9104a_1289786374000__img.jpg)
   
 
   
    
-![]({{ site.baseurl }}/squarespace_images/static_500baf96c4aa540325612fa5_5019f387e4b0b45850a91046_5019f387e4b0b45850a9104b_1289786374000__img.jpg)sorry! They're so bad!!! 
+![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91046_5019f387e4b0b45850a9104b_1289786374000__img.jpg)sorry! They're so bad!!! 
  featuring, ensemble 64.8 from Alaska (awesome). Exhibit hall action and a r(sub)3. A crazy improvisation band. Didn't see many great images at the conference.... Bad lighting, crazy busyness... Etc.... (sorry). I'll make up for it by taking more photos of Piteå this week.
 
 
