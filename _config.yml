@@ -17,8 +17,8 @@ title: Charles P. Martin
 email: charlepm@ifi.uio.no
 description: > # this means to ignore newlines until "baseurl:"
   Charles Martin is a postdoctoral fellow specialising in music technology and machine learning at the Department of Informatics, University of Oslo
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cpmpercussion.github.io/homepage" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/homepage" # the subpath of your site, e.g. /blog
+url: "https://cpmpercussion.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cpmpercussion
 github_username:  cpmpercussion
 
