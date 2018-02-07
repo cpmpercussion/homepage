@@ -1,25 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Charles P. Martin
 email: charlepm@ifi.uio.no
 bio: "Charles Martin."
 description: > # this means to ignore newlines until "baseurl:"
   Charles Martin is a postdoctoral fellow specialising in music technology and machine learning at the Department of Informatics, University of Oslo
-baseurl: "/homepage" # the subpath of your site, e.g. /blog
+# baseurl: "/homepage" # the subpath of your site, e.g. /blog
 url: "https://cpmpercussion.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+# url: "http://127.0.0.1:4000"
 twitter_username: cpmpercussion
 github_username:  cpmpercussion
 locale:             en_AU
@@ -48,9 +35,6 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Comments
-disqus_shortname:   default
-
 # Social
 analytics-id:       "default"
 twitter:            default
@@ -58,24 +42,12 @@ facebook:           default
 instagram:          default
 github:             default
 
-# personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
-
 # Gems
 gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
