@@ -12,21 +12,20 @@
     </header>
     <!-- Nav -->
     <nav id="nav">
-    {% include nav.html %}
-    {% include socialicons.html %}
+        {% include nav.html %}
+        {% include socialicons.html %}
     </nav>
     <!-- Main -->
     <div id="main">
         <!-- Post -->
+        <h1>{{page.title}}</h1>
         <section class="post">
-            <p>{{content}}</p>
+        {{content}}
         </section>
         <!-- Footer -->
-        <footer>
-            <ul class="actions">
-            <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-            </ul>
-        </footer>
+        <!-- <footer> -->
+            <!-- Footer text. -->
+        <!-- </footer> -->
     </div>
     <!-- Footer -->
     {% include foot.html %}
