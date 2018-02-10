@@ -1,27 +1,30 @@
-title: Charles P. Martin
+title: Charles Martin
 email: charlepm@ifi.uio.no
-bio: "Charles Martin."
+bio: "percussion. sound. interaction"
 description: > # this means to ignore newlines until "baseurl:"
   Charles Martin is a postdoctoral fellow specialising in music technology and machine learning at the Department of Informatics, University of Oslo
 # baseurl: "/homepage" # the subpath of your site, e.g. /blog
 url: "https://cpmpercussion.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: ""
-# url: "http://127.0.0.1:4000"
 twitter_username: cpmpercussion
 github_username:  cpmpercussion
 locale:             en_AU
+# Social
+analytics-id:       "default"
+twitter:            cpmpercussion
+instagram:          cpmpercussion
+github:             cpmpercussion
 
 defaults:
 - scope:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /blog/:year/:month/:day/:title
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -35,12 +38,7 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+
 
 # Gems
 gems:
