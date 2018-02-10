@@ -3588,6 +3588,12 @@
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+		#main > .post .postcontent img {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}

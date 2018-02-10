@@ -14,14 +14,7 @@ analytics-id:       "default"
 twitter:            cpmpercussion
 instagram:          cpmpercussion
 github:             cpmpercussion
-
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    author:
+soundcloud:         charlesmartin
 
 # Jekyll
 permalink:          /blog/:year/:month/:day/:title
@@ -37,8 +30,6 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-
-
 
 # Gems
 gems:
