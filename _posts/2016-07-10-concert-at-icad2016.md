@@ -18,11 +18,11 @@ meta: {}
 I joined the ANU Experimental Music Studio to perform several works at the International Conference on Auditory Display at the ANU School of Music last week - here's some photos! 
 
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5781d16e3e00be71f468c340_1468125563401_ICAD2016_000.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5781d173b3db2b8f172344ec_1468125565218_ICAD2016_003.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5781d17c6b8f5b118a2e2866_1468125569691_ICAD2016_002.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5781d1783e00be71f468c36d_1468125567555_ICAD2016_004.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5781d179b3db2b8f17234512_1468125567076_ICAD2016_005.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2016-07-10_ICAD2016_000.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2016-07-10_ICAD2016_003.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2016-07-10_ICAD2016_002.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2016-07-10_ICAD2016_004.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2016-07-10_ICAD2016_005.jpg)
 
 (Thanks for taking the ones that I'm in Alec Hunter...)
 

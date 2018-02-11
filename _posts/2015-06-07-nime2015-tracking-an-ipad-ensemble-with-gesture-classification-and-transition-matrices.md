@@ -29,7 +29,7 @@ During a performance, our agent observes touch-screen interactions and classifie
 
 ## System Design
 
-![The system layout of a Metatone Classifier and iPad Ensemble performance.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_55738061e4b048703924e357_1433632870929_Figure1-SystemDiagram.jpg) The system layout of a Metatone Classifier and iPad Ensemble performance. 
+![The system layout of a Metatone Classifier and iPad Ensemble performance.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Figure1-SystemDiagram.jpg) The system layout of a Metatone Classifier and iPad Ensemble performance. 
   
 Metatone Classifier consists of a Python application which runs on a
 laptop computer or on a remote server. During performances, the
@@ -55,19 +55,19 @@ with the number of performers so we were able to estimate that an
 ensemble of 25 iPads could be an upper bound for the present system to
 perform an analysis each second.
   
-![The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_557381e0e4b0c5ac0274d014_1433633250551__img.jpg) The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads. 
+![The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig2-PerfVsTime.jpg) The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads. 
 
 ## Touch Gestures and Gesture Classifier
        
-![The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_557380d3e4b017c5045587be_1433632984962__img.jpg) The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.  
+![The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig3-Transitions.jpg) The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.  
 
 Metatone Classifier uses a vocabulary of nine continuous, percussive touch gestures that were identified in a previous qualitative study of iPad improvisations by percussionists. Descriptive statistics are calculated from a sliding five-second window of each performer's touch data and classified using a Random Forest classifier.
 
 Two prototype versions of the classifier were trained using examples of each gesture from a studio performance but the current version uses gestures captured in a formal procedure. An evaluation using ten applications of stratified 10-fold cross validation was performed on each of these classifiers. The classifier that was trained using formally collected data had the highest accuracy (Mean = 0.973 S.D. = 0.022) and the effect of formal data-collection on accuracy was found to be significant through a one-way ANOVA procedure (F(2,297) = 31.7, p < 0.001).
   
-![Ensemble Metatone performing on iPads as a septet.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_55738112e4b0976301e04db0_1433633050076__img.jpg) Ensemble Metatone performing on iPads as a septet. 
+![Ensemble Metatone performing on iPads as a septet.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig4-MetatonePerformance.jpg) Ensemble Metatone performing on iPads as a septet. 
 
-![The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_55738183e4b008893bda704f_1433633157916__img.jpg) The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods. 
+![The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig5-CrossVal.jpg) The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods. 
 
 ### Gesture Classes:
 
@@ -83,19 +83,31 @@ Two prototype versions of the classifier were trained using examples of each ges
 
 ## Transition Matrices and Flux (and New Ideas)
 
-![The ANU New Music Ensemble performing with Metatone Classifier and PhaseRings (Photo: Chloë Hobbs).]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5573824de4b008083663ce5d_1433633364226__img.jpg) The ANU New Music Ensemble performing with Metatone Classifier and PhaseRings (Photo: Chloë Hobbs). 
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig7-ANUEMS.jpg)
+
+The ANU New Music Ensemble performing with Metatone Classifier and PhaseRings (Photo: Chloë Hobbs). 
 
 A transition matrix of all performers’ touch interactions is used to summarise the behaviour of the whole ensemble and identify moments of peak gestural change. Each musicians’ gesture activity over a performance can be represented as a sequence of gestural states, and a transition matrix can be calculated as for a first order Markov chain. The transition matrix of the whole ensemble is the average of each performer's transition matrix.
        
-![A gesture transition matrix for a 15-second window represented as a heat map. Higher values on the diagonal indicate static gestural activity while off-diagonal indicates gestural movement in the ensemble. Our flux measure exposes this as a single value between 0 and 1.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_55738283e4b0601c9cccc82d_1433633415277__img.jpg) A gesture transition matrix for a 15-second window represented as a heat map. Higher values on the diagonal indicate static gestural activity while off-diagonal indicates gestural movement in the ensemble. Our flux measure exposes this as a single value between 0 and 1.
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig8-GestureTransition.jpg) 
 
-![The definition of our flux matrix measure. The value of flux(P) is in the interval [0,1], where 0 represents completely static ensemble activity and 1 represents maximum gestural change.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_55739f49e4b0fff565084b7c_1433640783562__img.jpg) The definition of our flux matrix measure. The value of flux(P) is in the interval [0,1], where 0 represents completely static ensemble activity and 1 represents maximum gestural change.
+A gesture transition matrix for a 15-second window represented as a heat map. Higher values on the diagonal indicate static gestural activity while off-diagonal indicates gestural movement in the ensemble. Our flux measure exposes this as a single value between 0 and 1.
+
+$$ 
+\begin{align*}
+\mathrm{flux}(P) &= \frac{\|P\|_1-\|\mathrm{diag}(P)\|}{\|P\|_1}\\
+|P\|_1 &= \sum_{i,j}|p_{ij}| \text{  (1-norm of matrix } P \text{)}\\
+\mathrm{diag}(P) &\text{ is the vector of diagonal entries in } P 
+\end{align*}
+$$
+
+The definition of our flux matrix measure. The value of flux(P) is in the interval [0,1], where 0 represents completely static ensemble activity and 1 represents maximum gestural change.
 
 Our agent calculates the ensemble transition matrix over 15 second windows to examine how transition activity changes throughout the performance. We use a matrix measure called "flux" to compare this activity. Flux is a measure of how frequently performers change gesture over this window and returns a value in the range [0,1]. When a flux reading exceeds the previous window by a certain threshold, a "new-idea" event is sent to the performers' iPads.
 
 ## PhaseRings
-       
-![PhaseRings - an annular interface that for ensemble performances mediated by Metatone Classifier. PhaseRings is available for free in the App Store: metatone.net/phaserings]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5573a0dae4b0cd726654e0e1_1433641188232_Figure6-PhaseRingsScreen.png) PhaseRings - an annular interface that for ensemble performances mediated by Metatone Classifier. PhaseRings is available for free in the App Store: metatone.net/phaserings 
+
+![PhaseRings - an annular interface that for ensemble performances mediated by Metatone Classifier. PhaseRings is available for free in the App Store: metatone.net/phaserings]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Figure6-PhaseRingsScreen.png) PhaseRings - an annular interface that for ensemble performances mediated by Metatone Classifier. PhaseRings is available for free in the App Store: metatone.net/phaserings 
 
 PhaseRings is one of our iPad apps designed to interact with Metatone Classifier in ensemble performances. The app consists of an annular interface for performing with percussive samples and pure synthesis sounds. The concentric rings represent different pitches of a single sound source which are selected randomly from a scale.
 
