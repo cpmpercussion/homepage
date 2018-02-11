@@ -3588,6 +3588,12 @@
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+		#main > .post img {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
 		#main > .post .postcontent img {
 			display: block;
 			margin: 0 0 2em 0;
@@ -3651,6 +3657,12 @@
 			text-align: center;
 			width: 100%;
 			padding: 0;
+		}
+
+		#main > section.posts > article > .postcontent > * > img {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
 		}
 
 			#main > .posts > * {
