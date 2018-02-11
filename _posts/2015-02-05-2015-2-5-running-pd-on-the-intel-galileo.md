@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '848'
 ---
 
 ![The Intel Galileo Gen 2 - All hooked up.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54d2f380e4b05f7dfea88aa9_1423111098977_IMG_4488.jpg) The Intel Galileo Gen 2 - All hooked up. 
