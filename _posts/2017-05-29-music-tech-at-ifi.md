@@ -10,14 +10,14 @@ published: true
 
 We recently hosted a music technology event at the Department of Informatics to gather together researchers and students from the University of Oslo to see performances and demonstrations of current research.
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be060be659440db950bfc_1496047731358_musictechevent+-+1.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be0616b8f5b4e64ca9e35_1496047731834_musictechevent+-+2.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be06fe4fcb57df0b08f5b_1496047782738_musictechevent+-+3.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be072b3db2b6efbdc1cbc_1496047756031_musictechevent+-+4.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be089d2b857159c8fde5f_1496047774704_musictechevent+-+5.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be09ca5790abc03d18d81_1496047778411_musictechevent+-+6.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be0a19f7456f077290568_1496047782752_musictechevent+-+7.jpg)
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_592be0a2d2b857159c8fdfa9_1496047783109_musictechevent+-+8.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-1.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-2.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-3.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-4.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-5.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-6.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-7.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2017-05-29_musictechevent-8.jpg)
 
 Luckily, Maria Finkelmeier happened to be swinging through the area from Boston, so we were able to present some new percussion and touch-screen works together, and hear Maria's new live version of #improvAday. Christina Hopgood and Maria joined me for three iPad ensemble pieces, including a new experiment performing live ensemble music with 
 [MicroJam](http://microjam.info) --- exactly the opposite of how that app was designed to be used! It was also great to have Kristian Nymoen demonstrate with the Xsens full-body motion tracking system and have other demos from the Departments of Musicology and Informatics.
