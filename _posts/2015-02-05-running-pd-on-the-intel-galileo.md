@@ -13,7 +13,8 @@ type: post
 published: true
 ---
 
-![The Intel Galileo Gen 2 - All hooked up.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54d2f380e4b05f7dfea88aa9_1423111098977_IMG_4488.jpg) The Intel Galileo Gen 2 - All hooked up. 
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-02-05-intel-galileo-pd.jpg) 
+The Intel Galileo Gen 2 - All hooked up. 
 
 The Intel Galileo is a great little development/experiments board with an Intel Quark 32-bit x86 processor. We had some of these hanging around our office and I was inspired to make some computer music with it - so here's my process for getting Pure Data up and running.
 

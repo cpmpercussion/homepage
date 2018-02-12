@@ -37,7 +37,7 @@ In 2013 I started performances with my iPad group, Ensemble Metatone, and a fres
 
 Although these cables look like they have pretty poor shielding, it hasn't been an issue over just a few centimeters.
  
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_554c27fce4b0fa868034c111_1431054346796__img.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-05-18-smartphone-adapter.jpg)
 
 ### Homemade cables - 3.5mm TRS stereo to 1/4" TS mono
 
@@ -51,7 +51,7 @@ If you want to try making these, here's the parts list from Jaycar (Australia):
 * [6.5mm Mono METAL Plug PP0154](http://www.jaycar.com.au/PRODUCTS/Interconnect/Plugs%2C-Sockets-%26-Adaptors/Phono/6-5mm-Mono-METAL-Plug/p/PP0154)
 * [Single Screened Audio Cable WB1500](http://www.jaycar.com.au/PRODUCTS/Wire%2C-Cable-%26-Accessories/Coaxial-Cable/AV/Single-Screened-Audio-Cable/p/WB1500)
      
-![1/4]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_555974fee4b0384b6c9fc38f_1431926033247__img.jpg) 1/4" TS - 3.5MM TRS - homemade cables! 
+![1/4]({{ site.baseurl }}/assets/squarespaceblog/2015-05-18-homemade-cable.jpg) 1/4" TS - 3.5MM TRS - homemade cables! 
 
 ### Pro-audio cables - 3.5mm TRS stereo to dual 1/4" TS mono
 
@@ -61,7 +61,7 @@ Recently I've been doing gigs with even more iPads (up to 8) so I've needed a fe
 Luckily I found a cable brand based in Canberra that has even better looking cables - the 
 [Swamp Mixer to PC cable](https://www.swamp.net.au/mini-jack-to-dual-1-4-mixer-to-pc-audio-cable.html). Just like the Hosa cable, these have a 3.5mm jack and one 1/4" mono jack for each channel, but the plugs are all good quality metal Yongsheng connectors that can be fixed or replaced if they ever break. Awesome. These are quite a bit more expensive, particularly for 5 meters, but a reasonably good investment for my ensemble.
       
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5559754fe4b081dbcc294cc0_1431926115498__img.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-05-18-pro-audio-cable.jpg)
 
 ### Pro-audio cables - 3.5mm TRS stereo to mixed 1/4" TS mono
 
@@ -69,7 +69,7 @@ One other type of cable mixes the two channels of the stereo signal into a singl
 
 I bought two of these [Mini 3.5mm to Mono 1/4" Jack](https://www.swamp.net.au/stereo-mini-3.5mm-to-mono-1-4-jack-ipod-to-amp-cable.html) cables from Swamp to use in my solo dual iPad rig. These are really great cables, but definitely a bit more expensive and tricky to get.
       
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_555975a7e4b0447c46e6c3d9_1431926195476__img.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-05-18-pro-audio-cable-mixed.jpg)
 
 ### Handy Hint #1: Don't use 6.5mm TRS cables with stereo signals.
 
@@ -81,4 +81,4 @@ I've seen a lot of noobs using stereo 1/4" TRS cables on stage for their phone o
 When I play gigs with my iPad ensemble we have four line level signals on stage that need to be distributed to the PA system. Each of these needs a DI box to connect to the mic level inputs on the mixer. Usually the engineer on deck doesn't have enough spare DIs so I got in the habit of bringing my own. I use the cheap 
 [Behringer DI20](http://www.behringer.com/EN/Products/di20.aspx) which can handle two channels and works just fine. I often have to loan these to other performers who are stuck!
       
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_555975eee4b0a213bdd98d32_1431926272100__img.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2015-05-18-bring-your-di.jpg)

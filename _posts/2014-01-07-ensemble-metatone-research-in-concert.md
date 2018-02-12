@@ -22,7 +22,14 @@ The concert was also an important chance for us to engage with a knowledgeable a
 
 The video of both works is embedded below! Hope you enjoy them!
 
-## MetaLonsdale
- 
+### MetaLonsdale
 
-## MetaTravels
+<!-- https://youtu.be/pYxEbKk7jPs -->
+
+{% include youtubePlayer.html id=pYxEbKk7jPs %}
+
+### MetaTravels
+
+<!-- https://youtu.be/nqB_TRsLS3U -->
+
+{% include youtubePlayer.html id=nqB_TRsLS3U %}

@@ -14,10 +14,9 @@ type: post
 published: true
 ---
 
-
 I'm currently at PASIC2014 in Indianapolis to present a session on performing with iPads in percussion ensemble - here's the take home notes from my talk!
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_54739e7ce4b00267ef5179cb_1416863357223_image.jpg)
+![]({{ site.baseurl }}/assets/squarespaceblog/2014-11-22-pasic-ipad-session.jpg)
 
 ### iPad Apps
 
