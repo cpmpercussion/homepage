@@ -24,5 +24,8 @@ After all that work - the result sounded awesome in the big hall and we had a gr
 
 Here's a video of our performance with the app at PASIC! Enjoy!
 
+{% include youtubePlayer.html id=zqnffMAHbPA %}
 
 -- And super thanks to our friends at Grover Pro Percussion who supported us with awesome instruments for this performance!
+
+<!-- https://youtu.be/zqnffMAHbPA -->
