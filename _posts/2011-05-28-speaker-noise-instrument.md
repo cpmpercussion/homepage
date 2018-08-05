@@ -15,7 +15,6 @@ published: true
 meta: {}
 ---
 
-
- 
+ <!-- TODO: Find the image for this post. -->
 
 I went to Nicholas Collins' "hardware hacking" workshop at NIME2011. It was SO FUN.

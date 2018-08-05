@@ -21,6 +21,5 @@ The concert is going to feature some music that is really special to DRUMatiX, l
 
 I'm quivering with excitement about this concert, there's going to be an EXCESSIVE amount of instruments, performers and SOUND. I can't wait.
 
-[**Go buy tickets**](http://billboard.anu.edu.au/event_view.asp?id=96186)
-
-[**Join us on Facebook**](http://www.facebook.com/events/125828110898362/)
+- [**Go buy tickets**](http://billboard.anu.edu.au/event_view.asp?id=96186)
+- [**Join us on Facebook**](http://www.facebook.com/events/125828110898362/)

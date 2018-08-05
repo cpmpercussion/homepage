@@ -35,5 +35,6 @@ What's in my bag.. for a vibraphone and computer music gig.
 
 (BTW, this setup really only works on a quiet stage, not in a loud band situation.)
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_539e73b9e4b090b60529ef30_1402893250405_2013-05-28+11-53-49+Nordlig+Vinter+Setup+for+NIME2013.jpg)   
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_539e73b9e4b090b60529ef30_1402893250405_2013-05-28+11-53-49+Nordlig+Vinter+Setup+for+NIME2013.jpg)
+
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_539e73b9e4b0ba2ac78ec03b_1402893251641_2013-05-28+11-54-26+Microphone+Setup+for+Nordlig+Vinter+at+NIME2013.jpg)

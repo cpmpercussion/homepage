@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-[![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50891aefe4b08eaef9ef439a_1351162620122_PercusScene+-+cpm+-+reading+from+iPads.jpg)](http://charlesmartin.com.au/s/percusscene-cpm-reading-from-ipads.pdf)
+![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50891aefe4b08eaef9ef439a_1351162620122_PercusScene+-+cpm+-+reading+from+iPads.jpg)]
 
 Here's my Percussion and Technology article from the October-December issue of PERCUSScene. Enjoy and check out the 
 [new issue](http://www.drumscene.com.au/current-issue)!

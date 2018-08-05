@@ -13,8 +13,7 @@ published: true
 meta: {}
 ---
 
-[Dave Gerhart](http://twitter.com/#!/drgerhart) posted an article recently called 
-[“A Question Concerning Electronic Percussion”](http://drumchattr.com/a-question-concerning-electronic-percussion/) by Norman Weinberg over on drumchattr.
+[Dave Gerhart](http://twitter.com/#!/drgerhart) posted an article recently called [“A Question Concerning Electronic Percussion”](http://drumchattr.com/a-question-concerning-electronic-percussion/) by Norman Weinberg over on drumchattr.
 
 I read this article in semi-disbelief and it wasn’t until I got to the end that I realised it must have been written quite some time ago (actually in 1990).
 

@@ -29,6 +29,8 @@ Anyway, my role with this visit was to work with Mr Demland's classes, teaching 
 
 ### improvisation at ACPA
 
+<!-- TODO: see if these flickr images still work. -->
+
 ![Teaching at ACPA](http://farm8.staticflickr.com/7034/6707111289_8474471296.jpg)](http://www.flickr.com/photos/chuck_notorious/6707111289/)
 
 The high school teaching was completey exhausting. I have a lot of experience teaching, particularly one-on-one, but these students were uniquely enthusiastic about creativity. Whether they were interested in my projects or wanting to show me theirs, I hardly had a spare moment while I was in the class room.
@@ -53,8 +55,7 @@ On the day of the concert, we realised we wanted to use the ideas we were having
 
 Some of the recordings are up on Soundcloud here:
 
-
-
+<!-- TODO: Insert soundcloud recordings of columbus collaboration -->
 
 It was especially fun to rely on my iPad and iPhone instruments so much in this concert. I'd played around a lot with some little programs, but it wasn't until drums + gadgets that I had a good chance to really let these "instruments" loose. The best surprise here was that my iPhone + iRig works well with a contact microphone. We used this setup to process the sound of Noah's washing machine drum (literally from a washing machine). It was awesome.
 

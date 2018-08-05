@@ -17,13 +17,7 @@ meta: {}
 ---
 
 ![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91041_5019f387e4b0b45850a91042_1289786444000__img.jpg)
-  
-
-  
-   
+ 
 ![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91041_5019f387e4b0b45850a91043_1289786444000__img.jpg)
-  
-
-  
    
 ![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91041_5019f387e4b0b45850a91044_1289786444000__img.jpg)it's me!

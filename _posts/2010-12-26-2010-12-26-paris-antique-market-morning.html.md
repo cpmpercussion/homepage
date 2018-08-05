@@ -9,6 +9,8 @@ published: true
 meta: {}
 ---
 
+<!-- double post posterous images. -->
+
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/mZw5bLBwIEkQIKGxmrMzYzfNQ2tLak3zP7CPZWo5AbhSLz7gciwE0HXozVq4/photo_1.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/gyeZewapTbxR5bKiYjty4rwQLG14TYrqL6uk6H1TRHlmMZ7WtIPX3fwZXRHw/photo_1.jpg.scaled.1000.jpg) 
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/BL0kV3TIXf6hJeF6fThsCk9MlleUreS0nekBVN1hwlSP4IVq3md3MqbVsjWq/photo_2.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/x7i4JzpG9qAEwFjbHwt3bKf2epy6J6ic2IVDZA32LfWA4Jayo5DuWR2HSSJm/photo_2.jpg.scaled.1000.jpg) 
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/S3ITv9EjaVTp5QkjHPLOlLfXPHkXNXlw1dm8vUxfshKBLvX7Y53Jhq2zh3dk/photo_3.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/3eSSWLEBGzMn6EmxI2UWGupKNjqz29Bn1cQw6ZNcR67bIKROtV8KVFGYVXmC/photo_3.jpg.scaled.1000.jpg) 
