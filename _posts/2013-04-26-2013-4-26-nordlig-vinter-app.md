@@ -18,13 +18,12 @@ meta: {}
 
 This app is designed to work as the accompaniment for my suite of works for vibraphone and iOS devices, but it can be enjoyed by itself as well!
 
-It's free! Check it on the 
-[iTunes store](https://itunes.apple.com/us/app/nordlig-vinter/id631988721).
+It's free! Check it on the [iTunes store](https://itunes.apple.com/us/app/nordlig-vinter/id631988721).
 
 The app includes three soundscapes - "Ice Drum", "Snow Bells" and "Clusters" as well as an adjustable reverb effect that processes audio from the device's microphone.
 
 Extra Feature: Core MIDI Support! You can use a MIDI accessory connected to your device to play the app's bell sounds. I often use this app with my malletkat for a super lightweight improvisation setup!
 
-This app was created using the [libpd](http://libpd.cc) and [PGMidi](https://github.com/petegoodliffe/PGMidi) libraries.  
-      
+This app was created using the [libpd](http://libpd.cc) and [PGMidi](https://github.com/petegoodliffe/PGMidi) libraries.
+
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_517a069ce4b0bf1bde351cd3_1366951581572_nordligvinterapp.jpg)

@@ -15,10 +15,7 @@ meta: {}
 ---
 
 ![]({{ site.baseurl }}/squarespace_images/5019f382e4b0b45850a90fdb_5019f382e4b0b45850a90fdc_1292690789000__img.jpg)
-  
 
-  
-   
 ![]({{ site.baseurl }}/squarespace_images/5019f382e4b0b45850a90fdb_5019f382e4b0b45850a90fdd_1292690789000__img.jpg)
 
 yay Chrissy is here! 

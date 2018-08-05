@@ -14,4 +14,6 @@ published: true
 meta: {}
 ---
 
-![We were in a Christmas concert!! For a few weeks every year, sleigh bells are the most important percussion instrument.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5019f382e4b0b45850a90fdf_1292688476000__img.jpg) We were in a Christmas concert!! For a few weeks every year, sleigh bells are the most important percussion instrument.
+![We were in a Christmas concert!! For a few weeks every year, sleigh bells are the most important percussion instrument.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5019f382e4b0b45850a90fdf_1292688476000__img.jpg) 
+
+We were in a Christmas concert!! For a few weeks every year, sleigh bells are the most important percussion instrument.
