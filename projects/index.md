@@ -9,4 +9,10 @@ published: true
 meta: {}
 ---
 
-Some projects I've been involved with over the years.
+- [Compositions](/projects/compositions.html)
+- [Andromeda is Coming](/projects/andromeda-is-coming.html)
+- [Metatone](/projects/metatone.html)
+- [Nordlig Vinter](/projects/nordlig-vinter.html)
+- [Ensemble Evolutions](/projects/ensemble-evolution.html)
+- [Last Man to Die](/projects/lmtd.html)
+- [Strike on Stage](/projects/strike-on-stage.html)
