@@ -9,7 +9,7 @@ published: true
 meta: {}
 ---
 
-
+<!-- TODO: posterous post, won't work. -->
 
 Came to Stockholm to work with Anders, Everisto and Rolf. I hacked together a little video mixer in oF for their concert at PASIC. After late dinner and listening at Anders' place I walked home to my hotel. Stockholm streets are quiet and surreal even during the day. But especially late at night. Stylish shop keepers leave their lights on so you can see their cool stuff. See below.
 [![](http://posterous.com/getfile/files.posterous.com/charlesmartin/9dK3vGWTRqCKv6sXhRkQ47Rmgeeugr3h9LplB1LOIDGlsoOu9S7HxlEB7Kcl/photo_1.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/YrlfzlWCogAME8NkTcdfKcW8iS4PWLs4zZDlKtXExdDcnWMmihDHJ4SSXZmt/photo_1.jpg.scaled.1000.jpg) 

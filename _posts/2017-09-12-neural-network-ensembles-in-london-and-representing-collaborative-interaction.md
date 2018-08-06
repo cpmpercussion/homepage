@@ -21,6 +21,7 @@ I recently had the chance to present a paper about my "Neural iPad Ensemble" at 
 [paper](http://static1.squarespace.com/static/500baf96c4aa540325612fa5/500bb0b2e4b042ea6e35b13f/599db35cebbd1aff902d035b/1503507296722/AM2017-deep-models-for-ensemble-performance-author-version.pdf), discusses how machine learning can help to model and create free-improvised music on new interfaces, where the rules of music theory may not fit. I described the Recurrent Neural Network (RNN) design that I used to produce an AI iPad ensemble that responds to a "lead" human performer. In the demonstration session, I set up the iPads and RNN and had lots of fun jamming with the conference attendees.
 
 ![]({{ site.baseurl }}/assets/squarespaceblog/2017-09-12-neuralnetensemble-paper-1.jpg)
+
 ![]({{ site.baseurl }}/assets/squarespaceblog/2017-09-12-neuralnetensemble-paper-2.jpg)
 
 Many of those at the conference were very curious about making music with AI systems and the practical implications of using deep learning in concert. Some had appealing, enigmatic, and sometimes confused, assumptions about musical AI. For example, I was often asked whether I could recognise personalities of the performers in the output. This isn't possible in my RNN, because, like in all machine learning systems, the output reflects only the training data, and not the context that we humans see around it.
