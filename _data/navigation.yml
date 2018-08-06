@@ -1,0 +1,41 @@
+# Belongs at: /_data/navigation.yml
+
+- title: home
+  url: /
+
+- title: blog
+  url: /blog/
+
+- title: bio
+  url: /bio/
+
+- title: music
+  url: /music/
+
+- title: publications
+  url: /publications/
+
+- title: projects
+  url: /projects/
+  sublinks:
+    - title: Andromeda is Coming
+      url: /projects/andromeda-is-coming.html
+    - title: Copositions
+      url: /projects/compositions.html
+    - title: Ensemble Evolution
+      url: /projects/ensemble-evolution.html
+    - title: Last Man to Die
+      url: /projects/lmtd.html
+    - title: Metatone
+      url: /projects/metatone.html
+    - title: Nordlig Vinter
+      url: /projects/nordlig-vinter.html    
+    - title: Strike on Stage
+      url: /projects/strike-on-stage.html 
+
+# <ul class="links">
+#   <li><a href="{{ "/blog.html" | absolute_url }}">blog</a></li>
+#   <li><a href="{{ "/bio/" | absolute_url }}">bio</a></li>
+#   <li><a href="{{ "/music/" | absolute_url }}">music</a></li>
+#   <li><a href="{{ "/publications/" | absolute_url }}">publications</a></li>
+# </ul>
