@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _thumbnail_id: '863'
 ---
 
 ![A percussion and computer performance from 2009]({{ site.baseurl }}/assets/blogger/percussion-computer-thesis.jpg)
