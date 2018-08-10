@@ -14,8 +14,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b33c_1337448038095_1000w.jpg)
+![]({{ site.baseurl }}/squarespace_images/2012-04-19-Sikt1.jpg)
 
 I was involved in “Sikt”, a project directed by Malin Hülphers in Stockholm this week. Anders Åstrand, Sanna Hodell and Fredrik Strid well performing as well. I ended up having a few roles… setting up the PA and mixing as well as some sound design and performing on laptop. A lot of fun with great players!
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b33d_1337448569026_1000w.jpg)
+![]({{ site.baseurl }}/squarespace_images/2012-04-19-Sikt2.jpg)

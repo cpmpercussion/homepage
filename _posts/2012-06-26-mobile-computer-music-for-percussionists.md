@@ -15,11 +15,9 @@ published: true
 
 ---
 
-My master’s thesis, [Mobile Computer Music for Percussionists](http://pure.ltu.se/portal/en/studentthesis/mobile-computer-music-for-percussionists(180ad458-3f35-49eb-b483-8245469b0403).html), has been published in the Luleå University of Technology’s Thesis Database!
-
-[Here’s the link.](http://pure.ltu.se/portal/en/studentthesis/mobile-computer-music-for-percussionists(180ad458-3f35-49eb-b483-8245469b0403).html)
+My master’s thesis, [Mobile Computer Music for Percussionists](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659), has been published in the Luleå University of Technology’s Thesis Database! [Here’s the link.](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659)
       
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b355_1340666384173__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2012-06-26-thesis.jpg)
 
 The thesis has links to a number of artistic works, especially a demo release of [Nordlig Vinter (which is available on Soundcloud)](http://soundcloud.com/charlesmartin/sets/nordlig-vinter/) and performances of [Snow Music with Ensemble Evolution (Youtube)](http://youtu.be/VWjpooXcdW8).
 
@@ -37,7 +35,7 @@ An ethnographic investigation of this data has given insight into the limitation
 
 ### Bibtex:
 
-  @MastersThesis{Martin:2012yq,
+    @MastersThesis{Martin:2012yq,
     Abstract =     {This thesis traces the development of a number of
                     mobile computer music systems and their use in
                     ensemble percussion performances. The research is
@@ -83,4 +81,4 @@ An ethnographic investigation of this data has given insight into the limitation
     Title =        {Mobile Computer Music for Percussionists},
     Url =          {http://pure.ltu.se/portal/files/37021660/LTU-EX-2012-36941424.pdf},
     Year =         2012
-  }
+    }

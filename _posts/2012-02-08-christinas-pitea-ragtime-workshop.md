@@ -26,14 +26,16 @@ Christina had some new arrangements for xylophone, voice and percusson trio and 
 
 Here’s our recording of “Knockin’ on Wood”, by Red Norvo, arranged by Bill Cahn:
 
-<!-- TODO: find soundcloud recording -->
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/35007364&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 Finally, Christina and I wanted to work on our duo xylophone and vibraphone set (the longest sustain… and the shortest). We put together new arrangments of some classic standards from the 20s and 30s and played a concert at Två Kök, the restaurant at Studio Acusticum and at Krokodil in Piteå. We also recorded a lot. Here’s our demo recording of “Star Dust”:
 
-<!-- TODO: star dust recording -->
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/35168023&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 So - a big month of ragtime - all our adventures are recorded on Christina’s ragtime blog: [Rad Percussion Project](http://radpercussionproject.blogspot.com)
 
 And here’s a video:
 
-<!-- TODO: Add video -->
+<!-- https://youtu.be/8Edlj55JSQs -->
+<!-- https://youtu.be/XA0UlulaWIE -->
+{% include youtubePlayer.html id="XA0UlulaWIE" %}
