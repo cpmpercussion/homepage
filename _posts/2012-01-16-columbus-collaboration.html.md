@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50741167e4b0b31fe0ce9e4a_1349783915699_6707133453_a56fd618ec_b.jpg)
+![]({{ site.baseurl }}/squarespace_images/2012-01-16-ColumbusCollab1.jpg)
 
 In November 2011, I visited Columbus, Ohio to work with my friend Noah Demland.
 
@@ -74,4 +74,4 @@ Also this hotdog was amazing:
 
 [![IMG_1066](http://farm8.staticflickr.com/7027/6707135699_f2a30533b2.jpg)](http://www.flickr.com/photos/chuck_notorious/6707135699/)
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_50741265c4aa2f1c522d4ddf_1349784174851_setup.jpg)
+![]({{ site.baseurl }}/squarespace_images/2012-01-16-ColumbusCollab2.jpg)

@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_500bb0b2e4b042ea6e35b346_1338978184453__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-12-20-Jul.jpg)
 
 Christmas time in Piteå - starting to turn into a ghost town. Nothing much for me to do but practice a bit before heading to Stockholm this week!
