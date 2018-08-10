@@ -13,7 +13,7 @@ type: post
 published: true
 ---
 
-![The built-in tutorials for Pure Data are really good...]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_531ee91be4b04c1bc67d585f_1394534685634_PdTutorials.jpg)
+![The built-in tutorials for Pure Data are really good...]({{ site.baseurl }}/squarespace_images/2014-03-11-PdTutorials.jpg)
 
 The built-in tutorials for Pure Data are really good... 
 

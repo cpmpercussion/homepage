@@ -18,7 +18,7 @@ meta: {}
 ---
 
 I recently had the chance to present a paper about my "Neural iPad Ensemble" at the Audio Mostly conference in London. The 
-[paper](http://static1.squarespace.com/static/500baf96c4aa540325612fa5/500bb0b2e4b042ea6e35b13f/599db35cebbd1aff902d035b/1503507296722/AM2017-deep-models-for-ensemble-performance-author-version.pdf), discusses how machine learning can help to model and create free-improvised music on new interfaces, where the rules of music theory may not fit. I described the Recurrent Neural Network (RNN) design that I used to produce an AI iPad ensemble that responds to a "lead" human performer. In the demonstration session, I set up the iPads and RNN and had lots of fun jamming with the conference attendees.
+[paper](http://folk.uio.no/charlepm/preprints/2017-AudioMostly-DeepModelsEnsmbleImprovisation.pdf), discusses how machine learning can help to model and create free-improvised music on new interfaces, where the rules of music theory may not fit. I described the Recurrent Neural Network (RNN) design that I used to produce an AI iPad ensemble that responds to a "lead" human performer. In the demonstration session, I set up the iPads and RNN and had lots of fun jamming with the conference attendees.
 
 ![]({{ site.baseurl }}/assets/squarespaceblog/2017-09-12-neuralnetensemble-paper-1.jpg)
 

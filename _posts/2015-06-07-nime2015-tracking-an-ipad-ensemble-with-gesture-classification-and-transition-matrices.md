@@ -29,7 +29,9 @@ During a performance, our agent observes touch-screen interactions and classifie
 
 ## System Design
 
-![The system layout of a Metatone Classifier and iPad Ensemble performance.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Figure1-SystemDiagram.jpg) The system layout of a Metatone Classifier and iPad Ensemble performance. 
+![The system layout of a Metatone Classifier and iPad Ensemble performance.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Figure1-SystemDiagram.jpg) 
+
+(The system layout of a Metatone Classifier and iPad Ensemble performance.)
   
 Metatone Classifier consists of a Python application which runs on a
 laptop computer or on a remote server. During performances, the
@@ -55,11 +57,15 @@ with the number of performers so we were able to estimate that an
 ensemble of 25 iPads could be an upper bound for the present system to
 perform an analysis each second.
   
-![The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig2-PerfVsTime.jpg) The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads. 
+![The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig2-PerfVsTime.jpg) 
+
+(The time-complexity of running our classification system increased linearly with the number of players. We benchmarked the software using  from 0 to 4 simultaneous iPad performers and would expect our current software to run with up to around 25 iPads.)
 
 ## Touch Gestures and Gesture Classifier
        
-![The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig3-Transitions.jpg) The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.  
+![The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig3-Transitions.jpg) 
+
+(The gesture classifications and new idea messages sent during a performance. Each line represents a different performer.)
 
 Metatone Classifier uses a vocabulary of nine continuous, percussive touch gestures that were identified in a previous qualitative study of iPad improvisations by percussionists. Descriptive statistics are calculated from a sliding five-second window of each performer's touch data and classified using a Random Forest classifier.
 
@@ -67,7 +73,9 @@ Two prototype versions of the classifier were trained using examples of each ges
   
 ![Ensemble Metatone performing on iPads as a septet.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig4-MetatonePerformance.jpg) Ensemble Metatone performing on iPads as a septet. 
 
-![The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig5-CrossVal.jpg) The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods. 
+![The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods.]({{ site.baseurl }}/assets/squarespaceblog/2015-06-07_Fig5-CrossVal.jpg) 
+
+(The cross-validation accuracy of three data sets for our Gesture Classifier. The formal procedure had a significantly higher accuracy despite having a similar number of samples as other methods.)
 
 ### Gesture Classes:
 
