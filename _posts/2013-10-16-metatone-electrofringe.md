@@ -15,3 +15,6 @@ meta: {}
 ---
 
 Ensemble Metatone went to Electrofringe! It was fun! Here's the video:
+
+<!-- https://youtu.be/2Jl0HOMs5jY -->
+{% include youtubePlayer.html id="2Jl0HOMs5jY" %}

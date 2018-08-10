@@ -24,4 +24,4 @@ The app was developed using field recordings from Piteå with Pure Data and libp
 Here's a short video of Ensemble Evolution performing with the app:
 
 <!-- https://youtu.be/VWjpooXcdW8  -->
-{% include youtubePlayer.html id=VWjpooXcdW8 %}
+{% include youtubePlayer.html id="VWjpooXcdW8" %}

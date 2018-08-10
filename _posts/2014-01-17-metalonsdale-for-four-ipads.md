@@ -12,11 +12,10 @@ type: post
 published: true
 ---
 
-<!-- https://youtu.be/pYxEbKk7jPs -->
-
-{% include youtubePlayer.html id=pYxEbKk7jPs %}
-
 MetaLonsdale is an improvised piece for four iPad performers. The iPad app was written for the opening of an exhibition of David Sequeira's work at Everything Nothing Projects gallery in Canberra. The concept for the work was to perform with everyday sounds of the artistic precinct that surrounds the gallery as well as pitched percussion sounds. Field recordings were gathered from the café and shops surrounding the gallery. Diatonic pitches from one of three scales were available in MetaLonsdale. A UI buttom cycled through the scales, changing the pitches available to the performers and incorporating a harmonic progression into the instrument.
+
+<!-- https://youtu.be/pYxEbKk7jPs -->
+{% include youtubePlayer.html id="pYxEbKk7jPs" %}
 
 The work was designed to be performed on iPads alone in the small gallery space and was premiered there by Charles Martin and Christina Hopgood in July 2013. In August 2013, the work was revised for four players and recorded before being performed at Electrofringe 2013 in Newcastle and at "Theremin '75" at the ANU School of Art Gallery.
 

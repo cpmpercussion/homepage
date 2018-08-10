@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![Fun times await!]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_52481e89e4b0b4dd6e24f48c_1380458123165_Electrofringe2013+poster.jpg) 
+![Fun times await!]({{ site.baseurl }}/squarespace_images/2013-09-29-ElectrofringePoster.jpg) 
 
 Fun times await! 
 

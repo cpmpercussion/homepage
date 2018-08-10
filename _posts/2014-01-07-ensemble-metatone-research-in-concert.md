@@ -26,10 +26,10 @@ The video of both works is embedded below! Hope you enjoy them!
 
 <!-- https://youtu.be/pYxEbKk7jPs -->
 
-{% include youtubePlayer.html id=pYxEbKk7jPs %}
+{% include youtubePlayer.html id="pYxEbKk7jPs" %}
 
 ### MetaTravels
 
 <!-- https://youtu.be/nqB_TRsLS3U -->
 
-{% include youtubePlayer.html id=nqB_TRsLS3U %}
+{% include youtubePlayer.html id="nqB_TRsLS3U" %}

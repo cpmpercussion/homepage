@@ -14,7 +14,7 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_511b2bb7e4b0110f1ecbcf67_1360735160181_cdfront.jpg)
+![]({{ site.baseurl }}/squarespace_images/2013-02-13-SoundsFromTheTreetopsCDFront.jpg)
 
 Ensemble Evolution's new album "Sounds from the Treetops" has just gone live on Bandcamp! The album features music by all three of us, including two tracks (Planks and Mirror Cube) by me!
 

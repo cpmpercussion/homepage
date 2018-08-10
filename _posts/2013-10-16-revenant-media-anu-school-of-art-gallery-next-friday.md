@@ -18,7 +18,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_525e160ce4b02bebac642305_1381897742092_Theremins_0.jpg)
+![]({{ site.baseurl }}/squarespace_images/2013-10-16-Theremin75.jpg)
 
 **Update!**
 

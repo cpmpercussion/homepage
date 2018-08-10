@@ -18,7 +18,7 @@ Ensemble Evolution had a fun concert this weekend at Palmgren Conservatory in Po
 Here’s the video of a nice theory.
 
 <!-- https://youtu.be/AQ0Enmvat-Y -->
-{% include youtubePlayer.html id=AQ0Enmvat-Y %}
+{% include youtubePlayer.html id="AQ0Enmvat-Y" %}
   
 And here’s the review by Kaija Huida for Satakunnan Kansa:
 

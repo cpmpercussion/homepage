@@ -14,7 +14,7 @@ type: post
 published: true
 ---
 
-![Capture sensor data! Send it over a network! But then what?]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_51c8ec75e4b0f0514252eb08_1372122229533_cat.jpg) 
+![Capture sensor data! Send it over a network! But then what?]({{ site.baseurl }}/squarespace_images/2013-06-25-DistributedNetworkData.jpg) 
 
 Capture sensor data! Send it over a network! But then what? 
 
