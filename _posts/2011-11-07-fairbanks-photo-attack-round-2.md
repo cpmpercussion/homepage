@@ -16,9 +16,9 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90e9a_5019f373e4b0b45850a90e9b_1320640651000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90e9a_5019f373e4b0b45850a90e9c_1320640651000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90e9a_5019f373e4b0b45850a90e9d_1320640651000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90e9a_5019f373e4b0b45850a90e9e_1320640651000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-11-07-Fairbanks1.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-11-07-Fairbanks2.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-11-07-Fairbanks3.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-11-07-Fairbanks4.jpg)
 
 Some shots of our rehearsals and workshops at University of Alaska, Fairbanks!
