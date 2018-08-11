@@ -22,7 +22,9 @@ I went to [NIME2011](http://www.nime2011.org/) in Oslo a few weeks ago, it was a
 
 ## Satellite CCRMA.
 
-![Satellite CCRMA](http://farm6.static.flickr.com/5034/5885840133_f1f9af3661.jpg)Two CCRMA-lites (Edgar Berdahl and Wendy Ju) presented their [ideas](https://ccrma.stanford.edu/~eberdahl/Satellite/) about using [Beagleboard](http://beagleboard.org/) (tiny computers on a board) to teach interface design. Broadly, they thought that the longevity of DIY music interfaces and other physical-computing projects is really held back by being tethered to a computer that is often used for other tasks. Their answer is to add a Beagleboard to the Arduinos they already use to create a self-contained system for running sensors, making and processing sounds and even doing video output and computer vision.
+![Satellite CCRMA](http://farm6.static.flickr.com/5034/5885840133_f1f9af3661.jpg)
+
+Two CCRMA-lites (Edgar Berdahl and Wendy Ju) presented their [ideas](https://ccrma.stanford.edu/~eberdahl/Satellite/) about using [Beagleboard](http://beagleboard.org/) (tiny computers on a board) to teach interface design. Broadly, they thought that the longevity of DIY music interfaces and other physical-computing projects is really held back by being tethered to a computer that is often used for other tasks. Their answer is to add a Beagleboard to the Arduinos they already use to create a self-contained system for running sensors, making and processing sounds and even doing video output and computer vision.
 
 I was kind of skeptical about the idea until their talk… the thing which really got me was they’ve setup a Linux distribution for the Beagleboard which can run Pd patches or any other common computer music language. It seems like they’ve really got the whole process for setting up the board with a patch worked out and there were a few projects in the demo sessions from their class.
 
@@ -36,7 +38,9 @@ Some really cool [work](http://mtiid.calarts.edu/research/hiduino)[here](http://
 
 ## “The Shells” by [Alex Nowitz](http://www.nowitz.de/)
 
-![The shells](http://farm7.static.flickr.com/6004/5886405510_7d55e5a38a.jpg)A really compelling performance by this guy who sings and controls a computer using handheld controllers in the STEIM “The Hands” style. The controllers themselves had a really cute stand that also had a tiny display connected to his Mac Mini (offstage). It’s bizarre and embarrassing how refreshing it is to see people really getting deep into interface design that doesn’t require a laptop on stage… just moving the mac mini offstage and having a tiny display makes a huge difference to the potential for stage presence.
+![The shells](http://farm7.static.flickr.com/6004/5886405510_7d55e5a38a.jpg)
+
+A really compelling performance by this guy who sings and controls a computer using handheld controllers in the STEIM “The Hands” style. The controllers themselves had a really cute stand that also had a tiny display connected to his Mac Mini (offstage). It’s bizarre and embarrassing how refreshing it is to see people really getting deep into interface design that doesn’t require a laptop on stage… just moving the mac mini offstage and having a tiny display makes a huge difference to the potential for stage presence.
 
 ## Sergi Jordà
 
@@ -46,4 +50,6 @@ I also noticed that his earlier work in cross-artform performance with networked
 
 ## Strike on Stage
 
-![SOS](http://farm6.static.flickr.com/5158/5886406746_e9576e5b2a.jpg)Chi-Hsia and I gave a demo of our [Strike on Stage](https://charles-martin.squarespace.com/strikeonstage) system which is about a year old now. I was actually a bit surprised by how good the reception was, lots of people asking about the details and interested in how the performance works. I thought that the NIME crowd might have been a bit fickle about older presentations especially since we actually performed the piece at NIME2010 in Sydney. I think the demo is actually MORE fulfilling than more prestigious paper presentations because you can physically and musically explain design decisions and how everything works.
+![SOS](http://farm6.static.flickr.com/5158/5886406746_e9576e5b2a.jpg)
+
+Chi-Hsia and I gave a demo of our [Strike on Stage](https://charles-martin.squarespace.com/strikeonstage) system which is about a year old now. I was actually a bit surprised by how good the reception was, lots of people asking about the details and interested in how the performance works. I thought that the NIME crowd might have been a bit fickle about older presentations especially since we actually performed the piece at NIME2010 in Sydney. I think the demo is actually MORE fulfilling than more prestigious paper presentations because you can physically and musically explain design decisions and how everything works.

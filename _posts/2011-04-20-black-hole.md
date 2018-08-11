@@ -13,7 +13,7 @@ Black box @ studio Acusticum. Now...
 
 ![](http://posterous.com/getfile/video.posterous.com/charlesmartin/bI4OyDnrfy1EwsNSS3Ht2KHgcqNUNuDCWk5wOsjQzfwwUb1SzMuC0RrJImvP/frame_0000.png)
 
-[black hold](http://blog.charlesmartin.com.au/black-hole) 
+[black hole](http://blog.charlesmartin.com.au/black-hole) 
  
 **IMG_0628.MOV**
  

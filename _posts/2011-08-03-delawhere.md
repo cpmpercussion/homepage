@@ -12,6 +12,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90eb7_5019f373e4b0b45850a90eb8_1312379059000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90eb7_5019f373e4b0b45850a90eb9_1312379059000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90eb7_5019f373e4b0b45850a90eba_1312379059000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere1.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere2.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere3.jpg)

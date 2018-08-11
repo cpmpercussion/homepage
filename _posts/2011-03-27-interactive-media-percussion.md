@@ -14,6 +14,6 @@ published: true
 meta: {}
 ---
 
-Seminar with 
-[Lisa Lai](http://www.laichihsia.com/) at 
-[Piteå Percussion Repertoire Festival](https://charles-martin.squarespace.com/config/ensevolution):
+Seminar with [Lisa Lai](http://www.laichihsia.com/) at [Piteå Percussion Repertoire Festival](https://charles-martin.squarespace.com/config/ensevolution):
+
+<!-- TODO, add video -->

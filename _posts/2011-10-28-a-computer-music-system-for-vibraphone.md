@@ -19,7 +19,9 @@ I recently finished my first prototype for a dedicated computer music system for
 The idea is to have a battery powered computer system that can attach to a vibraphone, includes a microphone for processing the vibraphone sound and can output straight to the mixing desk at a gig.
   
        
-![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1ba1e4b0cc6f9accf943_1413094308050__img.jpg) The whole system fits on the end of my vibraphone - compact! 
+![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1ba1e4b0cc6f9accf943_1413094308050__img.jpg) 
+
+The whole system fits on the end of my vibraphone - compact! 
   
 The current setup has:
 
@@ -32,7 +34,7 @@ The current setup has:
 * A [cheap stereo DI box](http://www.behringer.com/EN/Products/DI20.aspx) to minimise the work that a sound technician has to do before I can plug into the desk.
   
 
-![The microphones on the bottom of the damper bar.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1b3de4b0f3ed25f7e5f8_1413094207883__img.jpg) The microphones on the bottom of the damper bar. 
+![The microphones on the bottom of the damper bar.]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1b3de4b0f3ed25f7e5f8_1413094207883__img.jpg) The microphones on the bottom of the damper bar.
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1cf8e4b0075aa7854f08_1413094649648_1-BuildingTheMics.jpg)   
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1cfbe4b059ff64df5ef9_1413094653263_2-PrototypingAPreamp.jpg)
 ![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_543a1d04e4b05c01349afc28_1413094662801_3-BatteriesAndMixingResistors.jpg)

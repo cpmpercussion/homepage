@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f2b_5019f37de4b0b45850a90f2c_1296512230000__img.jpg)   
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f2b_5019f37de4b0b45850a90f2d_1296512230000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f2b_5019f37de4b0b45850a90f2e_1296512230000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f2b_5019f37de4b0b45850a90f2f_1296512230000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-01-31-Aurora1.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-01-31-Aurora2.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-01-31-Aurora3.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-01-31-Aurora4.jpg)

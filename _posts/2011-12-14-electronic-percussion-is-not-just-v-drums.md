@@ -19,7 +19,7 @@ I read this article in semi-disbelief and it wasn’t until I got to the end tha
 
 It is interesting to read such an old article to see how the world of electronic musical instruments has changed but I got stuck on one of Weinberg’s predictions:
 
-“For better or worse, the knowledge and skills required to manufacture a good sampler, mallet controller, electronic kit, or drum machine are more complex… This means that electronic percussion instruments will most likely come from the larger corporations rather than the small home-factory.”
+> “For better or worse, the knowledge and skills required to manufacture a good sampler, mallet controller, electronic kit, or drum machine are more complex… This means that electronic percussion instruments will most likely come from the larger corporations rather than the small home-factory.”
 
 This has turned out to be absolutely not true, but I think it’s something the percussion (especially PAS) community isn’t necessarily aware of. While instruments like Roland’s V-Drums have stayed more or less stagnant in terms of design (but not in price or adoption!), creative performers have been making new electronic percussion instruments or innovative hybrids of existing ones.
 
