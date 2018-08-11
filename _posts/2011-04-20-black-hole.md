@@ -9,6 +9,8 @@ published: true
 meta: {}
 ---
 
+<!-- TODO: Fix video and image here what's going on -->
+
 Black box @ studio Acusticum. Now...
 
 ![](http://posterous.com/getfile/video.posterous.com/charlesmartin/bI4OyDnrfy1EwsNSS3Ht2KHgcqNUNuDCWk5wOsjQzfwwUb1SzMuC0RrJImvP/frame_0000.png)

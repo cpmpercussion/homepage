@@ -20,7 +20,8 @@ meta: {}
 
 Somebody asked me whether it was possible to have a metronome synchronised between a bunch of iPhones... it turns out it is!
 
-<!-- TODO: Add video -->
+<!-- https://vimeo.com/21969515 -->
+{% include vimeoPlayer.html id="21969515" %}
 
 I made this little demo with Pd and RjDj, the computer controls the tempo and sends a message on each beat to the iOS devices which beep and flash a visual cue accordingly.
 

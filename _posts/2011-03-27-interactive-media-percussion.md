@@ -16,4 +16,5 @@ meta: {}
 
 Seminar with [Lisa Lai](http://www.laichihsia.com/) at [Piteå Percussion Repertoire Festival](https://charles-martin.squarespace.com/config/ensevolution):
 
-<!-- TODO, add video -->
+<!-- https://vimeo.com/21555433 -->
+{% include vimeoPlayer.html id="21555433" %}

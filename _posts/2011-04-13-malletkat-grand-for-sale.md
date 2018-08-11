@@ -12,23 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ed5_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ed6_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ed7_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ed8_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ed9_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90eda_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90edb_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90edc_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90edd_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ede_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90edf_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ee0_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ee1_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ee2_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ee3_1302727740000__img.jpg)
-![]({{ site.baseurl }}/squarespace_images/5019f373e4b0b45850a90ed4_5019f373e4b0b45850a90ee4_1302727740000__img.jpg)
-
 **update** [ sold now! :-) ]
 
 After some reflection I've realised that my MalletKat is much more useful to me in Australia than in Sweden, but it's too expensive to bring my instrument back with me in June! So (unfortunately for me) it's best to sell my instrument while I'm in Piteå.
@@ -63,9 +46,27 @@ interested? talk to me on
 
 Here's some photos of this instrument in the flesh!
 
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand1.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand2.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand3.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand4.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand5.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand6.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand7.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand8.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand9.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand10.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand11.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand12.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand13.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand14.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand15.jpg)
+![]({{ site.baseurl }}/squarespace_images/2011-04-13-MalletkatGrand16.jpg)
+
 And here's a video of some things you can do with the MalletKat! (Had fun making this... even harder to sell now!)
 
-<!-- TODO: Add video -->
+<!-- https://vimeo.com/30590204 -->
+{% include vimeoPlayer.html id="30590204" %}
 
 It's extremely rare to see the "Grand" version of the MalletKat. Apart from the unique dark gold colour, the Grand is an elegant one piece 4-octave instrument with sensitive and musical pads as well as inputs for 2 sustain pedals and 2 controller pedals.
 
