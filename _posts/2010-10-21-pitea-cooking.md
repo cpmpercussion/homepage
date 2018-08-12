@@ -13,61 +13,33 @@ meta: {}
 
 Achievement for the day was to gather the necessary items for cooking dinner and having a bathroom. Headed down to one of two big supermarkets in town, I chose the one called "Coop" rather than "ICA", which is about 30 minutes walk. Had to limit myself to absolute necessities since I had to carry it all home! 
 
-
-
 I bought:
 
-1 bathroom mat
-
-1 shower curtain
-
-8 AA batteries
-
-1 electric jug
-
-microfiber cleaning cloths
-
-self soaping dishwashing sponge thing
-
-Nice teabags
-
-Nice instant coffee
-
-Pasta
-
-2 x instant noodles
-
-nice pasta sauce
-
-beef mince (I think it's beef?)
-
-frozen vegetables
-
-salt
-
-biscuits
-
-gladwrap
-
-shampoo
-
-laundry powder
-
-tissues
-
-
+- 1 bathroom mat
+- 1 shower curtain
+- 8 AA batteries
+- 1 electric jug
+- microfiber cleaning cloths
+- self soaping dishwashing sponge thing
+- Nice teabags
+- Nice instant coffee
+- Pasta
+- 2 x instant noodles
+- nice pasta sauce
+- beef mince (I think it's beef?)
+- frozen vegetables
+- salt
+- biscuits
+- gladwrap
+- shampoo
+- laundry powder
+- tissues
 
 and some other stuff I can't remember.
 
-
-
 Then, since I had all the ikea cooking stuff, I should be able to make dinner right?
 
-
-
 Wrong.
-
-
 
 Since I'm in sweden you have to make dinner the Ikea way, i.e. Step 1 is "Build your saucepans", so I had to build and wash all the saucepans etc (see photos).
 

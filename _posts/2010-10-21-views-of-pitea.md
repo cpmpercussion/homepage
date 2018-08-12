@@ -13,39 +13,13 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910b5_1287648017000__img.jpg)
-  
+Including - the concert hall (Acusticum) with it's strange spire thing + my friends Maria and Jake. Some roads, houses and the ocean!
 
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910b6_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910b7_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910b8_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910b9_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910ba_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910bb_1287648017000__img.jpg)
-  
-
-  
-   
-![]({{ site.baseurl }}/squarespace_images/5019f38ce4b0b45850a910b4_5019f38ce4b0b45850a910bc_1287648017000__img.jpg)Including - the concert hall (Acusticum) with it's strange spire thing + my friends Maria and Jake. Some roads, houses and the ocean!
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea1.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea2.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea3.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea4.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea5.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea6.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea7.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea8.jpg)

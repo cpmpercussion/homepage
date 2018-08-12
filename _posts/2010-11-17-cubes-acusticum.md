@@ -14,4 +14,4 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5019f387e4b0b45850a91035_1289997044000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-17-Cubes.jpg)

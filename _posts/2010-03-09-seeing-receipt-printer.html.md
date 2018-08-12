@@ -12,6 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_53aa4996e4b000cf7841ceef_1403668892740__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-03-09-LMTD-Receipt.jpg)
 
 Seeing Receipt Printer. What's it looking at?

@@ -13,7 +13,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_53aa49ffe4b09b2b62645e48_1403669040099__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-03-23-SOSProject.jpg)
 
 starting new project: Strike on Stage.
 

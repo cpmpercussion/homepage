@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_53aa4dace4b0a3410d03869b_1403669935469__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-04-03-Coast.jpg)
 
 Narooma main street.

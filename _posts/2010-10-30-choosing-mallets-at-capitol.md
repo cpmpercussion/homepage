@@ -16,4 +16,4 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/500bb0b2e4b042ea6e35b13f_5019f38ce4b0b45850a910aa_1288438962000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-10-30-Mallets.jpg)
