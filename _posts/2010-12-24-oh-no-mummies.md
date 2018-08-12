@@ -14,4 +14,6 @@ published: true
 meta: {}
 ---
 
-![Keep me awake at night!]({{ site.baseurl }}/squarespace_images/2010-12-24-Mummies.jpg) Keep me awake at night!
+![]({{ site.baseurl }}/squarespace_images/2010-12-24-Mummies.jpg) 
+
+Keep me awake at night!

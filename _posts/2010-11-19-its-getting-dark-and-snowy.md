@@ -13,14 +13,14 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9102e_5019f387e4b0b45850a9102f_1290205336000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-19-DarkSnowy1.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9102e_5019f387e4b0b45850a91030_1290205336000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-19-DarkSnowy2.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9102e_5019f387e4b0b45850a91031_1290205336000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-19-DarkSnowy3.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9102e_5019f387e4b0b45850a91032_1290205336000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-19-DarkSnowy4.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9102e_5019f387e4b0b45850a91033_1290205336000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-19-DarkSnowy5.jpg)
 
 Back in Piteå.

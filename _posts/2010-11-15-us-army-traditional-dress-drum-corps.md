@@ -15,6 +15,6 @@ published: true
 meta: {}
 ---
 
-![these guys are awesome.]({{ site.baseurl }}/squarespace_images/2010-11-15-DrumCorps.jpg) 
+![]({{ site.baseurl }}/squarespace_images/2010-11-15-DrumCorps.jpg) 
 
 these guys are awesome.

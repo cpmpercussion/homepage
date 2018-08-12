@@ -13,12 +13,12 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9104f_5019f387e4b0b45850a91050_1289286636000__img.jpg)
- 
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9104f_5019f387e4b0b45850a91051_1289286636000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9104f_5019f387e4b0b45850a91052_1289286636000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9104f_5019f387e4b0b45850a91053_1289286636000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a9104f_5019f387e4b0b45850a91054_1289286636000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-11-09-Chicago1.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2010-11-09-Chicago2.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2010-11-09-Chicago3.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2010-11-09-Chicago4.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2010-11-09-Chicago5.jpg)

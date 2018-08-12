@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![Espresso time. Trying to convince myself it's afternoon, not morning. Flight changed so another hour to wait.]({{ site.baseurl }}/squarespace_images/2010-11-15-SAS.jpg) 
+![]({{ site.baseurl }}/squarespace_images/2010-11-15-SAS.jpg) 
 
 Espresso time. Trying to convince myself it's afternoon, not morning. Flight changed so another hour to wait.
