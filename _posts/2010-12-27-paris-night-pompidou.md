@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f65_5019f37de4b0b45850a90f66_1293487320000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-27-NightPompidou1.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f65_5019f37de4b0b45850a90f67_1293487320000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-27-NightPompidou2.jpg)

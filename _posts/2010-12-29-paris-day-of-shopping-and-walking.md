@@ -13,12 +13,12 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f50_1293655702000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-ParisShopping1.jpg)
  
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f51_1293655702000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-ParisShopping2.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f52_1293655702000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-ParisShopping3.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f53_1293655702000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-ParisShopping4.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4f_5019f37de4b0b45850a90f54_1293655702000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-ParisShopping5.jpg)

@@ -14,4 +14,4 @@ published: true
 meta: {}
 ---
 
-![Outside the Louvre.]({{ site.baseurl }}/squarespace_images/2010-12-24-SnowyParis.jpg) Outside the Louvre.
+![]({{ site.baseurl }}/squarespace_images/2010-12-24-SnowyParis.jpg) Outside the Louvre.

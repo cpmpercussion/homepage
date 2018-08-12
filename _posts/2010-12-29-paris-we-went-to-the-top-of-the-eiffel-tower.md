@@ -14,8 +14,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4c_1293656072000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-Eiffel1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/5019f37de4b0b45850a90f4b_5019f37de4b0b45850a90f4d_1293656072000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-29-Eiffel2.jpg)
 
 christina was soooo scared.
