@@ -13,20 +13,13 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100a_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100b_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100c_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100d_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100e_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a9100f_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a91010_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a91011_1291750185000__img.jpg)
-   
-![]({{ site.baseurl }}/squarespace_images/5019f387e4b0b45850a91009_5019f387e4b0b45850a91012_1291750185000__img.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk1.jpg)
+
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk2.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk3.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk4.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk5.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk6.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk7.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk8.jpg)
+![]({{ site.baseurl }}/squarespace_images/2010-12-07-SnowyWalk9.jpg)
