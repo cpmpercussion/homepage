@@ -7,9 +7,16 @@ status: publish
 type: page
 published: true
 meta: {}
+carousel:
+  - image: /assets/projects/nordligvinter/eveningwalk.jpg
+  - image: /assets/projects/nordligvinter/snowleaves.jpg
+  - image: /assets/projects/nordligvinter/IMG_9281.jpg
+  - image: /assets/projects/nordligvinter/A001612-R1-39-40.jpg
+  - image: /assets/projects/nordligvinter/IMG_5698.jpg
+  - image: /assets/projects/nordligvinter/IMG_0433.jpg
+  - image: /assets/projects/nordligvinter/snowroad.jpg
+  - image: /assets/projects/nordligvinter/A918652-R1-32-5.jpg
 ---
-
-<!-- <h1 class="text-align-center">Nordlig Vinter</h1> -->
   
 <img src="{{ site.baseurl }}/assets/projects/nordligvinter/nordligvintercoverweb.jpg" alt="">
 
@@ -21,14 +28,12 @@ meta: {}
  
 <h2>About the music</h2>
   
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/eveningwalk.jpg" alt="">
-  
+<img src="{{ site.baseurl }}/assets/projects/nordligvinter/eveningwalk.jpg" alt="">  
 
 <p>The iOS devices run two native iOS apps, "<a href="https://itunes.apple.com/us/app/snow-music/id560849530?mt=8">Snow Music</a>" and "<a href="https://itunes.apple.com/app/id631988721?mt=8">Nordlig Vinter</a>", both created using Pure Data and <a href="http://libpd.cc">libpd</a>. The Nordlig Vinter app plays background soundscapes for three compositions in the suite, "Ice Drum", "Snow Bells" and "Clusters", while "Snow Music" is a simple instrument for manipulating field recordings of snow by tapping and swiping an iPad or iPhone screen.</p>
 <p>Both apps are free in the iTunes app store, and run on all iOS devices with at least iOS 5. For more information, see my <a href="/apps">apps</a> page.</p>
-<h2>Scores</h2>
 
-add this later.
+<!-- <h2>Scores</h2> -->
 
 <h2 id="solo-suite">Solo Suite</h2>
 
@@ -36,13 +41,4 @@ add this later.
 
 <iframe width="854" height="480" src="http://www.youtube.com/embed/qjCkrCMpCtU?feature=oembed&amp;wmode=opaque&amp;enablejsapi=1" frameborder="0" allowfullscreen=""></iframe>
  
-<div class="image-gallery-wrapper">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/eveningwalk.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/snowleaves.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/IMG_9281.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/A001612-R1-39-40.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/IMG_5698.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/IMG_0433.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/snowroad.jpg">
-<img src="{{ site.baseurl }}/assets/projects/nordligvinter/A918652-R1-32-5.jpg">
-</div>
+{% include carousel.html %}
