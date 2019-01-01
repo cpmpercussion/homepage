@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Biography
+permalink: /bio/
 categories: []
 tags: []
 status: publish
