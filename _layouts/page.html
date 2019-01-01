@@ -6,22 +6,22 @@
 <body class="is-loading">
 <!-- Wrapper -->
 <div id="wrapper" class="fade-in">
-    <!-- Header -->
-    <header id="header">
+<!-- Header -->
+<header id="header">
     <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-    </header>
-    <!-- Nav -->
-    <nav id="nav">
-        {% include nav.html %}
-        {% include socialicons.html %}
-    </nav>
-    <div id="main">
-        <h2>{{page.title}}</h2>
-        <section class="post">
-        {{content}}
-        </section>
-    </div>
-    {% include foot.html %}
+</header>
+<!-- Nav -->
+<nav id="nav">
+    {% include nav.html %}
+    {% include socialicons.html %}
+</nav>
+<div id="main">
+    <h2>{{page.title}}</h2>
+    <section class="post">
+    {{content}}
+    </section>
+</div>
+{% include foot.html %}
 </div>
 {% include scripts-main.html %}
 {% include tracking.html %}

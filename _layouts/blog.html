@@ -12,17 +12,11 @@
 </header>
 <!-- Nav -->
 <nav id="nav">
-{% include nav.html %}
-{% include socialicons.html %}
+	{% include nav.html %}
+	{% include socialicons.html %}
 </nav>
-<!-- Main -->
 <div id="main">
-	<article class="post featured">
-	<header class="major">
-		<h2><a href="#">{{page.title}}</a></h2>
-	</header>
-	<p></p>
-	</article>
+	<h2><a href="#">{{page.title}}</a></h2>
 	<!-- Post -->
 	<section class="posts">
 	{% for post in site.posts %}
