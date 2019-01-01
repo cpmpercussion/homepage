@@ -2748,8 +2748,8 @@
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
-			text-align: center;
+			margin: 0 0 2rem 0;
+			text-align: left;
 		}
 
 			header.major > :last-child {
@@ -2758,12 +2758,12 @@
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
 				font-size: 1rem;
-				margin: 0 0 4rem 0;
+				margin: 0 0 2rem 0;
 			}
 
 				header.major > .date:before, header.major > .date:after {
@@ -3609,8 +3609,7 @@
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
-				line-height: 1.1;
+				font-size: 2rem;
 				margin: 0 0 2rem 0;
 			}
 
@@ -3638,7 +3637,7 @@
 					}
 
 					#main > .post header.major > h1, #main > .post header.major h2 {
-						font-size: 2.5rem;
+						font-size: 2rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
 					}
@@ -3658,7 +3657,7 @@
 			-webkit-align-items: stretch;
 			-ms-align-items: stretch;
 			align-items: stretch;
-			text-align: center;
+			text-align: left;
 			width: 100%;
 			padding: 0;
 		}
@@ -3680,13 +3679,10 @@
 				flex-grow: 0;
 			}
 
-			#main > .posts > * {
-				width: 50%;
-			}
 
 			#main > .posts > * {
 				padding: 4rem;
-				width: 50%;
+				width: 100%;
 			}
 
 			#main > .posts > article {
@@ -3694,7 +3690,7 @@
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				text-align: left;
 			}
 
 				#main > .posts > article > :last-child {
@@ -3712,12 +3708,12 @@
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
-					width: 50%;
+					width: 100%;
 				}
 
 				#main > .posts > * {
 					padding: 2.5rem;
-					width: 50%;
+					width: 100%;
 				}
 
 			}

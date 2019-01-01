@@ -7,6 +7,16 @@ status: publish
 type: page
 published: true
 meta: {}
+carousel:
+  - image: /assets/bio/charlesmartin-synth-profile.jpg
+  - image: /assets/bio/charles-instudio.jpg
+  - image: /assets/bio/charles-vibraphone-at-the-mirror-cube.jpg
+  - image: /assets/bio/negative-space.jpg
+  - image: /assets/bio/metatone-transfer-promo1.jpg
+  - image: /assets/bio/norravinter-tina2011-adamthomas.jpg
+  - image: /assets/bio/hos2.jpg
+  - image: /assets/bio/charlesrecitalimage.jpg
+  - image: /assets/bio/touch-and-tone-profile.jpg
 ---
 
 ### Major Projects
@@ -22,7 +32,7 @@ meta: {}
 <li><a href="http://charlesmartin.com.au/strike-on-stage/">Strike on Stage</a> (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
 </ul>
 
-<div class="image-gallery-wrapper">
+<!-- <div class="image-gallery-wrapper">
    <img src="{{ site.baseurl }}/assets/bio/charlesmartin-synth-profile.jpg">
    <img src="{{ site.baseurl }}/assets/bio/charles-instudio.jpg">
    <img src="{{ site.baseurl }}/assets/bio/charles-vibraphone-at-the-mirror-cube.jpg">
@@ -32,7 +42,9 @@ meta: {}
    <img src="{{ site.baseurl }}/assets/bio/hos2.jpg">
    <img src="{{ site.baseurl }}/assets/bio/charlesrecitalimage.jpg">
    <img src="{{ site.baseurl }}/assets/bio/touch-and-tone-profile.jpg">
-</div>
+</div> -->
+
+{% include carousel.html %}
 
 ### Biography
 
