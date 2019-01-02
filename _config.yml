@@ -15,6 +15,9 @@ twitter:            cpmpercussion
 instagram:          cpmpercussion
 github:             cpmpercussion
 soundcloud:         charlesmartin
+scholar:            mTlH4G8AAAAJ
+arxiv:              https://arxiv.org/a/martin_c_1.html
+orcid:              https://orcid.org/0000-0001-5683-7529
 
 # Jekyll
 permalink:          /blog/:year/:month/:day/:title
@@ -32,7 +35,7 @@ sass:
   style:            compressed
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
