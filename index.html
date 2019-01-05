@@ -39,17 +39,16 @@ description: percussion. sound. interaction.
 			<h2><a href="#">{{ site.bio }}</a></h2>
 		</header>
 		
-		<img src="{{ site.title-image | absolute_url }}" width="50%">
+		<img src="{{ site.title-image | absolute_url }}" class="image fit" style="width:50%;display:block;margin-left:auto;margin-right:auto;">
 
 		<p>Charles Martin is a postdoctoral fellow specialising in music technology and machine learning at the <a href="https://www.mn.uio.no/ifi/personer/vit/charlepm/index.html">Department of Informatics, University of Oslo</a>.</p> 
 
 		<p>Charles develops musical apps such as <a href="https://microjam.info">MicroJam</a>, and <a href="https://metatone.net/phaserings">PhaseRings</a>, does research in <a href="https://creativeprediction.xyz">creative AI</a>, and performs music with <a href="https://metatone.net">Ensemble Metatone</a> and <a href="https://charlesmartin.com.au/andromeda-is-coming/">Andromeda is Coming</a>.</p>
-
 		</article>
+		<h2>Recent Posts</h2>
 		<!-- Posts -->
 		<section class="posts">
 			{% for post in site.posts limit:4 %}
-			{% assign mod3 = forloop.index | modulo: 4 %}
 			<article>
 			<header>
 				<span class="date">{{ post.date | date_to_string }}</span>
