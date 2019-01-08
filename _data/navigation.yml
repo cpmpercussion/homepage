@@ -19,19 +19,19 @@
   url: /projects/
   sublinks:
     - title: Andromeda is Coming
-      url: /projects/andromeda-is-coming.html
+      url: //andromeda-is-coming/
     - title: Compositions
-      url: /projects/compositions.html
+      url: /compositions/
     - title: Ensemble Evolution
-      url: /projects/ensemble-evolution.html
+      url: /ensemble-evolution/
     - title: Last Man to Die
-      url: /projects/lmtd.html
+      url: /lmtd/
     - title: Metatone
-      url: /projects/metatone.html
+      url: /metatone/
     - title: Nordlig Vinter
-      url: /projects/nordlig-vinter.html    
+      url: /nordlig-vinter/
     - title: Strike on Stage
-      url: /projects/strike-on-stage.html 
+      url: /strike-on-stage/
 
 # <ul class="links">
 #   <li><a href="{{ "/blog.html" | absolute_url }}">blog</a></li>
