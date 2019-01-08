@@ -20,7 +20,11 @@ carousel:
   - image: /assets/bio/touch-and-tone-profile.jpg
 ---
 
-### Major Projects
+<div class="image right">
+{% include carousel.html %}
+</div>
+
+## Major Projects
 
 <ul>
 <li>MicroJam (2016-2017) Exploring Tiny Performances and Prediction with Smartphones at the University of Oslo.</li>
@@ -33,21 +37,7 @@ carousel:
 <li><a href="http://charlesmartin.com.au/strike-on-stage/">Strike on Stage</a> (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
 </ul>
 
-<!-- <div class="image-gallery-wrapper">
-   <img src="{{ site.baseurl }}/assets/bio/charlesmartin-synth-profile.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/charles-instudio.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/charles-vibraphone-at-the-mirror-cube.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/negative-space.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/metatone-transfer-promo1.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/norravinter-tina2011-adamthomas.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/hos2.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/charlesrecitalimage.jpg">
-   <img src="{{ site.baseurl }}/assets/bio/touch-and-tone-profile.jpg">
-</div> -->
-
-{% include carousel.html %}
-
-### Biography
+## Biography
 
 Charles Martin is a specialist in percussion, computer music, and interactive media from Canberra, Australia. He links percussion with electroacoustic music and other media through new technologies. His works, described as “a thing of rare beauty” in The West Australian have been performed throughout Australia, Europe and the USA and presented at international conferences on computer music and percussion. He also has ten years experience teaching percussion from primary to tertiary levels.
 
@@ -63,6 +53,6 @@ In 2016, Charles joined the Engineering Prediction and Embodied Cognition (EPEC)
 
 Charles believes strongly in the value of cross-artform collaboration for engaging new audiences with percussion, music, and other arts. In the spirit of hacker culture, he endeavours to “release early, release often”, prototyping his works through rapid performance and revision. He is available as a sound artist and performer for musical, theatrical and installation projects and also as a consultant on interactive technologies in performance.
 
-More information about Charles’ music and research can be found on his website: <a href="http://www.charlesmartin.com.au">www.charlesmartin.com.au</a><
+More information about Charles’ music and research can be found on his website: [www.charlesmartin.com.au](https://charlesmartin.com.au)
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F755082&amp;auto_play=false&amp;show_artwork=true&amp;color=4b4b4b"></iframe>
