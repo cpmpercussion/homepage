@@ -2,9 +2,9 @@
     {% assign links = site.data.navigation %}
     {% for link in links %}
         {% assign class = nil %}
-<!--    {% if page.url contains link.url %}
+        {% if page.url == link.url %}
             {% assign class = 'active' %}
-        {% endif %} -->
+        {% endif %}
         {% if link.sublinks %}
             <li class="dropdown {{ class }}">
                 <a href="{{ site.baseurl }}{{ link.url }}" class="dropbtn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
