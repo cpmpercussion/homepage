@@ -8,7 +8,7 @@
 
 
 
-@inproceedings{Naess2019aa,
+@inproceedings{Naess:2019aa,
 	Address = {Porto Alegre, Brazil},
 	Author = {Torgrim R. N{\ae}ss and Charles P. Martin},
 	Booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
@@ -21,7 +21,7 @@
 	Title = {A Physical Intelligent Instrument using Recurrent Neural Networks},
 	Year = {2019}}
 
-@inproceedings{Faitas2019aa,
+@inproceedings{Faitas:2019aa,
 	Address = {Porto Alegre, Brazil},
 	Author = {Andrei Faitas and Synne Baumann and Torgim R. N{\ae}ss and Jim Torresen and Charles P. Martin},
 	Booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
@@ -34,7 +34,7 @@
 	Title = {Generating Convincing Harmony Parts with Bidirectional Long Short-Term Memory Networks},
 	Year = {2019}}
 
-@misc{Martin2018aj,
+@misc{Martin:2018aj,
 	Author = {Charles Patrick Martin},
 	Date-Added = {2019-02-07 11:14:21 +0100},
 	Date-Modified = {2019-02-07 11:15:20 +0100},
@@ -46,7 +46,7 @@
 	Year = 2018,
 	Bdsk-Url-1 = {https://doi.org/10.5281/zenodo.1216169}}
 
-@misc{Martin2018ad,
+@misc{Martin:2018ad,
 	Author = {Charles Patrick Martin},
 	Date-Added = {2019-02-07 11:10:17 +0100},
 	Date-Modified = {2019-02-07 11:13:12 +0100},
@@ -60,7 +60,7 @@
 	Bdsk-Url-1 = {https://creativeprediction.xyz},
 	Bdsk-Url-2 = {https://doi.org/10.5281/zenodo.1494039}}
 
-@article{Martin2019ab,
+@article{Martin:2019ab,
 	Archiveprefix = {arXiv},
 	Author = {Charles Patrick Martin and Jim Torresen},
 	Date-Added = {2019-02-04 11:20:55 +0100},
@@ -76,7 +76,7 @@
 	Year = {2019},
 	Bdsk-Url-1 = {https://arxiv.org/abs/1902.00680}}
 
-@inproceedings{Martin2019aa,
+@inproceedings{Martin:2019aa,
 	Archiveprefix = {arXiv},
 	Author = {Charles P. Martin and Jim Torresen},
 	Booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
@@ -92,7 +92,7 @@
 	Video = {https://youtu.be/Kdmhrp2dfHw},
 	Year = {2019}}
 
-@article{Olav-Ellefsen2019aa,
+@article{Olav-Ellefsen:2019aa,
 	Archiveprefix = {arXiv},
 	Author = {Ellefsen, Kai Olav and {Martin}, Charles Patrick and {Torresen}, Jim},
 	Date-Added = {2019-01-30 21:19:04 +0100},
@@ -109,7 +109,7 @@
 	Year = 2019,
 	Bdsk-Url-1 = {https://arxiv.org/abs/1901.07859}}
 
-@inproceedings{Nygaard2019aa,
+@inproceedings{Nygaard:2019aa,
 	Address = {Cham},
 	Author = {Nygaard, T{\o}nnes F. and Martin, Charles P. and Torresen, Jim and Glette, Kyrre},
 	Booktitle = {International Conference on the Applications of Evolutionary Computation},
@@ -127,7 +127,7 @@
 	Year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-030-16692-2_41}}
 
-@inproceedings{Wallace2019aa,
+@inproceedings{Wallace:2019aa,
 	Address = {Cham},
 	Author = {Wallace, Benedikte and Martin, Charles P.},
 	Booktitle = {International Conference on Computational Intelligence in Music, Sound, Art and Design},
@@ -145,7 +145,7 @@
 	Year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-030-16667-0_12}}
 
-@inproceedings{Martin2018ai,
+@inproceedings{Martin:2018ai,
 	Address = {Montr{\'e}al, Canada},
 	Author = {Charles P. Martin and Jim Torresen},
 	Booktitle = {NeurIPS 2018 Workshop on Machine Learning for Creativity and Design},
@@ -160,7 +160,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {https://nips2018creativity.github.io/doc/Predictive_Musical_Interaction_with_MDRNNs.pdf}}
 
-@inproceedings{Martin2018ah,
+@inproceedings{Martin:2018ah,
 	Address = {Tokyo, Japan},
 	Author = {Martin, Charles Patrick and Glette, Kyrre and T{\o}rresen, Jim},
 	Booktitle = {The 2018 Conference on Artificial Life},
@@ -174,7 +174,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {https://cpmpercussion.github.io/creative-prediction/}}
 
-@inproceedings{Garcia-Ceja2018aa,
+@inproceedings{Garcia-Ceja:2018aa,
 	Address = {Rio de Janeiro, Brazil},
 	Author = {Garcia Ceja, Enrique Alejandro and Ellefsen, Kai Olav and Martin, Charles Patrick and T{\o}rresen, Jim},
 	Booktitle = {IEEE World Congress on Computational Intelligence},
@@ -188,7 +188,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {https://kaiolae.github.io/wcci2018_prediction_tutorial/}}
 
-@inproceedings{Martin2018af,
+@inproceedings{Martin:2018af,
 	Address = {Birmingham, UK},
 	Author = {Charles P. Martin and Kyrre Glette and T{\o}nnes F. Nygaard and Jim Torresen},
 	Booktitle = {Self-Awareness in Cyber-Physical Systems Workshop},
@@ -203,7 +203,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-self-aware-music-interface-preprint.pdf}}
 
-@inproceedings{Martin2018ae,
+@inproceedings{Martin:2018ae,
 	Author = {Martin, Charles Patrick and Jensenius, Alexander Refsum},
 	Booktitle = {Musical Program of the International Conference on New Interfaces for Musical Expression},
 	Date-Added = {2018-09-10 23:04:14 +0200},
@@ -214,7 +214,7 @@
 	Title = {Stillness Under Tension: Performance for {Myo} armbands and {Bela} embedded computers},
 	Year = {2018}}
 
-@inproceedings{Martin2015ac,
+@inproceedings{Martin:2015ac,
 	Author = {Charles P. Martin and Alexander Hunter},
 	Booktitle = {Electrofringe Festival},
 	Date-Added = {2018-03-06 11:02:03 +0000},
@@ -227,7 +227,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {https://youtu.be/BhrBdgrBwD0}}
 
-@unpublished{Martin2018ac,
+@unpublished{Martin:2018ac,
 	Author = {Charles P. Martin and Kyrre Glette and T{\o}nnes F. Nygaard and Jim Torresen},
 	Date-Added = {2018-03-05 11:43:56 +0000},
 	Date-Modified = {2019-01-30 17:25:01 +0100},
@@ -238,7 +238,7 @@
 	Title = {Self-awareness in a Cyber-Physical Predictive Musical Interface},
 	Year = {2018}}
 
-@inproceedings{Nygaard2018ab,
+@inproceedings{Nygaard:2018ab,
 	Archiveprefix = {arXiv},
 	Author = {T{\o}nnes F. Nygaard and Charles P. Martin and Jim Torresen and Kyrre Glette},
 	Booktitle = {Proc. of the IEEE Int. Conf. on Robotics \& Automation (ICRA)},
@@ -255,7 +255,7 @@
 	Year = {2019},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-SelfModifyingMorphology.pdf}}
 
-@misc{Cormick2009aa,
+@misc{Cormick:2009aa,
 	Author = {Hanna Cormick and Charles Martin and Benjamin Forster},
 	Date-Added = {2018-02-22 16:11:08 +0000},
 	Date-Modified = {2019-01-08 16:42:30 +0100},
@@ -267,7 +267,7 @@
 	Year = {2009},
 	Bdsk-Url-1 = {http://www.lastmantodie.net/search/label/vitallmtd}}
 
-@misc{Cormick2010aa,
+@misc{Cormick:2010aa,
 	Author = {Hanna Cormick and Benjamin Forster and Charles Martin},
 	Date-Added = {2018-02-22 16:07:47 +0000},
 	Date-Modified = {2018-02-22 16:10:58 +0000},
@@ -280,7 +280,7 @@
 	Year = {2010},
 	Bdsk-Url-1 = {https://charlesmartin.com.au/lmtd/}}
 
-@inproceedings{Martin2014ad,
+@inproceedings{Martin:2014ad,
 	Address = {Indianapolis, USA},
 	Author = {Charles Martin},
 	Booktitle = {{Percussive Arts Society International Convention}},
@@ -295,7 +295,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {https://youtu.be/oyW3mFyoz-I}}
 
-@inproceedings{Finkelmeier2013aa,
+@inproceedings{Finkelmeier:2013aa,
 	Author = {Maria Finkelmeier and Charles Martin and Jacob Remington},
 	Booktitle = {Percussive Arts Society International Convention},
 	Date-Added = {2018-02-18 22:09:03 +0000},
@@ -309,7 +309,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {https://youtu.be/zqnffMAHbPA}}
 
-@inproceedings{Martin2014ac,
+@inproceedings{Martin:2014ac,
 	Address = {Canberra, Australia},
 	Author = {Charles Martin and Christina Hopgood and Jonathan Griffiths and Yvonne Lam},
 	Booktitle = {You Are Here Festival},
@@ -323,7 +323,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {https://youtu.be/vNdSjO7H9vE}}
 
-@unpublished{Helyard2014aa,
+@unpublished{Helyard:2014aa,
 	Author = {Erin Helyard and Alexander Hunter and Charles Martin},
 	Date-Added = {2018-02-18 22:06:21 +0000},
 	Date-Modified = {2019-01-08 16:43:34 +0100},
@@ -332,7 +332,7 @@
 	Title = {{Helyard, Hunter, Martin: Experimental Music Studio Performance (ANU School of Music and ANU Drill Hall Gallery)}},
 	Year = {2014}}
 
-@misc{Martin2015ab,
+@misc{Martin:2015ab,
 	Author = {Charles Martin and Christina Hopgood and Jonathan Griffiths and Yvonne Lam},
 	Date-Added = {2018-02-18 22:02:52 +0000},
 	Date-Modified = {2019-01-08 16:43:55 +0100},
@@ -343,7 +343,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {https://charlesmartin.bandcamp.com/album/colour-music}}
 
-@misc{Martin2013ab,
+@misc{Martin:2013ab,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-18 22:01:37 +0000},
 	Date-Modified = {2018-02-21 21:30:10 +0000},
@@ -354,7 +354,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {https://charlesmartin.bandcamp.com/album/nordlig-vinter}}
 
-@unpublished{Martin2017ap,
+@unpublished{Martin:2017ap,
 	Author = {Charles Martin and Alexander Hunter},
 	Date-Added = {2018-02-18 22:00:09 +0000},
 	Date-Modified = {2018-02-21 21:24:47 +0000},
@@ -366,7 +366,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://collectedresonances.bandcamp.com/album/andromeda-is-coming}}
 
-@inproceedings{Martin2014ab,
+@inproceedings{Martin:2014ab,
 	Address = {Canberra, Australia},
 	Author = {Charles Martin and Christina Hopgood and Jonathan Griffiths and Yvonne Lam},
 	Booktitle = {{Colour Music Concert Series}},
@@ -382,7 +382,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {https://youtu.be/ICeHWlNRsgU}}
 
-@inproceedings{Martin2017zz,
+@inproceedings{Martin:2017zz,
 	Author = {Charles P. Martin and {Alexander Refsum} Jensenius and Kari Anne Vadstensvik Bjerkestrand and Victoria Johnson},
 	Booktitle = {MusicLab vol.1: Biophysical Music},
 	Date-Added = {2018-02-18 21:51:50 +0000},
@@ -396,7 +396,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://youtu.be/lbqWJCYjFF0}}
 
-@inproceedings{Martin2017ao,
+@inproceedings{Martin:2017ao,
 	Address = {Oslo, Norway},
 	Author = {Charles P. Martin},
 	Booktitle = {Technology and Emotions},
@@ -407,7 +407,7 @@
 	Title = {Musical Networks and Creative {AI}},
 	Year = {2017}}
 
-@inproceedings{Martin2017an,
+@inproceedings{Martin:2017an,
 	Author = {Martin, Charles Patrick and Gonzalez Sanchez, Victor Evaristo and Kelkar, Tejaswinee and Zelechowska, Agata and Berggren, Stig Johan and Hopgood, Christina and Wallace, Benedikte and Brustad, Henrik and Utne-Reitan, Bj{\o}rnar and Ellefsen, Kai Olav and Nygaard, T{\o}nnes Frostad and S{\o}yseth, Vegard D{\o}nnem and C{\^a}mara, Guilherme Schmidt and Diaz, Ximena Alarc{\'o}n},
 	Booktitle = {Elvelangs i Fakkellys (River walk by lantern light)},
 	Date-Added = {2018-02-18 21:42:11 +0000},
@@ -420,7 +420,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://youtu.be/NepiJe-TB_Q}}
 
-@inproceedings{Martin2017am,
+@inproceedings{Martin:2017am,
 	Address = {Sentralen, Oslo, Norway},
 	Author = {Charles P. Martin},
 	Booktitle = {Boost - Technology and Equality in Music},
@@ -432,7 +432,7 @@
 	Title = {MicroJam: A Social App for Making Music},
 	Year = {2017}}
 
-@inproceedings{Martin2017al,
+@inproceedings{Martin:2017al,
 	Address = {Oslo, Norway},
 	Author = {Charles Patrick Martin},
 	Booktitle = {Cutting Edge Festival: Future Planet, Future Society, Future You},
@@ -443,7 +443,7 @@
 	Title = {Making Social Music with {MicroJam}},
 	Year = {2017}}
 
-@inproceedings{Martin2017ak,
+@inproceedings{Martin:2017ak,
 	Address = {Oslo, Norway},
 	Author = {Charles P. Martin},
 	Booktitle = {Musikkteknologidagene},
@@ -457,7 +457,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {http://dx.doi.org/10.13140/RG.2.2.27125.06887}}
 
-@inproceedings{Jensenius2017aa,
+@inproceedings{Jensenius:2017aa,
 	Address = {Sentralen, Oslo, Norway},
 	Author = {Jensenius, Alexander Refsum and Bjerkestrand, Kari Anne Vadstensvik and Johnson, Victoria and Gonzalez Sanchez, Victor Evaristo and Zelechowska, Agata and Martin, Charles Patrick},
 	Booktitle = {{Program of the Ultima Contemporary Music Festival, Oslo}},
@@ -472,7 +472,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://youtu.be/fhTuI3AhZL0}}
 
-@inproceedings{Martin2014aa,
+@inproceedings{Martin:2014aa,
 	Address = {Toronto, Canada},
 	Author = {Charles Martin and Henry Gardner},
 	Booktitle = {Proceedings of the {CHI} 2014 Workshop on Curating the Digital: Spaces for Art and Interaction},
@@ -487,7 +487,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2014-CHI-CuratingDigital-PreservingMusicalPerformance.pdf}}
 
-@inproceedings{Martin2015aa,
+@inproceedings{Martin:2015aa,
 	Address = {Sydney, Australia},
 	Author = {Charles Martin},
 	Booktitle = {{Musicological Society of Australia National Conference}},
@@ -502,7 +502,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2015-MSA-DecodingPerformanceWithData.pdf}}
 
-@inproceedings{Martin2016ac,
+@inproceedings{Martin:2016ac,
 	Author = {Charles P. Martin},
 	Booktitle = {Musical Program of the International Conference on Auditory Display},
 	Date-Added = {2018-02-18 20:35:21 +0000},
@@ -518,7 +518,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2016-ICAD-PhaseRings.pdf}}
 
-@incollection{Martin2017aj,
+@incollection{Martin:2017aj,
 	Address = {Switzerland},
 	Author = {Charles Martin},
 	Booktitle = {A {NIME} Reader: Fifteen Years of New Interfaces for Musical Expression},
@@ -538,7 +538,7 @@
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2017-NIME-reader-sonigraphical.pdf},
 	Bdsk-Url-2 = {http://dx.doi.org/10.1007/978-3-319-47214-0}}
 
-@inproceedings{Lai2010ab,
+@inproceedings{Lai:2010ab,
 	Author = {Chi-Hsia Lai and Charles Martin},
 	Booktitle = {Musical Program of the {Australasian} Computer Music Conference},
 	Date-Added = {2018-02-18 20:11:54 +0000},
@@ -552,7 +552,7 @@
 	Year = {2010},
 	Bdsk-Url-1 = {https://vimeo.com/13543935}}
 
-@inproceedings{Lai2010aa,
+@inproceedings{Lai:2010aa,
 	Author = {Chi-Hsia Lai and Charles Martin},
 	Booktitle = {Musical Program of the International Conference on New Interfaces for Musical Expression},
 	Date-Added = {2018-02-18 20:04:42 +0000},
@@ -565,7 +565,7 @@
 	Year = {2010},
 	Bdsk-Url-1 = {http://www.nime.org/2010/program.html#Performances}}
 
-@inproceedings{Martin2013aa,
+@inproceedings{Martin:2013aa,
 	Abstract = {Nordlig Vinter is a flexible length work for vibraphone and iOS devices. The work recalls the my first experiences of the icy winter in Pite{\aa}, Northern Sweden and was composed while in residency at the School of Music there. The work includes sections of composed material in a minimal jazz style where themes on the vibraphone are presented in the context of computer-generated sounds constructed from field recordings taken in Pite{\aa}. These sections are contrasted by elements of free improvisation where the vibraphone part goes into musical dialogue with the computer elements that effect and react to the vibraphone sound.},
 	Address = {Daejeon, Republic of Korea},
 	Author = {Charles Martin},
@@ -579,7 +579,7 @@
 	Video = {https://youtu.be/qjCkrCMpCtU},
 	Year = {2013}}
 
-@inproceedings{Martin2018ab,
+@inproceedings{Martin:2018ab,
 	Author = {Charles P. Martin and Alexander Refsum Jensenius and Jim Torresen},
 	Booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
 	Date-Added = {2018-02-18 19:56:30 +0000},
@@ -595,7 +595,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-ComposingEnsembleStandstillWork.pdf}}
 
-@inproceedings{Sanchez2018aa,
+@inproceedings{Sanchez:2018aa,
 	Author = {Gonzalez Sanchez, Victor Evaristo and Agata Zelechowska and Charles P. Martin and Victoria Johnson and Kari Anne Vadstensvik Bjerkestrand and Alexander Refsum Jensenius},
 	Booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
 	Date-Added = {2018-02-18 19:54:36 +0000},
@@ -610,7 +610,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-BelaBasedAugmentedGuitars.pdf}}
 
-@inproceedings{Nygaard2018aa,
+@inproceedings{Nygaard:2018aa,
 	Address = {New York, NY, USA},
 	Author = {T{\o}nnes F. Nygaard and Charles P. Martin and Eivind Samuelsen and Jim Torresen and Kyrre Glette},
 	Booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
@@ -629,7 +629,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-RealWorldAdaptation.pdf}}
 
-@unpublished{Hopgood2018aa,
+@unpublished{Hopgood:2018aa,
 	Author = {Christina Hopgood and Charles P. Martin and Gisli Johann Gretarsson},
 	Date-Added = {2018-02-18 19:35:00 +0000},
 	Date-Modified = {2019-01-08 16:40:19 +0100},
@@ -642,7 +642,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-Synesthetic.pdf}}
 
-@misc{Martin2017ag,
+@misc{Martin:2017ag,
 	Author = {Charles Patrick Martin},
 	Date-Added = {2018-02-17 23:28:59 +0000},
 	Date-Modified = {2019-02-07 11:13:28 +0100},
@@ -654,7 +654,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://doi.org/10.5281/zenodo.834268}}
 
-@misc{Martin2013mz,
+@misc{Martin:2013mz,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:14:43 +0000},
 	Date-Modified = {2018-02-21 21:20:56 +0000},
@@ -666,7 +666,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.50705}}
 
-@misc{Martin2013zl,
+@misc{Martin:2013zl,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:14:43 +0000},
 	Date-Modified = {2018-02-21 21:19:42 +0000},
@@ -678,7 +678,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.50703}}
 
-@misc{Martin2013ec,
+@misc{Martin:2013ec,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2018-02-22 16:04:05 +0000},
@@ -691,7 +691,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101467}}
 
-@misc{Martin2013qr,
+@misc{Martin:2013qr,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:26 +0100},
@@ -703,7 +703,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101466}}
 
-@misc{Martin2013la,
+@misc{Martin:2013la,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:43 +0100},
@@ -715,7 +715,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101468}}
 
-@misc{Martin2013cs,
+@misc{Martin:2013cs,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:35 +0100},
@@ -727,7 +727,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101470}}
 
-@misc{Martin2013hb,
+@misc{Martin:2013hb,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:39 +0100},
@@ -739,7 +739,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101469}}
 
-@misc{Martin2013wd,
+@misc{Martin:2013wd,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:12 +0100},
@@ -751,7 +751,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101473}}
 
-@misc{Martin2013oq,
+@misc{Martin:2013oq,
 	Author = {Martin, Charles and Hopgood, Christina and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:16 +0100},
@@ -763,7 +763,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101472}}
 
-@misc{Martin2013it,
+@misc{Martin:2013it,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-31 10:11:30 +0100},
@@ -775,7 +775,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101471}}
 
-@misc{Evolution2013kc,
+@misc{Evolution:2013kc,
 	Author = {Charles Martin and Maria Finkelmeier and Jacob Remington},
 	Date-Added = {2018-02-17 23:14:30 +0000},
 	Date-Modified = {2019-01-08 16:39:28 +0100},
@@ -787,7 +787,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {https://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops}}
 
-@misc{Martin2014db,
+@misc{Martin:2014db,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:14:20 +0000},
 	Date-Modified = {2018-02-21 21:21:23 +0000},
@@ -801,7 +801,7 @@
 	Bdsk-Url-1 = {https://github.com/cpmpercussion/MetatoneClassifier},
 	Bdsk-Url-2 = {http://dx.doi.org/10.5281/zenodo.51712}}
 
-@misc{Ensemble-Metatone2014sf,
+@misc{Ensemble-Metatone:2014sf,
 	Author = {Charles Martin and Christina Hopgood and Jonathan Griffiths and Yvonne Lam},
 	Date-Added = {2018-02-17 23:14:05 +0000},
 	Date-Modified = {2018-02-22 21:10:30 +0000},
@@ -814,7 +814,7 @@
 	Bdsk-Url-1 = {http://charlesmartin.bandcamp.com/album/ensemble-metatone/},
 	Bdsk-Url-2 = {https://charlesmartin.bandcamp.com/album/ensemble-metatone/}}
 
-@misc{Martin2016kq,
+@misc{Martin:2016kq,
 	Author = {Martin, Charles and Hopgood, Christina and Griffiths, Jonathan and Lam, Yvonne},
 	Date-Added = {2018-02-17 23:13:46 +0000},
 	Date-Modified = {2018-02-21 21:22:05 +0000},
@@ -826,7 +826,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51595}}
 
-@misc{Martin2016rp,
+@misc{Martin:2016rp,
 	Author = {Martin, Charles and Gardner, Henry and Swift, Ben},
 	Date-Added = {2018-02-17 23:13:33 +0000},
 	Date-Modified = {2018-02-21 21:25:51 +0000},
@@ -839,7 +839,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51815}}
 
-@misc{Martin2016fu,
+@misc{Martin:2016fu,
 	Author = {Martin, Charles and Gardner, Henry and Swift, Ben and Martin, Michael},
 	Date-Added = {2018-02-17 23:13:33 +0000},
 	Date-Modified = {2018-02-21 21:25:44 +0000},
@@ -852,7 +852,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51801}}
 
-@misc{Martin2017ah,
+@misc{Martin:2017ah,
 	Author = {Charles Patrick Martin},
 	Date-Added = {2018-02-17 23:13:17 +0000},
 	Date-Modified = {2019-02-07 11:13:19 +0100},
@@ -864,7 +864,7 @@
 	Bdsk-Url-1 = {https://doi.org/10.5281/zenodo.1064014},
 	Bdsk-Url-2 = {http://dx.doi.org/10.5281/zenodo.1064014}}
 
-@misc{Martin2017ad,
+@misc{Martin:2017ad,
 	Author = {Martin, Charles Patrick},
 	Date-Added = {2018-02-17 23:13:12 +0000},
 	Date-Modified = {2018-02-21 21:20:31 +0000},
@@ -879,7 +879,7 @@
 	Bdsk-Url-1 = {https://doi.org/10.5281/zenodo.831910},
 	Bdsk-Url-2 = {http://dx.doi.org/10.5281/zenodo.831910}}
 
-@misc{Martin2017aa,
+@misc{Martin:2017aa,
 	Author = {Charles P. Martin},
 	Date-Added = {2018-02-17 23:13:04 +0000},
 	Date-Modified = {2019-02-07 11:08:02 +0100},
@@ -891,7 +891,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {https://doi.org/10.5281/zenodo.597271}}
 
-@misc{Martin2016oq,
+@misc{Martin:2016oq,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:26:25 +0000},
@@ -904,7 +904,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51819}}
 
-@misc{Martin2016af,
+@misc{Martin:2016af,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:22:39 +0000},
@@ -917,7 +917,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51604}}
 
-@misc{Martin2016dp,
+@misc{Martin:2016dp,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:26:16 +0000},
@@ -930,7 +930,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51818}}
 
-@misc{Martin2016ag,
+@misc{Martin:2016ag,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:21:36 +0000},
@@ -942,7 +942,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.50716}}
 
-@misc{Martin2016fc,
+@misc{Martin:2016fc,
 	Author = {Charles Martin and Ben Swift and Henry Gardner},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:25:16 +0000},
@@ -954,7 +954,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51710}}
 
-@misc{Martin2016fy,
+@misc{Martin:2016fy,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:26:11 +0000},
@@ -967,7 +967,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51814}}
 
-@misc{Martin2016gf,
+@misc{Martin:2016gf,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:26:05 +0000},
@@ -980,7 +980,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51822}}
 
-@misc{Martin2016ah,
+@misc{Martin:2016ah,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:19:34 +0000},
@@ -992,7 +992,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.50860}}
 
-@misc{Martin2016lq,
+@misc{Martin:2016lq,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:26:00 +0000},
@@ -1005,7 +1005,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51821}}
 
-@misc{Martin2016ae,
+@misc{Martin:2016ae,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:19:26 +0000},
@@ -1017,7 +1017,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51605}}
 
-@misc{Martin2016rr,
+@misc{Martin:2016rr,
 	Author = {Martin, Charles},
 	Date-Added = {2018-02-17 23:12:52 +0000},
 	Date-Modified = {2018-02-21 21:25:56 +0000},
@@ -1030,7 +1030,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51820}}
 
-@misc{Martin2016ad,
+@misc{Martin:2016ad,
 	Author = {Charles Martin},
 	Date-Added = {2018-02-17 23:12:41 +0000},
 	Date-Modified = {2018-02-21 21:19:13 +0000},
@@ -1042,7 +1042,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.51630}}
 
-@unpublished{Martin2017ai,
+@unpublished{Martin:2017ai,
 	Author = {Charles P. Martin and Kai Olav Ellefsen and Jim Torresen},
 	Date-Modified = {2018-09-10 23:03:28 +0200},
 	Eprint = {1801.10492},
@@ -1055,7 +1055,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://arxiv.org/abs/1801.10492}}
 
-@incollection{Martin2018aa,
+@incollection{Martin:2018aa,
 	Address = {Cham},
 	Author = {Charles P. Martin and Henry Gardner},
 	Booktitle = {New Directions in Music and Human-Computer Interaction},
@@ -1073,7 +1073,7 @@
 	Year = {2019},
 	Bdsk-Url-1 = {http://folk.uio.no/charlepm/preprints/2018-RehearsalAsResearch.pdf}}
 
-@inproceedings{Martin2018ag,
+@inproceedings{Martin:2018ag,
 	Address = {Switzerland},
 	Archiveprefix = {arXiv},
 	Author = {Charles P. Martin and Jim Torresen},
@@ -1094,7 +1094,7 @@
 	Year = {2018},
 	Bdsk-Url-1 = {http://arxiv.org/abs/1711.10746}}
 
-@mastersthesis{Martin2009MMus,
+@mastersthesis{Martin:2009MMus,
 	Abstract = {This thesis seeks to articulate a performer's
                   perspective of the interactions between percussion
                   and computer in performance. A selection of
@@ -1120,7 +1120,7 @@
 	Year = {2009},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/13813}}
 
-@inproceedings{Martin2010dk,
+@inproceedings{Martin:2010dk,
 	Abstract = {In 2009 the cross artform group, Last Man to Die,
                   presenteda series of performances using new
                   interfaces and networkedperformance to integrate the
@@ -1147,7 +1147,7 @@
 	Year = {2010},
 	Bdsk-Url-1 = {http://www.nime.org/proceedings/2010/nime2010_204.pdf}}
 
-@inproceedings{Martin2010rw,
+@inproceedings{Martin:2010rw,
 	Address = {The Basin, Australia},
 	Author = {Charles Martin and Benjamin Forster and Hanna Cormick},
 	Booktitle = {Proceedings of the {Australasian} Computer Music Conference},
@@ -1163,7 +1163,7 @@
 	Year = {2010},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101945}}
 
-@inproceedings{Martin2011oz,
+@inproceedings{Martin:2011oz,
 	Abstract = { This paper describes Strike on Stage, an interface
                   and cor- responding audio-visual performance work
                   developed and performed in 2010 by percussionists
@@ -1192,7 +1192,7 @@
 	Year = {2011},
 	Bdsk-Url-1 = {http://www.nime.org/proceedings/2011/nime2011_142.pdf}}
 
-@inproceedings{Martin2012fk,
+@inproceedings{Martin:2012fk,
 	Address = {The Basin, Australia},
 	Author = {Charles Martin},
 	Booktitle = {Proceedings of the {Australasian} Computer Music Conference},
@@ -1207,7 +1207,7 @@
 	Year = {2012},
 	Bdsk-Url-1 = {https://dx.doi.org/10.13140/RG.2.1.5150.5687}}
 
-@mastersthesis{Martin2012yq,
+@mastersthesis{Martin:2012yq,
 	Abstract = {This thesis traces the development of a number of
                   mobile computer music systems and their use in
                   ensemble percussion performances. The research is
@@ -1254,7 +1254,7 @@
 	Bdsk-Url-1 = {http://pure.ltu.se/portal/files/37021660/LTU-EX-2012-36941424.pdf},
 	Bdsk-Url-2 = {https://dx.doi.org/10.13140/RG.2.1.5150.5687}}
 
-@inproceedings{Martin2013,
+@inproceedings{Martin:2013,
 	Abstract = {This paper describes the development of an Apple
                   iPhone based mobile computersystem for vibraphone
                   and its use in a series of the author's
@@ -1295,7 +1295,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://nime.org/proceedings/2013/nime2013_121.pdf}}
 
-@inproceedings{Martin2013fk,
+@inproceedings{Martin:2013fk,
 	Abstract = {This paper describes a series of musical works
                   designed to integrate mobile computer instruments
                   into a percussion ensemble performance practice. The
@@ -1334,7 +1334,7 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://hdl.handle.net/2027/spo.bbp2372.2013.073}}
 
-@inproceedings{Martin2014cr,
+@inproceedings{Martin:2014cr,
 	Acmid = 2557226,
 	Address = {New York, NY, USA},
 	Author = {Martin, Charles and Gardner, Henry and Swift, Ben},
@@ -1357,7 +1357,7 @@
 	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2556288.2557226},
 	Bdsk-Url-2 = {https://dx.doi.org/10.1145/2556288.2557226}}
 
-@inproceedings{Martin2014jk,
+@inproceedings{Martin:2014jk,
 	Author = {Charles Martin},
 	Booktitle = {Proceedings of the {Australasian} Computer Music Conference},
 	Date-Modified = {2018-02-21 21:30:45 +0000},
@@ -1370,7 +1370,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/95314}}
 
-@inproceedings{Martin2014xp,
+@inproceedings{Martin:2014xp,
 	Acmid = 2574805,
 	Address = {New York, NY, USA},
 	Author = {Martin, Charles and Gardner, Henry and Swift, Ben},
@@ -1390,7 +1390,7 @@
 	Year = {2014},
 	Bdsk-Url-1 = {https://dx.doi.org/10.1145/2559206.2574805}}
 
-@inproceedings{Martin2015cr,
+@inproceedings{Martin:2015cr,
 	Abstract = {We present a study where a small group of experienced
                   iPad musicians evaluated a system of three musical
                   touch-screen apps and two server-based agents over
@@ -1424,7 +1424,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/95205}}
 
-@inproceedings{Martin2015jk,
+@inproceedings{Martin:2015jk,
 	Abstract = {We present and evaluate a novel interface for
                   tracking ensemble performances on touch-screens. The
                   system uses a Random Forest classifier to extract
@@ -1453,7 +1453,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {http://www.nime.org/proceedings/2015/nime2015_242.pdf}}
 
-@inproceedings{Martin2015mz,
+@inproceedings{Martin:2015mz,
 	Abstract = {The group experience of synchronisation is a key
                   aspect of ensemble musical performance. This paper
                   presents a number of strategies for syncing
@@ -1484,7 +1484,7 @@
 	Year = {2015},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/95216}}
 
-@inproceedings{Martin2016aa,
+@inproceedings{Martin:2016aa,
 	Author = {Charles Martin and Henry Gardner},
 	Booktitle = {Proceedings of the {CHI} Human-Centered Machine Learning Workshop},
 	Conference-Url = {http://hcml2016.goldsmithsdigital.com},
@@ -1497,7 +1497,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {https://dx.doi.org/10.5281/zenodo.56379}}
 
-@inproceedings{Martin2016ab,
+@inproceedings{Martin:2016ab,
 	Author = {Charles Martin and Henry Gardner},
 	Booktitle = {Proceedings of the {CHI} Musical {HCI} Workshop},
 	Conference-Url = {http://mcl.open.ac.uk/music-chi/},
@@ -1510,7 +1510,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {https://dx.doi.org/10.5281/zenodo.56378}}
 
-@phdthesis{Martin2016nr,
+@phdthesis{Martin:2016nr,
 	Abstract = {This thesis concerns the making and performing of music with new digital musical instruments (DMIs) designed for ensemble performance. While computer music has advanced to the point where a huge variety of digital instruments are common in educational, recreational, and professional music-making, these instruments rarely seek to enhance the ensemble context in which they are used. Interaction models that map individual gestures to sound have been previously studied, but the interactions of ensembles within these models are not well understood. In this research, new ensemble-focussed instruments have been designed and deployed in an ongoing artistic practice. These instruments have also been evaluated to find out whether, and if so how, they affect the ensembles and music that is made with them. Throughout this thesis, six ensemble-focussed DMIs are introduced for mobile touch-screen computers. A series of improvised rehearsals and performances leads to the identification of a vocabulary of continuous performative touch-gestures and a system for tracking these collaborative performances in real time using tools from machine learning. The tracking system is posed as an intelligent agent that can continually analyse the gestural states of performers, and trigger a response in the performers' user interfaces at appropriate moments. The hypothesis is that the agent interaction and UI response can enhance improvised performances, allowing performers to better explore creative interactions with each other, produce better music, and have a more enjoyable experience. Two formal studies are described where participants rate their perceptions of improvised performances with a variety of designs for agent-app interaction. The first, with three expert performers, informed refinements for a set of apps. The most successful interface was redesigned and investigated further in a second study with 16 non-expert participants. In the final interface, each performer freely improvised with a limited number of notes; at moments of peak gestural change, the agent presented users with the opportunity to try different notes. This interface is shown to produce performances that are longer, as well as demonstrate improved perceptions of musical structure, group interaction, enjoyment and overall quality. Overall, this research examined ensemble DMI performance in unprecedented scope and detail, with more than 150 interaction sessions recorded. Informed by the results of lab and field studies using quantitative and qualitative methods, four generations of ensemble-focussed interface have been developed and refined. The results of the most recent studies assure us that the intelligent agent interaction does enhance improvised performances.},
 	Address = {Canberra, Australia},
 	Author = {Charles Patrick Martin},
@@ -1524,7 +1524,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://hdl.handle.net/1885/101786}}
 
-@incollection{Martin2016rm,
+@incollection{Martin:2016rm,
 	Address = {Switzerland},
 	Author = {Charles Martin and Henry Gardner},
 	Booktitle = {Curating the Digital: Spaces for Art and Interaction},
@@ -1542,7 +1542,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {https://dx.doi.org/10.1007/978-3-319-28722-5_5}}
 
-@inproceedings{Martin2016vn,
+@inproceedings{Martin:2016vn,
 	Address = {New York, NY, USA},
 	Author = {Charles Martin and Henry Gardner and Ben Swift and Michael Martin},
 	Booktitle = {Proceedings of the {SIGCHI} Conference on Human Factors in Computing Systems},
@@ -1559,7 +1559,7 @@
 	Year = {2016},
 	Bdsk-Url-1 = {https://dx.doi.org/10.1145/2858036.2858269}}
 
-@inproceedings{Martin2017ab,
+@inproceedings{Martin:2017ab,
 	Abstract = {MicroJam is a mobile app for sharing tiny touch-screen performances. Mobile applications that streamline creativity and social interaction have enabled a very broad audience to develop their own creative practices. While these apps have been very successful in visual arts (particularly photography), the idea of social music-making has not had such a broad impact. MicroJam includes several novel performance concepts intended to engage the casual music maker and inspired by current trends in social creativity support tools. Touch-screen performances are limited to five seconds, instrument settings are posed as sonic ``filters'', and past performances are arranged as a timeline with replies and layers. These features of MicroJam encourage users not only to perform music more frequently, but to engage with others in impromptu ensemble music making.},
 	Address = {Denmark},
 	Author = {Charles P. Martin and Jim Torresen},
@@ -1579,7 +1579,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {http://urn.nb.no/URN:NBN:no-58823}}
 
-@inproceedings{Martin2017ac,
+@inproceedings{Martin:2017ac,
 	Address = {Espoo, Finland},
 	Author = {Charles P. Martin and Jim Torresen},
 	Booktitle = {Proceedings of the 14th Sound and Music Computing Conference},
@@ -1598,7 +1598,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p175.pdf}}
 
-@inproceedings{Martin2017ae,
+@inproceedings{Martin:2017ae,
 	Abstract = {For many, the pursuit and enjoyment of musical performance goes hand-in-hand with collaborative creativity, whether in a choir, jazz combo, orchestra, or rock band. However, few musical interfaces use the affordances of computers to create or enhance ensemble musical experiences. One possibility for such a system would be to use an artificial neural network (ANN) to model the way other musicians respond to a single performer. Some forms of music have well-understood rules for interaction; however, this is not the case for free improvisation with new touch-screen instruments where styles of interaction may be discovered in each new performance. This paper describes an ANN model of ensemble interactions trained on a corpus of such ensemble touch-screen improvisations. The results show realistic ensemble interactions and the model has been used to implement a live performance system where a performer is accompanied by the predicted and sonified touch gestures of three virtual players.},
 	Author = {Charles P. Martin and Kai Olav Ellefsen and Jim Torresen},
 	Booktitle = {Proceedings of the 12th International Audio Mostly Conference on Augmented and Participatory Sound and Music Experiences},
@@ -1612,7 +1612,7 @@
 	Year = {2017},
 	Bdsk-Url-1 = {https://dx.doi.org/10.1145/3123514.3123556}}
 
-@article{Martin2017af,
+@article{Martin:2017af,
 	Author = {Martin, Charles P.},
 	Date-Modified = {2018-03-16 09:12:15 +0000},
 	Doi = {10.1080/07494467.2017.1370794},
