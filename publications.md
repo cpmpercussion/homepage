@@ -4,100 +4,47 @@ title: Publications
 permalink: /publications/
 ---
 
-<h2 id="book-chapters">Book Chapters</h2>
-<ul>
-<li><span class="citation" data-cites="Martin:2018aa">Charles P. Martin and Henry Gardner. 2018. Free-improvised rehearsal-as-research for musical HCI. In <em>New directions in music and human-computer interaction</em>, Simon Holland, Tom Mudd, Katie Wilkie, Andrew McPherson and Marcelo M. Wanderley (eds.). Springer. Retrieved from <a href="http://folk.uio.no/charlepm/preprints/2018-RehearsalAsResearch.pdf">http://folk.uio.no/charlepm/preprints/2018-RehearsalAsResearch.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2017aj">Charles Martin. 2017. Pursuing a sonigraphical ideal at the dawn of the nime epoch. A commentary on “sonigraphical instruments: From fmol to the reacTable”. In <em>A NIME reader: Fifteen years of new interfaces for musical expression</em>, Alexander Refsum Jensenius and Michael J. Lyons (eds.). Springer International Publishing, Switzerland, 103–105. <a href="https://doi.org/10.1007/978-3-319-47214-0">https://doi.org/10.1007/978-3-319-47214-0</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2017-NIME-reader-sonigraphical.pdf">http://folk.uio.no/charlepm/preprints/2017-NIME-reader-sonigraphical.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2016rm">Charles Martin and Henry Gardner. 2016. A percussion-focussed approach to preserving touch-screen improvisation. In <em>Curating the digital: Spaces for art and interaction</em>, David England, Thecla Schiphorst and Nick Bryan-Kinns (eds.). Springer International Publishing, Switzerland, 51–72. <a href="https://doi.org/10.1007/978-3-319-28722-5_5">https://doi.org/10.1007/978-3-319-28722-5_5</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2016-CuratingDigital-PreservingTouchscreenImprovisation.pdf">http://folk.uio.no/charlepm/preprints/2016-CuratingDigital-PreservingTouchscreenImprovisation.pdf</a></span></li>
-</ul>
-<h2 id="refereed-journal-articles">Refereed Journal Articles</h2>
-<ul>
-<li><span class="citation" data-cites="Martin:2017af">Charles P. Martin. 2017. Percussionist-centred design for touchscreen digital musical instruments. <em>Contemporary Music Review</em> 36, 1–2: 64–85. <a href="https://doi.org/10.1080/07494467.2017.1370794">https://doi.org/10.1080/07494467.2017.1370794</a></span></li>
-</ul>
-<h2 id="fully-refereed-conference-proceedings">Fully Refereed Conference Proceedings</h2>
-<ul>
-<li><span class="citation" data-cites="Martin:2018ag">Charles P. Martin and Jim Torresen. 2018. RoboJam: A musical mixture density network for collaborative touchscreen interaction. In <em>Computational intelligence in music, sound, art and design: International conference, EvoMUSART</em> (Lecture notes in computer science). Springer International Publishing, Switzerland. <a href="https://doi.org/10.1007/978-3-319-77583-8_11">https://doi.org/10.1007/978-3-319-77583-8_11</a> URL: <a href="http://arxiv.org/abs/1711.10746">http://arxiv.org/abs/1711.10746</a></span></li>
-<li><span class="citation" data-cites="Martin:2017ae">Charles P. Martin, Kai Olav Ellefsen, and Jim Torresen. 2017. Deep models for ensemble touch-screen improvisation. In <em>Proceedings of the 12th international audio mostly conference on augmented and participatory sound and music experiences</em> (AM ’17).. <a href="https://doi.org/10.1145/3123514.3123556">https://doi.org/10.1145/3123514.3123556</a></span></li>
-<li><span class="citation" data-cites="Martin:2017ac">Charles P. Martin and Jim Torresen. 2017. Exploring social mobile music with tiny touch-screen performances. In <em>Proceedings of the 14th sound and music computing conference</em> (SMC ’17). Aalto University, Espoo, Finland, 175–180. Retrieved from <a href="http://urn.nb.no/URN:NBN:no-60558">http://urn.nb.no/URN:NBN:no-60558</a></span></li>
-<li><span class="citation" data-cites="Martin:2017ab">Charles P. Martin and Jim Torresen. 2017. MicroJam: An app for sharing tiny touch-screen performances. In <em>Proceedings of the international conference on new interfaces for musical expression</em> (NIME ’17). Aalborg University Copenhagen, Denmark, 495–496. <a href="https://doi.org/10.5281/zenodo.1176334">https://doi.org/10.5281/zenodo.1176334</a> URL: <a href="http://urn.nb.no/URN:NBN:no-58823">http://urn.nb.no/URN:NBN:no-58823</a></span></li>
-<li><span class="citation" data-cites="Martin:2016vn">Charles Martin, Henry Gardner, Ben Swift, and Michael Martin. 2016. Intelligent agents and networked buttons improve free-improvised ensemble music-making on touch-screens. In <em>Proceedings of the SIGCHI conference on human factors in computing systems</em> (CHI ’16). ACM, New York, NY, USA, 2295–2306. <a href="https://doi.org/10.1145/2858036.2858269">https://doi.org/10.1145/2858036.2858269</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ab">Charles Martin and Henry Gardner. 2016. Free-improvised rehearsal-as-research for musical HCI. In <em>Proceedings of the CHI musical HCI workshop</em>.. <a href="https://doi.org/10.5281/zenodo.56378">https://doi.org/10.5281/zenodo.56378</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2016-CHI-MusicHCI-RehearsalAsResearch.pdf">http://folk.uio.no/charlepm/preprints/2016-CHI-MusicHCI-RehearsalAsResearch.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2016aa">Charles Martin and Henry Gardner. 2016. Can machine learning apply to musical ensembles? In <em>Proceedings of the CHI human-centered machine learning workshop</em>.. <a href="https://doi.org/10.5281/zenodo.56379">https://doi.org/10.5281/zenodo.56379</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2016-CHI-HCML-MachineLearningEnsembles.pdf">http://folk.uio.no/charlepm/preprints/2016-CHI-HCML-MachineLearningEnsembles.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2015cr">Charles Martin, Henry Gardner, Ben Swift, and Michael Martin. 2015. Music of 18 performances: Evaluating apps and agents with free improvisation. In <em>Proceedings of the 2015 conference of the Australasian Computer Music Association</em> (ACMC2015 - make!). Australasian Computer Music Association, 85–94. Retrieved from <a href="http://hdl.handle.net/1885/95205">http://hdl.handle.net/1885/95205</a></span></li>
-<li><span class="citation" data-cites="Martin:2015mz">Charles Martin and Henry Gardner. 2015. That syncing feeling: Networked strategies for enabling ensemble creativity in iPad musicians. In <em>Proceedings of CreateWorld</em>. Griffith University, Brisbane, Australia. Retrieved from <a href="http://hdl.handle.net/1885/95216">http://hdl.handle.net/1885/95216</a></span></li>
-<li><span class="citation" data-cites="Martin:2015jk">Charles Martin, Henry Gardner, and Ben Swift. 2015. Tracking ensemble performance on touch-screens with gesture classification and transition matrices. In <em>Proceedings of the international conference on new interfaces for musical expression</em>. Louisiana State University, Baton Rouge, Louisiana, USA, 359–364. <a href="https://doi.org/10.5281/zenodo.1179130">https://doi.org/10.5281/zenodo.1179130</a> URL: <a href="http://www.nime.org/proceedings/2015/nime2015_242.pdf">http://www.nime.org/proceedings/2015/nime2015_242.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2014xp">Charles Martin, Henry Gardner, and Ben Swift. 2014. MetaTravels and MetaLonsdale: iPad apps for percussive improvisation. In <em>CHI ’14 extended abstracts on human factors in computing systems</em> (CHI EA ’14). ACM, New York, NY, USA, 547–550. <a href="https://doi.org/10.1145/2559206.2574805">https://doi.org/10.1145/2559206.2574805</a></span></li>
-<li><span class="citation" data-cites="Martin:2014cr">Charles Martin, Henry Gardner, and Ben Swift. 2014. Exploring percussive gesture on iPads with Ensemble Metatone. In <em>Proceedings of the SIGCHI conference on human factors in computing systems</em> (CHI ’14). ACM, New York, NY, USA, 1025–1028. <a href="https://doi.org/10.1145/2556288.2557226">https://doi.org/10.1145/2556288.2557226</a> URL: <a href="http://doi.acm.org/10.1145/2556288.2557226">http://doi.acm.org/10.1145/2556288.2557226</a></span></li>
-<li><span class="citation" data-cites="Martin:2014aa">Charles Martin and Henry Gardner. 2014. Preserving musical performance on touch-screens. In <em>Proceedings of the CHI 2014 workshop on curating the digital: Spaces for art and interaction</em>. Toronto, Canada. <a href="https://doi.org/10.5281/zenodo.1175599">https://doi.org/10.5281/zenodo.1175599</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2014-CHI-CuratingDigital-PreservingMusicalPerformance.pdf">http://folk.uio.no/charlepm/preprints/2014-CHI-CuratingDigital-PreservingMusicalPerformance.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2013fk">Charles Martin. 2013. Integrating mobile music with percussion performance practice. In <em>Proceedings of the international computer music conference</em>. Perth, Australia, 437–440. Retrieved from <a href="http://hdl.handle.net/2027/spo.bbp2372.2013.073">http://hdl.handle.net/2027/spo.bbp2372.2013.073</a></span></li>
-<li><span class="citation" data-cites="Martin:2013">Charles Martin. 2013. Performing with a mobile computer system for vibraphone. In <em>Proceedings of the international conference on new interfaces for musical expression</em>. Graduate School of Culture Technology, KAIST, Daejeon, Republic of Korea, 377–380. <a href="https://doi.org/10.5281/zenodo.1178602">https://doi.org/10.5281/zenodo.1178602</a> URL: <a href="http://nime.org/proceedings/2013/nime2013_121.pdf">http://nime.org/proceedings/2013/nime2013_121.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2011oz">Charles Martin and Chi-Hsia Lai. 2011. Strike on Stage: A percussion and media performance. In <em>Proceedings of the international conference on new interfaces for musical expression</em>. Oslo, Norway, 142–143. <a href="https://doi.org/10.5281/zenodo.1178103">https://doi.org/10.5281/zenodo.1178103</a> URL: <a href="http://www.nime.org/proceedings/2011/nime2011_142.pdf">http://www.nime.org/proceedings/2011/nime2011_142.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2010dk">Charles Martin, Benjamin Forster, and Hanna Cormick. 2010. Cross-artform performance using networked interfaces: Last Man to Die’s Vital LMTD. In <em>Proceedings of the international conference on new interfaces for musical expression</em>. Sydney, Australia, 204–207. <a href="https://doi.org/10.5281/zenodo.1177843">https://doi.org/10.5281/zenodo.1177843</a> URL: <a href="http://www.nime.org/proceedings/2010/nime2010_204.pdf">http://www.nime.org/proceedings/2010/nime2010_204.pdf</a></span></li>
-</ul>
-<h2 id="other-publication-outputs">Other Publication Outputs</h2>
-<h3 id="articles-under-review">Articles Under Review</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2017ai">Charles P. Martin, Kai Olav Ellefsen, and Jim Torresen. 2018. Deep predictive models in interactive music. Retrieved from <a href="http://arxiv.org/abs/1801.10492">http://arxiv.org/abs/1801.10492</a></span></li>
-<li><span class="citation" data-cites="Martin:2018ab">Charles P. Martin, Alexander Refsum Jensenius, and Jim Torresen. 2018. Composing an ensemble standstill work for myo and bela. In <em>Proceedings of the international conference on new interfaces for musical expression</em> (NIME ’18).. <a href="https://doi.org/10.5281/zenodo.1302543">https://doi.org/10.5281/zenodo.1302543</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2018-ComposingEnsembleStandstillWork.pdf">http://folk.uio.no/charlepm/preprints/2018-ComposingEnsembleStandstillWork.pdf</a></span></li>
-<li><span class="citation" data-cites="Sanchez:2018aa">Victor Evaristo Gonzalez Sanchez, Agata Zelechowska, Charles P. Martin, Victoria Johnson, Kari Anne Vadstensvik Bjerkestrand, and Alexander Refsum Jensenius. 2018. Bela-based augmented acoustic guitars for inverse sonic microinteraction. In <em>Proceedings of the international conference on new interfaces for musical expression</em> (NIME ’18).. <a href="https://doi.org/10.5281/zenodo.1302599">https://doi.org/10.5281/zenodo.1302599</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2018-BelaBasedAugmentedGuitars.pdf">http://folk.uio.no/charlepm/preprints/2018-BelaBasedAugmentedGuitars.pdf</a></span></li>
-<li><span class="citation" data-cites="Hopgood:2018aa">Christina Hopgood, Charles P. Martin, and Gisli Johann Gretarsson. 2018. Synesthetic: Composing works for marimba and automated lighting. Retrieved from <a href="http://folk.uio.no/charlepm/preprints/2018-Synesthetic.pdf">http://folk.uio.no/charlepm/preprints/2018-Synesthetic.pdf</a></span></li>
-<li><span class="citation" data-cites="Nygaard:2018aa">Tønnes F. Nygaard, Charles P. Martin, Eivind Samuelsen, Jim Torresen, and Kyrre Glette. 2018. Real-world evolution adapts robot morphology and control to hardware limitations. In <em>Proceedings of the genetic and evolutionary computation conference</em> (GECCO ’18). ACM, New York, NY, USA, 125–132. <a href="https://doi.org/10.1145/3205455.3205567">https://doi.org/10.1145/3205455.3205567</a> URL: <a href="http://folk.uio.no/charlepm/preprints/2018-RealWorldAdaptation.pdf">http://folk.uio.no/charlepm/preprints/2018-RealWorldAdaptation.pdf</a></span></li>
-</ul>
-<h3 id="non-refereed-conference-proceedings">Non-Refereed Conference Proceedings</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2014jk">Charles Martin. 2014. Making improvised music for iPad and percussion with Ensemble Metatone. In <em>Proceedings of the Australasian computer music conference</em>. 115–118. Retrieved from <a href="http://hdl.handle.net/1885/95314">http://hdl.handle.net/1885/95314</a></span></li>
-<li><span class="citation" data-cites="Martin:2012fk">Charles Martin. 2012. Creating mobile computer music for percussionists: Snow music. In <em>Proceedings of the Australasian computer music conference</em>. Australasian Computer Music Association, The Basin, Australia. <a href="https://doi.org/10.13140/RG.2.1.5150.5687">https://doi.org/10.13140/RG.2.1.5150.5687</a></span></li>
-<li><span class="citation" data-cites="Martin:2010rw">Charles Martin, Benjamin Forster, and Hanna Cormick. 2010. Audience interactive performance in “The Last Man to Die&quot;. In <em>Proceedings of the Australasian computer music conference</em>. Australasian Computer Music Association, The Basin, Australia, 89–91. Retrieved from <a href="http://hdl.handle.net/1885/101945">http://hdl.handle.net/1885/101945</a></span></li>
-</ul>
-<h3 id="non-refereed-conference-presentations">Non-Refereed Conference Presentations</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2017ao">Charles P. Martin. 2017. Musical networks and creative AI. In <em>Technology and emotions</em>. Oslo, Norway.</span></li>
-<li><span class="citation" data-cites="Martin:2017al">Charles Patrick Martin. 2017. Making social music with MicroJam. In <em>Cutting edge festival: Future planet, future society, future you</em>. Oslo, Norway.</span></li>
-<li><span class="citation" data-cites="Martin:2017ak">Charles P. Martin. 2017. Musical networks: Using recurrent neural networks to model and complement musical creativity. In <em>Musikkteknologidagene</em>. Norwegian Academy of Music, Oslo, Norway. <a href="https://doi.org/10.13140/RG.2.2.27125.06887">https://doi.org/10.13140/RG.2.2.27125.06887</a></span></li>
-<li><span class="citation" data-cites="Martin:2017am">Charles P. Martin. 2017. MicroJam: A social app for making music. In <em>Boost - technology and equality in music</em>. JM Norway, Sentralen, Oslo, Norway.</span></li>
-<li><span class="citation" data-cites="Martin:2015aa">Charles Martin. 2015. Decoding performance with data. In <em>Musicological Society of Australia National Conference</em>. Sydney Conservatorium of Music, Sydney, Australia. Retrieved from <a href="http://folk.uio.no/charlepm/preprints/2015-MSA-DecodingPerformanceWithData.pdf">http://folk.uio.no/charlepm/preprints/2015-MSA-DecodingPerformanceWithData.pdf</a></span></li>
-<li><span class="citation" data-cites="Martin:2014ad">Charles Martin. 2014. iPads in percussion ensemble. In <em>Percussive Arts Society International Convention</em> (PASIC ’14). Indianapolis, USA. Retrieved from <a href="https://youtu.be/oyW3mFyoz-I">https://youtu.be/oyW3mFyoz-I</a></span></li>
-</ul>
-<h3 id="open-source-code-projects">Open-Source Code Projects</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2017ah">Charles Martin. 2017. cpmpercussion/robojam: A Mixture Density RNN for generating musical touchscreen interactions. <a href="https://doi.org/10.5281/zenodo.1064014">https://doi.org/10.5281/zenodo.1064014</a></span></li>
-<li><span class="citation" data-cites="Martin:2017ag">Charles Martin. 2017. cpmpercussion/gesture-rnn: A deep model of touch-screen ensemble musical performance. <a href="https://doi.org/10.5281/zenodo.834268">https://doi.org/10.5281/zenodo.834268</a> URL: <a href="https://doi.org/10.5281/zenodo.834268">https://doi.org/10.5281/zenodo.834268</a></span></li>
-<li><span class="citation" data-cites="Martin:2017aa">Charles P. Martin. 2017. MicroJam: A mobile app for sharing tiny touch-screen performances. <a href="https://doi.org/10.5281/zenodo.322364">https://doi.org/10.5281/zenodo.322364</a> URL: <a href="https://doi.org/10.5281/zenodo.322364">https://doi.org/10.5281/zenodo.322364</a></span></li>
-<li><span class="citation" data-cites="Martin:2016af">Charles Martin. 2016. BirdsNest: An iPad-instrument recalling the forest sounds of northern Sweden. <a href="https://doi.org/10.5281/zenodo.51604">https://doi.org/10.5281/zenodo.51604</a> URL: <a href="http://dx.doi.org/10.5281/zenodo.51604">http://dx.doi.org/10.5281/zenodo.51604</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ag">Charles Martin. 2016. MetaLonsdale: An iPad musical instrument for ensemble improvisation. <a href="https://doi.org/10.5281/zenodo.50716">https://doi.org/10.5281/zenodo.50716</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ah">Charles Martin. 2016. PhaseRings: An annular iOS instrument for performing expressive music with touch gestures. <a href="https://doi.org/10.5281/zenodo.50860">https://doi.org/10.5281/zenodo.50860</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ae">Charles Martin. 2016. SingingBowls: A minimal prototype touchscreen instrument. <a href="https://doi.org/10.5281/zenodo.51605">https://doi.org/10.5281/zenodo.51605</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ad">Charles Martin. 2016. SnowMusic: A touchscreen instrument for performing with snow and ice sounds. <a href="https://doi.org/10.5281/zenodo.51630">https://doi.org/10.5281/zenodo.51630</a></span></li>
-<li><span class="citation" data-cites="Martin:2013mz">Charles Martin. 2013. MetaTravels: A prototype touch-screen musical instrument for iPad. <a href="https://doi.org/10.5281/zenodo.50705">https://doi.org/10.5281/zenodo.50705</a></span></li>
-<li><span class="citation" data-cites="Martin:2013zl">Charles Martin. 2013. OSC Logger: A cocoa application for logging OSC messages to a text file. <a href="https://doi.org/10.5281/zenodo.50703">https://doi.org/10.5281/zenodo.50703</a></span></li>
-</ul>
-<h3 id="open-data-sets">Open Data Sets</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2016fc">Charles Martin, Ben Swift, and Henry Gardner. 2016. Metatone-analysis v0.1. <a href="https://doi.org/10.5281/zenodo.51710">https://doi.org/10.5281/zenodo.51710</a> URL: <a href="http://dx.doi.org/10.5281/zenodo.51710">http://dx.doi.org/10.5281/zenodo.51710</a></span></li>
-<li><span class="citation" data-cites="Martin:2016kq">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2016. Ensemble Metatone 2013 rehearsal study performance data. <a href="https://doi.org/10.5281/zenodo.51595">https://doi.org/10.5281/zenodo.51595</a></span></li>
-</ul>
-<h3 id="selected-research-led-artistic-performances">Selected Research-Led Artistic Performances</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2017zz">Charles P. Martin, Alexander Refsum Jensenius, Kari Anne Vadstensvik Bjerkestrand, and Victoria Johnson. 2017. Stillness under tension: Performance for Myo armbands and Bela embedded computers. In <em>MusicLab vol.1: Biophysical music</em>.. <a href="https://doi.org/10.5281/zenodo.1215956">https://doi.org/10.5281/zenodo.1215956</a> URL: <a href="https://youtu.be/tDkJqoFpnF8">https://youtu.be/tDkJqoFpnF8</a></span></li>
-<li><span class="citation" data-cites="Jensenius:2017aa">Alexander Refsum Jensenius, Kari Anne Vadstensvik Bjerkestrand, Victoria Johnson, Gonzalez SanchezVictor Evaristo, Agata Zelechowska, and Charles Patrick Martin. 2017. Sverm-resonans: Performance installation for acoustically-activated guitars. In <em>Program of the Ultima Contemporary Music Festival, Oslo</em>. Ultima, Sentralen, Oslo, Norway. Retrieved from <a href="http://www.uio.no/english/research/groups/fourms/projects/sverm/events/2017/ultima/index.html">http://www.uio.no/english/research/groups/fourms/projects/sverm/events/2017/ultima/index.html</a></span></li>
-<li><span class="citation" data-cites="Martin:2017an">Charles Patrick Martin, Gonzalez SanchezVictor Evaristo, Tejaswinee Kelkar, Agata Zelechowska, Stig Johan Berggren, Christina Hopgood, Benedikte Wallace, Henrik Brustad, Bjørnar Utne-Reitan, Kai Olav Ellefsen, Tønnes Frostad Nygaard, Vegard Dønnem Søyseth, Guilherme Schmidt Câmara, and Ximena Alarcón Diaz. 2017. Ensemble metatone: 3-hour improvised touchscreen performance. In <em>Elvelangs i fakkellys (river walk by lantern light)</em>.. Retrieved from <a href="https://youtu.be/NepiJe-TB_Q">https://youtu.be/NepiJe-TB_Q</a></span></li>
-<li><span class="citation" data-cites="Martin:2017ad">Charles Patrick Martin. 2017. Neural Touchscreen Ensemble Performance 2017-07-03. <a href="https://doi.org/10.5281/zenodo.831910">https://doi.org/10.5281/zenodo.831910</a> URL: <a href="https://doi.org/10.5281/zenodo.831910">https://doi.org/10.5281/zenodo.831910</a></span></li>
-<li><span class="citation" data-cites="Martin:2016ac">Charles P. Martin. 2016. PhaseRings for iPad ensemble and ensemble director agent. In <em>Musical program of the international conference on auditory display</em>. 232–233. Retrieved from <a href="http://www.icad.org/icad2016/proceedings/concert/ICAD2016_paper_99.pdf">http://www.icad.org/icad2016/proceedings/concert/ICAD2016_paper_99.pdf</a></span></li>
-<li><span class="citation" data-cites="Helyard:2014aa">Erin Helyard, Alexander Hunter, and Charles Martin. 2014. Helyard, Hunter, Martin: Experimental Music Studio Performance (ANU School of Music and ANU Drill Hall Gallery). </span></li>
-<li><span class="citation" data-cites="Martin:2014ab">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2014. Colour Music Concert with Ensemble Metatone. In <em>Colour Music Concert Series</em>. ANU Drill Hall Gallery, Canberra, Australia. Retrieved from <a href="https://youtu.be/ICeHWlNRsgU">https://youtu.be/ICeHWlNRsgU</a></span></li>
-<li><span class="citation" data-cites="Martin:2014ac">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2014. Ensemble Metatone: Loner Series Concert. In <em>You are here festival</em>. Canberra, Australia. Retrieved from <a href="https://youtu.be/vNdSjO7H9vE">https://youtu.be/vNdSjO7H9vE</a></span></li>
-<li><span class="citation" data-cites="Finkelmeier:2013aa">Maria Finkelmeier, Charles Martin, and Jacob Remington. 2013. Ensemble Evolution: Showcase concert. In <em>Percussive arts society international convention</em> (PASIC ’13).. Retrieved from <a href="https://youtu.be/zqnffMAHbPA">https://youtu.be/zqnffMAHbPA</a></span></li>
-<li><span class="citation" data-cites="Martin:2013ec">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2013. Ensemble metatone: Research concert 2013-08-03. Retrieved from <a href="http://hdl.handle.net/1885/101467">http://hdl.handle.net/1885/101467</a></span></li>
-<li><span class="citation" data-cites="Martin:2013aa">Charles Martin. 2013. Nordlig vinter for vibraphone and iOS devices. In <em>Musical program of the international conference on new interfaces for musical expression</em> (NIME ’13). Daejeon, Republic of Korea.</span></li>
-<li><span class="citation" data-cites="Lai:2010ab">Chi-Hsia Lai and Charles Martin. 2010. Strike on Stage 1.2 for percussion and interactive media. In <em>Musical program of the Australasian computer music conference</em>.. Retrieved from <a href="https://vimeo.com/13543935">https://vimeo.com/13543935</a></span></li>
-<li><span class="citation" data-cites="Lai:2010aa">Chi-Hsia Lai and Charles Martin. 2010. Strike on Stage for percussion and interactive media. In <em>Musical program of the international conference on new interfaces for musical expression</em>.. Retrieved from <a href="http://www.nime.org/2010/program.html#Performances">http://www.nime.org/2010/program.html#Performances</a></span></li>
-</ul>
-<h3 id="selected-music-recordings">Selected Music Recordings</h3>
-<ul>
-<li><span class="citation" data-cites="Martin:2017ap">Charles Martin and Alexander Hunter. 2017. Andromeda is coming [album]. Retrieved from <a href="https://collectedresonances.bandcamp.com/album/andromeda-is-coming">https://collectedresonances.bandcamp.com/album/andromeda-is-coming</a></span></li>
-<li><span class="citation" data-cites="Martin:2015ab">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2015. Colour Music [Album]. Retrieved from <a href="https://charlesmartin.bandcamp.com/album/colour-music">https://charlesmartin.bandcamp.com/album/colour-music</a></span></li>
-<li><span class="citation" data-cites="Ensemble-Metatone:2014sf">Charles Martin, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam. 2014. Ensemble Metatone [album]. Retrieved from <a href="https://charlesmartin.bandcamp.com/album/ensemble-metatone/">https://charlesmartin.bandcamp.com/album/ensemble-metatone/</a></span></li>
-<li><span class="citation" data-cites="Martin:2013ab">Charles Martin. 2013. Nordlig Vinter [album]. Retrieved from <a href="https://charlesmartin.bandcamp.com/album/nordlig-vinter">https://charlesmartin.bandcamp.com/album/nordlig-vinter</a></span></li>
-<li><span class="citation" data-cites="Evolution:2013kc">Charles Martin, Maria Finkelmeier, and Jacob Remington. 2013. Ensemble Evolution: Sounds from the treetops [album]. Retrieved from <a href="https://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops">https://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops</a></span></li>
-</ul>
+<style>
+// Bibliography boxes
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  /*transition: max-height .5s cubic-bezier(0, 1, 0, 1);*/
+&.show {
+    max-height: 99em;
+    /*transition: max-height .5s ease-in-out;*/
+  }
+}
+</style>
 
+{% bibliography %}
+
+<script>
+// map our commands to the classList methods
+const fnmap = {
+  'toggle': 'toggle',
+    'show': 'add',
+    'hide': 'remove'
+};
+const collapse = (selector, cmd) => {
+  const targets = Array.from(document.querySelectorAll(selector));
+  targets.forEach(target => {
+    target.classList[fnmap[cmd]]('show');
+  });
+}
+
+// Grab all the trigger elements on the page
+const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
+// Listen for click events, but only on our triggers
+window.addEventListener('click', (ev) => {
+  const elm = ev.target;
+  if (triggers.includes(elm)) {
+    const selector = elm.getAttribute('data-target');
+    collapse(selector, 'toggle');
+  }
+}, false);
+</script>
