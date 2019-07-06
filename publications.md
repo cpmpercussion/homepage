@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-<style>
+<!-- <style>
 // Bibliography boxes
 *, ::after, ::before {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ permalink: /publications/
     /*transition: max-height .5s ease-in-out;*/
   }
 }
-</style>
+</style> -->
 
 {% bibliography %}
 
