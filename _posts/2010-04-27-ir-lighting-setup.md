@@ -9,10 +9,11 @@ published: true
 meta: {}
 ---
 
-![201004-SOS-IRscreen]({{site.baseurl}}/assets/posterous/strikeonstage/201004-SOS-IRscreen.jpg)
-<!-- [![](http://posterous.com/getfile/files.posterous.com/strikeonstage/ofzhigOoLSxiR5uzXSRWNdNQTtYvEZW7ueMlDNYWgbbSaxTLzhx4KnAPDb96/SOS-IRscreen.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/strikeonstage/FrHV1RsrosQuKeHk8PneGniSCw9xCd1iT4WdXZMopeHTz5mK6FsMmiU7Hyza/SOS-IRscreen.jpg)  -->
 
 !!
+
+![201004-SOS-IRscreen]({{site.baseurl}}/assets/posterous/strikeonstage/201004-SOS-IRscreen.jpg)
+
 
 Today Lisa received our new infrared LED lights and we set them up on the rack we had already made. 
 
