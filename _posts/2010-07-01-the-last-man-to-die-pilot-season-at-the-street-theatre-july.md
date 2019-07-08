@@ -1,8 +1,8 @@
 ---
 layout: post
 title: THE LAST MAN TO DIE - Pilot Season at The Street Theatre July 7-8
-categories: []
-tags: []
+categories: [lmtd]
+tags: [lmtd, show, announcement]
 status: publish
 type: post
 published: true
@@ -46,6 +46,4 @@ and PACT Centre for Emerging Artists.
 TechNyou information service can be contacted to answer enquiries about emerging technologies: 
 [http://technyou.edu.au/](http://technyou.edu.au/) or 1800 631 276
 
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/rFxOpD8f37Yc7sVRQGSl35x7zSLrCz8vgIcu9j81pMe45tc49U0HdT5yt8HN/StreetMock.png.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/um1LzztQdL4DyN66FVLKxSlY6f8qlprNjCb22AcrIrscBDl8lGD27Xw1jJN7/StreetMock.png.scaled.1000.jpg)  
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/the-last-man-to-die-pilot-season-at-the-stree)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/2010-06-StreetMock.png)

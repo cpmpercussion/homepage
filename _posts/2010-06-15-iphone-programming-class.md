@@ -1,17 +1,18 @@
 ---
 layout: post
 title: IPhone programming class.
-categories: []
-tags: []
+categories: [NIME]
+tags: [ios, nime, conference]
 status: publish
 type: post
 published: true
 meta: {}
 ---
 
+iPhone OS programming at NIME2010 in Sydney.
 
+![]({{site.baseurl}}/assets/posterous/charlesmartin/2010-06-nime2010-iphoneprogramming.jpg)
 
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/RZjf1FeII5DhiNlaKxs387CzFGBWQcVhvtEUILdipl27caFe2I3IEi8Jd1H8/photo.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/GIZVIDsdrkCLZRJXJawP5S6rSQycVKT2SXNVcjJJA7C2bf415qVKEct8xU9t/photo.jpg) 
 --Charles 
 [Posted via email](http://posterous.com)  from 
 [charles martin](http://charlesmartin.posterous.com/iphone-programming-class)
