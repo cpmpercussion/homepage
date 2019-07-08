@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=1924451892/size=small/bgcol=ffffff/linkcol=0687f5/track=2761195598/transparent=true/" seamless><a href="http://charlesmartin.bandcamp.com/album/travel">Travel by Charles Martin</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1924451892/size=small/bgcol=ffffff/linkcol=0687f5/track=2761195598/transparent=true/" seamless><a href="https://charlesmartin.bandcamp.com/album/travel">Travel by Charles Martin</a></iframe>
 
 Field recording of Namba Walk, Osaka - later mixed into this little musique concrete track. Check out the whole piece I wrote using this material:
 
