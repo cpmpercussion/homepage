@@ -6,13 +6,12 @@ categories:
 tags:
 - thoughts
 - Canberra
-status: publish
 type: post
-published: true
+published: false
 meta: {}
 ---
 
-![Fitter's Workshop](http://farm4.static.flickr.com/3577/3496432939_e5433f5409.jpg)
+![Fitter's Workshop](https://farm4.static.flickr.com/3577/3496432939_e5433f5409.jpg)
 
 A bit of controversy on the blargs recently about "Fitter's Workshop", an antique building in Canberra (the controversy being whether the ACT Government should turn it into a facility for printmakers or into a concert venue).  I've been out of town for a while, so I don't know all the details of the latest flare up, but I'm going to share the thoughts that I've had since last year.
 

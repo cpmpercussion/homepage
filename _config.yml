@@ -16,7 +16,7 @@ twitter:            cpmpercussion
 instagram:          cpmpercussion
 github:             cpmpercussion
 soundcloud:         charlesmartin
-scholar:            mTlH4G8AAAAJ
+googlescholar:            mTlH4G8AAAAJ
 arxiv:              https://arxiv.org/a/martin_c_1.html
 orcid:              https://orcid.org/0000-0001-5683-7529
 
@@ -42,6 +42,21 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-scholar
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+# Jekyll Scholar config
+# See here for config: https://github.com/inukshuk/jekyll-scholar
+scholar:
+  style: "/_bibliography/acm-sigchi-proceedings.csl"
+  source: _bibliography
+  bibliography: publications.bib
+  repository: preprints
+  bibliography_template: bibliography
+  group_by: year
+  group_order: descending
+  bibliography_list_tag: "ul"
+  bibliography_item_tag: "li"
+

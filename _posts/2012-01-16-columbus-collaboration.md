@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2012-01-16-ColumbusCollab1.jpg)
+![]({{site.baseurl}}/assets/blog/2012/2012-01-16-ColumbusCollab1.jpg)
 
 In November 2011, I visited Columbus, Ohio to work with my friend Noah Demland.
 
@@ -31,8 +31,8 @@ Anyway, my role with this visit was to work with Mr Demland's classes, teaching 
 
 <!-- TODO: see if these flickr images still work. -->
 
-![Teaching at ACPA](http://farm8.staticflickr.com/7034/6707111289_8474471296.jpg)
-[(image source)](http://www.flickr.com/photos/chuck_notorious/6707111289/)
+![Teaching at ACPA]({{site.baseurl}}/assets/blog/2012/2012-01-16-columbusteaching1.jpg)
+[(image source)](https://www.flickr.com/photos/chuck_notorious/6707111289/)
 
 The high school teaching was completey exhausting. I have a lot of experience teaching, particularly one-on-one, but these students were uniquely enthusiastic about creativity. Whether they were interested in my projects or wanting to show me theirs, I hardly had a spare moment while I was in the class room.
 
@@ -44,8 +44,8 @@ The third project was to use these sounds to compose a piece for the whole class
 
 ### drums + gadgets
 
-![Concert- wednesday](http://farm7.staticflickr.com/6056/6343814629_6b331bebfc.jpg)
-[(image source)](http://www.flickr.com/photos/chuck_notorious/6343814629/)
+![Concert wednesday]({{site.baseurl}}/assets/blog/2012/2012-01-16-drumsandgadgets1.jpg)
+[(image source)](https://www.flickr.com/photos/chuck_notorious/6343814629/)
 
 Noah and I had agreed to put on a concert while I was in Columbus that we called "drums + gadgets". Our idea was to use the crazy instruments Noah had and the strange computer music gadgets I was bringing with me to play some music.
 
@@ -57,17 +57,12 @@ On the day of the concert, we realised we wanted to use the ideas we were having
 
 Here's a video of Nordlig Vinter from the concert:
 
-<!-- https://youtu.be/fL4UxD_AwnQ -->
 {% include youtubePlayer.html id="fL4UxD_AwnQ" %}
-
-<!-- Some of the recordings are up on Soundcloud here: -->
-<!-- TODO: Insert soundcloud recordings of columbus collaboration -->
 
 It was especially fun to rely on my iPad and iPhone instruments so much in this concert. I'd played around a lot with some little programs, but it wasn't until drums + gadgets that I had a good chance to really let these "instruments" loose. The best surprise here was that my iPhone + iRig works well with a contact microphone. We used this setup to process the sound of Noah's washing machine drum (literally from a washing machine). It was awesome.
 
-![IMG_9020](http://farm8.staticflickr.com/7153/6707135271_32c13a5b92.jpg)
-
-[(image source)](http://www.flickr.com/photos/chuck_notorious/6707135271/)
+![Performing at Drums and Gadgets]({{site.baseurl}}/assets/blog/2012/2012-01-16-drumsandgadgets3.jpg)
+[(image source)](https://www.flickr.com/photos/chuck_notorious/6707135271/)
 
 So the concert happened, I think we played pretty well, had a lot of fun and the audience seemed to appreciate the music and the whole experience. One of the great things about working at Feverhead rather than a big concert venue or even a university is that you don't feel like a customer or a hassle. Feverhead is awesome because cool people put stuff on there and make it happen and I got the feeling that everybody appreciated our efforts to put on a performance and 
 use the venue.
@@ -80,6 +75,6 @@ I really felt that the different environment in Columbus brought out a different
 
 Also this hotdog was amazing:
 
-[![IMG_1066](http://farm8.staticflickr.com/7027/6707135699_f2a30533b2.jpg)](http://www.flickr.com/photos/chuck_notorious/6707135699/)
+[![Columbus Hotdog]({{site.baseurl}}/assets/blog/2012/2012-01-16-columbushotdog.jpg)](http://www.flickr.com/photos/chuck_notorious/6707135699/)
 
-![]({{ site.baseurl }}/squarespace_images/2012-01-16-ColumbusCollab2.jpg)
+![]({{site.baseurl}}/assets/blog/2012/2012-01-16-drumsandgadgets2.jpg)

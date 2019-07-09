@@ -21,10 +21,9 @@ This is waay more complicated that using a wire... Mainly because we need a whol
 
 I can see an Arduino Pro Mini in my future... The ultimate minimal arduino! So cool!
 
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/T0IkZttk2RPE4BwBA1C0HIjl60dpxkLwB2jKH0FdLNGEUDUBZVFrJcthqgvk/photo_1.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/lnFEsiVds13avt1HNspVIOPZJOWf2oqmDd9joelObQufyxQOyPDqXsFNle2v/photo_1.jpg.scaled.1000.jpg) 
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/E9mcoWbKgSqJaK6viJ3DcvAwtmcfnd8isDZCusgNfQpcdZahj7yA7e8XxulY/photo_2.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/oPWitVnO3FDCsHdrVIDLFsLwy5v6rpMfCizqJpSBMe4Nbrdt0m7LjtAmvGdO/photo_2.jpg.scaled.1000.jpg) 
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/LYGNF9YtyTrlyHHc9S6Zz8LlMa6Mr0rJYIpyNGZU9Nq3bhBS4VaG3Gqi9Upd/photo_3.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/tpy161ydvL4CPoULe9ywhYhFxLCvuT39yb8FnKzkZcL0ny43bLcSgBaPQaXZ/photo_3.jpg.scaled.1000.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101008-actorarduino1.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101008-actorarduino2.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101008-actorarduino3.jpg)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/wireless-actor-arduino-for-lmtd) 
 [Posted via email](http://posterous.com)  from 
 [charles martin](http://charlesmartin.posterous.com/wireless-actor-arduino-for-lmtd)

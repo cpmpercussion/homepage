@@ -15,6 +15,8 @@ published: true
 meta: {}
 ---
 
- <!-- TODO: Find the image for this post. -->
-
 I went to Nicholas Collins' "hardware hacking" workshop at NIME2011. It was SO FUN.
+
+[video](https://vimeo.com/346998758)
+
+{% include vimeoPlayer.html id=346998758 %}

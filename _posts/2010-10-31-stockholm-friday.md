@@ -13,12 +13,20 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmFriday1.jpg)
+Stockholm tour with Evolution.
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmFriday2.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmFriday3.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday2.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmFriday4.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday3.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmFriday5.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday4.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday5.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday6.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday7.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-StockholmFriday8.jpg)
