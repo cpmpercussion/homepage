@@ -9,7 +9,7 @@ published: true
 meta: {}
 ---
 
-<!-- TODO: Fix video and image here what's going on IMG_0628.MOV now at https://vimeo.com/346996615 -->
+<!-- video IMG_0628.MOV now at https://vimeo.com/346996615 -->
 
 Black box @ studio Acusticum. Now...
 

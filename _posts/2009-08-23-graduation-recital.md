@@ -13,7 +13,9 @@ meta: {}
 
 I performed my final recital for the Master of Music course at the ANU School of Music in July.
 
-The video is available [here](http://gallery.me.com/cpmartin#100183).
+The video is available [here](https://vimeo.com/8288920).
+
+{% include vimeoPlayer.html id=8288920 %}
 
 The program was:
 
@@ -23,5 +25,3 @@ The program was:
 * Time for Marimba - Minoru Miki
 * Music for Snare Drum and Computer - Cort Lippe
 * Kalabash - Nigel Westlake
-
-<!-- TODO: Find the video again -->
