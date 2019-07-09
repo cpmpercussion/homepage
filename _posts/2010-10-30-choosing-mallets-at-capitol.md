@@ -16,4 +16,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-30-Mallets.jpg)
+Picking out some extra mallets for our Evolution concert.
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101030-mallets.jpg) 
+

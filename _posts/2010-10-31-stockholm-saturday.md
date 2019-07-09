@@ -13,6 +13,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmSaturday1.jpg)
+Capitol in Stockholm.
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-31-StockholmSaturday2.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-stockholmsaturday1.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101031-stockholmsaturday2.jpg)

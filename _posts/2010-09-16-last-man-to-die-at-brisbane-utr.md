@@ -9,10 +9,9 @@ published: true
 meta: {}
 ---
 
-
-
 Activating face scanning!
-[![](http://posterous.com/getfile/files.posterous.com/charlesmartin/j8BYnZRJ8rrAlWsYDnXI7sljqno8DZ7Ef2jjsWayHP7f16WmVfWQUapd2tU1/photo.jpg.scaled.500.jpg)](http://posterous.com/getfile/files.posterous.com/charlesmartin/pWTXa9Q6pWd7lBdKZuaYENYSXZufFuFtdDggxt3OLBG2HA0NhgoFpJd6ZBdH/photo.jpg.scaled.1000.jpg)
+
+![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100916-LMTDbrisbane.jpg)
 
 -Charles 
 [Posted via email](http://posterous.com)  from 

@@ -15,11 +15,11 @@ meta: {}
 
 Including - the concert hall (Acusticum) with it's strange spire thing + my friends Maria and Jake. Some roads, houses and the ocean!
 
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea1.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea2.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea3.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea4.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea5.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea6.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea7.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-10-21-ViewsOfPitea8.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-acousticum.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5046.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5070.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5071.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5075.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5077.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5081.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-viewsofpitea-IMG_5086.jpg)
