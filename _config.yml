@@ -17,7 +17,7 @@ twitter:            cpmpercussion
 instagram:          cpmpercussion
 github:             cpmpercussion
 soundcloud:         charlesmartin
-googlescholar:            mTlH4G8AAAAJ
+googlescholar:      mTlH4G8AAAAJ
 arxiv:              https://arxiv.org/a/martin_c_1.html
 orcid:              https://orcid.org/0000-0001-5683-7529
 
@@ -47,6 +47,9 @@ plugins:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+include:
+- _redirects
 
 # Jekyll Scholar config
 # See here for config: https://github.com/inukshuk/jekyll-scholar
