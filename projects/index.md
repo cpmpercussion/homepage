@@ -13,7 +13,7 @@ I'm a performer and researcher in music technology, this page is about projects 
 
 Broadly I work at the intersection of music performance (computer and percussion), new interfaces for musical expression, and computation intelligence (ML/AI), and I'm always looking for new ways to combine these interests!
 
-![Charles Martin Background]({{site.baseurl}})/assets/images/charlesmartin-background.jpg)
+![Charles Martin Background]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
 
 ### Ensembles
 
