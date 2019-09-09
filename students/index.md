@@ -4,6 +4,8 @@ title: Students
 permalink: /students/
 ---
 
+![Teaching header, a metatone performance with friends]({{site.baseurl}}/assets/images/performing/metatone-header.jpg)
+
 **Currently Recruiting!** I'm currently looking for **PhD students** in the field of musical machine learning, particularly for projects focussed on using AI/ML in live performance!
 
 If you're passionate about _music, machine learning, and computer science_ (or some weighting of those three fields), and want to be a part of [an innovative college](https://cecs.anu.edu.au/reimagine) at one of the [world's top universities](https://services.anu.edu.au/planning-governance/performance-measurement/world-rankings), get in touch through [ANU](https://cecs.anu.edu.au/people/charles-martin), or on [Twitter](https://twitter.com/cpmpercussion)!
@@ -21,6 +23,8 @@ I used to teach:
 - [Advanced Topics in AI for Intelligent Systems (IN5490)](https://www.uio.no/studier/emner/matnat/ifi/IN5490) at the University of Oslo,
 - [Art and Interaction in New Media (COMP1720)](https://cs.anu.edu.au/courses/comp1720),
 - [Drums and Percussion at the ANU School of Music](https://music.cass.anu.edu.au/performance-ensemble/drums-and-percussion).
+
+![teaching a group]({{site.baseurl}}/assets/images/teaching/bela-workshop-header.jpg)
 
 ## Research Students
 
