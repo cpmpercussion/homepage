@@ -36,7 +36,11 @@ The [Intelligent Musical Prediction System (IMPS)]({{site.baseurl}}/imps/) is a 
 
 This project was to develop a physically encapsulated musical neural network. The box contains a Raspberry running a melody-generating recurrent neural network that continually composes music. You can adjust the sound, tempo, the ML-model used, and the "randomness" of the chosen samples to guide the music making process.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/TKRIuWAYyrhkxZxzEp" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<!-- <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/TKRIuWAYyrhkxZxzEp" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+ -->
+{% include youtubePlayer.html id="2RDVyOTRAj4" %}
+
+<!-- https://youtu.be/2RDVyOTRAj4 -->
 
 ### PhaseRings for ML-connected touchscreen ensemble
 
