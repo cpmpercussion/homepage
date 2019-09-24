@@ -48,6 +48,10 @@ PhaseRings is a touchscreen instrument that works with an ML-connected ensemble.
 
 ![Musicians performing on ML-enhanced touchscreen instruments]({{site.baseurl}}/assets/images/teaching/ipad-ensemble.jpg)
 
+{% include youtubePlayer.html id="aDEQMLwd8ok" %}
+
+<!-- https://youtu.be/aDEQMLwd8ok -->
+
 ### Self-playing, sensor-driven guitars
 
 This installation of six, self-playing sensor-driven guitars was developed as part of collaborations at the University of Oslo's RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion. Each guitar uses a [Bela](https://bela.io) embedded computer to generate sounds from a speaker driver attached to the guitar body. A distance sensor track the movement of listeners in the environment and the guitars use a firefly synchronisation algorithm to phase in and out of time. 
