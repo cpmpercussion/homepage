@@ -27,7 +27,7 @@ Our work combines three cutting edge fields of research:
 ### Intelligent Musical Prediction System (IMPS)
 
 The [Intelligent Musical Prediction System (IMPS)]({{site.baseurl}}/imps/) is a system for connecting musicians and interface developers with deep neural networks. IMPS connects with any musical interface or software using open sound control (OSC) and helps users to record a dataset, train a neural network and interact with it in real-time performance. See it in action in demo video below:
-
++61431970954
 {% include youtubePlayer.html id="Kdmhrp2dfHw" %}
 
 <!-- https://youtu.be/Kdmhrp2dfHw -->
