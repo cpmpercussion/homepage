@@ -55,6 +55,17 @@ This installation of six self-playing, sensor-driven guitars was developed as pa
 
 ![Self-playing sensor-driven guitars]({{site.baseurl}}/assets/images/performing/bela-guitars2.jpg)
 
+### Embodied Predictive Musical Instrument (EMPI)
+
+The EMPI is a minimal electronic musical instrument for experimenting
+with predictive interaction techniques. It includes a single physical
+input (a lever) and a matching physical output, built-in speaker, and
+a Raspberry Pi for sound synthesis and ML computations.
+
+{% include youtubePlayer.html id="tvgqxmHr9wU" %}
+
+<!-- https://youtu.be/tvgqxmHr9wU -->
+
 <!--
 
 Summer project goals:
