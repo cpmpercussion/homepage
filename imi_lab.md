@@ -24,7 +24,7 @@ Our work combines three cutting edge fields of research:
 
 ## Projects
 
-
+Here's some information about some musical AI projects we have worked on.
 
 ### Intelligent Musical Prediction System (IMPS)
 
