@@ -1700,13 +1700,13 @@
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		margin: 0 0 0.5rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
-		line-height: 1.5;
+		line-height: 1.1;
 		letter-spacing: 0.075em;
 		/*text-transform: uppercase;*/
 		margin: 0 0 1rem 0;
@@ -1726,13 +1726,13 @@
 
 	h2 {
 		font-size: 1.75rem;
-		line-height: 1.3;
-		margin: 0 0 1.5rem 0;
+		line-height: 1.0;
+		margin: 0 0 0.5rem 0;
 	}
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 0.5rem 0;
 	}
 
 	h4 {
@@ -3565,8 +3565,8 @@
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			padding: 2rem 4rem 1rem 4rem ;
+			border-top: solid 1px #eeeeee;
 			margin: 0;
 		}
 
@@ -3579,7 +3579,7 @@
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 8rem 4rem 8rem ;
 		}
 
 		#main > .post img {
@@ -3671,7 +3671,7 @@
 
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 2rem 4rem 2rem 4rem;
 				width: 100%;
 			}
 
@@ -3702,7 +3702,7 @@
 				}
 
 				#main > .posts > * {
-					padding: 2.5rem;
+					padding: 2rem 2.5rem 2rem 2.5rem;
 					width: 100%;
 				}
 

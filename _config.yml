@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Charles Martin is a postdoctoral fellow specialising in music technology and machine learning at the Department of Informatics, University of Oslo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://charlesmartin.com.au" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://trusting-borg-6cefd0.netlify.com"
 # baseurl: ""
 twitter_username: cpmpercussion
 github_username:  cpmpercussion
@@ -16,7 +17,7 @@ twitter:            cpmpercussion
 instagram:          cpmpercussion
 github:             cpmpercussion
 soundcloud:         charlesmartin
-googlescholar:            mTlH4G8AAAAJ
+googlescholar:      mTlH4G8AAAAJ
 arxiv:              https://arxiv.org/a/martin_c_1.html
 orcid:              https://orcid.org/0000-0001-5683-7529
 
@@ -46,6 +47,9 @@ plugins:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+include:
+- _redirects
 
 # Jekyll Scholar config
 # See here for config: https://github.com/inukshuk/jekyll-scholar

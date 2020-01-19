@@ -17,21 +17,10 @@
 
 - title: projects
   url: /projects/
-  sublinks:
-    - title: Andromeda is Coming
-      url: //andromeda-is-coming/
-    - title: Compositions
-      url: /compositions/
-    - title: Ensemble Evolution
-      url: /ensemble-evolution/
-    - title: Last Man to Die
-      url: /lmtd/
-    - title: Metatone
-      url: /metatone/
-    - title: Nordlig Vinter
-      url: /nordlig-vinter/
-    - title: Strike on Stage
-      url: /strike-on-stage/
+
+
+- title: students
+  url: /students/
 
 # <ul class="links">
 #   <li><a href="{{ "/blog.html" | absolute_url }}">blog</a></li>
@@ -39,3 +28,19 @@
 #   <li><a href="{{ "/music/" | absolute_url }}">music</a></li>
 #   <li><a href="{{ "/publications/" | absolute_url }}">publications</a></li>
 # </ul>
+
+# sublinks:
+#   - title: Andromeda is Coming
+#     url: //andromeda-is-coming/
+#   - title: Compositions
+#     url: /compositions/
+#   - title: Ensemble Evolution
+#     url: /ensemble-evolution/
+#   - title: Last Man to Die
+#     url: /lmtd/
+#   - title: Metatone
+#     url: /metatone/
+#   - title: Nordlig Vinter
+#     url: /nordlig-vinter/
+#   - title: Strike on Stage
+#     url: /strike-on-stage/
