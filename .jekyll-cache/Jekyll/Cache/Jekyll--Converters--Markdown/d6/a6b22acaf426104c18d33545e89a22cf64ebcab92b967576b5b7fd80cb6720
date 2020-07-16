@@ -1,0 +1,40 @@
+I"}
+<p><img src="/assets/blogger/percussion-computer-thesis.jpg" alt="A percussion and computer performance from 2009" /></p>
+
+<p>I submitted my M.Mus thesis on Friday. It’s called Percussion and Computer in Live Performanceand is available <a href="http://hdl.handle.net/1885/13813">here online</a> or from the permanent link below:</p>
+
+<blockquote>
+  <p>Charles Martin. Percussion and computer in live performance. Master’s thesis, School of Music, The Australian National University, 2009. <a href="http://hdl.handle.net/1885/13813">http://hdl.handle.net/1885/13813</a></p>
+</blockquote>
+
+<h3 id="abstract">Abstract:</h3>
+
+<p>This thesis seeks to articulate a performer’s perspective of the interactions between percussion and computer in performance. A selection of compositions for percussion and computer will be used to explain how understanding the role of the computer can inform the player’s technical and musical choices and is vital to convey a cohesive performance. Two of the compositions are the author’s own work. Discussion of both the creation and performance of these works will suggest how using the computer with percussion extends the musical possibilities in a solo performance and allows implicit connections with practitioners of other art-forms.</p>
+
+<h3 id="bibtex">Bibtex:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@MastersThesis{Martin:2009MMus,
+  Author =       {Charles Martin},
+  School =       {School of Music, The Australian National University},
+  Title =        {Percussion and Computer in Live Performance},
+  Url =          {http://hdl.handle.net/1885/13813},
+  Abstract = {This thesis seeks to articulate a performer's
+              perspective of the interactions between percussion
+              and computer in performance. A selection of
+              compositions for percussion and computer will be
+              used to explain how understanding the role of the
+              computer can inform the player's technical and
+              musical choices and is vital to convey a cohesive
+              performance. Two of the compositions are the
+              author's own work. Discussion of both the creation
+              and performance of these works will suggest how
+              using the computer with percussion extends the
+              musical possibilities in a solo performance and
+              allows implicit connections with practitioners of
+              other art-forms.},
+  Keywords = {percussion, computer music, performance, interaction,
+              new interfaces for musical expression},
+  Year =         2009
+}
+</code></pre></div></div>
+:ET

@@ -1,0 +1,878 @@
+I"��<p>A list of all posts:</p>
+
+<ul>
+  <li>
+    <p>2020 07 08 - <a href="http://localhost:4000/blog/2020/07/08/streaming-lectures">A note on streaming lectures</a></p>
+  </li>
+  <li>
+    <p>2019 12 23 - <a href="http://localhost:4000/blog/2019/12/23/christmas-carillon">Christmas Carillon at the Canberra Centre</a></p>
+  </li>
+  <li>
+    <p>2019 09 09 - <a href="http://localhost:4000/blog/2019/09/09/EPEC-oslo-trip">EPEC trip to Oslo</a></p>
+  </li>
+  <li>
+    <p>2019 09 06 - <a href="http://localhost:4000/blog/2019/09/06/NIME2019">Musical ML at NIME2019</a></p>
+  </li>
+  <li>
+    <p>2019 08 13 - <a href="http://localhost:4000/blog/2019/08/13/commune-6">Commune 6 at Sideway</a></p>
+  </li>
+  <li>
+    <p>2018 07 17 - <a href="http://localhost:4000/blog/2018/07/17/NIME2018">Bela, Myo, and Standstill at NIME2018</a></p>
+  </li>
+  <li>
+    <p>2017 09 12 - <a href="http://localhost:4000/blog/2017/09/12/neural-network-ensembles-in-london-and-representing-collaborative-interaction">Neural Network Ensembles in London and Representing Collaborative Interaction</a></p>
+  </li>
+  <li>
+    <p>2017 06 22 - <a href="http://localhost:4000/blog/2017/06/22/microjam-at-boost">MicroJam at Boost</a></p>
+  </li>
+  <li>
+    <p>2017 05 29 - <a href="http://localhost:4000/blog/2017/05/29/music-tech-at-ifi">Music Tech at IFI</a></p>
+  </li>
+  <li>
+    <p>2017 05 03 - <a href="http://localhost:4000/blog/2017/05/03/performing-with-a-neural-touch-screen-ensemble">Performing with a Neural Touch-Screen Ensemble</a></p>
+  </li>
+  <li>
+    <p>2017 03 30 - <a href="http://localhost:4000/blog/2017/03/30/interactive-music-at-oslo-konserthust">Interactive Music at Oslo Konserthust</a></p>
+  </li>
+  <li>
+    <p>2016 07 10 - <a href="http://localhost:4000/blog/2016/07/10/concert-at-icad2016">Concert at ICAD2016</a></p>
+  </li>
+  <li>
+    <p>2015 06 07 - <a href="http://localhost:4000/blog/2015/06/07/nime2015-tracking-an-ipad-ensemble-with-gesture-classification-and-transition-matrices">NIME2015: Tracking an iPad Ensemble with Gesture Classification and Transition Matrices</a></p>
+  </li>
+  <li>
+    <p>2015 05 18 - <a href="http://localhost:4000/blog/2015/05/18/audio-cable-for-ipad-performance">Audio Cables for iPad Performance</a></p>
+  </li>
+  <li>
+    <p>2015 02 19 - <a href="http://localhost:4000/blog/2015/02/19/electronic-music-workshop-january-2015">Electronic Music Workshop - January 2015</a></p>
+  </li>
+  <li>
+    <p>2015 02 05 - <a href="http://localhost:4000/blog/2015/02/05/running-pd-on-the-intel-galileo">Running Pd on the Intel Galileo</a></p>
+  </li>
+  <li>
+    <p>2014 11 21 - <a href="http://localhost:4000/blog/2014/11/21/pasic-2014-seminar-ipads-in-percussion-ensemble">PASIC 2014 Seminar: iPads in Percussion Ensemble</a></p>
+  </li>
+  <li>
+    <p>2014 11 17 - <a href="http://localhost:4000/blog/2014/11/17/phaserings-released">PhaseRings released!</a></p>
+  </li>
+  <li>
+    <p>2014 10 27 - <a href="http://localhost:4000/blog/2014/10/27/pre-pasic-ios-development-montage">Pre-PASIC iOS Development Montage!</a></p>
+  </li>
+  <li>
+    <p>2014 10 20 - <a href="http://localhost:4000/blog/2014/10/20/frost-beat">Frost Beat</a></p>
+  </li>
+  <li>
+    <p>2014 10 17 - <a href="http://localhost:4000/blog/2014/10/17/featured-in-careers-with-code">Featured in “Careers with Code”</a></p>
+  </li>
+  <li>
+    <p>2014 08 01 - <a href="http://localhost:4000/blog/2014/08/01/review-2014-ameb-percussion-syllabus">Review: 2014 AMEB Percussion Syllabus</a></p>
+  </li>
+  <li>
+    <p>2014 06 25 - <a href="http://localhost:4000/blog/2014/06/25/walking-to-the-airport-in-toronto">Walking to the Airport in Toronto</a></p>
+  </li>
+  <li>
+    <p>2014 06 16 - <a href="http://localhost:4000/blog/2014/06/16/no-pickup-pickups-for-vibraphone">No-Pickup pickups for Vibraphone</a></p>
+  </li>
+  <li>
+    <p>2014 05 22 - <a href="http://localhost:4000/blog/2014/05/22/nordlig-vinter-ipad-concerts-in-boston">Touch and Tone: Experimental music for iPad and Percussion in Boston</a></p>
+  </li>
+  <li>
+    <p>2014 05 18 - <a href="http://localhost:4000/blog/2014/05/18/metatone-apps-at-chi2014">Metatone Apps at CHI2014</a></p>
+  </li>
+  <li>
+    <p>2014 03 25 - <a href="http://localhost:4000/blog/2014/03/25/new-album-ensemble-metatone">new album: Ensemble Metatone</a></p>
+  </li>
+  <li>
+    <p>2014 03 11 - <a href="http://localhost:4000/blog/2014/03/11/how-to-learn-pd">How to learn Pd</a></p>
+  </li>
+  <li>
+    <p>2014 01 30 - <a href="http://localhost:4000/blog/2014/01/30/more-objective-c-osc-library-adventures-f53osc-and-metatoneosc">More Objective C OSC Library Adventures: F53OSC and MetatoneOSC</a></p>
+  </li>
+  <li>
+    <p>2014 01 17 - <a href="http://localhost:4000/blog/2014/01/17/metalonsdale-for-four-ipads">MetaLonsdale for four iPads</a></p>
+  </li>
+  <li>
+    <p>2014 01 07 - <a href="http://localhost:4000/blog/2014/01/07/ensemble-metatone-research-in-concert">Ensemble Metatone - Research in Concert</a></p>
+  </li>
+  <li>
+    <p>2014 01 07 - <a href="http://localhost:4000/blog/2014/01/07/birds-nest-ipad-app-premiered-at-pasic2013">Bird’s Nest iPad app - premiered at PASIC2013!</a></p>
+  </li>
+  <li>
+    <p>2014 01 03 - <a href="http://localhost:4000/blog/2014/01/03/ensemble-evolution-at-pasic2013">Ensemble Evolution at PASIC2013</a></p>
+  </li>
+  <li>
+    <p>2013 12 04 - <a href="http://localhost:4000/blog/2013/12/04/theremin-75-videos-and-pictures">Theremin ‘75 - videos and pictures!</a></p>
+  </li>
+  <li>
+    <p>2013 12 01 - <a href="http://localhost:4000/blog/2013/12/01/ensemble-evolution-tour-in-boston">Ensemble Evolution tour in Boston!</a></p>
+  </li>
+  <li>
+    <p>2013 10 16 - <a href="http://localhost:4000/blog/2013/10/16/revenant-media-anu-school-of-art-gallery-next-friday">Revenant Media - ANU School of Art Gallery Next Friday!</a></p>
+  </li>
+  <li>
+    <p>2013 10 16 - <a href="http://localhost:4000/blog/2013/10/16/metatone-electrofringe">Metatone @ Electrofringe</a></p>
+  </li>
+  <li>
+    <p>2013 09 29 - <a href="http://localhost:4000/blog/2013/09/29/ensemble-metatone-electrofringe-2013">Ensemble Metatone @ Electrofringe 2013</a></p>
+  </li>
+  <li>
+    <p>2013 09 25 - <a href="http://localhost:4000/blog/2013/09/25/icmc-integrating-mobile-music-with-percussion">ICMC: Integrating Mobile Music with Percussion</a></p>
+  </li>
+  <li>
+    <p>2013 08 25 - <a href="http://localhost:4000/blog/2013/08/25/review-heroku-up-and-running-by-neil-middleton-and-richard-schneeman-oreilly-media">Review - Heroku: Up and Running by Neil Middleton and Richard Schneeman; O’Reilly Media</a></p>
+  </li>
+  <li>
+    <p>2013 07 18 - <a href="http://localhost:4000/blog/2013/07/18/getting-the-size-of-an-array-in-libpd">Getting the size of an array in libpd</a></p>
+  </li>
+  <li>
+    <p>2013 07 16 - <a href="http://localhost:4000/blog/2013/07/16/sounds-from-the-treetops-in-percusscene-issue-7">Sounds from the Treetops in PERCUSscene Issue 7</a></p>
+  </li>
+  <li>
+    <p>2013 07 05 - <a href="http://localhost:4000/blog/2013/07/05/speedier-saveframe-in-processing">Speedier saveFrame() in Processing</a></p>
+  </li>
+  <li>
+    <p>2013 07 03 - <a href="http://localhost:4000/blog/2013/07/03/everything-nothing-performance-this-sunday-7-july-6pm">Everything Nothing Performance - this Sunday, 7 July, 6pm!</a></p>
+  </li>
+  <li>
+    <p>2013 06 25 - <a href="http://localhost:4000/blog/2013/06/25/review-distributed-network-data-by-alasdair-allan-and-kipp-bradford-oreilly-media">Review: Distributed Network Data by Alasdair Allan and Kipp Bradford; O’Reilly Media</a></p>
+  </li>
+  <li>
+    <p>2013 06 10 - <a href="http://localhost:4000/blog/2013/06/10/review-beiner-bags-m55-vibraphone-cases">Review: Beiner Bags M55 Vibraphone Cases</a></p>
+  </li>
+  <li>
+    <p>2013 06 10 - <a href="http://localhost:4000/blog/2013/06/10/nordlig-vinter-solo-suite-nime2013">Nordlig Vinter Solo Suite @ NIME2013</a></p>
+  </li>
+  <li>
+    <p>2013 06 06 - <a href="http://localhost:4000/blog/2013/06/06/poster-presentation-at-nime2013">Poster Presentation at NIME2013</a></p>
+  </li>
+  <li>
+    <p>2013 06 03 - <a href="http://localhost:4000/blog/2013/06/03/ensemble-metatone-at-cimf">Ensemble Metatone at CIMF</a></p>
+  </li>
+  <li>
+    <p>2013 05 02 - <a href="http://localhost:4000/blog/2013/05/02/update-to-the-snow-music-app">Update to the Snow Music app</a></p>
+  </li>
+  <li>
+    <p>2013 04 29 - <a href="http://localhost:4000/blog/2013/04/29/sounds-from-the-treetops-cd-available">“Sounds from the Treetops” - CD Available!</a></p>
+  </li>
+  <li>
+    <p>2013 04 26 - <a href="http://localhost:4000/blog/2013/04/26/nordlig-vinter-app">Nordlig Vinter app now available for iOS devices!</a></p>
+  </li>
+  <li>
+    <p>2013 03 26 - <a href="http://localhost:4000/blog/2013/03/26/finding-a-good-osc-library-for-ios">Finding a good OSC library for iOS</a></p>
+  </li>
+  <li>
+    <p>2013 03 07 - <a href="http://localhost:4000/blog/2013/03/07/performance-teaching-fellow-at-the-anu">Performance Teaching Fellow at the ANU</a></p>
+  </li>
+  <li>
+    <p>2013 02 13 - <a href="http://localhost:4000/blog/2013/02/13/new-release-sounds-from-the-treetops">New release: Sounds from the Treetops!</a></p>
+  </li>
+  <li>
+    <p>2013 01 07 - <a href="http://localhost:4000/blog/2013/01/07/reading-music-with-ipads-percusscene-article">Reading Music with iPads - PERCUSScene Article</a></p>
+  </li>
+  <li>
+    <p>2012 12 18 - <a href="http://localhost:4000/blog/2012/12/18/rip-rjdj-2008-2012">RIP RjDj 2008-2012</a></p>
+  </li>
+  <li>
+    <p>2012 11 19 - <a href="http://localhost:4000/blog/2012/11/19/drumatix-the-next-phrase">DRUMatiX: The Next Phrase</a></p>
+  </li>
+  <li>
+    <p>2012 11 15 - <a href="http://localhost:4000/blog/2012/11/15/pite-percussion-repertoire-festival">Piteå Percussion Repertoire Festival</a></p>
+  </li>
+  <li>
+    <p>2012 11 01 - <a href="http://localhost:4000/blog/2012/11/01/libpd-linking-problems-with-xcode-45">libpd - linking problems with Xcode 4.5</a></p>
+  </li>
+  <li>
+    <p>2012 10 29 - <a href="http://localhost:4000/blog/2012/10/29/article-in-percusscene-issue-4">Article in PERCUSscene Issue 4!</a></p>
+  </li>
+  <li>
+    <p>2012 10 28 - <a href="http://localhost:4000/blog/2012/10/28/exporting-auxiliary-channels-in-logic">Exporting Auxiliary Channels in Logic</a></p>
+  </li>
+  <li>
+    <p>2012 10 22 - <a href="http://localhost:4000/blog/2012/10/22/ensemble-evolution-tour-in-sweden">Ensemble Evolution Tour in Sweden</a></p>
+  </li>
+  <li>
+    <p>2012 10 11 - <a href="http://localhost:4000/blog/2012/10/11/lunchbox-concert-at-the-anu-school-of-music">Lunchbox Concert at the ANU School of Music</a></p>
+  </li>
+  <li>
+    <p>2012 10 08 - <a href="http://localhost:4000/blog/2012/10/08/sounds-from-the-treetops-ensemble-evolution">Sounds from the Treetops - Ensemble Evolution</a></p>
+  </li>
+  <li>
+    <p>2012 10 08 - <a href="http://localhost:4000/blog/2012/10/08/solstromen-tour-of-australia-ensemble-evolution">Solstromen Tour of Australia: Ensemble Evolution</a></p>
+  </li>
+  <li>
+    <p>2012 10 08 - <a href="http://localhost:4000/blog/2012/10/08/nattmusik-with-ensemble-evolution">NattMusik with Ensemble Evolution</a></p>
+  </li>
+  <li>
+    <p>2012 10 01 - <a href="http://localhost:4000/blog/2012/10/01/jellyfish">jellyfish</a></p>
+  </li>
+  <li>
+    <p>2012 09 19 - <a href="http://localhost:4000/blog/2012/09/19/snow-music-app-released">Snow Music App Released!</a></p>
+  </li>
+  <li>
+    <p>2012 09 10 - <a href="http://localhost:4000/blog/2012/09/10/submitting-apps-with-libpd">Submitting iOS apps with libpd</a></p>
+  </li>
+  <li>
+    <p>2012 09 10 - <a href="http://localhost:4000/blog/2012/09/10/dishwashingbrush">Hot tip: Self-soaping dish brush</a></p>
+  </li>
+  <li>
+    <p>2012 08 27 - <a href="http://localhost:4000/blog/2012/08/27/three-new-drumset-etudes">Three new drumset etudes</a></p>
+  </li>
+  <li>
+    <p>2012 08 03 - <a href="http://localhost:4000/blog/2012/08/03/new-images-for-a-new-theme">New images for a new theme</a></p>
+  </li>
+  <li>
+    <p>2012 07 17 - <a href="http://localhost:4000/blog/2012/07/17/paper-in-acmc-2012">Paper in ACMC 2012</a></p>
+  </li>
+  <li>
+    <p>2012 06 26 - <a href="http://localhost:4000/blog/2012/06/26/mobile-computer-music-for-percussionists">Mobile Computer Music for Percussionists</a></p>
+  </li>
+  <li>
+    <p>2012 06 09 - <a href="http://localhost:4000/blog/2012/06/09/recording-in-stockholm">Recording in Stockholm</a></p>
+  </li>
+  <li>
+    <p>2012 06 03 - <a href="http://localhost:4000/blog/2012/06/03/nattmusik-tour-with-ensemble-evolution">Nattmusik Tour with Ensemble Evolution</a></p>
+  </li>
+  <li>
+    <p>2012 05 15 - <a href="http://localhost:4000/blog/2012/05/15/concert-at-palmgren-conservatorium">Concert at Palmgren Conservatorium</a></p>
+  </li>
+  <li>
+    <p>2012 05 11 - <a href="http://localhost:4000/blog/2012/05/11/ensemble-evolution-tour-to-pori">Ensemble Evolution tour to Pori</a></p>
+  </li>
+  <li>
+    <p>2012 04 22 - <a href="http://localhost:4000/blog/2012/04/22/vilnius-walk-in-the-rain">Vilnius Walk in the Rain</a></p>
+  </li>
+  <li>
+    <p>2012 04 19 - <a href="http://localhost:4000/blog/2012/04/19/sikt-in-stockholm">Sikt in Stockholm</a></p>
+  </li>
+  <li>
+    <p>2012 03 02 - <a href="http://localhost:4000/blog/2012/03/02/announcing-ensemble-evolutions-solstormen-tour-in-australia">Announcing Ensemble Evolution’s Solstormen Tour in Australia</a></p>
+  </li>
+  <li>
+    <p>2012 02 26 - <a href="http://localhost:4000/blog/2012/02/26/a-page-of-madness">A Page of Madness</a></p>
+  </li>
+  <li>
+    <p>2012 02 08 - <a href="http://localhost:4000/blog/2012/02/08/christinas-pitea-ragtime-workshop">Christina’s Piteå Ragtime Workshop</a></p>
+  </li>
+  <li>
+    <p>2012 01 16 - <a href="http://localhost:4000/blog/2012/01/16/columbus-collaboration">Columbus Collaboration</a></p>
+  </li>
+  <li>
+    <p>2011 12 20 - <a href="http://localhost:4000/blog/2011/12/20/jul-i-pitea">Jul i Piteå</a></p>
+  </li>
+  <li>
+    <p>2011 12 14 - <a href="http://localhost:4000/blog/2011/12/14/electronic-percussion-is-not-just-v-drums">Electronic Percussion is not just V-Drums</a></p>
+  </li>
+  <li>
+    <p>2011 11 27 - <a href="http://localhost:4000/blog/2011/11/27/mini-opera-in-pitea">Mini Opera in Piteå</a></p>
+  </li>
+  <li>
+    <p>2011 11 07 - <a href="http://localhost:4000/blog/2011/11/07/fairbanks-photo-attack-round-2">Fairbanks photo attack round 2</a></p>
+  </li>
+  <li>
+    <p>2011 11 04 - <a href="http://localhost:4000/blog/2011/11/04/fairbanks-photo-attack">Fairbanks photo attack</a></p>
+  </li>
+  <li>
+    <p>2011 10 28 - <a href="http://localhost:4000/blog/2011/10/28/new-nordlig-vinter-demo-recording">New Nordlig Vinter demo recording</a></p>
+  </li>
+  <li>
+    <p>2011 10 28 - <a href="http://localhost:4000/blog/2011/10/28/christina-and-charles-ragtime-project">Christina and Charles Ragtime Project</a></p>
+  </li>
+  <li>
+    <p>2011 10 28 - <a href="http://localhost:4000/blog/2011/10/28/a-computer-music-system-for-vibraphone">A computer music system for vibraphone</a></p>
+  </li>
+  <li>
+    <p>2011 09 29 - <a href="http://localhost:4000/blog/2011/09/29/nordlig-vinter-at-electrofringe">Nordlig Vinter at Electrofringe</a></p>
+  </li>
+  <li>
+    <p>2011 09 12 - <a href="http://localhost:4000/blog/2011/09/12/developing-for-rjdj-on-mac-os-x-lion">Developing for RjDj on Mac OS X Lion</a></p>
+  </li>
+  <li>
+    <p>2011 09 02 - <a href="http://localhost:4000/blog/2011/09/02/last-man-to-die-and-arduino-fio">Last Man to Die and Arduino Fio</a></p>
+  </li>
+  <li>
+    <p>2011 08 19 - <a href="http://localhost:4000/blog/2011/08/19/lessons-in-improvisation-and-jazz-vibraphonemarimba">lessons in improvisation and jazz vibraphone/marimba</a></p>
+  </li>
+  <li>
+    <p>2011 08 06 - <a href="http://localhost:4000/blog/2011/08/06/vibes-workshop-concert">Vibes Workshop Concert</a></p>
+  </li>
+  <li>
+    <p>2011 08 06 - <a href="http://localhost:4000/blog/2011/08/06/puns-of-newark">Puns of Newark</a></p>
+  </li>
+  <li>
+    <p>2011 08 06 - <a href="http://localhost:4000/blog/2011/08/06/puns-of-newark-volume-2">Puns of Newark volume 2</a></p>
+  </li>
+  <li>
+    <p>2011 08 03 - <a href="http://localhost:4000/blog/2011/08/03/delawhere">Delawhere?</a></p>
+  </li>
+  <li>
+    <p>2011 07 31 - <a href="http://localhost:4000/blog/2011/07/31/nyc">NYC</a></p>
+  </li>
+  <li>
+    <p>2011 07 30 - <a href="http://localhost:4000/blog/2011/07/30/lunch-in-nyc">Lunch in NYC</a></p>
+  </li>
+  <li>
+    <p>2011 07 19 - <a href="http://localhost:4000/blog/2011/07/19/video-workflow-for-terrible-avchd-cameras">Video workflow for terrible AVCHD cameras</a></p>
+  </li>
+  <li>
+    <p>2011 07 13 - <a href="http://localhost:4000/blog/2011/07/13/posterous-exporter-for-toto">Posterous exporter for Toto</a></p>
+  </li>
+  <li>
+    <p>2011 06 30 - <a href="http://localhost:4000/blog/2011/06/30/cool-things-at-nime2011">cool things at NIME2011</a></p>
+  </li>
+  <li>
+    <p>2011 06 25 - <a href="http://localhost:4000/blog/2011/06/25/inuksuit-rehearsal">Inuksuit rehearsal</a></p>
+  </li>
+  <li>
+    <p>2011 05 28 - <a href="http://localhost:4000/blog/2011/05/28/speaker-noise-instrument">Speaker noise instrument</a></p>
+  </li>
+  <li>
+    <p>2011 05 15 - <a href="http://localhost:4000/blog/2011/05/15/some-thoughts-on-grants">some thoughts on grants</a></p>
+  </li>
+  <li>
+    <p>2011 05 13 - <a href="http://localhost:4000/blog/2011/05/13/jakob-moe-lisa-stenberg-improvisations">Jakob Moe + Lisa Stenberg improvisations</a></p>
+  </li>
+  <li>
+    <p>2011 05 13 - <a href="http://localhost:4000/blog/2011/05/13/crowdfunding-musical-projects">Crowdfunding musical projects</a></p>
+  </li>
+  <li>
+    <p>2011 04 20 - <a href="http://localhost:4000/blog/2011/04/20/black-hole">Black hole</a></p>
+  </li>
+  <li>
+    <p>2011 04 13 - <a href="http://localhost:4000/blog/2011/04/13/malletkat-grand-for-sale">MalletKat Grand! (Sold)</a></p>
+  </li>
+  <li>
+    <p>2011 04 05 - <a href="http://localhost:4000/blog/2011/04/05/ios-networked-metronome-proof-of-concept">iOS networked metronome proof of concept</a></p>
+  </li>
+  <li>
+    <p>2011 03 27 - <a href="http://localhost:4000/blog/2011/03/27/what-do-emerging-percussionists-do">what do emerging percussionists do?</a></p>
+  </li>
+  <li>
+    <p>2011 03 27 - <a href="http://localhost:4000/blog/2011/03/27/performance-process-is-iterative">performance process is iterative!</a></p>
+  </li>
+  <li>
+    <p>2011 03 27 - <a href="http://localhost:4000/blog/2011/03/27/interactive-media-percussion">Interactive Media + Percussion Seminar</a></p>
+  </li>
+  <li>
+    <p>2011 03 26 - <a href="http://localhost:4000/blog/2011/03/26/getting-started-in-computer-music-and-percussion.html">getting started in Computer Music and Percussion</a></p>
+  </li>
+  <li>
+    <p>2011 03 22 - <a href="http://localhost:4000/blog/2011/03/22/best-thing-ever-espresso-with-lemon-juice">Best thing ever! Espresso with lemon juice!</a></p>
+  </li>
+  <li>
+    <p>2011 02 27 - <a href="http://localhost:4000/blog/2011/02/27/ice-hotel">Ice Hotel</a></p>
+  </li>
+  <li>
+    <p>2011 02 05 - <a href="http://localhost:4000/blog/2011/02/05/mini-documentary">Strike on Stage - mini documentary</a></p>
+  </li>
+  <li>
+    <p>2011 01 31 - <a href="http://localhost:4000/blog/2011/01/31/aurora-at-acusticum">Aurora at Acusticum</a></p>
+  </li>
+  <li>
+    <p>2011 01 22 - <a href="http://localhost:4000/blog/2011/01/22/pitea-ice-river-walk">Piteå Ice River Walk</a></p>
+  </li>
+  <li>
+    <p>2011 01 18 - <a href="http://localhost:4000/blog/2011/01/18/3">&lt;3</a></p>
+  </li>
+  <li>
+    <p>2010 12 30 - <a href="http://localhost:4000/blog/2010/12/30/more-versailles">More Versailles</a></p>
+  </li>
+  <li>
+    <p>2010 12 29 - <a href="http://localhost:4000/blog/2010/12/29/snowy-versailles">Snowy Versailles</a></p>
+  </li>
+  <li>
+    <p>2010 12 29 - <a href="http://localhost:4000/blog/2010/12/29/paris-we-went-to-the-top-of-the-eiffel-tower">Paris - we went to the top of the eiffel tower!</a></p>
+  </li>
+  <li>
+    <p>2010 12 29 - <a href="http://localhost:4000/blog/2010/12/29/paris-day-of-shopping-and-walking">Paris, day of shopping and walking</a></p>
+  </li>
+  <li>
+    <p>2010 12 27 - <a href="http://localhost:4000/blog/2010/12/27/paris-walking">Paris walking</a></p>
+  </li>
+  <li>
+    <p>2010 12 27 - <a href="http://localhost:4000/blog/2010/12/27/paris-sacre-coeur-and-montmartre">Paris, Sacre Coeur and Montmartre</a></p>
+  </li>
+  <li>
+    <p>2010 12 27 - <a href="http://localhost:4000/blog/2010/12/27/paris-night-walk">Paris night walk</a></p>
+  </li>
+  <li>
+    <p>2010 12 27 - <a href="http://localhost:4000/blog/2010/12/27/paris-night-pompidou">Paris night Pompidou</a></p>
+  </li>
+  <li>
+    <p>2010 12 26 - <a href="http://localhost:4000/blog/2010/12/26/paris-shakespeare-and-company-notre-dame">Paris: Shakespeare and Company / Notre Dame</a></p>
+  </li>
+  <li>
+    <p>2010 12 26 - <a href="http://localhost:4000/blog/2010/12/26/paris-hotel-room-view">Paris Hotel Room view</a></p>
+  </li>
+  <li>
+    <p>2010 12 26 - <a href="http://localhost:4000/blog/2010/12/26/paris-fondation-cartier-dart-contemporain">Paris, Fondation Cartier d’Art Contemporain</a></p>
+  </li>
+  <li>
+    <p>2010 12 26 - <a href="http://localhost:4000/blog/2010/12/26/paris-antique-market-morning">Paris, Antique market morning</a></p>
+  </li>
+  <li>
+    <p>2010 12 26 - <a href="http://localhost:4000/blog/2010/12/26/moebius-trans-forme-fondation-cartier-dart-co">Moebius-Trans-Forme @ Fondation Cartier d’Art Contemporain</a></p>
+  </li>
+  <li>
+    <p>2010 12 24 - <a href="http://localhost:4000/blog/2010/12/24/snowy-paris">Snowy Paris</a></p>
+  </li>
+  <li>
+    <p>2010 12 24 - <a href="http://localhost:4000/blog/2010/12/24/paris-louvre">Paris - Louvre</a></p>
+  </li>
+  <li>
+    <p>2010 12 24 - <a href="http://localhost:4000/blog/2010/12/24/oh-no-mummies">Oh no mummies!</a></p>
+  </li>
+  <li>
+    <p>2010 12 23 - <a href="http://localhost:4000/blog/2010/12/23/paris-republique">Paris, République</a></p>
+  </li>
+  <li>
+    <p>2010 12 23 - <a href="http://localhost:4000/blog/2010/12/23/centre-pompidou">Centre Pompidou</a></p>
+  </li>
+  <li>
+    <p>2010 12 23 - <a href="http://localhost:4000/blog/2010/12/23/art">Art</a></p>
+  </li>
+  <li>
+    <p>2010 12 22 - <a href="http://localhost:4000/blog/2010/12/22/visit-to-notre-dame-rainy">Visit to Notre Dame. Rainy!</a></p>
+  </li>
+  <li>
+    <p>2010 12 22 - <a href="http://localhost:4000/blog/2010/12/22/37193802">Paris window shopping</a></p>
+  </li>
+  <li>
+    <p>2010 12 21 - <a href="http://localhost:4000/blog/2010/12/21/paris-holiday-day-1">Paris holiday day 1!</a></p>
+  </li>
+  <li>
+    <p>2010 12 21 - <a href="http://localhost:4000/blog/2010/12/21/emergency-stockholm-holiday">Emergency Stockholm holiday</a></p>
+  </li>
+  <li>
+    <p>2010 12 18 - <a href="http://localhost:4000/blog/2010/12/18/pitea-musikhogskolan-julkonsert">Piteå Musikhögskolan Julkonsert</a></p>
+  </li>
+  <li>
+    <p>2010 12 18 - <a href="http://localhost:4000/blog/2010/12/18/christmas-party">Christmas party.</a></p>
+  </li>
+  <li>
+    <p>2010 12 18 - <a href="http://localhost:4000/blog/2010/12/18/chrissy-is-in-snowy-pitea">chrissy is in snowy Piteå!</a></p>
+  </li>
+  <li>
+    <p>2010 12 15 - <a href="http://localhost:4000/blog/2010/12/15/i-have-a-new-hat">i have a new hat!</a></p>
+  </li>
+  <li>
+    <p>2010 12 14 - <a href="http://localhost:4000/blog/2010/12/14/composing-day">composing day</a></p>
+  </li>
+  <li>
+    <p>2010 12 11 - <a href="http://localhost:4000/blog/2010/12/11/pitea-walk">piteå walk</a></p>
+  </li>
+  <li>
+    <p>2010 12 11 - <a href="http://localhost:4000/blog/2010/12/11/i-am-in-christmas">i am in christmas</a></p>
+  </li>
+  <li>
+    <p>2010 12 07 - <a href="http://localhost:4000/blog/2010/12/07/snowy-pitea-photo-walk">Snowy Piteå Photo Walk</a></p>
+  </li>
+  <li>
+    <p>2010 12 03 - <a href="http://localhost:4000/blog/2010/12/03/network-performance-setup-for-lmtd">Network performance setup for LMTD</a></p>
+  </li>
+  <li>
+    <p>2010 11 29 - <a href="http://localhost:4000/blog/2010/11/29/composers-concert">Composer’s Concert</a></p>
+  </li>
+  <li>
+    <p>2010 11 28 - <a href="http://localhost:4000/blog/2010/11/28/short-paris-trip">Short Paris trip…</a></p>
+  </li>
+  <li>
+    <p>2010 11 23 - <a href="http://localhost:4000/blog/2010/11/23/upgrade">Upgrade</a></p>
+  </li>
+  <li>
+    <p>2010 11 23 - <a href="http://localhost:4000/blog/2010/11/23/snowy-forest">Snowy forest.</a></p>
+  </li>
+  <li>
+    <p>2010 11 23 - <a href="http://localhost:4000/blog/2010/11/23/review-julmust">Review: Julmust</a></p>
+  </li>
+  <li>
+    <p>2010 11 22 - <a href="http://localhost:4000/blog/2010/11/22/helping-out-at-recording-class">Helping out at recording class!</a></p>
+  </li>
+  <li>
+    <p>2010 11 19 - <a href="http://localhost:4000/blog/2010/11/19/its-getting-dark-and-snowy">It’s getting dark and snowy…</a></p>
+  </li>
+  <li>
+    <p>2010 11 17 - <a href="http://localhost:4000/blog/2010/11/17/cubes-acusticum">Cubes @ Acusticum</a></p>
+  </li>
+  <li>
+    <p>2010 11 15 - <a href="http://localhost:4000/blog/2010/11/15/us-army-traditional-dress-drum-corps">US Army traditional dress drum corps.</a></p>
+  </li>
+  <li>
+    <p>2010 11 15 - <a href="http://localhost:4000/blog/2010/11/15/swexican-concert-aftermath">Swexican concert aftermath</a></p>
+  </li>
+  <li>
+    <p>2010 11 15 - <a href="http://localhost:4000/blog/2010/11/15/sas-lounge-cph">@SAS lounge CPH.</a></p>
+  </li>
+  <li>
+    <p>2010 11 15 - <a href="http://localhost:4000/blog/2010/11/15/chicago-photoshoot-at-northewestern-universit">Chicago photoshoot at Northewestern university.</a></p>
+  </li>
+  <li>
+    <p>2010 11 15 - <a href="http://localhost:4000/blog/2010/11/15/a-few-bad-photos-of-pasic">A few bad photos of PASIC.</a></p>
+  </li>
+  <li>
+    <p>2010 11 11 - <a href="http://localhost:4000/blog/2010/11/11/at-pasic-now">At PASIC now.</a></p>
+  </li>
+  <li>
+    <p>2010 11 09 - <a href="http://localhost:4000/blog/2010/11/09/sweet-home-chicago">Sweet home Chicago</a></p>
+  </li>
+  <li>
+    <p>2010 11 09 - <a href="http://localhost:4000/blog/2010/11/09/chicago-bean">Chicago bean</a></p>
+  </li>
+  <li>
+    <p>2010 11 08 - <a href="http://localhost:4000/blog/2010/11/08/got-to-chicago">Got to Chicago</a></p>
+  </li>
+  <li>
+    <p>2010 11 05 - <a href="http://localhost:4000/blog/2010/11/05/surreal-late-night-walk-in-stockholm">Surreal late night walk in Stockholm</a></p>
+  </li>
+  <li>
+    <p>2010 11 03 - <a href="http://localhost:4000/blog/2010/11/03/more-stockholm-tourism">More Stockholm Tourism</a></p>
+  </li>
+  <li>
+    <p>2010 11 03 - <a href="http://localhost:4000/blog/2010/11/03/concerts-with-anders-astrand-dave-samuels-and">Concerts with Anders Åstrand, Dave Samuels and Evaristo Aguilar</a></p>
+  </li>
+  <li>
+    <p>2010 11 01 - <a href="http://localhost:4000/blog/2010/11/01/networked-heartbeat-sensor-with-arduino">Networked Heartbeat Sensor with Arduino!</a></p>
+  </li>
+  <li>
+    <p>2010 10 31 - <a href="http://localhost:4000/blog/2010/10/31/stockholm-saturday">Stockholm Saturday</a></p>
+  </li>
+  <li>
+    <p>2010 10 31 - <a href="http://localhost:4000/blog/2010/10/31/stockholm-friday">Stockholm Friday</a></p>
+  </li>
+  <li>
+    <p>2010 10 30 - <a href="http://localhost:4000/blog/2010/10/30/stockholm-trip">Stockholm trip!</a></p>
+  </li>
+  <li>
+    <p>2010 10 30 - <a href="http://localhost:4000/blog/2010/10/30/choosing-mallets-at-capitol">Choosing mallets at Capitol</a></p>
+  </li>
+  <li>
+    <p>2010 10 23 - <a href="http://localhost:4000/blog/2010/10/23/icy">Icy</a></p>
+  </li>
+  <li>
+    <p>2010 10 21 - <a href="http://localhost:4000/blog/2010/10/21/views-of-pitea">Views of Piteå</a></p>
+  </li>
+  <li>
+    <p>2010 10 21 - <a href="http://localhost:4000/blog/2010/10/21/pitea-cooking">Piteå cooking!</a></p>
+  </li>
+  <li>
+    <p>2010 10 21 - <a href="http://localhost:4000/blog/2010/10/21/new-pitea-apartment">new Piteå apartment.</a></p>
+  </li>
+  <li>
+    <p>2010 10 19 - <a href="http://localhost:4000/blog/2010/10/19/sweden-living-part-1">Sweden Living Part 1</a></p>
+  </li>
+  <li>
+    <p>2010 10 18 - <a href="http://localhost:4000/blog/2010/10/18/now-per-later-arn">Now: PER. Later: ARN</a></p>
+  </li>
+  <li>
+    <p>2010 10 18 - <a href="http://localhost:4000/blog/2010/10/18/last-morning-at-cnr">Last morning at CNR.</a></p>
+  </li>
+  <li>
+    <p>2010 10 15 - <a href="http://localhost:4000/blog/2010/10/15/cnr-cafe-northbridge-perth">CNR Cafe, Northbridge, Perth</a></p>
+  </li>
+  <li>
+    <p>2010 10 13 - <a href="http://localhost:4000/blog/2010/10/13/bakery-perth-zho">Bakery - Perth, Zho</a></p>
+  </li>
+  <li>
+    <p>2010 10 11 - <a href="http://localhost:4000/blog/2010/10/11/last-man-to-die-perth-overview">Last Man to Die: Perth Overview</a></p>
+  </li>
+  <li>
+    <p>2010 10 08 - <a href="http://localhost:4000/blog/2010/10/08/wireless-actor-arduino-for-lmtd">Wireless Actor Arduino for LMTD.</a></p>
+  </li>
+  <li>
+    <p>2010 10 07 - <a href="http://localhost:4000/blog/2010/10/07/camera-1-and-camera-2">Camera 1 and Camera 2</a></p>
+  </li>
+  <li>
+    <p>2010 10 03 - <a href="http://localhost:4000/blog/2010/10/03/perth">Perth</a></p>
+  </li>
+  <li>
+    <p>2010 09 30 - <a href="http://localhost:4000/blog/2010/09/30/lmtd-at-blue-room">LMTD at Blue Room</a></p>
+  </li>
+  <li>
+    <p>2010 09 27 - <a href="http://localhost:4000/blog/2010/09/27/last-man-to-die-setup-at-the-blue-room">Last Man to Die - Setup at the Blue Room</a></p>
+  </li>
+  <li>
+    <p>2010 09 25 - <a href="http://localhost:4000/blog/2010/09/25/northbridge-perth">Northbridge, Perth.</a></p>
+  </li>
+  <li>
+    <p>2010 09 24 - <a href="http://localhost:4000/blog/2010/09/24/symbiotica-at-uwa">SymbioticA at UWA</a></p>
+  </li>
+  <li>
+    <p>2010 09 16 - <a href="http://localhost:4000/blog/2010/09/16/last-man-to-die-at-brisbane-utr">Last Man to Die at Brisbane UTR</a></p>
+  </li>
+  <li>
+    <p>2010 09 08 - <a href="http://localhost:4000/blog/2010/09/08/lmtd-development">Lmtd development.</a></p>
+  </li>
+  <li>
+    <p>2010 08 27 - <a href="http://localhost:4000/blog/2010/08/27/brisbane-percussion-gathering">Brisbane Percussion Gathering!</a></p>
+  </li>
+  <li>
+    <p>2010 08 19 - <a href="http://localhost:4000/blog/2010/08/19/sos-overview-video">SOS - Overview video</a></p>
+  </li>
+  <li>
+    <p>2010 08 15 - <a href="http://localhost:4000/blog/2010/08/15/strike-on-stage-micro">Strike on Stage Micro</a></p>
+  </li>
+  <li>
+    <p>2010 08 15 - <a href="http://localhost:4000/blog/2010/08/15/stanford-ccrma-tabletop-interface-workshop">Stanford CCRMA Tabletop Interface Workshop</a></p>
+  </li>
+  <li>
+    <p>2010 08 15 - <a href="http://localhost:4000/blog/2010/08/15/sos-12-acma-conference-canberra-june-2010">SOS 1.2 @ ACMA Conference, Canberra, June 2010</a></p>
+  </li>
+  <li>
+    <p>2010 08 06 - <a href="http://localhost:4000/blog/2010/08/06/train-to-toronto">Train to Toronto</a></p>
+  </li>
+  <li>
+    <p>2010 08 06 - <a href="http://localhost:4000/blog/2010/08/06/toronto-electroacoustic-symposium">Toronto Electroacoustic Symposium</a></p>
+  </li>
+  <li>
+    <p>2010 08 06 - <a href="http://localhost:4000/blog/2010/08/06/toronto-awesome">Toronto! (Awesome!)</a></p>
+  </li>
+  <li>
+    <p>2010 08 05 - <a href="http://localhost:4000/blog/2010/08/05/montreal">Montreal</a></p>
+  </li>
+  <li>
+    <p>2010 07 30 - <a href="http://localhost:4000/blog/2010/07/30/computer-music-concert-stanford-ccrma-listening-room-30th-ju">Computer Music Concert - Stanford CCRMA Listening Room - 30th July 2010</a></p>
+  </li>
+  <li>
+    <p>2010 07 29 - <a href="http://localhost:4000/blog/2010/07/29/google-ice-cream-sandwich">Google ice cream sandwich!</a></p>
+  </li>
+  <li>
+    <p>2010 07 28 - <a href="http://localhost:4000/blog/2010/07/28/working-in-ccrma-listening-room">Working in CCRMA Listening room</a></p>
+  </li>
+  <li>
+    <p>2010 07 26 - <a href="http://localhost:4000/blog/2010/07/26/sunday-touring">Sunday touring</a></p>
+  </li>
+  <li>
+    <p>2010 07 25 - <a href="http://localhost:4000/blog/2010/07/25/downhill-views-of-san-francisco">Downhill views of San Francisco</a></p>
+  </li>
+  <li>
+    <p>2010 07 24 - <a href="http://localhost:4000/blog/2010/07/24/welcome-to-california-have-fun-eating-a-taco">Welcome to California, have fun eating a taco.</a></p>
+  </li>
+  <li>
+    <p>2010 07 21 - <a href="http://localhost:4000/blog/2010/07/21/strike-on-stage-micro">Strike on Stage Micro</a></p>
+  </li>
+  <li>
+    <p>2010 07 13 - <a href="http://localhost:4000/blog/2010/07/13/usb-socket-repair-on-korg-nanokontrol">USB socket repair on Korg Nanokontrol</a></p>
+  </li>
+  <li>
+    <p>2010 07 08 - <a href="http://localhost:4000/blog/2010/07/08/the-last-man-to-die-performance-1">The Last Man to Die performance 1.</a></p>
+  </li>
+  <li>
+    <p>2010 07 01 - <a href="http://localhost:4000/blog/2010/07/01/webcam-party-for-lmtd">Webcam party for LMTD</a></p>
+  </li>
+  <li>
+    <p>2010 07 01 - <a href="http://localhost:4000/blog/2010/07/01/the-last-man-to-die-pilot-season-at-the-street-theatre-july">THE LAST MAN TO DIE - Pilot Season at The Street Theatre July 7-8</a></p>
+  </li>
+  <li>
+    <p>2010 06 17 - <a href="http://localhost:4000/blog/2010/06/17/nime2010-day-2">Nime2010 day 2</a></p>
+  </li>
+  <li>
+    <p>2010 06 15 - <a href="http://localhost:4000/blog/2010/06/15/ningen-dogs-orchestra">Ningen dogs orchestra.</a></p>
+  </li>
+  <li>
+    <p>2010 06 15 - <a href="http://localhost:4000/blog/2010/06/15/iphone-programming-class">IPhone programming class.</a></p>
+  </li>
+  <li>
+    <p>2010 06 06 - <a href="http://localhost:4000/blog/2010/06/06/strike-on-stage-10-belconnen-arts-centre-dance-studio-5th-ju">Strike on Stage 1.0 @ Belconnen Arts Centre, Dance Studio 5th June 2010</a></p>
+  </li>
+  <li>
+    <p>2010 05 21 - <a href="http://localhost:4000/blog/2010/05/21/testing-ir-lighting-system-for-strike-on-stage">Testing IR Lighting System for Strike on Stage</a></p>
+  </li>
+  <li>
+    <p>2010 05 21 - <a href="http://localhost:4000/blog/2010/05/21/distance-test-for-strike-on-stage">Distance test for Strike on Stage</a></p>
+  </li>
+  <li>
+    <p>2010 05 11 - <a href="http://localhost:4000/blog/2010/05/11/lines">Lines!</a></p>
+  </li>
+  <li>
+    <p>2010 05 05 - <a href="http://localhost:4000/blog/2010/05/05/rehearsal-for-strand-samuels-concert-tonight">Rehearsal for Åstrand / Samuels concert tonight.</a></p>
+  </li>
+  <li>
+    <p>2010 05 04 - <a href="http://localhost:4000/blog/2010/05/04/rainy-northbourne-avenue">Rainy Northbourne avenue</a></p>
+  </li>
+  <li>
+    <p>2010 04 28 - <a href="http://localhost:4000/blog/2010/04/28/concert-next-wednesday">Concert Next Wednesday!</a></p>
+  </li>
+  <li>
+    <p>2010 04 27 - <a href="http://localhost:4000/blog/2010/04/27/ir-lighting-setup">IR Lighting Setup</a></p>
+  </li>
+  <li>
+    <p>2010 04 26 - <a href="http://localhost:4000/blog/2010/04/26/last-man-to-die-at-pact-centre-for-emerging-artists">Last Man to Die at PACT Centre for Emerging Artists</a></p>
+  </li>
+  <li>
+    <p>2010 04 22 - <a href="http://localhost:4000/blog/2010/04/22/straw-secured">straw secured!</a></p>
+  </li>
+  <li>
+    <p>2010 04 22 - <a href="http://localhost:4000/blog/2010/04/22/last-man-to-die-pact-setup">Last Man To Die PACT Setup.</a></p>
+  </li>
+  <li>
+    <p>2010 04 17 - <a href="http://localhost:4000/blog/2010/04/17/school-of-music-at-night">School of music at night</a></p>
+  </li>
+  <li>
+    <p>2010 04 10 - <a href="http://localhost:4000/blog/2010/04/10/new-screen">New screen!</a></p>
+  </li>
+  <li>
+    <p>2010 04 07 - <a href="http://localhost:4000/blog/2010/04/07/composition-ideas">Composition ideas</a></p>
+  </li>
+  <li>
+    <p>2010 04 03 - <a href="http://localhost:4000/blog/2010/04/03/visiting-the-coast">Visiting the coast.</a></p>
+  </li>
+  <li>
+    <p>2010 03 30 - <a href="http://localhost:4000/blog/2010/03/30/library-in-rain">Library in rain</a></p>
+  </li>
+  <li>
+    <p>2010 03 28 - <a href="http://localhost:4000/blog/2010/03/28/strike-on-stage-development-27310">Strike on Stage development: 27.3.10</a></p>
+  </li>
+  <li>
+    <p>2010 03 26 - <a href="http://localhost:4000/blog/2010/03/26/benjamin-forsters-rational">Benjamin Forster’s “Rational”</a></p>
+  </li>
+  <li>
+    <p>2010 03 23 - <a href="http://localhost:4000/blog/2010/03/23/strike-on-stage-project">Strike on Stage project</a></p>
+  </li>
+  <li>
+    <p>2010 03 18 - <a href="http://localhost:4000/blog/2010/03/18/last-man-to-die-2010-promo-video">Last Man to Die 2010 - Promo Video</a></p>
+  </li>
+  <li>
+    <p>2010 03 15 - <a href="http://localhost:4000/blog/2010/03/15/the-last-man-to-die-performance-12310">The Last Man to Die performance 12.3.10</a></p>
+  </li>
+  <li>
+    <p>2010 03 09 - <a href="http://localhost:4000/blog/2010/03/09/seeing-receipt-printer.html">Seeing receipt printer</a></p>
+  </li>
+  <li>
+    <p>2010 03 09 - <a href="http://localhost:4000/blog/2010/03/09/last-man-to-die-postcard.html">Last Man to Die postcard</a></p>
+  </li>
+  <li>
+    <p>2010 03 06 - <a href="http://localhost:4000/blog/2010/03/06/lmtd2010.html">LMTD2010</a></p>
+  </li>
+  <li>
+    <p>2010 03 04 - <a href="http://localhost:4000/blog/2010/03/04/namba-walk-osaka.html">Namba Walk - Osaka</a></p>
+  </li>
+  <li>
+    <p>2010 03 04 - <a href="http://localhost:4000/blog/2010/03/04/lmtd2010-projects.html">LMTD2010 Projects</a></p>
+  </li>
+  <li>
+    <p>2010 03 04 - <a href="http://localhost:4000/blog/2010/03/04/diana-mini-in-half-frame-mode">Diana Mini in half frame mode</a></p>
+  </li>
+  <li>
+    <p>2010 02 13 - <a href="http://localhost:4000/blog/2010/02/13/photography">photography</a></p>
+  </li>
+  <li>
+    <p>2010 01 30 - <a href="http://localhost:4000/blog/2010/01/30/japan-arduino-meeting">Japan Arduino Meeting</a></p>
+  </li>
+  <li>
+    <p>2009 12 12 - <a href="http://localhost:4000/blog/2009/12/12/open-house-residency-at-canberra-youth-theatre">Open House residency at Canberra Youth Theatre</a></p>
+  </li>
+  <li>
+    <p>2009 12 09 - <a href="http://localhost:4000/blog/2009/12/09/last-man-to-die-showing-at-canberra-youth-theatre">Last Man to Die Showing at Canberra Youth Theatre!</a></p>
+  </li>
+  <li>
+    <p>2009 11 03 - <a href="http://localhost:4000/blog/2009/11/03/vital-lmtd-at-the-street-theatre">Vital LMTD at the Street Theatre</a></p>
+  </li>
+  <li>
+    <p>2009 10 07 - <a href="http://localhost:4000/blog/2009/10/07/vital-lmtd-at-this-is-not-art">Vital LMTD at This Is Not Art</a></p>
+  </li>
+  <li>
+    <p>2009 09 20 - <a href="http://localhost:4000/blog/2009/09/20/performance-at-the-hughes-festival-of-music">Performance at the Hughes Festival of Music!</a></p>
+  </li>
+  <li>
+    <p>2009 08 27 - <a href="http://localhost:4000/blog/2009/08/27/computer-vision-instrument-for-vital-lmtd">Computer Vision Instrument for Vital LMTD</a></p>
+  </li>
+  <li>
+    <p>2009 08 23 - <a href="http://localhost:4000/blog/2009/08/23/graduation-recital">Graduation Recital</a></p>
+  </li>
+  <li>
+    <p>2009 07 19 - <a href="http://localhost:4000/blog/2009/07/19/networked-arduino-heartbeat-sensor-supercollider">Networked Arduino Heartbeat sensor + SuperCollider</a></p>
+  </li>
+  <li>
+    <p>2009 07 18 - <a href="http://localhost:4000/blog/2009/07/18/audio-studio-in-ubuntu">Audio Studio in Ubuntu</a></p>
+  </li>
+  <li>
+    <p>2009 06 06 - <a href="http://localhost:4000/blog/2009/06/06/global-tangible-interfaces-hack-day">Global Tangible Interfaces Hack Day</a></p>
+  </li>
+  <li>
+    <p>2009 06 04 - <a href="http://localhost:4000/blog/2009/06/04/sounding-the-glassworks">Sounding the Glassworks</a></p>
+  </li>
+  <li>
+    <p>2009 05 24 - <a href="http://localhost:4000/blog/2009/05/24/review-of-cognition-pt-2">Review of Cognition Pt. 2</a></p>
+  </li>
+  <li>
+    <p>2009 05 20 - <a href="http://localhost:4000/blog/2009/05/20/show-at-the-front">Show at the Front!</a></p>
+  </li>
+  <li>
+    <p>2009 05 19 - <a href="http://localhost:4000/blog/2009/05/19/mmus-thesis-percussion-and-computer-in-live-performance">M.Mus. Thesis: Percussion and Computer in Live Performance</a></p>
+  </li>
+  <li>
+    <p>2009 05 14 - <a href="http://localhost:4000/blog/2009/05/14/abstraktions-show-at-the-front-20th-may-2009">Abstraktions Show at The Front, 20th May 2009</a></p>
+  </li>
+  <li>
+    <p>2009 05 03 - <a href="http://localhost:4000/blog/2009/05/03/fitters-workshop">Fitter’s Workshop</a></p>
+  </li>
+  <li>
+    <p>2009 04 22 - <a href="http://localhost:4000/blog/2009/04/22/in2change-performance-this-friday">In2Change performance this Friday!</a></p>
+  </li>
+  <li>
+    <p>2009 03 16 - <a href="http://localhost:4000/blog/2009/03/16/cmoy-headphone-amp">CMoy Headphone Amp~</a></p>
+  </li>
+  <li>
+    <p>2009 03 07 - <a href="http://localhost:4000/blog/2009/03/07/heartbeat-sensor">Heartbeat Sensor</a></p>
+  </li>
+  <li>
+    <p>2009 03 04 - <a href="http://localhost:4000/blog/2009/03/04/arduino">Arduino!</a></p>
+  </li>
+  <li>
+    <p>2009 02 28 - <a href="http://localhost:4000/blog/2009/02/28/a-day-at-the-in2change-1">A day at the In2Change - 1</a></p>
+  </li>
+  <li>
+    <p>2009 02 25 - <a href="http://localhost:4000/blog/2009/02/25/supercollider-safari-40-beta-bad">Supercollider + Safari 4.0 beta = bad</a></p>
+  </li>
+  <li>
+    <p>2008 11 09 - <a href="http://localhost:4000/blog/2008/11/09/computer-music-and-synthesis">Computer Music and Synthesis</a></p>
+  </li>
+  <li>
+    <p>2008 10 28 - <a href="http://localhost:4000/blog/2008/10/28/image-viewing-program-in-pd">Image viewing program in Pd</a></p>
+  </li>
+  <li>
+    <p>2008 10 26 - <a href="http://localhost:4000/blog/2008/10/26/duet-for-vibraphone-and-computer">Duet for Vibraphone and Computer</a></p>
+  </li>
+  <li>
+    <p>2008 10 13 - <a href="http://localhost:4000/blog/2008/10/13/cognition-part-2-this-week-at-street-2">Cognition Part 2 - This week at Street 2!</a></p>
+  </li>
+  <li>
+    <p>2008 09 25 - <a href="http://localhost:4000/blog/2008/09/25/review-of-cognition-in-city-news">Review of Cognition in City News!</a></p>
+  </li>
+  <li>
+    <p>2008 09 21 - <a href="http://localhost:4000/blog/2008/09/21/cognition">Cognition</a></p>
+  </li>
+  <li>
+    <p>2008 09 12 - <a href="http://localhost:4000/blog/2008/09/12/hunting-season-cognition-1">Hunting Season: Cognition 1</a></p>
+  </li>
+  <li>
+    <p>2008 08 28 - <a href="http://localhost:4000/blog/2008/08/28/internal-midi-bus-in-mac-os-x">Internal MIDI Bus in Mac OS X</a></p>
+  </li>
+  <li>
+    <p>2008 08 25 - <a href="http://localhost:4000/blog/2008/08/25/theremin-to-midi-control-program-in-pd">Theremin to MIDI Control program in Pd</a></p>
+  </li>
+  <li>
+    <p>2008 08 17 - <a href="http://localhost:4000/blog/2008/08/17/pure-data-resources">Pure Data Resources</a></p>
+  </li>
+  <li>
+    <p>2008 04 06 - <a href="http://localhost:4000/blog/2008/04/06/howto-roland-vs-2000-digital-studio-workstation">Howto: Roland VS-2000 Digital Studio Workstation</a></p>
+  </li>
+  <li>
+    <p>2007 11 16 - <a href="http://localhost:4000/blog/2007/11/16/laserjet-1022n-in-leopard">Laserjet 1022n in Leopard</a></p>
+  </li>
+  <li>
+    <p>2007 04 09 - <a href="http://localhost:4000/blog/2007/04/09/newcastle-march-3031">Newcastle March 30/31</a></p>
+  </li>
+  <li>
+    <p>2007 03 19 - <a href="http://localhost:4000/blog/2007/03/19/weekend-in-melbourne">Weekend in Melbourne</a></p>
+  </li>
+  <li>
+    <p>2007 03 10 - <a href="http://localhost:4000/blog/2007/03/10/16"></a></p>
+  </li>
+  <li>
+    <p>2006 04 13 - <a href="http://localhost:4000/blog/2006/04/13/cool-reggae-jam">Cool Reggae jam</a></p>
+  </li>
+  <li>
+    <p>2006 01 31 - <a href="http://localhost:4000/blog/2006/01/31/new-music">New Music</a></p>
+  </li>
+</ul>
+:ET

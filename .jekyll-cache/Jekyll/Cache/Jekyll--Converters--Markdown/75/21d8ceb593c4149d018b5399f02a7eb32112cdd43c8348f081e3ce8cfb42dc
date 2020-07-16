@@ -1,0 +1,17 @@
+I"�<p>I’m going to use an Ubuntu system to do some audio projects, so I wanted to figure out how to use Jack and some other applications that come with Ubuntu Studio.</p>
+
+<p>Jack Resources:</p>
+
+<ul>
+  <li><a href="https://help.ubuntu.com/community/UbuntuStudioPreparation">Ubuntu Wiki - preparing a studio computer</a> - includes help on realtime settings</li>
+  <li><a href="https://help.ubuntu.com/community/HowToJACKConfiguration">Ubuntu Wiki - Howto Jack Configuration</a></li>
+  <li><a href="http://www.ubustu.com/globe/2007/05/29/how-to-configure-jack-in-ubuntu-studio/">Ubustu - How to configure Jack</a></li>
+  <li><a href="http://www.linuxjournal.com/content/judgement-day-studio-dave-tests-ubuntu-studio-904">Linux Journal article about Ubuntu Studio setup</a>Supercollider resources:</li>
+  <li><a href="http://artfwo.blogspot.com/2008/05/supercollider-for-human-beings.html">Tutorial for installing SuperCollider on Ubuntu</a></li>
+  <li><a href="https://launchpad.net/%7Esupercollider/+archive/ppa">Apt Repository for Supercollider</a></li>
+  <li><a href="http://artfwo.googlepages.com/sced">Uing the SuperCollider plugin for the gedit text editor</a></li>
+  <li><a href="http://swiki.hfbk-hamburg.de:8888/MusicTechnology/6">SuperCollider swiki</a></li>
+</ul>
+
+<p><em>update</em> My computer won’t boot with Ubuntu Studio 9.04’s realtime kernel (linux-rt). Other people have a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-rt/+bug/366352">similar problem</a>. Discussion threads have had success with a custom kernel build that I will try out. <a href="https://bugs.launchpad.net/ubuntu/+source/linux-rt/+bug/290498/comments/51">Instructions here</a>.</p>
+:ET

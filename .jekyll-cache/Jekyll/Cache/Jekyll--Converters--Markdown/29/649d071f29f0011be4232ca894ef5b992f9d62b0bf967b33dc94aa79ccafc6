@@ -1,0 +1,2 @@
+I"�<p>Ran into another problem today with Xcode while updating <a href="/apps">Snow Music</a> for iPhone 5’s and found the solution <a href="http://createdigitalnoise.com/discussion/1603/libpd-linking-problems-on-xcode-4-5/p1">on CDN</a>. Turns out, Xcode 4.5 is causing all kinds of problems with linking static libraries, and the default build settings don’t work with <a href="http://libpd.cc">libpd</a>.</p>
+:ET

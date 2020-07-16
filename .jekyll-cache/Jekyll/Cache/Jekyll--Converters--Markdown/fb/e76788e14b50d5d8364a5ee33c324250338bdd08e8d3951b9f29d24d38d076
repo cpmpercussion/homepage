@@ -1,0 +1,19 @@
+I"�<p>At NIME someone asked if I had tried using Xbee with my wearable Arduino setup for Last Man to Die. I hadn’t then, but after today…. now I have!</p>
+
+<p>I bought the Xbee starter set from sparkfun after failed attempts to get a WiFi shield to speak OSC and tonight was our first show with an unwired actor. It really made a huge difference to the performance, Hanna’s movement was immediately more free and interesting.</p>
+
+<p>The setup is Wii nunchuck + buzzing motors + LEDs –&gt; Arduino –&gt; xBee ~~ xBee –&gt; USB xBee explorer (Serial interface) –&gt; processing –&gt; OSC –&gt; LMTD!</p>
+
+<p>I had a bit of a false start with this idea by overthinking the xBees and trying to use the xBee library for Processing. Maybe this is really for the xBee 2.5 or something… I have the cheapest ones and they work just fine with the serial library and no special treatment in my point to point setup.</p>
+
+<p>This is waay more complicated that using a wire… Mainly because we need a whole computer just to run Processing. My next plan is to use ANOTHER Arduino to receive the xBee signals, translate to OSC and send over an Ethernet cable which would be quite elegant.</p>
+
+<p>I can see an Arduino Pro Mini in my future… The ultimate minimal arduino! So cool!</p>
+
+<p><img src="/assets/posterous/charlesmartin/10/20101008-actorarduino1.jpg" alt="" />
+<img src="/assets/posterous/charlesmartin/10/20101008-actorarduino2.jpg" alt="" />
+<img src="/assets/posterous/charlesmartin/10/20101008-actorarduino3.jpg" alt="" /></p>
+
+<p><a href="http://posterous.com">Posted via email</a>  from 
+<a href="http://charlesmartin.posterous.com/wireless-actor-arduino-for-lmtd">charles martin</a></p>
+:ET

@@ -1,0 +1,2 @@
+I"�<p>I’ve previously written about my adventures in <a href="http://charlesmartin.com.au/blog/2013/3/26/finding-a-good-osc-library-for-ios">finding a good OSC library</a> to use in iOS development. I found a new contender, <a href="https://github.com/Figure53/F53OSC">F53OSC</a>, yesterday that seemed to be a complete implementation of OSC 1.0 and doesn’t require any XCode sub-projects (very annoying to setup when starting a new app).</p>
+:ET

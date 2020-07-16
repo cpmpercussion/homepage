@@ -1,0 +1,18 @@
+I"�<p><img src="/squarespace_images/2014-03-11-PdTutorials.jpg" alt="The built-in tutorials for Pure Data are really good..." /></p>
+
+<p>The built-in tutorials for Pure Data are really good…</p>
+
+<p>Today, someone asked me about how to get started with computer music using Pd, so here’s the ideas I sent to him for next time somebody asks! Pd, or Pure Data, is a great visual programming environment for music, visuals and graphics, but it’s a bit daunting to get started with it.</p>
+
+<p>The trick to learning a programming language is working through the examples in a good tutorial and then trying to complete some of the exercises. It takes effort and perseverence if you’re new to it, but so does everything worth doing.</p>
+
+<h2 id="learning-pd">Learning Pd</h2>
+
+<ul>
+  <li>Download <a href="http://puredata.info/downloads/pd-extended">Pd-Extended</a>.</li>
+  <li>Check out the built-in tutorials and help patches. On a Mac, press ⌘-B to bring up the Help Browser, click “Manuals”, then “Start Here” for the step-by-step intro. If you want to start hearing some sounds, go to “1.Sound” and start clicking around.</li>
+  <li>Look at David Farnell’s tutorial. David Farnell has a great book called “<a href="http://mitpress.mit.edu/books/designing-sound">Designing Sound</a>” that uses Pd, but the Pd tutorial chapters are <a href="http://aspress.co.uk/ds/pdf/pd_intro.pdf">available for free from the publisher</a>. The<a href="http://obiwannabe.co.uk">author’s site</a> has lots of Pd resources as well.</li>
+  <li>Check out <a href="http://www.pd-tutorial.com">“Programming Electronic Music in Pure Data”</a>. This is another awesome free book on Pd.</li>
+  <li>Get stuck and ask questions. If you’re stuck with something, even if it’s dumb, somebody has probably asked a question about it either on the <a href="http://puredata.hurleur.com">Pure Data forums</a> or on <a href="http://stackoverflow.com/questions/tagged/puredata">Stack Overflow</a>. If you’re stuck, start googling around with what you’re trying to do and if there’s no obvious answer, post on the forum or on Stack Overflow and somebody will probably rush to your aid.</li>
+</ul>
+:ET

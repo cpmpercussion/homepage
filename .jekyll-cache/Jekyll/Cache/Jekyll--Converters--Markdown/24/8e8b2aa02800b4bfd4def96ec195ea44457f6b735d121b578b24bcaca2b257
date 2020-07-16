@@ -1,0 +1,38 @@
+I"�	<p>I’ve been writing some very simple Processing sketches to visualise logs of OSC messages for my 
+<a href="/metatone">Metatone project</a> and I’ve wanted to turn these visualisations into videos to match up with the performances.</p>
+
+<p>No problem right? Just use Processing’s saveFrame() method at the end of every draw() loop and then use the “Movie Maker” tool on the resulting folder of image files.</p>
+
+<p>Wrong - turns out that using saveframe to PNG images like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>saveFrame("######.png");
+</code></pre></div></div>
+
+<p>will process 1024x768 frames at about 7fps. So rendering a 12 minute performance at 30fps will take about 51 minutes + a long time for “Movie Maker” to stitch the images together. Not fun at all.</p>
+
+<h2 id="small-improvement-solution">Small improvement solution</h2>
+
+<p>The best solution I have so far is to use the TGA format for saveFrame:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>saveFrame("######.tga");
+</code></pre></div></div>
+
+<p>Which bumps the speed up to about 27fps. This is still extremely slow but it’s a bit more bearable. A new problem is that Movie Maker doesn’t work with TGA files (come on Processing! It’s in the core library!).</p>
+
+<p><a href="http://forum.processing.org/topic/saveframe-framerate-comparison-discussion-on-capturing-high-resolution-sketch-output">More speed comparisons here in the Processing Forum</a>.</p>
+
+<p>A faster solution than Movie Maker is to use ffmpeg from the terminal to stitch the frames together. With <a href="http://forum.processing.org/topic/add-file-capture-sketch-output-threaded-for-less-slowdown">some help from the forums</a> I’ve put together this one-liner to run in the folder of images:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -f image2 -framerate 30 -i %06d.tga -vcodec qtrle -r 30  output.mov
+</code></pre></div></div>
+
+<p>The switches here tell FFMPEG to:</p>
+
+<ul>
+  <li>read the input as a bunch of images</li>
+  <li>that the input framerate should be 30fps</li>
+  <li>that the input are of format 000001.tga, 000002.tga,</li>
+  <li>that the video codec should be Quicktime “Animation” which works best for TGA files.</li>
+  <li>that the output framerate should be 30fps</li>
+</ul>
+:ET
