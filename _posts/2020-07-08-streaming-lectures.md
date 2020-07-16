@@ -42,9 +42,11 @@ There's lots of ways to switch scenes in OBS (e.g., key combinations, or [extra 
 
 [Teams](https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software) has ended up being the centre of our synchronous online teaching. It's great to get chat with students and to see their "real names" (not screen names), and it's neat that you can integrate a Microsoft Stream channel.
 
+As it turns out, students **like** watching lectures on a screen (most of them have been doing so for some time), and they also like asking questions through chat rather than a microphone. The students ask me questions through Teams chat and I can either answer them in real time, or sometimes the other students jump in and find an answer themselves. The only trick here is to remember that the stream takes a while to get to the students (e.g., 15-60 seconds depending on settings and platform), so you have to pause during lectures sometimes so the chat can catch up.
+
 ### Streaming to multiple endpoints
 
-It's hard to get students to watch lectures, so I thought I'd try going to where the students live for their normal online content: YouTube and Twitch. Twitch in particular is a really fun platform with lots of inspirational live content (e.g., [Jonong](https://www.twitch.tv/jonathanong) and [Lara6683](https://www.twitch.tv/lara6683)).
+It's hard to get students to watch lectures synchronously, so I thought I'd try going to where the students live for their normal online content: YouTube and Twitch. Twitch in particular is a really fun platform with lots of inspirational live content (e.g., [Jonong](https://www.twitch.tv/jonathanong) and [Lara6683](https://www.twitch.tv/lara6683)).
 
 Some students tell me they enjoy seeing classes come up in their feed and a few did tend to jump into the Twitch chat. After a few lectures we came up with a good system: "Twitch chat for memes, Teams chat for serious questions", just so that I didn't have to monitor all chat channels simultaneously.
 
@@ -62,7 +64,7 @@ I've found Stream works perfectly well with 1080p30 streams.
 
 I've found it helpful to [add Microsoft Stream as a "tab"](https://support.microsoft.com/en-gb/office/add-and-use-a-stream-tab-in-teams-fb6cebb8-0d4f-4034-88a6-7dafdb5f0a3f) within the Microsoft Team for my class so that each lecture has an associated chat stream in Teams.
 
-### But what about Echo360
+### But what about Echo360?
 
 [Echo360](https://echo360.com) is the automated lecture recording system installed at the ANU. It works well for zero-hassle recordings in lecture halls and has many interactive learning features that can be used online.
 
