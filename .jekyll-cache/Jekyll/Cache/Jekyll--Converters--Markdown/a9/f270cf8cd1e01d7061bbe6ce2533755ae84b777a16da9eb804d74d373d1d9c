@@ -1,3 +1,0 @@
-I"<p>I’ve been experimenting a bit with a cute blogging engine called 
-<a href="http://cloudhead.io/toto">Toto</a> and wanted to migrate my Posterous posts so I wrote a little script in Ruby to download them all and format them in a Toto-appropriate way.</p>
-:ET

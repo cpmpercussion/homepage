@@ -1,2 +1,0 @@
-I"�<p>I really enjoy using libpd to embed interactive sound into <a href="http://charlesmartin.com.au/apps">iOS apps</a>. One tradeoff of doing this is that <a href="https://github.com/libpd/libpd/wiki/misc#using-externals">Pd externals are often GPL licenced</a> so you can’t use them in projects that are destined for the App Store - in particular, you can’t use expr or expr~ which are very widely used objects included in Pd Vanilla.</p>
-:ET
