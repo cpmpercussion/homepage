@@ -8,9 +8,7 @@ Here's some links to research produced by my graduate students.
 
 If you'd like to work on something like this, get in touch through [ANU](https://cecs.anu.edu.au/people/charles-martin), or on [Twitter](https://twitter.com/cpmpercussion)!
 
-### Torgrim Næss: Master of Informatics (Robotics and Intelligent Systems
-
-Thesis defended and publication on the way, in the meantime, see the [NIME publication!](http://www.nime.org/proceedings/2019/nime2019_paper016.pdf).
+### Torgrim Næss (Master of Informatics, Robotics and Intelligent Systems): [A Physical Intelligent Instrument using Recurrent Neural Networks. Master thesis](https://www.duo.uio.no/bitstream/handle/10852/70773/1/naess_master.pdf)
 
 #### Abstract:
 
@@ -19,6 +17,19 @@ Composing and playing music generally requires knowledge of music theory and exe
 Even though using neural networks for music composition is not a new concept, most previous work in this field does not ordinarily support user interaction, and is often dependent on general-purpose computers or expensive setups to implement. The proposed instrument is self-contained, running an RNN-based generative music model on a Raspberry Pi single-board computer for continuous generation of monophonic melodies that are sonified using a built-in speaker. It supports real-time interaction where the user can modify the generated music by adjusting a set of high-level parameters: sampling temperature (diversity), tempo, volume, instrument sound selection, and generative model selection.
 
 A user study with twelve participants was conducted to see the impact the different high-level parameter controls can have on a participant’s perceived feeling of control over the musical output from the instrument, and to evaluate the generative models trained on different datasets in terms of musical quality. The numerical ratings and open-ended answers were analyzed both quantitatively and qualitatively. The results show that the perceived feeling of control over the music was quite high, and the high-level parameter controls allowed participants to creatively engage with the instrument in the music-making process.
+
+N.B.: This thesis resulted in a [NIME publication!](http://www.nime.org/proceedings/2019/nime2019_paper016.pdf).
+
+#### BibTex:
+
+    @mastersthesis{Naess:2019,
+        Author = {Næss, Torgrim Rudland},
+        Title = {A Physical Intelligent Instrument using Recurrent Neural Networks},
+        School = {University of Oslo},
+        Year = {2019},
+        Address = {Oslo, Norway},
+        URL = {http://urn.nb.no/URN:NBN:no-73901},
+    }
 
 ### [Viktoria Røsjø: Variational Autoencoders with Mixture Density Networks for Sequence Prediction in Algorithmic Composition - A Musical World Model](https://www.duo.uio.no/bitstream/handle/10852/67479/1/Variational_Autoencoders_for_Algorithmic_Composition.pdf)
 

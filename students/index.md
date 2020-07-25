@@ -14,14 +14,14 @@ If you're passionate about _music, machine learning, and computer science_ (or s
 
 I currently teach:
 
-- [Laptop Ensemble (LENS)](https://cs.anu.edu.au/code-creativity-culture/lens/) at the Australian National University (S2 2019, S1+2 2020)
+- [Art and Interaction in New Media (COMP1720)](https://cs.anu.edu.au/courses/comp1720) (S2 2020)
+- [Laptop Ensemble (COMP2710-LENS)](https://cs.anu.edu.au/courses/comp2710-lens/) at the Australian National University (S2 2019, S1 2020)
 - [Computer Organisation and Program Execution
 (COMP2300)](https://cs.anu.edu.au/courses/comp2300) at the Australian National University (S1 2019, S1 2020).
 
 I used to teach:
 
 - [Advanced Topics in AI for Intelligent Systems (IN5490)](https://www.uio.no/studier/emner/matnat/ifi/IN5490) at the University of Oslo,
-- [Art and Interaction in New Media (COMP1720)](https://cs.anu.edu.au/courses/comp1720),
 - [Drums and Percussion at the ANU School of Music](https://music.cass.anu.edu.au/performance-ensemble/drums-and-percussion).
 
 ![teaching a group]({{site.baseurl}}/assets/images/teaching/bela-workshop-header.jpg)
@@ -42,10 +42,10 @@ I'm available to supervise student projects in sound and music computing, creati
 Projects could involve:
 
 - developing predictive musical instruments
+- new interfaces for musical expression (NIME)
 - machine learning of musical style
 - musical AI
 - computer support for collaborative musical expression
-- new interfaces for musical expression (NIME)
 - applying ML/AI in creative practices
 
 ![Charles Martin Background Areas]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
