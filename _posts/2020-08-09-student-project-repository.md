@@ -115,7 +115,6 @@ BTW, you can just **not have a license**, which basically means your code is ava
 
 Oh you like my status badges? You want your repo to say <img src="https://travis-ci.org/dwyl/esta.svg?branch=master" alt="Build Passing" style="width:100px; display:inline-block;vertical-align:middle;" />?
 
-
 These little badge images appear on lots of nice Git Repos and generally advertise how great and well-tested and published our repos are.
 
 There are [lots of them](https://github.com/badges/shields) available (here's some [instructions](https://github.com/dwyl/repo-badges) on how to find different types).
@@ -125,3 +124,15 @@ If your project has tests, you might like to set up [continuous integration](htt
 You can also get a badge for your [license](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
 Badges don't mean very much, but they're fun and colourful. Just another way you can show **attention to detail** in your work.
+
+## Videos, Sounds, GIFs, Images
+
+If your project has sound, visuals or an interactive system as the output, then it's probably a good idea to include some documentation of this media in your readme.
+
+GitHub doesn't allow HTML embeds when displaying readme files, but you might make a short (e.g., 10 sec) video into [a gif](https://giphy.com) and include that instead, e.g.:
+
+![](https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif)
+
+For sound, you could link to soundfiles stored on [Soundcloud](https://soundcloud.com) or [clyp.it](https://clyp.it), and for video you could link to a YouTube or Vimeo upload.
+
+
