@@ -57,12 +57,12 @@ charles_martin_compxxxx_project_2020/
 
 A few notes here:
 
-- having a main `README.md` is pretty much mandatory (more below)
-- having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).
-- the `requirements.txt` file is a lightweight way to list a Python module's requirements. You can and should work in a virtual environment so that you can keep track of [what other modules are required to run your code](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1). A more advanced way to do this would be with [Poetry](https://python-poetry.org).
+- The git repository is not named `charles_martin_compxxxx_project_2020` (not `project_name`), so if you share it with a supervisor (who might have many _compxxxx_ students), they can find **your** project.
+- Having a main `README.md` is pretty much mandatory (more below)
+- Having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).
+- The `requirements.txt` file is a lightweight way to list a Python module's requirements. You can and should work in a virtual environment so that you can keep track of [what other modules are required to run your code](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1). A more advanced way to do this would be with [Poetry](https://python-poetry.org).
 - `setup.py` might allow others to [install your module, or for you to distribute it](https://stackoverflow.com/questions/1471994/what-is-setup-py). cool!
-- if you only need one code file for your project, you could simply name it `project_name.py` and place it in your repo. If you want multiple files as part of a module, you'll need a directory called `project_name`, and (traditionally) [a main file](https://stackoverflow.com/questions/448271/what-is-init-py-for) called `__init__.py`.
-
+- If you only need one code file for your project, you could simply name it `project_name.py` and place it in your repo. If you want multiple files as part of a module, you'll need a directory called `project_name`, and (traditionally) [a main file](https://stackoverflow.com/questions/448271/what-is-init-py-for) called `__init__.py`.
 
 If your project is  a collection of iPython Notebooks, you should use directories to make it obvious where the various parts of the project are (e.g., see [this StackOverflow post](https://stackoverflow.com/questions/45723751/how-to-structure-a-python-project-with-ipython-notebooks)):
 
