@@ -21,7 +21,6 @@ permalink: /publications/
 }
 </style> -->
 
-
 ## Book Chapters
 
 {% bibliography --query @*[keywords ~= book-chapter && keywords ~= refereed] %}
@@ -63,8 +62,6 @@ permalink: /publications/
 ### Selected Music Recordings
 
 {% bibliography --query @*[keywords ^= music-recording] %}
-
-<!-- {% bibliography %} -->
 
 <script>
 // map our commands to the classList methods
