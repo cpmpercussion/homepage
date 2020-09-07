@@ -17,10 +17,10 @@ published: true
 
 **Updates!** Thanks to David and the audience for a great performance! Super-thanks to Rohan Thomson for taking some amazing photos on the night, here's a gallery!
 
-![]({{ site.baseurl }}/squarespace_images/enp25-web-3491.jpg)
-![]({{ site.baseurl }}/squarespace_images/enp25-web-3497.jpg)  
-![]({{ site.baseurl }}/squarespace_images/enp25-web-3500.jpg)
-![]({{ site.baseurl }}/squarespace_images/enp25-web-3502.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/enp25-web-3491.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/enp25-web-3497.jpg)  
+![]({{ site.baseurl }}/assets/squarespace_images/enp25-web-3500.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/enp25-web-3502.jpg)
 
 This sunday I'm performing a short concert as part of David Sequeira's ENP25 exhibition opening at 
 [Everything Nothing Projects](http://www.everythingnothingprojects.com) at Lonsdale Street Traders in Braddon.
@@ -45,6 +45,6 @@ Charles Martin, specialist in percussion, computer music and interactive media p
 
 PS: Here's an image from my previous concert with David at the Hughes Festival of Music in 2009!
 
-![Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira]({{ site.baseurl }}/squarespace_images/ENP-HughesFestival-BlueElectricCounterpoint.jpg) 
+![Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira]({{ site.baseurl }}/assets/squarespace_images/ENP-HughesFestival-BlueElectricCounterpoint.jpg) 
 
 Electric Counterpoint at the Hughes Festival of Music 2009 - image by David Sequeira 

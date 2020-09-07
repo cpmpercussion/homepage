@@ -26,4 +26,4 @@ Extra Feature: Core MIDI Support! You can use a MIDI accessory connected to your
 
 This app was created using the [libpd](http://libpd.cc) and [PGMidi](https://github.com/petegoodliffe/PGMidi) libraries.
 
-![]({{ site.baseurl }}/squarespace_images/2013-04-26-NordligVinterAppImage.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-04-26-NordligVinterAppImage.jpg)

@@ -15,6 +15,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-22-Recording.jpg) 
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-22-Recording.jpg) 
 
 I helped out with a recording class in the Acusticum! I played bits of memory of the woods and Rebonds B for them! Lots of fun to play in the hall!! --Charles

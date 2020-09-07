@@ -18,11 +18,11 @@ meta: {}
 
 Last weekend, Ensemble Evolution and I played some concerts with Anders and Dave in Stockholm and Piteå. Fun!
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts1.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts2.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts3.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts4.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts5.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts6.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-03-AA-DS-Concerts7.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts3.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts4.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts5.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts6.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-AA-DS-Concerts7.jpg)
 

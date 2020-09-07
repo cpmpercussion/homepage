@@ -18,7 +18,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2013-10-16-Theremin75.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-10-16-Theremin75.jpg)
 
 **Update!**
 

@@ -12,6 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2011-11-27-MiniOpera.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-11-27-MiniOpera.jpg)
 
 Rehearsals this week for Gísli’s Mini opera in Piteå. Pressure!

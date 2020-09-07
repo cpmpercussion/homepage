@@ -23,4 +23,4 @@ Heading up to Newcastle tomorrow for Electrofringe and This Is Not Art! The best
 
 The Electrofringe showcase was great and [Adam Thomas](http://www.flickr.com/photos/58053205@N06/) took a great photo of Christina and I playing:
 
-[![]({{ site.baseurl }}/squarespace_images/2011-09-29-NVElectrofringe.jpg)](http://www.flickr.com/photos/58053205@N06/)
+[![]({{ site.baseurl }}/assets/squarespace_images/2011-09-29-NVElectrofringe.jpg)](http://www.flickr.com/photos/58053205@N06/)

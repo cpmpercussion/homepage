@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-03-LMTDNet.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-03-LMTDNet.jpg)
 
 I'm playing in LMTD at CCAS, Canberra tomorrow! This is my setup. Not the best room, but it works ok! 
 

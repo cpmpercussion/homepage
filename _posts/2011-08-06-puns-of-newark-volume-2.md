@@ -16,6 +16,6 @@ meta: {}
 
 A few MORE puns from the streets of Newark.
 
-![]({{ site.baseurl }}/squarespace_images/2011-08-06-PunsNewark6.jpg)
-![]({{ site.baseurl }}/squarespace_images/2011-08-06-PunsNewark7.jpg)
-![]({{ site.baseurl }}/squarespace_images/2011-08-06-PunsNewark8.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-06-PunsNewark6.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-06-PunsNewark7.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-06-PunsNewark8.jpg)

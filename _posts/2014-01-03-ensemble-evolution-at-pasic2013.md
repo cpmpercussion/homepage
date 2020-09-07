@@ -15,7 +15,7 @@ published: true
 
 ---
 
-![After our performance at PASIC! ]({{ site.baseurl }}/squarespace_images/2014-01-03-EEPASIC2013.jpg) 
+![After our performance at PASIC! ]({{ site.baseurl }}/assets/squarespace_images/2014-01-03-EEPASIC2013.jpg) 
 
 After our performance at PASIC!  
 
@@ -27,6 +27,6 @@ While I was in the USA, we also played a series of concerts at the Arnold Arbore
 
 I think this tour was really special for Maria, Jake, and I. It’s the first time since we left Sweden that we’ve played together but it's also the start of our group’s journey as professionals rather than students. When we got together in Piteå we were aiming to start a group that could be an important part of our career and I think that we proved to ourselves that even though we live in different parts of the world, we can still get together to make great music and fuel up on creative energy! It was also super-gratifying to perform our own music at PASIC and have such an enthusiastic response!
 
-![Rehearsing with iPads and duck calls for our concerts at the Arnold Arboretum in Boston.]({{ site.baseurl }}/squarespace_images/2014-01-03-EEArnoldArboretum.jpg) 
+![Rehearsing with iPads and duck calls for our concerts at the Arnold Arboretum in Boston.]({{ site.baseurl }}/assets/squarespace_images/2014-01-03-EEArnoldArboretum.jpg) 
 
 Rehearsing with iPads and duck calls for our concerts at the Arnold Arboretum in Boston.

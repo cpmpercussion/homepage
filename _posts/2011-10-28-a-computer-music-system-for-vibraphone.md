@@ -19,7 +19,7 @@ I recently finished my first prototype for a dedicated computer music system for
 The idea is to have a battery powered computer system that can attach to a vibraphone, includes a microphone for processing the vibraphone sound and can output straight to the mixing desk at a gig.
   
        
-![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes1.jpg) 
+![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes1.jpg) 
 
 The whole system fits on the end of my vibraphone - compact! 
   
@@ -34,12 +34,12 @@ The current setup has:
 * A [cheap stereo DI box](http://www.behringer.com/EN/Products/DI20.aspx) to minimise the work that a sound technician has to do before I can plug into the desk.
   
 
-![The microphones on the bottom of the damper bar.]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes2.jpg) The microphones on the bottom of the damper bar.
-![]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes3.jpg)   
-![]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes4.jpg)
-![]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes5.jpg)
-![]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes6.jpg)
-![]({{ site.baseurl }}/squarespace_images/2011-10-28-CMSVibes7.jpg)
+![The microphones on the bottom of the damper bar.]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes2.jpg) The microphones on the bottom of the damper bar.
+![]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes3.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes4.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes5.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes6.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes7.jpg)
 
 Of course, each part of this could be much higher quality: the elecret microphones could be condenser clip on mics, the preamp could a less noisy design with higher gain possibilities, the iRig and iPhone could be a [Beagle board computer system](http://beagleboard.org/hardware-xM) running [Satellite CCRMA](https://ccrma.stanford.edu/~eberdahl/Satellite/).
 

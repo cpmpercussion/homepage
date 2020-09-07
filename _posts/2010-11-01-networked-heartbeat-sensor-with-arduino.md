@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-HearbeatSensor1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-HearbeatSensor1.jpg)
 
 This project was my first foray in the exciting world of bio-sensors! A few years ago I started a multimedia performance group called [Last Man to Die](http://www.lastmantodie.net), I knew that I wanted to hook our bodies up to computers to affect musical and visual aspects of performance. The first way to do this I thought of was a heartbeat sensor! A little bit of research showed that there were cheap and easy ways to build a heartbeat sensor that could connect to an Arduino, but there were a few hurdles I had to work out before it was ready for performance!
 
@@ -35,7 +35,7 @@ The sensor only uses four inexpensive parts!
 
 Of course, you also need an Arduino (from [Little Bird](http://www.littlebirdelectronics.com/products/Arduino-Uno.html)).
 
-![The heartbeat sensor circuit diagram.]({{ site.baseurl }}/squarespace_images/2010-11-01-HeartbeatDiagram.jpg) The heartbeat sensor circuit diagram.
+![The heartbeat sensor circuit diagram.]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-HeartbeatDiagram.jpg) The heartbeat sensor circuit diagram.
   
 ### Here's the circuit diagram:
 
@@ -47,11 +47,11 @@ The phototransistor is connected to the Arduino in a similar way to a potentiome
 
 Here's a picture of my test circuit on a breadboard, note that my IR receiver and emitter look like regular round LEDs so I set them up so that the lenses were adjacent and both pointing up. Different types of IR receivers/emitters look different, check the data sheet to see where the IR light enters/exits.
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-SensorTestCircuit.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-SensorTestCircuit.jpg)
 
 Arduino and the sensor circuit. My phone camera can see in infrared. 
      
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-HeartbeatData.jpg) 
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-HeartbeatData.jpg) 
 
 Raw data from the heartbeat senso. Each little bump is a heartbeat! 
 
@@ -59,8 +59,8 @@ Time to test! I wanted to view the raw data from the IR detector to prove to mys
 
 To finish the circuit, I soldered it in free form style since I wanted it to be as small as possible, I used some foam tape to separate the detector and emitter leaving just the lens visible and held it together with electrical tape.
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-Sensor1.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-Sensor2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-Sensor1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-Sensor2.jpg)
 
 ## Programming
 
@@ -349,7 +349,7 @@ All you have to do is plug the Ethernet Shield into the top of the Arduino, load
 
 I wrapped the final result up in a crazy plastic box, so the audience can see the blinky lights and know that it's a real thing and not a prop. Here's a photo from a rehearsal using the sensor:
 
-![]({{ site.baseurl }}/squarespace_images/2010-11-01-HeartbeatAction.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-HeartbeatAction.jpg)
 
 PS, I used this project with this group: [Last Man to Die](http://www.lastmantodie.net)
 

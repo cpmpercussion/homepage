@@ -13,6 +13,6 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2011-06-25-Inuksuit.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-06-25-Inuksuit.jpg)
 
 Played JLA Inuksuit at the national gallery at Dawn! -4C = frosty.

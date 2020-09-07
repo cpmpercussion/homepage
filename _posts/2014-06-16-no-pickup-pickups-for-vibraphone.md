@@ -19,7 +19,7 @@ A few years ago I was really interested in finding ways to augment the vibraphon
 
 I wrote [this post](http://charlesmartin.com.au/blog/2011/10/28/a-computer-music-system-for-vibraphone.html) about an array of small mics and a preamp that I made myself to use with the RjDj app on my iPhone (also my [master's thesis](http://pure.ltu.se/portal/en/studentthesis/mobile-computer-music-for-percussionists(180ad458-3f35-49eb-b483-8245469b0403).html)). It worked pretty well for the time, but soon after I put it together lots of iPhone music accessories came out that made my home-made monstrosity obsolete. So here's my modern "no-pickup" setup:  
        
-![What's in my bag.. for a vibraphone and computer music gig.]({{ site.baseurl }}/squarespace_images/2014-06-18-NoPickupPickups1-Bag.jpg) 
+![What's in my bag.. for a vibraphone and computer music gig.]({{ site.baseurl }}/assets/squarespace_images/2014-06-18-NoPickupPickups1-Bag.jpg) 
 
 What's in my bag.. for a vibraphone and computer music gig. 
 
@@ -35,6 +35,6 @@ What's in my bag.. for a vibraphone and computer music gig.
 
 (BTW, this setup really only works on a quiet stage, not in a loud band situation.)
 
-![]({{ site.baseurl }}/squarespace_images/2014-06-18-NoPickupPickups2-NordligVinter.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2014-06-18-NoPickupPickups2-NordligVinter.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2014-06-18-NoPickupPickups3-NordligVinter2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2014-06-18-NoPickupPickups3-NordligVinter2.jpg)

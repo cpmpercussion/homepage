@@ -14,12 +14,12 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-30-MoreVersailles1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles1.jpg)
  
-![]({{ site.baseurl }}/squarespace_images/2010-12-30-MoreVersailles2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles2.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/2010-12-30-MoreVersailles3.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles3.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/2010-12-30-MoreVersailles4.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles4.jpg)
    
-![]({{ site.baseurl }}/squarespace_images/2010-12-30-MoreVersailles5.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles5.jpg)

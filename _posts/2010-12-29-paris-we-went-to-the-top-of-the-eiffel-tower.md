@@ -14,8 +14,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-29-Eiffel1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-29-Eiffel1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-29-Eiffel2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-29-Eiffel2.jpg)
 
 christina was soooo scared.

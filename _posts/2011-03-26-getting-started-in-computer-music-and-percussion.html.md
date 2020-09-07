@@ -16,7 +16,7 @@ published: true
 meta: {}
 ---
 
-![Getting started with percussion and computer music.]({{ site.baseurl }}/squarespace_images/2011-03-26-ComputerMusic.jpg)
+![Getting started with percussion and computer music.]({{ site.baseurl }}/assets/squarespace_images/2011-03-26-ComputerMusic.jpg)
 
 During our Piteå Percussion Repertoire Festival last week, a couple of people asked me about the best way to get started with computer music and percussion. It got me thinking a bit so here’s what I think:
 

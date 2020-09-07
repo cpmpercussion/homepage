@@ -13,7 +13,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-03-28-SOSDevelopment.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-03-28-SOSDevelopment.jpg)
 
 Development day at Belconnen Arts Centre.
 

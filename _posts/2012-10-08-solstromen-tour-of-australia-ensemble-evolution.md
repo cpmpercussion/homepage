@@ -32,20 +32,20 @@ Special thanks goes to Peter Neville at Melbourne Conservatorium, Gary France at
 
 The video above is our set at Canberra Museum and Gallery during You Are Here, and there are lots of photos below of our adventures!
 
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-ANU-Lunchtime.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-ANU-friends.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-GaryFrance.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-ImprovCGS.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-PerfCGS.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-SydneyCon.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-SerialSpace.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-SydneyRoyalNationalPark.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-BusinessTime.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-VCAMelbourne.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-MelbourneCoffee.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-YouAreHere.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-Maria-YAH.jpg)
-![]({{ site.baseurl }}/squarespace_images/2012-10-08-EE-BeachParty.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-ANU-Lunchtime.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-ANU-friends.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-GaryFrance.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-ImprovCGS.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-PerfCGS.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-SydneyCon.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-SerialSpace.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-SydneyRoyalNationalPark.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-BusinessTime.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-VCAMelbourne.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-MelbourneCoffee.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-YouAreHere.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-Maria-YAH.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-EE-BeachParty.jpg)
 
 Our concert at the ANU School of Music was [reviewed](http://canberrajazz.blogspot.com.au/2012/03/joy-of-buses.html) by Eric Pozza at CanberraJazz.net, an excerpt is featured here:
 

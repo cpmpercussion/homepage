@@ -15,7 +15,7 @@ meta: {}
 
 Last week the Last Mans and I put on a little run of our [show](http://lastmantodie.net/) as part of [National Science Week](http://www.scienceweek.gov.au/).
 
-![LMTD performance at the Street Theatre in Canberra]({{ site.baseurl }}/squarespace_images/2011-09-02-LMTD-ScienceWeek.jpg)
+![LMTD performance at the Street Theatre in Canberra]({{ site.baseurl }}/assets/squarespace_images/2011-09-02-LMTD-ScienceWeek.jpg)
 
 <!-- (http://3.bp.blogspot.com/-zMd8Vy9qkRU/Tl7isy-jz2I/AAAAAAAADqY/4Zo_41EQ1J4/s1600/320142_10150350528828524_785213523_9731387_650084_n.jpg) -->
 

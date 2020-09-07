@@ -13,7 +13,7 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-CaseSet.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-CaseSet.jpg)
 
 I’m lucky enough to own a great Musser M55 vibraphone which I bought second hand several years ago and I’ve always wondered about making or buying a set of cases for it. Since I moved back to Canberra from studying in Piteå I’ve ended up taking the vibraphone to more and more gigs (I’ve used it more in the past year than in the 5 years that I had it before moving overseas!) and the need for cases became critical!
 
@@ -33,14 +33,14 @@ There are several photos of these cases around the internet (including in Tony M
 
 ## Frame Case
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-FrameCaseClosed.jpg)   
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-FrameCaseOpen.jpg)
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-FrameCaseHandleDetail.jpg)
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-FrameCaseDRingDetail.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-FrameCaseClosed.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-FrameCaseOpen.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-FrameCaseHandleDetail.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-FrameCaseDRingDetail.jpg)
 
 The frame is the heaviest and most awkward part of the M55. I find it really difficult to carry the frame any distance and to get it in and out of cars just because its hard to get a good grip on it without having the posts or wheels sticking into you.
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-FrameCaseShoulderStrapDetail.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-FrameCaseShoulderStrapDetail.jpg)
 
 This case has foam padding in each side, a handle sewn into one of the long edges and two steel D rings attached to opposite large sides. The case fits the frame snugly, in fact it’s a bit tricky to get the foam padding around all four corners of the heavy frame. Once the zip is done up, the snugness pays off because the firm case is very easy to carry.
 
@@ -50,7 +50,7 @@ I’m a little bit worried about the durability of the ripstop fabric inside thi
 
 ## Resonator Case
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-ResonatorCaseOpen.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-ResonatorCaseOpen.jpg)
 
 The resonator case is big and rectangular to fit the annoying shape of the M55’s decorative accidental resonator. Both the resonators fit into the same case with a big divider in between. The divider is made of the padding foam covered in ripstop nylon. The outer design is very similar to the frame case with a handle on one long edge and D rings on each side.
 
@@ -60,26 +60,26 @@ This case also includes a shoulder strap that I won’t use. Again, the D rings 
 
 ## Bar Case
     
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-BarCaseOuterStandingUp.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-BarCaseOuterStandingUp.jpg)
 
 The bar case comes with two parts: the cylindrical outer case and a soft inner case to separate and roll up the two sets of bars. The outer case is constructed similarly to the frame and resonator cases with foam padding on all sides. It has one handle on the side of the cylinder. The roll-up part is a rectangular envelope with an internal separator. All parts of the roll-up are made of ripstop nylon with some lightweight and flexible padding. The roll-up case completely zips up so that the bars are completely encapsulated.
 
 Like most mallet players I already had a reasonable system for transporting my bars using a small rolling suitcase and some thin blankets, but this case is a big step in convenience. The roll-up inner is very easy to organise and quite compact since the two sets of bars are rolled together. One extra detail I’ve added to my bar case are some little strips of denim to wrap around the springs at the low end of the bars to stop them scratching anything.
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-BarCaseInnerAndOuter.jpg)   
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-BarCaseInnerUnrolled.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-BarCaseInnerAndOuter.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-BarCaseInnerUnrolled.jpg)
 
 When the bars are rolled up they fit easily in the outer case. Again, I’m a bit worried carrying this case with just one handle. I would feel safer grabbing it on two sides. Probably I’m being paranoid and the handle will never break, but even then, it’s a bit easier and safer to grab a heavy case with in two places.
 
 ## Crossbar and Pedal Case
     
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-CrossbarBagClosed.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-CrossbarBagClosed.jpg)
 
 This often overlooked part of the vibes finally gets a dedicated case - even though its the simplest case in the set. This case is a long rectangular envelope with a zip along one edge, there are simple nylon handles sewn into each side. This case isn’t padded, but it is lined - a nice touch.
 
 Because this case isn’t padded it can be folded up when not in use and kept inside one of the other cases - yay space saving!
 
-![]({{ site.baseurl }}/squarespace_images/BeinerBagsM55-CrossbarBagOpen.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-CrossbarBagOpen.jpg)
 
 ## Recap
 

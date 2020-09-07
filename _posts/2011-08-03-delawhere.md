@@ -12,8 +12,8 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-03-Delawhere1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-03-Delawhere2.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2011-08-03-Delawhere3.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2011-08-03-Delawhere3.jpg)

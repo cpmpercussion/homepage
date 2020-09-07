@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-21-EmergencyStockholm.jpg) 
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-21-EmergencyStockholm.jpg) 
 
 Had to stay in Stockholm for two nights due to EUROPE SNOW CHAOS. We had fun anyway!! Visited Anders and family on Sunday evening and walked around Stockholm on Monday. The Christmas market at Gamla Stan was fun. Yay Stockholm!

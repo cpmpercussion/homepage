@@ -22,12 +22,12 @@ Along with glass artist [Sarah Cohen](http://www.sarahlovesglass.com), Maria fro
 
 Here's some great images courtesy of Mark Landsberg and a video Maria put together of our concerts!
 
-![]({{ site.baseurl }}/squarespace_images/2014-10-20-frost-beat-1.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/2014-10-20-frost-beat-1.jpg)   
 
-![]({{ site.baseurl }}/squarespace_images/2014-10-20-frost-beat-2.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/2014-10-20-frost-beat-2.jpg)   
 
-![]({{ site.baseurl }}/squarespace_images/2014-10-20-frost-beat-3.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/2014-10-20-frost-beat-3.jpg)   
 
-![]({{ site.baseurl }}/squarespace_images/2014-10-20-frost-beat-4.jpg)   
+![]({{ site.baseurl }}/assets/squarespace_images/2014-10-20-frost-beat-4.jpg)   
 
 Since this concert, Maria has put together [ANOTHER Frost Beat night](http://www.mariafinkelmeier.com/news/2014/9/26/frostbeat-20) with Amy Garapic. Hopefully I'll get to come back sometime and make some more ice music!

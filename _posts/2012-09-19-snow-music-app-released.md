@@ -13,7 +13,7 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2012-09-19-SnowMusicArtwork.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-09-19-SnowMusicArtwork.jpg)
 
 The Snow Music app I developed with Ensemble Evolution as part of my research in Piteå, is now available for free on the [iTunes store](http://itunes.apple.com/us/app/snow-music/id560849530?ls=1&mt=8)!
 

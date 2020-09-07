@@ -13,6 +13,6 @@ published: true
 meta: {}
 ---
 
-![THIS IS CRAZY.]({{ site.baseurl }}/squarespace_images/2011-03-22-EspressoLemon.jpg) 
+![THIS IS CRAZY.]({{ site.baseurl }}/assets/squarespace_images/2011-03-22-EspressoLemon.jpg) 
 
 THIS IS CRAZY.

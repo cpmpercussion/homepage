@@ -14,4 +14,4 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-03-09-LMTD-Postcard.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-03-09-LMTD-Postcard.jpg)

@@ -13,7 +13,7 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-PosterSession.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-PosterSession.jpg)
 
 I presented a poster at [NIME2013](http://nime2013.kaist.ac.kr) at KAIST in Daejeon, Korea last week. This conference has a really vibrant and fun culture of poster and demo sessions - each day there's a new set of posters and usually the presenters have a computer running videos of performances or showing the source code for their project and are showing attendees how to use their strange new interfaces!
 

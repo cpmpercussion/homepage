@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2013-01-07-PercusSceneReadingFromiPads.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-01-07-PercusSceneReadingFromiPads.jpg)
 
 Here's my Percussion and Technology article from the October-December issue of PERCUSScene. Enjoy and check out the 
 [new issue](http://www.drumscene.com.au/current-issue)!

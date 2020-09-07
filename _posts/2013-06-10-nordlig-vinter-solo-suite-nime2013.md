@@ -14,15 +14,15 @@ type: post
 published: true
 ---
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-NordligVinter-1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-NordligVinter-2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-2.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-NordligVinter-3.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-3.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-NordligVinter-4.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-4.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/NIME2013-NordligVinter-5.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-5.jpg)
 
 I performed my solo suite from [Nordlig Vinter](/nordligvinter) recently at the [New Interfaces for Musical Expression Conference](http://nime2013.kaist.ac.kr) at KAIST in Daejeon, Korea. This was a bit of a test for me as I've been doing a lot of revisions to this piece and wanted to use the [iRig Pre](http://www.ikmultimedia.com/products/irigpre/) that I bought recently with the Nordlig Vinter iPhone app so I had been doing a bit of preparation in the week before the performance.
 

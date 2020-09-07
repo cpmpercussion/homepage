@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-03-26-Rational1.jpg)
-![]({{ site.baseurl }}/squarespace_images/2010-03-26-Rational2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-03-26-Rational1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-03-26-Rational2.jpg)
 
 Benjamin ([www.emptybook.net](http://www.emptybook.net/)) opened his exhibition yesterday at Canberra Contemporary Art Space, Manuka. It is awesome.

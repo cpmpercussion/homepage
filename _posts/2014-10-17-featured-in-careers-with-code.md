@@ -12,6 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2014-10-17-CareersWithCode.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2014-10-17-CareersWithCode.jpg)
 
 I was recently featured in ["Careers with Code"](http://careerswithcode.refractionmedia.com.au/#folio=1), a magazine featuring computer science researchers, students, and graduates around Australia! Cool!

@@ -14,9 +14,9 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-18-Christina1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-18-Christina1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2010-12-18-Christina2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-12-18-Christina2.jpg)
 
 yay Chrissy is here! 
 

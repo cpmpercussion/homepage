@@ -22,6 +22,6 @@ Here’s the video of a nice theory.
   
 And here’s the review by Kaija Huida for Satakunnan Kansa:
 
-![]({{ site.baseurl }}/squarespace_images/2012-05-15-PalmgrenConcert.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-05-15-PalmgrenConcert.jpg)
 
 ([the review is also online](http://www.satakunnankansa.fi/Arvostelut/1194742824383/artikkeli/kaunista+laulua+lyomasoittimilla.html), and the Google Translated [version is here](http://translate.google.com/translate?sl=fi&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fwww.satakunnankansa.fi%2FArvostelut%2F1194742824383%2Fartikkeli%2Fkaunista%2Blaulua%2Blyomasoittimilla.html))

@@ -17,7 +17,7 @@ published: true
 
 My master’s thesis, [Mobile Computer Music for Percussionists](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659), has been published in the Luleå University of Technology’s Thesis Database! [Here’s the link.](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659)
       
-![]({{ site.baseurl }}/squarespace_images/2012-06-26-thesis.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2012-06-26-thesis.jpg)
 
 The thesis has links to a number of artistic works, especially a demo release of [Nordlig Vinter (which is available on Soundcloud)](http://soundcloud.com/charlesmartin/sets/nordlig-vinter/) and performances of [Snow Music with Ensemble Evolution (Youtube)](http://youtu.be/VWjpooXcdW8).
 

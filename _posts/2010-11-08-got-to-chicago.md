@@ -15,4 +15,4 @@ meta: {}
 
 Woo! Time for cheap food!
 
-![Woo! Time for cheap food!]({{ site.baseurl }}/squarespace_images/2010-11-08-Chicago.jpg)
+![Woo! Time for cheap food!]({{ site.baseurl }}/assets/squarespace_images/2010-11-08-Chicago.jpg)

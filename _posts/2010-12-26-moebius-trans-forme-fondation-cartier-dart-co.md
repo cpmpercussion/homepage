@@ -14,6 +14,6 @@ published: true
 meta: {}
 ---
 
-![Fondation.cartier.com]({{ site.baseurl }}/squarespace_images/2010-12-26-Moebius.jpg) 
+![Fondation.cartier.com]({{ site.baseurl }}/assets/squarespace_images/2010-12-26-Moebius.jpg) 
 
 Fondation.cartier.com

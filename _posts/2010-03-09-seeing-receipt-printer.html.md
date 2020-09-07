@@ -12,6 +12,6 @@ published: true
 meta: {}
 ---
 
-![]({{ site.baseurl }}/squarespace_images/2010-03-09-LMTD-Receipt.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2010-03-09-LMTD-Receipt.jpg)
 
 Seeing Receipt Printer. What's it looking at?

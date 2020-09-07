@@ -19,11 +19,11 @@ First up is Theremin '75, a concert of music for Theremin, iPad and computer in 
 
 Here's some photos from the rehearsals and performance. The ensemble was Christina Hopgood, Yvonne Lam, Jonathan Griffiths and me!
 
-![]({{ site.baseurl }}/squarespace_images/2013-12-04-Theremin75-1.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-12-04-Theremin75-1.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2013-12-04-Theremin75-2.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-12-04-Theremin75-2.jpg)
 
-![]({{ site.baseurl }}/squarespace_images/2013-12-04-Theremin75-3.jpg)
+![]({{ site.baseurl }}/assets/squarespace_images/2013-12-04-Theremin75-3.jpg)
 
 It was a bit tricky getting the four instruments up and running, theremins typically have small aerials while these instruments had quite large pieces of steel! As a result, our bodies were always in the electric field of the theremin so we had to tune the instruments while on stage. Given that the instruments were on display in a gallery we weren't able to look at each other so we used [Decibel's ScorePlayer iPad app](http://decibel.waapamusic.com/decibelscoreplayer/) to synchronise a scrolling score to perform the work cohesively. The result was loud, crazy, and a lot of fun! Here's the video:
 

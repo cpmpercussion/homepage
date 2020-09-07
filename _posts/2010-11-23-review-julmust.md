@@ -14,7 +14,7 @@ published: true
 meta: {}
 ---
 
-![Julmust testing rig.]({{ site.baseurl }}/squarespace_images/2010-11-23-Julmust.jpg) Julmust testing rig. 
+![Julmust testing rig.]({{ site.baseurl }}/assets/squarespace_images/2010-11-23-Julmust.jpg) Julmust testing rig. 
 
 The other day when I went down to ICA to get some food, I saw two girls from Ankars walk in to the shop, each pick up a bottle of Julmust and a block of chocolate and that's it, pay and leave.
 
