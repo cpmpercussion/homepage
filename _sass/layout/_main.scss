@@ -38,7 +38,7 @@
 					}
 
 					> h1, h2 {
-						font-size: 4rem;
+						font-size: 3rem;
 						line-height: 1.1;
 						margin: 0 0 _size(element-margin) 0;
 					}
@@ -71,6 +71,12 @@
 					}
 				}
 			}
+
+      img {
+          display: block;
+          margin: 0 0 2em 0;
+          width: 100%
+      }
 		}
 
 		> .posts {
