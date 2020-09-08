@@ -1,24 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-{% include head.html %}
-</head>
-<body class="is-loading">
-<!-- Wrapper -->
-<div id="wrapper" class="fade-in">
-<!-- Header -->
-<header id="header">
-	<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-</header>
-<!-- Nav -->
-<nav id="nav">
-	{% include nav.html %}
-	{% include socialicons.html %}
-</nav>
-<div id="main">
-	<h2><a href="#">{{page.title}}</a></h2>
-	<!-- Post -->
-	<section class="posts">
+---
+layout: default
+---
+
 	{% for post in site.posts %}
 	{% assign mod3 = forloop.index | modulo: 4 %}
 	<article>
@@ -33,13 +16,3 @@
 		</ul>
 	</article>
 	{% endfor %}
-</section>
-</div>
-<!-- Footer -->
-{% include foot.html %}
-</div>
-<!-- Scripts -->
-{% include scripts-main.html %}
-{% include tracking.html %}
-</body>
-</html>
