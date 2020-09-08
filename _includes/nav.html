@@ -1,10 +1,12 @@
 <nav class="navigation" aria-label="main navigation">
-  {% assign links = site.data.navigation %}
-  {% for link in links %}
-  {% assign class = nil %}
-  {% if page.url == link.url %}
-  {% assign class = 'active' %}
-  {% endif %}
-  <li class="{{ class }}"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-  {% endfor %}
+  <ul>
+    {% assign links = site.data.navigation %}
+    {% for link in links %}
+    {% assign class = nil %}
+    {% if page.url == link.url %}
+    {% assign class = 'active' %}
+    {% endif %}
+    <li class="{{ class }}"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
 </nav>
