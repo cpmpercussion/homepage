@@ -2,17 +2,17 @@
 layout: default
 ---
 
-	{% for post in site.posts %}
-	{% assign mod3 = forloop.index | modulo: 4 %}
-	<article>
-		<header>
-			<span class="date">{{ post.date | date_to_string }}</span>
-			<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-		</header>
-		<!-- <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a> -->
-		<div class="postcontent">{{ post.excerpt }}</div>
-		<ul class="actions">
-			<li><a href="{{ post.url | absolute_url }}" class="button">read</a></li>
-		</ul>
-	</article>
-	{% endfor %}
+{% for post in site.posts %}
+{% assign mod3 = forloop.index | modulo: 4 %}
+<article>
+	<header>
+		<span class="date">{{ post.date | date_to_string }}</span>
+		<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+	</header>
+	<!-- <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a> -->
+	<div class="postcontent">{{ post.excerpt }}</div>
+	<ul class="actions">
+		<li><a href="{{ post.url | absolute_url }}" class="button">read</a></li>
+	</ul>
+</article>
+{% endfor %}
