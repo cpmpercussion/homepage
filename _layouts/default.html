@@ -4,14 +4,14 @@
 	  {% include head.html %}
   </head>
   <body>
-	  <div class="container">
-	    {% include nav.html %}
-      {% include socialicons.html %}
+    {% include nav.html %}
+	  <div class="container">	   
 	    <main aria-label="Content">
 		    {{ content }}
 	    </main>
 	    {% include foot.html %}
 	  </div>
 	  {% fa_svg_generate %}
+    {% include scripts.html %}
   </body>
 </html>
