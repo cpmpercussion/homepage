@@ -4,62 +4,45 @@ title: Publications
 permalink: /publications/
 ---
 
-<!-- <style>
-// Bibliography boxes
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-.collapse {
-  display: block;
-  max-height: 0px;
-  overflow: hidden;
-  /*transition: max-height .5s cubic-bezier(0, 1, 0, 1);*/
-&.show {
-    max-height: 99em;
-    /*transition: max-height .5s ease-in-out;*/
-  }
-}
-</style> -->
-
-## Book Chapters
+# Book Chapters
 
 {% bibliography --query @*[keywords ~= book-chapter && keywords ~= refereed] %}
 
-## Refereed Journal Articles
+# Refereed Journal Articles
 
 {% bibliography --query @*[keywords ~= journal-article && keywords ~= refereed] %}
 
-## Refereed Conference Proceedings
+# Refereed Conference Proceedings
 
 {% bibliography --query @*[keywords ~= conference-paper && keywords ~= refereed] %}
 
-## Other Publication Outputs
+# Other Publication Outputs
 
-### Articles Under Review
+## Articles Under Review
 
 {% bibliography --query @*[keywords ^= under-review] %}
 
-### Non-Refereed Conference Proceedings
+## Non-Refereed Conference Proceedings
 
 {% bibliography --query @*[keywords ^= conference-paper && keywords ^= non-refereed] %}
 
-### Non-Refereed Conference Presentations
+## Non-Refereed Conference Presentations
 
 {% bibliography --query @*[keywords ^= conference-presentation] %}
 
-### Open-Source Code Projects
+## Open-Source Code Projects
 
 {% bibliography --query @*[keywords ^= open-source] %}
 
-### Open Data Sets
+## Open Data Sets
 
 {% bibliography --query @*[keywords ^= open-data] %}
 
-### Selected Research-Led Artistic Performances
+## Selected Research-Led Artistic Performances
 
 {% bibliography --query @*[keywords ^= artistic-performance] %}
 
-### Selected Music Recordings
+## Selected Music Recordings
 
 {% bibliography --query @*[keywords ^= music-recording] %}
 

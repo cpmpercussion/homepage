@@ -1,0 +1,36 @@
+---
+---
+// Inter Font
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+$body-font: 'Inter', sans-serif;
+$header-font: 'Inter', sans-serif;
+
+html {
+    font-family: $body-font;
+}
+
+
+// Styles
+body {
+  font-family: $body-font;
+  font-weight: normal;
+}
+
+h1, h3, h5 {
+  font-family: $header-font;
+  font-weight: 900;
+}
+
+h2, h4, h6 {
+    font-family: $header-font;
+    font-weight: 600;
+}
+
+.button {
+  font-family: $body-font;
+  font-weight: bold;
+}
