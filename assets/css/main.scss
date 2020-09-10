@@ -33,14 +33,30 @@ p {
 
 h1, h3, h5 {
   font-family: $header-font;
-  font-weight: 900;
+  font-weight: 600 !important;
 }
 
 h2, h4, h6 {
     font-family: $header-font;
-    font-weight: 600;
+    font-weight: 500;
 }
 
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: $header-font;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+.heading-logo {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    padding: 1rem;
+}
+
+h2.bibliography {
+    font-size: 1.5rem !important;
+}
 
 .button {
   font-family: $body-font;

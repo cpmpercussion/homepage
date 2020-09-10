@@ -4,7 +4,9 @@ layout: default
 
 <article>
   {% if page.title %}
-  <h1>{{ page.title }}</h1>
+  <div class="my-4 py-4">
+    <h1 class="display-5">{{ page.title }}</h1>
+  </div>
   {% endif %}
   {{ content }}
 </article>
