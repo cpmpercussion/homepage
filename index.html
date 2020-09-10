@@ -3,28 +3,24 @@ layout: default
 title: Charles Martin
 description: percussion. sound. interaction.
 ---
-<div id="intro">
-	<h1>{{site.title}}</h1>
-	<h2>{{site.bio}}</h2>
+
+<div class="jumbotron">
+  <div class="rounded float-right w-25 d-inline">
+   <img src="{{ site.title-image | absolute_url }}" class="mw-100 mx-auto" alt="Charles Martin playing a synthesiser in a dark street." />
+  </div>
+  
+   <h1>I'm Charles Martin.</h1>
+   <p>I'm a computer scientist specialising in music technology, musical AI and human-computer interaction at <a href="https://cs.anu.edu.au/people/charles-martin">The Australian National University, Canberra</a>.</p>
+	 <p>I develop musical apps such as <a href="https://microjam.info">MicroJam</a>, and <a href="https://metatone.net/phaserings">PhaseRings</a>,research <a href="https://creativeprediction.xyz">creative AI</a>, and perform music with <a href="https://metatone.net">Ensemble Metatone</a> and <a href="https://charlesmartin.com.au/andromeda-is-coming/">Andromeda is Coming</a>.</p>
+   <p>At the ANU, I lead research into  <a href="{{site.baseurl}}/imilab/">intelligent musical instruments</a>. My lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.</p>
+	 <p>This website includes my personal blog, portfolio of projects and music, and academic profile.</p>
 </div>
 
-<article>
-  <img src="{{ site.title-image | absolute_url }}" class="rounded float-right" width=300 alt="Charles Martin playing a synthesiser in a dark street." />
-  <p>
-    I'm a computer scientist specialising in music technology, musical AI and human-computer interaction at <a href="https://cs.anu.edu.au/people/charles-martin">The Australian National University, Canberra</a>.</p>
-      
-	<p>I develop musical apps such as <a href="https://microjam.info">MicroJam</a>, and <a href="https://metatone.net/phaserings">PhaseRings</a>,research <a href="https://creativeprediction.xyz">creative AI</a>, and perform music with <a href="https://metatone.net">Ensemble Metatone</a> and <a href="https://charlesmartin.com.au/andromeda-is-coming/">Andromeda is Coming</a>.</p>
-      
-  <p>At the ANU, I lead research into  <a href="{{site.baseurl}}/imilab/">intelligent musical instruments</a>. My lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.</p>
-
-	<p>This website includes my personal blog, portfolio of projects and music, and academic profile.</p>
-</article>
-		
 <h2>Recent Posts</h2>
 
-<section class="posts">
+<section class="row">
 	{% for post in site.posts limit:4 %}
-	<article>
+	<article class="col-md-6">
 		<header>
 			<span class="date">{{ post.date | date_to_string }}</span>
 			<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>

@@ -89,3 +89,58 @@ img.carouselcontain {
 //background: rgb(255,188,48);
 //background: linear-gradient(90deg, rgba(255,188,48,1) 0%, rgba(255,0,0,1) 100%);
 
+$ui-background: rgb(255,188,48);
+$ui-gradient: linear-gradient(90deg, rgba(255,188,48,0.8) 0%, rgba(255,80,80,0.8) 100%);
+
+$ui-0: #34414F;
+$ui-1: #66A983;
+$ui-2: #F0D564;
+$ui-3: #F7AE48;
+$ui-4: #DC702F;
+
+
+
+.nav-item {
+    .active {
+        font-weight: 900;
+    }
+
+    &:hover {
+        font-weight: 900;
+        color: #fff;
+        background: $ui-background;
+        background: $ui-gradient;
+    }
+}
+
+main a {
+    color: $ui-4;
+    font-weight: 500;
+    
+    &:hover {
+        color: #fff;
+        background: $ui-gradient !important;
+//        -webkit-background-clip: text;
+//        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+//a.nav-link.active {
+//    color: $ui-background;
+//    color: $ui-gradient !important;
+//}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.cpmicon {
+    mask: url({% link /assets/images/cpm-logo-white.svg %});
+    display: inline-block;
+    width: 70px;
+    //height: 70px;
+    mask-size:cover;
+    background: $ui-background;
+    background: $ui-gradient;
+}
