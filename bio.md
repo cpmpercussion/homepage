@@ -20,7 +20,7 @@ carousel:
   - image: /assets/bio/touch-and-tone-profile.jpg
 ---
 
-<div class="image right">
+<div class="w-50 float-right">
 {% include carousel.html %}
 </div>
 

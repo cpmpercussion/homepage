@@ -1,67 +1,148 @@
 ---
 ---
+// Inter Font
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+$body-font: 'Inter', sans-serif;
+$header-font: 'Inter', sans-serif;
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+html {
+    font-family: $body-font;
+}
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 1.5rem )
-	));
+body {
+  font-family: $body-font;
+  font-weight: normal;
+}
 
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-box($p);
-		@include color-button($p);
-		@include color-form($p);
-		@include color-list($p);
-		@include color-section($p);
-		@include color-table($p);
-		@include color-pagination($p);
-	}
+body {
+    background: url({% link /assets/images/bg.jpg %}) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
-// Base.
+p {
+    font-family: $body-font;
+}
 
-	@import 'base/page';
-	@import 'base/typography';
 
-// Component.
+h1, h3, h5 {
+  font-family: $header-font;
+  font-weight: 600 !important;
+}
 
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/section';
-	@import 'components/table';
-	@import 'components/pagination';
+h2, h4, h6 {
+    font-family: $header-font;
+    font-weight: 500;
+}
 
-// Layout.
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: $header-font;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
 
-	@import 'layout/wrapper';
-	@import 'layout/intro';
-	@import 'layout/header';
-	@import 'layout/nav';
-	@import 'layout/main';
-	@import 'layout/footer';
-	@import 'layout/navPanel';
 
+h2.bibliography {
+    font-size: 1.5rem !important;
+}
+
+.button {
+  font-family: $body-font;
+  font-weight: bold;
+}
+
+article {
+
+    img {
+        max-width: 80%;
+        max-height: 80%;
+        height: inherit !important;
+        display:block;
+        margin:auto;
+    }
+
+    .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+        text-align: center;
+    }
+}
+
+img.carouselcontain {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+// nice orange to red gradient
+//background: rgb(255,188,48);
+//background: linear-gradient(90deg, rgba(255,188,48,1) 0%, rgba(255,0,0,1) 100%);
+
+$ui-background: rgb(255,188,48);
+$ui-gradient: linear-gradient(90deg, rgba(255,188,48,0.8) 0%, rgba(255,80,80,0.8) 100%);
+
+$ui-0: #34414F;
+$ui-1: #66A983;
+$ui-2: #F0D564;
+$ui-3: #F7AE48;
+$ui-4: #DC702F;
+
+.heading-logo {
+    //border-style: solid;
+    //border-color: #fff;
+    //border-width: 5px;
+    //padding: 1rem;
+    background: $ui-gradient;
+}
+
+
+
+.nav-item {
+    .active {
+        font-weight: 900;
+    }
+
+    &:hover {
+        font-weight: 900;
+        color: #fff;
+        background: $ui-background;
+        background: $ui-gradient;
+    }
+}
+
+.container a, main a {
+    color: $ui-4;
+    font-weight: 500;
+    
+    &:hover {
+        color: #fff;
+        background: $ui-gradient !important;
+//        -webkit-background-clip: text;
+//        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+//a.nav-link.active {
+//    color: $ui-background;
+//    color: $ui-gradient !important;
+//}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.cpmicon {
+    mask: url({% link /assets/images/cpm-logo-white.svg %});
+    display: inline-block;
+    width: 70px;
+    //height: 70px;
+    mask-size:cover;
+    background: $ui-background;
+    background: $ui-gradient;
+}

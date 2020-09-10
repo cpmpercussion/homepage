@@ -4,23 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-<!-- <style>
-// Bibliography boxes
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-.collapse {
-  display: block;
-  max-height: 0px;
-  overflow: hidden;
-  /*transition: max-height .5s cubic-bezier(0, 1, 0, 1);*/
-&.show {
-    max-height: 99em;
-    /*transition: max-height .5s ease-in-out;*/
-  }
-}
-</style> -->
-
 ## Book Chapters
 
 {% bibliography --query @*[keywords ~= book-chapter && keywords ~= refereed] %}

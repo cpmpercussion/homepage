@@ -1,37 +1,8 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-{% include head.html %}
-</head>
-<body class="is-loading">
-<!-- Wrapper -->
-<div id="wrapper" class="fade-in">
-    <!-- Header -->
-    <header id="header">
-    <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-    </header>
-    <!-- Nav -->
-    <nav id="nav">
-        {% include nav.html %}
-        {% include socialicons.html %}
-    </nav>
-    <!-- Main -->
-    <div id="main">
-        <!-- Post -->
-        <h1>{{page.title}}</h1>
-        <section class="post">
-        {{content}}
-        </section>
-        <!-- Footer -->
-        <!-- <footer> -->
-            <!-- Footer text. -->
-        <!-- </footer> -->
-    </div>
-    <!-- Footer -->
-    {% include foot.html %}
-</div>
-<!-- Scripts -->
-{% include scripts-main.html %}
-{% include tracking.html %}
-</body>
-</html>
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title | markdownify }}</h1>
+  {{ content }}
+</article>

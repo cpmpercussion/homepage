@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  {% include head.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+
+    <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
+      <h1 class="display-2 mx-auto heading-logo">{{ site.title }}</h1>
+    </div>
+
+    {% if page.titlepage %}
+    {% include titlepagebox.html %}
+    {% endif %}
+
+	  <div class="container bg-white rounded">	   
+	    <main class="p-4" aria-label="Content">
+		    {{ content }}
+	    </main>
+	  </div>
+    {% include foot.html %}
+	  {% fa_svg_generate %}
+    {% include scripts.html %}
+  </body>
+</html>
