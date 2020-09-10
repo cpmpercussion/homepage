@@ -97,10 +97,10 @@ $ui-4: #DC702F;
     //border-color: #fff;
     //border-width: 5px;
     //padding: 1rem;
+    font-size: 5.5rem;
+    font-size: 7vw !important;
     background: $ui-gradient;
 }
-
-
 
 .nav-item {
     .active {
@@ -146,3 +146,4 @@ $ui-4: #DC702F;
     background: $ui-background;
     background: $ui-gradient;
 }
+
