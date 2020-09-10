@@ -7,24 +7,14 @@
     {% include nav.html %}
 
     <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
-      <h1 class="display-4 mx-auto heading-logo">{{ site.title }}</h1>
+      <h1 class="display-2 mx-auto heading-logo">{{ site.title }}</h1>
     </div>
 
     {% if page.titlepage %}
-    <div class="jumbotron container text-light bg-dark">
-      <div class="rounded float-right w-25 d-inline">
-        <img src="{{ site.title-image | absolute_url }}" class="mw-100 mx-auto" alt="Charles Martin playing a synthesiser in a dark street." />
-      </div>
-  
-      <h1>I'm Charles Martin.</h1>
-      <p class="lead">I'm a computer scientist specialising in music technology, musical AI and human-computer interaction at <a href="https://cs.anu.edu.au/people/charles-martin">The Australian National University, Canberra</a>.</p>
-	    <p class="lead">I develop musical apps such as <a href="https://microjam.info">MicroJam</a>, and <a href="https://metatone.net/phaserings">PhaseRings</a>,research <a href="https://creativeprediction.xyz">creative AI</a>, and perform music with <a href="https://metatone.net">Ensemble Metatone</a> and <a href="https://charlesmartin.com.au/andromeda-is-coming/">Andromeda is Coming</a>.</p>
-      <p class="lead">At the ANU, I lead research into  <a href="{{site.baseurl}}/imilab/">intelligent musical instruments</a>. My lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.</p>
-	    <p class="lead">This website includes my personal blog, portfolio of projects and music, and academic profile.</p>
-    </div>
+    {% include titlepagebox.html %}
     {% endif %}
 
-	  <div class="container bg-white">	   
+	  <div class="container bg-white rounded">	   
 	    <main class="p-4" aria-label="Content">
 		    {{ content }}
 	    </main>

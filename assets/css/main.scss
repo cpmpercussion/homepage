@@ -47,12 +47,6 @@ h2, h4, h6 {
     text-transform: uppercase;
 }
 
-.heading-logo {
-    border-style: solid;
-    border-color: #fff;
-    border-width: 5px;
-    padding: 1rem;
-}
 
 h2.bibliography {
     font-size: 1.5rem !important;
@@ -97,6 +91,14 @@ $ui-1: #66A983;
 $ui-2: #F0D564;
 $ui-3: #F7AE48;
 $ui-4: #DC702F;
+
+.heading-logo {
+    //border-style: solid;
+    //border-color: #fff;
+    //border-width: 5px;
+    //padding: 1rem;
+    background: $ui-gradient;
+}
 
 
 
