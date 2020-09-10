@@ -66,9 +66,26 @@ h2.bibliography {
 article {
 
     img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 80%;
+        max-height: 80%;
         height: inherit !important;
+        display:block;
+        margin:auto;
     }
 
+    .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+        text-align: center;
+    }
 }
+
+img.carouselcontain {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+// nice orange to red gradient
+//background: rgb(255,188,48);
+//background: linear-gradient(90deg, rgba(255,188,48,1) 0%, rgba(255,0,0,1) 100%);
+
