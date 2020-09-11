@@ -11,8 +11,10 @@ meta: {}
 
 Cool show in Northbridge.
 
-![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101013-IMG_4903.jpg) 
+![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101013-IMG_4903.jpg)
+
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101013-IMG_4918.jpg) 
+
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101013-IMG_4922.jpg) 
 
 [Posted via email](http://posterous.com)  from 

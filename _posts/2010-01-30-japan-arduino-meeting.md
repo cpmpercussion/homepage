@@ -14,4 +14,5 @@ I met with my new friend [Recotana](http://www.recotana.com/) (Osamu Funada) in 
 I only bought a few boring things, some breadboards and an Arduino protoshield, but there is so much specialist electronics available there, it's really overwhelming.
 
 ![]({{ site.baseurl }}/assets/blogger/arduinomeetup-100_3098.JPG)
+
 ![]({{ site.baseurl }}/assets/blogger/arduinomeetup-IMG_0401.JPG)

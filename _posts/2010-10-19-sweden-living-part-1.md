@@ -16,7 +16,9 @@ I arrived from a long flight, checked out the school of music at Piteå, bought 
 Tomorrow: Scenes of Piteå.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101019-swedenliving1-1.jpg)
+
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101019-swedenliving1-2.jpg)
+
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101019-swedenliving1-3.jpg)
 
 [Posted via email](http://posterous.com)  from 
