@@ -3,10 +3,7 @@ layout: default
 ---
 
 <article>
-  <p class="post-date">{{ page.date | date: "%d %b '%y" }}</p>
-  <h1>{{ page.title | markdownify }}</h1>
-  {% comment %}
-  <!-- {% include taglist.html tags=page.tags %} -->
-  {% endcomment %}
+  <h1>{{ page.title }}</h1>
+  <h6 class="font-italic">{{ page.date | date: "%d %b '%y" }}</h6>
   {{ content }}
 </article>
