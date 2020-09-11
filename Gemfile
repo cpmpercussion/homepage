@@ -26,7 +26,7 @@ group :jekyll_plugins do
    gem "jekyll-mentions"
    gem "jekyll-sitemap"
    gem "jekyll-gist"
-   gem "jekyll-paginate"
+   gem "jekyll-paginate-v2"
    gem 'jekyll-scholar'
    gem 'jekyll-fontawesome-svg'
 end
