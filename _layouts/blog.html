@@ -1,18 +1,29 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts %}
-{% assign mod3 = forloop.index | modulo: 4 %}
 <article>
-	<header>
-		<span class="date">{{ post.date | date_to_string }}</span>
-		<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-	</header>
-	<!-- <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a> -->
-	<div class="postcontent">{{ post.excerpt }}</div>
-	<ul class="actions">
-		<li><a href="{{ post.url | absolute_url }}" class="button">read</a></li>
-	</ul>
-</article>
+<div class="my-4 py-4">
+  <h1 class="display-5">{{ page.title }}</h1>
+</div>
+  
+{% for post in paginator.posts %}
+<div class="my-4">
+<span class="font-italic text-secondary">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+<p>{{ post.excerpt }}</p>
+</div>
+<hr>
 {% endfor %}
+ 
+</article>
+
+{% if paginator.total_pages > 1 %}
+<nav>
+  {% if paginator.previous_page %}
+  <a class="btn btn-outline-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  {% endif %}
+  {% if paginator.next_page %}
+  <a  class="btn btn-outline-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  {% endif %}
+</nav>
+{% endif %}
