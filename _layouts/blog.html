@@ -25,5 +25,6 @@ layout: default
   {% if paginator.next_page %}
   <a  class="btn btn-outline-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
   {% endif %}
+  <a  class="btn btn-outline-secondary" href="{% link postlist.md %}">All Posts</a>
 </nav>
 {% endif %}
