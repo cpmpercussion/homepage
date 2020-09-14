@@ -7,10 +7,11 @@ layout: default
 </div>
   
 {% for post in paginator.posts %}
-<div class="my-4">
+<div class="p-2 my-4">
 <span class="font-italic text-secondary">{{ post.date | date: "%b %-d, %Y" }}</span>
 <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
 <p>{{ post.excerpt }}</p>
+<a class="btn btn-sm btn-outline-secondary" href="{{ post.url | relative_url }}">read more</a></li>
 </div>
 <hr>
 {% endfor %}
