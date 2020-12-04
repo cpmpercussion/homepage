@@ -13,6 +13,9 @@
   {% if entry.url %}
   <a class="btn btn-outline-secondary" href="{{entry.url}}">URL</a>
   {% endif %}
+  {% if entry.eprint && entry.archiveprefix=="arXiv" %}
+  <a class="btn btn-outline-secondary" href="https://arxiv.org/abs/{{entry.eprint}}">arXiv</a>
+  {% endif %}
   {% if entry.preprint %}
   <a class="btn btn-outline-secondary" href="{{entry.preprint}}">Preprint PDF</a>
   {% endif %}
