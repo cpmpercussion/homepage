@@ -52,6 +52,24 @@ Projects could involve:
 
 Here's some project ideas that could be extended or shaped to suit you:
 
+### Creating a New Interface for Musical Expression
+
+Computers and electronics give us so many new opportunities to create new kinds of musical instruments (and new kinds of music). We often think of these systems as containing an _interface_ between a human user and sound synthesisers. The interface can either be a piece of computer software (e.g., a web app, or a p5.js program), or hardware (e.g., an Arduino with custom sensors). [New Interfaces for Musical Expression](https://nime.org) is a research field where we explore how these new software and hardware-based instruments work and what kinds of music they can make.
+
+I've created _lots_ of different kinds of new musical interfaces, but in this project, it's a good opportunity to create something that you invent or to take a new idea further than it has been before.
+
+### Requirements:
+
+- strong interest in music and interaction
+
+### Nice to have: 
+
+- experience in hardware (e.g., Arduino) 
+- experience in interactive media software (e.g., [p5.js](p5js.org))
+- experience in computer music (e.g., [ANU Laptop Ensemble](https://cs.anu.edu.au/courses/comp2710-lens/)) or creative arts (e.g., [Art and Interaction Computing](https://cs.anu.edu.au/courses/comp1720/)).
+
+
+
 ### Discriminating real from neural generated music
 
 Most generative music systems just create new music, this project would involve training discriminator neural networks to tell if music was created by a human, or a cutting edge ANN such as [Music Transformer](https://magenta.tensorflow.org/music-transformer) or [PerformanceRNN](https://magenta.tensorflow.org/performance-rnn).
