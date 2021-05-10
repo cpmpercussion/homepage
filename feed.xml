@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://charlesmartin.com.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.com.au/" rel="alternate" type="text/html" /><updated>2021-05-10T05:50:45+00:00</updated><id>https://charlesmartin.com.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology and machine learning.
+</subtitle><entry><title type="html">How to present a student software project</title><link href="https://charlesmartin.com.au/blog/2020/08/09/student-project-repository" rel="alternate" type="text/html" title="How to present a student software project" /><published>2020-08-09T13:33:59+00:00</published><updated>2020-08-09T13:33:59+00:00</updated><id>https://charlesmartin.com.au/blog/2020/08/09/student-project-repository</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2020/08/09/student-project-repository">&lt;p&gt;So you’re a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the &lt;em&gt;software&lt;/em&gt; as well as a &lt;em&gt;report&lt;/em&gt;. So how are you going to present this great work? An email? A zipfile? A USB key?&lt;/p&gt;
+
+&lt;p&gt;You might be thinking: “I’ve done a lot of programming assignments, this should be the same right?” Well, maybe, maybe not. Unlike an assignment, your audience for a software project &lt;em&gt;doesn’t know what your project is about&lt;/em&gt;, so you have to be clear about telling them! Your project might be for a teacher or examiner at first, but you might want to show it to your colleagues, potential employers, or even to wider open source or research communities. These people will want to know what your project is about, might also want to be able to reuse your code, or see how it works.&lt;/p&gt;
+
+&lt;p&gt;It’s &lt;strong&gt;really&lt;/strong&gt; important that your project documents exactly &lt;em&gt;how to run your code&lt;/em&gt;. Your audience, either an examiner, teacher, or anybody else, will not have time to try every python file to see which is the one that makes your project &lt;em&gt;go&lt;/em&gt;, and they certainly won’t be able to magically know what the dependencies are for your code. To make these things &lt;strong&gt;obvious&lt;/strong&gt; you need to write them in your readme file and provide a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt; file (or similar) so that others can actually install and run your work!&lt;/p&gt;
+
+&lt;p&gt;For a software project to be &lt;strong&gt;excellent&lt;/strong&gt;, presentation matters. If I don’t know how code works, then it might as well be broken. Here’s some tips for getting this right and submitting work that you (and your teachers) can be proud of!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is part of a series of posts for my undergraduate and honours project students at the ANU, but it could be useful to other people, even you!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;git-repository-as-artefact&quot;&gt;Git Repository as Artefact&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Most&lt;/em&gt; student software projects should probably be presented as a git repository. This gives you a way to keep track of your work over the project, ways to experiment (&lt;a href=&quot;https://www.atlassian.com/git/tutorials/using-branches&quot;&gt;with branches&lt;/a&gt;) and &lt;a href=&quot;https://www.atlassian.com/git/tutorials/undoing-changes/git-revert&quot;&gt;roll back&lt;/a&gt; if you make mistakes. Your supervisor and other collaborators or advisers can check in on your work during the project, and, when it’s finished, you could publish your project to a public hosting platform such as &lt;a href=&quot;https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line&quot;&gt;GitHub&lt;/a&gt; as part of your online portfolio.&lt;/p&gt;
+
+&lt;p&gt;Given that you are setting up a git repository, make sure you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file &lt;a href=&quot;https://docs.github.com/en/github/using-git/ignoring-files&quot;&gt;appropriate for your project&lt;/a&gt;, so that you don’t commit temporary or unnecessary files.&lt;/p&gt;
+
+&lt;p&gt;You should also practice &lt;a href=&quot;https://leosaysger.github.io/blog/code/2019/01/10/git-hygiene.html&quot;&gt;good git hygiene&lt;/a&gt;. In particular, don’t commit huge binary files (e.g., PDF, zips, media files) in a git repo, and definitely don’t store &lt;a href=&quot;https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/&quot;&gt;passwords or API keys in a git repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your project requires large data files, store them elsewhere (e.g., &lt;a href=&quot;https://www.aarnet.edu.au/network-and-services/cloud-services/cloudstor&quot;&gt;CloudStor&lt;/a&gt; for Australian research and educational institutions.), and write a &lt;a href=&quot;https://stackoverflow.com/questions/7243750/download-file-from-web-in-python-3&quot;&gt;script to download them before they are needed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a bonus, you can access &lt;a href=&quot;https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb&quot;&gt;public Github repos from Google Colab&lt;/a&gt; which is a neat way to show off a project to people without having them download it onto their system.&lt;/p&gt;
+
+&lt;p&gt;As a second bonus, a nicely set out git repo will look cool in GitLab or GitHub:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/keras-mdn-layer-project.png&quot; alt=&quot;Charles' Keras MDN Layer Repository&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;project-structure&quot;&gt;Project Structure&lt;/h2&gt;
+
+&lt;p&gt;Most of my students do projects in Python or iPython Notebooks. Although there are many ways to structure a project, by following best-practices you know that your audience can quickly understand your project and might even try to test/use it!&lt;/p&gt;
+
+&lt;p&gt;If your project is in Python, it might be best to structure it as module. You might like to follow the &lt;a href=&quot;https://docs.python-guide.org/writing/structure/#sample-repository&quot;&gt;“Structuring your Project” tutorial (Hitchhiker’s guide to python)&lt;/a&gt;, or look at an &lt;a href=&quot;https://github.com/navdeep-G/samplemod&quot;&gt;example project on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your project was called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name&lt;/code&gt;, it might look like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;charles_martin_compxxxx_project_2020/
++-- README.md
++-- LICENSE
++-- setup.py 
++-- requirements.txt
++-- project_name/
+|   +-- __init__.py
+|   +-- core.py
+|   +-- utils.py
++-- tests/
+|   +-- tests.py
++-- data/
+|   +-- data.csv (perhaps include data if small)
+|   +-- README.md (explains how to download data if large)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A few notes here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The git repository is not named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;charles_martin_compxxxx_project_2020&lt;/code&gt; (not &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name&lt;/code&gt;), so if you share it with a supervisor (who might have many &lt;em&gt;compxxxx&lt;/em&gt; students), they can find &lt;strong&gt;your&lt;/strong&gt; project.&lt;/li&gt;
+  &lt;li&gt;Having a main &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt; is pretty much mandatory (more below)&lt;/li&gt;
+  &lt;li&gt;Having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt; file is a lightweight way to list a Python module’s requirements. You can and should work in a virtual environment so that you can keep track of &lt;a href=&quot;https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1&quot;&gt;what other modules are required to run your code&lt;/a&gt;. A more advanced way to do this would be with &lt;a href=&quot;https://python-poetry.org&quot;&gt;Poetry&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt; might allow others to &lt;a href=&quot;https://stackoverflow.com/questions/1471994/what-is-setup-py&quot;&gt;install your module, or for you to distribute it&lt;/a&gt;. cool!&lt;/li&gt;
+  &lt;li&gt;If you only need one code file for your project, you could simply name it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name.py&lt;/code&gt; and place it in your repo. If you want multiple files as part of a module, you’ll need a directory called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name&lt;/code&gt;, and (traditionally) &lt;a href=&quot;https://stackoverflow.com/questions/448271/what-is-init-py-for&quot;&gt;a main file&lt;/a&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__.py&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If your project is  a collection of iPython Notebooks, you should use directories to make it obvious where the various parts of the project are (e.g., see &lt;a href=&quot;https://stackoverflow.com/questions/45723751/how-to-structure-a-python-project-with-ipython-notebooks&quot;&gt;this StackOverflow post&lt;/a&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;charles_martin_compxxxx_project_2020/
++-- README.md
++-- LICENSE
++-- requirements.txt
++-- notebooks/
+|   +-- experiment_1.ipynb
+|   +-- experiment_2.ipynb
+|   +-- prepare_data.ipynb
+|   +-- utils.py
++-- data/
+|   +-- data.csv (perhaps include data if small)
+|   +-- README.md (explains how to download data if large)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The filenames here make it obvious why there are multiple notebook files, and we still have a readme, license, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt; files.&lt;/p&gt;
+
+&lt;p&gt;For an example have a look at my &lt;a href=&quot;https://github.com/cpmpercussion/keras-mdn-layer&quot;&gt;Keras MDN project&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readmemd&quot;&gt;README.md&lt;/h2&gt;
+
+&lt;p&gt;The readme is the most important file in your project. Really. If you don’t have a readme, nobody will know what your code is for, or how to install or use it.&lt;/p&gt;
+
+&lt;p&gt;You might like to follow a &lt;a href=&quot;https://gist.github.com/PurpleBooth/109311bb0361f32d87a2&quot;&gt;good readme template&lt;/a&gt;, and include some of the following sections:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;title&lt;/li&gt;
+  &lt;li&gt;project overview&lt;/li&gt;
+  &lt;li&gt;installing&lt;/li&gt;
+  &lt;li&gt;downloading data&lt;/li&gt;
+  &lt;li&gt;how to use&lt;/li&gt;
+  &lt;li&gt;running the tests&lt;/li&gt;
+  &lt;li&gt;references&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A really &lt;strong&gt;nice&lt;/strong&gt; readme might have some cool things like &lt;em&gt;images&lt;/em&gt; or demo gifs (see this list of &lt;a href=&quot;https://github.com/matiassingers/awesome-readme&quot;&gt;awesome READMEs for inspiration&lt;/a&gt;, but the above things are a good place to start.&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;LICENSE&lt;/h2&gt;
+
+&lt;p&gt;A license sets out the terms under which others can use, modify or share your code. Do you want to allow others to reuse your code in their own projects? Do you want others to use your code, but &lt;em&gt;only in similarly licensed projects&lt;/em&gt;? Do you want to reserve all rights unless they negotiate with you?&lt;/p&gt;
+
+&lt;p&gt;These are tricky questions. Many of my projects are licensed under the very permissive &lt;a href=&quot;https://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;, but this is an individual choice you should make for your own work.&lt;/p&gt;
+
+&lt;p&gt;Luckily there’s a whole website to help you &lt;a href=&quot;https://choosealicense.com&quot;&gt;choose a license&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;BTW, you can just &lt;strong&gt;not have a license&lt;/strong&gt;, which basically means your code is available to view but you retain &lt;a href=&quot;https://choosealicense.com/no-permission/&quot;&gt;exclusive copyright&lt;/a&gt; over the work. If somebody else wants to use, modify, or share your code, they would need to ask for your permission to do so.&lt;/p&gt;
+
+&lt;h2 id=&quot;status-badges&quot;&gt;Status Badges&lt;/h2&gt;
+
+&lt;p&gt;Oh you like my status badges? You want your repo to say &lt;img src=&quot;https://travis-ci.org/dwyl/esta.svg?branch=master&quot; alt=&quot;Build Passing&quot; style=&quot;width:100px; display:inline-block;vertical-align:middle;&quot; /&gt;?&lt;/p&gt;
+
+&lt;p&gt;These little badge images appear on lots of nice Git Repos and generally advertise how great and well-tested and published our repos are.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;a href=&quot;https://github.com/badges/shields&quot;&gt;lots of them&lt;/a&gt; available (here’s some &lt;a href=&quot;https://github.com/dwyl/repo-badges&quot;&gt;instructions&lt;/a&gt; on how to find different types).&lt;/p&gt;
+
+&lt;p&gt;If your project has tests, you might like to set up &lt;a href=&quot;https://docs.github.com/en/actions/building-and-testing-code-with-continuous-integration/setting-up-continuous-integration-using-github-actions&quot;&gt;continuous integration&lt;/a&gt; so that anybody who visits &lt;strong&gt;knows it’s working&lt;/strong&gt; without even trying it.&lt;/p&gt;
+
+&lt;p&gt;You can also get a badge for your &lt;a href=&quot;https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba&quot;&gt;license&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Badges don’t mean very much, but they’re fun and colourful. Just another way you can show &lt;strong&gt;attention to detail&lt;/strong&gt; in your work.&lt;/p&gt;
+
+&lt;h2 id=&quot;videos-sounds-gifs-images&quot;&gt;Videos, Sounds, GIFs, Images&lt;/h2&gt;
+
+&lt;p&gt;If your project has sound, visuals or an interactive system as the output, then it’s probably a good idea to include some documentation of this media in your readme.&lt;/p&gt;
+
+&lt;p&gt;GitHub doesn’t allow HTML embeds when displaying readme files, but you might make a short (e.g., 10 sec) video into &lt;a href=&quot;https://giphy.com&quot;&gt;a gif&lt;/a&gt; and include that instead, e.g.:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For sound, you could link to soundfiles stored on &lt;a href=&quot;https://soundcloud.com&quot;&gt;Soundcloud&lt;/a&gt; or &lt;a href=&quot;https://clyp.it&quot;&gt;clyp.it&lt;/a&gt;, and for video you could link to a YouTube or Vimeo upload.&lt;/p&gt;</content><author><name></name></author><summary type="html">So you’re a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the software as well as a report. So how are you going to present this great work? An email? A zipfile? A USB key?</summary></entry><entry><title type="html">A note on tutorials with Teams</title><link href="https://charlesmartin.com.au/blog/2020/07/16/tutorials-with-teams" rel="alternate" type="text/html" title="A note on tutorials with Teams" /><published>2020-07-16T00:00:00+00:00</published><updated>2020-07-16T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2020/07/16/tutorials-with-teams</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2020/07/16/tutorials-with-teams">&lt;p&gt;This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up &lt;em&gt;tutorials&lt;/em&gt; for COMP2300 in Microsoft Teams.&lt;/p&gt;
+
+&lt;p&gt;The previous post was about &lt;a href=&quot;/blog/2020/07/08/streaming-lectures&quot;&gt;online lectures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-microsoft-teams&quot;&gt;Why Microsoft Teams?&lt;/h2&gt;
+
+&lt;p&gt;Teams is Microsoft’s workplace chat and collaboration platform. It &lt;a href=&quot;https://en.wikipedia.org/wiki/Microsoft_Teams&quot;&gt;comes with Office 365&lt;/a&gt; so it’s immediately available for all of our ANU students (they can just log into it with their university ID).&lt;/p&gt;
+
+&lt;p&gt;It has a pretty good web client, native clients for Windows, MacOS and Linux, and nice mobile clients as well.&lt;/p&gt;
+
+&lt;p&gt;So here’s the tl;dr of why I use it for teaching:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A virtual classroom that is &lt;strong&gt;available 24/7&lt;/strong&gt; for students to collaborate or ask questions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chat-first interaction&lt;/strong&gt; is handy for keeping track of questions and triaging calls for help.&lt;/li&gt;
+  &lt;li&gt;Ability for video/audio meetings to occur &lt;strong&gt;spontaneously&lt;/strong&gt; between students and teachers.&lt;/li&gt;
+  &lt;li&gt;Ability to be &lt;strong&gt;in more than one call&lt;/strong&gt; at once (this is a bit of a game changer).&lt;/li&gt;
+  &lt;li&gt;Works with students on &lt;strong&gt;campus&lt;/strong&gt;, at &lt;strong&gt;home&lt;/strong&gt;, on their &lt;strong&gt;phone&lt;/strong&gt;, in &lt;strong&gt;China&lt;/strong&gt;, &lt;em&gt;wherever they are they can engage with the course&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Supports gifs in chat, so &lt;strong&gt;high meme productivity&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Compared to running classes in Zoom, teams gives you the ability to run meetings and share screens, but also gives persistent asynchronous collaboration through chat which I really prefer for engaging students regularly.&lt;/p&gt;
+
+&lt;p&gt;Teams seems to be changing rapidly (makes sense!) There’s already heaps more documentation available (e.g., this nice &lt;a href=&quot;https://edudownloads.azureedge.net/msdownloads/MicrosoftTeamsforEducation_QuickGuide_EN-US.pdf&quot;&gt;Education Guide&lt;/a&gt;) since I started using it in February, so feel free to let me know about new features or workflows!&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up-a-class-team&quot;&gt;Set up a class team&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/3-choose-group.jpg&quot; alt=&quot;The COMP2300 Team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a couple of options when creating a new team, I make mine private (invite only for students), and use the &lt;a href=&quot;https://support.microsoft.com/en-us/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67&quot;&gt;“Class” type&lt;/a&gt; for my classes.&lt;/p&gt;
+
+&lt;p&gt;I’ve also used the “other” type for my research lab and other collaborations, but the class type seems to be set up with some limitations for members (students) and extra capabilities for owners (instructors). It comes with some annoying tabs (“assignments”, “grades”, etc) which can’t be deleted – not sure which Team type is really best for tertiary courses.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-channels&quot;&gt;Add channels&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/4-lab-channel.jpg&quot; alt=&quot;A meeting of tutors and lecturer in Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your team starts with a “general” channel, and I like to keep this one for normal announcements and discussions during lectures.&lt;/p&gt;
+
+&lt;p&gt;I’ve added an “instructors” channel for my classes, and made this private. I add all my tutors to this channel so we can have meetings, chat and back-channel discussions.&lt;/p&gt;
+
+&lt;p&gt;For COMP2300, we started out with a different private channel for each tutorial group so students &lt;strong&gt;only&lt;/strong&gt; belonged to their group. A few weeks into remote learning, we shifted to just having one massive public “labs” channel for all our groups.&lt;/p&gt;
+
+&lt;p&gt;We found that many students didn’t show up to their tutorials, and some that did wanted to attend more than one. This made sense for the structure of COMP2300, but might not work for classes with, e.g., specific project groups.&lt;/p&gt;
+
+&lt;p&gt;For my big class of 400 students, my tutors were a team of their own, so we actually used &lt;strong&gt;another&lt;/strong&gt; collaboration tool (Mattermost) for all of our other workplace tasks (e.g., marking, moderation, rosters, tracking issues on Piazza, timesheets). In future, I might just make a separate team for tutors to handle these tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;meetings&quot;&gt;Meetings&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/teams-meeting.png&quot; alt=&quot;A meeting of tutors and lecturer in Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In any channel, anybody can chat, or spontaneously start a meeting by &lt;a href=&quot;https://support.microsoft.com/en-us/office/start-an-instant-meeting-in-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5&quot;&gt;clicking the little camera icon&lt;/a&gt; below the chat box. Once a meeting has started anybody in the channel can join in.&lt;/p&gt;
+
+&lt;p&gt;As you start the meeting, you can give it a name. There might be multiple meetings simultaneously happening in one channel, so good names might become important.&lt;/p&gt;
+
+&lt;p&gt;Once a meeting has started, you can record it (&lt;a href=&quot;https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24&quot;&gt;here’s the recording instructions&lt;/a&gt;). Once it’s recorded it stays in the chat so that students can play it back later.&lt;/p&gt;
+
+&lt;p&gt;If you want to have a private meeting with a small group, you could invite them to a scheduled meeting (e.g., start from Outlook and schedule a &lt;a href=&quot;https://support.microsoft.com/en-us/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f&quot;&gt;“New Teams Meeting”&lt;/a&gt;), or start an instant meeting in a private channel (this is how I have tutor meetings). You can also just call an individual in Teams from the “calls” pane.&lt;/p&gt;
+
+&lt;p&gt;You can add a whiteboard to a meeting, share screens, and even remote control someone else’s computer (sortof scary!).&lt;/p&gt;
+
+&lt;h2 id=&quot;running-tutorials&quot;&gt;Running Tutorials&lt;/h2&gt;
+
+&lt;p&gt;So here’s how we actually run tutorials (labs) in Teams (finally!) Our labs are designed to be self-directed programming challenges with opportunities to get help from tutors (e.g., check out our lab on &lt;a href=&quot;https://cs.anu.edu.au/courses/comp2300/labs/11-diy-operating-system/&quot;&gt;making a DIY operating system&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/teams-labs.png&quot; alt=&quot;Labs in Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each lab would work like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The tutors &lt;strong&gt;start a meeting&lt;/strong&gt; in the labs channel to explain the tasks for the lab. They record this meeting so that students arriving late can catch up.&lt;/li&gt;
+  &lt;li&gt;The students get to work on the lab exercises and &lt;strong&gt;put any questions or issues in the chat&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If a student asks a question, tutors can either &lt;strong&gt;answer it quickly as a chat&lt;/strong&gt; or go into a &lt;strong&gt;call with the student&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;We prefer to do &lt;strong&gt;public calls&lt;/strong&gt; in the channel to answer questions so that other students can join in and hear what’s going on or contribute some ideas as well.&lt;/li&gt;
+  &lt;li&gt;Some of my tutors like to go into mini-lectures during labs, so they might &lt;strong&gt;hit record&lt;/strong&gt; so the students can catch up on them later.&lt;/li&gt;
+  &lt;li&gt;If a student has a question that’s &lt;em&gt;private&lt;/em&gt; for some reason (e.g., about an individual assignment), the tutor can call them directly through Teams to help.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To catch up with students who don’t ask questions during labs, we have a policy that tutors send a &lt;strong&gt;direct chat to each student&lt;/strong&gt; in their lab at least once each hour, just to check in. They catch a few extra questions this way.&lt;/p&gt;
+
+&lt;p&gt;During the whole lab, the tutors &lt;em&gt;also&lt;/em&gt; have a meeting running in their instructors-only channel (you can be in two meetings simultaneously in Teams - although only one is active at a time.)&lt;/p&gt;
+
+&lt;p&gt;In future, I think I’d like to encourage students to have independent &lt;strong&gt;group calls&lt;/strong&gt; for longer periods of time, even if I’m not running group projects. Hopefully this could just encourage a bit of social connection between them and to help them develop their expectations and ambitions a bit more for submitted work.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-studentstutors-into-your-team&quot;&gt;Getting students/tutors into your team&lt;/h2&gt;
+
+&lt;p&gt;I make my class teams &lt;em&gt;private&lt;/em&gt; so students and tutors have to be added or ask permission to join.&lt;/p&gt;
+
+&lt;p&gt;In the little “three dots” menu in the Teams pane you can hit “manage team” and add members directly. All your tutors/co-lecturers should be added as owners. Students should merely be members.&lt;/p&gt;
+
+&lt;p&gt;You can also copy a link to the team (“Get link to team” in the “three dots” menu) and put this on Wattle or elsewhere for students to click, then you can add them manually from the “Pending Requests” tab.&lt;/p&gt;
+
+&lt;p&gt;The above is ok for small classes, but for lots of students we’ve used a &lt;strong&gt;PowerShell&lt;/strong&gt; script to add users automatically from a CSV (see &lt;a href=&quot;https://medium.com/@joaquin.guerrero/adding-bulk-users-from-a-csv-file-to-a-microsoft-teams-team-374414b9d8c9&quot;&gt;this post for instructions&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;NB: we’re working on a new script for my S2 class, I’ll post a link here soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;hosting-lectures-and-videos&quot;&gt;Hosting lectures and videos&lt;/h2&gt;
+
+&lt;p&gt;All of our lectures for COMP2300 were streamed through Microsoft Stream (&lt;a href=&quot;/blog/2020/07/08/streaming-lectures&quot;&gt;see my post on lectures!&lt;/a&gt;). You can add a Microsoft Stream channel as a tab in Teams. I did this in COMP2300’s general channel. This means that whenever I was lecturing, the students can chat in teams, ask questions, and I can answer them on the spot. Neat!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/teams-lectures.png&quot; alt=&quot;Streams in Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;does-all-this-it-work&quot;&gt;Does all this it work?&lt;/h2&gt;
+
+&lt;p&gt;Sure it works–we got through semester 1 with it! I really like how flexible and open Teams is, although the downside is that the interface can be a bit confusing. It’s much easier to start a spontaneous meeting in Teams than Zoom, and we know that there are many students who prefer chat to video, particularly for asking questions. Lots of our students also just like to lurk for a while until they build up their confidence (which is fine too!)&lt;/p&gt;
+
+&lt;p&gt;A rough look at our analytics for the second half Semester 1 shows that we had roughly 100 students engaging with our Team every weekday during the semester-not too shabby!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/teams-sem1-analytics.png&quot; alt=&quot;Analytics for teams usage!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve also got some &lt;a href=&quot;https://cs.anu.edu.au/courses/comp2300/resources/online-labs/&quot;&gt;instructions for students&lt;/a&gt; for getting started in Teams and online labs.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-other-features-id-like-to-try&quot;&gt;Some other features I’d like to try&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tags&lt;/strong&gt;: You can create tags for groups of users (e.g., “group-1”) and then make announcements to a tagged group at once (e.g., “@group-1 - come meet in the general channel!”).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fun-facts&quot;&gt;Fun facts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our &lt;em&gt;longest&lt;/em&gt; Teams meeting was 15 hours during a marking marathon in the exam period. Good times! (marking? good? what is wrong with me?!)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up tutorials for COMP2300 in Microsoft Teams.</summary></entry><entry><title type="html">A note on streaming lectures</title><link href="https://charlesmartin.com.au/blog/2020/07/08/streaming-lectures" rel="alternate" type="text/html" title="A note on streaming lectures" /><published>2020-07-08T00:00:00+00:00</published><updated>2020-07-08T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2020/07/08/streaming-lectures</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2020/07/08/streaming-lectures">&lt;p&gt;So it’s been a &lt;em&gt;rough year&lt;/em&gt;. After starting the semester in February with half my &lt;a href=&quot;https://cs.anu.edu.au/courses/comp2300&quot;&gt;class&lt;/a&gt; of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.&lt;/p&gt;
+
+&lt;p&gt;This post is about my approach to lectures, and I’ll have another about tutorials/labs soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;lecture-setup&quot;&gt;Lecture Setup&lt;/h2&gt;
+
+&lt;p&gt;Recorded lectures are &lt;em&gt;hard&lt;/em&gt;; there’s always the temptation to do more takes, and video editing is really time consuming. I know that I’m a better performer just delivering lectures live and accepting a few small mistakes, so I chose to focus on streaming engaging and entertaining lectures synchronously, tracking with the normal class timetable. This gives my students opportunities to have live (or almost live) Q&amp;amp;A during lectures and provides a bit more structure in their week.&lt;/p&gt;
+
+&lt;p&gt;Here’s the key parts for my streaming setup:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://obsproject.com&quot;&gt;OBS studio&lt;/a&gt; - for video and screen capture, &lt;a href=&quot;https://en.wikipedia.org/wiki/Chroma_key&quot;&gt;chroma keying&lt;/a&gt;, scenes, and streaming to…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://restream.io&quot;&gt;restream.io&lt;/a&gt; - to send the stream to multiple endpoints; I send to YouTube, Twitch, and…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365/microsoft-stream&quot;&gt;Microsoft Stream&lt;/a&gt; - to provide an “official” way for ANU students to watch the lectures, and to integrate with…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software&quot;&gt;Microsoft Teams&lt;/a&gt; gives the students an “official” chat platform and a first port of call for interaction with me and my tutors. You can add a Microsoft Stream channel as a tab within a Team so that the latest lecture is just a click away for the students.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s what this all looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2020/2020-ANU-streaming-rig.png&quot; alt=&quot;A diagram of my streaming setup from OBS to restream to multiple platforms with feedback through Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here’s a short video about how it works:&lt;/p&gt;
+
+&lt;!-- Youtube Link: https://youtu.be/n2cNtVcfB48 --&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/n2cNtVcfB48&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;some-more-details&quot;&gt;Some more details…&lt;/h2&gt;
+
+&lt;p&gt;Here’s a few more details about each part of the system.&lt;/p&gt;
+
+&lt;h3 id=&quot;obs-scene-switching&quot;&gt;OBS Scene Switching&lt;/h3&gt;
+
+&lt;p&gt;I’ve set up a couple of “scenes” within OBS; e.g., one with me superimposed on the right, one on the left, one where I fill the screen for an intro. I also have some “static” scenes for starting and finishing lectures so that I can start streaming before I actually start talking.&lt;/p&gt;
+
+&lt;p&gt;There’s lots of ways to switch scenes in OBS (e.g., key combinations, or &lt;a href=&quot;https://www.elgato.com/en/gaming/stream-deck&quot;&gt;extra keyboard controllers&lt;/a&gt;) but I’ve found using my iPad and &lt;a href=&quot;https://github.com/Palakis/obs-websocket&quot;&gt;OBS websocket&lt;/a&gt; is most convenient.&lt;/p&gt;
+
+&lt;h3 id=&quot;teams&quot;&gt;Teams&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software&quot;&gt;Teams&lt;/a&gt; has ended up being the centre of our synchronous online teaching. It’s great to get chat with students and to see their “real names” (not screen names), and it’s neat that you can integrate a Microsoft Stream channel.&lt;/p&gt;
+
+&lt;p&gt;As it turns out, students &lt;strong&gt;like&lt;/strong&gt; watching lectures on a screen (most of them have been doing so for some time), and they also like asking questions through chat rather than a microphone. The students ask me questions through Teams chat and I can either answer them in real time, or sometimes the other students jump in and find an answer themselves. The only trick here is to remember that the stream takes a while to get to the students (e.g., 15-60 seconds depending on settings and platform), so you have to pause during lectures sometimes so the chat can catch up.&lt;/p&gt;
+
+&lt;h3 id=&quot;streaming-to-multiple-endpoints&quot;&gt;Streaming to multiple endpoints&lt;/h3&gt;
+
+&lt;p&gt;It’s hard to get students to watch lectures synchronously, so I thought I’d try going to where the students live for their normal online content: YouTube and Twitch. Twitch in particular is a really fun platform with lots of inspirational live content (e.g., &lt;a href=&quot;https://www.twitch.tv/jonathanong&quot;&gt;Jonong&lt;/a&gt; and &lt;a href=&quot;https://www.twitch.tv/lara6683&quot;&gt;Lara6683&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Some students tell me they enjoy seeing classes come up in their feed and a few did tend to jump into the Twitch chat. After a few lectures we came up with a good system: “Twitch chat for memes, Teams chat for serious questions”, just so that I didn’t have to monitor all chat channels simultaneously.&lt;/p&gt;
+
+&lt;p&gt;Restream makes streaming to multiple platforms very easy. OBS has a preset included for &lt;a href=&quot;https://support.restream.io/en/articles/111656-how-to-connect-obs-studio-to-restream&quot;&gt;streaming to Restream&lt;/a&gt;, and then Restream takes care of connecting to all the other platforms. Restream also automatically creates new live events on YouTube, Twitch, and many other platforms, can update titles and descriptions automatically. It can even collate the chat across multiple platforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;microsoft-stream&quot;&gt;Microsoft Stream&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365/microsoft-stream&quot;&gt;Stream&lt;/a&gt; is a slightly wacky corner of Office365 which pretty much does what it says on the tin: host live streamed and pre-recorded video events.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, and unlike YouTube and Twitch, Stream doesn’t integrate with Restream.io, so each live event has to be set up manually, creating a new RTMP address to stream to which needs to be copied into restream before each lecture.&lt;/p&gt;
+
+&lt;p&gt;There’s &lt;a href=&quot;https://resources.techcommunity.microsoft.com/live-event-with-obs/&quot;&gt;a bit of info in Stream’s docs&lt;/a&gt; about connecting directly to OBS, which also applies to working with Restream.&lt;/p&gt;
+
+&lt;p&gt;I’ve found Stream works perfectly well with 1080p30 streams.&lt;/p&gt;
+
+&lt;p&gt;I’ve found it helpful to &lt;a href=&quot;https://support.microsoft.com/en-gb/office/add-and-use-a-stream-tab-in-teams-fb6cebb8-0d4f-4034-88a6-7dafdb5f0a3f&quot;&gt;add Microsoft Stream as a “tab”&lt;/a&gt; within the Microsoft Team for my class so that each lecture has an associated chat stream in Teams.&lt;/p&gt;
+
+&lt;h3 id=&quot;but-what-about-echo360&quot;&gt;But what about Echo360?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://echo360.com&quot;&gt;Echo360&lt;/a&gt; is the automated lecture recording system installed at the ANU. It works well for zero-hassle recordings in lecture halls and has many interactive learning features that can be used online.&lt;/p&gt;
+
+&lt;p&gt;Even though Echo360 provides streaming, I don’t use it because &lt;strong&gt;you can’t stream to it from OBS studio&lt;/strong&gt; (they only support &lt;a href=&quot;https://echo360.com/universal-capture-demo/&quot;&gt;their own streaming tool&lt;/a&gt;, which, among other issues, doesn’t work on Linux).&lt;/p&gt;
+
+&lt;p&gt;If Echo360 ever want to make RTMP endpoints available to users then I would &lt;em&gt;love&lt;/em&gt; to include it in my system, but at the moment, I’m stuck uploading the streamed videos after each lecture (😐).&lt;/p&gt;</content><author><name></name></author><summary type="html">So it’s been a rough year. After starting the semester in February with half my class of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.</summary></entry><entry><title type="html">Christmas Carillon at the Canberra Centre</title><link href="https://charlesmartin.com.au/blog/2019/12/23/christmas-carillon" rel="alternate" type="text/html" title="Christmas Carillon at the Canberra Centre" /><published>2019-12-23T00:00:00+00:00</published><updated>2019-12-23T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2019/12/23/christmas-carillon</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2019/12/23/christmas-carillon">&lt;p&gt;This week I’ve been talking about our &lt;a href=&quot;https://cecs.anu.edu.au/news/christmas-bells-ring-canberra-thanks-musical-ai&quot;&gt;Christmas carillon installation at the Canberra Centre&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/20191223-carillon1.jpg&quot; alt=&quot;Christmas Carillon Clavier at the Canberra Centre&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The National Capital Authority has been upgrading the National Carillon and replaced the clavier, they asked me to help create electronic sensors and sounds for the old clavier as part of a Christmas installation.&lt;/p&gt;
+
+&lt;p&gt;The carillonists, including Thomas Laue from the ANU School of Music had recorded a couple of Christmas Carols and some new bell samples for us to use. I worked with Terry McGee to make some modifications to the keyboard that would hold the batons up with springs and Alistair Riddell who built a sensor system using magnetic field sensors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/20191223-carillon3.jpg&quot; alt=&quot;A test rig with one carillon baton and the Bela&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I coded up the electronic sounds and connections to the sensor board using the &lt;a href=&quot;https://bela.io&quot;&gt;Bela&lt;/a&gt; platform, this was great because the installation needed to work continuously in the Canberra Centre for the whole of December (and it has!). We used magnetic field sensors to trigger the sounds so that we wouldn’t have any parts that could wear out in the clavier. Terry build a little test baton for us to make sure it would work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/20191223-carillon4.jpg&quot; alt=&quot;One octave of sensors installed on the carillon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After we settled on parts in our test rig, Terry made some aluminium fingers to hold magnets in the clavier. This way, the sensors could be securely attached to a board and visible in case we need to make adjustments. We installed the sensors and Bela and put the finishing touches on the software so that it would sound the way we wanted.&lt;/p&gt;
+
+&lt;p&gt;It’s always great to hear the first “real sound” out of a new musical instrument and it was especially so with this carillon. It’s pretty uncommon to actually be able to “test out” a carillon keyboard without annoying a whole city, so we had a bit of fun in Thomas’ office getting this to work before sending it off to be installed. The final configuration had 16 “working” batons, 13 played carillon samples (C to C) and the remaining three triggered one Christmas carol each.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/20191223-carillon2.jpg&quot; alt=&quot;A close up of the carillon clavier's batons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here it is in the Canberra centre! It’s been up and running for about four weeks now, slowly counting down the days to Christmas! Sitting and watching it for a while, I noticed that it’s (of course) popular with kids who jump in to see what does, but also adults can help but reach out to ring a bell as they walk by. Certainly fun, but hopefully this gives a bit of insight into how our carillon actually works and what the musicians do who play it! It should be up and running all through Christmas until the 3rd of January 2020.&lt;/p&gt;</content><author><name></name></author><category term="news" /><category term="research" /><category term="carillon" /><category term="music" /><category term="canberra" /><summary type="html">This week I’ve been talking about our Christmas carillon installation at the Canberra Centre.</summary></entry><entry><title type="html">EPEC trip to Oslo</title><link href="https://charlesmartin.com.au/blog/2019/09/09/EPEC-oslo-trip" rel="alternate" type="text/html" title="EPEC trip to Oslo" /><published>2019-09-09T00:00:00+00:00</published><updated>2019-09-09T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2019/09/09/EPEC-oslo-trip</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2019/09/09/EPEC-oslo-trip">&lt;p&gt;I had a brief (one week) trip to Oslo to catch up on ongoing research
+projects with colleagues in the engineering predictability with
+embodied cognition &lt;a href=&quot;https://www.uio.no/ritmo/english/projects/all/epec/&quot;&gt;(EPEC)&lt;/a&gt; project and at the &lt;a href=&quot;https://www.uio.no/ritmo/english/&quot;&gt;RITMO Centre&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was great to get deep into GANs for movement generation with
+&lt;a href=&quot;https://www.hf.uio.no/ritmo/english/people/phd-fellows/benediwa/&quot;&gt;Benedikte Wallace&lt;/a&gt; and computer music teaching issues with &lt;a href=&quot;http://tejaswinee.com&quot;&gt;Tejaswinee
+Kelkar&lt;/a&gt;, as well as catch up on old and new papers with &lt;a href=&quot;https://www.mn.uio.no/ifi/english/people/aca/kaiolae/&quot;&gt;Kai Olav
+Ellefsen&lt;/a&gt; and &lt;a href=&quot;https://folk.uio.no/jimtoer/&quot;&gt;Jim Torresen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I was able to join in on the first week of teaching their master’s
+project course on machine learning and AI &lt;a href=&quot;https://www.uio.no/studier/emner/matnat/ifi/IN5490/index.html&quot;&gt;(IN5490)&lt;/a&gt;. I gave my intro lecture on
+&lt;a href=&quot;https://creativeprediction.xyz/presentations/deep-dive-on-rnns/&quot;&gt;RNNs for creative sequence learning&lt;/a&gt;, and gained a few project students
+in collaboration with Benedikte, looking forward some great work
+coming out of this!&lt;/p&gt;
+
+&lt;p&gt;Here’s the talk:&lt;/p&gt;
+
+&lt;!-- https://www.youtube.com/watch?v=dymDzCuE6Z0 --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/dymDzCuE6Z0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;And here’s some pictures:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/2019-EPEC-1.jpg&quot; alt=&quot;Kai giving the first 5490 lecture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/2019-EPEC-2.jpg&quot; alt=&quot;RITMO Laptop Stickers&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/2019-EPEC-3.jpg&quot; alt=&quot;Oslo tram reflections&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="EPEC" /><category term="Oslo" /><category term="research" /><summary type="html">I had a brief (one week) trip to Oslo to catch up on ongoing research projects with colleagues in the engineering predictability with embodied cognition (EPEC) project and at the RITMO Centre.</summary></entry><entry><title type="html">Musical ML at NIME2019</title><link href="https://charlesmartin.com.au/blog/2019/09/06/NIME2019" rel="alternate" type="text/html" title="Musical ML at NIME2019" /><published>2019-09-06T00:00:00+00:00</published><updated>2019-09-06T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2019/09/06/NIME2019</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2019/09/06/NIME2019">&lt;p&gt;I was really excited to be have several submissions accepted at &lt;a href=&quot;https://www.ufrgs.br/nime2019/&quot;&gt;NIME 2019&lt;/a&gt; in Porto Alegre, among several more from the RITMO centre of excellence at UiO. It was really amazing to be at the first NIME in South America and to meet many wonderful musicians and researchers from Brazil and the region.&lt;/p&gt;
+
+&lt;h3 id=&quot;workshop-in-predictive-nimes&quot;&gt;Workshop in Predictive NIMEs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-workshop.jpg&quot; alt=&quot;Creative Prediction Workshop at NIME 2019&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first event for me was presenting my workshop in Predictive NIMEs on the first day of the conference. This was in tutorial format and broadly followed the presentations and walkthroughs I’ve been developing on &lt;a href=&quot;https://creativeprediction.xyz/tutorials/&quot;&gt;creativeprediction.xyz&lt;/a&gt;. I ended up a bit nervous about it because it was fully subscribed (we had to find some extra chairs) and the attendees included some of my favourite NIME contributors — this just shows that there is certainly an appetite in music technology to explore new ways to use machine learning and particularly deep neural networks.&lt;/p&gt;
+
+&lt;p&gt;The best part of this workshop was working with a group of attendees to get my &lt;a href=&quot;https://github.com/cpmpercussion/imps&quot;&gt;IMPS&lt;/a&gt; system up and running. I know at least one or two are now starting to use this in new projects!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://giphy.com/embed/h73FNuA09RUpuERYJs&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/h73FNuA09RUpuERYJs&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in following the following the workshop materials, &lt;a href=&quot;https://creativeprediction.xyz/nime/&quot;&gt;they’re online here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;interactive-musical-prediction-system&quot;&gt;Interactive Musical Prediction System&lt;/h3&gt;
+
+&lt;p&gt;This paper was a bit of a &lt;em&gt;reveal&lt;/em&gt; of the tech I’ve been working on throughout my &lt;a href=&quot;https://www.hf.uio.no/ritmo/english/projects/all/epec/&quot;&gt;postdoc in the EPEC project at UiO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cpmpercussion/imps&quot;&gt;IMPS&lt;/a&gt; is a complete system for applying an RNN to predicting musical gesture data in a NIME or other music tech system. The IMPS system consists of an OSC server that receives gestural data and can predict future data using a mixture density recurrent neural network. Rather than using a big dataset, this system is designed to allow musicians and makers to record their own data, train a small MDRNN and start using it as soon as possible. You can use however many dimensions of gestural data you like, and it predicts future events in absolute time (i.e., a number of seconds). It’s easy to connect to environments like Max, Pd, and Processing and even works (kinda) on &lt;em&gt;very&lt;/em&gt; small datasets, as shown in the workshop above!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-predictive-interaction-motivation.jp2&quot; alt=&quot;IMPS motivation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea of the paper was to introduce IMPS, and show that it’s practical for it to train and predict data for typical NIME-tasks. We show that it’s even practical to run on a Raspberry Pi, as well as train the RNN on a typical laptop (no big GPU workstation required).&lt;/p&gt;
+
+&lt;p&gt;I had a great response to this work; I think the NIME community really resonates with the idea of reusable tools so hopefully a few of my colleagues try IMPS out in their own projects!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-impspresentation.jpg&quot; alt=&quot;Me presenting my IMPS paper!&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@inproceedings{Martin2019,
+  author = {Martin, Charles Patrick and Torresen, Jim},
+  title = {An Interactive Musical Prediction System with Mixture Density Recurrent Neural Networks},
+  pages = {260--265},
+  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+  editor = {Queiroz, Marcelo and Sedó, Anna Xambó},
+  year = {2019},
+  month = jun,
+  publisher = {UFRGS},
+  address = {Porto Alegre, Brazil},
+  issn = {2220-4806},
+  url = {http://www.nime.org/proceedings/2019/nime2019_paper050.pdf}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;physical-intelligent-instrument&quot;&gt;Physical Intelligent Instrument&lt;/h3&gt;
+
+&lt;p&gt;This short paper came from Torgrim Næss’ master’s project (now completed!), and described his self-contained RNN music maker. This little box contains a Raspberry Pi, running a melody-generating deep learning model that plays an endless stream of AI music. There are knobs to control the volume, tempo, software synth instrument used to play the notes and two ML-specific knobs: one that controls the “temperature” or sampling diversity, and another to switch between ML models. He included a Bach model, one from a large web-sourced MIDI dataset, and one trained just on Final Fantasy 7 soundtracks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-Torgrim.jpg&quot; alt=&quot;Torgrim presenting his paper and RNN box to an appreciative audience!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In initial tests, my favourite combination was FF7 and an “orchestra hit” midi synth, but it was great to see NIME-attendees trying out lots of options and thinking of new ways to use this device in musical scenarios. Maybe a little RNN-box orchestra is in order?&lt;/p&gt;
+
+&lt;p&gt;Here’s a demo:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://giphy.com/embed/TKRIuWAYyrhkxZxzEp&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/ai-ml-rnn-TKRIuWAYyrhkxZxzEp&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@inproceedings{Næss2019,
+  author = {Næss, Torgrim Rudland and Martin, Charles Patrick},
+  title = {A Physical Intelligent Instrument using Recurrent Neural Networks},
+  pages = {79--82},
+  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+  editor = {Queiroz, Marcelo and Sedó, Anna Xambó},
+  year = {2019},
+  month = jun,
+  publisher = {UFRGS},
+  address = {Porto Alegre, Brazil},
+  issn = {2220-4806},
+  url = {http://www.nime.org/proceedings/2019/nime2019_paper016.pdf}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;generating-harmony-with-lstm-networks&quot;&gt;Generating Harmony with LSTM Networks&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-Harmony.jpg&quot; alt=&quot;Generating Harmony Parts at NIME&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, one last paper from a team of students who developed an excellent piece of research on harmonised parts generated by sequence-to-sequence recurrent neural networks during our &lt;a href=&quot;https://www.uio.no/studier/emner/matnat/ifi/IN5490/index.html&quot;&gt;IN5490 course at UiO&lt;/a&gt;, and developed it into a great paper. This paper had a particularly nice introduction to RNN architectures for a music technology audience.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@inproceedings{Faitas2019,
+  author = {Faitas, Andrei and Baumann, Synne Engdahl and Næss, Torgrim Rudland and Torresen, Jim and Martin, Charles Patrick},
+  title = {Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks},
+  pages = {325--330},
+  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+  editor = {Queiroz, Marcelo and Sedó, Anna Xambó},
+  year = {2019},
+  month = jun,
+  publisher = {UFRGS},
+  address = {Porto Alegre, Brazil},
+  issn = {2220-4806},
+  url = {http://www.nime.org/proceedings/2019/nime2019_paper062.pdf}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;presentations-at-ufrgs&quot;&gt;Presentations at UFRGS&lt;/h3&gt;
+
+&lt;p&gt;After NIME the team from UiO gave a few extra presentations at the Informatics Department at UFRGS, fun to hang out with Bruno in his lab and chat with the students! Here’s Synne and Andrei reprising their NIME presentation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/NIME2019-AndreiSynne.jpg&quot; alt=&quot;Presenting at UFRGS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;shoutouts&quot;&gt;Shoutouts&lt;/h3&gt;
+
+&lt;p&gt;A couple of shoutouts to my colleagues:&lt;/p&gt;
+
+&lt;p&gt;From the RITMO Centre, Cagri Erdem, Alexander Jensenius and Katja Schia had a &lt;a href=&quot;http://www.nime.org/proceedings/2019/nime2019_paper037.pdf&quot;&gt;paper&lt;/a&gt; and performance on their Vrengt music-dance performance research. And also from IN5490, Aline Weber, Lucas Alegre, Jim Torresen, and Bruno Castro da Silva had &lt;a href=&quot;http://www.nime.org/proceedings/2019/nime2019_paper035.pdf&quot;&gt;a great paper on parametrising melody generation with Perlin noise&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="conference" /><category term="nime" /><category term="brazil" /><category term="research" /><summary type="html">I was really excited to be have several submissions accepted at NIME 2019 in Porto Alegre, among several more from the RITMO centre of excellence at UiO. It was really amazing to be at the first NIME in South America and to meet many wonderful musicians and researchers from Brazil and the region.</summary></entry><entry><title type="html">Commune 6 at Sideway</title><link href="https://charlesmartin.com.au/blog/2019/08/13/commune-6" rel="alternate" type="text/html" title="Commune 6 at Sideway" /><published>2019-08-13T00:00:00+00:00</published><updated>2019-08-13T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2019/08/13/commune-6</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2019/08/13/commune-6">&lt;p&gt;Christina and I are playing as &lt;a href=&quot;https://metatone.net&quot;&gt;&lt;em&gt;Ensemble
+Metatone&lt;/em&gt;&lt;/a&gt; again next week (it’s been a while!)
+at Hellosquare recording’s &lt;em&gt;Commune #6&lt;/em&gt; alongside Soft Hollow (Ben
+Harb - CBR) and Thomas Meadowcroft, an Australian composer visiting
+from Berlin.&lt;/p&gt;
+
+&lt;p&gt;Here’s the details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Date/Time:&lt;/strong&gt; Wednesday, August 21, 2019 at 8 PM – 11 PM&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; sideway (upstairs, 21 East Row, Canberra, Australian
+Capital Territory 2601)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tickets:&lt;/strong&gt; $10 at door&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/events/641319713039398/&quot;&gt;fb event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2019/commune_6_poster.jpg&quot; alt=&quot;The Commune #6 poster image showing the dates and times and location&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;COMMUNE is back to usher out Winter with neo-classical electronic abstractions from artists far and wide…&lt;/p&gt;
+
+  &lt;p&gt;Thomas Meadowcroft (BER)
+b: tape damaged sonic detritus
+v: https://youtu.be/PRpBxXMjpco&lt;/p&gt;
+
+  &lt;p&gt;Ensemble Metatone (CBR)
+b: improvised percussion tonalities
+v: https://youtu.be/vNdSjO7H9vE&lt;/p&gt;
+
+  &lt;p&gt;Soft Hollow (CBR)
+b: dreamy synthetic ambience
+v: https://vimeo.com/286417387&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve been aware of/influenced by Meadowcroft’s works for percussion and reel-to-reel tape/electronic devices for some time, really looking forward to seeing a live set and getting back into the Canberra scene with Metatone!&lt;/p&gt;
+
+&lt;p&gt;Here’s a few sounds from our setup…&lt;/p&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/25FqeHoGYXA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content><author><name></name></author><category term="gig" /><category term="canberra" /><category term="music" /><category term="gig" /><summary type="html">Christina and I are playing as Ensemble Metatone again next week (it’s been a while!) at Hellosquare recording’s Commune #6 alongside Soft Hollow (Ben Harb - CBR) and Thomas Meadowcroft, an Australian composer visiting from Berlin.</summary></entry><entry><title type="html">Bela, Myo, and Standstill at NIME2018</title><link href="https://charlesmartin.com.au/blog/2018/07/17/NIME2018" rel="alternate" type="text/html" title="Bela, Myo, and Standstill at NIME2018" /><published>2018-07-17T00:00:00+00:00</published><updated>2018-07-17T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2018/07/17/NIME2018</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2018/07/17/NIME2018">&lt;p&gt;In June I travelled to NIME2018 at Virginia Tech to present some of work from the &lt;a href=&quot;https://www.hf.uio.no/ritmo/english/&quot;&gt;RITMO centre&lt;/a&gt; and &lt;a href=&quot;https://www.hf.uio.no/ritmo/english/projects/all/epec/index.html&quot;&gt;EPEC project&lt;/a&gt; at the University of Oslo. This year, our NIME presentations were focussed on “standstill performance”—where participants have to stand as still as possible to create sound. In previous years, our group had created standstill performances using motion capture in the lab, but our new work was on ways to do this at live events, and even in installations, using the Bela single-board computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2018-07-NIME2018.jpg&quot; alt=&quot;Bela/Myo Poster at NIME 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In an installation context, we worked on a hanging guitar system that was installed at Ultima 2017 in Oslo. The idea here was that each guitar was an independent “standstill” instrument with a Bela, acoustic actuator, and infrared distance sensor. Visitors could trigger a breath-inspired sonic performance by entering the beam of the distance sensor and not moving. In our installation, we used six guitars. Each guitar had quite a simple sonic interaction, but together the result could be complex and rewarding in the exhibition space. This work was &lt;a href=&quot;http://folk.uio.no/charlepm/preprints/2018-BelaBasedAugmentedGuitars.pdf&quot;&gt;presented in a paper&lt;/a&gt; that included the system design as well as some discussion of how the audience interacted with our artwork.&lt;/p&gt;
+
+&lt;p&gt;For mobile performances, we also used multiple Bela boards, but rather than IR sensors, we used Myo muscle sensor armbands to detect stillness, and provide a way for performers to control sounds &lt;em&gt;without&lt;/em&gt; moving by subtly tensing muscles in their arms. Again, this was designed for an ensemble context: multiple performers standing still together to create new kinds of performances. Creating this work involved some technical challenges: using Myo sensors with Linux and on the Bela hardware was solved with an existing Myo C++ driver and connecting them to Pd on a Mac or Linux laptop was solved with &lt;a href=&quot;https://github.com/cpmpercussion/myo-to-osc&quot;&gt;a new Python application&lt;/a&gt; that I put together. Our Myo standstill instrument the 8 muscle sensors to control 8 sine tone oscillators. The angle and orientation of the performer’s arm was used to control the frequencies of these tones, and a distortion effect. Again, this was a simple instrument with complexity arising from its use in an ensemble context.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;http://folk.uio.no/charlepm/preprints/2018-ComposingEnsembleStandstillWork.pdf&quot;&gt;Myo and Bela work was presented in a poster&lt;/a&gt;, and also in a performance of our standstill work “Stillness Under Tension”. In this piece, a standstill ensemble assumes three poses over 9 minutes, with micro-movements and muscle tension allowing the performers to explore small sonic worlds through the Myo sensors. Alexander Refsum Jensenius and I had performed the piece previous in Oslo, and we were joined at NIME by a wonderful impromptu ensemble of colleagues from around the world: Anna Xambó, Federico Visi, and Fabio Morreale. With a standstill quintet, we were really about to spread out on the huge stage of the Fife Theatre at Virginia Tech’s Moss Arts Centre.&lt;/p&gt;
+
+&lt;p&gt;So overall we had a very successful NIME presenting our lack-of-motion performance work with the Bela platform! As usual, there were many amazing and inspiring projects on display and it was great to catch up with many colleagues and friends from all over the world. It was particularly good to see the conference seriously engage with gender imbalance through a packed workshop on Women in NIME, and several papers and discussions. This can seem like a difficult problem to address, but it evidently is not going to solve itself. Hopefully by introducing some positive actions to invite and keep women contributing to NIME we can make a difference in the gender balance in coming years, and also find pathways towards improving diversity more broadly.&lt;/p&gt;
+
+&lt;p&gt;Here’s the citations for the two contributions we had in the proceedings:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@inproceedings{nime18-Gonzalez,
+author = {Gonzalez Sanchez, Victor Evaristo and Martin, Charles Patrick and Agata Zelechowska and Bjerkestrand, Kari Anne Vadstensvik and Victoria Johnson and Jensenius, Alexander Refsum },
+title = {Bela-Based Augmented Acoustic Guitars for Sonic Microinteraction},
+pages = {324--327},
+booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+editor = {Luke Dahl, Douglas Bowman, Thomas Martin},
+year = {2018},
+month = {June},
+publisher = {Virginia Tech},
+address = {Blacksburg, Virginia, USA },
+URL = {http://www.nime.org/proceedings/2018/nime2018_paper0068.pdf},
+abstract = {This article describes the design and construction of a collection of digitally-controlled augmented acoustic guitars, and the use of these guitars in the installation \textit\{Sverm-Resonans\}. The installation was built around the idea of exploring `inverse' sonic microinteraction, that is, controlling sounds by the micromotion observed when attempting to stand still. It consisted of six acoustic guitars, each equipped with a Bela embedded computer for sound processing (in Pure Data), an infrared distance sensor to detect the presence of users, and an actuator attached to the guitar body to produce sound. With an attached battery pack, the result was a set of completely autonomous instruments that were easy to hang in a gallery space. The installation encouraged explorations on the boundary between the tactile and the kinesthetic, the body and the mind, and between motion and sound. The use of guitars, albeit with an untraditional `performance' technique, made the experience both familiar and unfamiliar at the same time. Many users reported heightened sensations of stillness, sound, and vibration, and that the `inverse' control of the instrument was both challenging and pleasant.}
+}
+
+@inproceedings{nime18-Martin,
+author = {Martin, Charles Patrick and Jensenius, Alexander Refsum and Jim Torresen},
+title = {Composing an Ensemble Standstill Work for Myo and Bela},
+pages = {196--197},
+booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+editor = {Luke Dahl, Douglas Bowman, Thomas Martin},
+year = {2018},
+month = {June},
+publisher = {Virginia Tech},
+address = {Blacksburg, Virginia, USA },
+URL = {http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf},
+abstract = {This paper describes the process of developing a standstill performance work using the Myo gesture control armband and the Bela embedded computing platform. The combination of Myo and Bela allows a portable and extensible version of the standstill performance concept while introducing muscle tension as an additional control parameter. We describe the technical details of our setup and introduce Myo-to-Bela and Myo-to-OSC software bridges that assist with prototyping compositions using the Myo controller.}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There’s more &lt;a href=&quot;https://flic.kr/s/aHsmp8tY8X&quot;&gt;photos from NIME in my Flickr Album&lt;/a&gt; and below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/chuck_notorious/albums/72157699150328245&quot; title=&quot;NIME2018&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/916/28573515017_518795cb08_z.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;NIME2018&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name></name></author><category term="travel" /><category term="NIME" /><category term="music" /><category term="myo" /><category term="bela" /><summary type="html">In June I travelled to NIME2018 at Virginia Tech to present some of work from the RITMO centre and EPEC project at the University of Oslo. This year, our NIME presentations were focussed on “standstill performance”—where participants have to stand as still as possible to create sound. In previous years, our group had created standstill performances using motion capture in the lab, but our new work was on ways to do this at live events, and even in installations, using the Bela single-board computer.</summary></entry><entry><title type="html">Neural Network Ensembles in London and Representing Collaborative Interaction</title><link href="https://charlesmartin.com.au/blog/2017/09/12/neural-network-ensembles-in-london-and-representing-collaborative-interaction" rel="alternate" type="text/html" title="Neural Network Ensembles in London and Representing Collaborative Interaction" /><published>2017-09-12T00:00:00+00:00</published><updated>2017-09-12T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2017/09/12/neural-network-ensembles-in-london-and-representing-collaborative-interaction</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2017/09/12/neural-network-ensembles-in-london-and-representing-collaborative-interaction">&lt;p&gt;I recently had the chance to present a paper about my “Neural iPad Ensemble” at the Audio Mostly conference in London. The 
+&lt;a href=&quot;http://folk.uio.no/charlepm/preprints/2017-AudioMostly-DeepModelsEnsmbleImprovisation.pdf&quot;&gt;paper&lt;/a&gt;, discusses how machine learning can help to model and create free-improvised music on new interfaces, where the rules of music theory may not fit. I described the Recurrent Neural Network (RNN) design that I used to produce an AI iPad ensemble that responds to a “lead” human performer. In the demonstration session, I set up the iPads and RNN and had lots of fun jamming with the conference attendees.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-09-12-neuralnetensemble-paper-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-09-12-neuralnetensemble-paper-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of those at the conference were very curious about making music with AI systems and the practical implications of using deep learning in concert. Some had appealing, enigmatic, and sometimes confused, assumptions about musical AI. For example, I was often asked whether I could recognise personalities of the performers in the output. This isn’t possible in my RNN, because, like in all machine learning systems, the output reflects only the training data, and not the context that we humans see around it.&lt;/p&gt;
+
+&lt;p&gt;A limitation of my system is that it learns musical interactions as sequences of high-level gestures. These measurements are made once every second on the raw touchscreen data and describe it as, for examples, “fast taps”, or “small swirls”. In the performance system, a synthesiser replays chunks of performances that correspond to the desired gestures. This simplification makes it easier to design the neural network, but mean that the RNN isn’t trained on the low-level data that we might consider to contain the nuanced “personality” of a performance.&lt;/p&gt;
+
+&lt;p&gt;Another easily confused point of my system is that the human performer isn’t really the “leader”. In the interest of making the most of a limited data set, every performer in every example is permuted as the “leader” and each of the three “ensemble” performers. In fact, few (if any) performances in the corpus had a leader at all. In my system, the human performer is really just one of four equal performers, so it’s unreasonable to expect that you could “control” the RNN performers by performing in a certain way, or doing something unexpected.&lt;/p&gt;
+
+&lt;p&gt;A practical issue with performance with the neural iPad ensemble is starting and stopping the music! In a human ensemble, the performers use cues like counting in, an audible breath, or a look, to bring in the ensemble and to signal the end of an improvisation. With my RNN ensemble, cues have no effect; sometimes the group starts playing, sometimes it doesn’t. Just when you think the performance might be over, the group starts up again without you! Thinking about the training data, this behaviour makes sense. Each training example is 120 seconds long – too short to capture the long-term curve of a performance, including starting and ending. The examples do contain plenty of instances where one performer plays alone, or three play while one lays out, so there’s precedence in the data for completely ignoring the “leader” starting and stopping!&lt;/p&gt;
+
+&lt;p&gt;As with many AI systems, these limitations reveal that humans are so good at combining different datasources and contexts that we forget that we’re doing it. A truly “natural” iPad ensemble might have to be trained on much more than just high-level gestures in order to keep up with “obvious” musical cues and reproduce musical personalities.&lt;/p&gt;
+
+&lt;p&gt;While this system has limitations, it is still fun to play with  and useful as a reflection on “creative” AI. Of course, there’s many ways to improve it, one of the most important would be to train the RNN on the lowest level data available; in this case, the raw touch event data from the iPad screens. A promising way to approach this is with Mixture Density RNNs (more on that later). I’m looking forward to more chances to perform with and talk about Musical AI soon!&lt;/p&gt;</content><author><name></name></author><category term="essay" /><category term="AI" /><category term="RNN" /><category term="music" /><category term="iPad" /><category term="Neural Network" /><category term="Deep Learning" /><category term="conference" /><summary type="html">I recently had the chance to present a paper about my “Neural iPad Ensemble” at the Audio Mostly conference in London. The paper, discusses how machine learning can help to model and create free-improvised music on new interfaces, where the rules of music theory may not fit. I described the Recurrent Neural Network (RNN) design that I used to produce an AI iPad ensemble that responds to a “lead” human performer. In the demonstration session, I set up the iPads and RNN and had lots of fun jamming with the conference attendees.</summary></entry><entry><title type="html">MicroJam at Boost</title><link href="https://charlesmartin.com.au/blog/2017/06/22/microjam-at-boost" rel="alternate" type="text/html" title="MicroJam at Boost" /><published>2017-06-22T00:00:00+00:00</published><updated>2017-06-22T00:00:00+00:00</updated><id>https://charlesmartin.com.au/blog/2017/06/22/microjam-at-boost</id><content type="html" xml:base="https://charlesmartin.com.au/blog/2017/06/22/microjam-at-boost">&lt;p&gt;We presented MicroJam this week at the &lt;a href=&quot;http://www.boost2017.com&quot;&gt;Boost Technology and Equality in Music Conference&lt;/a&gt; at Sentralen, Oslo. The conference arranged a Tech Showcase session in Hvelvet, Sentralen’s old bank vault with developers of music apps, synthesisers, robots and education software.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squarespaceblog/2017-06-22_microjam-boost-7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was joined by two master’s students from the UiO Department of Informatics, Benedikte and Henrik who helped to demonstrated MicroJam to the many participants - thanks guys!&lt;/p&gt;
+
+&lt;p&gt;It was wonderful to meet so many wonderful teachers, musicians, and developers from around the region and the world, looking forward to getting the app out to them as soon as we can!&lt;/p&gt;</content><author><name></name></author><category term="news" /><category term="microjam" /><category term="EPEC" /><category term="conference" /><category term="demo" /><summary type="html">We presented MicroJam this week at the Boost Technology and Equality in Music Conference at Sentralen, Oslo. The conference arranged a Tech Showcase session in Hvelvet, Sentralen’s old bank vault with developers of music apps, synthesisers, robots and education software.</summary></entry></feed>
