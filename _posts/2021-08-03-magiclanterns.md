@@ -12,6 +12,16 @@ This is one of those projects where the events have been spread out enough for m
 
 Martyn and Elisa have a collection of amazing [videos](https://soad.cass.anu.edu.au/research/heritage-limelight/videos) documenting different performances.
 
-My favourate one is the [latest that I was involved with](https://vimeo.com/528049825), "J. W. Newland’s "Beautiful Scientific Exhibition of Dissolving Views" reinterpreted in 2021." The video was shot by Amr Tawfik. The performance was at PhotoAccess, Canberra in February 2021.
+Here's a few I worked on:
+
+- J. W. Newland’s "Beautiful Scientific Exhibition of Dissolving Views", PhotoAccess, Canberra. (February 2021) [video](https://vimeo.com/528049825)
+
+- "Suburban Apparitions" - A Magic Lantern Performance at Calthorpe’s House, ACT Historic Places, Canberra (March 2020) [video](https://vimeo.com/405336569)
+
+- Camera Obscura, Ainslie Arts Centre (May 2016)
+
+- "Magic Lantern Horror Show", National Portrait Gallery (February 2016) [video](https://vimeo.com/172507859)
+
+My favourate one is the [latest](https://vimeo.com/528049825) shown in this dramatic video below was shot by Amr Tawfik.
 
 {% include vimeoPlayer.html id=528049825 %}
