@@ -12,6 +12,6 @@ This is one of those projects where the events have been spread out enough for m
 
 Martyn and Elisa have a collection of amazing [videos](https://soad.cass.anu.edu.au/research/heritage-limelight/videos) documenting different performances.
 
-My favourate one is the [latest that I was involved with](https://vimeo.com/528049825), "J. W. Newland’s "Beautiful Scientific Exhibition of Dissolving Views" reinterpreted in 2021." The video was shot by Amr Tawfik.
+My favourate one is the [latest that I was involved with](https://vimeo.com/528049825), "J. W. Newland’s "Beautiful Scientific Exhibition of Dissolving Views" reinterpreted in 2021." The video was shot by Amr Tawfik. The performance was at PhotoAccess, Canberra in February 2021.
 
 {% include vimeoPlayer.html id=528049825 %}
