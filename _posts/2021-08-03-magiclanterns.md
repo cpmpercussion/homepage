@@ -6,6 +6,8 @@ date:   2021-08-03 09:33:59 +1000
 
 Over the last few years I've been invited to perform at several concerts with Martyn Jolley as part of his [_Heritage in the Limelight_](https://soad.cass.anu.edu.au/research/heritage-limelight) project. Martyn and fellow researcher Elisa deCourcy have been exploring magic lantern slide projection from a historical perspective and for creative re-use.
 
+![Charles playing synthesisers with magic lanterns in the background]({% link assets/blog/2021/magiclantern-2021-charles.jpg %})
+
 The "creative re-use" bit is where I have been coming in as a musician along with [Alec Hunter](https://www.alexanderhunter.com.au/). Martyn and Elisa create new magic lantern shows, telling stories or exploring mechanical slides, then Alec and I work with them to create a live soundtrack.
 
 This is one of those projects where the events have been spread out enough for me to **almost** forget how to perform with the magic lanterns in between, but now I look back and see that we've created a significant series of performances.
