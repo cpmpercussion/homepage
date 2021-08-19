@@ -31,11 +31,18 @@ I suggest that most students use this convention. Why? Because it helps examiner
 
 Most computer science and music tech papers and theses are formatted using LaTeX (not Microsoft Word). With LaTeX you edit a plain text document with markup to indicate formatting rather than what-you-see-is-what-you-get environments like Word. LaTeX is particularly good at displaying **maths** and handling **references** (with Bibtex). Overall many academic folks prefer the quality of the output document which seems a lot more polished than Word.
 
-You can get a TeX environment for your system which will include the software to compile e.g., MacTex for macOS, TeXLive for Linux.
+You can get a TeX environment for your system which will include the software to compile e.g., [MacTex](https://www.tug.org/mactex/) for macOS, [TeXLive](https://www.tug.org/texlive/) for Linux, [MiKTeX](https://miktex.org) for windows. TeX environments tend to be big (~3GB) and include lots of software and resources.
 
-You can also use cloud-based editors like [Overleaf](https://www.overleaf.com/).
+- You can also use cloud-based editors like [Overleaf](https://www.overleaf.com/).
 
-A similar option is to write in Markdown and use [Pandoc]() to convert to a pdf (via LaTeX).
+- A similar but slightly more complicated  option is to write in Markdown and use [Pandoc](https://pandoc.org/) to convert to a pdf (via LaTeX). Here's a starting point for a [Markdown to PDF workflow (link)](https://github.com/cpmpercussion/chroma-template/).
+
+I have two LaTeX templates that you might find useful: 
+
+- [LaTeX Short Report Template (link)](https://gist.github.com/cpmpercussion/a6fb23976f3a8bf5c045f54ab62ee057) - this might be good for a 6-12 unit report
+- [LaTeX Thesis Template (link)](https://gist.github.com/cpmpercussion/cecdaf4e4ca9feea9a53) - the template I used for my PhD thesis, works better for a longer (>50 pages) document.
+
+You can see an example of the thesis template [here](http://hdl.handle.net/1885/101786) in my PhD thesis :-)
 
 ## Length
 
@@ -50,7 +57,12 @@ Length for a thesis or report can vary, but here are some guidelines for the _ma
 
 LaTeX generated theses tend to be a bit longer than a Word document because they add a bit more white space etc. Computing and engineering works often have lots of figures and images so the length can look extremely long for some people. In fact, many students end up blowing these page budgets and have to reduce the size of their work afterwards.
 
+
 ## References
+
+For a thesis I suggest following [APA Style](https://apastyle.apa.org/) for citations and references. In particular I think author-date format (e.g., Martin, 2014) is more useful for a thesis rather than numbered references [e.g., 16]. Why? Well when reading a big document, after a while I'm likely to remember what "Martin, 2014" is, but I'll _never_ remember what "16" refers to.
+
+You should use a reference manager (e.g., [Bibdesk](https://bibdesk.sourceforge.io/) or [JabRef](https://www.jabref.org/)) to keep track of papers you read and keep references in [BibTeX](http://www.bibtex.org/) format to integrate into your report
 
 
 ## Introduction and Conclusion
