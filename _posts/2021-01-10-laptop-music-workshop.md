@@ -4,13 +4,11 @@ title: Laptop Music Coding Workshop
 date: 2021-01-10
 ---
 
-This is a _workshop_ designed for students visiting the Australian National University in January 2021!
+This is a _workshop_ designed for students visiting the Australian National University in January 2021. Here's the description:
 
-## Intro
+> In this session you’ll try out some of the tools used in the ANU Laptop Ensemble for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
 
-In this session you’ll try out some of the tools used in the ANU Laptop Ensemble for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
-
-# Making your Laptop into a Musical Instrument
+#  Making your Laptop into a Musical Instrument
 
 {:.info-box}
 
@@ -149,9 +147,7 @@ d = Drums('x*o*x*o-')
 This synth includes four drum sounds (kick, snare, closed hat, open hat) and you can define a little sequence using the letters `x`, `o`, `*`, and `-`.
 
 {:.info-box}
-The `Drums` synth plays back recordings of  is actually a bit different than the `Kick` and `Hat`
-
-Have a look in the [reference](https://gibber.cc/docs/index.html#audio-drums-percussion) to see how this works.
+The `Drums` synth plays back sound files (samples). So it is actually a bit different than the `Kick` and `Hat` instruments we used above. Have a look in the [reference](https://gibber.cc/docs/index.html#audio-drums-percussion) to see how this works.
 
 ## Exercise 4: Time for techno
 
@@ -220,7 +216,7 @@ b.pan.seq([-0.5,0,0.5].random(),[1/8].rnd())
 ```
 
 {:.info}
-One last key command: `Alt-Enter` will execute _multiple_ lines of code at once as long as they don't have empty lines in between. This can be handy to 
+One last key command: `Alt-Enter` will execute _multiple_ lines of code at once as long as they don't have empty lines in between. This can be handy for triggering a couple of musical actions to start at the same time.
 
 ## This is just the start!
 

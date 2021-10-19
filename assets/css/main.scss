@@ -147,3 +147,62 @@ $ui-4: #DC702F;
     background: $ui-gradient;
 }
 
+// workshop boxes
+
+// nice callout boxes
+
+
+// swiped from ANU neotheme, but adjusted to use custom colours, not ANU colormap.
+@function get-custom-color-level($color, $level: 0) {
+	@return mix(#ffffff, $color, $level * 22%);
+}
+
+// colors follow the anu style guide: http://webpublishing.anu.edu.au/web-style-guide/style-sampler.php
+$info-color: $ui-3;
+$think-color: $ui-1;
+$talk-color: $ui-4;
+$extension-color: $ui-2;
+
+%callout-box {
+  padding: 1rem;
+  border-top: 4px solid get-color-level(#000000, 3);
+  background-color: get-color-level(#000000, 4);
+  margin: 1rem 0;
+
+  *:first-child {
+    margin-top: 0;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.callout-box {
+  @extend %callout-box;
+}
+
+
+.info-box {
+  @extend %callout-box;
+  border-color: $info-color;
+  background: get-custom-color-level($info-color, 4);
+}
+
+.think-box {
+    @extend %callout-box;
+    border-color: $think-color;
+    background: get-custom-color-level($think-color, 4);
+}
+
+.talk-box {
+    @extend %callout-box;
+    border-color: $talk-color;
+    background: get-custom-color-level($talk-color, 4);
+}
+
+.extension-box {
+    @extend %callout-box;
+    border-color: $extension-color;
+    background: get-custom-color-level($extension-color, 4);
+}
