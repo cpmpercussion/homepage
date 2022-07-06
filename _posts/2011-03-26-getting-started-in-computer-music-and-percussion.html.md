@@ -2,7 +2,9 @@
 layout: post
 title: getting started in Computer Music and Percussion
 categories:
-- essay
+  - essay
+  - workshop
+  - class
 tags:
 - teaching
 - percussion

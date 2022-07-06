@@ -2,7 +2,9 @@
 layout: post
 title: How to learn Pd
 categories:
-- note
+  - note
+  - workshop
+  - class
 tags:
 - Pd
 - pure data

@@ -1,12 +1,20 @@
 ---
 layout: post
-title: Laptop Music Coding Workshop
+title: Laptop Music Coding with Gibber
 date: 2021-01-10
+categories:
+    - workshop
+    - class
+tags:
+    - gibber
+    - computer-music
 ---
+
+(_updated: 6/7/2022_)
 
 This is a _workshop_ designed for students who have never done any coding before to start by making some computer music! Here's the description:
 
-> In this session you’ll try out some of the tools used in the ANU Laptop Ensemble for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
+> In this session you’ll try out some of the tools used in the [ANU Laptop Ensemble](https://comp.anu.edu.au/courses/laptop-ensemble) for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
 
 #  Making your Laptop into a Musical Instrument
 
