@@ -38,7 +38,7 @@ If you're reading this, you're probably on a computer and have a browser window 
 
 Open a new tab or window and head over to [gibber.cc](https://gibber.cc). You'll see a stylish looking dark, artistic website. Click the link that says "playground". 
 
-The first thing to do is click the "close welcome" button in the right hand frame. Then you'll get a code editing frame with some example code in it already. Select all that code and delete it (just hit backspace); it's nice to start from a clean slate!
+The first thing to do is to click anywhere in the main code window. The text will disappear and some example code will appear instead. Select all that code and delete it (just hit backspace); it's nice to start from a clean slate!
 
 During this tutorial we're going to enter some code in this editing window, then **execute** it to make a sound. Let's start by typing in one simple line of code:
 ```
@@ -263,3 +263,19 @@ One last key command: `Alt-Enter` will execute _multiple_ lines of code at once 
 ## This is just the start!
 
 There's a lot to learn about Gibber, synthesis, live coding, music tech, and computing! Don't worry if this seems overwhelming. A good start for today is to make some sounds and try changing them a bit in Gibber!
+
+{% comment %}
+// Comment from Charlie about how to make random pattern filter work with durations
+
+syn = Synth('square.perc')
+  
+syn.note.seq( [0,1,2,3], ptrn=[1/4,1/8,1/16] )
+
+ptrn.addFilter( (args, __ptrn) => {
+  args[2] = Math.floor( Math.random() * __ptrn.values.length )
+  args[0] = Clock.time(__ptrn.values[ args[2] ])
+  
+  return args
+})
+
+{% endcomment %}
