@@ -50,7 +50,10 @@ Use the arrow keys to place your cursor anywhere on the line with `Synth().notef
 
 You can keep holding `Shift` and tapping `Enter` to play lots of 440Hz notes! Yay music!
 
-At this point you can play whatever note you want by entering in the correct frequency. But perhaps this seems inconvenient; you might like to define notes closer to how we read and write music. You actually have a two options for creating a sound:
+At this point you can play whatever note you want by entering in the correct
+frequency. But perhaps this seems inconvenient; you might like to define notes
+closer to how we read and write music. You actually have two options for
+creating a sound:
 
 ```
 Synth().notef(440)
@@ -61,8 +64,9 @@ sound! That's ok, it's meant to happen. The second line is written slightly
 differently (can you see how?) and it is defining a pitch as a note in a scale.
 Try changing it to `Synth().note(1)` and play it again. Now it's different!
 
-{:.info}
+{:.info-box}
 Gibber understands _scale degrees_ as the main way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound "good" together. Instead of writing "C" we could say "degree 0 of a C major scale". Gibber has lots of scales built-in (see the Scales tutorial in Gibber's menu), but you can get started by just using low numbers (e.g., 0-7) in your sequences. 
+
 
 Before we move on, let's make some more notes. We can change the pitch (frequency) of the note by changing the number in between the parentheses. For example: `Synth().notef(567)` will produce a note at 567Hz. Try it out.
 
@@ -80,21 +84,22 @@ To play a song, we need multiple notes in a sequence, not just one at a time.
 If you try executing `Synth()` you might find that it doesn't actually do anything. We have to make a synth, and then give it a note to play:
 ```
 s = Synth()
-s.note('0')
+s.note(0)
 ```
-Try executing each line of code in succession. You should hear a sound start and then stop---that's a note! You can play it again by just executing the second line (and there's no need to hit `Ctrl+.` this time).
+Try executing each line of code in succession. You should hear a sound start and then stop---that's a note! You can play it again by just executing the second line.
 
 So what's going on here? Why do we need two lines of code? The first line of code creates a `Synth` which doesn't do anything until we ask it to play a note. Since we want to play lots of notes, we are going to keep this particular `Synth` around, so we will assign it to a variable called `s`.
 
 The line of code `s = Synth()` creates a `Synth` and then saves it to `s` so we can use it multiple times.
 
-The next line of code `s.note('0')` asks the Synth represented by `s` to play a note. The "dot" in between `s` and `note` is often used in programming to ask something to perform a certain action. 
+The next line of code `s.note(0)` asks the Synth represented by `s` to play a note. The "dot" in between `s` and `note` is often used in programming to ask something to perform a certain action. 
 
 You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:
 ```
 Theory.root = 'c4'
 Theory.mode = 'major'
 ```
+And then running some more `s.note(0)` lines with different numbers.
 
 {:.info-box}
 If you want to learn more about Gibber after this tutorial, you can look select some example compositions from the drop down menu next to "gibber" in the top left, or click the "reference" link at the top right to read the documentation. 
@@ -160,7 +165,8 @@ And some hi-hats:
 h = Hat()
 h.trigger.seq(0.4,1/16)
 ```
-This sequence has a different way of achieving a randomised sound. The `Rndi` command generates a random number between 1000 and 5000, which gives us a continuously changing pitch for the hats.
+Note that we are using `trigger.seq` with the hats, not `note.seq`. "Trigger" is useful when you don't want to change the pitch, the "0.4" in that code refers to the volume (between 0 and 1).
+
 
 There's another (maybe simpler) way of make a drum pattern in Gibber:
 ```
@@ -193,7 +199,7 @@ It's been said that the minimum you need to make techno is [drums, bass, a lead 
 We've already got drums, and your `Synth` sequences from Exercise 2 can be the lead, so let's get a bass sound:
 ```
 b = FM('bass')
-b.note.seq('-7', 1/16)
+b.note.seq(-7, 1/16)
 ```
 This code uses the `FM` synth, a classic synthesis design and a preset to make a nice bassy sound. Done!
 
