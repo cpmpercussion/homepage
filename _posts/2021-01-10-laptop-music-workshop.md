@@ -4,7 +4,7 @@ title: Laptop Music Coding Workshop
 date: 2021-01-10
 ---
 
-This is a _workshop_ designed for students visiting the Australian National University in January 2021. Here's the description:
+This is a _workshop_ designed for students who have never done any coding before to start by making some computer music! Here's the description:
 
 > In this session you’ll try out some of the tools used in the ANU Laptop Ensemble for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
 
@@ -12,11 +12,9 @@ This is a _workshop_ designed for students visiting the Australian National Univ
 
 {:.info-box}
 
-Welcome to our Laptop Music workshop! In this session we will create some music with computers using a _live coding_ language called [gibber](https://gibber.cc). All you will need is a **computer**, a **web browser** (Chrome, Firefox or Safari are preferred), and some **headphones**!
+Welcome to our Laptop Music workshop! In this session we will create some music with computers using a _live coding_ language called [gibber](https://gibber.cc). All you will need is a **computer**, a **web browser** (Chrome is preferred), and some **headphones**!
 
 ## Before we start
-
-This workshop has two versions: on-campus at the Australian National University in our School of Computing labs, and remote, through a Zoom session.
 
 Here's the three things you'll need:
 
@@ -30,56 +28,68 @@ Here's the three things you'll need:
 
 If you're reading this, you're probably on a computer and have a browser window open -- that's an excellent start already!
 
-Open a new tab or window and head over to [gibber.cc](https://gibber.cc). You'll see a stylish looking black screen with a couple of frames.
+Open a new tab or window and head over to [gibber.cc](https://gibber.cc). You'll see a stylish looking dark, artistic website. Click the link that says "playground". 
 
 The first thing to do is click the "close welcome" button in the right hand frame. Then you'll get a code editing frame with some example code in it already. Select all that code and delete it (just hit backspace); it's nice to start from a clean slate!
 
 During this tutorial we're going to enter some code in this editing window, then **execute** it to make a sound. Let's start by typing in one simple line of code:
 ```
-Sine()
+Synth().notef(440)
 ```
-**Executing** this line of code means asking the computer to actually **do** what it says. In this case, it means "play a [sine tone](https://en.wikipedia.org/wiki/Sine_wave) at a (default) frequency of 440 Hertz".
+**Executing** this line of code means asking the computer to actually **do** what it says. In this case, it means "make a synth(esiser), and play a note at a frequency of 440 Hertz".
 
-Use the arrow keys to place your cursor anywhere on the line with `Sine()`, then hold the `Ctrl` key on your keyboard and press the `Enter` key to evaluate that line. You should hear a smooth (but slightly annoying) sound.
+Use the arrow keys to place your cursor anywhere on the line with `Synth().notef(440)`, then hold the `Shift` key on your keyboard and press the `Enter` key to evaluate that line. You should hear a slightly annoying squawk!
 
-To **stop** playing the sine tone, hold the `Ctrl` key and press the full stop key (`.`). That's how you stop all sounds in Gibber.
+You can keep holding `Shift` and tapping `Enter` to play lots of 440Hz notes! Yay music!
 
-By the way, from now on we'll write those keyboard commands as `Ctrl+Enter` and `Ctrl+.`.
+At this point you can play whatever note you want by entering in the correct frequency. But perhaps this seems inconvenient; you might like to define notes closer to how we read and write music. You actually have a two options for creating a sound:
 
-{:.info-box}
-Just a quick note before we go too much further, if you want to learn more about Gibber after this tutorial, you can look under the "tutorials" option in the left-hand browser pane. You can also look at the Gibber [manual](https://bigbadotis.gitbooks.io/gibber-user-manual/content/).
-If you end up wanting to save your work in Gibber, you can either copy you code into a document (or email it yourself), or make a user account at [gibber.cc](https://gibber.cc) and then you'll be able to save code and access it under the browser pane.
+```
+Synth().notef(440)
+Synth().note(0)
+```
+If you play each of these lines, you might notice that they are making the same
+sound! That's ok, it's meant to happen. The second line is written slightly
+differently (can you see how?) and it is defining a pitch as a note in a scale.
+Try changing it to `Synth().note(1)` and play it again. Now it's different!
 
-Before we move on, let's make some more sine tones. We can change the pitch (frequency) of the sine tone by adding a number in between the parentheses. For example: `Sine(567)` will produce a sine tone at 567Hz. Try a few experiments with sine tones:
+{:.info}
+Gibber understands _scale degrees_ as the main way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound "good" together. Instead of writing "C" we could say "degree 0 of a C major scale". Gibber has lots of scales built-in (see the Scales tutorial in Gibber's menu), but you can get started by just using low numbers (e.g., 0-7) in your sequences. 
 
-- If you execute a `Sine()` command, change the frequency in that line of code, and execute it again, what happens?
-- If you have multiple sine tones playing and you hit `Ctrl+.`, what happens?
+Before we move on, let's make some more notes. We can change the pitch (frequency) of the note by changing the number in between the parentheses. For example: `Synth().notef(567)` will produce a note at 567Hz. Try it out.
+
+- If you press `Ctrl+Enter` (the control key and enter), instead of `Shift+Enter`, what happens?
+- If Gibber is ever too loud or playing sounds you don't want, you can stop **everything** by hold the `Ctrl` key and press the full stop key (`.`).
+- By the way, from now on we'll write the keyboard commands as `Ctrl+Enter` and `Ctrl+.`.
+
 
 ## Exercise 1: Make a note
 
 So far we've made "sounds", but not exactly "music"
 
-Our sine tones played forever, but musical _notes_ tend to start, go for certain amount of time, and then stop (i.e., they have a **duration**).
-
-We can make some notes in Gibber, but not with the `Sine` command. This time let's try the `Synth` command.
+To play a song, we need multiple notes in a sequence, not just one at a time.
 
 If you try executing `Synth()` you might find that it doesn't actually do anything. We have to make a synth, and then give it a note to play:
 ```
 s = Synth()
-s.note('c4')
+s.note('0')
 ```
 Try executing each line of code in succession. You should hear a sound start and then stop---that's a note! You can play it again by just executing the second line (and there's no need to hit `Ctrl+.` this time).
-
-You can try putting other pitch names into the `s.note()` line to play different pitches. You can use the musical note names, e.g., `d`, `g`, `a#` (a sharp), and `eb` (e flat). The number represents the [octave](https://en.wikipedia.org/wiki/Octave) of the note, so `c5` is one octave above `c4`.
 
 So what's going on here? Why do we need two lines of code? The first line of code creates a `Synth` which doesn't do anything until we ask it to play a note. Since we want to play lots of notes, we are going to keep this particular `Synth` around, so we will assign it to a variable called `s`.
 
 The line of code `s = Synth()` creates a `Synth` and then saves it to `s` so we can use it multiple times.
 
-The next line of code `s.note('c4')` asks the Synth represented by `s` to play a note. The "dot" in between `s` and `note` is often used in programming to ask something to perform a certain action. 
+The next line of code `s.note('0')` asks the Synth represented by `s` to play a note. The "dot" in between `s` and `note` is often used in programming to ask something to perform a certain action. 
+
+You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:
+```
+Theory.root = 'c4'
+Theory.mode = 'major'
+```
 
 {:.info-box}
-You can also send note commands with frequencies instead of note names, e.g., `s.note('660')`
+If you want to learn more about Gibber after this tutorial, you can look select some example compositions from the drop down menu next to "gibber" in the top left, or click the "reference" link at the top right to read the documentation. 
 
 Let's try a few experiments:
 
@@ -91,18 +101,20 @@ Let's try a few experiments:
 Let's play a melody, or a **sequence** of notes:
 ```
 s = Synth()
-s.note.seq(['a3','b3','c3','d3','e3','g3'],1/4)
+s.note.seq([0, 1, 2, 3, 4, 5], 1/4)
 ```
 Execute these two lines of code and you should be able to hear a sequence of six notes.
 
 Gibber's synth objects have a built-in sequencer, in this case, we're sequencing the `note` command, so we've put a `seq` command after that, and then the parameters of our sequence inside the parentheses. The parameters have two parts"
 ```
 s.note.seq(
-    ['a3','b3','c3','d3','e3','g3'], // a list of pitches
+    [0, 1, 2, 3, 4, 5], // a list of pitches
     1/4 // a duration - one quarter of a bar (or a quarter note or crotchet).
 )
 ```
-You might be able to hear that the sequence is going through the list of pitches over and over again, and that the duration of each note is the same. So far so good!
+You might be able to hear that the sequence is going through the list of pitches over and over again, and that the duration of each note is the same. In fact, you should also be able to see it becuase Gibber highlights your code to show you what's going on! So far so good!
+
+It might seem strange that the sequence loops over and over instead of playing just once. Gibber is designed to create electronic music which is often based on _looping sequences_. So the idea that a sequence of notes loops (by default) is build deeply into it.
 
 Let's try a few sequence experiments:
 
@@ -113,8 +125,9 @@ Let's try a few sequence experiments:
 - can you figure out a sequence to play a tune you know?
 
 {:.info-box}
-A few sequence tips: you can stop the sequence by executing `s.note.seq.stop()`. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use `Shift+Ctrl+Enter` to execute it (this works for executing any other command as well)
+A few **sequence tips**: you can stop the sequence by executing `s.stop()`. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use `Ctrl+Enter` to execute it (this works for executing any other command as well)
 
+{% comment %}
 One more sequence trick before moving on! Let's try a _randomised_ sequence instead of going through the list of pitches in order by adding `.rnd()` to the list:
 ```
 s.note.seq(['a3','b3','c3','d3','e3','g3'].rnd(),1/4)
@@ -123,31 +136,47 @@ We can do this for the duration as well:
 ```
 s.note.seq(['a3','b3','c3','d3','e3','g3'],[1/4,1/8].rnd())
 ```
+{% endcomment %}
 
 ## Exercise 3: Groove with drums
 
 Let's try some sequences with some of Gibber's drum synths. Here's a kick:
 ```
 k = Kick()
-k.note.seq(90, 1/4)
+k.notef.seq(75, 1/4)
 ```
-You might notice that there's a very simple sequence here---just one pitch and duration value---kick patterns can be simple!
+You might notice that there's a very simple sequence here---just one pitch (75Hz) and a duration value---kick patterns can be simple!
 
 And some hi-hats:
 ```
 h = Hat()
-h.note.seq(Rndi(1000,5000),1/16)
+h.trigger.seq(0.4,1/16)
 ```
 This sequence has a different way of achieving a randomised sound. The `Rndi` command generates a random number between 1000 and 5000, which gives us a continuously changing pitch for the hats.
 
 There's another (maybe simpler) way of make a drum pattern in Gibber:
 ```
-d = Drums('x*o*x*o-')
+d = Drums()
+d.tidal('kd sd kd sd')
 ```
-This synth includes four drum sounds (kick, snare, closed hat, open hat) and you can define a little sequence using the letters `x`, `o`, `*`, and `-`.
+This synth includes four drum sounds: kick: `kd`, snare: `sd`, closed hat: `ch`, and open hat: `oh`.
+
+This uses a style of pattern notation called `tidal` (after another live coding system, [tidal cycles](https://tidalcycles.org/)). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add `*2` after it. So to do "we will rock you" you write:
+```
+d.tidal('kd sd kd*2 sd')
+```
+To play two sounds together, you put them in square brackets with a comma in between, e.g.: `[kd, ch]`. So we could have a complete beat like this:
+```
+d.tidal('[kd, ch] ch [sd, ch] ch [kd, ch] ch [sd, ch] oh')
+```
+
+- Try out some different combinations of repeated and simultaneous notes in a drum pattern.
+
+- Try the `EDrums()` kit as well---these work the same way, but sound like a drum machine. You also get two extra sounds: clap `cp` and cowbell `cb`.
+
 
 {:.info-box}
-The `Drums` synth plays back sound files (samples). So it is actually a bit different than the `Kick` and `Hat` instruments we used above. Have a look in the [reference](https://gibber.cc/docs/index.html#audio-drums-percussion) to see how this works.
+The `Drums` synth plays back sound files (samples). So it is actually a bit different than the `Kick` and `Hat` instruments we used above. Have a look in the [reference](https://gibber.cc/playground/docs/index.html#instruments-drums) to see how this works.
 
 ## Exercise 4: Time for techno
 
@@ -156,7 +185,7 @@ It's been said that the minimum you need to make techno is [drums, bass, a lead 
 We've already got drums, and your `Synth` sequences from Exercise 2 can be the lead, so let's get a bass sound:
 ```
 b = FM('bass')
-b.note.seq('c2', 1/16)
+b.note.seq('-7', 1/16)
 ```
 This code uses the `FM` synth, a classic synthesis design and a preset to make a nice bassy sound. Done!
 
@@ -166,53 +195,58 @@ b.index.seq([2,3,4,5,6],1/16)
 ```
 Now that sounds cool! Some things to try:
 
-- Set up drums, bass, and lead parts playing a pattern together. You might want to use `Shift+Ctrl+Enter` to make sure your sequences all line up.
+- Set up drums, bass, and lead parts playing a pattern together. Use `Ctrl+Enter` to make sure your sequences all line up.
 
 - Once you have some patterns running, start making small changes to the sequences and executing them again---Now you're live coding!
 
-- Try changing your sequences from named pitches to _scale degrees_ (see info box below) by putting some low numbers (e.g., 0-7) in a sequence instead of the pitch names. This can make it a lot easier to create patterns that sound nice together.
+- Try using `Rndi` in a note sequence to generate pitches randomly, e.g., `Rndi(0,7)` will generate random scale degrees from 0 to 7.
 
-- What about the freaky noises? Maybe you could try another synth from the [Gibber manual](https://bigbadotis.gitbooks.io/gibber-user-manual/content/chapters/audio_synthesizers.html)
+- Rather than setting the durations manually, try using the `Euclid` function. This generates [Euclidean rhythms](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)---even spacing of pulses in a bar that are algorithmically guaranteed to sound cool! You use this function with two numbers, e.g., `Euclid(3,8)` will generate three notes in a bar evenly divided into 8 parts.
 
-{:.info}
-Gibber can understand _scale degrees_ as another way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound "good" together. Instead of writing "C" we could say "degree 0 of a C major scale". Gibber has lots of scales built-in (see the Scales tutorial in Gibber's left hand pane), but you can get started by just using low numbers (e.g., 0-7) in your sequences. If you change all your sequences to use this notation, they'll all be in the same key and probably sound good together!
+Combining the last two ideas, you could set up a sequence like this:
+```
+s.note.seq(Rndi(0,7), Euclid(7,16))
+```
+
+- What about the freaky noises? Maybe you could try another synth from the [Gibber manual](https://gibber.cc/playground/docs/index.html#instruments).
 
 ## Here's one I made earlier
 
 Well, here's some techno I made a bit earlier. You could try this as a starting point for your own work or just look to see how some other modulations might work! (There's a few things below that aren't covered above!)
 
 ```
-s = Synth2({attack: ms(1)})
-  .fx.add(Reverb())
+Clock.bpm = 120
+Theory.root = 'c4'
+Theory.mode = 'aeolian'
 
-s.note.seq( 
-  [0,1,2,4,5,7],
-  [1/4,1/8,1/16].random() 
-)
+s = Synth("bleep").fx.add(Reverb())
+s.note.seq(sine(btof(7.6),7,0), Euclid(5,16))
 
-s.note.values.shuffle()
-s.cutoff.seq( [.1,.2,.3,.4], 1/2 )
-s.cutoff = Add(.4, Sine(.05, .25)._ ) // LFO
-s.resonance = 4
-s.note.seq.stop()
+s.stop()
 
 k = Kick()
-k.note.seq(90, 1/4)
+k.notef.seq(70, 1/4)
 
-k.note.seq.stop()
+k.stop()
 
 h = Hat()
-h.note.seq(Rndi(1000,5000),1/16)
+h.trigger.seq(sine(3,0.6,0.05), 1/16)
+h.tune.seq(Rndf(0.5,0.7), 1/16)
+
+h.stop()
 
 c = Clave().fx.add(Reverb())
-c.note.seq(Rndf(7000,8000),[1/16,1/8].random())
+c.trigger.seq(sine(0.2,.1,.4), Euclid(6,16))
+c.note.seq(sine(5.01,4,5), Euclid(6,16))
 
-c.note.seq.stop()
+c.stop()
 
-b = FM( 'bass') //, {decay: ms(200)} )
-b.note.seq(0, 1/16)
+cl = Clap().fx.add(Reverb())
+cl.trigger.seq(0.6,1,0,1/4)
+
+b = FM('bass')
+b.note.seq(-7,1/16)
 b.index.seq([2,3,4,5,6],1/16)
-b.pan.seq([-0.5,0,0.5].random(),[1/8].rnd())
 ```
 
 {:.info}
