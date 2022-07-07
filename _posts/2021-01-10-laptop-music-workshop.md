@@ -10,11 +10,11 @@ tags:
     - computer-music
 ---
 
-(_updated: 6/7/2022_)
-
 This is a _workshop_ designed for students who have never done any coding before to start by making some computer music! Here's the description:
 
 > In this session you’ll try out some of the tools used in the [ANU Laptop Ensemble](https://comp.anu.edu.au/courses/laptop-ensemble) for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
+
+(_updated: 6/7/2022_)
 
 #  Making your Laptop into a Musical Instrument
 
@@ -97,7 +97,7 @@ The next line of code `s.note(0)` asks the Synth represented by `s` to play a no
 You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:
 ```
 Theory.root = 'c4'
-Theory.mode = 'major'
+Theory.mode = 'ionian'
 ```
 And then running some more `s.note(0)` lines with different numbers.
 
