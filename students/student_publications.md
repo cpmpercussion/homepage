@@ -8,7 +8,44 @@ Here's some links to research produced by my graduate students.
 
 If you'd like to work on something like this, get in touch through [ANU](https://cecs.anu.edu.au/people/charles-martin), or on [Twitter](https://twitter.com/cpmpercussion)!
 
-### Torgrim Næss (Master of Informatics, Robotics and Intelligent Systems): [A Physical Intelligent Instrument using Recurrent Neural Networks. Master thesis](https://www.duo.uio.no/bitstream/handle/10852/70773/1/naess_master.pdf)
+### [Feiyue Tao: Multi-View Web Interfaces in Augmented Reality](http://hdl.handle.net/1885/271412)
+
+The emergence of augmented reality (AR) is reshaping how people can observe and interact with their physical world and digital content. Virtual instructions provided by see-through AR can greatly enhance the efficiency and accuracy of physical tasks, but the cost of content authoring in previous research calls for more utilization of legacy information in AR. Web information is a great source hosting a wide range of legacy and instructional resources, yet current web browsing experience in AR headsets has not exploited the advantage of 3D immersive space mixing the real and virtual environments. Instead of creating new AR content or transforming from legacy resources, this research investigates how to better present web interfaces in AR headsets, especially in a physical task instruction context. A new approach multi-view AR web interfaces is proposed, which suggests separating web components into multiple panels that can be freely arranged in the user's surrounding 3D space. The separation and arrangement would allow more flexible combination of web content from multiple sources and with other AR applications in the user's field of view.
+
+#### BibTeX
+
+```
+@mastersthesis{1885-271412,
+	author = {Tao, Feiyue},
+	title = {Multi-View Web Interfaces in Augmented Reality},
+	year = {2022},
+	address = {Canberra, Australia},
+	doi = {10.25911/5FRG-J326},
+	url = {http://hdl.handle.net/1885/271412}
+}
+```
+
+### [Yichen Wang: ]()
+
+### [Xinlei Niu: Acoustic Scene Classification with Attention-based Neural Networks](http://hdl.handle.net/1885/270565)
+
+Auditory information provides great help to human beings to recognize their surroundings and positions. However, the sound we perceived in the environment is often a mixture of many sounds that happened at the same time. Therefore, developing a system to automatically extract information from unprocessed audio provides a huge potential for human beings. For example, it can be utilized by automatic diving, multimedia searching, robots, etc. In this study, we proposed two Attention-based Neural Network models to achieve automatic acoustic scene classification systems. Both two models are powerful in extracting information on audio spectrograms and classifying them into their corresponding scene labels. We applied two acoustic scene datasets to verify our model and got the best accuracies which are 15.7% and 8.0% higher than their CNN baselines.
+
+#### BibTeX:
+
+```
+@mastersthesis{Niu:2021,
+	author = {Niu, Xinlei},
+	title = {},
+	year = {2021},
+	address = {Canberra, Australia},
+	doi = {10.25911/DR3N-7M40},
+	url = {http://hdl.handle.net/1885/270565}
+}
+```
+
+
+### [Torgrim Næss: A Physical Intelligent Instrument using Recurrent Neural Networks](https://www.duo.uio.no/bitstream/handle/10852/70773/1/naess_master.pdf)
 
 #### Abstract:
 
@@ -90,42 +127,3 @@ Results suggest that each model could be used in applications using short amount
         URL = {http://urn.nb.no/URN:NBN:no-66304},
     }
 
-## Graduate Student Collaborations
-
-Here's some work from students I've worked with, but not directly supervised.
-
-### Preben Ødegård Aas: [Getting a Grip on Musical Interaction - An exploratory study of embodied sound design through a grid-based system](http://urn.nb.no/URN:NBN:no-65392)
-
-#### Abstract
-
-This master thesis presents an exploratory approach that investigates embodied, musical interaction through a concept-driven interaction design research project. The project aims to promote exploratory sound design in music studios at home. The idea, formulated as the grid-based system, describes a system that is desired to facilitate for embodied nuances. The system manifests in an artifact which aims at being a carrier of knowledge to examine human relations to musical tools in realistic settings.
-
-The GridStick, a functioning, interactive research prototype, aims at embodying an evolving concept to facilitate for enhanced expressiveness and creative flow in sound design, and has been used as an analytic tool for enabling reflection on theory and methodology. Phenomenology has been used to assemble a design framework with design concepts from own experience and previous studies. The iterative design process with sketching and extensive technical prototyping has informed the framework.
-
-The thesis answers the research question by making four contributions; the grid-based system model; a theoretical framework for investigating experience; a flexible methodological framework for exploratory design; and presentation of a design artifact and the knowledge generated.
-
-#### BibTex
-
-    @mastersthesis{Aas:2018aa,
-        Author = {Preben Ødegård Aas},
-        Title = {Getting a Grip on Musical Interaction - An exploratory study of embodied sound design through a grid-based system},
-        School = {University of Oslo},
-        Year = {2018},
-        URL = {http://urn.nb.no/URN:NBN:no-65392},
-    }
-
-### Mathias Ciarlo Thorstensen: [Visualization of Robotic Sensor Data with Augmented Reality](http://urn.nb.no/URN:NBN:no-60160)
-
-#### Abstract
-
-To understand a robot's intent and behavior, a robot engineer must analyze data at the input and output, but also at all intermediary steps. This might require looking at a specific subset of the system, or a single data node in isolation. A range of different data formats can be used in the systems, and require visualization in different mediums; some are text based, and best visualized in a terminal, while other types must be presented graphically, in 2D or 3D. This often makes understanding robots challenging for humans, as it can be hard to see the whole picture of the situation. This thesis attempts to solve this issue, by creating an augmented reality system on the virtual reality platform HTC Vive, to investigate methods for visualization of a robot's state and world perception. It also investigates the effect augmented reality has in increasing a user's understanding of a robot system. The visualization was achieved by projecting a robot's sensor data into the user's reality, presenting it in a intuitive way. Augmented reality was achieved by utilizing HTC Vive's front facing camera, and showing the augmented video see-through in virtual reality. To test the system's ability in increasing the user's understanding, a user study was conducted. The study tested the users' understanding of the robot's perception of its environment. This was done by comparing the augmented reality system with traditional methods. The implemented augmented reality system was successfully tested on 31 subjects in the user study. Quantitative data was recorded to measure the understanding, and a questionnaire was conducted to get qualitative data about the system. The results show a significant increase in the subjects' understanding.
-
-#### BibTex
-
-    @mastersthesis{Thorstensen:2018aa,
-        Author = {Mathias Ciarlo Thorstensen},
-        Title = {Visualization of Robotic Sensor Data with Augmented Reality},
-        School = {University of Oslo},
-        Year = {2018},
-        URL = {http://urn.nb.no/URN:NBN:no-60160},
-    }
