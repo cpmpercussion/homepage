@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Student Publications
-permalink: /students/pubs/
+title: charleslab graduates
+permalink: /lab/grads/
 ---
 
 Here's some links to research produced by my graduate students. 
 
-If you'd like to work on something like this, get in touch through [ANU](https://cecs.anu.edu.au/people/charles-martin), or on [Twitter](https://twitter.com/cpmpercussion)!
+If you'd like to work on something like this, get in touch through [ANU](https://comp.anu.edu.au/people/charles-martin/), or on [Twitter](https://twitter.com/cpmpercussion)!
 
 ### [Feiyue Tao: Multi-View Web Interfaces in Augmented Reality](http://hdl.handle.net/1885/271412)
 

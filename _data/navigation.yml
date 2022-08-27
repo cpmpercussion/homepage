@@ -19,8 +19,8 @@
   url: /projects/
 
 
-- title: students
-  url: /students/
+- title: lab
+  url: /lab/
 
 # <ul class="links">
 #   <li><a href="{{ "/blog.html" | absolute_url }}">blog</a></li>

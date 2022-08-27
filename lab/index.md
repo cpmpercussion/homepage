@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Intelligent Musical Instruments Lab
-permalink: /imilab/
+title: charleslab
+permalink: /lab/
 ---
 
-## Research Goals
+Charles Martin's lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.
+
+The goal of the lab is to create **new kinds of musical instruments** that **sense** and **understand** music. These instruments will actively respond during performances to assist musicians.
 
 ![Performing on touchscreens and percussion]({{site.baseurl}}/assets/images/performing/metatone-hands-header.jpg)
-
-The goal of the **intelligent musical instruments lab** is to create **new kinds of musical instruments** that **sense** and **understand** music. These instruments will actively respond during performances to assist musicians.
 
 We envision that musical instruments of the future will do more than react to musicians. They will **predict their human player’s intentions** and **sense the current artistic context**. Intelligent instruments will use this information to shape their sonic output. They might seamlessly add expression to sounds, update controller mappings, or even generate notes that the performer hasn’t played (yet!).
 
@@ -21,6 +21,14 @@ Our work combines three cutting edge fields of research:
 - **Expressive Musical Sensing**: Understanding how music is played and what performers are doing. This involves hardware prototyping, creating new hyper-instruments, and applying cutting-edge sensors.
 - **Musical Machine Learning**: Creating and training predictive models of musical notes, sounds, and gestures. This includes applying techniques symbolic music generation, to understand scores and MIDI data,  and music information retrieval to "hear" music in audio data.
 - **Musical Human-Computer Interaction**: Finding new ways for predictive models to work with musicians, and to analyse the musical experience that emerges.
+
+## Current Lab Members
+
+- [Yichen Wang](https://yichenwangs.github.io/yichen/)  (PhD Candidate)
+- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/?originalSubdomain=au) (PhD Candidate)
+- [Brent Schuetze](http://bschuetze.xyz) (Research Assistant)
+
+([list of graduated students]({% link lab/graduates.md %}))
 
 ## Projects
 
