@@ -140,16 +140,14 @@ Let's try a few sequence experiments:
 {:.info-box}
 A few **sequence tips**: you can stop the sequence by executing `s.stop()`. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use `Ctrl+Enter` to execute it (this works for executing any other command as well)
 
-{% comment %}
 One more sequence trick before moving on! Let's try a _randomised_ sequence instead of going through the list of pitches in order by adding `.rnd()` to the list:
 ```
-s.note.seq(['a3','b3','c3','d3','e3','g3'].rnd(),1/4)
+s.note.seq([0, 1, 2, 3, 4, 5].rnd(),1/4)
 ```
 We can do this for the duration as well:
 ```
-s.note.seq(['a3','b3','c3','d3','e3','g3'],[1/4,1/8].rnd())
+s.note.seq([0, 1, 2, 3, 4, 5], [1/4,1/8].rnd())
 ```
-{% endcomment %}
 
 ## Exercise 3: Groove with drums
 
@@ -244,7 +242,7 @@ k.notef.seq(70, 1/4)
 k.stop()
 
 h = Hat()
-h.trigger.seq(sine(3,0.6,0.05), 1/16)
+h.trigger.seq(sine(3,0.6,0.05), [1/16,1/8].rnd())
 h.tune.seq(Rndf(0.5,0.7), 1/16)
 
 h.stop()
