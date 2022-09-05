@@ -10,6 +10,8 @@ I've just arrived in Te Whanganui-a-Tara/Wellington for the [Australasian Comput
 
 Skipping to the end first, we now have a first issue ["Rebooting Chroma"](https://journal.computermusic.org.au/chroma/issue/view/1) with progressively released, open access articles from computer musicians, music technologists, and composers. The journal costs less than 100AUD per year to run and has no costs for authors.
 
+![Rebooting Chroma, volume 38 cover]({% link assets/blog/2022/chroma-volume-38.jpg %})
+
 We use:
 
 - a markdown-to-pdf workflow for all articles, the [Chroma Template](https://github.com/cpmpercussion/chroma-template)
@@ -54,6 +56,10 @@ citations are a still a bit of an issue. As it turns out, most authors just
 have their references in verbatim text in their manuscript. Pandoc supports
 more advanced citation practices with bibtex files and citation style language
 files, but in practice my job is to take what authors give me and create a PDF.
+
+From my perspective, the production part of editing the journal takes place in a normal code editor like this:
+
+![editing a chroma article in VSCode]({% link assets/blog/2022/chroma-template.jpg %})
 
 Mostly the markdown output from pandoc makes, sense, but I have found that I need to wrap the reference section in a latex `hangparas` environment to get them to work correctly:
 
