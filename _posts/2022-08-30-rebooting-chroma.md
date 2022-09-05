@@ -75,6 +75,16 @@ Mostly the markdown output from pandoc makes, sense, but I have found that I nee
 
 So far, this is the _only_ latex code I need to paste into the markdown manuscripts, which seems like a pretty big win!
 
+### Aspiration: an end-to-end online editing process
+
+I'm still experimenting with a few features of the GitHub template. 
+
+For now, I'm happy using the template just in the production stage, but ideally, authors would fork their own template and edit in there directly. I have set up github actions that automagically build and host the compiiled outputs from the template on GitHub pages (e.g., [here (HTML)](https://cpmpercussion.github.io/chroma-template/) and [here (PDF)](https://cpmpercussion.github.io/chroma-template/article.pdf)).
+
+I'd also like to provide a way to edit an article online. Overleaf works so well for this for LaTeX but it's not as easy to work out a way to edit markdown and connect to an existing template.
+
+An overall goal would be to have (like in Overleaf) an online workflow for importing a Word document manuscript, editing in markdown and then submitting the automatically generated PDF or HTML file for review. It _sort of_ works with a collection of different tools, but I haven't had much interest from authors in engaging within the _Chroma_ community in particular.
+
 ### Journal Website
 
 [Open Journal Systems](https://pkp.sfu.ca/ojs/) is a venerable and effective way to host a journal as well as manage the reviewing workflow. It's not very hard to set up in a standard "shared hosting" environment with cPanel. In fact, there's often a way to install it automatically in cPanel app installer widget.
