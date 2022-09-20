@@ -25,7 +25,22 @@ The emergence of augmented reality (AR) is reshaping how people can observe and 
 }
 ```
 
-### [Yichen Wang: ]()
+### [Yichen Wang: Sonic Sculptural Staircase: An Investigation of Highly Immersive And World Aware Augmented Reality In Augmented Sculptural Staircase Experience](https://doi.org/10.25911/SRRQ-4K49)
+
+Modern head-mounted augmented reality technology has now ad- vanced to the level that it can be said to enable a Highly Immersive and World Aware Augmented Reality (HIWAAR) experience. Critical to pro- viding such an experience is the ability of some modern systems, like the Microsoft HoloLens (HLs), to capture video information of the sur- rounding physical environment in real time and to build models of that environment which enable a user to be “world aware” in the augmented world. At the same time, such systems can provide graphical images and audio that surround and augment the user experience in a highly immersive manner. Works that utilise such HIWAAR technology for the creation of augmented art experience have been claimed to be effective in activating users’ engagement and enhancing art appreciation. However, few works have specifically considered how augmented art experiences should be designed and fewer have provided rigorous evaluations of the effectiveness of such experiences. This thesis presents the Sonic Sculptural Staircase (SSS), a HIWAAR installation that explores the use of visual overlays, sound and interaction using Microsoft HoloLens Gen 2nd (HL-2) in providing an augmented sculptural staircase appreciation experience. The thesis commences using interviews with art professionals seeking for design inspirations for the HIWAAR augmented sculpture (or sculp- tural elements) experience. Drawing on results from these interviews, the SSS was designed and developed. Two different experience conditions, the informational experience and the experiential experience, are introduced to reflect on the use of visual overlays, sound and interaction in providing an augmented sculptural staircase appreciation experience. User eval- uations are then described to quantitatively and qualitatively evaluate the functionality and effectiveness of SSS in providing such rewarding experience. Results from user evaluation show that the SSS presented a pleasant augmented sculptural staircase appreciation experience along with enhanced awareness of the physical piece, on both experience con- ditions over time. However, whether there is a distinctness between the informational and the experiential experience with aspects of visual over- lays, sound and interaction in such rewarding experience requires further investigation. Furthermore, preliminary evidence from follow-up studies appear to show that the experiential experience has a more lasting impact than the informational experience on the way that participants view the sculptural staircase in their daily lives. Overall, this work has illustrated a novel use of HIWAAR system with aspects of visual overlays, sound and interaction in realising highly immersive and rewarding augmented sculptural staircase appreciation experience. Positive results revealed from user evaluations preliminarily support the effectiveness of utilising such technology for the design of other augmented art experiences for relevant communities.
+
+#### BibTeX
+
+```
+@mastersthesis{1885-271450,
+	author = {Wang, Yichen},
+	title = {Sonic Sculptural Staircase: An Investigation of Highly Immersive And World Aware Augmented Reality In Augmented Sculptural Staircase Experience},
+	school = {School of Computing, ANU College of Engineering & Computer Science, The Australian National University},
+	year = {2021},
+	doi = {10.25911/SRRQ-4},
+	url = {http://hdl.handle.net/1885/271450}
+}
+```
 
 ### [Xinlei Niu: Acoustic Scene Classification with Attention-based Neural Networks](http://hdl.handle.net/1885/270565)
 
