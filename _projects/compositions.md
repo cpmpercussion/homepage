@@ -1,13 +1,9 @@
 ---
 layout: project
-title: compositions
-permalink: /compositions/
-categories: []
-tags: []
-status: publish
-type: page
-published: true
-meta: {}
+title: Compositions
+summary: Compositions for percussion and computer with a focus on ensembles.
+image: /assets/compositions/gesture-study-1.jpg
+image_alt: An ensemble of percussionists performing Gesture Study 1 on iPads
 ---
 
 Charles composes music for percussion and computer with a focus on ensembles. He writes music from young beginner to professional level. These compositions are available as digital downloads including a recording of each piece.

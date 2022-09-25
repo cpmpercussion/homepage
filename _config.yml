@@ -98,3 +98,11 @@ pagination:
     after: 2
   extension: html
   indexpage: 'index'
+
+
+collections:
+  projects:
+    output: true
+    display_order: 2
+    permalink: /projects/:path/
+
