@@ -24,7 +24,9 @@ and ensembles that I've been involved with over the years.
 <img class="card-img-top" src="{{ project.image }}" alt="{{ project.image_alt }}">
 <div class="card-body">
 <h5 class="card-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h5>
+{% if project.started or project.ended %}
 <h6 class="card-subtitle mb-2 text-muted">{{project.started}}-{{project.ended}}</h6>
+{% endif %}
 {{ project.summary }}
 <a class="card-link" href="{{ project.url | relative_url }}">read more</a>
 </div>
