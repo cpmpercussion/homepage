@@ -8,16 +8,10 @@ permalink: /projects/
 I'm a performer and researcher in music technology, this page is about projects
 and ensembles that I've been involved with over the years.
 
-{% comment %}
-{% for project in site.projects %}
-{% unless project.hidden %}
-- [{{ project.title }}]({{ project.url | prepend: site.baseurl }})
-{% endunless %}
-{% endfor %}
-{% endcomment %}
+{% assign sorted = site.projects | sort: 'started' %}
 
 <section class="row">
-{% for project in site.projects %}
+{% for project in sorted reversed %}
 {% unless project.hidden %}
 <div class="col-sm-4 p-3">
 <div class="card">
