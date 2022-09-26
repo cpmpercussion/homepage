@@ -8,12 +8,6 @@ permalink: /projects/
 I'm a performer and researcher in music technology, this page is about projects
 and ensembles that I've been involved with over the years.
 
-I work at the intersection of music performance (computer and percussion), new
-interfaces for musical expression, and computational intelligence (ML/AI), and
-I'm always looking for new ways to combine these interests!
-
-![Charles Martin Background]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
-
 {% comment %}
 {% for project in site.projects %}
 {% unless project.hidden %}
@@ -30,6 +24,7 @@ I'm always looking for new ways to combine these interests!
 <img class="card-img-top" src="{{ project.image }}" alt="{{ project.image_alt }}">
 <div class="card-body">
 <h5 class="card-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h5>
+<h6 class="card-subtitle mb-2 text-muted">{{project.started}}-{{project.ended}}</h6>
 {{ project.summary }}
 <a class="card-link" href="{{ project.url | relative_url }}">read more</a>
 </div>
@@ -39,6 +34,11 @@ I'm always looking for new ways to combine these interests!
 {% endfor %}
 </section>
 
+I work at the intersection of music performance (computer and percussion), new
+interfaces for musical expression, and computational intelligence (ML/AI), and
+I'm always looking for new ways to combine these interests!
+
+![Charles Martin Background]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
 
 ### Research Labs
 

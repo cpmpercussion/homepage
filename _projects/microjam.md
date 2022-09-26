@@ -4,6 +4,8 @@ title: Microjam
 summary: MicroJam was a mobile app for sharing tiny touch-screen performances.
 image: /assets/projects/microjam/microjam-outdoor-music-making.jpg 
 image_alt: Creating music outdoors with microjam on iPhones
+started: 2016
+ended: 2022
 ---
 
 ## About MicroJam

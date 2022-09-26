@@ -1,6 +1,8 @@
 ---
 layout: project
 title: Interactive Music Prediction System
+started: 2019
+ended: 
 summary: IMPS is a system for recording, learning, and generating musical control data in live performances.
 image: /assets/projects/imps/IMPS_connection_example.png
 image_alt: Connection diagram for the IMPS system from interface through IMPS, to a synthesiser
