@@ -1,10 +1,10 @@
 ---
 layout: page
-title: charleslab
+title: Sound and Music Computing Lab
 permalink: /lab/
 ---
 
-Charles Martin's lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.
+The Canberra Sound and Music Computing Lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.
 
 The goal of the lab is to create **new kinds of musical instruments** that **sense** and **understand** music. These instruments will actively respond during performances to assist musicians.
 
