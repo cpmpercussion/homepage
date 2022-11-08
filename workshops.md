@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Computer Music Workshops
+permalink: /workshops/
 ---
 
 Here's a list of workshops and talks that I give related to computer music, intelligent musical interfaces, and musical AI.

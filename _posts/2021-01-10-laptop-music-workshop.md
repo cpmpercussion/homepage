@@ -173,7 +173,7 @@ d.tidal('kd sd kd sd')
 ```
 This synth includes four drum sounds: kick: `kd`, snare: `sd`, closed hat: `ch`, and open hat: `oh`.
 
-This uses a style of pattern notation called `tidal` (after another live coding system, [tidal cycles](https://tidalcycles.org/)). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add `*2` after it. So to do "we will rock you" you write:
+This uses a style of pattern notation called `tidal` (after another live coding system, [tidal cycles](https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/)). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add `*2` after it. So to do "we will rock you" you write:
 ```
 d.tidal('kd sd kd*2 sd')
 ```
@@ -186,6 +186,7 @@ d.tidal('[kd, ch] ch [sd, ch] ch [kd, ch] ch [sd, ch] oh')
 
 - Try the `EDrums()` kit as well---these work the same way, but sound like a drum machine. You also get two extra sounds: clap `cp` and cowbell `cb`.
 
+- Try using [tidal](https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/) expressions with other synths, this is a really expressive way to write complicated sequences quickly!
 
 {:.info-box}
 The `Drums` synth plays back sound files (samples). So it is actually a bit different than the `Kick` and `Hat` instruments we used above. Have a look in the [reference](https://gibber.cc/playground/docs/index.html#instruments-drums) to see how this works.

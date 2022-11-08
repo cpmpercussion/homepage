@@ -3,6 +3,8 @@ layout: post
 title: Building Synths in NoiseCraft
 author: Charles Martin
 date: 2021-11-22
+categories:
+  - workshop
 ---
 
 
