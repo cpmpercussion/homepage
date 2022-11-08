@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2022-11-08T12:28:26+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology and machine learning.
+</subtitle><entry><title type="html">Rebooting Chroma</title><link href="https://charlesmartin.au/blog/2022/08/30/rebooting-chroma" rel="alternate" type="text/html" title="Rebooting Chroma" /><published>2022-08-30T00:00:00+00:00</published><updated>2022-08-30T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2022/08/30/rebooting-chroma</id><content type="html" xml:base="https://charlesmartin.au/blog/2022/08/30/rebooting-chroma"><![CDATA[<p>I’ve just arrived in Te Whanganui-a-Tara/Wellington for the <a href="https://www.acmc2022.com/">Australasian Computer Music Conference</a>, the first in-person edition since 2019, and it’s a good time to reflect on a bit project I’ve undertaken with this community—rebooting our journal: <a href="https://journal.computermusic.org.au/chroma">Chroma: Journal of the Australasian Computer Music Association</a>.</p>
+
+<p>Skipping to the end first, we now have a first issue <a href="https://journal.computermusic.org.au/chroma/issue/view/1">“Rebooting Chroma”</a> with progressively released, open access articles from computer musicians, music technologists, and composers. The journal costs less than 100AUD per year to run and has no costs for authors.</p>
+
+<p><img src="/assets/blog/2022/chroma-volume-38.jpg" alt="Rebooting Chroma, volume 38 cover" /></p>
+
+<p>We use:</p>
+
+<ul>
+  <li>a markdown-to-pdf workflow for all articles, the <a href="https://github.com/cpmpercussion/chroma-template">Chroma Template</a></li>
+  <li><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> for creating the journal website and reviewing system</li>
+  <li>old-school shared hosting with cPanel to host everything as well as the wordpress site for <a href="https://computermusic.org.au">our community</a></li>
+</ul>
+
+<p>In this post I want to document a bit of what I have put together to get this journal working. My strong belief is that folks shouldn’t have to pay thousands of dollars to publish journal articles with big publishers: we academics should be running community journals by and for each other where (as peer-reviewers and editors) we can keep an eye on quality as well as support emerging researchers. Community-run journals can run at (almost) zero cost to the researchers and readers they serve by leaning into web-first publishing using free tools.</p>
+
+<h3 id="markdown-to-pdf">Markdown to PDF</h3>
+
+<p>One draw of publishing in a commercial journal is that your output paper <em>looks really nice</em>. This is because the journal pays people to do the production to a certain layout. Well our journal has no money, and I don’t have much time, so we have to rely on computers to help.</p>
+
+<p><em>Luckily</em> it is possible to go from a word-document manuscript to a <a href="https://journal.computermusic.org.au/chroma/article/view/7/8"><em>quite nice looking</em></a> PDF without too much effort using <a href="https://pandoc.org/">pandoc</a> and <a href="https://www.latex-project.org/">latex</a>.</p>
+
+<p>There are
+<a href="https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/"><em>lots</em></a>
+of <a href="https://kieranhealy.org/blog/archives/2014/01/23/plain-text/">blog</a>
+<a href="https://opensource.com/article/18/9/pandoc-research-paper">posts</a> out there
+about using markdown and pandoc for academic writing. Mostly these are about
+using markdown as the starting point to publishing in a traditional journal or
+conference using that publisher’s template. The idea here is to let authors use
+whatever they want to create a manuscript (usually Microsoft Word) and then I
+use pandoc to “magically” turn it into a beautiful PDF.</p>
+
+<p>To do this, I have a <a href="https://github.com/cpmpercussion/chroma-template">template
+repository</a> on Github which I
+use to create new repos—one for each article. There’s a carefully crafted
+latex template file, a demo article, and some scripts to tie everything
+together. The workflow works like this:</p>
+
+<ol>
+  <li>I run a little script that uses pandoc to extract the text and images from the author’s manuscript: <code class="language-plaintext highlighter-rouge">pandoc -i $1 -o article.md --extract-media .</code></li>
+  <li>I paste the output into the template’s <code class="language-plaintext highlighter-rouge">article.md</code> file, and fix up the metadata</li>
+  <li>I run <code class="language-plaintext highlighter-rouge">make</code> in the repository to generate the PDF and a bonus HTML version!</li>
+</ol>
+
+<p>The good news is that it <em>mostly</em> works.</p>
+
+<p>Normal text is laid out beautifully in the template. Images pretty much work
+well although authors get confused about latex’s automatic placement sometimes.
+Figure captions don’t seem to work in HTML. Tables tend to need a lot of
+reworking to fit into the width of the page generated by latex. References and
+citations are a still a bit of an issue. As it turns out, most authors just
+have their references in verbatim text in their manuscript. Pandoc supports
+more advanced citation practices with bibtex files and citation style language
+files, but in practice my job is to take what authors give me and create a PDF.</p>
+
+<p>From my perspective, the production part of editing the journal takes place in a normal code editor like this:</p>
+
+<p><img src="/assets/blog/2022/chroma-template.jpg" alt="editing a chroma article in VSCode" /></p>
+
+<p>Mostly the markdown output from pandoc makes, sense, but I have found that I need to wrap the reference section in a latex <code class="language-plaintext highlighter-rouge">hangparas</code> environment to get them to work correctly:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```{=latex}
+\begin{hangparas}{1.5em}{1}
+```
+
+(references go here)
+
+```{=latex}
+\end{hangparas}
+```
+</code></pre></div></div>
+
+<p>So far, this is the <em>only</em> latex code I need to paste into the markdown manuscripts, which seems like a pretty big win!</p>
+
+<h3 id="aspiration-an-end-to-end-online-editing-process">Aspiration: an end-to-end online editing process</h3>
+
+<p>I’m still experimenting with a few features of the GitHub template.</p>
+
+<p>For now, I’m happy using the template just in the production stage, but ideally, authors would fork their own template and edit in there directly. I have set up github actions that automagically build and host the compiiled outputs from the template on GitHub pages (e.g., <a href="https://cpmpercussion.github.io/chroma-template/">here (HTML)</a> and <a href="https://cpmpercussion.github.io/chroma-template/article.pdf">here (PDF)</a>).</p>
+
+<p>I’d also like to provide a way to edit an article online. Overleaf works so well for this for LaTeX but it’s not as easy to work out a way to edit markdown and connect to an existing template.</p>
+
+<p>An overall goal would be to have (like in Overleaf) an online workflow for importing a Word document manuscript, editing in markdown and then submitting the automatically generated PDF or HTML file for review. It <em>sort of</em> works with a collection of different tools, but I haven’t had much interest from authors in engaging within the <em>Chroma</em> community in particular.</p>
+
+<h3 id="journal-website">Journal Website</h3>
+
+<p><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> is a venerable and effective way to host a journal as well as manage the reviewing workflow. It’s not very hard to set up in a standard “shared hosting” environment with cPanel. In fact, there’s often a way to install it automatically in cPanel app installer widget.</p>
+
+<p>OJS is fairly detailed and designed for use in journals that are more complicated than our use case (e.g., with different people in charge of review, copy editing, production, etc). I actually only <em>now</em> feel like I understand how the whole publication process is supposed to work, having gone all the way from submission to publication with a couple of papers.</p>
+
+<p>I’m probably most familiar now with the <em>review</em> part of the website as the
+second hardest part of journal editing is getting folks to write reviews (the
+hardest part is getting authors to revise manuscripts). Email deliverability
+can be a tricky issue here. OJS normally likes to send email from PHP using the
+server it is running from which, these days, is probably a bad idea. The IP
+address of the shared hosting server tends to get spam filtered which makes
+getting in touch with reviewers difficult. I switched OJS to use
+<a href="https://docs.pkp.sfu.ca/admin-guide/en/email">SMTP</a> and the email server
+provided by the our web host. I had to make sure the SPF and DKIM records were
+set up correctly, and now I <em>think</em> that the OJS emails are not getting
+labelled as “unverified” or being filtered by IP address.</p>
+
+<p>One cool thing about OJS is that it supports multiple output formats for one article, so one the page for one article (e.g., <a href="https://journal.computermusic.org.au/chroma/article/view/7">Sze Tsang’s “Exploring aspects of place through sound mapping”</a>) you can have links to a PDF and HTML version.</p>
+
+<p>Once published, the metadata for articles seems to get picked up by Google Scholar, which, depending on who you ask, might be the only thing that actually matters :-/</p>
+
+<h3 id="it-works">It works!</h3>
+
+<p>There’s complications and difficulties above, but the takeaway should be: it
+works! It <em>is</em> possible to do a very low budget community-run journal and
+produce pretty good looking PDF output articles. Having tuned the latex
+template a bit, the production part is now very quick for a normal article. The
+main hassles with running the journal at this point are the normal human ones
+of interacting with reviewers and authors!</p>]]></content><author><name></name></author><category term="note" /><category term="publishing," /><category term="journal," /><category term="computer" /><category term="music" /><summary type="html"><![CDATA[I’ve just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it’s a good time to reflect on a bit project I’ve undertaken with this community—rebooting our journal: Chroma: Journal of the Australasian Computer Music Association.]]></summary></entry><entry><title type="html">Setting up Tensorflow with Docker</title><link href="https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker" rel="alternate" type="text/html" title="Setting up Tensorflow with Docker" /><published>2021-12-08T00:00:00+00:00</published><updated>2021-12-08T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker"><![CDATA[<p>For the last five years, I’ve seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated musical machine learning research with TensorFlow and Keras.</p>
+
+<p>Each version of TensorFlow requires <a href="https://www.tensorflow.org/install/source#gpu"><em>specific</em> versions of CUDA and cuDNN</a>. The install instructions involve either installing very <a href="https://www.tensorflow.org/install/gpu#install_cuda_with_apt">strange apt packages</a> or finding and downloading binaries from NVIDIA. The whole things seems to take a day to get right. You know it’s bad when you have three or four conflicting gists and Medium articles open just to try to install a library.</p>
+
+<p>While it’s possible to sit on one version for a long time, for some reason or another one part seems to need to be upgraded and then whole system is broken.</p>
+
+<p>Well I say: <em>no more</em>. The <em>suggested</em> way to run TensorFlow is with a <a href="https://www.tensorflow.org/install/docker">docker container</a> and that’s what I’m going to do going forward.</p>
+
+<p>Mostly for my own benefit I’m going to document the setup for going from a new Ubuntu system to being able to run one command to get open a Jupyter notebook server with GPU-connected TensorFlow running. I promise it’s faster than installing CUDA.</p>
+
+<h2 id="install-nvidia-drivers">Install Nvidia Drivers</h2>
+
+<ol>
+  <li>Install Ubuntu</li>
+  <li>make sure you have a (physical) Nvidia GPU in your computer</li>
+  <li>make sure you have installed the Nvidia GPU drivers. This is pretty much the default these days, but here’s the one-liner to install proprietary drivers:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ubuntu-drivers autoinstall
+</code></pre></div></div>
+
+<p>Once you have Nvidia drivers installed, you should be able to run the following command to list your installed GPUs:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvidia-smi
+</code></pre></div></div>
+
+<p>If the table shows your GPU(s) and driver version, then you’re ready.</p>
+
+<p>While we’re here, consider installing <a href="https://github.com/Syllo/nvtop"><code class="language-plaintext highlighter-rouge">nvtop</code></a>, a convenient command line tool for tracking GPU utilisation:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install nvtop
+</code></pre></div></div>
+
+<h2 id="install-docker">Install <code class="language-plaintext highlighter-rouge">docker</code></h2>
+
+<p>Installing Docker on Ubuntu is another one of those too-many-gist-and-medium-article questions.</p>
+
+<p>The <a href="https://stackoverflow.com/questions/45023363/what-is-docker-io-in-relation-to-docker-ce-and-docker-ee">current wisdom (2021)</a> seems to be to install <code class="language-plaintext highlighter-rouge">docker.io</code>, which is a <a href="https://www.collabora.com/news-and-blog/blog/2018/07/04/docker-io-debian-package-back-to-life/">Debian-provided package</a> in contrast to those provided by <a href="https://docs.docker.com/engine/install/ubuntu/">Docker Inc</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install docker.io
+</code></pre></div></div>
+
+<p><strong>Issues:</strong> Running docker containers without <code class="language-plaintext highlighter-rouge">sudo</code> is a perennial issue in Ubuntu. Here’s some <a href="https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue">context and solutions (link)</a>.</p>
+
+<p>One fix I had to run was: <code class="language-plaintext highlighter-rouge">sudo chmod 666 /var/run/docker.sock</code></p>
+
+<p>You can test your docker install by running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run hello-world
+</code></pre></div></div>
+
+<h2 id="install-nvidia-docker">Install <code class="language-plaintext highlighter-rouge">nvidia-docker</code></h2>
+
+<p>We need Nvidia’s <a href="https://github.com/NVIDIA/nvidia-docker">container toolkit (link)</a> to run GPU-accelerated docker containers. The install instructions are <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">here</a>, but the short summary is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+   &amp;&amp; curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
+   &amp;&amp; curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt update
+sudo apt install -y nvidia-docker2
+sudo systemctl restart docker
+</code></pre></div></div>
+
+<p>(This is the only weird extra package repository required for this setup.. phew.)</p>
+
+<p>You can test <code class="language-plaintext highlighter-rouge">nvidia-docker</code> by running a CUDA-enabled container and running <code class="language-plaintext highlighter-rouge">nvidia-smi</code> within it, e.g.:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+</code></pre></div></div>
+
+<h2 id="trying-out-a-tensorflow-container">Trying out a Tensorflow Container</h2>
+
+<p>Ok–we’re ready to do some <strong>deep learning</strong> (really!)</p>
+
+<p>Copying an example from <a href="https://www.tensorflow.org/install/docker">TensorFlow’s documentation</a>, you can test your install with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run --gpus all -it --rm tensorflow/tensorflow:latest-gpu \
+   python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+</code></pre></div></div>
+
+<p>This should take quite a while to get started as it has to download the fairly large <code class="language-plaintext highlighter-rouge">tensorflow:latest-gpu</code> container, but that only has to be done once.</p>
+
+<!-- ## A few example commands -->
+
+<h2 id="setting-up-a-command-you-can-remember">Setting up a command you can remember</h2>
+
+<p>All these arguments are going to be hard to remember. I’ve set up an aliased command in my <code class="language-plaintext highlighter-rouge">.bashrc</code> file to start up a Jupyter Notebook server that can see my <code class="language-plaintext highlighter-rouge">~/src</code> directory. This is the workflow I use for <em>most</em> of my ML research with my workstation.</p>
+
+<p>Add this to <code class="language-plaintext highlighter-rouge">~/.bashrc</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias tfjupyter="docker run --gpus all -it -p 8888:8888 -v ~/src:/tf/notebooks tensorflow/tensorflow:latest-gpu-jupyter"
+</code></pre></div></div>
+
+<p>So now to start up a Jupyter Notebook with tensorflow and GPUs ready to go I just type <code class="language-plaintext highlighter-rouge">tfjupyter</code>.</p>
+
+<h3 id="packages">Packages</h3>
+
+<p>One downside here is that the docker container’s Python environment may not have every library that you want. For now, I’m planning to install extra packages inside my notebooks, e.g., something like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!pip install keras-mdn-layer
+</code></pre></div></div>
+
+<h2 id="future-todos">Future TODOs</h2>
+
+<ul>
+  <li>get this working with Jupyter Lab.</li>
+  <li>test out <code class="language-plaintext highlighter-rouge">docker.io</code> working without <code class="language-plaintext highlighter-rouge">sudo</code></li>
+  <li>test out how this works with multiple users</li>
+  <li>figure out a similar workflow for research using PyTorch (seems like its <a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">similar to the above</a>)</li>
+</ul>]]></content><author><name></name></author><category term="note" /><category term="machine-learning," /><category term="research" /><summary type="html"><![CDATA[For the last five years, I’ve seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated musical machine learning research with TensorFlow and Keras.]]></summary></entry><entry><title type="html">Building Synths in NoiseCraft</title><link href="https://charlesmartin.au/blog/2021/11/22/making-synths-noisecraft" rel="alternate" type="text/html" title="Building Synths in NoiseCraft" /><published>2021-11-22T00:00:00+00:00</published><updated>2021-11-22T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/11/22/making-synths-noisecraft</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/11/22/making-synths-noisecraft"><![CDATA[<p>In this tutorial you’ll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the synthesiser you’ll use <a href="https://noisecraft.app/">NoiseCraft</a>, a website that lets you build your own synthesiser by connecting together modules that create or modify electronic sounds.</p>
+
+<p>The goals of the tutorial are:</p>
+
+<ol>
+  <li>Experiment with the fundamental parts of a synthesiser</li>
+  <li>Experience how these parts connect to make different sounds</li>
+  <li>Create a synthesiser and a short composition using it</li>
+</ol>
+
+<h2 id="task-0-opening-up-noisecraft">Task 0: Opening up NoiseCraft</h2>
+
+<ul>
+  <li>Get on to a laptop or desktop computer and open up a web browser.</li>
+  <li>Type <code class="language-plaintext highlighter-rouge">https://noisecraft.app/</code> in the location bar and press <code class="language-plaintext highlighter-rouge">Enter</code></li>
+</ul>
+
+<p>You’ll see <strong>NoiseCraft</strong> website. It’s just a big empty space! That’s right, <strong>you</strong> have to create the synthesiser here, but that’s great because when <strong>you create something</strong> you understand it.</p>
+
+<p>Let’s notice a few things:</p>
+
+<ul>
+  <li>The word “Play” is written in the top right corner. If you click “Play”, then your synthesiser will make sound (when you’ve built it), a “Stop” will appear and you can click that to stop the sound.</li>
+</ul>
+
+<p>It’s <strong>always</strong> important to know how to turn an electronic instrument <em>off</em> if you make a sound that’s too loud or that you don’t like.</p>
+
+<ul>
+  <li>Click the empty workspace. A “Create Node” menu will appear with different boxes and word.</li>
+</ul>
+
+<p>In NoiseCraft, a <strong>node</strong> is a building block of a synthesiser. You’ll create your synth by creating <strong>nodes</strong> and joining them together.</p>
+
+<ul>
+  <li>Click “AudiOut” in the “Create Node” menu, a little box with “AudioOut” on it will appear. Try dragging it around the workspace.</li>
+</ul>
+
+<p>The <strong>AudioOut</strong> node is connected to your computer’s speakers. Any sound you send to it will come out of your computer! (Once you click “Play”…)</p>
+
+<p>Now we’re ready to make some sound!</p>
+
+<h2 id="task-1-sound-generators-and-outputs">Task 1: Sound Generators and Outputs</h2>
+
+<p>Synthesisers create complex sounds by combining and modifying simple <em>tone generators</em>. Let’s create some different tone generators and see what kind of sounds they make.</p>
+
+<p><strong>Before starting</strong>: Turn the volume of your computer <strong>all the way down</strong>, if you’re using headphones take them out/off.</p>
+
+<p><strong>Warning</strong>: These experiments can create <em>VERY LOUD SOUNDS</em>. Be <strong>very careful</strong> with sound when experimenting with synthesisers! Only put your earphones on when you know the volume is at a good level.</p>
+
+<p>Create these nodes:</p>
+
+<ul>
+  <li>AudioOut (if you haven’t got one already)</li>
+  <li>Sine</li>
+  <li>Const</li>
+</ul>
+
+<p>Connect them together:</p>
+
+<ul>
+  <li>Connect the <code class="language-plaintext highlighter-rouge">out</code> of the Sine node to the <code class="language-plaintext highlighter-rouge">left</code> input of AudioOut.</li>
+  <li>Connect the Const node to the <code class="language-plaintext highlighter-rouge">freq</code>  input of the Sine node.</li>
+</ul>
+
+<p>Most nodes have connection points on their left and right sides. The left-side points are <em>inputs</em> and the right-side ones are <em>outputs</em></p>
+
+<p>So far, so good but where is the sound? First we have to set the sine node to play a sound we can hear.</p>
+
+<ul>
+  <li>Click the “0” in the const node.</li>
+  <li>Type “440”</li>
+  <li>press Enter</li>
+</ul>
+
+<p>Still no sound? Click “Play” and <strong>slowly</strong> turn your volume up a <strong>little bit</strong>. If you are using ear/headphones, put them near your ears before putting them all the way on to check that it’s not too loud.</p>
+
+<p>Now you should hear a nice smooth <em>sine tone</em>! Ooooooooooooo.</p>
+
+<blockquote>
+  <p>Now try changing the frequency: type a different number into the const. What effect does this have on the sound?</p>
+</blockquote>
+
+<p>Let’s try some <em>other</em> tone generators. The sine tone is a pure, smooth, sound, but these other generators have different timbres:</p>
+
+<ul>
+  <li>Tri</li>
+  <li>Saw</li>
+  <li>Pulse</li>
+  <li>Noise (this one doesn’t have a <code class="language-plaintext highlighter-rouge">freq</code> input!)</li>
+</ul>
+
+<blockquote>
+  <p>Can you describe the sound of these tone generators?</p>
+</blockquote>
+
+<h2 id="task-2-changing-pitch-and-volume">Task 2: Changing Pitch and Volume</h2>
+
+<p>So far we’ve just made a sound constantly plays at *maximum volume**. Let’s turn it down!</p>
+
+<p>Create these nodes:</p>
+
+<ul>
+  <li>Mul</li>
+  <li>Knob</li>
+</ul>
+
+<p>Disconnect any tone generators from the AudioOut then connect</p>
+
+<ul>
+  <li>a tone generator node to the <code class="language-plaintext highlighter-rouge">in0</code> of the Mul node</li>
+  <li>the Knob to the <code class="language-plaintext highlighter-rouge">in1</code> of the Mul node</li>
+  <li>the <code class="language-plaintext highlighter-rouge">out</code> of the AudioOut to one (or both) of the inputs of the AudioOut node.</li>
+</ul>
+
+<p>Press play and adjust the Knob to turn up the volume!</p>
+
+<blockquote>
+  <p>“Mul” stands for “multiply”, but why do we multiply things together to change the volume? (think about what happens when you multiply a number by zero…)</p>
+</blockquote>
+
+<p>Now let’s change pitch:</p>
+
+<ul>
+  <li>Disconnect the Const from your tone generator.</li>
+  <li>Create another Knob</li>
+  <li>Connect the output of the Knob to the <code class="language-plaintext highlighter-rouge">freq</code> of the tone generator.</li>
+  <li>Double click the knob (a little menu appears) and change <code class="language-plaintext highlighter-rouge">maxVal</code> to 1000.</li>
+</ul>
+
+<p>Now you can turn the knob to select a frequency or pitch.</p>
+
+<blockquote>
+  <p>Can you work out the frequency of particular notes on your instrument or a piano?</p>
+</blockquote>
+
+<h2 id="task-3---playing-notes">Task 3 - Playing Notes</h2>
+
+<p>Create <strong>MidiIn</strong> node: this lets you play your synthesiser with the keyboard of your computer.</p>
+
+<ul>
+  <li>Connect the <code class="language-plaintext highlighter-rouge">freq</code> output from the MidiIn node to the freq input of your tone generator (instead of the frequency Knob)</li>
+  <li>press the letters “a” to “l” on your keyboard to play some notes!</li>
+</ul>
+
+<h2 id="task-4---see-the-sound">Task 4 - SEE the sound</h2>
+
+<p>Create a <strong>Scope</strong> node. This visualises the signal of any output.</p>
+
+<ul>
+  <li>connect the <code class="language-plaintext highlighter-rouge">out</code> of a tone generator to the input of the Scope.</li>
+  <li>press some letters and you’ll see the sound waves visualised in the Scope</li>
+</ul>
+
+<p>The Scope is probably showing a very messy visualisation right now. Try connecting a <em>very low frequency</em> tone to the Scope and you should be able to see more detail (e.g., 5Hz). If you try to visualise a very low frequency can you see why the tones have their names?</p>
+
+<h2 id="task-5---shaping-notes">Task 5 - Shaping Notes.</h2>
+
+<p>So far our notes have a kind of boring <em>shape</em>. That is, they are either <strong>on</strong> (playing) or <strong>off</strong>. Think about the <em>shape</em> of sounds produced by other instruments, they might start quietly, get louder, and fade away over time.</p>
+
+<p>The <em>shape</em> of a note is called the <em>envelope</em>. It’s the chunk of time that a note lives in with changes in volume and timbre of a sound over that time.</p>
+
+<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/envelope-sound.png" alt="We can change the amplitude over the [envelope](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/amplitude-envelope) to give a note a sonic “shape”." /></p>
+
+<p>So now we are going to create an envelope generator (EG) for our synth in NoiseCraft.</p>
+
+<p>NoiseCraft has an EG node called <strong>ADSR</strong>. This creates envelope shapes in a particular 4-stage envelope which is popular for synthesisers:</p>
+
+<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/adsr.png" alt="[ADSR](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/adsr-envelope) stands for &quot;attack&quot;, &quot;decay&quot;, &quot;sustain&quot;, &quot;release&quot;. These are the four phases of a pitched note." /></p>
+
+<p>Create an <strong>ADSR</strong> node. An EG also creates signals but instead of listening to it, we use it to control other nodes.</p>
+
+<ul>
+  <li>Hook up the output of the ADSR node to the volume control <strong>Mul</strong> node of your synth.</li>
+  <li>Hook up the <code class="language-plaintext highlighter-rouge">gate</code> input of the ADSR node to the <code class="language-plaintext highlighter-rouge">gate</code> output of your MidiIn** node</li>
+  <li>Create four Knobs and hook them up to the <code class="language-plaintext highlighter-rouge">att</code>, <code class="language-plaintext highlighter-rouge">dec</code>, <code class="language-plaintext highlighter-rouge">sus</code>, and <code class="language-plaintext highlighter-rouge">real</code> inputs of the ADSR node.</li>
+</ul>
+
+<p>Adjust the knobs: try setting attack to 0.2, decay to 0.4, sustain to 0.5 and release to 0.8.</p>
+
+<p>Now if you play your synth with the keyboard you’ll notice that it take a little bit of time for the notes to fade in when you press down a key, and to fade away when you lift your finger from the keyboard.</p>
+
+<p>What kind of envelopes can you create with this setup? Can you mimic an acoustic instrument that you play?</p>
+
+<h2 id="task-6---additive-synthesis">Task 6 - Additive Synthesis</h2>
+
+<p>So far we have only used a single simple tone generator to create sounds. These sound cool, but we haven’t had any control over <em>timbre</em>, or sound colour, of the synthesiser except to change the basic waveform.</p>
+
+<p>Think: What does <em>timbre</em> mean to you? How do you control timbre on your instrument?</p>
+
+<p>In general, synthesisers use more complex techniques to control <em>timbre</em> and create all kinds of interesting sounds. One simple way to do this is to take more than one tone generator and <em>add the sounds together</em>. This is called “additive synthesis”.</p>
+
+<ul>
+  <li>make another tone generator node (of the same or different type as one you already are using)</li>
+  <li>create an <strong>Add</strong> node.</li>
+  <li>hook up the outputs of both of your tone generators to the inputs of the <strong>Add</strong> node</li>
+  <li>hook up the output of the <strong>Add</strong> node to the volume control/EG in your synth.</li>
+</ul>
+
+<p>Now we need to control the frequency of our second tone generator.</p>
+
+<ul>
+  <li>connect the <code class="language-plaintext highlighter-rouge">freq</code> output of the MidiIn node to the <code class="language-plaintext highlighter-rouge">freq</code> in of your second tone generator.</li>
+  <li>Play some notes!</li>
+</ul>
+
+<p>Now, this may sound a <em>bit</em> different, but not very much so. This is because both tone generators are set to exactly the same frequency. Let’s change that.</p>
+
+<ul>
+  <li>Create a <strong>Mul</strong> node and a <strong>Const</strong> node.</li>
+  <li>Use these to multiply the <code class="language-plaintext highlighter-rouge">freq</code> output of the MidiIn node before sending it to your second tone generator.</li>
+</ul>
+
+<p>Try some different numbers for multiplying the tone generators. Try some integers (e.g., 2, 3, 4) and some numbers with a decimal point (e.g., 1.4).</p>
+
+<p>What do these different additive sounds sound like?</p>
+
+<p>Can you create a perfect fifth between your tone generators?</p>
+
+<p>One cool sound is to set the second tone generator very slightly out of tune with the first, e.g., set the Const node to <code class="language-plaintext highlighter-rouge">1.01</code>. Try it!</p>
+
+<p>If you create a couple of tone generators, you can still add them together, but you might have to introduce some volume controls to mix their volumes together. Usually we would set the <em>lower</em> tones to have a higher volume and the <em>higher</em> tones are a bit quieter.</p>
+
+<h2 id="task-7---comparing-to-a-famous-synthesiser">Task 7 - Comparing to a famous synthesiser.</h2>
+
+<p>So what have we learned so far? Are we making a synth yet?</p>
+
+<p>Let’s compare our knowledge to the <a href="https://www.moogmusic.com/products/minimoog-model-d">Moog Minimoog Model D</a>, a very famous synth from the 1970s.</p>
+
+<p>In fact, the Minimoog was so successful that it’s design influenced many other synthesisers and there are recreations of the Minimoog in software and hardware (there’s a <a href="https://www.bettermusic.com.au/behringer-model-d">Behringer Model-D</a> over at Better Music if you want to have a look).</p>
+
+<p>Find a picture of the Minimoog control panel and take a second to look carefully. There are a <em>lot</em> of knobs, but your synth probably has a lot at this point to so that’s nothing to be afraid of.</p>
+
+<p>The Minimoog control panel is divided into sections from left to right:</p>
+
+<ul>
+  <li>
+    <p>At the far left, there’s a Controllers section which adjusts the input from a keyboard, similarly to your MidiIn node.</p>
+  </li>
+  <li>
+    <p>The next section is the Oscillator Bank. An “oscillator” is just another name for a “tone generator”.</p>
+  </li>
+  <li>
+    <p>The Minimoog has three oscillators. You might be able to see a knob for setting the waveform shape of each one and a knob for setting the octave. Some synthesisers measure octaves in “feet” (as in the unit of length)—this is related to the measurements of organ pipes (believe it or not!) which get lower as they get longer. There are <em>two</em> knobs for detuning the second and third oscillators against the first.</p>
+  </li>
+  <li>
+    <p>Next we have a “mixer” section–just like your additive synth. There’s also a mixer for “noise” and the signal from an external input.</p>
+  </li>
+  <li>
+    <p>The next section is complicated with two parts stacked up. Looking at the bottom one first, this is called “Loudness Contour”, which we call “Envelope Generator”. It has three familiar labels: attack, decay, and sustain.</p>
+  </li>
+  <li>
+    <p>The section above that is a <em>filter</em> section, which has it’s <em>own</em> separate envelope. This is incredibly important, as it gives us a way to shape timbre over time, but we’ll get to filters in the next task.</p>
+  </li>
+  <li>
+    <p>The last section just has a power switch and a main volume knob.</p>
+  </li>
+</ul>
+
+<p>So you now should have an idea of what MOST of the knobs on the Minimoog might do. Not so complicated after all huh?</p>
+
+<h2 id="task-8---filter">Task 8 - Filter</h2>
+
+<p>Have you noticed that some of the sounds from the tone generators are quite harsh? This is particularly the case for the <em>pulse</em> and <em>sawtooth</em> tones. These tone generators don’t sounds like they are going to be very useful. Luckily, we have a sound design tool that can help control a harsh timbre and give us extra possible sound colours: a filter! Let’s add one to our synth.</p>
+
+<ul>
+  <li>make a <strong>Filter</strong> node and place it in between the tone generators and ADSR section in your synth signal chain.</li>
+  <li>Make two knobs and connect one to the <code class="language-plaintext highlighter-rouge">cutoff</code> input and one to the <code class="language-plaintext highlighter-rouge">reso</code> input.</li>
+  <li>Turn the <code class="language-plaintext highlighter-rouge">cutoff</code> knob to 1 and the <code class="language-plaintext highlighter-rouge">reso</code> knob to 0.</li>
+</ul>
+
+<p>(NB: In the above, the <em>exact</em> connections to make are left out, you should connect the <code class="language-plaintext highlighter-rouge">in</code> and <code class="language-plaintext highlighter-rouge">out</code> connectors so that the synth sound goes <em>through</em> the filter).</p>
+
+<p>Play some sounds on your synth and (simultaneously) try turning the <code class="language-plaintext highlighter-rouge">cutoff</code> knob down to 0. What difference does it make?</p>
+
+<p>Turn the <code class="language-plaintext highlighter-rouge">reso</code> knob up to 0.8 and try the same thing. What happens now?</p>
+
+<p>The <em>filter</em> in NoiseCraft is actually a low-pass filter (LPF), it filters out higher frequency sound and lets lower frequency sound pass through[^A low-pass filter is one of the most used types of filters in electronic music. If someone says a synth has a “filter”, it’s probably a resonant LPF just like this one.]. In practice, it lets the <em>fundamental</em> frequency through and removes some of the <em>overtones</em>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">cutoff</code> knob controls the frequency where the filter “cuts off” higher sounds. The <code class="language-plaintext highlighter-rouge">reso</code> (resonance) knob emphasises the sound at the <code class="language-plaintext highlighter-rouge">cutoff</code> frequency. If you turn the resonance up quite high, you start to hear a kind of “ringing” as you move the cutoff frequency up and down.</p>
+
+<blockquote>
+  <p>A low-pass filter is lot like the sound you get while singing and putting your hand over your mouth. Try it and see if you can get a similar effect to “cutoff” and “reso” by shaping you hand and mouth in different ways.</p>
+</blockquote>
+
+<p>Well now you can tame those harsh synth sounds with a filter. To take your filtering a step further, we can change the <code class="language-plaintext highlighter-rouge">cutoff</code> frequency over time using an envelope generator.</p>
+
+<ul>
+  <li>Make a new <strong>ADSR</strong> node, just like the one you made for volume and connect it to the <code class="language-plaintext highlighter-rouge">cutoff</code> input of your <strong>Filter</strong>.</li>
+  <li>Connect the filter ADSR generator’s <code class="language-plaintext highlighter-rouge">gate</code> input to the same <code class="language-plaintext highlighter-rouge">gate</code> output of your <strong>MidiIn</strong> or <strong>MonoSeq</strong> node that you are using for controlling pitch and rhythm.</li>
+</ul>
+
+<p>Experiment with different envelope shapes for your filter. What sounds good to you?</p>
+
+<p>One last thing: A low-pass filter <em>removes</em> sound, so we often call synthesisers that use filters as their main way to shape sound <em>subtractive</em> synths.</p>
+
+<h2 id="task-9---sequencer">Task 9 - Sequencer</h2>
+
+<p>Playing notes with the computer or MIDI keyboard with <strong>MidiIn</strong> in fun, but it’s a slow way to compose a song. Many synthesisers are used with a <em>sequencer</em> [^In fact, most synthesisers have some kind of sequencer built-in.]that can play back phrases of notes in a loop (repeated over and over) this lets musicians compose parts to songs, or create loop-based electronic  music.</p>
+
+<p>NoiseCraft has a sequencer called <strong>MonoSeq</strong> that you can use to compose phrases. Let’s try it out.</p>
+
+<ul>
+  <li>Create a <strong>MonoSeq</strong> node and a <strong>Clock</strong> node.</li>
+  <li>Connect the <code class="language-plaintext highlighter-rouge">freq</code> out of the <strong>MonoSeq</strong> to <code class="language-plaintext highlighter-rouge">freq</code> input of your tone generator(s) and the <code class="language-plaintext highlighter-rouge">gate</code> output to your envelope generator(s).</li>
+  <li>Connect the <strong>Clock</strong>’s output to the <code class="language-plaintext highlighter-rouge">clock</code> input on the <strong>MonoSeq</strong>.</li>
+</ul>
+
+<p>Now that everything is hooked up, press play and you’ll hear… nothing! You need to enter in a sequence first. The <strong>MonoSeq</strong> node has a nice red grid that represents a musical phrase. Each column is a 16th note and each row represents a different pitch. Enter some notes and create a great melody!</p>
+
+<p>Here’s a few things to try:</p>
+
+<ul>
+  <li>change tempo by adjusting your <strong>Clock</strong> node.</li>
+  <li>change the scale or root pitch of your <strong>MonoSeq</strong> object</li>
+  <li>experiment to figure out what the buttons on the <strong>MonoSeq</strong> do</li>
+</ul>
+
+<h2 id="tast-10-compose-some-synth-music">Tast 10: Compose some synth music</h2>
+
+<p>Now you have all the knowledge you need to create a short synthesiser composition. For this task you have to:</p>
+
+<ul>
+  <li>create a synthesiser using knowledge from the earlier tasks. Your synthesiser should have at least two tone generators, a filter, and an envelope, but can have more.</li>
+  <li>create at least one sequencer with a sequence containing your composition.</li>
+  <li>include some “live” elements to your composition by planning to turn some knobs, or change your sequence(s) during your performance.</li>
+  <li>perform your composition for the class.</li>
+</ul>
+
+<p>When composing with synthesisers keep in mind that the sequence is only <em>one part</em> of your composition. The timbre of your synthesiser can also be composed (we call this “sound design”) and can be changed over time during your composition. Genres like techno are <em>mainly</em> about changes in <em>timbre</em> and <em>texture</em> rather than melody.</p>
+
+<h2 id="finding-out-more">Finding out more</h2>
+
+<p>Well now you know a <em>lot</em> about how a typical synthesiser works, and further, you know how to create one[^Pretty rad huh? How many other musical instruments do you know how to build?].</p>
+
+<p>Having created all the synths in this tutorial, you might like to use the “Browse” feature in NoiseCraft to look at synthesisers that other people have created. Some of these are quite complicated, but they use all the same building blocks that we have discussed so you will be able to look at how the nodes are connected together and see how they work!</p>
+
+<h2 id="extra-glossary">Extra: Glossary</h2>
+
+<p>There are many technical terms in used in electronic music and sometimes multiple words for the same thing (sometimes different manufacturers use different terms for historical reasons). Here’s a list of typical translations from the terminology used above to other terms that you might see.</p>
+
+<ul>
+  <li>Tone Generator: Oscillator, Voltage Controlled Oscillator, VCO</li>
+  <li>ADSR: Envelope Generator, EG, Slope Generator, Attack/Decay</li>
+  <li>LFO: Low Frequency Oscillator</li>
+  <li>LPF: Low-pass filter</li>
+  <li>BPF: Band-pass filter</li>
+  <li>HPF: High-pass filter</li>
+</ul>
+
+<p>Music <em>does</em> tend to have a lot of overlapping technical terms. Can you think of any other musical concepts that have multiple names? (Think about how you describe <em>fast</em> in music, and the name for a note that goes for one beat of a bar).</p>]]></content><author><name>Charles Martin</name></author><category term="workshop" /><summary type="html"><![CDATA[In this tutorial you’ll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the synthesiser you’ll use NoiseCraft, a website that lets you build your own synthesiser by connecting together modules that create or modify electronic sounds.]]></summary></entry><entry><title type="html">How to get started with research writing</title><link href="https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing" rel="alternate" type="text/html" title="How to get started with research writing" /><published>2021-08-14T10:00:00+00:00</published><updated>2021-08-14T10:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing"><![CDATA[<p>Now’s the time of year that I get started with a new crop of Honours, Master and project students at the <a href="https://comp.anu.edu.au">ANU School of Computing</a> and at the <a href="https://ifi.uio.no">UiO Department of Informatics</a>.</p>
+
+<p>All of my CS project students produce a report or thesis for their assessment. This will be the most important part of the assessment for your project and you’ll probably put a lot of effort into writing it.</p>
+
+<p>In this post I’ll set down some of the most important advice I give students when getting stated.</p>
+
+<h2 id="structure">Structure</h2>
+
+<p>Is there a default structure for a thesis or report or should everybody write whatever they want? Although there usually aren’t <strong>rules</strong> about structuring a thesis, it’s usually a good idea to follow the usual <strong>conventions</strong> for academic writing which is often summed up as ILMRaD:</p>
+
+<ol>
+  <li>Introduction</li>
+  <li>Literature Review</li>
+  <li>Methods</li>
+  <li>Results</li>
+  <li>(and) Discussion</li>
+  <li>(and conclusion)</li>
+</ol>
+
+<p>The idea is that you have these words as the titles for the five-six chapters in your thesis. Pat Thomson writes about it more <a href="https://patthomson.net/2012/10/19/is-there-a-format-for-a-thesis/">here</a>.</p>
+
+<p>There are some field-specific chapter titles that you might also use. For instance, in computing where we build a new system and experiment with it, we often use a “System Design” chapter instead of “Methods” and you might discuss your experimental method at the start of the results section. The Conclusion is often it’s own chapter at the end. It’s often a good idea to combine the “discussion” content with Results, or with Conclusion so that the document ends up with five chapters instead of six.</p>
+
+<p>I suggest that most students use this convention. Why? Because it helps examiners to find the information they need quickly and helps you to make sure you provide the information that they typically look for.</p>
+
+<h2 id="formatting">Formatting</h2>
+
+<p>Most computer science and music tech papers and theses are formatted using LaTeX (not Microsoft Word). With LaTeX you edit a plain text document with markup to indicate formatting rather than what-you-see-is-what-you-get environments like Word. LaTeX is particularly good at displaying <strong>maths</strong> and handling <strong>references</strong> (with Bibtex). Overall many academic folks prefer the quality of the output document which seems a lot more polished than Word.</p>
+
+<p>You can get a TeX environment for your system which will include the software to compile e.g., <a href="https://www.tug.org/mactex/">MacTex</a> for macOS, <a href="https://www.tug.org/texlive/">TeXLive</a> for Linux, <a href="https://miktex.org">MiKTeX</a> for windows. TeX environments tend to be big (~3GB) and include lots of software and resources.</p>
+
+<ul>
+  <li>
+    <p>You can also use cloud-based editors like <a href="https://www.overleaf.com/">Overleaf</a>.</p>
+  </li>
+  <li>
+    <p>A similar but slightly more complicated  option is to write in Markdown and use <a href="https://pandoc.org/">Pandoc</a> to convert to a pdf (via LaTeX). Here’s a starting point for a <a href="https://github.com/cpmpercussion/chroma-template/">Markdown to PDF workflow (link)</a>.</p>
+  </li>
+</ul>
+
+<p>I have two LaTeX templates that you might find useful:</p>
+
+<ul>
+  <li><a href="https://gist.github.com/cpmpercussion/a6fb23976f3a8bf5c045f54ab62ee057">LaTeX Short Report Template (link)</a> - this might be good for a 6-12 unit report</li>
+  <li><a href="https://gist.github.com/cpmpercussion/cecdaf4e4ca9feea9a53">LaTeX Thesis Template (link)</a> - the template I used for my PhD thesis, works better for a longer (&gt;50 pages) document.</li>
+</ul>
+
+<p>You can see an example of the thesis template <a href="http://hdl.handle.net/1885/101786">here</a> in my PhD thesis :-)</p>
+
+<h2 id="length">Length</h2>
+
+<p>Length for a thesis or report can vary, but here are some guidelines for the <em>maximum</em> length of a LaTeX-generated PDF file for project courses of different sizes (in ANU course units where 48 units is 1-year full time).</p>
+
+<ul>
+  <li>30 pages for 6-unit projects,</li>
+  <li>50 pages for 12 units,</li>
+  <li>70 pages for 18 units,</li>
+  <li>90 pages for 24 units</li>
+</ul>
+
+<p>(BTW these are borrowed from our Engineering project courses! thx folks!)</p>
+
+<p>LaTeX generated theses tend to be a bit longer than a Word document because they add a bit more white space etc. Computing and engineering works often have lots of figures and images so the length can look extremely long for some people. In fact, many students end up blowing these page budgets and have to reduce the size of their work afterwards.</p>
+
+<p>The page limit here is counting the <em>significant content</em> of a thesis, that is the numbered pages starting from the first page of the introduction to the last page of the conclusion. Tables of contents, appendices and references aren’t counted.</p>
+
+<p>The <em>minimum</em> requirements could vary, but I would say that I expect a document of two-thirds the given length here (so ~60 pages for a 24-unit honours course).</p>
+
+<p>Another way to think about the <em>minimum</em> requirements is this: a “chapter” in an honours thesis is typically about 10 pages minimum, so to have a thesis with 5 chapters, you will end up with about 50-60 pages. Of course, some chapters may be shorter (e.g., conclusions) but some might be longer (methods/system design) to make up for it. An honours thesis consisting of chapters of only 2-3 pages each is not likely to be acceptable.</p>
+
+<h2 id="references">References</h2>
+
+<p>For a thesis I suggest following <a href="https://apastyle.apa.org/">APA Style</a> for citations and references. In particular I think author-date format (e.g., Martin, 2014) is more useful for a thesis rather than numbered references [e.g., 16]. Why? Well when reading a big document, after a while I’m likely to remember what “Martin, 2014” is, but I’ll <em>never</em> remember what “16” refers to.</p>
+
+<p>You should use a reference manager (e.g., <a href="https://bibdesk.sourceforge.io/">Bibdesk</a> or <a href="https://www.jabref.org/">JabRef</a>) to keep track of papers you read and keep references in <a href="http://www.bibtex.org/">BibTeX</a> format to integrate into your report</p>
+
+<h2 id="introduction-and-conclusion">Introduction and Conclusion</h2>
+
+<p>Here’s some specific advice for your intro and conclusion.</p>
+
+<h2 id="introduction">Introduction:</h2>
+
+<p>Your introduction needs to explain:</p>
+
+<ul>
+  <li>What is your problem?</li>
+  <li>Why is it interesting?</li>
+  <li>What have you done to solve it?  (What are your aims/research questions?)</li>
+  <li>What were the results?</li>
+</ul>
+
+<p>Basically a mini version of the whole thesis!</p>
+
+<p>Need to focus on the problem, and the “why” of your project.</p>
+
+<p>Important to set up the aims and research questions of the project clearly and to briefly state the main results so the reader knows what to expect and so that you can address them in more detail in the conclusion.</p>
+
+<h2 id="discussion-versus-results">Discussion versus Results</h2>
+
+<p>It’s sometimes hard to figure out why a thesis template has a “results” section <strong>and</strong> a “discussion” section. After all, don’t we use the “results” chapter to <em>discuss</em> the results? One way to understand this is that the results section is typically used for a fairly strict exposition of the results of different experiments or measurements. Each kind of experiment might have some specific findings or interpretation which are explained right after the results. The <em>discussion</em> section is where the researcher takes all the findings from different experiments together and distills broad contributions or outcomes from their work. They might find ways that the outcome of one finding explains another or make links with other research or a broader social context for their work.</p>
+
+<h2 id="conclusion">Conclusion:</h2>
+
+<p>Similar to your introduction!</p>
+
+<p>This time, focus on what you accomplished, addressing the aims/RQs with the findings.</p>
+
+<p>Also need to put your thesis into context a bit — this is where “future work” fits, but also writing about how your work could be applied and what it MEANS in the world outside of this project.</p>
+
+<h2 id="both-parts">Both parts</h2>
+
+<ul>
+  <li>Both intro and conclusion need to have the basic information of your thesis</li>
+  <li>Intro is more focussed on setting up the problem, the why, and you aims</li>
+  <li>Conclusion more focussed on address the aims using evidence from your findings.</li>
+  <li>Conclusion also puts work into context.</li>
+</ul>
+
+<h2 id="some-online-resources">Some online resources:</h2>
+
+<ul>
+  <li>Abstract: <a href="https://patthomson.net/2013/12/11/writing-the-thesis-abstract/">https://patthomson.net/2013/12/11/writing-the-thesis-abstract/</a></li>
+  <li>Introduction: <a href="https://patthomson.net/2014/06/02/the-thesis-introduction/">https://patthomson.net/2014/06/02/the-thesis-introduction/</a></li>
+  <li>Conclusion: <a href="https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/">https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/</a></li>
+  <li>More: <a href="https://thesiswhisperer.com">https://thesiswhisperer.com</a></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Now’s the time of year that I get started with a new crop of Honours, Master and project students at the ANU School of Computing and at the UiO Department of Informatics.]]></summary></entry><entry><title type="html">Magic Lanterns in Canberra</title><link href="https://charlesmartin.au/blog/2021/08/02/magiclanterns" rel="alternate" type="text/html" title="Magic Lanterns in Canberra" /><published>2021-08-02T23:33:59+00:00</published><updated>2021-08-02T23:33:59+00:00</updated><id>https://charlesmartin.au/blog/2021/08/02/magiclanterns</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/08/02/magiclanterns"><![CDATA[<p>Over the last few years I’ve been invited to perform at several concerts with Martyn Jolley as part of his <a href="https://soad.cass.anu.edu.au/research/heritage-limelight"><em>Heritage in the Limelight</em></a> project. Martyn and fellow researcher Elisa deCourcy have been exploring magic lantern slide projection from a historical perspective and for creative re-use.</p>
+
+<p><img src="/assets/blog/2021/magiclantern-2021-charles.jpg" alt="Charles playing synthesisers with magic lanterns in the background" /></p>
+
+<p>The “creative re-use” bit is where I have been coming in as a musician along with <a href="https://www.alexanderhunter.com.au/">Alec Hunter</a>. Martyn and Elisa create new magic lantern shows, telling stories or exploring mechanical slides, then Alec and I work with them to create a live soundtrack.</p>
+
+<p>This is one of those projects where the events have been spread out enough for me to <strong>almost</strong> forget how to perform with the magic lanterns in between, but now I look back and see that we’ve created a significant series of performances.</p>
+
+<p>Martyn and Elisa have a collection of amazing <a href="https://soad.cass.anu.edu.au/research/heritage-limelight/videos">videos</a> documenting different performances.</p>
+
+<p>Here’s a few I worked on:</p>
+
+<ul>
+  <li>
+    <p>J. W. Newland’s “Beautiful Scientific Exhibition of Dissolving Views”, PhotoAccess, Canberra. (February 2021) <a href="https://vimeo.com/528049825">video</a></p>
+  </li>
+  <li>
+    <p>“Suburban Apparitions” - A Magic Lantern Performance at Calthorpe’s House, ACT Historic Places, Canberra (March 2020) <a href="https://vimeo.com/405336569">video</a></p>
+  </li>
+  <li>
+    <p>Camera Obscura, Ainslie Arts Centre (May 2016)</p>
+  </li>
+  <li>
+    <p>“Magic Lantern Horror Show”, National Portrait Gallery (February 2016) <a href="https://vimeo.com/172507859">video</a></p>
+  </li>
+</ul>
+
+<p>My favourate one is the <a href="https://vimeo.com/528049825">latest</a> shown in this dramatic video below was shot by Amr Tawfik.</p>
+
+<iframe style="display:block; margin:0 auto;" src="https://player.vimeo.com/video/528049825" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[Over the last few years I’ve been invited to perform at several concerts with Martyn Jolley as part of his Heritage in the Limelight project. Martyn and fellow researcher Elisa deCourcy have been exploring magic lantern slide projection from a historical perspective and for creative re-use.]]></summary></entry><entry><title type="html">Laptop Music Coding with Gibber</title><link href="https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop" rel="alternate" type="text/html" title="Laptop Music Coding with Gibber" /><published>2021-01-10T00:00:00+00:00</published><updated>2021-01-10T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop"><![CDATA[<p>This is a <em>workshop</em> designed for students who have never done any coding before to start by making some computer music! Here’s the description:</p>
+
+<blockquote>
+  <p>In this session you’ll try out some of the tools used in the <a href="https://comp.anu.edu.au/courses/laptop-ensemble">ANU Laptop Ensemble</a> for making music with code and have a computer music jam with a group! We’ll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.</p>
+</blockquote>
+
+<p>(<em>updated: 6/7/2022</em>)</p>
+
+<h1 id="making-your-laptop-into-a-musical-instrument">Making your Laptop into a Musical Instrument</h1>
+
+<p class="info-box">Welcome to our Laptop Music workshop! In this session we will create some music with computers using a <em>live coding</em> language called <a href="https://gibber.cc">gibber</a>. All you will need is a <strong>computer</strong>, a <strong>web browser</strong> (Chrome is preferred), and some <strong>headphones</strong>!</p>
+
+<h2 id="before-we-start">Before we start</h2>
+
+<p>Here’s the three things you’ll need:</p>
+
+<ul>
+  <li>
+    <p><strong>computer</strong>: any normal laptop/desktop will be work fine, if you’re on-campus the computer labs are already full of computers :-)</p>
+  </li>
+  <li>
+    <p><strong>web browser</strong>: musical websites tend to work best in <strong>Chrome</strong>, <strong>Firefox</strong>, and <strong>Safari</strong> in that order. If you’re a fan of freedom, you might like to try <a href="https://www.chromium.org/"><strong>Chromium</strong></a>, the free and open source version of Google’s Chrome browser (Chromium and Firefox are available in the ANU labs). Unfortunately Gibber doesn’t seem to work well on an iPad, and I haven’t tried on a Chromebook yet.</p>
+  </li>
+  <li>
+    <p><strong>headphones</strong>: this is just to avoid annoying your neighbours but also music tends to sound <em>better</em> with headphones. Note that we can’t provide these in our labs, so <strong>please bring some</strong> with a normal headphone plug.</p>
+  </li>
+</ul>
+
+<h2 id="getting-started-with-gibber">Getting started with Gibber</h2>
+
+<p>If you’re reading this, you’re probably on a computer and have a browser window open – that’s an excellent start already!</p>
+
+<p>Open a new tab or window and head over to <a href="https://gibber.cc">gibber.cc</a>. You’ll see a stylish looking dark, artistic website. Click the link that says “playground”.</p>
+
+<p>The first thing to do is to click anywhere in the main code window. The text will disappear and some example code will appear instead. Select all that code and delete it (just hit backspace); it’s nice to start from a clean slate!</p>
+
+<p>During this tutorial we’re going to enter some code in this editing window, then <strong>execute</strong> it to make a sound. Let’s start by typing in one simple line of code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
+</code></pre></div></div>
+<p><strong>Executing</strong> this line of code means asking the computer to actually <strong>do</strong> what it says. In this case, it means “make a synth(esiser), and play a note at a frequency of 440 Hertz”.</p>
+
+<p>Use the arrow keys to place your cursor anywhere on the line with <code class="language-plaintext highlighter-rouge">Synth().notef(440)</code>, then hold the <code class="language-plaintext highlighter-rouge">Shift</code> key on your keyboard and press the <code class="language-plaintext highlighter-rouge">Enter</code> key to evaluate that line. You should hear a slightly annoying squawk!</p>
+
+<p>You can keep holding <code class="language-plaintext highlighter-rouge">Shift</code> and tapping <code class="language-plaintext highlighter-rouge">Enter</code> to play lots of 440Hz notes! Yay music!</p>
+
+<p>At this point you can play whatever note you want by entering in the correct
+frequency. But perhaps this seems inconvenient; you might like to define notes
+closer to how we read and write music. You actually have two options for
+creating a sound:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
+Synth().note(0)
+</code></pre></div></div>
+<p>If you play each of these lines, you might notice that they are making the same
+sound! That’s ok, it’s meant to happen. The second line is written slightly
+differently (can you see how?) and it is defining a pitch as a note in a scale.
+Try changing it to <code class="language-plaintext highlighter-rouge">Synth().note(1)</code> and play it again. Now it’s different!</p>
+
+<p class="info-box">Gibber understands <em>scale degrees</em> as the main way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound “good” together. Instead of writing “C” we could say “degree 0 of a C major scale”. Gibber has lots of scales built-in (see the Scales tutorial in Gibber’s menu), but you can get started by just using low numbers (e.g., 0-7) in your sequences.</p>
+
+<p>Before we move on, let’s make some more notes. We can change the pitch (frequency) of the note by changing the number in between the parentheses. For example: <code class="language-plaintext highlighter-rouge">Synth().notef(567)</code> will produce a note at 567Hz. Try it out.</p>
+
+<ul>
+  <li>If you press <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> (the control key and enter), instead of <code class="language-plaintext highlighter-rouge">Shift+Enter</code>, what happens?</li>
+  <li>If Gibber is ever too loud or playing sounds you don’t want, you can stop <strong>everything</strong> by hold the <code class="language-plaintext highlighter-rouge">Ctrl</code> key and press the full stop key (<code class="language-plaintext highlighter-rouge">.</code>).</li>
+  <li>By the way, from now on we’ll write the keyboard commands as <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> and <code class="language-plaintext highlighter-rouge">Ctrl+.</code>.</li>
+</ul>
+
+<h2 id="exercise-1-make-a-note">Exercise 1: Make a note</h2>
+
+<p>So far we’ve made “sounds”, but not exactly “music”</p>
+
+<p>To play a song, we need multiple notes in a sequence, not just one at a time.</p>
+
+<p>If you try executing <code class="language-plaintext highlighter-rouge">Synth()</code> you might find that it doesn’t actually do anything. We have to make a synth, and then give it a note to play:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
+s.note(0)
+</code></pre></div></div>
+<p>Try executing each line of code in succession. You should hear a sound start and then stop—that’s a note! You can play it again by just executing the second line.</p>
+
+<p>So what’s going on here? Why do we need two lines of code? The first line of code creates a <code class="language-plaintext highlighter-rouge">Synth</code> which doesn’t do anything until we ask it to play a note. Since we want to play lots of notes, we are going to keep this particular <code class="language-plaintext highlighter-rouge">Synth</code> around, so we will assign it to a variable called <code class="language-plaintext highlighter-rouge">s</code>.</p>
+
+<p>The line of code <code class="language-plaintext highlighter-rouge">s = Synth()</code> creates a <code class="language-plaintext highlighter-rouge">Synth</code> and then saves it to <code class="language-plaintext highlighter-rouge">s</code> so we can use it multiple times.</p>
+
+<p>The next line of code <code class="language-plaintext highlighter-rouge">s.note(0)</code> asks the Synth represented by <code class="language-plaintext highlighter-rouge">s</code> to play a note. The “dot” in between <code class="language-plaintext highlighter-rouge">s</code> and <code class="language-plaintext highlighter-rouge">note</code> is often used in programming to ask something to perform a certain action.</p>
+
+<p>You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Theory.root = 'c4'
+Theory.mode = 'ionian'
+</code></pre></div></div>
+<p>And then running some more <code class="language-plaintext highlighter-rouge">s.note(0)</code> lines with different numbers.</p>
+
+<p class="info-box">If you want to learn more about Gibber after this tutorial, you can look select some example compositions from the drop down menu next to “gibber” in the top left, or click the “reference” link at the top right to read the documentation.</p>
+
+<p>Let’s try a few experiments:</p>
+
+<ul>
+  <li>Can you play a short tune by setting up some “note” commands, and executing them in order?</li>
+  <li>If you happen to press <code class="language-plaintext highlighter-rouge">Ctrl-.</code> in between executing note commands, what happens?</li>
+</ul>
+
+<h2 id="exercise-2-play-a-tune">Exercise 2: Play a tune</h2>
+
+<p>Let’s play a melody, or a <strong>sequence</strong> of notes:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
+s.note.seq([0, 1, 2, 3, 4, 5], 1/4)
+</code></pre></div></div>
+<p>Execute these two lines of code and you should be able to hear a sequence of six notes.</p>
+
+<p>Gibber’s synth objects have a built-in sequencer, in this case, we’re sequencing the <code class="language-plaintext highlighter-rouge">note</code> command, so we’ve put a <code class="language-plaintext highlighter-rouge">seq</code> command after that, and then the parameters of our sequence inside the parentheses. The parameters have two parts”</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(
+    [0, 1, 2, 3, 4, 5], // a list of pitches
+    1/4 // a duration - one quarter of a bar (or a quarter note or crotchet).
+)
+</code></pre></div></div>
+<p>You might be able to hear that the sequence is going through the list of pitches over and over again, and that the duration of each note is the same. In fact, you should also be able to see it becuase Gibber highlights your code to show you what’s going on! So far so good!</p>
+
+<p>It might seem strange that the sequence loops over and over instead of playing just once. Gibber is designed to create electronic music which is often based on <em>looping sequences</em>. So the idea that a sequence of notes loops (by default) is build deeply into it.</p>
+
+<p>Let’s try a few sequence experiments:</p>
+
+<ul>
+  <li>
+    <p>try changing the duration from <code class="language-plaintext highlighter-rouge">1/4</code> to <code class="language-plaintext highlighter-rouge">1/8</code> or <code class="language-plaintext highlighter-rouge">1/16</code> and execute the sequence line again. What happens?</p>
+  </li>
+  <li>
+    <p>try replacing the duration with a <em>list</em> of durations (e.g, <code class="language-plaintext highlighter-rouge">[1/4, 1/8]</code>). What happens when the lists of durations and pitches are the different length?</p>
+  </li>
+  <li>
+    <p>can you figure out a sequence to play a tune you know?</p>
+  </li>
+</ul>
+
+<p class="info-box">A few <strong>sequence tips</strong>: you can stop the sequence by executing <code class="language-plaintext highlighter-rouge">s.stop()</code>. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to execute it (this works for executing any other command as well)</p>
+
+<p>One more sequence trick before moving on! Let’s try a <em>randomised</em> sequence instead of going through the list of pitches in order by adding <code class="language-plaintext highlighter-rouge">.rnd()</code> to the list:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5].rnd(),1/4)
+</code></pre></div></div>
+<p>We can do this for the duration as well:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5], [1/4,1/8].rnd())
+</code></pre></div></div>
+
+<h2 id="exercise-3-groove-with-drums">Exercise 3: Groove with drums</h2>
+
+<p>Let’s try some sequences with some of Gibber’s drum synths. Here’s a kick:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k = Kick()
+k.notef.seq(75, 1/4)
+</code></pre></div></div>
+<p>You might notice that there’s a very simple sequence here—just one pitch (75Hz) and a duration value—kick patterns can be simple!</p>
+
+<p>And some hi-hats:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h = Hat()
+h.trigger.seq(0.4,1/16)
+</code></pre></div></div>
+<p>Note that we are using <code class="language-plaintext highlighter-rouge">trigger.seq</code> with the hats, not <code class="language-plaintext highlighter-rouge">note.seq</code>. “Trigger” is useful when you don’t want to change the pitch, the “0.4” in that code refers to the volume (between 0 and 1).</p>
+
+<p>There’s another (maybe simpler) way of make a drum pattern in Gibber:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d = Drums()
+d.tidal('kd sd kd sd')
+</code></pre></div></div>
+<p>This synth includes four drum sounds: kick: <code class="language-plaintext highlighter-rouge">kd</code>, snare: <code class="language-plaintext highlighter-rouge">sd</code>, closed hat: <code class="language-plaintext highlighter-rouge">ch</code>, and open hat: <code class="language-plaintext highlighter-rouge">oh</code>.</p>
+
+<p>This uses a style of pattern notation called <code class="language-plaintext highlighter-rouge">tidal</code> (after another live coding system, <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal cycles</a>). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add <code class="language-plaintext highlighter-rouge">*2</code> after it. So to do “we will rock you” you write:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('kd sd kd*2 sd')
+</code></pre></div></div>
+<p>To play two sounds together, you put them in square brackets with a comma in between, e.g.: <code class="language-plaintext highlighter-rouge">[kd, ch]</code>. So we could have a complete beat like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('[kd, ch] ch [sd, ch] ch [kd, ch] ch [sd, ch] oh')
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Try out some different combinations of repeated and simultaneous notes in a drum pattern.</p>
+  </li>
+  <li>
+    <p>Try the <code class="language-plaintext highlighter-rouge">EDrums()</code> kit as well—these work the same way, but sound like a drum machine. You also get two extra sounds: clap <code class="language-plaintext highlighter-rouge">cp</code> and cowbell <code class="language-plaintext highlighter-rouge">cb</code>.</p>
+  </li>
+  <li>
+    <p>Try using <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal</a> expressions with other synths, this is a really expressive way to write complicated sequences quickly!</p>
+  </li>
+</ul>
+
+<p class="info-box">The <code class="language-plaintext highlighter-rouge">Drums</code> synth plays back sound files (samples). So it is actually a bit different than the <code class="language-plaintext highlighter-rouge">Kick</code> and <code class="language-plaintext highlighter-rouge">Hat</code> instruments we used above. Have a look in the <a href="https://gibber.cc/playground/docs/index.html#instruments-drums">reference</a> to see how this works.</p>
+
+<h2 id="exercise-4-time-for-techno">Exercise 4: Time for techno</h2>
+
+<p>It’s been said that the minimum you need to make techno is <a href="https://youtu.be/4jCCzpWBsFs?t=160">drums, bass, a lead synth, and freaky noises</a>. So let’s get those things and make some <a href="https://en.wikipedia.org/wiki/Electronic_dance_music">EDM</a>.</p>
+
+<p>We’ve already got drums, and your <code class="language-plaintext highlighter-rouge">Synth</code> sequences from Exercise 2 can be the lead, so let’s get a bass sound:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b = FM('bass')
+b.note.seq(-7, 1/16)
+</code></pre></div></div>
+<p>This code uses the <code class="language-plaintext highlighter-rouge">FM</code> synth, a classic synthesis design and a preset to make a nice bassy sound. Done!</p>
+
+<p>Well, let’s make that bass a <em>little</em> bit interesting. The FM synth has a parameter called <em>index</em> which we can sequence to change it’s tone:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b.index.seq([2,3,4,5,6],1/16)
+</code></pre></div></div>
+<p>Now that sounds cool! Some things to try:</p>
+
+<ul>
+  <li>
+    <p>Set up drums, bass, and lead parts playing a pattern together. Use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to make sure your sequences all line up.</p>
+  </li>
+  <li>
+    <p>Once you have some patterns running, start making small changes to the sequences and executing them again—Now you’re live coding!</p>
+  </li>
+  <li>
+    <p>Try using <code class="language-plaintext highlighter-rouge">Rndi</code> in a note sequence to generate pitches randomly, e.g., <code class="language-plaintext highlighter-rouge">Rndi(0,7)</code> will generate random scale degrees from 0 to 7.</p>
+  </li>
+  <li>
+    <p>Rather than setting the durations manually, try using the <code class="language-plaintext highlighter-rouge">Euclid</code> function. This generates <a href="http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf">Euclidean rhythms</a>—even spacing of pulses in a bar that are algorithmically guaranteed to sound cool! You use this function with two numbers, e.g., <code class="language-plaintext highlighter-rouge">Euclid(3,8)</code> will generate three notes in a bar evenly divided into 8 parts.</p>
+  </li>
+</ul>
+
+<p>Combining the last two ideas, you could set up a sequence like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(Rndi(0,7), Euclid(7,16))
+</code></pre></div></div>
+
+<ul>
+  <li>What about the freaky noises? Maybe you could try another synth from the <a href="https://gibber.cc/playground/docs/index.html#instruments">Gibber manual</a>.</li>
+</ul>
+
+<h2 id="heres-one-i-made-earlier">Here’s one I made earlier</h2>
+
+<p>Well, here’s some techno I made a bit earlier. You could try this as a starting point for your own work or just look to see how some other modulations might work! (There’s a few things below that aren’t covered above!)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clock.bpm = 120
+Theory.root = 'c4'
+Theory.mode = 'aeolian'
+
+s = Synth("bleep").fx.add(Reverb())
+s.note.seq(sine(btof(7.6),7,0), Euclid(5,16))
+
+s.stop()
+
+k = Kick()
+k.notef.seq(70, 1/4)
+
+k.stop()
+
+h = Hat()
+h.trigger.seq(sine(3,0.6,0.05), [1/16,1/8].rnd())
+h.tune.seq(Rndf(0.5,0.7), 1/16)
+
+h.stop()
+
+c = Clave().fx.add(Reverb())
+c.trigger.seq(sine(0.2,.1,.4), Euclid(6,16))
+c.note.seq(sine(5.01,4,5), Euclid(6,16))
+
+c.stop()
+
+cl = Clap().fx.add(Reverb())
+cl.trigger.seq(0.6,1,0,1/4)
+
+b = FM('bass')
+b.note.seq(-7,1/16)
+b.index.seq([2,3,4,5,6],1/16)
+</code></pre></div></div>
+
+<p class="info">One last key command: <code class="language-plaintext highlighter-rouge">Alt-Enter</code> will execute <em>multiple</em> lines of code at once as long as they don’t have empty lines in between. This can be handy for triggering a couple of musical actions to start at the same time.</p>
+
+<h2 id="this-is-just-the-start">This is just the start!</h2>
+
+<p>There’s a lot to learn about Gibber, synthesis, live coding, music tech, and computing! Don’t worry if this seems overwhelming. A good start for today is to make some sounds and try changing them a bit in Gibber!</p>
+
+<p>If you want to learn more about <em>computer music</em> have a look at these resources:</p>
+
+<ul>
+  <li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+  <li><a href="https://noisecraft.app">NoiseCraft</a></li>
+  <li><a href="https://comp.anu.edu.au/courses/laptop-ensemble/">ANU Latptop Ensemble Page</a></li>
+</ul>]]></content><author><name></name></author><category term="workshop" /><category term="class" /><category term="gibber" /><category term="computer-music" /><summary type="html"><![CDATA[This is a workshop designed for students who have never done any coding before to start by making some computer music! Here’s the description:]]></summary></entry><entry><title type="html">How to present a student software project</title><link href="https://charlesmartin.au/blog/2020/08/09/student-project-repository" rel="alternate" type="text/html" title="How to present a student software project" /><published>2020-08-09T13:33:59+00:00</published><updated>2020-08-09T13:33:59+00:00</updated><id>https://charlesmartin.au/blog/2020/08/09/student-project-repository</id><content type="html" xml:base="https://charlesmartin.au/blog/2020/08/09/student-project-repository"><![CDATA[<p>So you’re a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the <em>software</em> as well as a <em>report</em>. So how are you going to present this great work? An email? A zipfile? A USB key?</p>
+
+<p>You might be thinking: “I’ve done a lot of programming assignments, this should be the same right?” Well, maybe, maybe not. Unlike an assignment, your audience for a software project <em>doesn’t know what your project is about</em>, so you have to be clear about telling them! Your project might be for a teacher or examiner at first, but you might want to show it to your colleagues, potential employers, or even to wider open source or research communities. These people will want to know what your project is about, might also want to be able to reuse your code, or see how it works.</p>
+
+<p>It’s <strong>really</strong> important that your project documents exactly <em>how to run your code</em>. Your audience, either an examiner, teacher, or anybody else, will not have time to try every python file to see which is the one that makes your project <em>go</em>, and they certainly won’t be able to magically know what the dependencies are for your code. To make these things <strong>obvious</strong> you need to write them in your readme file and provide a <code class="language-plaintext highlighter-rouge">requirements.txt</code> file (or similar) so that others can actually install and run your work!</p>
+
+<p>For a software project to be <strong>excellent</strong>, presentation matters. If I don’t know how code works, then it might as well be broken. Here’s some tips for getting this right and submitting work that you (and your teachers) can be proud of!</p>
+
+<p><strong>This is part of a series of posts for my undergraduate and honours project students at the ANU, but it could be useful to other people, even you!</strong></p>
+
+<h2 id="git-repository-as-artefact">Git Repository as Artefact</h2>
+
+<p><em>Most</em> student software projects should probably be presented as a git repository. This gives you a way to keep track of your work over the project, ways to experiment (<a href="https://www.atlassian.com/git/tutorials/using-branches">with branches</a>) and <a href="https://www.atlassian.com/git/tutorials/undoing-changes/git-revert">roll back</a> if you make mistakes. Your supervisor and other collaborators or advisers can check in on your work during the project, and, when it’s finished, you could publish your project to a public hosting platform such as <a href="https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">GitHub</a> as part of your online portfolio.</p>
+
+<p>Given that you are setting up a git repository, make sure you have a <code class="language-plaintext highlighter-rouge">.gitignore</code> file <a href="https://docs.github.com/en/github/using-git/ignoring-files">appropriate for your project</a>, so that you don’t commit temporary or unnecessary files.</p>
+
+<p>You should also practice <a href="https://leosaysger.github.io/blog/code/2019/01/10/git-hygiene.html">good git hygiene</a>. In particular, don’t commit huge binary files (e.g., PDF, zips, media files) in a git repo, and definitely don’t store <a href="https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/">passwords or API keys in a git repo</a>.</p>
+
+<p>If your project requires large data files, store them elsewhere (e.g., <a href="https://www.aarnet.edu.au/network-and-services/cloud-services/cloudstor">CloudStor</a> for Australian research and educational institutions.), and write a <a href="https://stackoverflow.com/questions/7243750/download-file-from-web-in-python-3">script to download them before they are needed</a>.</p>
+
+<p>As a bonus, you can access <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb">public Github repos from Google Colab</a> which is a neat way to show off a project to people without having them download it onto their system.</p>
+
+<p>As a second bonus, a nicely set out git repo will look cool in GitLab or GitHub:</p>
+
+<p><img src="/assets/blog/2020/keras-mdn-layer-project.png" alt="Charles' Keras MDN Layer Repository" /></p>
+
+<h2 id="project-structure">Project Structure</h2>
+
+<p>Most of my students do projects in Python or iPython Notebooks. Although there are many ways to structure a project, by following best-practices you know that your audience can quickly understand your project and might even try to test/use it!</p>
+
+<p>If your project is in Python, it might be best to structure it as module. You might like to follow the <a href="https://docs.python-guide.org/writing/structure/#sample-repository">“Structuring your Project” tutorial (Hitchhiker’s guide to python)</a>, or look at an <a href="https://github.com/navdeep-G/samplemod">example project on GitHub</a>.</p>
+
+<p>If your project was called <code class="language-plaintext highlighter-rouge">project_name</code>, it might look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>charles_martin_compxxxx_project_2020/
++-- README.md
++-- LICENSE
++-- setup.py 
++-- requirements.txt
++-- project_name/
+|   +-- __init__.py
+|   +-- core.py
+|   +-- utils.py
++-- tests/
+|   +-- tests.py
++-- data/
+|   +-- data.csv (perhaps include data if small)
+|   +-- README.md (explains how to download data if large)
+</code></pre></div></div>
+
+<p>A few notes here:</p>
+
+<ul>
+  <li>The git repository is not named <code class="language-plaintext highlighter-rouge">charles_martin_compxxxx_project_2020</code> (not <code class="language-plaintext highlighter-rouge">project_name</code>), so if you share it with a supervisor (who might have many <em>compxxxx</em> students), they can find <strong>your</strong> project.</li>
+  <li>Having a main <code class="language-plaintext highlighter-rouge">README.md</code> is pretty much mandatory (more below)</li>
+  <li>Having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).</li>
+  <li>The <code class="language-plaintext highlighter-rouge">requirements.txt</code> file is a lightweight way to list a Python module’s requirements. You can and should work in a virtual environment so that you can keep track of <a href="https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1">what other modules are required to run your code</a>. A more advanced way to do this would be with <a href="https://python-poetry.org">Poetry</a>.</li>
+  <li><code class="language-plaintext highlighter-rouge">setup.py</code> might allow others to <a href="https://stackoverflow.com/questions/1471994/what-is-setup-py">install your module, or for you to distribute it</a>. cool!</li>
+  <li>If you only need one code file for your project, you could simply name it <code class="language-plaintext highlighter-rouge">project_name.py</code> and place it in your repo. If you want multiple files as part of a module, you’ll need a directory called <code class="language-plaintext highlighter-rouge">project_name</code>, and (traditionally) <a href="https://stackoverflow.com/questions/448271/what-is-init-py-for">a main file</a> called <code class="language-plaintext highlighter-rouge">__init__.py</code>.</li>
+</ul>
+
+<p>If your project is  a collection of iPython Notebooks, you should use directories to make it obvious where the various parts of the project are (e.g., see <a href="https://stackoverflow.com/questions/45723751/how-to-structure-a-python-project-with-ipython-notebooks">this StackOverflow post</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>charles_martin_compxxxx_project_2020/
++-- README.md
++-- LICENSE
++-- requirements.txt
++-- notebooks/
+|   +-- experiment_1.ipynb
+|   +-- experiment_2.ipynb
+|   +-- prepare_data.ipynb
+|   +-- utils.py
++-- data/
+|   +-- data.csv (perhaps include data if small)
+|   +-- README.md (explains how to download data if large)
+</code></pre></div></div>
+
+<p>The filenames here make it obvious why there are multiple notebook files, and we still have a readme, license, and <code class="language-plaintext highlighter-rouge">requirements.txt</code> files.</p>
+
+<p>For an example have a look at my <a href="https://github.com/cpmpercussion/keras-mdn-layer">Keras MDN project</a></p>
+
+<h2 id="readmemd">README.md</h2>
+
+<p>The readme is the most important file in your project. Really. If you don’t have a readme, nobody will know what your code is for, or how to install or use it.</p>
+
+<p>You might like to follow a <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">good readme template</a>, and include some of the following sections:</p>
+
+<ul>
+  <li>title</li>
+  <li>project overview</li>
+  <li>installing</li>
+  <li>downloading data</li>
+  <li>how to use</li>
+  <li>running the tests</li>
+  <li>references</li>
+</ul>
+
+<p>A really <strong>nice</strong> readme might have some cool things like <em>images</em> or demo gifs (see this list of <a href="https://github.com/matiassingers/awesome-readme">awesome READMEs for inspiration</a>, but the above things are a good place to start.</p>
+
+<h2 id="license">LICENSE</h2>
+
+<p>A license sets out the terms under which others can use, modify or share your code. Do you want to allow others to reuse your code in their own projects? Do you want others to use your code, but <em>only in similarly licensed projects</em>? Do you want to reserve all rights unless they negotiate with you?</p>
+
+<p>These are tricky questions. Many of my projects are licensed under the very permissive <a href="https://choosealicense.com/licenses/mit/">MIT License</a>, but this is an individual choice you should make for your own work.</p>
+
+<p>Luckily there’s a whole website to help you <a href="https://choosealicense.com">choose a license</a>.</p>
+
+<p>BTW, you can just <strong>not have a license</strong>, which basically means your code is available to view but you retain <a href="https://choosealicense.com/no-permission/">exclusive copyright</a> over the work. If somebody else wants to use, modify, or share your code, they would need to ask for your permission to do so.</p>
+
+<h2 id="status-badges">Status Badges</h2>
+
+<p>Oh you like my status badges? You want your repo to say <img src="https://travis-ci.org/dwyl/esta.svg?branch=master" alt="Build Passing" style="width:100px; display:inline-block;vertical-align:middle;" />?</p>
+
+<p>These little badge images appear on lots of nice Git Repos and generally advertise how great and well-tested and published our repos are.</p>
+
+<p>There are <a href="https://github.com/badges/shields">lots of them</a> available (here’s some <a href="https://github.com/dwyl/repo-badges">instructions</a> on how to find different types).</p>
+
+<p>If your project has tests, you might like to set up <a href="https://docs.github.com/en/actions/building-and-testing-code-with-continuous-integration/setting-up-continuous-integration-using-github-actions">continuous integration</a> so that anybody who visits <strong>knows it’s working</strong> without even trying it.</p>
+
+<p>You can also get a badge for your <a href="https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba">license</a>.</p>
+
+<p>Badges don’t mean very much, but they’re fun and colourful. Just another way you can show <strong>attention to detail</strong> in your work.</p>
+
+<h2 id="videos-sounds-gifs-images">Videos, Sounds, GIFs, Images</h2>
+
+<p>If your project has sound, visuals or an interactive system as the output, then it’s probably a good idea to include some documentation of this media in your readme.</p>
+
+<p>GitHub doesn’t allow HTML embeds when displaying readme files, but you might make a short (e.g., 10 sec) video into <a href="https://giphy.com">a gif</a> and include that instead, e.g.:</p>
+
+<p><img src="https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif" alt="" /></p>
+
+<p>For sound, you could link to soundfiles stored on <a href="https://soundcloud.com">Soundcloud</a> or <a href="https://clyp.it">clyp.it</a>, and for video you could link to a YouTube or Vimeo upload.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[So you’re a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the software as well as a report. So how are you going to present this great work? An email? A zipfile? A USB key?]]></summary></entry><entry><title type="html">A note on tutorials with Teams</title><link href="https://charlesmartin.au/blog/2020/07/16/tutorials-with-teams" rel="alternate" type="text/html" title="A note on tutorials with Teams" /><published>2020-07-16T00:00:00+00:00</published><updated>2020-07-16T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2020/07/16/tutorials-with-teams</id><content type="html" xml:base="https://charlesmartin.au/blog/2020/07/16/tutorials-with-teams"><![CDATA[<p>This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up <em>tutorials</em> for COMP2300 in Microsoft Teams.</p>
+
+<p>The previous post was about <a href="/blog/2020/07/08/streaming-lectures">online lectures</a>.</p>
+
+<h2 id="why-microsoft-teams">Why Microsoft Teams?</h2>
+
+<p>Teams is Microsoft’s workplace chat and collaboration platform. It <a href="https://en.wikipedia.org/wiki/Microsoft_Teams">comes with Office 365</a> so it’s immediately available for all of our ANU students (they can just log into it with their university ID).</p>
+
+<p>It has a pretty good web client, native clients for Windows, MacOS and Linux, and nice mobile clients as well.</p>
+
+<p>So here’s the tl;dr of why I use it for teaching:</p>
+
+<ul>
+  <li>A virtual classroom that is <strong>available 24/7</strong> for students to collaborate or ask questions.</li>
+  <li><strong>Chat-first interaction</strong> is handy for keeping track of questions and triaging calls for help.</li>
+  <li>Ability for video/audio meetings to occur <strong>spontaneously</strong> between students and teachers.</li>
+  <li>Ability to be <strong>in more than one call</strong> at once (this is a bit of a game changer).</li>
+  <li>Works with students on <strong>campus</strong>, at <strong>home</strong>, on their <strong>phone</strong>, in <strong>China</strong>, <em>wherever they are they can engage with the course</em>.</li>
+  <li>Supports gifs in chat, so <strong>high meme productivity</strong>.</li>
+</ul>
+
+<p>Compared to running classes in Zoom, teams gives you the ability to run meetings and share screens, but also gives persistent asynchronous collaboration through chat which I really prefer for engaging students regularly.</p>
+
+<p>Teams seems to be changing rapidly (makes sense!) There’s already heaps more documentation available (e.g., this nice <a href="https://edudownloads.azureedge.net/msdownloads/MicrosoftTeamsforEducation_QuickGuide_EN-US.pdf">Education Guide</a>) since I started using it in February, so feel free to let me know about new features or workflows!</p>
+
+<h2 id="set-up-a-class-team">Set up a class team</h2>
+
+<p><img src="/assets/blog/2020/3-choose-group.jpg" alt="The COMP2300 Team" /></p>
+
+<p>There’s a couple of options when creating a new team, I make mine private (invite only for students), and use the <a href="https://support.microsoft.com/en-us/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67">“Class” type</a> for my classes.</p>
+
+<p>I’ve also used the “other” type for my research lab and other collaborations, but the class type seems to be set up with some limitations for members (students) and extra capabilities for owners (instructors). It comes with some annoying tabs (“assignments”, “grades”, etc) which can’t be deleted – not sure which Team type is really best for tertiary courses.</p>
+
+<h2 id="add-channels">Add channels</h2>
+
+<p><img src="/assets/blog/2020/4-lab-channel.jpg" alt="A meeting of tutors and lecturer in Teams" /></p>
+
+<p>Your team starts with a “general” channel, and I like to keep this one for normal announcements and discussions during lectures.</p>
+
+<p>I’ve added an “instructors” channel for my classes, and made this private. I add all my tutors to this channel so we can have meetings, chat and back-channel discussions.</p>
+
+<p>For COMP2300, we started out with a different private channel for each tutorial group so students <strong>only</strong> belonged to their group. A few weeks into remote learning, we shifted to just having one massive public “labs” channel for all our groups.</p>
+
+<p>We found that many students didn’t show up to their tutorials, and some that did wanted to attend more than one. This made sense for the structure of COMP2300, but might not work for classes with, e.g., specific project groups.</p>
+
+<p>For my big class of 400 students, my tutors were a team of their own, so we actually used <strong>another</strong> collaboration tool (Mattermost) for all of our other workplace tasks (e.g., marking, moderation, rosters, tracking issues on Piazza, timesheets). In future, I might just make a separate team for tutors to handle these tasks.</p>
+
+<h2 id="meetings">Meetings</h2>
+
+<p><img src="/assets/blog/2020/teams-meeting.png" alt="A meeting of tutors and lecturer in Teams" /></p>
+
+<p>In any channel, anybody can chat, or spontaneously start a meeting by <a href="https://support.microsoft.com/en-us/office/start-an-instant-meeting-in-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5">clicking the little camera icon</a> below the chat box. Once a meeting has started anybody in the channel can join in.</p>
+
+<p>As you start the meeting, you can give it a name. There might be multiple meetings simultaneously happening in one channel, so good names might become important.</p>
+
+<p>Once a meeting has started, you can record it (<a href="https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24">here’s the recording instructions</a>). Once it’s recorded it stays in the chat so that students can play it back later.</p>
+
+<p>If you want to have a private meeting with a small group, you could invite them to a scheduled meeting (e.g., start from Outlook and schedule a <a href="https://support.microsoft.com/en-us/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f">“New Teams Meeting”</a>), or start an instant meeting in a private channel (this is how I have tutor meetings). You can also just call an individual in Teams from the “calls” pane.</p>
+
+<p>You can add a whiteboard to a meeting, share screens, and even remote control someone else’s computer (sortof scary!).</p>
+
+<h2 id="running-tutorials">Running Tutorials</h2>
+
+<p>So here’s how we actually run tutorials (labs) in Teams (finally!) Our labs are designed to be self-directed programming challenges with opportunities to get help from tutors (e.g., check out our lab on <a href="https://cs.anu.edu.au/courses/comp2300/labs/11-diy-operating-system/">making a DIY operating system</a>).</p>
+
+<p><img src="/assets/blog/2020/teams-labs.png" alt="Labs in Teams" /></p>
+
+<p>Each lab would work like this:</p>
+
+<ol>
+  <li>The tutors <strong>start a meeting</strong> in the labs channel to explain the tasks for the lab. They record this meeting so that students arriving late can catch up.</li>
+  <li>The students get to work on the lab exercises and <strong>put any questions or issues in the chat</strong>.</li>
+  <li>If a student asks a question, tutors can either <strong>answer it quickly as a chat</strong> or go into a <strong>call with the student</strong>.</li>
+  <li>We prefer to do <strong>public calls</strong> in the channel to answer questions so that other students can join in and hear what’s going on or contribute some ideas as well.</li>
+  <li>Some of my tutors like to go into mini-lectures during labs, so they might <strong>hit record</strong> so the students can catch up on them later.</li>
+  <li>If a student has a question that’s <em>private</em> for some reason (e.g., about an individual assignment), the tutor can call them directly through Teams to help.</li>
+</ol>
+
+<p>To catch up with students who don’t ask questions during labs, we have a policy that tutors send a <strong>direct chat to each student</strong> in their lab at least once each hour, just to check in. They catch a few extra questions this way.</p>
+
+<p>During the whole lab, the tutors <em>also</em> have a meeting running in their instructors-only channel (you can be in two meetings simultaneously in Teams - although only one is active at a time.)</p>
+
+<p>In future, I think I’d like to encourage students to have independent <strong>group calls</strong> for longer periods of time, even if I’m not running group projects. Hopefully this could just encourage a bit of social connection between them and to help them develop their expectations and ambitions a bit more for submitted work.</p>
+
+<h2 id="getting-studentstutors-into-your-team">Getting students/tutors into your team</h2>
+
+<p>I make my class teams <em>private</em> so students and tutors have to be added or ask permission to join.</p>
+
+<p>In the little “three dots” menu in the Teams pane you can hit “manage team” and add members directly. All your tutors/co-lecturers should be added as owners. Students should merely be members.</p>
+
+<p>You can also copy a link to the team (“Get link to team” in the “three dots” menu) and put this on Wattle or elsewhere for students to click, then you can add them manually from the “Pending Requests” tab.</p>
+
+<p>The above is ok for small classes, but for lots of students we’ve used a <strong>PowerShell</strong> script to add users automatically from a CSV (see <a href="https://medium.com/@joaquin.guerrero/adding-bulk-users-from-a-csv-file-to-a-microsoft-teams-team-374414b9d8c9">this post for instructions</a>).</p>
+
+<p>NB: we’re working on a new script for my S2 class, I’ll post a link here soon.</p>
+
+<h2 id="hosting-lectures-and-videos">Hosting lectures and videos</h2>
+
+<p>All of our lectures for COMP2300 were streamed through Microsoft Stream (<a href="/blog/2020/07/08/streaming-lectures">see my post on lectures!</a>). You can add a Microsoft Stream channel as a tab in Teams. I did this in COMP2300’s general channel. This means that whenever I was lecturing, the students can chat in teams, ask questions, and I can answer them on the spot. Neat!</p>
+
+<p><img src="/assets/blog/2020/teams-lectures.png" alt="Streams in Teams" /></p>
+
+<h2 id="does-all-this-it-work">Does all this it work?</h2>
+
+<p>Sure it works–we got through semester 1 with it! I really like how flexible and open Teams is, although the downside is that the interface can be a bit confusing. It’s much easier to start a spontaneous meeting in Teams than Zoom, and we know that there are many students who prefer chat to video, particularly for asking questions. Lots of our students also just like to lurk for a while until they build up their confidence (which is fine too!)</p>
+
+<p>A rough look at our analytics for the second half Semester 1 shows that we had roughly 100 students engaging with our Team every weekday during the semester-not too shabby!</p>
+
+<p><img src="/assets/blog/2020/teams-sem1-analytics.png" alt="Analytics for teams usage!" /></p>
+
+<p>I’ve also got some <a href="https://cs.anu.edu.au/courses/comp2300/resources/online-labs/">instructions for students</a> for getting started in Teams and online labs.</p>
+
+<h2 id="some-other-features-id-like-to-try">Some other features I’d like to try</h2>
+
+<ul>
+  <li><strong>Tags</strong>: You can create tags for groups of users (e.g., “group-1”) and then make announcements to a tagged group at once (e.g., “@group-1 - come meet in the general channel!”).</li>
+</ul>
+
+<h2 id="fun-facts">Fun facts</h2>
+
+<ul>
+  <li>Our <em>longest</em> Teams meeting was 15 hours during a marking marathon in the exam period. Good times! (marking? good? what is wrong with me?!)</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up tutorials for COMP2300 in Microsoft Teams.]]></summary></entry><entry><title type="html">A note on streaming lectures</title><link href="https://charlesmartin.au/blog/2020/07/08/streaming-lectures" rel="alternate" type="text/html" title="A note on streaming lectures" /><published>2020-07-08T00:00:00+00:00</published><updated>2020-07-08T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2020/07/08/streaming-lectures</id><content type="html" xml:base="https://charlesmartin.au/blog/2020/07/08/streaming-lectures"><![CDATA[<p>So it’s been a <em>rough year</em>. After starting the semester in February with half my <a href="https://cs.anu.edu.au/courses/comp2300">class</a> of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.</p>
+
+<p>This post is about my approach to lectures, and I’ll have another about tutorials/labs soon.</p>
+
+<h2 id="lecture-setup">Lecture Setup</h2>
+
+<p>Recorded lectures are <em>hard</em>; there’s always the temptation to do more takes, and video editing is really time consuming. I know that I’m a better performer just delivering lectures live and accepting a few small mistakes, so I chose to focus on streaming engaging and entertaining lectures synchronously, tracking with the normal class timetable. This gives my students opportunities to have live (or almost live) Q&amp;A during lectures and provides a bit more structure in their week.</p>
+
+<p>Here’s the key parts for my streaming setup:</p>
+
+<ul>
+  <li><a href="https://obsproject.com">OBS studio</a> - for video and screen capture, <a href="https://en.wikipedia.org/wiki/Chroma_key">chroma keying</a>, scenes, and streaming to…</li>
+  <li><a href="https://restream.io">restream.io</a> - to send the stream to multiple endpoints; I send to YouTube, Twitch, and…</li>
+  <li><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-stream">Microsoft Stream</a> - to provide an “official” way for ANU students to watch the lectures, and to integrate with…</li>
+  <li><a href="https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software">Microsoft Teams</a> gives the students an “official” chat platform and a first port of call for interaction with me and my tutors. You can add a Microsoft Stream channel as a tab within a Team so that the latest lecture is just a click away for the students.</li>
+</ul>
+
+<p>Here’s what this all looks like:</p>
+
+<p><img src="/assets/blog/2020/2020-ANU-streaming-rig.png" alt="A diagram of my streaming setup from OBS to restream to multiple platforms with feedback through Teams" /></p>
+
+<p>And here’s a short video about how it works:</p>
+
+<!-- Youtube Link: https://youtu.be/n2cNtVcfB48 -->
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/n2cNtVcfB48" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+
+<h2 id="some-more-details">Some more details…</h2>
+
+<p>Here’s a few more details about each part of the system.</p>
+
+<h3 id="obs-scene-switching">OBS Scene Switching</h3>
+
+<p>I’ve set up a couple of “scenes” within OBS; e.g., one with me superimposed on the right, one on the left, one where I fill the screen for an intro. I also have some “static” scenes for starting and finishing lectures so that I can start streaming before I actually start talking.</p>
+
+<p>There’s lots of ways to switch scenes in OBS (e.g., key combinations, or <a href="https://www.elgato.com/en/gaming/stream-deck">extra keyboard controllers</a>) but I’ve found using my iPad and <a href="https://github.com/Palakis/obs-websocket">OBS websocket</a> is most convenient.</p>
+
+<h3 id="teams">Teams</h3>
+
+<p><a href="https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software">Teams</a> has ended up being the centre of our synchronous online teaching. It’s great to get chat with students and to see their “real names” (not screen names), and it’s neat that you can integrate a Microsoft Stream channel.</p>
+
+<p>As it turns out, students <strong>like</strong> watching lectures on a screen (most of them have been doing so for some time), and they also like asking questions through chat rather than a microphone. The students ask me questions through Teams chat and I can either answer them in real time, or sometimes the other students jump in and find an answer themselves. The only trick here is to remember that the stream takes a while to get to the students (e.g., 15-60 seconds depending on settings and platform), so you have to pause during lectures sometimes so the chat can catch up.</p>
+
+<h3 id="streaming-to-multiple-endpoints">Streaming to multiple endpoints</h3>
+
+<p>It’s hard to get students to watch lectures synchronously, so I thought I’d try going to where the students live for their normal online content: YouTube and Twitch. Twitch in particular is a really fun platform with lots of inspirational live content (e.g., <a href="https://www.twitch.tv/jonathanong">Jonong</a> and <a href="https://www.twitch.tv/lara6683">Lara6683</a>).</p>
+
+<p>Some students tell me they enjoy seeing classes come up in their feed and a few did tend to jump into the Twitch chat. After a few lectures we came up with a good system: “Twitch chat for memes, Teams chat for serious questions”, just so that I didn’t have to monitor all chat channels simultaneously.</p>
+
+<p>Restream makes streaming to multiple platforms very easy. OBS has a preset included for <a href="https://support.restream.io/en/articles/111656-how-to-connect-obs-studio-to-restream">streaming to Restream</a>, and then Restream takes care of connecting to all the other platforms. Restream also automatically creates new live events on YouTube, Twitch, and many other platforms, can update titles and descriptions automatically. It can even collate the chat across multiple platforms.</p>
+
+<h3 id="microsoft-stream">Microsoft Stream</h3>
+
+<p><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-stream">Stream</a> is a slightly wacky corner of Office365 which pretty much does what it says on the tin: host live streamed and pre-recorded video events.</p>
+
+<p>Unfortunately, and unlike YouTube and Twitch, Stream doesn’t integrate with Restream.io, so each live event has to be set up manually, creating a new RTMP address to stream to which needs to be copied into restream before each lecture.</p>
+
+<p>There’s <a href="https://resources.techcommunity.microsoft.com/live-event-with-obs/">a bit of info in Stream’s docs</a> about connecting directly to OBS, which also applies to working with Restream.</p>
+
+<p>I’ve found Stream works perfectly well with 1080p30 streams.</p>
+
+<p>I’ve found it helpful to <a href="https://support.microsoft.com/en-gb/office/add-and-use-a-stream-tab-in-teams-fb6cebb8-0d4f-4034-88a6-7dafdb5f0a3f">add Microsoft Stream as a “tab”</a> within the Microsoft Team for my class so that each lecture has an associated chat stream in Teams.</p>
+
+<h3 id="but-what-about-echo360">But what about Echo360?</h3>
+
+<p><a href="https://echo360.com">Echo360</a> is the automated lecture recording system installed at the ANU. It works well for zero-hassle recordings in lecture halls and has many interactive learning features that can be used online.</p>
+
+<p>Even though Echo360 provides streaming, I don’t use it because <strong>you can’t stream to it from OBS studio</strong> (they only support <a href="https://echo360.com/universal-capture-demo/">their own streaming tool</a>, which, among other issues, doesn’t work on Linux).</p>
+
+<p>If Echo360 ever want to make RTMP endpoints available to users then I would <em>love</em> to include it in my system, but at the moment, I’m stuck uploading the streamed videos after each lecture (😐).</p>]]></content><author><name></name></author><summary type="html"><![CDATA[So it’s been a rough year. After starting the semester in February with half my class of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.]]></summary></entry><entry><title type="html">Christmas Carillon at the Canberra Centre</title><link href="https://charlesmartin.au/blog/2019/12/23/christmas-carillon" rel="alternate" type="text/html" title="Christmas Carillon at the Canberra Centre" /><published>2019-12-23T00:00:00+00:00</published><updated>2019-12-23T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2019/12/23/christmas-carillon</id><content type="html" xml:base="https://charlesmartin.au/blog/2019/12/23/christmas-carillon"><![CDATA[<p>This week I’ve been talking about our <a href="https://cecs.anu.edu.au/news/christmas-bells-ring-canberra-thanks-musical-ai">Christmas carillon installation at the Canberra Centre</a>.</p>
+
+<p><img src="/assets/blog/2019/20191223-carillon1.jpg" alt="Christmas Carillon Clavier at the Canberra Centre" /></p>
+
+<p>The National Capital Authority has been upgrading the National Carillon and replaced the clavier, they asked me to help create electronic sensors and sounds for the old clavier as part of a Christmas installation.</p>
+
+<p>The carillonists, including Thomas Laue from the ANU School of Music had recorded a couple of Christmas Carols and some new bell samples for us to use. I worked with Terry McGee to make some modifications to the keyboard that would hold the batons up with springs and Alistair Riddell who built a sensor system using magnetic field sensors.</p>
+
+<p><img src="/assets/blog/2019/20191223-carillon3.jpg" alt="A test rig with one carillon baton and the Bela" /></p>
+
+<p>I coded up the electronic sounds and connections to the sensor board using the <a href="https://bela.io">Bela</a> platform, this was great because the installation needed to work continuously in the Canberra Centre for the whole of December (and it has!). We used magnetic field sensors to trigger the sounds so that we wouldn’t have any parts that could wear out in the clavier. Terry build a little test baton for us to make sure it would work.</p>
+
+<p><img src="/assets/blog/2019/20191223-carillon4.jpg" alt="One octave of sensors installed on the carillon" /></p>
+
+<p>After we settled on parts in our test rig, Terry made some aluminium fingers to hold magnets in the clavier. This way, the sensors could be securely attached to a board and visible in case we need to make adjustments. We installed the sensors and Bela and put the finishing touches on the software so that it would sound the way we wanted.</p>
+
+<p>It’s always great to hear the first “real sound” out of a new musical instrument and it was especially so with this carillon. It’s pretty uncommon to actually be able to “test out” a carillon keyboard without annoying a whole city, so we had a bit of fun in Thomas’ office getting this to work before sending it off to be installed. The final configuration had 16 “working” batons, 13 played carillon samples (C to C) and the remaining three triggered one Christmas carol each.</p>
+
+<p><img src="/assets/blog/2019/20191223-carillon2.jpg" alt="A close up of the carillon clavier's batons" /></p>
+
+<p>And here it is in the Canberra centre! It’s been up and running for about four weeks now, slowly counting down the days to Christmas! Sitting and watching it for a while, I noticed that it’s (of course) popular with kids who jump in to see what does, but also adults can help but reach out to ring a bell as they walk by. Certainly fun, but hopefully this gives a bit of insight into how our carillon actually works and what the musicians do who play it! It should be up and running all through Christmas until the 3rd of January 2020.</p>]]></content><author><name></name></author><category term="news" /><category term="research" /><category term="carillon" /><category term="music" /><category term="canberra" /><summary type="html"><![CDATA[This week I’ve been talking about our Christmas carillon installation at the Canberra Centre.]]></summary></entry></feed>

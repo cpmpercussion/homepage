@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Performing with a Neural Touch-Screen Ensemble</title>
+<meta name="description" content="">
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/music/">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/lab/">lab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
+      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
+      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
+      <h1 class="heading-logo display-2 mx-auto">Charles Martin</h1>
+    </div>
+
+    
+
+	  <div class="container bg-white rounded">	   
+	    <main class="p-4" aria-label="Content">
+		    <article>
+  <h1>Performing with a Neural Touch-Screen Ensemble</h1>
+  <h6 class="font-italic">03 May '17</h6>
+  <p>Since about 2011, I’ve been performing music with various kinds of touch-screen devices in percussion ensembles, new music groups, improvisation workshops, installations, as well as my dedicated iPad group, 
+<a href="https://charlesmartin.com.au/metatone/">Ensemble Metatone</a>. Most of these events were recorded; detailed touch and gestural information was collected including classifications of each ensemble member’s gesture every second during each performance. Since moving to Oslo, however, I don’t have an iPad band! This leads to the question: Given all this performance data, can I make an artificial touch-screen ensemble using deep neural networks?</p>
+
+<p><img src="/assets/squarespaceblog/2017-05-02-neuralensembleidea.jpg" alt="" /></p>
+
+<p>I’ve collected a lot of data from four years of touch-screen ensemble concerts (left). Now, I’ve used it to train an artificial neural network (right) to interact in a similar way! </p>
+
+<p>As it turns out, the answer is yes! To make this neural touch-screen ensemble, I’ve used a large collection of 
+<a href="https://github.com/anucc/metatone-analysis">collaborative touch-screen performance data</a> to model ensemble interactions and to synthesise ensemble performances. These performances were free-improvisations, gestural explorations between tightly interacting performers of synthesised sounds, samples, and field recordings. In this context, the music theory of melody and harmony doesn’t help much to understand what is going on. A 
+data-driven strategy for musical representation is required. Machine learning (ML) is an ideal approach, as ML algorithms can learn from example, rather than from theory.</p>
+
+<p>In this article, I’ll explain the parts of this system but first, here’s a demonstration of what it looks like:</p>
+
+<h2 id="live-interaction-with-a-neural-network">Live Interaction with a Neural Network</h2>
+
+<p>The rough idea of the neural touch-screen ensemble is this: one human improvises music on a touch-screen app and an ensemble of computer-generated ‘musicians’ reacts with their own improvisation. This system works as follows:</p>
+
+<ul>
+  <li>First, a human performer plays <a href="https://github.com/cpmpercussion/PhaseRings">PhaseRings</a> on an iPad. Their touch-data is <a href="https://charlesmartin.com.au/blog/2015/6/7/nime2015-tracking-an-ipad-ensemble-with-gesture-classification-and-transition-matrices">classified into one of a small number of touch gestures</a> using a system called <a href="https://github.com/cpmpercussion/MetatoneClassifier">Metatone Classifier</a>.</li>
+  <li>Next, a recurrent neural network, 
+<a href="https://github.com/cpmpercussion/gesture-rnn">Gesture-RNN</a>, takes this lead gesture and predicts how an ensemble might respond in terms of their own gestures, this is described in more detail below.</li>
+  <li>The 
+touch-synthesiser then searches the corpus of performance data for sequences of touches that match these gestures and sends them to the other iPads which also run PhaseRings.</li>
+  <li>Finally, the ensemble iPads ‘perform’ the sound (and visuals) from these sequences of touches, as if a human were tapping on their screens.</li>
+</ul>
+
+<p><img src="/assets/squarespaceblog/2017-05-02-neural-ensemble-system.jpg" alt="" /></p>
+
+<p>One cool thing about this system is that the ‘fake’ ensemble members sound quite authentic, as their touches are taken directly from human-recorded touch data. The totality of these components is a system for co-creative interaction between neural network and human performer. The neural net responds to the human gestures, and in turn, the live performer responds to the sound of the generated ensemble iPads. This system is 
+<a href="https://youtu.be/6eg5VSRqIDA">currently used</a> for in-lab demonstrations and we’re hoping to show it off at a few events soon!</p>
+
+<h2 id="learning-gestural-interaction">Learning Gestural Interaction</h2>
+
+<p>The most complex part of this system is the 
+<a href="https://github.com/cpmpercussion/gesture-rnn">Gesture-RNN</a> at the centre. This artificial neural network is trained on hundreds of thousands of excerpts from ensemble performances to predict appropriate gestural responses for the ensemble.</p>
+
+<p>In improvising touch-screen ensembles, the musicians often work as gestural explorers. Patterns of interaction with the instruments and between the musicians are the most important aspect of the performances. Touch-screen improvisations have been previously categorised in terms of nine simple touch-gestures, and a 
+<a href="https://charlesmartin.com.au/blog/2015/6/7/nime2015-tracking-an-ipad-ensemble-with-gesture-classification-and-transition-matrices">large corpus of collaborative touch-screen performances is freely available</a>. Classified performances consist of sequences of gesture labels (numbers between 0 and 8) for each player in the group - similar to the sequences of characters that are often used as training data in text-generating neural nets.</p>
+
+<p>Like other creative neural nets, such as 
+<a href="https://github.com/IraKorshunova/folk-rnn">folkRNN</a> and 
+<a href="https://github.com/karpathy/char-rnn">charRNN</a>, Gesture-RNN is a recurrent neural network (RNN) with 
+<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">long short-term memory (LSTM)</a> cells. These LSTM cells preserve information inside the network, acting as a kind of memory, and help the network to predict structure in sequences of multiple time-steps. The difference between character-level RNNs and this system is that Gesture-RNN is trained to predict how an ensemble would 
+react to a single performer, not what that lead performer might do next.</p>
+
+<p>Training data for Gesture-RNN consists of time series of gestural classification for each member of the group at one second intervals. The network is designed to predict the ensemble response to a single ‘lead’ sequence of gestures. So in the case of a quartet, one player is taken to be the leader, and the network is trained to predict the reaction of the other three players.</p>
+
+<p><img src="/assets/squarespaceblog/2017-05-02-gesturernn.jpg" alt="" /></p>
+
+<p>In this case, the input for the network is the lead player’s current gesture, and also the previous gestures of the other ensemble members. The output of the network is the ensemble members’ predicted reaction. This output is then fed back in to the network at the next time-step.</p>
+
+<p>Here’s an example output from Gesture-RNN. In these plots, a real lead performance (in red) was used as the input and the ensemble performers (other colours) were generated by the neural net. Each level on the y-axis in these plots represents a different musical gesture performed on the touch-screens.</p>
+
+<p><img src="/assets/squarespaceblog/2017-05-02-neuralnetensembleoutput.png" alt="" /></p>
+
+<p>Gesture-RNN is implemented in <a href="https://www.tensorflow.org/">Tensorflow</a> and Python. It’s tricky to learn how to structure Tensorflow code and the following blog posts and resources were helpful:</p>
+<ul>
+  <li><a href="http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/">WildML: RNNs in Tensorflow, a practical guide</a>,</li>
+  <li><a href="http://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html">R2RT: Recurrent Neural Networks in Tensorflow</a>,</li>
+  <li><a href="https://github.com/aicodes/tf-bestpractice">AI Codes: Tensorflow Best Practices</a>,</li>
+  <li><a href="http://shop.oreilly.com/product/0636920052289.do">Géron: Hands-On Machine Learning with Scikit-Learn and Tensorflow</a>.</li>
+</ul>
+
+<h2 id="recurrent-neural-networks-and-creativity">Recurrent Neural Networks and Creativity</h2>
+
+<p>Gesture-RNN uses a similar neural network architecture to other creative machine learning systems, such as <a href="https://github.com/IraKorshunova/folk-rnn">folkRNN</a>, Magenta’s <a href="https://github.com/tensorflow/magenta">musical RNNs</a>, and <a href="https://github.com/karpathy/char-rnn">charRNN</a>. It has recently become apparent that recurrent neural networks, which can be equipped with “memory” cells to learn long sequences of temporally-related information, can be <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">unreasonably effective</a>. Creative neural network systems are beginning to be a bit of a party trick, like the amusingly scary <a href="https://vimeo.com/192711856">NN-generated Christmas carol</a>. In the case of high-level ensemble interactions, we don’t have tools (like music theory) to help us understand and compose them, so a data-driven approach using RNNs could be much more useful!</p>
+
+<p>The neural touch-screen ensemble is a unique way for a human performer to interact with a creative neural network. We’re using this system in the 
+<a href="http://www.mn.uio.no/ifi/english/research/projects/epec/">EPEC (Engineering Predictability with Embodied Cognition)</a> project at the University of Oslo to evaluate how a predictive RNN can be engaged in co-creation with a human performer. In our current application, the synthesised touch-performances are played back through separate iPads which embody the “fake” ensemble members. In future, this system could also be integrated within a single touch-screen app, and it might allow individual users to experience a kind of collaborative music-making. It might also be possible to condition Gesture-RNN to produce certain styles of responses, that model particular users, or performance situations.</p>
+
+<p>The code for this system is available online:</p>
+
+<ul>
+  <li><a href="https://github.com/cpmpercussion/gesture-rnn">Gesture-RNN</a>,</li>
+  <li><a href="https://github.com/cpmpercussion/MetatoneClassifier/tree/soundobject-player">Metatone Classifier</a>,</li>
+  <li><a href="https://github.com/cpmpercussion/PhaseRings">PhaseRings</a>.</li>
+</ul>
+
+<p>While there are lots of creative applications of recurrent neural networks out there, there aren’t too many examples of interactive and collaborative RNN systems. It would be great to see more creative and interactive systems using these and other neural net designs!</p>
+
+</article>
+
+	    </main>
+	  </div>
+    <footer class="text-light text-center py-5">
+  &copy; Charles P. Martin 2022
+</footer>
+
+	  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

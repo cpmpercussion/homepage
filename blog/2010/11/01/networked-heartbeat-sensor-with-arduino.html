@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Networked Heartbeat Sensor with Arduino!</title>
+<meta name="description" content="">
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/music/">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/lab/">lab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
+      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
+      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
+      <h1 class="heading-logo display-2 mx-auto">Charles Martin</h1>
+    </div>
+
+    
+
+	  <div class="container bg-white rounded">	   
+	    <main class="p-4" aria-label="Content">
+		    <article>
+  <h1>Networked Heartbeat Sensor with Arduino!</h1>
+  <h6 class="font-italic">01 Nov '10</h6>
+  <p><img src="/assets/squarespace_images/2010-11-01-HearbeatSensor1.jpg" alt="" /></p>
+
+<p>This project was my first foray in the exciting world of bio-sensors! A few years ago I started a multimedia performance group called <a href="http://www.lastmantodie.net">Last Man to Die</a>, I knew that I wanted to hook our bodies up to computers to affect musical and visual aspects of performance. The first way to do this I thought of was a heartbeat sensor! A little bit of research showed that there were cheap and easy ways to build a heartbeat sensor that could connect to an Arduino, but there were a few hurdles I had to work out before it was ready for performance!</p>
+
+<p>In this post I’m going to explain how to build the sensor and show you an Arduino program that sends a serial message to the computer every time it detects a heartbeat. I’ll also show you how to use the Arduino Ethernet Shield to send heartbeat messages over a network or the internet! (awesome.)</p>
+
+<p>The sensor uses two simple components, an IR LED and an IR phototransistor. Both components are powered by the Arduino’s 5V output and one analogue input reads the voltage across the phototransistor.</p>
+
+<h2 id="building-the-heartbeat-sensor-circuit">Building the heartbeat sensor circuit:</h2>
+
+<p>The sensor only uses four inexpensive parts!</p>
+
+<ul>
+  <li>IR LED</li>
+  <li>IR Phototransistor (these two come together at Littlebird as <a href="http://www.littlebirdelectronics.com/products/Infrared-Emitters-and-Detectors.html">IR Emitters and Detectors</a>)</li>
+  <li>10KOhm resistor (<a href="http://www.littlebirdelectronics.com/products/Resistor-10k-Ohm-1%7B47%7D6th-Watt-PTH.html">Little Bird link</a>)</li>
+  <li>220Ohm resistor (comes in the <a href="http://www.littlebirdelectronics.com/products/Resistor-Kit-%252d-1%7B47%7D4W.html">Resistor Kit</a> at Little Bird)</li>
+</ul>
+
+<p>Of course, you also need an Arduino (from <a href="http://www.littlebirdelectronics.com/products/Arduino-Uno.html">Little Bird</a>).</p>
+
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatDiagram.jpg" alt="The heartbeat sensor circuit diagram." /> The heartbeat sensor circuit diagram.</p>
+
+<h3 id="heres-the-circuit-diagram">Here’s the circuit diagram:</h3>
+
+<p>The simple circuit is the same as for an IR range sensor, commonly used in robot projects. As a rangefinder, the IR phototransistor measures brightness light reflected back from distant objects but in our sensor, it will measure the brightness of the IR light going through your skin.</p>
+
+<p>The idea is that when your heart beats you have a quick rush of blood into tiny blood vessels close to your skin which makes it less transparent. This effect is easiest to observe on your finger tips or earlobe. So the IR emitter and phototransistor are placed next to each other (not much light goes through the side of the emitter!) and you put your finger on top. Light from the IR emitter illuminates your skin and so passes into the phototransistor.</p>
+
+<p>The phototransistor is connected to the Arduino in a similar way to a potentiometer. One lead is connected to +5V and the other to ground. The +5V lead is also connected to an analogue input on the Arduino. When the phototransistor receives more IR light it becomes more resistive and a lower voltage is detected by the analogue input.</p>
+
+<p>Here’s a picture of my test circuit on a breadboard, note that my IR receiver and emitter look like regular round LEDs so I set them up so that the lenses were adjacent and both pointing up. Different types of IR receivers/emitters look different, check the data sheet to see where the IR light enters/exits.</p>
+
+<p><img src="/assets/squarespace_images/2010-11-01-SensorTestCircuit.jpg" alt="" /></p>
+
+<p>Arduino and the sensor circuit. My phone camera can see in infrared.</p>
+
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatData.jpg" alt="" /></p>
+
+<p>Raw data from the heartbeat senso. Each little bump is a heartbeat!</p>
+
+<p>Time to test! I wanted to view the raw data from the IR detector to prove to myself that it really could detect my heartbeat, so I loaded up the <a href="http://www.arduino.cc/en/Tutorial/Graph">Arduino Graph tutorial</a> to graph the data in Processing. After a bit of fiddling holding my finger on the lenses, the data looked like this:</p>
+
+<p>To finish the circuit, I soldered it in free form style since I wanted it to be as small as possible, I used some foam tape to separate the detector and emitter leaving just the lens visible and held it together with electrical tape.</p>
+
+<p><img src="/assets/squarespace_images/2010-11-01-Sensor1.jpg" alt="" />
+<img src="/assets/squarespace_images/2010-11-01-Sensor2.jpg" alt="" /></p>
+
+<h2 id="programming">Programming</h2>
+
+<p>When you watch a graph of the IR detector in Processing, it’s obvious where the heartbeats are, just a little bump right? But how to do you get the Arduino to detect each bump?</p>
+
+<p>Similar projects around the internet have used an amplifier to boost the signal from the phototransistor, I found that the data was clear enough for the Arduino to track heartbeats accurately. My Arduino program follows the (average) rate of change of the phototransistor voltage and uses this to judge whether a heartbeat is occurring or not.</p>
+
+<p>Here’s the Arduino code, it prints an estimate of your current heart rate to serial each time it detects a heartbeat.</p>
+
+<h3 id="arduino-code">Arduino Code</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Pins
+const int ledPin = 13;
+const int sensePin = 0;
+// LED blink variables
+int ledState = LOW;
+long ledOnMillis = 0;
+long ledOnInterval = 50;
+
+// Hearbeat detect variables
+int newHeartReading = 0;
+int lastHeartReading = 0;
+int Delta = 0;
+int recentReadings[8] = {0,0,0,0,0,0,0,0};
+int historySize = 8;
+int recentTotal = 0;
+int readingsIndex = 0;
+boolean highChange = false;
+int totalThreshold = 2;
+
+// Heartbeat Timing
+long lastHeartbeatTime = 0;
+long debounceDelay = 150;
+int currentHeartrate = 0;
+
+void setup() {
+    // initialize the serial communication:
+    Serial.begin(9600);
+    // initialize the digital pin as an output:
+    pinMode(ledPin, OUTPUT); 
+}
+
+void loop() {
+    // Turn off LED
+    digitalWrite(ledPin, LOW);
+
+    // Read analogue pin.
+    newHeartReading = analogRead(sensePin);
+    //Serial.println(newHeartReading);
+    //Calculate Delta
+    Delta = newHeartReading - lastHeartReading;
+    lastHeartReading = newHeartReading;
+
+    // Find new recent total
+    recentTotal = recentTotal - recentReadings[readingsIndex] + Delta;
+    // replace indexed recent value
+    recentReadings[readingsIndex] = Delta;
+    // increment index
+    readingsIndex = (readingsIndex + 1) % historySize;
+
+    //Debug
+    //Serial.println(recentTotal);
+
+    // Decide whether to start an LED Blink.
+    if (recentTotal &gt;= totalThreshold) {
+        // Possible heartbeart, check time
+        if (millis() - lastHeartbeatTime &gt;= debounceDelay) {
+            // Heartbeat
+            digitalWrite(ledPin, HIGH);
+            currentHeartrate = 60000 / (millis() - lastHeartbeatTime);
+            lastHeartbeatTime = millis();
+            // Print Results
+            //Serial.println("Beat");
+            if (currentHeartrate &lt;= 200) { 
+                Serial.println(currentHeartrate); 
+            } 
+        } 
+    } 
+    delay(10); 
+}
+</code></pre></div></div>
+
+<p>I wanted to use the sensor with SuperCollider, a music programming language. As a proof of concept, I’ve connected the Arduino to SuperCollider via a Processing script that translates serial data from the Arduino into OSC messages. Here’s a video demonstration and the processing and supercollider code is below!</p>
+
+<h3 id="processing-code">Processing code:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Based on examples from Arduino's Graphing Tutorial and OscP5 documentation
+import processing.serial.*;
+Serial myPort; // The serial port
+int xPos = 1; // horizontal position of the graph
+import oscP5.*;
+import netP5.*;
+OscP5 oscP5;
+NetAddress myRemoteLocation;
+void setup () {
+    // set the window size:
+    size(640, 480); 
+    frameRate(25);
+    // Start OscP5
+    oscP5 = new OscP5(this,12000);
+
+    // List availabl serial ports.
+    println(Serial.list());
+
+    // Setup which serial port to use. 
+    // This line might change for different computers.
+    myPort = new Serial(this, Serial.list()[0], 9600);
+
+    myPort.bufferUntil('\n');
+    // Configure NetAddress to send OSC messages to
+    myRemoteLocation = new NetAddress("127.0.0.1",57120);
+    // set inital background:
+    background(0);
+}
+
+void draw () {
+}
+
+void serialEvent (Serial myPort) {
+    // read the string from the serial port.
+    String inString = myPort.readStringUntil('\n');
+
+    if (inString != null) {
+        // trim off any whitespace:
+        inString = trim(inString);
+        // convert to an int
+        println(inString); 
+        int currentHeartrate = int(inString);
+
+        if (currentHeartrate &gt; 0) {
+            // Construct and send OSC message of the current    heartrate   
+            OscMessage myMessage = new OscMessage("/heartbeat");
+            myMessage.add(currentHeartrate);
+            oscP5.send(myMessage, myRemoteLocation);
+
+            // draw the Heartrate BPM Graph.
+            float heartrateHeight = map(currentHeartrate, 0, 200, 0, height);
+            stroke(127,34,255);
+            line(xPos, height, xPos, height - heartrateHeight);
+            // at the edge of the screen, go back to the beginning:
+            if (xPos &gt;= width) {
+                xPos = 0;
+                background(0); 
+            } else {
+                // increment the horizontal position:
+                xPos++;
+            }
+        } 
+    }   
+}
+
+/* incoming osc message are forwarded to the oscEvent method. */
+void oscEvent(OscMessage theOscMessage) {
+    /* print the address pattern and the typetag of the received OscMessage */
+    print("### received an osc message.");
+    print(" addrpattern: "+theOscMessage.addrPattern());
+    println(" typetag: "+theOscMessage.typetag());
+}
+</code></pre></div></div>
+
+<h3 id="supercollider-code">SuperCollider Code:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// create the OSCresponder
+// Beeps each time it receives a heartbeat OSC message.
+(
+    n = NetAddr.new("127.0.0.1", nil);
+    o = OSCresponder.new(n, "/heartbeat", { 
+        arg time, resp, msg; 
+    msg.postln; 
+    { EnvGen.kr(Env.perc, 1.0, doneAction: 2) * 
+            SinOsc.ar([440,440], 0, 0.1) }.play;
+    } ).add;
+)
+o.remove; // remove the OSCresponder.
+</code></pre></div></div>
+
+<h2 id="networking">Networking!</h2>
+
+<p>Everything is more fun when it’s connected to a network!</p>
+
+<p>I wanted my heartbeat sensor to be network-enabled so that it works autonomously (i.e. not tethered to a computer by USB) and can send the heartbeat signals to multiple computers simultaneously. With the magic of the <a href="http://www.littlebirdelectronics.com/products/Arduino-Ethernet-Shield.html">Arduino Ethernet Shield</a> (or this cheaper <a href="http://www.littlebirdelectronics.com/products/Arduino-Ethernet-Shield-W5100.html">clone</a>) this is totally possible!</p>
+
+<p>All you have to do is plug the Ethernet Shield into the top of the Arduino, load up the Ethernet Library, and you’re ready to go. I wanted to send messages using the OSC protocol, so I also loaded Recotana’s <a href="http://recotana.com/recotanablog/?page_id=222">OSC library for Arduino</a>.</p>
+
+<h3 id="heres-the-code-if-you-want-to-try-this-out">Here’s the code if you want to try this out:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// cpm_heartbeatEthernet
+// Version 1.0 October 2009.
+// Copyright Charles Martin (http://www.charlesmartin.com.au).
+// Uses recotana's OSCClass (http://www.recotana.com)
+// Detect heartbeat using a light reading through skin  
+// On each beat, send an OSC message of the instantaneous 
+// heartrate.
+
+#include "Ethernet.h"
+#include "OSCClass.h"
+
+// Pins
+const int ledPin = 13;
+const int sensePin = 0;
+
+// LED blink variables
+int ledState = LOW;
+long ledOnMillis = 0;
+long ledOnInterval = 50;
+
+// Hearbeat detect variables
+int newHeartReading = 0;
+int lastHeartReading = 0;
+int Delta = 0;
+int recentReadings[8] = {0,0,0,0,0,0,0,0};
+int historySize = 8;
+int recentTotal = 0;
+int readingsIndex = 0;
+boolean highChange = false;
+int totalThreshold = 2;
+
+// Heartbeat Timing
+long lastHeartbeatTime = 0;
+long debounceDelay = 150;
+int currentHeartrate = 0;
+
+// Ethernet and OSC information
+byte serverMac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+byte serverIp[] = { 192, 168, 0, 99 };
+int serverPort = 10000;
+// byte gateway[] = { 192, 168, 0, 1 };
+// byte subnet[] = { 255, 255, 255, 0 };
+byte destIp[] = {192,168,0,255};
+int destPort = 3333;
+char *topAddress="/heartbeat";
+OSCMessage recMes;
+OSCMessage sendMes; 
+OSCClass osc(&amp;recMes);
+
+void setup() {
+    Ethernet.begin(serverMac ,serverIp);
+    osc.begin(serverPort);
+    osc.flush(); 
+    sendMes.setIp( destIp );
+    sendMes.setPort( destPort );
+    sendMes.setTopAddress(topAddress);
+    // initialize the serial communication:
+    Serial.begin(9600);
+    // initialize the digital pin as an output:
+    pinMode(ledPin, OUTPUT); 
+}
+
+void loop() {
+    // Turn off LED
+    digitalWrite(ledPin, LOW);
+
+    // Read analogue pin.
+    newHeartReading = analogRead(sensePin);
+    //Serial.println(newHeartReading);
+    //Calculate Delta
+    Delta = newHeartReading - lastHeartReading;
+    lastHeartReading = newHeartReading;
+
+    // Find new recent total
+    recentTotal = recentTotal - recentReadings[readingsIndex] + Delta;
+    // replace indexed recent value
+    recentReadings[readingsIndex] = Delta;
+    // increment index
+    readingsIndex = (readingsIndex + 1) % historySize;
+
+    //Debug
+    //Serial.println(recentTotal);
+
+    // Decide whether to start an LED Blink.
+    if (recentTotal &gt;= totalThreshold) {
+        // Possible heartbeart, check time
+        if (millis() - lastHeartbeatTime &gt;= debounceDelay) {
+            // Heartbeat
+            digitalWrite(ledPin, HIGH);
+            currentHeartrate = 60000 / (millis() - lastHeartbeatTime);
+            lastHeartbeatTime = millis();
+            // Print Results
+            //Serial.println("Beat");
+            if (currentHeartrate &lt;= 200)        { 
+                Serial.println(currentHeartrate); // Send a serial message  
+                sendMes.setArgs("i" , &amp;currentHeartrate); // Setup an OSC message 
+                osc.sendOsc( &amp;sendMes ); // Send the heartbeat OSC message 
+            } 
+        } 
+    } 
+    delay(10); 
+}
+</code></pre></div></div>
+
+<p>I wrapped the final result up in a crazy plastic box, so the audience can see the blinky lights and know that it’s a real thing and not a prop. Here’s a photo from a rehearsal using the sensor:</p>
+
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatAction.jpg" alt="" /></p>
+
+<p>PS, I used this project with this group: <a href="http://www.lastmantodie.net">Last Man to Die</a></p>
+
+<p>PPS, this project was in an article on Makezine <a href="http://blog.makezine.com/archive/2009/10/sending_a_hearbeat_over_ethernet.html">here</a>!</p>
+
+<p>PPPS, I got the idea from Recotana’s <a href="http://www.flickr.com/photos/recotana/2283817820/in/pool-make">Heartbeat Midi Controller</a>. Recotana also wrote the <a href="http://recotana.com/recotanablog/?page_id=222">OSC library for Arduino</a> which enabled this project.</p>
+
+</article>
+
+	    </main>
+	  </div>
+    <footer class="text-light text-center py-5">
+  &copy; Charles P. Martin 2022
+</footer>
+
+	  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

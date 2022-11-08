@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Rebooting Chroma</title>
+<meta name="description" content="">
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/music/">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/lab/">lab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
+      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
+      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
+      <h1 class="heading-logo display-2 mx-auto">Charles Martin</h1>
+    </div>
+
+    
+
+	  <div class="container bg-white rounded">	   
+	    <main class="p-4" aria-label="Content">
+		    <article>
+  <h1>Rebooting Chroma</h1>
+  <h6 class="font-italic">30 Aug '22</h6>
+  <p>I’ve just arrived in Te Whanganui-a-Tara/Wellington for the <a href="https://www.acmc2022.com/">Australasian Computer Music Conference</a>, the first in-person edition since 2019, and it’s a good time to reflect on a bit project I’ve undertaken with this community—rebooting our journal: <a href="https://journal.computermusic.org.au/chroma">Chroma: Journal of the Australasian Computer Music Association</a>.</p>
+
+<p>Skipping to the end first, we now have a first issue <a href="https://journal.computermusic.org.au/chroma/issue/view/1">“Rebooting Chroma”</a> with progressively released, open access articles from computer musicians, music technologists, and composers. The journal costs less than 100AUD per year to run and has no costs for authors.</p>
+
+<p><img src="/assets/blog/2022/chroma-volume-38.jpg" alt="Rebooting Chroma, volume 38 cover" /></p>
+
+<p>We use:</p>
+
+<ul>
+  <li>a markdown-to-pdf workflow for all articles, the <a href="https://github.com/cpmpercussion/chroma-template">Chroma Template</a></li>
+  <li><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> for creating the journal website and reviewing system</li>
+  <li>old-school shared hosting with cPanel to host everything as well as the wordpress site for <a href="https://computermusic.org.au">our community</a></li>
+</ul>
+
+<p>In this post I want to document a bit of what I have put together to get this journal working. My strong belief is that folks shouldn’t have to pay thousands of dollars to publish journal articles with big publishers: we academics should be running community journals by and for each other where (as peer-reviewers and editors) we can keep an eye on quality as well as support emerging researchers. Community-run journals can run at (almost) zero cost to the researchers and readers they serve by leaning into web-first publishing using free tools.</p>
+
+<h3 id="markdown-to-pdf">Markdown to PDF</h3>
+
+<p>One draw of publishing in a commercial journal is that your output paper <em>looks really nice</em>. This is because the journal pays people to do the production to a certain layout. Well our journal has no money, and I don’t have much time, so we have to rely on computers to help.</p>
+
+<p><em>Luckily</em> it is possible to go from a word-document manuscript to a <a href="https://journal.computermusic.org.au/chroma/article/view/7/8"><em>quite nice looking</em></a> PDF without too much effort using <a href="https://pandoc.org/">pandoc</a> and <a href="https://www.latex-project.org/">latex</a>.</p>
+
+<p>There are
+<a href="https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/"><em>lots</em></a>
+of <a href="https://kieranhealy.org/blog/archives/2014/01/23/plain-text/">blog</a>
+<a href="https://opensource.com/article/18/9/pandoc-research-paper">posts</a> out there
+about using markdown and pandoc for academic writing. Mostly these are about
+using markdown as the starting point to publishing in a traditional journal or
+conference using that publisher’s template. The idea here is to let authors use
+whatever they want to create a manuscript (usually Microsoft Word) and then I
+use pandoc to “magically” turn it into a beautiful PDF.</p>
+
+<p>To do this, I have a <a href="https://github.com/cpmpercussion/chroma-template">template
+repository</a> on Github which I
+use to create new repos—one for each article. There’s a carefully crafted
+latex template file, a demo article, and some scripts to tie everything
+together. The workflow works like this:</p>
+
+<ol>
+  <li>I run a little script that uses pandoc to extract the text and images from the author’s manuscript: <code class="language-plaintext highlighter-rouge">pandoc -i $1 -o article.md --extract-media .</code></li>
+  <li>I paste the output into the template’s <code class="language-plaintext highlighter-rouge">article.md</code> file, and fix up the metadata</li>
+  <li>I run <code class="language-plaintext highlighter-rouge">make</code> in the repository to generate the PDF and a bonus HTML version!</li>
+</ol>
+
+<p>The good news is that it <em>mostly</em> works.</p>
+
+<p>Normal text is laid out beautifully in the template. Images pretty much work
+well although authors get confused about latex’s automatic placement sometimes.
+Figure captions don’t seem to work in HTML. Tables tend to need a lot of
+reworking to fit into the width of the page generated by latex. References and
+citations are a still a bit of an issue. As it turns out, most authors just
+have their references in verbatim text in their manuscript. Pandoc supports
+more advanced citation practices with bibtex files and citation style language
+files, but in practice my job is to take what authors give me and create a PDF.</p>
+
+<p>From my perspective, the production part of editing the journal takes place in a normal code editor like this:</p>
+
+<p><img src="/assets/blog/2022/chroma-template.jpg" alt="editing a chroma article in VSCode" /></p>
+
+<p>Mostly the markdown output from pandoc makes, sense, but I have found that I need to wrap the reference section in a latex <code class="language-plaintext highlighter-rouge">hangparas</code> environment to get them to work correctly:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```{=latex}
+\begin{hangparas}{1.5em}{1}
+```
+
+(references go here)
+
+```{=latex}
+\end{hangparas}
+```
+</code></pre></div></div>
+
+<p>So far, this is the <em>only</em> latex code I need to paste into the markdown manuscripts, which seems like a pretty big win!</p>
+
+<h3 id="aspiration-an-end-to-end-online-editing-process">Aspiration: an end-to-end online editing process</h3>
+
+<p>I’m still experimenting with a few features of the GitHub template.</p>
+
+<p>For now, I’m happy using the template just in the production stage, but ideally, authors would fork their own template and edit in there directly. I have set up github actions that automagically build and host the compiiled outputs from the template on GitHub pages (e.g., <a href="https://cpmpercussion.github.io/chroma-template/">here (HTML)</a> and <a href="https://cpmpercussion.github.io/chroma-template/article.pdf">here (PDF)</a>).</p>
+
+<p>I’d also like to provide a way to edit an article online. Overleaf works so well for this for LaTeX but it’s not as easy to work out a way to edit markdown and connect to an existing template.</p>
+
+<p>An overall goal would be to have (like in Overleaf) an online workflow for importing a Word document manuscript, editing in markdown and then submitting the automatically generated PDF or HTML file for review. It <em>sort of</em> works with a collection of different tools, but I haven’t had much interest from authors in engaging within the <em>Chroma</em> community in particular.</p>
+
+<h3 id="journal-website">Journal Website</h3>
+
+<p><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> is a venerable and effective way to host a journal as well as manage the reviewing workflow. It’s not very hard to set up in a standard “shared hosting” environment with cPanel. In fact, there’s often a way to install it automatically in cPanel app installer widget.</p>
+
+<p>OJS is fairly detailed and designed for use in journals that are more complicated than our use case (e.g., with different people in charge of review, copy editing, production, etc). I actually only <em>now</em> feel like I understand how the whole publication process is supposed to work, having gone all the way from submission to publication with a couple of papers.</p>
+
+<p>I’m probably most familiar now with the <em>review</em> part of the website as the
+second hardest part of journal editing is getting folks to write reviews (the
+hardest part is getting authors to revise manuscripts). Email deliverability
+can be a tricky issue here. OJS normally likes to send email from PHP using the
+server it is running from which, these days, is probably a bad idea. The IP
+address of the shared hosting server tends to get spam filtered which makes
+getting in touch with reviewers difficult. I switched OJS to use
+<a href="https://docs.pkp.sfu.ca/admin-guide/en/email">SMTP</a> and the email server
+provided by the our web host. I had to make sure the SPF and DKIM records were
+set up correctly, and now I <em>think</em> that the OJS emails are not getting
+labelled as “unverified” or being filtered by IP address.</p>
+
+<p>One cool thing about OJS is that it supports multiple output formats for one article, so one the page for one article (e.g., <a href="https://journal.computermusic.org.au/chroma/article/view/7">Sze Tsang’s “Exploring aspects of place through sound mapping”</a>) you can have links to a PDF and HTML version.</p>
+
+<p>Once published, the metadata for articles seems to get picked up by Google Scholar, which, depending on who you ask, might be the only thing that actually matters :-/</p>
+
+<h3 id="it-works">It works!</h3>
+
+<p>There’s complications and difficulties above, but the takeaway should be: it
+works! It <em>is</em> possible to do a very low budget community-run journal and
+produce pretty good looking PDF output articles. Having tuned the latex
+template a bit, the production part is now very quick for a normal article. The
+main hassles with running the journal at this point are the normal human ones
+of interacting with reviewers and authors!</p>
+
+
+</article>
+
+	    </main>
+	  </div>
+    <footer class="text-light text-center py-5">
+  &copy; Charles P. Martin 2022
+</footer>
+
+	  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

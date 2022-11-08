@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Laptop Music Coding with Gibber</title>
+<meta name="description" content="">
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/music/">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/lab/">lab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
+      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
+      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="jumbotron bg-transparent text-light text-center d-flex align-items-center">
+      <h1 class="heading-logo display-2 mx-auto">Charles Martin</h1>
+    </div>
+
+    
+
+	  <div class="container bg-white rounded">	   
+	    <main class="p-4" aria-label="Content">
+		    <article>
+  <h1>Laptop Music Coding with Gibber</h1>
+  <h6 class="font-italic">10 Jan '21</h6>
+  <p>This is a <em>workshop</em> designed for students who have never done any coding before to start by making some computer music! Here’s the description:</p>
+
+<blockquote>
+  <p>In this session you’ll try out some of the tools used in the <a href="https://comp.anu.edu.au/courses/laptop-ensemble">ANU Laptop Ensemble</a> for making music with code and have a computer music jam with a group! We’ll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.</p>
+</blockquote>
+
+<p>(<em>updated: 6/7/2022</em>)</p>
+
+<h1 id="making-your-laptop-into-a-musical-instrument">Making your Laptop into a Musical Instrument</h1>
+
+<p class="info-box">Welcome to our Laptop Music workshop! In this session we will create some music with computers using a <em>live coding</em> language called <a href="https://gibber.cc">gibber</a>. All you will need is a <strong>computer</strong>, a <strong>web browser</strong> (Chrome is preferred), and some <strong>headphones</strong>!</p>
+
+<h2 id="before-we-start">Before we start</h2>
+
+<p>Here’s the three things you’ll need:</p>
+
+<ul>
+  <li>
+    <p><strong>computer</strong>: any normal laptop/desktop will be work fine, if you’re on-campus the computer labs are already full of computers :-)</p>
+  </li>
+  <li>
+    <p><strong>web browser</strong>: musical websites tend to work best in <strong>Chrome</strong>, <strong>Firefox</strong>, and <strong>Safari</strong> in that order. If you’re a fan of freedom, you might like to try <a href="https://www.chromium.org/"><strong>Chromium</strong></a>, the free and open source version of Google’s Chrome browser (Chromium and Firefox are available in the ANU labs). Unfortunately Gibber doesn’t seem to work well on an iPad, and I haven’t tried on a Chromebook yet.</p>
+  </li>
+  <li>
+    <p><strong>headphones</strong>: this is just to avoid annoying your neighbours but also music tends to sound <em>better</em> with headphones. Note that we can’t provide these in our labs, so <strong>please bring some</strong> with a normal headphone plug.</p>
+  </li>
+</ul>
+
+<h2 id="getting-started-with-gibber">Getting started with Gibber</h2>
+
+<p>If you’re reading this, you’re probably on a computer and have a browser window open – that’s an excellent start already!</p>
+
+<p>Open a new tab or window and head over to <a href="https://gibber.cc">gibber.cc</a>. You’ll see a stylish looking dark, artistic website. Click the link that says “playground”.</p>
+
+<p>The first thing to do is to click anywhere in the main code window. The text will disappear and some example code will appear instead. Select all that code and delete it (just hit backspace); it’s nice to start from a clean slate!</p>
+
+<p>During this tutorial we’re going to enter some code in this editing window, then <strong>execute</strong> it to make a sound. Let’s start by typing in one simple line of code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
+</code></pre></div></div>
+<p><strong>Executing</strong> this line of code means asking the computer to actually <strong>do</strong> what it says. In this case, it means “make a synth(esiser), and play a note at a frequency of 440 Hertz”.</p>
+
+<p>Use the arrow keys to place your cursor anywhere on the line with <code class="language-plaintext highlighter-rouge">Synth().notef(440)</code>, then hold the <code class="language-plaintext highlighter-rouge">Shift</code> key on your keyboard and press the <code class="language-plaintext highlighter-rouge">Enter</code> key to evaluate that line. You should hear a slightly annoying squawk!</p>
+
+<p>You can keep holding <code class="language-plaintext highlighter-rouge">Shift</code> and tapping <code class="language-plaintext highlighter-rouge">Enter</code> to play lots of 440Hz notes! Yay music!</p>
+
+<p>At this point you can play whatever note you want by entering in the correct
+frequency. But perhaps this seems inconvenient; you might like to define notes
+closer to how we read and write music. You actually have two options for
+creating a sound:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
+Synth().note(0)
+</code></pre></div></div>
+<p>If you play each of these lines, you might notice that they are making the same
+sound! That’s ok, it’s meant to happen. The second line is written slightly
+differently (can you see how?) and it is defining a pitch as a note in a scale.
+Try changing it to <code class="language-plaintext highlighter-rouge">Synth().note(1)</code> and play it again. Now it’s different!</p>
+
+<p class="info-box">Gibber understands <em>scale degrees</em> as the main way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound “good” together. Instead of writing “C” we could say “degree 0 of a C major scale”. Gibber has lots of scales built-in (see the Scales tutorial in Gibber’s menu), but you can get started by just using low numbers (e.g., 0-7) in your sequences.</p>
+
+<p>Before we move on, let’s make some more notes. We can change the pitch (frequency) of the note by changing the number in between the parentheses. For example: <code class="language-plaintext highlighter-rouge">Synth().notef(567)</code> will produce a note at 567Hz. Try it out.</p>
+
+<ul>
+  <li>If you press <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> (the control key and enter), instead of <code class="language-plaintext highlighter-rouge">Shift+Enter</code>, what happens?</li>
+  <li>If Gibber is ever too loud or playing sounds you don’t want, you can stop <strong>everything</strong> by hold the <code class="language-plaintext highlighter-rouge">Ctrl</code> key and press the full stop key (<code class="language-plaintext highlighter-rouge">.</code>).</li>
+  <li>By the way, from now on we’ll write the keyboard commands as <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> and <code class="language-plaintext highlighter-rouge">Ctrl+.</code>.</li>
+</ul>
+
+<h2 id="exercise-1-make-a-note">Exercise 1: Make a note</h2>
+
+<p>So far we’ve made “sounds”, but not exactly “music”</p>
+
+<p>To play a song, we need multiple notes in a sequence, not just one at a time.</p>
+
+<p>If you try executing <code class="language-plaintext highlighter-rouge">Synth()</code> you might find that it doesn’t actually do anything. We have to make a synth, and then give it a note to play:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
+s.note(0)
+</code></pre></div></div>
+<p>Try executing each line of code in succession. You should hear a sound start and then stop—that’s a note! You can play it again by just executing the second line.</p>
+
+<p>So what’s going on here? Why do we need two lines of code? The first line of code creates a <code class="language-plaintext highlighter-rouge">Synth</code> which doesn’t do anything until we ask it to play a note. Since we want to play lots of notes, we are going to keep this particular <code class="language-plaintext highlighter-rouge">Synth</code> around, so we will assign it to a variable called <code class="language-plaintext highlighter-rouge">s</code>.</p>
+
+<p>The line of code <code class="language-plaintext highlighter-rouge">s = Synth()</code> creates a <code class="language-plaintext highlighter-rouge">Synth</code> and then saves it to <code class="language-plaintext highlighter-rouge">s</code> so we can use it multiple times.</p>
+
+<p>The next line of code <code class="language-plaintext highlighter-rouge">s.note(0)</code> asks the Synth represented by <code class="language-plaintext highlighter-rouge">s</code> to play a note. The “dot” in between <code class="language-plaintext highlighter-rouge">s</code> and <code class="language-plaintext highlighter-rouge">note</code> is often used in programming to ask something to perform a certain action.</p>
+
+<p>You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Theory.root = 'c4'
+Theory.mode = 'ionian'
+</code></pre></div></div>
+<p>And then running some more <code class="language-plaintext highlighter-rouge">s.note(0)</code> lines with different numbers.</p>
+
+<p class="info-box">If you want to learn more about Gibber after this tutorial, you can look select some example compositions from the drop down menu next to “gibber” in the top left, or click the “reference” link at the top right to read the documentation.</p>
+
+<p>Let’s try a few experiments:</p>
+
+<ul>
+  <li>Can you play a short tune by setting up some “note” commands, and executing them in order?</li>
+  <li>If you happen to press <code class="language-plaintext highlighter-rouge">Ctrl-.</code> in between executing note commands, what happens?</li>
+</ul>
+
+<h2 id="exercise-2-play-a-tune">Exercise 2: Play a tune</h2>
+
+<p>Let’s play a melody, or a <strong>sequence</strong> of notes:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
+s.note.seq([0, 1, 2, 3, 4, 5], 1/4)
+</code></pre></div></div>
+<p>Execute these two lines of code and you should be able to hear a sequence of six notes.</p>
+
+<p>Gibber’s synth objects have a built-in sequencer, in this case, we’re sequencing the <code class="language-plaintext highlighter-rouge">note</code> command, so we’ve put a <code class="language-plaintext highlighter-rouge">seq</code> command after that, and then the parameters of our sequence inside the parentheses. The parameters have two parts”</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(
+    [0, 1, 2, 3, 4, 5], // a list of pitches
+    1/4 // a duration - one quarter of a bar (or a quarter note or crotchet).
+)
+</code></pre></div></div>
+<p>You might be able to hear that the sequence is going through the list of pitches over and over again, and that the duration of each note is the same. In fact, you should also be able to see it becuase Gibber highlights your code to show you what’s going on! So far so good!</p>
+
+<p>It might seem strange that the sequence loops over and over instead of playing just once. Gibber is designed to create electronic music which is often based on <em>looping sequences</em>. So the idea that a sequence of notes loops (by default) is build deeply into it.</p>
+
+<p>Let’s try a few sequence experiments:</p>
+
+<ul>
+  <li>
+    <p>try changing the duration from <code class="language-plaintext highlighter-rouge">1/4</code> to <code class="language-plaintext highlighter-rouge">1/8</code> or <code class="language-plaintext highlighter-rouge">1/16</code> and execute the sequence line again. What happens?</p>
+  </li>
+  <li>
+    <p>try replacing the duration with a <em>list</em> of durations (e.g, <code class="language-plaintext highlighter-rouge">[1/4, 1/8]</code>). What happens when the lists of durations and pitches are the different length?</p>
+  </li>
+  <li>
+    <p>can you figure out a sequence to play a tune you know?</p>
+  </li>
+</ul>
+
+<p class="info-box">A few <strong>sequence tips</strong>: you can stop the sequence by executing <code class="language-plaintext highlighter-rouge">s.stop()</code>. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to execute it (this works for executing any other command as well)</p>
+
+<p>One more sequence trick before moving on! Let’s try a <em>randomised</em> sequence instead of going through the list of pitches in order by adding <code class="language-plaintext highlighter-rouge">.rnd()</code> to the list:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5].rnd(),1/4)
+</code></pre></div></div>
+<p>We can do this for the duration as well:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5], [1/4,1/8].rnd())
+</code></pre></div></div>
+
+<h2 id="exercise-3-groove-with-drums">Exercise 3: Groove with drums</h2>
+
+<p>Let’s try some sequences with some of Gibber’s drum synths. Here’s a kick:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k = Kick()
+k.notef.seq(75, 1/4)
+</code></pre></div></div>
+<p>You might notice that there’s a very simple sequence here—just one pitch (75Hz) and a duration value—kick patterns can be simple!</p>
+
+<p>And some hi-hats:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h = Hat()
+h.trigger.seq(0.4,1/16)
+</code></pre></div></div>
+<p>Note that we are using <code class="language-plaintext highlighter-rouge">trigger.seq</code> with the hats, not <code class="language-plaintext highlighter-rouge">note.seq</code>. “Trigger” is useful when you don’t want to change the pitch, the “0.4” in that code refers to the volume (between 0 and 1).</p>
+
+<p>There’s another (maybe simpler) way of make a drum pattern in Gibber:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d = Drums()
+d.tidal('kd sd kd sd')
+</code></pre></div></div>
+<p>This synth includes four drum sounds: kick: <code class="language-plaintext highlighter-rouge">kd</code>, snare: <code class="language-plaintext highlighter-rouge">sd</code>, closed hat: <code class="language-plaintext highlighter-rouge">ch</code>, and open hat: <code class="language-plaintext highlighter-rouge">oh</code>.</p>
+
+<p>This uses a style of pattern notation called <code class="language-plaintext highlighter-rouge">tidal</code> (after another live coding system, <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal cycles</a>). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add <code class="language-plaintext highlighter-rouge">*2</code> after it. So to do “we will rock you” you write:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('kd sd kd*2 sd')
+</code></pre></div></div>
+<p>To play two sounds together, you put them in square brackets with a comma in between, e.g.: <code class="language-plaintext highlighter-rouge">[kd, ch]</code>. So we could have a complete beat like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('[kd, ch] ch [sd, ch] ch [kd, ch] ch [sd, ch] oh')
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Try out some different combinations of repeated and simultaneous notes in a drum pattern.</p>
+  </li>
+  <li>
+    <p>Try the <code class="language-plaintext highlighter-rouge">EDrums()</code> kit as well—these work the same way, but sound like a drum machine. You also get two extra sounds: clap <code class="language-plaintext highlighter-rouge">cp</code> and cowbell <code class="language-plaintext highlighter-rouge">cb</code>.</p>
+  </li>
+  <li>
+    <p>Try using <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal</a> expressions with other synths, this is a really expressive way to write complicated sequences quickly!</p>
+  </li>
+</ul>
+
+<p class="info-box">The <code class="language-plaintext highlighter-rouge">Drums</code> synth plays back sound files (samples). So it is actually a bit different than the <code class="language-plaintext highlighter-rouge">Kick</code> and <code class="language-plaintext highlighter-rouge">Hat</code> instruments we used above. Have a look in the <a href="https://gibber.cc/playground/docs/index.html#instruments-drums">reference</a> to see how this works.</p>
+
+<h2 id="exercise-4-time-for-techno">Exercise 4: Time for techno</h2>
+
+<p>It’s been said that the minimum you need to make techno is <a href="https://youtu.be/4jCCzpWBsFs?t=160">drums, bass, a lead synth, and freaky noises</a>. So let’s get those things and make some <a href="https://en.wikipedia.org/wiki/Electronic_dance_music">EDM</a>.</p>
+
+<p>We’ve already got drums, and your <code class="language-plaintext highlighter-rouge">Synth</code> sequences from Exercise 2 can be the lead, so let’s get a bass sound:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b = FM('bass')
+b.note.seq(-7, 1/16)
+</code></pre></div></div>
+<p>This code uses the <code class="language-plaintext highlighter-rouge">FM</code> synth, a classic synthesis design and a preset to make a nice bassy sound. Done!</p>
+
+<p>Well, let’s make that bass a <em>little</em> bit interesting. The FM synth has a parameter called <em>index</em> which we can sequence to change it’s tone:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b.index.seq([2,3,4,5,6],1/16)
+</code></pre></div></div>
+<p>Now that sounds cool! Some things to try:</p>
+
+<ul>
+  <li>
+    <p>Set up drums, bass, and lead parts playing a pattern together. Use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to make sure your sequences all line up.</p>
+  </li>
+  <li>
+    <p>Once you have some patterns running, start making small changes to the sequences and executing them again—Now you’re live coding!</p>
+  </li>
+  <li>
+    <p>Try using <code class="language-plaintext highlighter-rouge">Rndi</code> in a note sequence to generate pitches randomly, e.g., <code class="language-plaintext highlighter-rouge">Rndi(0,7)</code> will generate random scale degrees from 0 to 7.</p>
+  </li>
+  <li>
+    <p>Rather than setting the durations manually, try using the <code class="language-plaintext highlighter-rouge">Euclid</code> function. This generates <a href="http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf">Euclidean rhythms</a>—even spacing of pulses in a bar that are algorithmically guaranteed to sound cool! You use this function with two numbers, e.g., <code class="language-plaintext highlighter-rouge">Euclid(3,8)</code> will generate three notes in a bar evenly divided into 8 parts.</p>
+  </li>
+</ul>
+
+<p>Combining the last two ideas, you could set up a sequence like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(Rndi(0,7), Euclid(7,16))
+</code></pre></div></div>
+
+<ul>
+  <li>What about the freaky noises? Maybe you could try another synth from the <a href="https://gibber.cc/playground/docs/index.html#instruments">Gibber manual</a>.</li>
+</ul>
+
+<h2 id="heres-one-i-made-earlier">Here’s one I made earlier</h2>
+
+<p>Well, here’s some techno I made a bit earlier. You could try this as a starting point for your own work or just look to see how some other modulations might work! (There’s a few things below that aren’t covered above!)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clock.bpm = 120
+Theory.root = 'c4'
+Theory.mode = 'aeolian'
+
+s = Synth("bleep").fx.add(Reverb())
+s.note.seq(sine(btof(7.6),7,0), Euclid(5,16))
+
+s.stop()
+
+k = Kick()
+k.notef.seq(70, 1/4)
+
+k.stop()
+
+h = Hat()
+h.trigger.seq(sine(3,0.6,0.05), [1/16,1/8].rnd())
+h.tune.seq(Rndf(0.5,0.7), 1/16)
+
+h.stop()
+
+c = Clave().fx.add(Reverb())
+c.trigger.seq(sine(0.2,.1,.4), Euclid(6,16))
+c.note.seq(sine(5.01,4,5), Euclid(6,16))
+
+c.stop()
+
+cl = Clap().fx.add(Reverb())
+cl.trigger.seq(0.6,1,0,1/4)
+
+b = FM('bass')
+b.note.seq(-7,1/16)
+b.index.seq([2,3,4,5,6],1/16)
+</code></pre></div></div>
+
+<p class="info">One last key command: <code class="language-plaintext highlighter-rouge">Alt-Enter</code> will execute <em>multiple</em> lines of code at once as long as they don’t have empty lines in between. This can be handy for triggering a couple of musical actions to start at the same time.</p>
+
+<h2 id="this-is-just-the-start">This is just the start!</h2>
+
+<p>There’s a lot to learn about Gibber, synthesis, live coding, music tech, and computing! Don’t worry if this seems overwhelming. A good start for today is to make some sounds and try changing them a bit in Gibber!</p>
+
+<p>If you want to learn more about <em>computer music</em> have a look at these resources:</p>
+
+<ul>
+  <li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+  <li><a href="https://noisecraft.app">NoiseCraft</a></li>
+  <li><a href="https://comp.anu.edu.au/courses/laptop-ensemble/">ANU Latptop Ensemble Page</a></li>
+</ul>
+
+
+</article>
+
+	    </main>
+	  </div>
+    <footer class="text-light text-center py-5">
+  &copy; Charles P. Martin 2022
+</footer>
+
+	  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>
