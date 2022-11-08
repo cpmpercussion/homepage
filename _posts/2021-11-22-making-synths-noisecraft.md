@@ -5,13 +5,8 @@ author: Charles Martin
 date: 2021-11-22
 ---
 
-## Building Synths in NoiseCraft
 
-> A synthesis tutorial by Charles Martin, 2021 ([charlesmartin.com.au](https://charlesmartin.com.au))
-
-[NoiseCraft](https://noisecraft.app/) is a website that lets you build your own synthesiser by connecting together modules that create or modify electronic sounds.
-
-In this tutorial you'll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser.
+In this tutorial you'll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the synthesiser you'll use [NoiseCraft](https://noisecraft.app/), a website that lets you build your own synthesiser by connecting together modules that create or modify electronic sounds.
 
 The goals of the tutorial are:
 
