@@ -268,6 +268,13 @@ One last key command: `Alt-Enter` will execute _multiple_ lines of code at once 
 
 There's a lot to learn about Gibber, synthesis, live coding, music tech, and computing! Don't worry if this seems overwhelming. A good start for today is to make some sounds and try changing them a bit in Gibber!
 
+If you want to learn more about _computer music_ have a look at these resources:
+
+- [Learning Synths](https://learningsynths.ableton.com/)
+- [NoiseCraft](https://noisecraft.app)
+- [ANU Latptop Ensemble Page](https://comp.anu.edu.au/courses/laptop-ensemble/)
+
+
 {% comment %}
 // Comment from Charlie about how to make random pattern filter work with durations
 
