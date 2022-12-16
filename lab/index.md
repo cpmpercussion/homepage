@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SMCCLAB: Sound, Music and Creative Computing Lab
+title: "SMCCLAB: Sound, Music and Creative Computing Lab"
 permalink: /lab/
 ---
 
