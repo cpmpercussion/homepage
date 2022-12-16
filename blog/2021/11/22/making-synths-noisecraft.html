@@ -79,12 +79,29 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
-      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
-      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
-      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
     </ul>
+    <!-- unlisted links -->
+    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
 </nav>
 
@@ -114,7 +131,8 @@
 
 <ul>
   <li>Get on to a laptop or desktop computer and open up a web browser.</li>
-  <li>Type <code class="language-plaintext highlighter-rouge">https://noisecraft.app/</code> in the location bar and press <code class="language-plaintext highlighter-rouge">Enter</code></li>
+  <li>Type <code class="language-plaintext highlighter-rouge">https://noisecraft.app/</code> in the location bar and press <code class="language-plaintext highlighter-rouge">Enter</code>
+</li>
 </ul>
 
 <p>You’ll see <strong>NoiseCraft</strong> website. It’s just a big empty space! That’s right, <strong>you</strong> have to create the synthesiser here, but that’s great because when <strong>you create something</strong> you understand it.</p>
@@ -261,13 +279,13 @@
 
 <p>The <em>shape</em> of a note is called the <em>envelope</em>. It’s the chunk of time that a note lives in with changes in volume and timbre of a sound over that time.</p>
 
-<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/envelope-sound.png" alt="We can change the amplitude over the [envelope](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/amplitude-envelope) to give a note a sonic “shape”." /></p>
+<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/envelope-sound.png" alt="We can change the amplitude over the [envelope](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/amplitude-envelope) to give a note a sonic “shape”."></p>
 
 <p>So now we are going to create an envelope generator (EG) for our synth in NoiseCraft.</p>
 
 <p>NoiseCraft has an EG node called <strong>ADSR</strong>. This creates envelope shapes in a particular 4-stage envelope which is popular for synthesisers:</p>
 
-<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/adsr.png" alt="[ADSR](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/adsr-envelope) stands for &quot;attack&quot;, &quot;decay&quot;, &quot;sustain&quot;, &quot;release&quot;. These are the four phases of a pitched note." /></p>
+<p><img src="https://cs.anu.edu.au/courses/comp2300/assets/lectures/synth/adsr.png" alt='[ADSR](https://cs.anu.edu.au/courses/comp2300/lectures/digital-synthesis/#/adsr-envelope) stands for "attack", "decay", "sustain", "release". These are the four phases of a pitched note.'></p>
 
 <p>Create an <strong>ADSR</strong> node. An EG also creates signals but instead of listening to it, we use it to control other nodes.</p>
 
@@ -456,7 +474,8 @@
 	    </main>
 	  </div>
     <footer class="text-light text-center py-5">
-  &copy; Charles P. Martin 2022
+  © Charles P. Martin 2022
+  <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
 </footer>
 
 	  

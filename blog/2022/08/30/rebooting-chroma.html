@@ -79,12 +79,29 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
-      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
-      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
-      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
     </ul>
+    <!-- unlisted links -->
+    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
 </nav>
 
@@ -104,14 +121,17 @@
 
 <p>Skipping to the end first, we now have a first issue <a href="https://journal.computermusic.org.au/chroma/issue/view/1">“Rebooting Chroma”</a> with progressively released, open access articles from computer musicians, music technologists, and composers. The journal costs less than 100AUD per year to run and has no costs for authors.</p>
 
-<p><img src="/assets/blog/2022/chroma-volume-38.jpg" alt="Rebooting Chroma, volume 38 cover" /></p>
+<p><img src="/assets/blog/2022/chroma-volume-38.jpg" alt="Rebooting Chroma, volume 38 cover"></p>
 
 <p>We use:</p>
 
 <ul>
-  <li>a markdown-to-pdf workflow for all articles, the <a href="https://github.com/cpmpercussion/chroma-template">Chroma Template</a></li>
-  <li><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> for creating the journal website and reviewing system</li>
-  <li>old-school shared hosting with cPanel to host everything as well as the wordpress site for <a href="https://computermusic.org.au">our community</a></li>
+  <li>a markdown-to-pdf workflow for all articles, the <a href="https://github.com/cpmpercussion/chroma-template">Chroma Template</a>
+</li>
+  <li>
+<a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> for creating the journal website and reviewing system</li>
+  <li>old-school shared hosting with cPanel to host everything as well as the wordpress site for <a href="https://computermusic.org.au">our community</a>
+</li>
 </ul>
 
 <p>In this post I want to document a bit of what I have put together to get this journal working. My strong belief is that folks shouldn’t have to pay thousands of dollars to publish journal articles with big publishers: we academics should be running community journals by and for each other where (as peer-reviewers and editors) we can keep an eye on quality as well as support emerging researchers. Community-run journals can run at (almost) zero cost to the researchers and readers they serve by leaning into web-first publishing using free tools.</p>
@@ -139,7 +159,8 @@ latex template file, a demo article, and some scripts to tie everything
 together. The workflow works like this:</p>
 
 <ol>
-  <li>I run a little script that uses pandoc to extract the text and images from the author’s manuscript: <code class="language-plaintext highlighter-rouge">pandoc -i $1 -o article.md --extract-media .</code></li>
+  <li>I run a little script that uses pandoc to extract the text and images from the author’s manuscript: <code class="language-plaintext highlighter-rouge">pandoc -i $1 -o article.md --extract-media .</code>
+</li>
   <li>I paste the output into the template’s <code class="language-plaintext highlighter-rouge">article.md</code> file, and fix up the metadata</li>
   <li>I run <code class="language-plaintext highlighter-rouge">make</code> in the repository to generate the PDF and a bonus HTML version!</li>
 </ol>
@@ -157,7 +178,7 @@ files, but in practice my job is to take what authors give me and create a PDF.<
 
 <p>From my perspective, the production part of editing the journal takes place in a normal code editor like this:</p>
 
-<p><img src="/assets/blog/2022/chroma-template.jpg" alt="editing a chroma article in VSCode" /></p>
+<p><img src="/assets/blog/2022/chroma-template.jpg" alt="editing a chroma article in VSCode"></p>
 
 <p>Mostly the markdown output from pandoc makes, sense, but I have found that I need to wrap the reference section in a latex <code class="language-plaintext highlighter-rouge">hangparas</code> environment to get them to work correctly:</p>
 
@@ -221,7 +242,8 @@ of interacting with reviewers and authors!</p>
 	    </main>
 	  </div>
     <footer class="text-light text-center py-5">
-  &copy; Charles P. Martin 2022
+  © Charles P. Martin 2022
+  <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
 </footer>
 
 	  

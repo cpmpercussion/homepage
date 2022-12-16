@@ -79,12 +79,29 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
-      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
-      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
-      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
     </ul>
+    <!-- unlisted links -->
+    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
 </nav>
 
@@ -103,7 +120,7 @@
   <p>I made a simple heartbeat sensor using an Arduino which sends OSC signals at each heartbeat over a network. I’m using the heartbeat sensor as an awesome prop in my show 
  which is on at the Street Theatre in Canberra!</p>
 
-<p><img src="/assets/blogger/heartbeat-enclosure.jpg" alt="" /></p>
+<p><img src="/assets/blogger/heartbeat-enclosure.jpg" alt=""></p>
 
 <p>There’s a new video <a href="http://gallery.me.com/cpmartin#100259">here</a>.</p>
 
@@ -220,7 +237,7 @@ void loop() {
 
 <p>I wanted it to communicate with the computer and send data to SuperCollider. As a proof of concept, I’ve connected the Arduino to SuperCollider via a Processing script that translates serial data from the Arduino into OSC messages. Here’s a video demonstration:</p>
 
-<p><img src="/assets/blogger/heartbeat-sensor-test-circuit.jpg" alt="" /></p>
+<p><img src="/assets/blogger/heartbeat-sensor-test-circuit.jpg" alt=""></p>
 
 <p>Arduino and the sensor circuit. My phone camera can see in infrared.</p>
 
@@ -233,7 +250,7 @@ void loop() {
   <li>220Ohm resistor</li>
 </ul>
 
-<p><img src="/assets/blogger/heartbeat-sensor-circuit-diagram.jpg" alt="" /></p>
+<p><img src="/assets/blogger/heartbeat-sensor-circuit-diagram.jpg" alt=""></p>
 
 <p>The simple circuit is the same as for an IR range sensor, commonly used in robot projects. The easiest way to start looking at data form an Arduino’s analogue input is to follow the 
 <a href="http://www.arduino.cc/en/Tutorial/Graph">Arduino Graph tutorial</a>.</p>
@@ -242,13 +259,13 @@ void loop() {
 
 <p>The phototransistor is connected to the Arduino in a similar way to a potentiometer. One lead is connected to +5V and the other to ground. The +5V lead is also connected to an analogue input on the Arduino. When the phototransistor receives more IR light it becomes more resistive and a lower voltage is detected by the analogue input.</p>
 
-<p><img src="/assets/blogger/heartbeat-sensor-closeup.jpg" alt="" /></p>
+<p><img src="/assets/blogger/heartbeat-sensor-closeup.jpg" alt=""></p>
 
-<p><img src="/assets/blogger/heartbeat-circuit-freeform.jpg" alt="" /></p>
+<p><img src="/assets/blogger/heartbeat-circuit-freeform.jpg" alt=""></p>
 
 <p>The circuit all soldered together and held together with double sided tape. It was then wrapped up in electrical tape to protect it and shield the phototransistor from other light sources.</p>
 
-<p><img src="/assets/blogger/heartbeat-data.png" alt="Graph of the sensor output! Each little bump is a heartbeat!" /></p>
+<p><img src="/assets/blogger/heartbeat-data.png" alt="Graph of the sensor output! Each little bump is a heartbeat!"></p>
 
 <p>Graph of the sensor output! Each little bump is a heartbeat!</p>
 
@@ -414,7 +431,8 @@ o.remove; // remove the OSCresponder.
 	    </main>
 	  </div>
     <footer class="text-light text-center py-5">
-  &copy; Charles P. Martin 2022
+  © Charles P. Martin 2022
+  <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
 </footer>
 
 	  

@@ -79,12 +79,29 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
-      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
-      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
-      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
     </ul>
+    <!-- unlisted links -->
+    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
 </nav>
 
@@ -124,7 +141,7 @@
 
 <p>As a second bonus, a nicely set out git repo will look cool in GitLab or GitHub:</p>
 
-<p><img src="/assets/blog/2020/keras-mdn-layer-project.png" alt="Charles' Keras MDN Layer Repository" /></p>
+<p><img src="/assets/blog/2020/keras-mdn-layer-project.png" alt="Charles' Keras MDN Layer Repository"></p>
 
 <h2 id="project-structure">Project Structure</h2>
 
@@ -157,7 +174,8 @@
   <li>Having a main <code class="language-plaintext highlighter-rouge">README.md</code> is pretty much mandatory (more below)</li>
   <li>Having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).</li>
   <li>The <code class="language-plaintext highlighter-rouge">requirements.txt</code> file is a lightweight way to list a Python module’s requirements. You can and should work in a virtual environment so that you can keep track of <a href="https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1">what other modules are required to run your code</a>. A more advanced way to do this would be with <a href="https://python-poetry.org">Poetry</a>.</li>
-  <li><code class="language-plaintext highlighter-rouge">setup.py</code> might allow others to <a href="https://stackoverflow.com/questions/1471994/what-is-setup-py">install your module, or for you to distribute it</a>. cool!</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">setup.py</code> might allow others to <a href="https://stackoverflow.com/questions/1471994/what-is-setup-py">install your module, or for you to distribute it</a>. cool!</li>
   <li>If you only need one code file for your project, you could simply name it <code class="language-plaintext highlighter-rouge">project_name.py</code> and place it in your repo. If you want multiple files as part of a module, you’ll need a directory called <code class="language-plaintext highlighter-rouge">project_name</code>, and (traditionally) <a href="https://stackoverflow.com/questions/448271/what-is-init-py-for">a main file</a> called <code class="language-plaintext highlighter-rouge">__init__.py</code>.</li>
 </ul>
 
@@ -211,7 +229,7 @@
 
 <h2 id="status-badges">Status Badges</h2>
 
-<p>Oh you like my status badges? You want your repo to say <img src="https://travis-ci.org/dwyl/esta.svg?branch=master" alt="Build Passing" style="width:100px; display:inline-block;vertical-align:middle;" />?</p>
+<p>Oh you like my status badges? You want your repo to say <img src="https://travis-ci.org/dwyl/esta.svg?branch=master" alt="Build Passing" style="width:100px; display:inline-block;vertical-align:middle;">?</p>
 
 <p>These little badge images appear on lots of nice Git Repos and generally advertise how great and well-tested and published our repos are.</p>
 
@@ -229,7 +247,7 @@
 
 <p>GitHub doesn’t allow HTML embeds when displaying readme files, but you might make a short (e.g., 10 sec) video into <a href="https://giphy.com">a gif</a> and include that instead, e.g.:</p>
 
-<p><img src="https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif" alt="" /></p>
+<p><img src="https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif" alt=""></p>
 
 <p>For sound, you could link to soundfiles stored on <a href="https://soundcloud.com">Soundcloud</a> or <a href="https://clyp.it">clyp.it</a>, and for video you could link to a YouTube or Vimeo upload.</p>
 
@@ -239,7 +257,8 @@
 	    </main>
 	  </div>
     <footer class="text-light text-center py-5">
-  &copy; Charles P. Martin 2022
+  © Charles P. Martin 2022
+  <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
 </footer>
 
 	  

@@ -79,12 +79,29 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a href="https://twitter.com/cpmpercussion" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a href="https://instagram.com/cpmpercussion" class="nav-link"><i class="fab fa-instagram"></i></a></li>
-      <li class="nav-item"><a href="https://github.com/cpmpercussion" class="nav-link"><i class="fab fa-github"></i></a></li>
-      <li class="nav-item"><a href="https://soundcloud.com/charlesmartin" class="nav-link"><i class="fab fa-soundcloud"></i></a></li>
-      <li class="nav-item"><a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link"><i class="ai ai-google-scholar-square"></i></a></li>
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
     </ul>
+    <!-- unlisted links -->
+    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
 </nav>
 
@@ -100,7 +117,7 @@
 		    <article>
   <h1>Networked Heartbeat Sensor with Arduino!</h1>
   <h6 class="font-italic">01 Nov '10</h6>
-  <p><img src="/assets/squarespace_images/2010-11-01-HearbeatSensor1.jpg" alt="" /></p>
+  <p><img src="/assets/squarespace_images/2010-11-01-HearbeatSensor1.jpg" alt=""></p>
 
 <p>This project was my first foray in the exciting world of bio-sensors! A few years ago I started a multimedia performance group called <a href="http://www.lastmantodie.net">Last Man to Die</a>, I knew that I wanted to hook our bodies up to computers to affect musical and visual aspects of performance. The first way to do this I thought of was a heartbeat sensor! A little bit of research showed that there were cheap and easy ways to build a heartbeat sensor that could connect to an Arduino, but there were a few hurdles I had to work out before it was ready for performance!</p>
 
@@ -121,7 +138,7 @@
 
 <p>Of course, you also need an Arduino (from <a href="http://www.littlebirdelectronics.com/products/Arduino-Uno.html">Little Bird</a>).</p>
 
-<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatDiagram.jpg" alt="The heartbeat sensor circuit diagram." /> The heartbeat sensor circuit diagram.</p>
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatDiagram.jpg" alt="The heartbeat sensor circuit diagram."> The heartbeat sensor circuit diagram.</p>
 
 <h3 id="heres-the-circuit-diagram">Here’s the circuit diagram:</h3>
 
@@ -133,11 +150,11 @@
 
 <p>Here’s a picture of my test circuit on a breadboard, note that my IR receiver and emitter look like regular round LEDs so I set them up so that the lenses were adjacent and both pointing up. Different types of IR receivers/emitters look different, check the data sheet to see where the IR light enters/exits.</p>
 
-<p><img src="/assets/squarespace_images/2010-11-01-SensorTestCircuit.jpg" alt="" /></p>
+<p><img src="/assets/squarespace_images/2010-11-01-SensorTestCircuit.jpg" alt=""></p>
 
 <p>Arduino and the sensor circuit. My phone camera can see in infrared.</p>
 
-<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatData.jpg" alt="" /></p>
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatData.jpg" alt=""></p>
 
 <p>Raw data from the heartbeat senso. Each little bump is a heartbeat!</p>
 
@@ -145,8 +162,8 @@
 
 <p>To finish the circuit, I soldered it in free form style since I wanted it to be as small as possible, I used some foam tape to separate the detector and emitter leaving just the lens visible and held it together with electrical tape.</p>
 
-<p><img src="/assets/squarespace_images/2010-11-01-Sensor1.jpg" alt="" />
-<img src="/assets/squarespace_images/2010-11-01-Sensor2.jpg" alt="" /></p>
+<p><img src="/assets/squarespace_images/2010-11-01-Sensor1.jpg" alt="">
+<img src="/assets/squarespace_images/2010-11-01-Sensor2.jpg" alt=""></p>
 
 <h2 id="programming">Programming</h2>
 
@@ -439,7 +456,7 @@ void loop() {
 
 <p>I wrapped the final result up in a crazy plastic box, so the audience can see the blinky lights and know that it’s a real thing and not a prop. Here’s a photo from a rehearsal using the sensor:</p>
 
-<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatAction.jpg" alt="" /></p>
+<p><img src="/assets/squarespace_images/2010-11-01-HeartbeatAction.jpg" alt=""></p>
 
 <p>PS, I used this project with this group: <a href="http://www.lastmantodie.net">Last Man to Die</a></p>
 
@@ -452,7 +469,8 @@ void loop() {
 	    </main>
 	  </div>
     <footer class="text-light text-center py-5">
-  &copy; Charles P. Martin 2022
+  © Charles P. Martin 2022
+  <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
 </footer>
 
 	  
