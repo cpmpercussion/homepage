@@ -24,8 +24,9 @@ Our work combines three cutting edge fields of research:
 
 ## Current Lab Members
 
-- [Yichen Wang](https://yichenwangs.github.io/yichen/)  (PhD Candidate)
-- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/?originalSubdomain=au) (PhD Candidate)
+- [Minsik Choi]() (PhD Researcher)
+- [Yichen Wang](https://yichenwangs.github.io/yichen/)  (PhD Researcher)
+- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/?originalSubdomain=au) (PhD Researcher)
 - [Brent Schuetze](http://bschuetze.xyz) (Research Assistant)
 
 ([list of graduated students]({% link lab/graduates.md %}))
