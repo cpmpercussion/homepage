@@ -28,7 +28,7 @@ I used to teach:
 
 ## Research Students
 
-I supervise and co-supervise PhD and Master's students at the ANU and at University of Oslo. My previous students' published work is [listed here]({{site.baseurl}}/students/pubs/).
+I supervise and co-supervise PhD and Master's students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link lab/graduates.md %}).
 
 ### PhD Students (co-supervisor):
 
@@ -37,7 +37,10 @@ I supervise and co-supervise PhD and Master's students at the ANU and at Univers
 
 ## Student Projects
 
-I'm available to supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. I'm interested in creating and studying new computing systems at the nexus of creative arts, physical embodiment, interaction, and intelligence.
+{:.info-box}
+I'm not recruiting student projects in 2023!
+
+I supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. I'm interested in creating and studying new computing systems at the nexus of creative arts, physical embodiment, interaction, and intelligence.
 
 Projects could involve:
 
