@@ -100,6 +100,15 @@ The seminar would normally be:
 
 Your seminar should take place at least one week **after** your TPR document has been submitted officially (so that all supervisors have a chance to read the written version of your TPR).
 
+### Hints for your TPR process
+
+- talk to other PhD students / recent grads about their TPR experience to gauge the expectations
+- attend the ANU TPR bootcamp _if you want_ for inspiration, but not direction as all ANU schools have different requirements and some expect a very long TPR (e.g., 50 pages)
+- some folks view the TPR as "box ticking" and not to be taken seriously, this is not the approach within my lab, I expect a real effort to level up your articulation of your research plan which is hard work regardless of the length of document
+- the TPR is one of the few opportunities for supervisors to officially provide negative feedback with consequences, if you don't engage with the process properly and seek early feedback you may be asked to redo/resubmit your TPR document
+
+
+
 
 
 
