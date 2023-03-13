@@ -73,7 +73,7 @@ The ANU and CECC guidelines show that all members of your panel need to provide 
 
 ### SMCClab requirements
 
-So given the above, for your TPR you should prepare a document and (optionally) a presentation.
+So given the above, for your TPR you should prepare a document and (optionally) a presentation. Here's what we expect in the SMCClab:
 
 #### Document
 
@@ -81,11 +81,25 @@ So given the above, for your TPR you should prepare a document and (optionally) 
 - PDF produced in Latex with _excellent_ formatting and referencing (APA author-date style referencing preferred)
 - Follow a standard structure: introduction, related work, proposed (and completed) methodology, research results to date, discussion of findings so far and expectations for future studies
 - You don't need to repeat the content of existing manuscripts (just refer to them)
+- Your TPR document should provide a clear and persuasive description of your research problem and how you intend to address it. 
+- Your plan should be backed by evidence from the literature and your research so far.
+- The future work plan should propose specific research projects that will likely be associated with an important publication.
 
-Your TPR document should provide a clear and persuasive de
-
-
+You should plan to have your TPR document completed at least one week before you "submit" it in the eForm system so that (at least) I have a chance to provide feedback on it before it is submitted.
 
 #### Seminar
+
+A seminar or presentation of your TPR is _not required_ by ANU policies. That said, many groups in the School of Computing expect students at the TPR level to do a public presentation as part of the TPR assessment.
+
+The seminar would normally be:
+
+- 45 minutes with 15 minutes for questions
+- scheduled to take place in a public seminar room (e.g., CSIT Room N101, Hanna Neumann building Board Room)
+- be advertised on the School / Cluster mailing lists
+- be structured similarly to your TPR document but with more focus on justifying your research problem, your work so far and (briefly) what you plan to do next (nobody wants to hear a literature review being read out loud)
+
+Your seminar should take place at least one week **after** your TPR document has been submitted officially (so that all supervisors have a chance to read the written version of your TPR).
+
+
 
 
