@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "bibliography.css",
-	"sources": [
-		"bibliography.scss"
-	],
-	"sourcesContent": [
-		"// Bibliography boxes\n*, ::after, ::before {\n    box-sizing: border-box;\n}\n\n.bib-collapse {\n    display: block;\n    max-height: 0px;\n    overflow: hidden;\n    /*transition: max-height .5s cubic-bezier(0, 1, 0, 1);*/\n    &.show {\n        max-height: 99em;\n        /*transition: max-height .5s ease-in-out;*/\n    }\n}\n"
-	],
-	"names": [],
-	"mappings": "AACA,AAAA,CAAC,GAAI,KAAK,GAAI,MAAM,AAAC,CACjB,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,GAAG,CACf,QAAQ,CAAE,MAAM,CAMnB,AATD,AAKI,aALS,AAKR,KAAK,AAAC,CACH,UAAU,CAAE,IAAI,CAEnB"
-}
+{"version":3,"sourceRoot":"","sources":["bibliography.scss"],"names":[],"mappings":"AACA,mBACI,sBAGJ,cACI,cACA,eACA,gBAEA,mBACI","sourcesContent":["// Bibliography boxes\n*, ::after, ::before {\n    box-sizing: border-box;\n}\n\n.bib-collapse {\n    display: block;\n    max-height: 0px;\n    overflow: hidden;\n    /*transition: max-height .5s cubic-bezier(0, 1, 0, 1);*/\n    &.show {\n        max-height: 99em;\n        /*transition: max-height .5s ease-in-out;*/\n    }\n}\n"],"file":"bibliography.css"}
