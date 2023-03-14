@@ -29,6 +29,7 @@ group :jekyll_plugins do
    gem "jekyll-paginate-v2"
    gem 'jekyll-scholar'
    gem 'jekyll-fontawesome-svg'
+   gem 'jekyll-toc'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
