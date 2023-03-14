@@ -31,6 +31,17 @@ Our work combines three cutting edge fields of research:
 
 ([list of graduated students]({% link lab/graduates.md %}))
 
+## Lab Pages
+
+- [Alumni and graduated students]({% link lab/graduates.md %})
+- [Milestone expectations for PhD/MPhil students]({% link lab/milestones.md %})
+- [Getting started with research writing]({% link _posts/2021-08-14-how-to-start-research-writing.md %})
+- [Presenting a software project]({% link _posts/2020-08-09-student-project-repository.md %})
+- [So you want to do a PhD/Masters/Honours/Project...]() (todo...)
+- [Expectation setting for PhD/MPhil students]() (todo...)
+
+
+
 ## Projects
 
 Here's some information about some musical AI projects we have worked on.
