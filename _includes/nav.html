@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
   <a class="navbar-brand" href="#">
-    <img src="{% link /assets/images/cpm-logo-white.svg %}" width="40" class="d-inline-block align-top" alt="">
+    <img src="{% link /assets/images/cpm-logo-white.svg %}" width="40" class="d-inline-block align-top" alt="Logo">
     cpm
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
     <ul class="navbar-nav">
       {% for link in site.data.navigation %}
       {% assign class = nil %}
@@ -20,7 +20,7 @@
       {% endfor %}
     </ul>
 
-    <ul class="nav navbar-nav ml-auto">
+    <ul class="navbar-nav">
       <li class="nav-item">
 	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
 		      <i class="fab fa-mastodon"></i></a></li>
@@ -37,7 +37,8 @@
 	      <a href="https://scholar.google.no/citations?user={{site.googlescholar}}" class="nav-link">
 		      <i class="ai ai-google-scholar-square"></i></a></li>
     </ul>
-    <!-- unlisted links -->
-    <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+  </div>
   </div>
 </nav>
+<!-- unlisted links -->
+<a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
