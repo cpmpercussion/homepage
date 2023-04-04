@@ -99,12 +99,58 @@
 	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
 		      <i class="ai ai-google-scholar-square"></i></a>
 </li>
+      <li class="nav-item">
+	<button class="btn" id="btnSwitch">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewbox="0 0 16 16">
+  	  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"></path>
+	  </svg>
+	</button>
+      </li>
     </ul>
   </div>
   </div>
 </nav>
 <!-- unlisted links -->
 <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+<script>
+
+/*!
+ * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ */
+const storedTheme = localStorage.getItem('theme')
+
+  const getPreferredTheme = () => {
+    if (storedTheme) {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+
+  const setTheme = function (theme) {
+    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-bs-theme', 'dark')
+    } else {
+      document.documentElement.setAttribute('data-bs-theme', theme)
+    }
+  }
+
+  setTheme(getPreferredTheme())
+
+  // Super simple dark mode: Carol Skelly on StackOverflow
+  // https://stackoverflow.com/a/63087710
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        setTheme('light')
+    }
+    else {
+	setTheme('dark')
+    }
+})
+</script>
 
 
     <div class="p-5 mb-4 rounded-3 bg-transparent text-light text-center d-flex align-items-center">
@@ -113,7 +159,7 @@
 
     
 
-	  <div class="container bg-white rounded">	   
+	  <div class="container rounded bg-body">	   
 	    <main class="p-4" aria-label="Content">
 		    <article>
 <div class="my-4 py-4">
@@ -205,7 +251,7 @@ from Berlin.</p>
 	  </div>
     
 <footer class="container py-3 px-5">
-  <div class="p-4 mb-4 bg-dark rounded-3 text-light text-center">
+  <div class="p-4 mb-4 bg-secondary text-color-secondary rounded-3 text-center">
     © Charles P. Martin 2022
     <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
   </div>
