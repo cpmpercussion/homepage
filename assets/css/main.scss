@@ -102,15 +102,18 @@ $ui-2: #F0D564;
 $ui-3: #F7AE48;
 $ui-4: #DC702F;
 
+// add the bg-gradient to any element
+.cpm-grad {
+    color: #fff;
+    background: $ui-gradient !important; 
+}
+
 .heading-logo {
-    //border-style: solid;
-    //border-color: #fff;
-    //border-width: 5px;
-    //padding: 1rem;
     font-size: 5.5rem;
     font-size: 7vw !important;
     background: $ui-gradient;
 }
+
 
 .nav-item {
     .active {
