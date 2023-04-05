@@ -4,18 +4,15 @@ layout: default
 
 <article>
   {% if page.title %}
-  <div class="my-4 py-4">
-    <h1 class="display-5">{{ page.title }}</h1>
+  <div class="my-4">
+    <h1 class="">{{ page.title }}</h1>
   </div>
   {% endif %}
 
-  {% if page.toc %}
-  <div id="table-of-contents" class="mx-5 my-2 px-4 py-2 bg-body border rounded">
-    <h5>Contents:</h5>
-    {{ content | toc_only }}
-  </div>
-  {% endif %}
+  {% include tocdiv.html %}
 
-  {{ content }}
+  <div class="my-4 p-2">
+    {{ content }}
+  </div>
 </article>
 
