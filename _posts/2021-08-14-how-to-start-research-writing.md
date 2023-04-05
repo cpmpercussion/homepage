@@ -2,6 +2,8 @@
 layout: post
 title:  How to get started with research writing
 date:   2021-08-14 20:00:00 +1000
+type: lab
+summary: Advice on writing your first research report or thesis.
 ---
 
 Now's the time of year that I get started with a new crop of Honours, Master and project students at the [ANU School of Computing](https://comp.anu.edu.au) and at the [UiO Department of Informatics](https://ifi.uio.no).

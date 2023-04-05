@@ -1,8 +1,9 @@
 ---
 layout: page
-title: PhD Milestone Expectations in the SMCClab
+title: PhD milestone expectations
 permalink: /lab/milestones/
 toc: true
+summary: A guide to completing research degree milestones in the SMCClab.
 ---
 
 Here's some information for PhD/MPhil students in the Sound, Music and Creative Computing lab for what is expected for degree milestones.

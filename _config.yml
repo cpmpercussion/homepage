@@ -104,7 +104,9 @@ pagination:
 collections:
   projects:
     output: true
-    display_order: 2
     permalink: /projects/:path/
     sort_by: started
+  lab:
+    output: true
+
 

@@ -1,26 +1,37 @@
 ---
 layout: page
-title: Students
+title: Be a SMCClab student
 permalink: /students/
+summary: How to learn about sound, music and creative computing in the lab.
 ---
 
 ![Teaching header, a metatone performance with friends]({{site.baseurl}}/assets/images/performing/metatone-header.jpg)
 
 **Currently Recruiting!** I'm currently looking for **PhD students** in the field of musical machine learning, particularly for projects focussed on using AI/ML in live performance!
 
-If you're passionate about _music, machine learning, and computer science_ (or some weighting of those three fields), and want to be a part of [an innovative college](https://cecs.anu.edu.au/reimagine) at one of the [world's top universities](https://services.anu.edu.au/planning-governance/performance-measurement/world-rankings), get in touch through [ANU](https://cecs.anu.edu.au/people/charles-martin), or on [Twitter](https://twitter.com/cpmpercussion)!
+If you're passionate about _music, interaction, and computing_, and want to be a part of [an innovative school](https://comp.anu.edu.au) at one of the [world's top universities](https://anu.edu.au), get in touch through [ANU](https://comp.anu.edu.au/people/charles-martin/)!
+
+There are three ways to learn about sound, music and creative computing in my lab:
+
+1. Take one of my classes (see below)---I teach Bachelor- and Master-level computing students and other students around ANU.
+
+2. Apply to do an [Honours or Master project](https://comp.anu.edu.au/study/projects/) with me. If you apply to do a project but haven't completed any creative computing courses at ANU, I will probably advise you to go back to step 1 and take a course first to learn the basics.
+
+3. Apply to become a [PhD or MPhil student](https://comp.anu.edu.au/study/research/) in my lab. This is for folks who already have excellent results in a computing degree and experience in creative computing and you'll need to get in touch with me well before applications are due.
+
+{:.info-box}
+I'm not recruiting student projects in 2023!
 
 ## Courses
 
 I currently teach:
 
-- [Art and Interaction in New Media (COMP1720)](https://cs.anu.edu.au/courses/comp1720) (S2 2020)
-- [Laptop Ensemble (COMP2710-LENS)](https://cs.anu.edu.au/courses/comp2710-lens/) at the Australian National University (S2 2019, S1 2020)
-- [Computer Organisation and Program Execution
-(COMP2300)](https://cs.anu.edu.au/courses/comp2300) at the Australian National University (S1 2019, S1 2020).
+- [Art and Interaction in New Media (COMP1720/COMP6720)](https://cs.anu.edu.au/courses/comp1720) 
+- [Sound and Music Computing (COMP4350/8350)](https://cs.anu.edu.au/courses/laptop-ensemble) 
 
-I used to teach:
+I have previously taught:
 
+- [Computer Organisation and Program Execution (COMP2300/COMP6300)](https://cs.anu.edu.au/courses/comp2300) at ANU (2019, 2020, 2022).
 - [Advanced Topics in AI for Intelligent Systems (IN5490)](https://www.uio.no/studier/emner/matnat/ifi/IN5490) at the University of Oslo,
 - [Drums and Percussion at the ANU School of Music](https://music.cass.anu.edu.au/performance-ensemble/drums-and-percussion).
 
@@ -28,17 +39,14 @@ I used to teach:
 
 ## Research Students
 
-I supervise and co-supervise PhD and Master's students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link lab/graduates.md %}).
+I supervise and co-supervise PhD and Master's students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link _lab/graduates.md %}).
 
 ### PhD Students (co-supervisor):
 
-- **Tønnes Nygaard** (http://robotikk.net/) is studying evolutionary robotics at the University of Oslo, Department of Informatics and has created a open-source quadruped robotics platform with mechanically extensible legs for evolving control systems and robot morphology simultaneously during real-world activity. (2018-2020)
-- **Benedikte Wallace** (https://www.hf.uio.no/ritmo/english/people/phd-fellows/benediwa/) is studying machine learning models of sound-related movement and dance, among other creative applications of artificial intelligence, at the RITMO Centre of Excellence, University of Oslo. (2018-2021)
+- [**Tønnes Nygaard**](http://robotikk.net/) is studying evolutionary robotics at the University of Oslo, Department of Informatics and has created a open-source quadruped robotics platform with mechanically extensible legs for evolving control systems and robot morphology simultaneously during real-world activity. (2018-2020)
+- [**Benedikte Wallace**](https://www.hf.uio.no/ritmo/english/people/phd-fellows/benediwa/) is studying machine learning models of sound-related movement and dance, among other creative applications of artificial intelligence, at the RITMO Centre of Excellence, University of Oslo. (2018-2021)
 
 ## Student Projects
-
-{:.info-box}
-I'm not recruiting student projects in 2023!
 
 I supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. I'm interested in creating and studying new computing systems at the nexus of creative arts, physical embodiment, interaction, and intelligence.
 

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: charleslab graduates
+title: Graduated students
 permalink: /lab/grads/
+summary: Links to research from lab alumni.
 ---
 
-Here's some links to research produced by my graduate students. 
+Here's some links to research produced by my students. 
 
 If you'd like to work on something like this, get in touch through [ANU](https://comp.anu.edu.au/people/charles-martin/), or on [Twitter](https://twitter.com/cpmpercussion)!
 

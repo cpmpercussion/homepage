@@ -25,21 +25,42 @@ Our work combines three cutting edge fields of research:
 
 ## Current Lab Members
 
-- [Minsik Choi](https://www.linkedin.com/in/minsik-choi-4688b5187/) (PhD Researcher)
-- [Yichen Wang](https://yichenwangs.github.io/yichen/)  (PhD Researcher)
-- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/?originalSubdomain=au) (PhD Researcher)
-- [Brent Schuetze](http://bschuetze.xyz) (Research Assistant)
+{% for person in site.data.lab-members %}
+- [{{ person.name }}]({{ person.url }}) ({{ person.title }})
+{% endfor %}
 
 ([list of graduated students]({% link _lab/graduates.md %}))
 
 ## Lab Pages
 
+{% assign labposts = site.posts | where: "type", "lab" %} 
+{% assign sorted = site.lab | concat: labposts %}
+
+<section class="row">
+{% for entry in sorted reversed %}
+{% unless entry.hidden %}
+<div class="col-sm-4 p-3">
+<div class="card">
+<img class="card-img-top" src="{{ entry.image }}" alt="{{ entry.image_alt }}">
+<div class="card-body">
+<h5 class="card-title"><a href="{{ entry.url | relative_url }}">{{ entry.title }}</a></h5>
+{{ entry.summary }}
+<a class="card-link" href="{{ entry.url | relative_url }}">read more</a>
+</div>
+</div>
+</div>
+{% endunless %}
+{% endfor %}
+</section>
+
+{% comment %}
 - [Alumni and graduated students]({% link _lab/graduates.md %})
 - [Milestone expectations for PhD/MPhil students]({% link _lab/milestones.md %})
 - [Getting started with research writing]({% link _posts/2021-08-14-how-to-start-research-writing.md %})
 - [Presenting a software project]({% link _posts/2020-08-09-student-project-repository.md %})
 - [So you want to do a PhD/Masters/Honours/Project...]() (todo...)
 - [Expectation setting for PhD/MPhil students]() (todo...)
+{% endcomment %}
 
 ## Projects
 
