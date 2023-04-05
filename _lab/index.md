@@ -29,7 +29,7 @@ Our work combines three cutting edge fields of research:
 - [{{ person.name }}]({{ person.url }}) ({{ person.title }})
 {% endfor %}
 
-([list of graduated students]({% link _lab/graduates.md %}))
+([list of lab alumni and former students]({% link _lab/graduates.md %}))
 
 ## Lab Pages
 

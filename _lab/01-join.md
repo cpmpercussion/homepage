@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Be a SMCClab student
+title: Join the SMCClab
 permalink: /students/
 summary: How to learn about sound, music and creative computing in the lab.
 ---
@@ -13,11 +13,11 @@ If you're passionate about _music, interaction, and computing_, and want to be a
 
 There are three ways to learn about sound, music and creative computing in my lab:
 
-1. Take one of my classes (see below)---I teach Bachelor- and Master-level computing students and other students around ANU.
+1. Take one of my classes (see below)---I teach Bachelor- and Master-level classes for computing students and other students around ANU.
 
 2. Apply to do an [Honours or Master project](https://comp.anu.edu.au/study/projects/) with me. If you apply to do a project but haven't completed any creative computing courses at ANU, I will probably advise you to go back to step 1 and take a course first to learn the basics.
 
-3. Apply to become a [PhD or MPhil student](https://comp.anu.edu.au/study/research/) in my lab. This is for folks who already have excellent results in a computing degree and experience in creative computing and you'll need to get in touch with me well before applications are due.
+3. Apply to become a [PhD or MPhil student](https://comp.anu.edu.au/study/research/) in my lab. This is for folks who already have excellent results in a computing or creative technology degree and experience in creative computing. You'll need to get in touch with me well before applications are due.
 
 {:.info-box}
 I'm not recruiting student projects in 2023!
@@ -37,18 +37,24 @@ I have previously taught:
 
 ![teaching a group]({{site.baseurl}}/assets/images/teaching/bela-workshop-header.jpg)
 
-## Research Students
+## PhD/MPhil Research Students
 
-I supervise and co-supervise PhD and Master's students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link _lab/graduates.md %}).
+I supervise PhD, Master, and Honours students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link _lab/graduates.md %}). You can see my [current students on my lab page]({% link _lab/index.md %}).
 
+My students have gone on to work at Google, Seeing Machines, Oslo Metropolitan University, and other wonderful places.
+
+
+{% comment %}
 ### PhD Students (co-supervisor):
 
 - [**Tønnes Nygaard**](http://robotikk.net/) is studying evolutionary robotics at the University of Oslo, Department of Informatics and has created a open-source quadruped robotics platform with mechanically extensible legs for evolving control systems and robot morphology simultaneously during real-world activity. (2018-2020)
-- [**Benedikte Wallace**](https://www.hf.uio.no/ritmo/english/people/phd-fellows/benediwa/) is studying machine learning models of sound-related movement and dance, among other creative applications of artificial intelligence, at the RITMO Centre of Excellence, University of Oslo. (2018-2021)
+{% endcomment %}
 
 ## Student Projects
 
 I supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. I'm interested in creating and studying new computing systems at the nexus of creative arts, physical embodiment, interaction, and intelligence.
+
+My available projects are listed on the [ANU School of Computing student project page](https://comp.anu.edu.au/study/projects/).
 
 Projects could involve:
 
@@ -63,6 +69,14 @@ Projects could involve:
 
 Here's some project ideas that could be extended or shaped to suit you:
 
+- Creating a New Interface for Musical Expression
+- Generating harmony from a melody sequence
+- Generatinng "improved" versions of melody/MIDI content
+- Neural nnetworks for generating digital audio
+- Evolutionary music making
+
+
+{% comment %}
 ### Creating a New Interface for Musical Expression
 
 Computers and electronics give us so many new opportunities to create new kinds of musical instruments (and new kinds of music). We often think of these systems as containing an _interface_ between a human user and sound synthesisers. The interface can either be a piece of computer software (e.g., a web app, or a p5.js program), or hardware (e.g., an Arduino with custom sensors). [New Interfaces for Musical Expression](https://nime.org) is a research field where we explore how these new software and hardware-based instruments work and what kinds of music they can make.
@@ -104,4 +118,4 @@ The idea of generating digital audio directly from a neural network is exciting 
 ### New Applications of the Mixture Density Recurrent Neural Network
 
 The MDRNN is an exciting sequence model that can generate multiple continuous valued signals from a Gaussian mixture model at each step in time. This project will involve applying and extending my [Keras MDRNN models](https://github.com/cpmpercussion/keras-mdn-layer) into new applications in the creative arts and beyond. We've tried using the MDRNN for voice synthesis, motion capture data synthesis, and musical control data synthesis, but there are lots of other potential applications waiting for you to discover, e.g.: predicting future sensor values, generating robot movements, generating world models for video games or real life situations etc.
-
+{% endcomment %}
