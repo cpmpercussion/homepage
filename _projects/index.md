@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 hidden: true
+started: 2008
 permalink: /projects/
 ---
 

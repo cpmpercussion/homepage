@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Compositions
+started: 2010
 summary: Compositions for percussion and computer with a focus on ensembles.
 image: /assets/compositions/gesture-study-1.jpg
 image_alt: An ensemble of percussionists performing Gesture Study 1 on iPads
