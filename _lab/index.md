@@ -2,6 +2,7 @@
 layout: page
 title: "SMCCLAB: Sound, Music and Creative Computing Lab"
 permalink: /lab/
+hidden: true
 ---
 
 The Sound, Music and Creative Computing Lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.
@@ -24,23 +25,21 @@ Our work combines three cutting edge fields of research:
 
 ## Current Lab Members
 
-- [Minsik Choi]() (PhD Researcher)
+- [Minsik Choi](https://www.linkedin.com/in/minsik-choi-4688b5187/) (PhD Researcher)
 - [Yichen Wang](https://yichenwangs.github.io/yichen/)  (PhD Researcher)
 - [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/?originalSubdomain=au) (PhD Researcher)
 - [Brent Schuetze](http://bschuetze.xyz) (Research Assistant)
 
-([list of graduated students]({% link lab/graduates.md %}))
+([list of graduated students]({% link _lab/graduates.md %}))
 
 ## Lab Pages
 
-- [Alumni and graduated students]({% link lab/graduates.md %})
-- [Milestone expectations for PhD/MPhil students]({% link lab/milestones.md %})
+- [Alumni and graduated students]({% link _lab/graduates.md %})
+- [Milestone expectations for PhD/MPhil students]({% link _lab/milestones.md %})
 - [Getting started with research writing]({% link _posts/2021-08-14-how-to-start-research-writing.md %})
 - [Presenting a software project]({% link _posts/2020-08-09-student-project-repository.md %})
 - [So you want to do a PhD/Masters/Honours/Project...]() (todo...)
 - [Expectation setting for PhD/MPhil students]() (todo...)
-
-
 
 ## Projects
 
