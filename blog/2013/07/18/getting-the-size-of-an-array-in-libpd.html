@@ -158,10 +158,17 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
     
 
     <div class="container rounded bg-body">	   
-      <main class="my-2" aria-label="Content">
+      <main class="my-2 p-4" aria-label="Content">
         <article>
-  <h1>Getting the size of an array in libpd</h1>
+<div class="my-4">
+  <h1 class="">Getting the size of an array in libpd</h1>
   <h6 class="font-italic">18 Jul '13</h6>
+</div>
+
+
+
+
+<div class="my-4 p-2">
   <p>I really enjoy using libpd to embed interactive sound into <a href="http://charlesmartin.com.au/apps">iOS apps</a>. One tradeoff of doing this is that <a href="https://github.com/libpd/libpd/wiki/misc#using-externals">Pd externals are often GPL licenced</a> so you can’t use them in projects that are destined for the App Store - in particular, you can’t use expr or expr~ which are very widely used objects included in Pd Vanilla.</p>
 
 <p>As it turns out, expr is the only way to get the size of an array (or table) in Pd Vanilla, which can cause… difficulty.</p>
@@ -180,14 +187,16 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p>Now go find the size of some arrays.</p>
 
+</div> 
 </article>
+
 
       </main>
     </div>
 
-    <footer class="container my-2">
+    <footer class="container my-2 px-0">
       <div class="mb-4">
-	<p class="cpm-grad text-center rounded-3">© Charles P. Martin 2022</p>
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P. Martin 2022</p>
         <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
       </div>
     </footer>

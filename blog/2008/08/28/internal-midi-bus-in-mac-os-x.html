@@ -158,10 +158,17 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
     
 
     <div class="container rounded bg-body">	   
-      <main class="my-2" aria-label="Content">
+      <main class="my-2 p-4" aria-label="Content">
         <article>
-  <h1>Internal MIDI Bus in Mac OS X</h1>
+<div class="my-4">
+  <h1 class="">Internal MIDI Bus in Mac OS X</h1>
   <h6 class="font-italic">28 Aug '08</h6>
+</div>
+
+
+
+
+<div class="my-4 p-2">
   <p><img src="/assets/blogger/IAC-audio-midi-setup.jpg" alt=""></p>
 
 <p>Suppose that you have a Pd program which outputs midi data that you want Ableton Live to receive. In Mac OS X you can create an internal midi bus and then set it as the output for Pd and the input for Live! First, go into Applications/Utilities/Audio Midi Setup. The IAC Driver (Inter Application Connection or something like that?) is Mac OS X’s internal midi device designed for this very purpose! Double click on the icon to look at its properties.</p>
@@ -172,14 +179,16 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p>Now just set the midi output in Pd to the new IAC bus and activate track and remote (or whatever) in Live. All done!</p>
 
+</div> 
 </article>
+
 
       </main>
     </div>
 
-    <footer class="container my-2">
+    <footer class="container my-2 px-0">
       <div class="mb-4">
-	<p class="cpm-grad text-center rounded-3">© Charles P. Martin 2022</p>
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P. Martin 2022</p>
         <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
       </div>
     </footer>

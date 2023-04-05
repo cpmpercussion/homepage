@@ -158,10 +158,17 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
     
 
     <div class="container rounded bg-body">	   
-      <main class="my-2" aria-label="Content">
+      <main class="my-2 p-4" aria-label="Content">
         <article>
-  <h1>libpd - linking problems with Xcode 4.5</h1>
+<div class="my-4">
+  <h1 class="">libpd - linking problems with Xcode 4.5</h1>
   <h6 class="font-italic">01 Nov '12</h6>
+</div>
+
+
+
+
+<div class="my-4 p-2">
   <p>Ran into another problem today with Xcode while updating <a href="/apps">Snow Music</a> for iPhone 5’s and found the solution <a href="http://createdigitalnoise.com/discussion/1603/libpd-linking-problems-on-xcode-4-5/p1">on CDN</a>. Turns out, Xcode 4.5 is causing all kinds of problems with linking static libraries, and the default build settings don’t work with <a href="http://libpd.cc">libpd</a>.</p>
 
 <p>The build fails with an error like:</p>
@@ -173,14 +180,16 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p>Check out <a href="http://createdigitalnoise.com/discussion/1603/libpd-linking-problems-on-xcode-4-5/p1">reakinator’s explanation</a>.</p>
 
+</div> 
 </article>
+
 
       </main>
     </div>
 
-    <footer class="container my-2">
+    <footer class="container my-2 px-0">
       <div class="mb-4">
-	<p class="cpm-grad text-center rounded-3">© Charles P. Martin 2022</p>
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P. Martin 2022</p>
         <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
       </div>
     </footer>
