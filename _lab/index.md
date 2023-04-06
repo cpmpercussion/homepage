@@ -34,14 +34,16 @@ Our work combines three cutting edge fields of research:
 ## Lab Pages
 
 {% assign labposts = site.posts | where: "type", "lab" %} 
-{% assign sorted = site.lab | concat: labposts %}
+{% assign labpages = site.lab | concat: labposts %}
 
 <section class="row">
-{% for entry in sorted reversed %}
+{% for entry in labpages %}
 {% unless entry.hidden %}
 <div class="col-sm-4 p-3">
 <div class="card">
+{% if entry.image %}
 <img class="card-img-top" src="{{ entry.image }}" alt="{{ entry.image_alt }}">
+{% endif %}
 <div class="card-body">
 <h5 class="card-title"><a href="{{ entry.url | relative_url }}">{{ entry.title }}</a></h5>
 {{ entry.summary }}
@@ -53,60 +55,38 @@ Our work combines three cutting edge fields of research:
 {% endfor %}
 </section>
 
+## SMCClab Projects
+
+Projects from Charles and other members of the lab.
+
+{% assign labprojects = site.data.lab-projects %}
+
+<section class="row">
+{% for entry in labprojects %}
+{% unless entry.hidden %}
+<div class="col-sm-6 p-3">
+<div class="card">
+{% if entry.image %}
+<img class="card-img-top" src="{% link {{entry.image}} %}" alt="{{ entry.image_alt }}" style="object-fit: cover; width: 100%; height: 30vh;">
+{% endif %}
+<div class="card-body">
+<h5 class="card-title">{{ entry.title }}</h5>
+{{ entry.summary }}
+{% if entry.youtube %}
+<a href="https://youtu.be/{{ entry.youtube }}">video</a>
+{% endif %}
+</div>
+</div>
+</div>
+{% endunless %}
+{% endfor %}
+</section>
+
+
 {% comment %}
-- [Alumni and graduated students]({% link _lab/02-alumni.md %})
-- [Milestone expectations for PhD/MPhil students]({% link _lab/milestones.md %})
-- [Getting started with research writing]({% link _posts/2021-08-14-how-to-start-research-writing.md %})
-- [Presenting a software project]({% link _posts/2020-08-09-student-project-repository.md %})
-- [So you want to do a PhD/Masters/Honours/Project...]() (todo...)
-- [Expectation setting for PhD/MPhil students]() (todo...)
-{% endcomment %}
+style="object-fit: cover; width: 100%; height: 40vh;"
+<!-- <a href="{{ entry.url | relative_url }}"> -->
 
-## Projects
-
-Here's some information about some musical AI projects we have worked on.
-
-### Intelligent Musical Prediction System (IMPS)
-
-The [Intelligent Musical Prediction System (IMPS)]({{site.baseurl}}/imps/) is a system for connecting musicians and interface developers with deep neural networks. IMPS connects with any musical interface or software using open sound control (OSC) and helps users to record a dataset, train a neural network and interact with it in real-time performance. See it in action in demo video below:
-
-{% include youtubePlayer.html id="Kdmhrp2dfHw" %}
-<!-- https://youtu.be/Kdmhrp2dfHw -->
-
-### Physical Musical RNN
-
-This project was to develop a physically encapsulated musical neural network. The box contains a Raspberry running a melody-generating recurrent neural network that continually composes music. You can adjust the sound, tempo, the ML-model used, and the "randomness" of the chosen samples to guide the music making process.
-
-{% include youtubePlayer.html id="2RDVyOTRAj4" %}
-<!-- https://youtu.be/2RDVyOTRAj4 -->
-
-### PhaseRings for ML-connected touchscreen ensemble
-
-PhaseRings is a touchscreen instrument that works with an ML-connected ensemble. A server tracks the four performer's improvisations and adjusts their user interface during the performance to give them access to different notes and sounds on their screens.
-
-<!-- ![Musicians performing on ML-enhanced touchscreen instruments]({{site.baseurl}}/assets/images/teaching/ipad-ensemble.jpg) -->
-
-{% include youtubePlayer.html id="aDEQMLwd8ok" %}
-<!-- https://youtu.be/aDEQMLwd8ok -->
-
-### Self-playing, sensor-driven guitars
-
-This installation of six self-playing, sensor-driven guitars was developed as part of collaborations at the University of Oslo's RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion. Each guitar uses a [Bela](https://bela.io) embedded computer to generate sounds from a speaker driver attached to the guitar body. A distance sensor track the movement of listeners in the environment and the guitars use a firefly synchronisation algorithm to phase in and out of time. 
-
-![Self-playing sensor-driven guitars]({{site.baseurl}}/assets/images/performing/bela-guitars2.jpg)
-
-### Embodied Predictive Musical Instrument (EMPI)
-
-The EMPI is a minimal electronic musical instrument for experimenting
-with predictive interaction techniques. It includes a single physical
-input (a lever) and a matching physical output, built-in speaker, and
-a Raspberry Pi for sound synthesis and ML computations.
-
-{% include youtubePlayer.html id="tvgqxmHr9wU" %}
-
-<!-- https://youtu.be/tvgqxmHr9wU -->
-
-<!--
 
 Summer project goals:
 Team project: Create an AI-enhanced band.
@@ -120,4 +100,4 @@ Individual Projects:
 - Enhance aspects of IMPS (Intelligent Music Prediction System)
 - Develop new MIR metrics for application in future collaborations. How do we know that generated signals are good?
 
--->
+{% endcomment %}
