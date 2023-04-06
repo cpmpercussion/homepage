@@ -39,16 +39,10 @@ I have previously taught:
 
 ## PhD/MPhil Research Students
 
-I supervise PhD, Master, and Honours students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link _lab/graduates.md %}). You can see my [current students on my lab page]({% link _lab/index.md %}).
+I supervise PhD, Master, and Honours students at the ANU and at University of Oslo. My previous students' published work is [listed here]({% link _lab/02-alumni.md %}). You can see my [current students on my lab page]({% link _lab/index.md %}).
 
 My students have gone on to work at Google, Seeing Machines, Oslo Metropolitan University, and other wonderful places.
 
-
-{% comment %}
-### PhD Students (co-supervisor):
-
-- [**Tønnes Nygaard**](http://robotikk.net/) is studying evolutionary robotics at the University of Oslo, Department of Informatics and has created a open-source quadruped robotics platform with mechanically extensible legs for evolving control systems and robot morphology simultaneously during real-world activity. (2018-2020)
-{% endcomment %}
 
 ## Student Projects
 

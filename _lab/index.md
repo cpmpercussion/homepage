@@ -29,7 +29,7 @@ Our work combines three cutting edge fields of research:
 - [{{ person.name }}]({{ person.url }}) ({{ person.title }})
 {% endfor %}
 
-([list of lab alumni and former students]({% link _lab/graduates.md %}))
+([list of lab alumni and former students]({% link _lab/02-alumni.md %}))
 
 ## Lab Pages
 
@@ -54,7 +54,7 @@ Our work combines three cutting edge fields of research:
 </section>
 
 {% comment %}
-- [Alumni and graduated students]({% link _lab/graduates.md %})
+- [Alumni and graduated students]({% link _lab/02-alumni.md %})
 - [Milestone expectations for PhD/MPhil students]({% link _lab/milestones.md %})
 - [Getting started with research writing]({% link _posts/2021-08-14-how-to-start-research-writing.md %})
 - [Presenting a software project]({% link _posts/2020-08-09-student-project-repository.md %})
