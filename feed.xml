@@ -1,5 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2023-04-06T04:17:10+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology and machine learning.
-</subtitle><entry><title type="html">Photoblogging in 2023 like it’s 2008</title><link href="https://charlesmartin.au/blog/2023/01/31/pixelfed" rel="alternate" type="text/html" title="Photoblogging in 2023 like it’s 2008" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/01/31/pixelfed</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/01/31/pixelfed"><![CDATA[<p>I’ve been trying to take photos a bit more intentionally a regularly again,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2023-07-21T10:57:10+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology and machine learning.
+</subtitle><entry><title type="html">One-person hybrid conference toolkit</title><link href="https://charlesmartin.au/blog/2023/07/20/hybrid-conference" rel="alternate" type="text/html" title="One-person hybrid conference toolkit" /><published>2023-07-20T00:00:00+00:00</published><updated>2023-07-20T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/07/20/hybrid-conference</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/07/20/hybrid-conference"><![CDATA[<p>Hybrid events are <strong>hard</strong>, even more now that they are kind of <em>expected</em>,
+especially within the academic community. This post is about my one-person
+hybrid setup.</p>
+
+<p>Last year I was part of the organising team for OzCHI 2022 in Canberra, a
+single track conference. Here’s approached doing <em>hybrid</em> aspects of the
+conference right, or as well as possible, within a very small budget<sup id="fnref:budget" role="doc-noteref"><a href="#fn:budget" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p><img src="/assets/blog/2023/streaming-hybrid.jpg" alt="my hybrid prduction setup at the Shine Dome, Canberra" /></p>
+
+<p>Here’s a few principles for the event:</p>
+
+<ul>
+  <li>make the experience easy and inclusive for hybrid attendees</li>
+  <li>use our own equipment, don’t hire a production company</li>
+  <li>have high quality audio and video</li>
+  <li>keep the focus on attendees in the room</li>
+</ul>
+
+<p>The tl;dr here is: we used <a href="https://restream.io">restream.io</a> as a streaming
+and production platform, not Zoom. The endpoints were unlisted youtube streams
+sent to remote attendees over Slack. We used a dedicated computer for streaming
+and an HDMI switcher to grab the signal from presenter’s laptops. It was
+helpful to have a good quality camera and microphone connected ot the streaming
+computer to capture the speaker at the lectern. The main takeaways are:</p>
+
+<ul>
+  <li>browser-based streaming platforms use more resources (CPU + network) than
+Zoom and folks aren’t usually prepared for it.</li>
+  <li>streaming platforms are <em>much better</em> than Zoom from an audience perspective</li>
+  <li>in-person audiences don’t like pre-recorded presentations</li>
+</ul>
+
+<h2 id="one-to-many-presentation">One-to-Many presentation</h2>
+
+<p>Conference presentations are 1-to-N presentations, so not a great fit for video
+conferencing software (e.g., Zoom calls). Listeners want good audio and video
+quality and not to be annoyed by software that wants to see you and takeover
+your computer. A good solution is a high quality stream to an easy to use
+endpoint like YouTube where attendees can view videos in a browser window or on
+any device.</p>
+
+<p>One of the difficulties of a hybrid conference is switching between a live view
+and remote presenters. Amazingly, there are streaming products out there that
+give you a little TV studio for bringing in live guests, switching on shared
+screens, and turning cameras on and off all within a web browser (I’m literally
+still amazed this all works).</p>
+
+<p>From online teaching I had a subscription to <a href="https://restream.io">restream</a>
+and was ready to try out it’s production features for this conference.
+Streamyard is another similar option. Restream gives you a browser-based
+interface to produce a stream and invite guest presenters. You can choose which
+presenter is “live” on the stream and who’s screen is shown. There are neat
+options to arrange multiple presenter’s videos side-by-side or next to a shared
+screen.</p>
+
+<p>The upside of these streaming systems is that they work <em>really</em>, <em>really</em> well
+under many circumstances. The downside is that they aren’t as forgiving as Zoom
+and presenters do not usually have experience outside of Zoom or Teams.</p>
+
+<p>It turns out that these browser-based systems tend to use more system and
+network resources than Zoom and are a little less reliable at capturing your
+screen and audio (depending on your OS). This means that it’s <strong>crucial</strong> to do
+some kind of rehearsal or test with presenters to check their setup.</p>
+
+<h2 id="the-setup">The setup</h2>
+
+<p><img src="/assets/blog/2023/streaming-conference-setup.png" alt="a signal diagram for my setup" /></p>
+
+<p>This setup is designed to slot into a regular conference or lecture hall with
+HDMI sending video to a big screen and audio to big speakers. We need four
+pieces of hardware:</p>
+
+<ol>
+  <li>
+    <p>An HDMI switcher to go in between the presenter’s laptop and the screen. We used an <a href="https://www.blackmagicdesign.com/au/products/atemmini">ATEM Mini Extreme</a> (already had for teaching). This lets us take an output signal to a dedicated streaming computer, and to easily put the streaming computer’s screen on the big screen during remote presentations.</p>
+  </li>
+  <li>
+    <p>A dedicated straming computer. I used a (now old) 2016 MacBook Pro. A fairly powerful laptop is needed as it will need to handle multiple video streams. The internet connection should be stable and fast.</p>
+  </li>
+  <li>
+    <p>A dedicated camera and microphone to point at the live presenter. I used a GoPro with a Rode VideoMicro microphone. The GoPro has an HDMI output (using the “Media Mod” for this model). A regular/nice webcam could work but I like the extreme wide-angle of the GoPro for capturing presenters who tend to move around a bit. The neat little microphone seemed to work well to pick up the presenter and definitely made them feel super pro<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup>.</p>
+  </li>
+</ol>
+
+<ol>
+  <li><em>Another</em> laptop used by “the producer” (see below).</li>
+</ol>
+
+<p>There’s two modes we need to cope with: an in-person talk and a remote talk</p>
+
+<h2 id="the-producer">The producer</h2>
+
+<p><img src="/assets/blog/2023/streaming-restream-studio.png" alt="a screenshot of restream studio" /></p>
+
+<h2 id="doing-this-again-better">Doing this again, better.</h2>
+
+<p><a href="https://benswift.me/blog/2020/07/15/acmc2020-organising-my-first-virtual-conference/">ACMC2020</a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:budget" role="doc-endnote">
+      <p>Budget was zero dollars, except, of course, for my time (possibly too much of that), and that I had an awesome HDMI switcher, GoPro, Microphone, HDMI capture device, and two pretty nice laptops. This is not really a post about cheap tech, but rather avoiding paying excessively for a poor product as I have seen at some very expensive and prestigious conferences. <a href="#fnref:budget" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p>Anecdotal evidence can be supplied on request. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="note" /><category term="hybrid," /><category term="conference," /><category term="setup" /><summary type="html"><![CDATA[Hybrid events are hard, even more now that they are kind of expected, especially within the academic community. This post is about my one-person hybrid setup.]]></summary></entry><entry><title type="html">Photoblogging in 2023 like it’s 2008</title><link href="https://charlesmartin.au/blog/2023/01/31/pixelfed" rel="alternate" type="text/html" title="Photoblogging in 2023 like it’s 2008" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/01/31/pixelfed</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/01/31/pixelfed"><![CDATA[<p>I’ve been trying to take photos a bit more intentionally a regularly again,
 helped by a new (to me) Fujfilm X-T2 camera. I’ve ended up posting some images on <a href="https://pixelfed.au/charlesmartin">pixelfed.au</a> regularly, and hoping to put something quick up most days.</p>
 
 <p><img src="/assets/blog/2023/DSCF2269.jpg" alt="Curtin Trees. Fujfilm X-T2, XF16mmF2.8" /></p>
@@ -1257,73 +1365,4 @@ b.index.seq([2,3,4,5,6],1/16)
 
 <ul>
   <li>Our <em>longest</em> Teams meeting was 15 hours during a marking marathon in the exam period. Good times! (marking? good? what is wrong with me?!)</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up tutorials for COMP2300 in Microsoft Teams.]]></summary></entry><entry><title type="html">A note on streaming lectures</title><link href="https://charlesmartin.au/blog/2020/07/08/streaming-lectures" rel="alternate" type="text/html" title="A note on streaming lectures" /><published>2020-07-08T00:00:00+00:00</published><updated>2020-07-08T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2020/07/08/streaming-lectures</id><content type="html" xml:base="https://charlesmartin.au/blog/2020/07/08/streaming-lectures"><![CDATA[<p>So it’s been a <em>rough year</em>. After starting the semester in February with half my <a href="https://cs.anu.edu.au/courses/comp2300">class</a> of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.</p>
-
-<p>This post is about my approach to lectures, and I’ll have another about tutorials/labs soon.</p>
-
-<h2 id="lecture-setup">Lecture Setup</h2>
-
-<p>Recorded lectures are <em>hard</em>; there’s always the temptation to do more takes, and video editing is really time consuming. I know that I’m a better performer just delivering lectures live and accepting a few small mistakes, so I chose to focus on streaming engaging and entertaining lectures synchronously, tracking with the normal class timetable. This gives my students opportunities to have live (or almost live) Q&amp;A during lectures and provides a bit more structure in their week.</p>
-
-<p>Here’s the key parts for my streaming setup:</p>
-
-<ul>
-  <li><a href="https://obsproject.com">OBS studio</a> - for video and screen capture, <a href="https://en.wikipedia.org/wiki/Chroma_key">chroma keying</a>, scenes, and streaming to…</li>
-  <li><a href="https://restream.io">restream.io</a> - to send the stream to multiple endpoints; I send to YouTube, Twitch, and…</li>
-  <li><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-stream">Microsoft Stream</a> - to provide an “official” way for ANU students to watch the lectures, and to integrate with…</li>
-  <li><a href="https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software">Microsoft Teams</a> gives the students an “official” chat platform and a first port of call for interaction with me and my tutors. You can add a Microsoft Stream channel as a tab within a Team so that the latest lecture is just a click away for the students.</li>
-</ul>
-
-<p>Here’s what this all looks like:</p>
-
-<p><img src="/assets/blog/2020/2020-ANU-streaming-rig.png" alt="A diagram of my streaming setup from OBS to restream to multiple platforms with feedback through Teams" /></p>
-
-<p>And here’s a short video about how it works:</p>
-
-<!-- Youtube Link: https://youtu.be/n2cNtVcfB48 -->
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/n2cNtVcfB48" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
-
-<h2 id="some-more-details">Some more details…</h2>
-
-<p>Here’s a few more details about each part of the system.</p>
-
-<h3 id="obs-scene-switching">OBS Scene Switching</h3>
-
-<p>I’ve set up a couple of “scenes” within OBS; e.g., one with me superimposed on the right, one on the left, one where I fill the screen for an intro. I also have some “static” scenes for starting and finishing lectures so that I can start streaming before I actually start talking.</p>
-
-<p>There’s lots of ways to switch scenes in OBS (e.g., key combinations, or <a href="https://www.elgato.com/en/gaming/stream-deck">extra keyboard controllers</a>) but I’ve found using my iPad and <a href="https://github.com/Palakis/obs-websocket">OBS websocket</a> is most convenient.</p>
-
-<h3 id="teams">Teams</h3>
-
-<p><a href="https://www.microsoft.com/en-au/microsoft-365/microsoft-teams/group-chat-software">Teams</a> has ended up being the centre of our synchronous online teaching. It’s great to get chat with students and to see their “real names” (not screen names), and it’s neat that you can integrate a Microsoft Stream channel.</p>
-
-<p>As it turns out, students <strong>like</strong> watching lectures on a screen (most of them have been doing so for some time), and they also like asking questions through chat rather than a microphone. The students ask me questions through Teams chat and I can either answer them in real time, or sometimes the other students jump in and find an answer themselves. The only trick here is to remember that the stream takes a while to get to the students (e.g., 15-60 seconds depending on settings and platform), so you have to pause during lectures sometimes so the chat can catch up.</p>
-
-<h3 id="streaming-to-multiple-endpoints">Streaming to multiple endpoints</h3>
-
-<p>It’s hard to get students to watch lectures synchronously, so I thought I’d try going to where the students live for their normal online content: YouTube and Twitch. Twitch in particular is a really fun platform with lots of inspirational live content (e.g., <a href="https://www.twitch.tv/jonathanong">Jonong</a> and <a href="https://www.twitch.tv/lara6683">Lara6683</a>).</p>
-
-<p>Some students tell me they enjoy seeing classes come up in their feed and a few did tend to jump into the Twitch chat. After a few lectures we came up with a good system: “Twitch chat for memes, Teams chat for serious questions”, just so that I didn’t have to monitor all chat channels simultaneously.</p>
-
-<p>Restream makes streaming to multiple platforms very easy. OBS has a preset included for <a href="https://support.restream.io/en/articles/111656-how-to-connect-obs-studio-to-restream">streaming to Restream</a>, and then Restream takes care of connecting to all the other platforms. Restream also automatically creates new live events on YouTube, Twitch, and many other platforms, can update titles and descriptions automatically. It can even collate the chat across multiple platforms.</p>
-
-<h3 id="microsoft-stream">Microsoft Stream</h3>
-
-<p><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-stream">Stream</a> is a slightly wacky corner of Office365 which pretty much does what it says on the tin: host live streamed and pre-recorded video events.</p>
-
-<p>Unfortunately, and unlike YouTube and Twitch, Stream doesn’t integrate with Restream.io, so each live event has to be set up manually, creating a new RTMP address to stream to which needs to be copied into restream before each lecture.</p>
-
-<p>There’s <a href="https://resources.techcommunity.microsoft.com/live-event-with-obs/">a bit of info in Stream’s docs</a> about connecting directly to OBS, which also applies to working with Restream.</p>
-
-<p>I’ve found Stream works perfectly well with 1080p30 streams.</p>
-
-<p>I’ve found it helpful to <a href="https://support.microsoft.com/en-gb/office/add-and-use-a-stream-tab-in-teams-fb6cebb8-0d4f-4034-88a6-7dafdb5f0a3f">add Microsoft Stream as a “tab”</a> within the Microsoft Team for my class so that each lecture has an associated chat stream in Teams.</p>
-
-<h3 id="but-what-about-echo360">But what about Echo360?</h3>
-
-<p><a href="https://echo360.com">Echo360</a> is the automated lecture recording system installed at the ANU. It works well for zero-hassle recordings in lecture halls and has many interactive learning features that can be used online.</p>
-
-<p>Even though Echo360 provides streaming, I don’t use it because <strong>you can’t stream to it from OBS studio</strong> (they only support <a href="https://echo360.com/universal-capture-demo/">their own streaming tool</a>, which, among other issues, doesn’t work on Linux).</p>
-
-<p>If Echo360 ever want to make RTMP endpoints available to users then I would <em>love</em> to include it in my system, but at the moment, I’m stuck uploading the streamed videos after each lecture (😐).</p>]]></content><author><name></name></author><summary type="html"><![CDATA[So it’s been a rough year. After starting the semester in February with half my class of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June—phew! In the few short weeks (days?) before starting all over again at the end of July, I’ll just set down a bit of info for how my online teaching setup works.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is part 2 of my series of posts on online teaching in 2020; this time I’m going to write about how we set up tutorials for COMP2300 in Microsoft Teams.]]></summary></entry></feed>
