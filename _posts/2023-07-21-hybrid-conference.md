@@ -14,9 +14,11 @@ Last year I was part of the organising team for OzCHI 2022 in Canberra, a
 single track conference. Here's approached doing _hybrid_ aspects of the
 conference right, or as well as possible, within a very small budget[^budget].
 
-[^budget]: Budget was zero dollars, except, of course, for my time (possibly too much of that), and that I had an awesome HDMI switcher, GoPro, Microphone, HDMI capture device, and two pretty nice laptops. This is not really a post about cheap tech, but rather avoiding paying excessively for a poor product as I have seen at some very expensive and prestigious conferences. 
+[^budget]: Budget was zero dollars, except, of course, for my time (possibly too much of that), and that I had equipment to hand, e.g., HDMI switcher, GoPro, Microphone, HDMI capture device, two pretty nice laptops, and an existing restream subscription. This is not really a post about cheap tech, but rather avoiding paying excessively for a poor product as I have seen at some very expensive and prestigious conferences. 
 
 ![my hybrid prduction setup at the Shine Dome, Canberra]({% link assets/blog/2023/streaming-hybrid.jpg %})
+
+The image shows a remote talk, and Restream Studio's production interface on my laptop. (This was a great talk!)
 
 Here's a few principles for the event:
 
@@ -37,7 +39,7 @@ computer to capture the speaker at the lectern. The main takeaways are:
 - streaming platforms are _much better_ than Zoom from an audience perspective
 - in-person audiences don't like pre-recorded presentations
 
-## One-to-Many presentation
+## One-to-many presentation
 
 Conference presentations are 1-to-N presentations, so not a great fit for video
 conferencing software (e.g., Zoom calls). Listeners want good audio and video
@@ -87,16 +89,54 @@ pieces of hardware:
 
 4. _Another_ laptop used by "the producer" (see below). 
 
-There's two modes we need to cope with: an in-person talk and a remote talk
+There's two modes we need to cope with: an in-person talk and a remote talk. 
 
+For the **in-person presentation** mode, the HDMI switcher is set to show the presenter's laptop on the big screen. The HDMI switcher is connected to the streaming laptop (USB) and shows up as a webcam. The switcher's signal is set to full screen in Restream Studio and the GoPro is set to a small window in the corner. So: remote attendees see and hear both the big screen and the person talking.
 
+For **remote presentation** mode, the streaming laptop's screen goes to the HDMI switcher (over HDMI) and audio and video are sent to the big screen. The GoPro isn't sent anywhere. The remote presenter connects to Restream Studio and sends their screen sharing signal and camera.
+The in-person audience sees the Restream Studio interface full screen.
 
-## The producer
+The in-person view in remote mode is the only compromise here as the restream studio interface isn't _meant_ for public viewing (i.e., it has a back-channel chat window and GUI controls for which signal is shown in the stream). One option would be to have a _third_ computer playing the stream from Youtube, but I thought this got a step too complicated. There may be other solutions as well.
+
+## The stream producer
+
+To cope with the hybrid setup, we needed at least one person to keep an eye on the studio interface pretty much at all times.
 
 ![a screenshot of restream studio]({% link assets/blog/2023/streaming-restream-studio.png %})
 
+Restream and other online streaming production systems let you preview the
+cameras and screen sharing of presenters before switching them live on screen.
+You can also chat with presenters to make sure they are ready to go.
+
+## Remote participants
+
+It's hard to be a remote participant and get any feeling of inclusion at a
+conference. The best we can do to make the task easy is to communicate early
+and regularly with remote speakers and attendees and make sure all information
+for watching and giving talks is super clear.
+
+Pre-conference rehearsals goes a long way towards helping speakers
+feel included and setting expectations for the streaming system. We found a few bugs this way and had a chance to test out difficulties with setups, networks, and laptops.
+
+As I wrote above, these streaming systems put more load on presenters'
+computers than Zoom. This was definitely frustrating for presenters who would
+rightly would question why our system seemed to be broken. 
+There's not much that can be done on the day of a talk, but if the expectations are set well in advance, some of these difficulties can be smoothed out.
+
+One efficiency would be to ask for slides well in advance. Restream can host basic slide decks directly in their interface. This can really help if a remote presenter's system is struggling to screen share and stream camera and audio. Both the presenter and stream producer can control the slide deck in this case, but animations and videos in the slides aren't supported.
+
+Some remote participants really wanted to do pre-recorded presentations. I
+understand the temptation as these are much easier to produce than a live
+hybrid talk. The problem is that pre-recorded talks are terribly boring! Live
+attendees regularly walk out of them. I don't think pre-records should be a part of live (and expensive) conference programs.  
+
 ## Doing this again, better.
 
-[ACMC2020](https://benswift.me/blog/2020/07/15/acmc2020-organising-my-first-virtual-conference/)
+I previously had experience with a great _virtual_ conference with 
+[ACMC2020](https://benswift.me/blog/2020/07/15/acmc2020-organising-my-first-virtual-conference/). The hybrid setup was much more complex and difficult and a huge effort to make it work. It's possible to get a great result with a one-person setup, but it's hard work. Next time, I'd think about:
+
+- setting expectations even more clearly with remote participants and collecting more slide decks in advance
+- experimenting with a third playback-only computer for showing the remote talks
+- training another person to be the stream producer during talks
 
 
