@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Remote Presentation Procedure for Hybrid Conferences</title>
+<meta name="description" content="">
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="Logo">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/music/">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/lab/">lab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.no/citations?user=mTlH4G8AAAAJ" class="nav-link">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
+      <li class="nav-item">
+	<button class="btn" id="btnSwitch">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewbox="0 0 16 16">
+  	  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"></path>
+	  </svg>
+	</button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- unlisted links -->
+<a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+<script>
+
+/*!
+ * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ */
+const storedTheme = localStorage.getItem('theme')
+
+  const getPreferredTheme = () => {
+    if (storedTheme) {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+
+  const setTheme = function (theme) {
+    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-bs-theme', 'dark')
+    } else {
+      document.documentElement.setAttribute('data-bs-theme', theme)
+    }
+  }
+
+  setTheme(getPreferredTheme())
+
+  // Super simple dark mode: Carol Skelly on StackOverflow
+  // https://stackoverflow.com/a/63087710
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        setTheme('light')
+    }
+    else {
+	setTheme('dark')
+    }
+})
+</script>
+
+
+    
+
+    
+
+    <div class="container rounded bg-body">	   
+      <main class="my-2 p-4" aria-label="Content">
+        <article>
+  
+  <div class="my-4">
+    <h1 class="">Remote Presentation Procedure for Hybrid Conferences</h1>
+  </div>
+  
+
+  
+
+
+  <div class="my-4 p-2">
+    <p>This is the instructions for Remote Presentations at (Insert Meeting Here).</p>
+
+<ul>
+  <li>
+    <p>Remote presentation will take place through <strong>Restream.io</strong>, an in-browser streaming system.</p>
+  </li>
+  <li>
+    <p>Restream allows us to <strong>connect the in-person auditorium to remote guests</strong> and simultaneously <strong>stream to our remote attendees</strong>.</p>
+  </li>
+  <li>
+    <p>You will need to <strong>test your setup</strong> before the event and may need to run through a few troubleshooting steps if there are issues.</p>
+  </li>
+  <li>
+    <p>Please prepare a talk of the correct length: e.g., 15 mins for full papers and 7 mins for short papers. Presentations that are more than 2 minutes overtime will be cut off to ensure fair use of time.</p>
+  </li>
+</ul>
+
+<p><strong>You can test the OzCHI Restream Studio through this link: (link TBA)</strong></p>
+
+<ul>
+  <li>
+    <p>You can <strong>join the studio at any time</strong>, test your camera and microphone and initiate screen sharing.</p>
+  </li>
+  <li>
+    <p>Nothing will be shown externally unless <strong>a stream administrator enables your video/screen in the live stream</strong>.</p>
+  </li>
+  <li>
+    <p>The studio has a <strong>private chat</strong> for communicating with the stream admin and other guests.</p>
+  </li>
+  <li>
+    <p>We will use the conference slack for Q&amp;A beyond the presentation time.</p>
+  </li>
+</ul>
+
+<h2 id="before-the-conference">Before the conference:</h2>
+
+<ol>
+  <li>
+    <p><strong>Restream Studio works best in the Chrome/Chromium/Chrome-based browsers.</strong> We have confirmed that it works using <strong>Firefox</strong>.</p>
+  </li>
+  <li>
+    <p>Please look over the <a href="https://support.restream.io/en/articles/4200670-recommendations-for-restream-studio-guests">recommendations for Restream Guests</a> before testing.</p>
+  </li>
+  <li>
+    <p>You can and should login to the <strong>OzCHI Restream studio at any time</strong> through the link (TBA) to do basic connectivity testing, or use a free account to test Restream Studio.</p>
+  </li>
+  <li>
+    <p>If you are presenting remotely, you MUST attend a presentation check
+in the days before the conference. Please do steps 1-3 above
+before your check 🙂.</p>
+  </li>
+  <li>
+    <p>Sign up for a tech check here: (link TBA)
+If the tech check times don’t work for you (e.g., timezone issues), please
+get in touch.</p>
+  </li>
+</ol>
+
+<h2 id="during-the-conference">During the conference:</h2>
+
+<p>During the conference please do not join the studio link until your
+paper session and do not share this link with others. You can watch
+other paper sessions on a separate streaming playback link (available
+through conference chat).</p>
+
+<ol>
+  <li>
+    <p>You will receive an event-specific restream studio link via email
+well in advance of your session, we will also make the link
+available to you on slack (different link than above).</p>
+  </li>
+  <li>
+    <p>You should join the Restream Studio link 15 minutes before the start
+of your paper session and test slides/audio as necessary.</p>
+  </li>
+  <li>
+    <p>A stream manager (name will be “manager”) will be present in the
+studio. Say hi over the private chat to announce your presence and
+they will run through technical checks.</p>
+  </li>
+  <li>
+    <p>You can watch the other talks in the studio.</p>
+  </li>
+  <li>
+    <p>You will be invited to share your screen/slides 5 minutes before
+your presentation.</p>
+  </li>
+  <li>
+    <p>During your talk, your slides and camera will be enabled on the
+broadcast view and you can start.</p>
+  </li>
+  <li>
+    <p>Questions will be sent through private chat or announced live by the
+session chair.</p>
+  </li>
+</ol>
+
+<p>Please be patient and kind when working remotely. We will do our best to
+ensure a smooth, fair and high quality experience for everyone but in
+any hybrid conference there can be unexpected technical issues 🙂.</p>
+
+<h2 id="length-of-talks">Length of talks</h2>
+
+<p>At the event, talk lengths will be:</p>
+
+<ul>
+  <li>
+    <p>Full papers: 15 minutes (up to 5 mins for questions)</p>
+  </li>
+  <li>
+    <p>Late Breaking Work: 7 minutes (up to 3 mins for questions)</p>
+  </li>
+</ul>
+
+<p>Your slides will not be visible during question time.</p>
+
+<p>Buffers in-between talks are required to ensure smooth changeovers
+between presenters and remote/in-person talks. The following procedure
+will occur at the end of remote talks.</p>
+
+<ul>
+  <li>
+    <p>Remote presenters will have time reminders messaged to them at 2
+minutes and 1 minute before the end of their talk.</p>
+  </li>
+  <li>
+    <p>At the conclusion of your time, the paper chair will appear on
+screen.</p>
+  </li>
+  <li>
+    <p>At 2 minutes over time your talk will be cut off.</p>
+  </li>
+</ul>
+
+<h2 id="sharing-your-screenpresentation">Sharing your screen/presentation:</h2>
+
+<p>There are three options for sharing your slides during your
+presentation:</p>
+
+<ol>
+  <li>
+    <p>Present from a Chrome tab</p>
+  </li>
+  <li>
+    <p>Present from the powerpoint/keynote/etc application and share your
+screen</p>
+  </li>
+  <li>
+    <p>Upload your presentation slides directly into Restream.io</p>
+  </li>
+</ol>
+
+<p>Presenting from a Chrome tab is the <strong>best option</strong> as it supports audio
+sharing on all platforms. We recommend setting up your presentation tab
+in a separate browser window so that you can keep an eye on the restream
+window during your talk.</p>
+
+<p>Presenting from <strong>powerpoint/keynote/etc usually works</strong>, but please
+test that screen sharing works with your browser. It’s usually better to
+present from a window rather than full screen (instructions for
+<a href="https://office-watch.com/2022/powerpoint-presentations-in-window-not-full-screen/">powerpoint</a>
+and
+<a href="https://support.apple.com/en-au/HT211222#:~:text=Before%20you%20start%20your%20presentation,Window%20or%20Play%20%3E%20In%20Fullscreen.">keynote</a>)
+so that you can keep an eye on the restream window during your talk.</p>
+
+<p><a href="https://support.restream.io/en/articles/5984768-presentations-in-studio">Presentations in Studio | Restream Help Center</a></p>
+
+<p><strong>Uploading</strong> your presentation slides into Restream studio is <strong>most
+reliable</strong> (as they put it, it helps escape “technical hell”) but does
+not support video/audio within slides. See the instructions here:
+<a href="https://support.restream.io/en/articles/5984768-presentations-in-studio">https://support.restream.io/en/articles/5984768-presentations-in-studio</a></p>
+
+<p>Slides in <strong>PDF format</strong> are recommended for upload into restream.
+<strong>Please have a PDF version of your presentation ready as a backup.</strong></p>
+
+<p>If presenting from a browser tab or screen sharing, you should test your
+screen sharing and may need to do some setup:</p>
+
+<ul>
+  <li>
+    <p>MacOS: you may need to update System Preferences to allow screen
+sharing from your browser. It is important to test this well
+before the presentation and to use the same computer that you
+tested for your presentation.</p>
+  </li>
+  <li>
+    <p>Doesn’t work? Try the troubleshooting page:
+<a href="https://support.restream.io/en/articles/6572827-screensharing-feature-troubleshooting">https://support.restream.io/en/articles/6572827-screensharing-feature-troubleshooting</a></p>
+  </li>
+</ul>
+
+<h2 id="sharing-audiovideo-from-your-presentation">Sharing audio/video from your presentation:</h2>
+
+<p>If you have videos with audio in your presentation, it’s important to
+test that audio can be shared. The most reliable option for audio
+sharing is to do your presentation from a browser. Here are the
+limitations for Restream.io’s screen sharing capabilities:</p>
+
+<ul>
+  <li>
+    <p>Windows: The 'Share Audio' option is only available for the entire
+screen or browser tab options.</p>
+  </li>
+  <li>
+    <p>MacOS + Linux: The 'Share Audio' option is only available for the
+entire screen or browser tab options.</p>
+  </li>
+  <li>
+    <p>Uploaded slides into restream.io: Video/Audio <strong>not supported</strong></p>
+  </li>
+</ul>
+
+<p>Further info:
+<a href="https://support.restream.io/en/articles/4341908-restream-studio-screensharing-feature">https://support.restream.io/en/articles/4341908-restream-studio-screensharing-feature</a></p>
+
+<h2 id="camera-mic-and-audio-tips">Camera, Mic and Audio Tips:</h2>
+
+<ul>
+  <li>
+    <p>Using headphones during your talk helps improve audio quality
+through your microphone (by reducing echoes/feedback) so this is
+recommended if possible.</p>
+  </li>
+  <li>
+    <p>Setting your camera slightly above your eye level tends to look
+better than if it’s looking up at you from below. If you are using
+the camera in your laptop, you could try putting your laptop on a
+stack of books to raise it above your eyes.</p>
+  </li>
+  <li>
+    <p>Having light on your face rather than behind you definitely looks
+better in your presentation.</p>
+  </li>
+</ul>
+
+<h2 id="recording">Recording:</h2>
+
+<ul>
+  <li>
+    <p>The session videos at ozchi will be streamed through Youtube to
+reach our remote participants.</p>
+  </li>
+  <li>
+    <p>Youtube automatically creates a live replay recording of streams,
+but this will not be publicly released and will be deleted from
+youtube at the conclusion of the conference.</p>
+  </li>
+  <li>
+    <p>The focus during the conference is on live participation and
+engagement.</p>
+  </li>
+</ul>
+
+
+  </div>
+</article>
+
+
+      </main>
+    </div>
+
+    <footer class="container my-2 px-0">
+      <div class="mb-4">
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P. Martin 2022</p>
+        <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+  </body>
+</html>
