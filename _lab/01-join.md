@@ -20,7 +20,7 @@ There are three ways to learn about sound, music and creative computing in my la
 3. Apply to become a [PhD or MPhil student](https://comp.anu.edu.au/study/research/) in my lab. This is for folks who already have excellent results in a computing or creative technology degree and experience in creative computing. You'll need to get in touch with me well before applications are due.
 
 {:.info-box}
-I'm not recruiting student projects in 2023!
+I will next recruit student projects in January 2024. I will next recruit PhD students in the application round due in April 2024.
 
 ## Courses
 
