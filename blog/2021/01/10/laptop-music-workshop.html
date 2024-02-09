@@ -181,6 +181,7 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 <li class="toc-entry toc-h2"><a href="#exercise-4-time-for-techno">Exercise 4: Time for techno</a></li>
 <li class="toc-entry toc-h2"><a href="#heres-one-i-made-earlier">Here’s one I made earlier</a></li>
 <li class="toc-entry toc-h2"><a href="#this-is-just-the-start">This is just the start!</a></li>
+<li class="toc-entry toc-h2"><a href="#much-later-music-and-code-resources">Much later… music and code resources</a></li>
 </ul>
 </li>
 </ul>
@@ -195,7 +196,7 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
   <p>In this session you’ll try out some of the tools used in the <a href="https://comp.anu.edu.au/courses/laptop-ensemble">ANU Laptop Ensemble</a> for making music with code and have a computer music jam with a group! We’ll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.</p>
 </blockquote>
 
-<p>(<em>updated: 6/7/2022</em>)</p>
+<p>(<em>updated: 9/2/2024</em>)</p>
 
 <h1 id="making-your-laptop-into-a-musical-instrument">Making your Laptop into a Musical Instrument</h1>
 
@@ -462,6 +463,23 @@ b.index.seq([2,3,4,5,6],1/16)
   <li><a href="https://comp.anu.edu.au/courses/laptop-ensemble/">ANU Latptop Ensemble Page</a></li>
 </ul>
 
+<h2 id="much-later-music-and-code-resources">Much later… music and code resources</h2>
+
+<ol>
+  <li>ANU Sound and Music Computing <a href="https://www.youtube.com/watch?v=2EdxJ_aJRHA&amp;list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY">student performances.</a>
+</li>
+  <li>The <a href="https://github.com/gibber-cc/gibber">gibber playground</a>: Gibber’s user interface, clone this repo to run Gibber locally.</li>
+  <li>
+<a href="https://github.com/charlieroberts/gibber.audio.lib">gibber.audio.lib</a>: Audio components for Gibber, most of this wraps <code class="language-plaintext highlighter-rouge">gibberish</code> (see below), but it does include the <a href="https://github.com/charlieroberts/gibber.audio.lib/tree/main/js/presets">presets</a>.</li>
+  <li>
+<a href="https://github.com/charlieroberts/gibber.graphics.lib">gibber.graphics.lib</a>: Graphics components for Gibber.</li>
+  <li>
+<a href="https://github.com/charlieroberts/gibber.core.lib">gibber.core.lib</a>: A few shared objects and function for Gibber, mostly for sequencing. <code class="language-plaintext highlighter-rouge">euclid</code>, <code class="language-plaintext highlighter-rouge">seq</code>, and <code class="language-plaintext highlighter-rouge">tidal</code> are defined here.</li>
+  <li>
+<a href="https://github.com/gibber-cc/gibberish">gibberish</a>: a “fast JavaScript DSP library”. If you want to know where <code class="language-plaintext highlighter-rouge">Synth</code> or <code class="language-plaintext highlighter-rouge">Sampler</code> are defined, look here (actually look in <code class="language-plaintext highlighter-rouge">gibberish/js/instruments</code>).</li>
+  <li>
+<a href="https://github.com/charlieroberts/genish.js">genish</a>: this is a lower-level DSP library for doing “per-sample audio processing” (inspired by the <code class="language-plaintext highlighter-rouge">gen~</code> object from Max/MSP). To understand why this is cool, look at the <a href="http://www.charlie-roberts.com/genish/tutorial/index.html">genish tutorial</a>.</li>
+</ol>
 
 </div> 
 </article>
