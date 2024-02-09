@@ -15,7 +15,7 @@ This is a _workshop_ designed for students who have never done any coding before
 
 > In this session you’ll try out some of the tools used in the [ANU Laptop Ensemble](https://comp.anu.edu.au/courses/laptop-ensemble) for making music with code and have a computer music jam with a group! We'll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.
 
-(_updated: 6/7/2022_)
+(_updated: 9/2/2024_)
 
 #  Making your Laptop into a Musical Instrument
 
@@ -292,3 +292,13 @@ ptrn.addFilter( (args, __ptrn) => {
 })
 
 {% endcomment %}
+
+## Much later... music and code resources
+
+0. ANU Sound and Music Computing [student performances.](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY)
+1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface, clone this repo to run Gibber locally.
+2. [gibber.audio.lib](https://github.com/charlieroberts/gibber.audio.lib): Audio components for Gibber, most of this wraps `gibberish` (see below), but it does include the [presets](https://github.com/charlieroberts/gibber.audio.lib/tree/main/js/presets).
+3. [gibber.graphics.lib](https://github.com/charlieroberts/gibber.graphics.lib): Graphics components for Gibber.
+4. [gibber.core.lib](https://github.com/charlieroberts/gibber.core.lib): A few shared objects and function for Gibber, mostly for sequencing. `euclid`, `seq`, and `tidal` are defined here.
+5. [gibberish](https://github.com/gibber-cc/gibberish): a "fast JavaScript DSP library". If you want to know where `Synth` or `Sampler` are defined, look here (actually look in `gibberish/js/instruments`).
+6. [genish](https://github.com/charlieroberts/genish.js): this is a lower-level DSP library for doing "per-sample audio processing" (inspired by the `gen~` object from Max/MSP). To understand why this is cool, look at the [genish tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html).
