@@ -4,6 +4,16 @@ title: Publications
 permalink: /publications/
 ---
 
+This page shows refereed journal articles, conference articles, and book chapters.
+
+{% bibliography --query @*[keywords ~= refereed] %}
+
+
+
+{% comment %}
+
+## Refereed Journal Articles, Conference Articles, and Book Chapters
+
 ## Book Chapters
 
 {% bibliography --query @*[keywords ~= book-chapter && keywords ~= refereed] %}
@@ -18,8 +28,6 @@ permalink: /publications/
 
 ## Other Publication Outputs
 
-{% comment %}
-
 ### Articles Under Review
 
 {% bibliography --query @*[keywords ^= under-review] %}
@@ -28,7 +36,6 @@ permalink: /publications/
 
 {% bibliography --query @*[keywords ^= conference-paper && keywords ^= non-refereed] %}
 
-{% endcomment %}
 
 ### Conference Presentations
 
@@ -49,3 +56,6 @@ permalink: /publications/
 ### Selected Music Recordings
 
 {% bibliography --query @*[keywords ^= music-recording] %}
+
+
+{% endcomment %}
