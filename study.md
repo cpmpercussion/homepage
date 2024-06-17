@@ -80,17 +80,17 @@ Data collected during this research will only be accessible to the researcher an
 
 For more information, feel free to contact Dr Charles Martin at the ANU:
 
-**Dr Charles Martin ** <br />
+**Dr Charles Martin** <br />
 Hanna Neumann Blg 145, 4.19<br />
- Telephone: 6125 3139<br />
-Email:  charles.martin@anu.edu.au
+Telephone: 6125 3139<br />
+Email: charles.martin@anu.edu.au
 
 ### Ethics Committee Clearance:
 
 The ethical aspects of this research have been approved by the ANU Human Research Ethics Committee. If you have any concerns or complaints about how this research has been conducted, please contact:
 
-**Ethics Manager **<br />
-The ANU Human Research Ethics Committee <br />
-The Australian National University <br />
-Telephone: +61 2 6125 3427 <br />
+**Ethics Manager**<br />
+The ANU Human Research Ethics Committee<br />
+The Australian National University<br />
+Telephone: +61 2 6125 3427<br />
 Email: Human.Ethics.Officer@anu.edu.au

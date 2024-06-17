@@ -20,7 +20,7 @@ There are three ways to learn about sound, music and creative computing in my la
 3. Apply to become a [PhD or MPhil student](https://comp.anu.edu.au/study/research/) in my lab. This is for folks who already have excellent results in a computing or creative technology degree and experience in creative computing. You'll need to get in touch with me well before applications are due.
 
 {:.info-box}
-I'm not recruiting student projects in 2023!
+I will next recruit student projects in January 2024. I will next recruit PhD students in the application round due in April 2024.
 
 ## Courses
 
@@ -29,11 +29,14 @@ I currently teach:
 - [Art and Interaction in New Media (COMP1720/COMP6720)](https://cs.anu.edu.au/courses/comp1720) 
 - [Sound and Music Computing (COMP4350/8350)](https://cs.anu.edu.au/courses/laptop-ensemble) 
 
+{% comment %}
 I have previously taught:
 
 - [Computer Organisation and Program Execution (COMP2300/COMP6300)](https://cs.anu.edu.au/courses/comp2300) at ANU (2019, 2020, 2022).
 - [Advanced Topics in AI for Intelligent Systems (IN5490)](https://www.uio.no/studier/emner/matnat/ifi/IN5490) at the University of Oslo,
 - [Drums and Percussion at the ANU School of Music](https://music.cass.anu.edu.au/performance-ensemble/drums-and-percussion).
+{% endcomment %}
+
 
 ![teaching a group]({{site.baseurl}}/assets/images/teaching/bela-workshop-header.jpg)
 
@@ -43,6 +46,9 @@ I supervise PhD, Master, and Honours students at the ANU and at University of Os
 
 My students have gone on to work at Google, Seeing Machines, Oslo Metropolitan University, and other wonderful places.
 
+I'm only able to accept students who have excellent results in a computing or creative technology degree at the Master or Honours level and who have existing experience in computing for a creative field. Interest in music or art is not enough, experience needs to be clearly demonstrated through projects and (hopefully) publications or a thesis.
+
+Prospective students should also have a look at my list of [focus areas]({% link _posts/2023-08-26-projects-in-24.md %})}.
 
 ## Student Projects
 
@@ -50,25 +56,16 @@ I supervise student projects in sound and music computing, creativity support sy
 
 My available projects are listed on the [ANU School of Computing student project page](https://comp.anu.edu.au/study/projects/).
 
-Projects could involve:
+Projects should align with my current [focus areas]({% link _posts/2023-08-26-projects-in-24.md %})}:
 
-- developing predictive musical instruments
-- new interfaces for musical expression (NIME)
-- machine learning of musical style
-- musical AI
-- computer support for collaborative musical expression
-- applying ML/AI in creative practices
+- spatial interaction (creating new musical instruments in VR/AR or with movement sensors)
+- generative creative gestures with AI/ML
+- guiding collaborative performances with AI models
+- creating intelligent instruments in hardware
 
 ![Charles Martin Background Areas]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
 
-Here's some project ideas that could be extended or shaped to suit you:
-
-- Creating a New Interface for Musical Expression
-- Generating harmony from a melody sequence
-- Generatinng "improved" versions of melody/MIDI content
-- Neural nnetworks for generating digital audio
-- Evolutionary music making
-
+Experience with a creative field is a must. Computing students should have taken either [COMP1720/6720 Art and Interaction Computing]() or [COMP4350/8350 Sound and Music Computing]() and obtained excellent results.
 
 {% comment %}
 ### Creating a New Interface for Musical Expression
