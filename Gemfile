@@ -38,3 +38,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add webrick as a dependency for Ruby 3.0, as it's no longer a bundles gem
 gem "webrick", "~> 1.7"
+
+# This is for debugging.
+gem 'html-proofer'
