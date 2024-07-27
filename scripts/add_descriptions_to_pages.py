@@ -9,7 +9,7 @@ content_dir = Path('../_posts')
 def extract_description(text, max_length=155):
     # Remove markdown links/images, HTML tags, markdown headings, and special characters
     clean_text = re.sub(r'!\[.*?\]\(.*?\)|<[^>]+>|\[(.*?)\]\(.*?\)|#+|{%.*?%}|{{.*?}}', r'\1', text)
-    clean_text = re.sub(r'[*#_:]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
+    clean_text = re.sub(r'[*#_:"]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()  # Normalize whitespace and strip leading/trailing whitespace
     if len(clean_text) > max_length:
         return clean_text[:max_length].rsplit(' ', 1)[0]
