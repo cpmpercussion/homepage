@@ -1,9 +1,9 @@
 title: Charles Martin
 email: cpm@charlesmartin.au
-bio: "percussion. sound. interaction"
 title-image: "/assets/bio/charlesmartin-synth-profile.jpg"
+tagline: A blog about music technnology and computing.
 description: > 
-  Charles Martin is a computer scientist and musician specialising in music technology and machine learning.
+  Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 baseurl: ""
 url: "https://charlesmartin.au"
 twitter_username: cpmpercussion
@@ -11,13 +11,16 @@ github_username:  cpmpercussion
 locale:             en_AU
 # Social
 analytics-id:       "default"
-twitter:            cpmpercussion
+twitter:
+  username: cpmpercussion
+  card: summary
 instagram:          cpmpercussion
 github:             cpmpercussion
 soundcloud:         charlesmartin
 googlescholar:      mTlH4G8AAAAJ
 arxiv:              https://arxiv.org/a/martin_c_1.html
 orcid:              https://orcid.org/0000-0001-5683-7529
+logo: "/assets/bio/charlesmartin-synth-profile.jpg"
 
 # Jekyll
 permalink:          /blog/:year/:month/:day/:title
@@ -43,6 +46,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-scholar
   - jekyll-toc
+  - jekyll-seo-tag
 
 include:
 - _redirects

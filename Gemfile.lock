@@ -203,6 +203,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-paginate-v2
   jekyll-scholar
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll-toc
   minima (~> 2.0)
