@@ -18,7 +18,7 @@ def extract_description(text, max_length=155):
 # Function to update the markdown file by appending the description to the front matter
 def update_file_with_description(md_file_path, front_matter, description):
     # Append the generated description within the TOML front matter
-    updated_front_matter = f'---\n{front_matter}\ndescription: "{description}"\n---\n'
+    updated_front_matter = f'---\n{front_matter}\ndescription: "{description}"\n---\n\n'
     main_content = content[front_matter_match.end():].lstrip()
     updated_content = updated_front_matter + main_content
     
