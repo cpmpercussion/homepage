@@ -9,7 +9,7 @@ tags:
 type: post
 published: false
 meta: {}
-description: "A bit of controversy on the blargs recently about "Fitter's Workshop", an antique building in Canberra (the controversy being whether the ACT Government"
+description: "A bit of controversy on the blargs recently about Fitter's Workshop, an antique building in Canberra (the controversy being whether the ACT Government"
 ---
 
 ![Fitter's Workshop](https://farm4.static.flickr.com/3577/3496432939_e5433f5409.jpg)

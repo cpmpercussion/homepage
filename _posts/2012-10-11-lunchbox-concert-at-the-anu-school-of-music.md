@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
-description: "I played a fun concert today with Gary France at the ANU School of Music. We played Maria Schnieder's "The Pretty Road" as a duo to open a Lunchbox"
+description: "I played a fun concert today with Gary France at the ANU School of Music. We played Maria Schnieder's The Pretty Road as a duo to open a Lunchbox"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-10-11-LunchboxConcertANU.jpg)

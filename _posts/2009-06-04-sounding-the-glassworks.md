@@ -10,7 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
-description: "](/assets/blogger/fitters-workshop-striking.jpg) Charles at "Sounding the Glassworks""
+description: "Pictures of Charles at Sounding the Glassworks"
 ---
 
 ![Source: [CIMF Photos](http://www.flickr.com/people/cimfphotos/)]({{ site.baseurl }}/assets/blogger/fitters-workshop-striking.jpg)

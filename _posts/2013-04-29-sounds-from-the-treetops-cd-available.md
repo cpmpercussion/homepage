@@ -7,7 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
-description: "Ensemble Evolution's first album, "Sounds from the Treetops" is now available as a REAL CD over on Bandcamp! The CD features a lightweight sleeve with"
+description: "Ensemble Evolution's first album, Sounds from the Treetops is now available as a REAL CD over on Bandcamp! The CD features a lightweight sleeve with"
 ---
 
 Ensemble Evolution's first album, "Sounds from the Treetops" is now available as a REAL CD over on [Bandcamp!](http://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops)

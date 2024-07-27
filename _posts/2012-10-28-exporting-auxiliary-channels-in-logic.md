@@ -11,7 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
-description: "A good tip from Apple Support on how to export the sound of auxiliary channel strips in Logic when doing an "export all tracks" The trick is to select the"
+description: "A good tip from Apple Support on how to export the sound of auxiliary channel strips in Logic when doing an export all tracks The trick is to select the"
 ---
 
 A [good tip from Apple Support](http://support.apple.com/kb/HT3650?viewlocale=en_US&locale=en_US#) on how to export the sound of auxiliary channel strips in Logic when doing an "export all tracks"

@@ -11,7 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-description: "My new group Ensemble Metatone performed our first concert recently as part of the Canberra International Music Festival's free concert series "A Musical"
+description: "My new group Ensemble Metatone performed our first concert recently as part of the Canberra International Music Festival's free concert series"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/DrumatiXCIMF-NordligVinterEnsemble.jpg)

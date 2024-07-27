@@ -12,7 +12,7 @@ tags:
 status: publish
 type: post
 published: true
-description: "Ensemble Evolution's new album "Sounds from the Treetops" has just gone live on Bandcamp! The album features music by all three of us, including two"
+description: "Ensemble Evolution's new album Sounds from the Treetops has just gone live on Bandcamp! The album features music by all three of us, including two"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2013-02-13-SoundsFromTheTreetopsCDFront.jpg)
