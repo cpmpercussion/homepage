@@ -16,6 +16,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "During our Piteå Percussion Repertoire Festival last week, a couple of people asked me about the best way to get started with computer music and"
 ---
 
 ![Getting started with percussion and computer music.]({{ site.baseurl }}/assets/squarespace_images/2011-03-26-ComputerMusic.jpg)

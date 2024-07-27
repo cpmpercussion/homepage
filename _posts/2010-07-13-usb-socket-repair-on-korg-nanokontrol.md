@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I bought a Korg NanoKontrol in Japan in February and, before I even had one performance with it, I managed to break the USB connector. Looking inside, I"
 ---
 
 I bought a Korg NanoKontrol in Japan in February and, before I even had one performance with it, I managed to break the USB connector. Looking inside, I found that it was only held on by weak solder connections so I can't blame myself too much... 

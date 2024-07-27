@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A behind the scenes look at Heroku "Heroku Up and Running" is a behind the scenes look at the inner workings and rationale behind the Heroku Platform as a"
 ---
 
 ### A behind the scenes look at Heroku

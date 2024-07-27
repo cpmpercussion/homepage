@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Time to catch up on some old blogs! First up is Theremin '75, a concert of music for Theremin, iPad and computer in October. This concert was held to"
 ---
 
 Time to catch up on some old blogs!

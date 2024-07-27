@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "There's still one performance to go tonight, Thursday 8th of July, 830pm, Street 2, The Street Theatre. Posted via email from charles martin"
 ---
 
 There's still one performance to go: tonight, Thursday 8th of July, 8:30pm, Street 2, The Street Theatre.

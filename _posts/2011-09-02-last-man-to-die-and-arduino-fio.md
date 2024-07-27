@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Last week the Last Mans and I put on a little run of our show as part of National Science Week. Most exciting for me was the chance to refine the wearable"
 ---
 
 Last week the Last Mans and I put on a little run of our [show](http://lastmantodie.net/) as part of [National Science Week](http://www.scienceweek.gov.au/).

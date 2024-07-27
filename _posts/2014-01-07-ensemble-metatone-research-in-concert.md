@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "In August 2013, Ensemble Metatone and I performed a short concert of our works for iPad and percussion developed over the previous four months. We played"
 ---
 
 In August 2013, Ensemble Metatone and I performed a short concert of our works for iPad and percussion developed over the previous four months. We played two improvised pieces, MetaLonsdale for four iPads, and MetaTravels for four iPads with percussion.

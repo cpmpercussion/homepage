@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Sunday touring in San Francisco. See and download the full gallery on posterous -Charles Posted via email from charles martin"
 ---
 
 Sunday touring in San Francisco.

@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "At the end of April I presented my Metatone Apps at CHI2014 in Toronto, as well as delivering a short paper. We brought a mini Ensemble Metatone setup"
 ---
 
 At the end of April I presented my Metatone Apps at CHI2014 in Toronto, as well as delivering a short paper.

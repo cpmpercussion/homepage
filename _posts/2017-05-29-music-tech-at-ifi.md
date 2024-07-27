@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: post
 published: true
+description: "We recently hosted a music technology event at the Department of Informatics to gather together researchers and students from the University of Oslo to"
 ---
 
 We recently hosted a music technology event at the Department of Informatics to gather together researchers and students from the University of Oslo to see performances and demonstrations of current research.

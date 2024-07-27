@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "The Nordlig Vinter app plays computer generated soundscapes inspired by the landscape of Northern Sweden in winter. This app is designed to work as the"
 ---
 
 [The Nordlig Vinter app](https://itunes.apple.com/us/app/nordlig-vinter/id631988721) plays computer generated soundscapes inspired by the landscape of Northern Sweden in winter.

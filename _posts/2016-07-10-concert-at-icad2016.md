@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I joined the ANU Experimental Music Studio to perform several works at the International Conference on Auditory Display at the ANU School of Music last"
 ---
 
 I joined the ANU Experimental Music Studio to perform several works at the International Conference on Auditory Display at the ANU School of Music last week - here's some photos! 

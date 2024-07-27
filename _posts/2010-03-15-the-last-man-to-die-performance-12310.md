@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/500bb0b2e4b042ea6e35b13f_53aa47bbe4b05ff168aaa1af_1403668420978_Ben+Lecture+-+Version+2.jpg)

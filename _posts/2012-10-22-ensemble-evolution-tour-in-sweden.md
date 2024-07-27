@@ -17,6 +17,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Anna, Maria and Jake playing in Västervik In May 2011, Ensemble Evolution went on tour into the south of Sweden to play concerts and give workshops at"
 ---
 
 ![Anna, Maria and Jake playing in Västervik]({{ site.baseurl }}/assets/squarespace_images/2012-10-22-EESweden1.jpg) Anna, Maria and Jake playing in Västervik 

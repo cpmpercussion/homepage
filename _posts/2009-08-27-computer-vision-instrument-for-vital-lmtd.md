@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "We used the computer vision table in a performance at the Street Theatre and at This is Not Art in Newcastle. The final version had an aluminium frame"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/lmtd-CRW_3272.jpg)

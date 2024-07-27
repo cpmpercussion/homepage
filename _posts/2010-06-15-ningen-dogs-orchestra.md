@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Ningen Dogs Orchestra at NIME2010, Sydney. Posted via email from charles martin"
 ---
 
 Ningen Dogs Orchestra at NIME2010, Sydney.

@@ -14,6 +14,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Some shots of our rehearsals and workshops at University of Alaska, Fairbanks!"
 ---
 
 Some shots of our rehearsals and workshops at University of Alaska, Fairbanks!

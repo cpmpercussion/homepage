@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "In March 2011, Ensemble Evolution hosted the Piteå Percussion Repertoire Festival at Studio Acusticum. More than 40 teachers, performers, composers and"
 ---
 
 In March 2011, Ensemble Evolution hosted the Piteå Percussion Repertoire Festival at Studio Acusticum. More than 40 teachers, performers, composers and students came from around the world to share new music, ideas and inspiration!

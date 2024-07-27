@@ -4,6 +4,7 @@ title: One-person hybrid conference toolkit
 date: 2023-07-20
 category: note
 tags: hybrid, conference, setup
+description: "Hybrid events are hard, even more now that they are kind of expected, especially within the academic community. This post is about my one-person hybrid"
 ---
 
 Hybrid events are **hard**, even more now that they are kind of _expected_,

@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "it's me!"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-15-Swexican1.jpg)

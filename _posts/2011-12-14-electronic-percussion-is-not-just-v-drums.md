@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Dave Gerhart posted an article recently called “A Question Concerning Electronic Percussion” by Norman Weinberg over on drumchattr. I read this article in"
 ---
 
 [Dave Gerhart](http://twitter.com/#!/drgerhart) posted an article recently called [“A Question Concerning Electronic Percussion”](http://drumchattr.com/a-question-concerning-electronic-percussion/) by Norman Weinberg over on drumchattr.

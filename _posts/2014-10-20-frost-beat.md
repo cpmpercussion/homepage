@@ -12,9 +12,8 @@ tags:
 status: publish
 type: post
 published: true
-
+description: "In May 2014, while I was travelling through Boston, I had the chance to embark on a mini-tour with Maria Finkelmeier as part of ArtWeek Boston, in between"
 ---
-
 
 In May 2014, while I was travelling through Boston, I had the chance to embark on a mini-tour with Maria Finkelmeier as part of [ArtWeek Boston](http://www.artweekboston.org), in between our mallet duo and iPad concerts, we played two nights of experimental music for ice and percussion at the [Frost Bar](http://www.frosticebar.com) called Frost Beat!
 

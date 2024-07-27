@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Since our repertoire festival, I've been thinking about what the role of a percussionist should be after they've left university. I remember something"
 ---
 
 Since our repertoire festival, I've been thinking about what the role of a percussionist should be after they've left university. I remember something that Eugene Ughetti (Speak Percussion) said when describing his own move from the academic to professional world:

@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Chrissy and I had great lunch in the East village yesterday. It was soooo hot."
 ---
 
 Chrissy and I had great lunch in the East village yesterday. It was soooo hot.

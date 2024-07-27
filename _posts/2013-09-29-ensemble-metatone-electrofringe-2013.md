@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Fun times await! Ensemble Metatone is heading to Newcastle this weekend for the return of Electrofringe! We're performing at Hunter St TAFE at 210pm this"
 ---
 
 ![Fun times await!]({{ site.baseurl }}/assets/squarespace_images/2013-09-29-ElectrofringePoster.jpg) 

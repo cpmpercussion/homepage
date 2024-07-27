@@ -16,6 +16,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Here's a mini-documentary of Strike on Stage, a percussion and media-art project that I worked on with Chi-Hsia Lai in 2010. This was one of my favourite"
 ---
 
 Here's a mini-documentary of [Strike on Stage](http://strikeonstage.posterous.com), a percussion and media-art project that I worked on with [Chi-Hsia Lai](http://laichisia.com) in 2010.

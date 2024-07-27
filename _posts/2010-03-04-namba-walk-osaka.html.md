@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Travel by Charles Martin Field recording of Namba Walk, Osaka - later mixed into this little musique concrete track. Check out the whole piece I wrote"
 ---
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1924451892/size=small/bgcol=ffffff/linkcol=0687f5/track=2761195598/transparent=true/" seamless><a href="https://charlesmartin.bandcamp.com/album/travel">Travel by Charles Martin</a></iframe>

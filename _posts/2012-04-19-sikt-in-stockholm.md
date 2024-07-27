@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I was involved in “Sikt”, a project directed by Malin Hülphers in Stockholm this week. Anders Åstrand, Sanna Hodell and Fredrik Strid well performing as"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-04-19-Sikt1.jpg)

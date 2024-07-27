@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "We presented MicroJam this week at the Boost Technology and Equality in Music Conference at Sentralen, Oslo. The conference arranged a Tech Showcase"
 ---
 
 We presented MicroJam this week at the [Boost Technology and Equality in Music Conference](http://www.boost2017.com) at Sentralen, Oslo. The conference arranged a Tech Showcase session in Hvelvet, Sentralen's old bank vault with developers of music apps, synthesisers, robots and education software.

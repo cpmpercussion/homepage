@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "A few puns from the streets of Newark..."
 ---
 
 A few puns from the streets of Newark...

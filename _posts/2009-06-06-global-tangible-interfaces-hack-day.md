@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "My goal for today's hackday is to connect the trackmate system to supercollider. Tricky! (But it works!) Trackmate sends OSC messages to port 3333 of any"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/tangible-interfaces-drum.jpg)

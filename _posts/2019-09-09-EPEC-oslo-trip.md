@@ -7,6 +7,7 @@ categories:
 tags:
 - Oslo
 - research
+description: "I had a brief (one week) trip to Oslo to catch up on ongoing research projects with colleagues in the engineering predictability with embodied cognition"
 ---
 
 I had a brief (one week) trip to Oslo to catch up on ongoing research

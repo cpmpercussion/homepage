@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Including - the concert hall (Acusticum) with it's strange spire thing + my friends Maria and Jake. Some roads, houses and the ocean!"
 ---
 
 Including - the concert hall (Acusticum) with it's strange spire thing + my friends Maria and Jake. Some roads, houses and the ocean!

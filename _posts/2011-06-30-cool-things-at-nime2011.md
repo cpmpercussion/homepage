@@ -16,6 +16,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I went to NIME2011 in Oslo a few weeks ago, it was a really fun opportunity to catch up with some contacts in computer music and interactive media and to"
 ---
 
 I went to [NIME2011](http://www.nime2011.org/) in Oslo a few weeks ago, it was a really fun opportunity to catch up with some contacts in computer music and interactive media and to see what’s going on in the research world at the moment. Here’s a (non-exhaustive) list of things that stuck in my mind.

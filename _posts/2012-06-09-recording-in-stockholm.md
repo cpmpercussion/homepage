@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Had a little trip down to Stockholm last weekend for a recording session with Anders Åstrand and Evaristo Aguilar - really fun to play with two of my"
 ---
 
 Had a little trip down to Stockholm last weekend for a recording session with Anders Åstrand and Evaristo Aguilar - really fun to play with two of my favourite musicians and friends!

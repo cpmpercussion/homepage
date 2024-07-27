@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm going to use an Ubuntu system to do some audio projects, so I wanted to figure out how to use Jack and some other applications that come with Ubuntu"
 ---
 
 I'm going to use an Ubuntu system to do some audio projects, so I wanted to figure out how to use Jack and some other applications that come with Ubuntu Studio.

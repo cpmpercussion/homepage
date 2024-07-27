@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "When I started Ensemble Evolution with Jacob and Maria in Piteå, we agreed to bring other artists to Piteå for our Percussion Repertoire Festival and"
 ---
 
 When I started Ensemble Evolution with Jacob and Maria in Piteå, we agreed to bring other artists to Piteå for our Percussion Repertoire Festival and other events. Christina wanted to come to our 2012 festival to present a ragtime xylophone workshop following her Honours project in Australia, but when we decided not to run the festival her session turned into a month of ragtime teaching, performances, composition and recording.

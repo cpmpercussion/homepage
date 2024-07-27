@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Toronto happened to have a mini conference this week PLUS I was nearby. So I came to check it out. So far, it is fun. A guy gave a talk about malletkats."
 ---
 
 Toronto happened to have a mini conference this week PLUS I was nearby. So I came to check it out. So far, it is fun. A guy gave a talk about malletkats. (imagine that?) 

@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-10-01-img1.jpg)

@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Cognition is an audio/visual performance inspired by the possibilities and consequences for humanity of near-future technologies. Human reliance on"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/cognition-IMGP0512.jpg)

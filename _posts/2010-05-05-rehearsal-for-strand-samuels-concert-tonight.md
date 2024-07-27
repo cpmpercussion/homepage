@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Rehearsal for Åstrand / Samuels concert tonight. Posted via email from charles martin"
 ---
 
 Rehearsal for Åstrand / Samuels concert tonight.

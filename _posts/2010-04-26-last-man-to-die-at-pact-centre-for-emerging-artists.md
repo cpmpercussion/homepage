@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Hanna Cormick, Benjamin Forster, Charles Martin. Installation at PACT, Erskineville, Sydney April 2010. --> LMTD Installation at PACT Centre for Emerging"
 ---
 
 Hanna Cormick,

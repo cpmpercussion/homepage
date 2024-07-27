@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Tomorrow afternoon, the CCRMA Multitouch Tabletop Music workshop will present our recent works. I'm playing , a travel version of my duo collaboration"
 ---
 
 Tomorrow afternoon, the CCRMA Multitouch Tabletop Music workshop will present our recent works. I'm playing 

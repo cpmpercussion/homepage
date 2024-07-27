@@ -2,6 +2,7 @@
 layout: post
 title: A note on tutorials with Teams
 date: 2020-07-16
+description: "This is part 2 of my series of posts on online teaching in 2020; this time I'm going to write about how we set up tutorials for COMP2300 in Microsoft"
 ---
 
 This is part 2 of my series of posts on online teaching in 2020; this time I'm going to write about how we set up _tutorials_ for COMP2300 in Microsoft Teams. 

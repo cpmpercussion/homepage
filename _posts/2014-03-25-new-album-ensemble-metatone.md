@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Today I'm announcing a debut, self-titled album, from Ensemble Metatone, my group dedicated to creating improvised and experimental music using iPad apps"
 ---
 
 Today I'm announcing a [debut, self-titled album, from Ensemble Metatone](http://charlesmartin.bandcamp.com/album/ensemble-metatone), my group dedicated to creating improvised and experimental music using iPad apps and percussion!

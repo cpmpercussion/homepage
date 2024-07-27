@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Straw secured! Sent from my iPhone Posted via email from charles martin"
 ---
 
 Straw secured!

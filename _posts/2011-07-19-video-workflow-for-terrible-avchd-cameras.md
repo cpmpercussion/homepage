@@ -13,6 +13,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "My friends and I in Ensemble Evolution had a great idea for our Piteå Percussion Repertoire Festival “Let’s record ALL of the seminars and concerts!! We"
 ---
 
 My friends and I in [Ensemble Evolution](ensevolution) had a great idea for our [Piteå Percussion Repertoire Festival](ensevolution/pages/percussion-repertoire-festival): “Let’s record ALL of the seminars and concerts!! We can just use the little camcorders from the school service centre.”

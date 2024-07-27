@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I was recently featured in "Careers with Code", a magazine featuring computer science researchers, students, and graduates around Australia! Cool!"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2014-10-17-CareersWithCode.jpg)

@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Capture sensor data! Send it over a network! But then what? Great guide to building a wireless Arduino sensor node, not much on interpretation."
 ---
 
 ![Capture sensor data! Send it over a network! But then what?]({{ site.baseurl }}/assets/squarespace_images/2013-06-25-DistributedNetworkData.jpg) 

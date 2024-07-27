@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "My new iOS app, PhaseRings, is out now on the AppStore, just in time for PASIC next week. It's free so go get it! PhaseRings has seven sound-schemes and a"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespaceblog/2014-11-17-phaserings-released.jpg)

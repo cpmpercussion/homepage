@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Webcam party for lmtd. - 2x xbox 360 camera - 1x PS3 camera - 5m USB extension - 10m USB extension Posted via email from charles martin"
 ---
 
 Webcam party for lmtd.

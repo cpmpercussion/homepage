@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2011-11-04-Fairbanks1.jpg)

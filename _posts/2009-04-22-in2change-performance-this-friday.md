@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm performing at In2Change - an artistic response to urban renewal in Belconnen at the Belconnen bus interchange, Friday 22nd April, 6pm. Lisa Lai and I"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/in2change-setup.jpg)

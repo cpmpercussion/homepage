@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Since about 2011, I've been performing music with various kinds of touch-screen devices in percussion ensembles, new music groups, improvisation"
 ---
 
 Since about 2011, I've been performing music with various kinds of touch-screen devices in percussion ensembles, new music groups, improvisation workshops, installations, as well as my dedicated iPad group, 

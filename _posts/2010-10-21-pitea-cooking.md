@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Achievement for the day was to gather the necessary items for cooking dinner and having a bathroom. Headed down to one of two big supermarkets in town, I"
 ---
 
 Achievement for the day was to gather the necessary items for cooking dinner and having a bathroom. Headed down to one of two big supermarkets in town, I chose the one called "Coop" rather than "ICA", which is about 30 minutes walk. Had to limit myself to absolute necessities since I had to carry it all home! 

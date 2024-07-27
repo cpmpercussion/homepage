@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Last Man to Die is showing a few of our new works at Canberra Youth Theatre, 9th December at 6pm! Come and be another data point in our ongoing"
 ---
 
 Last Man to Die is showing a few of our new works at Canberra Youth Theatre, 9th December at 6pm!

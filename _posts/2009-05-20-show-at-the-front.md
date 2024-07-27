@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I played tonight at the Front! Fun! My setup was vibraphone and Ableton Live + Pd. Blogged here. Recordings Duet for Vibraphone and Computer Electric"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/abstraktions-setup.jpg)

@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "First performance of Strike on Stage! Thank you everybody for coming to see it!! See and download the full gallery on posterous Posted via email from"
 ---
 
 First performance of Strike on Stage! Thank you everybody for coming to see it!! 

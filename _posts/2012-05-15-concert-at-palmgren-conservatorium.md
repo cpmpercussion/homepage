@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Ensemble Evolution had a fun concert this weekend at Palmgren Conservatory in Pori, Finland. The highlight for me was our performance of one of my pieces,"
 ---
 
 Ensemble Evolution had a fun concert this weekend at Palmgren Conservatory in Pori, Finland. The highlight for me was our performance of one of my pieces, a nice theory, with the percussion students there and Janne Tuomi from the Osuma Ensemble. We got a great review in the local paper and Maria took a video of my piece! We have to thank Toni Hietala for setting up the concert and all of his support.

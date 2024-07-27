@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "In order to gain a fundamental knowledge of synthesis as a base for my research I chose to work from the textbook Computer Music using SuperCollider 3 by"
 ---
 
 In order to gain a fundamental knowledge of synthesis as a base for my research I chose to work from the textbook Computer Music using SuperCollider 3 by David Cottle. SuperCollider (or SC) is a program which aims to be a general tool for creating music on computer. It is extremely powerful and has a flexible and deep interface which makes it perfect for learning general techniques of synthesis. The following report explains some of the fundamental methods of synthesis and demonstrates how they can be implemented in SuperCollider.

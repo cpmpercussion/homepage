@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Last weekend, Ensemble Evolution and I played some concerts with Anders and Dave in Stockholm and Piteå. Fun!"
 ---
 
 Last weekend, Ensemble Evolution and I played some concerts with Anders and Dave in Stockholm and Piteå. Fun!

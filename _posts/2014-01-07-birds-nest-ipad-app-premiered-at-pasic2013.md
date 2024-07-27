@@ -14,6 +14,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "When Ensemble Evolution and I were planning our showcase concert for PASIC2013, I suggested that I could put togther an iPad app to use in one of our"
 ---
 
 When Ensemble Evolution and I were planning our showcase concert for PASIC2013, I suggested that I could put togther an iPad app to use in one of our pieces - an idea that Jake and Maria were super excited to support! We decided that our "Bird's Nest" piece - an improvisation with xylophone, twigs and various percussion accessories recalling the Bird's Nest treehouse at Treehotel, would work perfectly with an iPad instrument.

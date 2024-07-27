@@ -18,6 +18,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "In March, 2012, Ensemble Evolution travelled from Northern Sweden to Australia to perform our new percussion music and hold workshops in improvisation and"
 ---
 
 In March, 2012, Ensemble Evolution travelled from Northern Sweden to Australia to perform our new percussion music and hold workshops in improvisation and mobile computer music.

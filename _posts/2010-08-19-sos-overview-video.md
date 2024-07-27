@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "From our version 1.0 performance at Belconnen Arts Centre, June 2010. And a short documentary about our system Posted via email from Strike on Stage"
 ---
 
 From our version 1.0 performance at Belconnen Arts Centre, June 2010. 

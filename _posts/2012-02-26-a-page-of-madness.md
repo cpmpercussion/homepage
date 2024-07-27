@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "This week, Ensemble Evolution hosted Bill and Ruth Cahn at Piteå Musikhögskolan to conduct a Creative Music Making workshop for the percussion and"
 ---
 
 This week, Ensemble Evolution hosted Bill and Ruth Cahn at Piteå Musikhögskolan to conduct a Creative Music Making workshop for the percussion and master’s students here. As well as seminars and improvised performances in Piteå and at Framnäs Folkhögskola in Öjebyn, we performed “A Page of Madness”, Bill Cahn’s score for the silent film by Teinosuke Kinugasa, together with Bill and Ruth in Studio Acusticum.

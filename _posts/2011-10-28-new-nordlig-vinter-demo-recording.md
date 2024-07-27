@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Christina and I recorded a quick demo of Norra Vinter in Canberra just before I left for Sweden. It’s not perfect, but it’s a pretty good work-in-progress"
 ---
 
 Christina and I recorded a quick demo of Norra Vinter in Canberra just before I left for Sweden.

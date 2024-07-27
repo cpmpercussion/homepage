@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Stockholm is fun! Ensemble Evolution + Anna is in Stockholm for a concert with Anders Åstrand an Dace Samuels. The venue was Capitol, a theatre run by"
 ---
 
 Stockholm is fun!

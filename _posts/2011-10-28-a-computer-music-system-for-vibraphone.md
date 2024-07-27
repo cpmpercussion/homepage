@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I recently finished my first prototype for a dedicated computer music system for vibraphone, just in time to use it at Electrofringe at the end of"
 ---
 
 I recently finished my first prototype for a dedicated computer music system for vibraphone, just in time to use it at 

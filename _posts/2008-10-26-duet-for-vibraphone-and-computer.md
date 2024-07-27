@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Performers who use computers to make music often spend a lot of time creating and learning to play new instruments. As a percussionist incorporating"
 ---
 
 ![Vibes, computer, and gongs for Cognition 2]({{ site.baseurl }}/assets/blogger/cognition2-setup.jpg)

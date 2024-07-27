@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Christina and I are in Brisbane at the Australian Percussion Gathering. ALL our friends are here, it's awesome. Status fun. Posted via email from charles"
 ---
 
 Christina and I are in Brisbane at the Australian Percussion Gathering. ALL our friends are here, it's awesome. Status: fun. 

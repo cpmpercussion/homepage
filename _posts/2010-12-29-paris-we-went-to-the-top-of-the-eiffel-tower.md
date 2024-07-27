@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "christina was soooo scared."
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-29-Eiffel1.jpg)

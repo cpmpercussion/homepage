@@ -2,6 +2,7 @@
 layout: post
 title: A note on streaming lectures
 date: 2020-07-08
+description: "So it's been a rough year. After starting the semester in February with half my class of 400 stuck at home in China, we ended up fully-online in March and"
 ---
 
 So it's been a _rough year_. After starting the semester in February with half my [class](https://cs.anu.edu.au/courses/comp2300) of 400 stuck at home in China, we ended up fully-online in March and managed to get the class over the finish line in June---phew! In the few short weeks (days?) before starting all over again at the end of July, I'll just set down a bit of info for how my online teaching setup works.

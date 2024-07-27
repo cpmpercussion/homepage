@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Maria, Jake, and I went for a short walk around Vilnius in the rain - not much time for exploration during our residency there!"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-04-22-Vilnius1.jpg)

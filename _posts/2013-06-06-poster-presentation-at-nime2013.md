@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I presented a poster at NIME2013 at KAIST in Daejeon, Korea last week. This conference has a really vibrant and fun culture of poster and demo sessions -"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-PosterSession.jpg)

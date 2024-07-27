@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Cool show in Northbridge. Posted via email from charles martin"
 ---
 
 Cool show in Northbridge.

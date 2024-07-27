@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Update throughout 2008 and 2009 I used these techniques with the vibraphone in my piece "Duet for Vibraphone and Computer" Over the weekend I wrote a"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/ThereminController.jpg)

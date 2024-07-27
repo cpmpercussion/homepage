@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I’m lucky enough to own a great Musser M55 vibraphone which I bought second hand several years ago and I’ve always wondered about making or buying a set"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/BeinerBagsM55-CaseSet.jpg)

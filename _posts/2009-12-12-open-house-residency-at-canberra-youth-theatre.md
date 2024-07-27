@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "My residency with Last Man to Die at Canberra Youth Theatre is finished. We developed heaps of great ideas for our new works in 2010 and put on a fun"
 ---
 
 My residency with Last Man to Die at Canberra Youth Theatre is finished. We developed heaps of great ideas for our new works in 2010 and put on a fun performance on the 9th of December.

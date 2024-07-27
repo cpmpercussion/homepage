@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-30-MoreVersailles1.jpg)

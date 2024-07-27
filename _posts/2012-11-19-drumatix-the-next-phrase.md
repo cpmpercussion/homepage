@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Canberra's favourite percussion group - DRUMatiX - will be performing a HUGE retrospective concert on Friday 30/11 and Saturday 1/12 at the ANU Arts"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-11-19-NextPhrase.jpg)

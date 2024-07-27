@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: post
 published: true
+description: "I've been writing some very simple Processing sketches to visualise logs of OSC messages for my Metatone project and I've wanted to turn these"
 ---
 
 I've been writing some very simple Processing sketches to visualise logs of OSC messages for my 

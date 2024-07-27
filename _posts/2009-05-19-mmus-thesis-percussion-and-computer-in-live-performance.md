@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I submitted my M.Mus thesis on Friday. It’s called Percussion and Computer in Live Performanceand is available here online or from the permanent link"
 ---
 
 ![A percussion and computer performance from 2009]({{ site.baseurl }}/assets/blogger/percussion-computer-thesis.jpg)

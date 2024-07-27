@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "sorry! They're so bad!!! featuring, ensemble 64.8 from Alaska (awesome). Exhibit hall action and a r(sub)3. A crazy improvisation band. Didn't see many"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-15-PASIC1.jpg)

@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Drove up to Northwestern for no reason but the view. Observe the results! -Charles"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-03-NorthwesternPhotos1.jpg)

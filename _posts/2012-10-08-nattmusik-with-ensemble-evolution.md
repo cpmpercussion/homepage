@@ -18,6 +18,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "In June 2012, Ensemble Evolution put together a "farewell" tour in Northern Sweden to celebrate everything the area had given to us and enjoy the midnight"
 ---
 
 In June 2012, Ensemble Evolution put together a "farewell" tour in Northern Sweden to celebrate everything the area had given to us and enjoy the midnight sun and amazing natural environment.

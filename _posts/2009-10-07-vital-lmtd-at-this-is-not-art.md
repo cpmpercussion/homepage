@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Last Man to Die performed a preview of our upcoming project at Newcastle’s famous This Is Not Art festival. Thank you so much to our audience who attended"
 ---
 
 _Last Man to Die_ performed a preview of our upcoming project at Newcastle’s famous _This Is Not Art_ festival. 

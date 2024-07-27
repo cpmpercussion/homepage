@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Heading up to Newcastle tomorrow for Electrofringe and This Is Not Art! The best part is that I’m putting on the first performance of my new project"
 ---
 
 Heading up to Newcastle tomorrow for Electrofringe and This Is Not Art! The best part is that I’m putting on the first performance of my new project “Norra Vinter” along with my lovely and supportive fiancée, [Christina](http://saturdaysspecimen.blogspot.com). Norra Vinter is a suite for percussion and iOS reflecting the sights and sounds of life in Northern Sweden, since I’ve used [RjDJ](http://rjdj.me) to develop the iOS component of the performance, I’ve reworked some of it as an interactive sound experience for the audience to download and take away! So here’s the link (click this using mobile safari on an iOS device!):

@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "This is pretty unorganised but it was fun to make and has some nice ideas I might use again in future. I was inspired by Four Tet to use my soundblaster"
 ---
 
 This is pretty unorganised but it was fun to make and has some nice ideas I might use again in future. I was inspired by Four Tet to use my soundblaster live mic for a lot of this. It captured some nice sounds!

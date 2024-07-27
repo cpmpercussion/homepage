@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Picking out some extra mallets for our Evolution concert."
 ---
 
 Picking out some extra mallets for our Evolution concert.

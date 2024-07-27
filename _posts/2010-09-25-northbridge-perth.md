@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Walked in Perth today. Very hot. Empty block appears to be a desert. Posted via email from charles martin"
 ---
 
 Walked in Perth today. Very hot. Empty block appears to be a desert. 

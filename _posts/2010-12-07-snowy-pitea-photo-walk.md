@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-07-SnowyWalk1.jpg)

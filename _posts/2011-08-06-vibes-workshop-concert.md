@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Here's some photos from the final concert of Tony Miceli's Delaware Vibes Workshop in July 2011. All the participants played a tune with drums and bass"
 ---
 
 Here's some photos from the final concert of Tony Miceli's Delaware Vibes Workshop in July 2011. All the participants played a tune with drums and bass and then at the end there was a special "vibraphone orchestra" playing Las Vegas Tango all together! Pretty silly, but a lot of fun!

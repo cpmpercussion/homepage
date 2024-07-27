@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Played JLA Inuksuit at the national gallery at Dawn! -4C = frosty."
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2011-06-25-Inuksuit.jpg)

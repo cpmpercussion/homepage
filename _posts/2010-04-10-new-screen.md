@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Posted via email from Strike on Stage"
 ---
 
 ![New screen!]({{site.baseurl}}/assets/posterous/strikeonstage/201004-screen.jpg)

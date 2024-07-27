@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm playing at an Abstraktions Show at The Front on Wednesday the 20th of May! Shoeb Ahmad of HelloSquare recordings and Spartak runs these shows every"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/AbstraktionsGigPoster-200905.jpg)

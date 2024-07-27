@@ -9,6 +9,7 @@ tags:
 - carillon
 - music
 - canberra
+description: "This week I've been talking about our Christmas carillon installation at the Canberra Centre. The National Capital Authority has been upgrading the"
 ---
 
 This week I've been talking about our [Christmas carillon installation at the Canberra Centre](https://cecs.anu.edu.au/news/christmas-bells-ring-canberra-thanks-musical-ai).

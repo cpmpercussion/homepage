@@ -4,6 +4,7 @@ title: Rebooting Chroma
 date: 2022-08-30
 category: note
 tags: publishing, journal, computer music
+description: "I've just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it's a"
 ---
 
 I've just arrived in Te Whanganui-a-Tara/Wellington for the [Australasian Computer Music Conference](https://www.acmc2022.com/), the first in-person edition since 2019, and it's a good time to reflect on a bit project I've undertaken with this community---rebooting our journal: [Chroma: Journal of the Australasian Computer Music Association](https://journal.computermusic.org.au/chroma).

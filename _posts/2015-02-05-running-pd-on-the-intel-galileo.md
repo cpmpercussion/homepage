@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "The Intel Galileo Gen 2 - All hooked up. The Intel Galileo is a great little development/experiments board with an Intel Quark 32-bit x86 processor. We"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespaceblog/2015-02-05-intel-galileo-pd.jpg) 

@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Black box @ studio Acusticum. Now... black hole --Charles Posted via email from charles martin"
 ---
 
 <!-- video IMG_0628.MOV now at https://vimeo.com/346996615 -->

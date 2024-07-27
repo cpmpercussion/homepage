@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Updates I found F53OSC, the simplest Objective-C OSC library I've come across. My fork - MetatoneOSC - is updated for ARC and even easier to deal with -"
 ---
 
 **Updates:** I found [F53OSC](http://github.com/Figure53/F53OSC), the simplest Objective-C OSC library I've come across. My fork - [MetatoneOSC](https://github.com/cpmpercussion/MetatoneOSC) - is updated for ARC and even easier to deal with - I'm going to use it from now on.

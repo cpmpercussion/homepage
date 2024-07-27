@@ -7,9 +7,8 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm working on a piece for supercollider and multitouch surface at Stanford CCRMA. Today I spent a lot of time in the listening room testing out ideas."
 ---
-
-
 
 I'm working on a piece for supercollider and multitouch surface at Stanford CCRMA. Today I spent a lot of time in the listening room testing out ideas.
 

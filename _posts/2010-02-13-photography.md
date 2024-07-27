@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Various Diana Mini photos from Tokyo. Yay film!"
 ---
 
 Various Diana Mini photos from Tokyo. Yay film!

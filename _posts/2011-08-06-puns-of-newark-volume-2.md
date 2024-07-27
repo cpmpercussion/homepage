@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A few MORE puns from the streets of Newark."
 ---
 
 A few MORE puns from the streets of Newark.

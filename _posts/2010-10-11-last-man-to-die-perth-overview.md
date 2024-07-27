@@ -7,8 +7,9 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A little video. Posted via email from charles martin"
 ---
-     
+
 A little video.
 
 {% include vimeoPlayer.html id=346994887 %}

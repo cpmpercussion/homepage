@@ -7,8 +7,8 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "!! Today Lisa received our new infrared LED lights and we set them up on the rack we had already made. Even without working on aiming and calibrating them"
 ---
-
 
 !!
 

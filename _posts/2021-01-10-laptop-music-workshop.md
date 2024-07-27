@@ -9,6 +9,7 @@ tags:
     - gibber
     - computer-music
 toc: true
+description: "This is a workshop designed for students who have never done any coding before to start by making some computer music! Here's the description > In this"
 ---
 
 This is a _workshop_ designed for students who have never done any coding before to start by making some computer music! Here's the description:

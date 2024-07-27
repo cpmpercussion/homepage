@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Capitol in Stockholm."
 ---
 
 Capitol in Stockholm.

@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Stockholm tour with Evolution."
 ---
 
 Stockholm tour with Evolution.

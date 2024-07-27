@@ -16,6 +16,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Somebody asked me whether it was possible to have a metronome synchronised between a bunch of iPhones... it turns out it is! I made this little demo with"
 ---
 
 Somebody asked me whether it was possible to have a metronome synchronised between a bunch of iPhones... it turns out it is!

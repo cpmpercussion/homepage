@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "We recently had the chance to present some experimental musical instruments developed as part of the EPEC project at Oslo Konserthus as part of their"
 ---
 
 We recently had the chance to present some experimental musical instruments developed as part of the EPEC project at Oslo Konserthus as part of their "Score" video game music concert.

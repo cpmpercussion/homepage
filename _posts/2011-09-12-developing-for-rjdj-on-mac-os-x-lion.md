@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "update the developer tools from rjdj.me have been updated for lion now. So I got back to developing some RjDJ with my new MacBook Pro which (naturally)"
 ---
 
 update the developer tools from [rjdj.me](http://rjdj.me) have been updated for lion now.

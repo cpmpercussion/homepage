@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: post
 published: true
+description: "I love these things. Dish washing brushes with a hollow handle that slowly deposits detergent into the sponge. With these, I can wash a few things without"
 ---
 
 I love these things. Dish washing brushes with a hollow handle that slowly deposits detergent into the sponge. With these, I can wash a few things without making a mess.

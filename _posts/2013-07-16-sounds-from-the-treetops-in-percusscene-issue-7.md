@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "My new article "Creating Sounds from the Treetops with Ensemble Evolution" has just bee published in PERCUSscene Issue 7! Grab it in the latest DRUMscene"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2013-07-16-Percusscene-Issue07Cover.jpg)

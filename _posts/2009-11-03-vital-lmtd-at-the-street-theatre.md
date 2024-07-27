@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I've finished a season of at the Street Theatre in Canberra with Last Man to Die. We performed five shows from 24th-30th of October and had a great time!"
 ---
 
 I've finished a season of  at the Street Theatre in Canberra with Last Man to Die. We performed five shows from 24th-30th of October and had a great time! [Review here](http://lastmantodie.blogspot.com/2009/10/reviews-and-news.html).

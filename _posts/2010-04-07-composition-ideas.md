@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Strike on Stage composition ideas... See and download the full gallery on posterous Posted via email from Strike on Stage"
 ---
 
 Strike on Stage composition ideas...

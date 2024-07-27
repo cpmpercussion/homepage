@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Showing Last Man To Die at the Blue Room, Perth. Posted via email from charles martin"
 ---
 
 Showing Last Man To Die at the Blue Room, Perth.

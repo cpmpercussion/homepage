@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "In August and September 2011 I’m offering lessons in improvisation and jazz interpretation on vibraphone and marimba. Lessons will be in my home studio"
 ---
 
 In August and September 2011 I’m offering lessons in improvisation and jazz interpretation on vibraphone and marimba. Lessons will be in my home studio where the student and I will have enough space for collaborative music making and exploration.

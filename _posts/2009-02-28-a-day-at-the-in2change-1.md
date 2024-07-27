@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "mp3 - 12MB The concept behind this piece is to recreate the sounds of Belconnen bus interchange over a regular weekday. I used the daily timetable at the"
 ---
 
 [mp3 - 12MB](http://files.me.com/cpmartin/hvucv1.mp3)

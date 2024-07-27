@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Seeing Receipt Printer. What's it looking at?"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-03-09-LMTD-Receipt.jpg)

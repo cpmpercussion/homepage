@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I've previously written about my adventures in finding a good OSC library to use in iOS development. I found a new contender, F53OSC, yesterday that"
 ---
 
 I've previously written about my adventures in [finding a good OSC library](http://charlesmartin.com.au/blog/2013/3/26/finding-a-good-osc-library-for-ios) to use in iOS development. I found a new contender, [F53OSC](https://github.com/Figure53/F53OSC), yesterday that seemed to be a complete implementation of OSC 1.0 and doesn't require any XCode sub-projects (very annoying to setup when starting a new app).

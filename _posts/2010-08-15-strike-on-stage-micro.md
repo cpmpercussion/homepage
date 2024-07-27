@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "`Charles` I wanted to take Strike on Stage with me overseas, so Lisa and I each made a smaller version of the screen. When I went to the US and Canada"
 ---
 
 `Charles:` I wanted to take Strike on Stage with me overseas, so Lisa and I each made a smaller version of the screen. When I went to the US and Canada recently, I brought my setup with me and performed a solo version of Strike on Stage at Stanford's CCRMA, a computer music research institution.

@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A review of Cognition Pt.2 featuring my piece, Duet for Vibraphone and Computer appeared in City News, October 2008. The review is here. And here's an"
 ---
 
 A review of Cognition Pt.2 featuring my piece, Duet for Vibraphone and Computer appeared in City News, October 2008.

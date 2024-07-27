@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Posted via email from charles martin"
 ---
 
 ![LMTD PACT setup]({{site.baseurl}}/assets/posterous/charlesmartin/2010-04-LMTDsetup.jpg)

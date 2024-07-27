@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "It got all rainy this afternoon! We went to visit Notre dame, but it got too rainy to take good photos or do anything! How annoying. (still had fun)"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-22-NotreDame1.jpg)

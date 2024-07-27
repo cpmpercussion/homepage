@@ -7,9 +7,8 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Watched a nice artist's talk. Seems like a fun place for work. Posted via email from charles martin"
 ---
-
-
 
 Watched a nice artist's talk. Seems like a fun place for work. 
 

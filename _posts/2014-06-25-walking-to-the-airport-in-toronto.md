@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Recently I flew on Porter airlines from Toronto to Boston - since I was at Toronto's exhibition centre in the middle of the city, I took the opportunity"
 ---
 
 Recently I flew on Porter airlines from Toronto to Boston - since I was at Toronto's exhibition centre in the middle of the city, I took the opportunity to walk to the airport! Amazing!

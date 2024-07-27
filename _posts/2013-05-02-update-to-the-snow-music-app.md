@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I pushed an update out to the Snow Music app on the iTunes store a few weeks ago but forgot to post it! Long story short The app now has Core MIDI support"
 ---
 
 I pushed an update out to the Snow Music app on the iTunes store a few weeks ago but forgot to post it!

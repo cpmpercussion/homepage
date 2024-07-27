@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Here's my Percussion and Technology article from the October-December issue of PERCUSScene. Enjoy and check out the new issue! Reading Music for iPads As"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2013-01-07-PercusSceneReadingFromiPads.jpg)

@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I've been thinking about the whole process of creating a performance (from nothing or from a composition) and what has really worked in the projects I've"
 ---
 
 I've been thinking about the whole process of creating a performance (from nothing or from a composition) and what has really worked in the projects I've been involved in.

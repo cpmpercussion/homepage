@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I had an awesome day with my awesome new friends Maria and Jake! Awesome. I arrived from a long flight, checked out the school of music at Piteå, bought a"
 ---
 
 I had an awesome day with my awesome new friends Maria and Jake! Awesome.

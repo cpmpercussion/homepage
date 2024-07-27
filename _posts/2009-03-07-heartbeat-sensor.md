@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm planning how I will make a MIDI heartbeat sensor, probably using my arduino. So far I've only been gathering resources! Recotana made one and has a"
 ---
 
 I'm planning how I will make a MIDI heartbeat sensor, probably using my arduino.

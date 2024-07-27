@@ -16,6 +16,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Update! Videos and photos from the event are in this post. I'm performing with Ensemble Metatone at a very exciting concert on Friday 25/10 at the ANU"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2013-10-16-Theremin75.jpg)

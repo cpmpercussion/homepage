@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Roland VS-2000 Digital Studio Workstation This walkthrough will explain how to use the Roland VS-2000 Digital Studio Workstation. By the end of the"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/roland-vs-2000.jpg)

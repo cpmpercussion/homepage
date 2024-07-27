@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "This sculpture is super cool. Beautiful, seamless reflection plus an interesting shape. Crazy photo is the view from underneath it. As you walk around the"
 ---
 
 This sculpture is super cool. Beautiful, seamless reflection plus an interesting shape. Crazy photo is the view from underneath it. As you walk around the world twists like a kaleidoscope. Amazing! Ps, I am in these photos! It's like Where's Wally.

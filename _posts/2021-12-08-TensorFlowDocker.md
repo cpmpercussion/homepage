@@ -4,6 +4,7 @@ title: Setting up Tensorflow with Docker
 date: 2021-12-08
 category: note
 tags: machine-learning, research
+description: "For the last five years, I've seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated"
 ---
 
 For the last five years, I've seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated musical machine learning research with TensorFlow and Keras.

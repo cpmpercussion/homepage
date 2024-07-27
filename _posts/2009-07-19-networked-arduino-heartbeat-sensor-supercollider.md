@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I made a simple heartbeat sensor using an Arduino which sends OSC signals at each heartbeat over a network. I'm using the heartbeat sensor as an awesome"
 ---
 
 I made a simple heartbeat sensor using an Arduino which sends OSC signals at each heartbeat over a network. I'm using the heartbeat sensor as an awesome prop in my show 

@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "update [ sold now! -) ] After some reflection I've realised that my MalletKat is much more useful to me in Australia than in Sweden, but it's too"
 ---
 
 **update** [ sold now! :-) ]

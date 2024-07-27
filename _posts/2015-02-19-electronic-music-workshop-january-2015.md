@@ -13,6 +13,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "In January 2015 I ran a four day workshop in computer music, hardware hacking and new interfaces at the ANU School of Music."
 ---
 
 In January 2015 I ran a four day workshop  in computer music, hardware hacking and new interfaces at the ANU School of Music.

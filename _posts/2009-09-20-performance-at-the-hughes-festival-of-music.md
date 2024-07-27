@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "On Friday, I performed with Chi-Hsia Lai and Veronica Walshaw at the Hughes Festival of Music - in a bakery! The programme was Duet for Vibraphone and"
 ---
 
 On Friday, I performed with Chi-Hsia Lai and Veronica Walshaw at the Hughes Festival of Music - in a bakery! The programme was:

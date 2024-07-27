@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Train trip to Toronto and a shoe museum. See and download the full gallery on posterous Posted via email from charles martin"
 ---
 
 Train trip to Toronto and a shoe museum.

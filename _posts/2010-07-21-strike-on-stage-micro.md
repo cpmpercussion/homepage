@@ -7,9 +7,8 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Today I worked a lot on Strike on Stage Micro, my portable solo version of Strike on Stage! Next Friday I'm going to present it during a Stanford CCRMA"
 ---
-
-
 
 Today I worked a lot on Strike on Stage Micro, my portable solo
 version of [Strike on Stage](http://strikeonstage.posterous.com)! Next

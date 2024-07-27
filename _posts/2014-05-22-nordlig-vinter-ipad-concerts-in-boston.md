@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "After I was in Toronto for the CHI2014 conference recently, I had the opportunity to head over to Boston to work with one of my favourite collaborators,"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2014-05-22-TouchAndTone1-Poster.jpg)

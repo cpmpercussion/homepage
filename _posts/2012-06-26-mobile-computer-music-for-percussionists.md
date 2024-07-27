@@ -12,7 +12,7 @@ tags:
 status: publish
 type: post
 published: true
-
+description: "My master’s thesis, Mobile Computer Music for Percussionists, has been published in the Luleå University of Technology’s Thesis Database! Here’s the link."
 ---
 
 My master’s thesis, [Mobile Computer Music for Percussionists](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659), has been published in the Luleå University of Technology’s Thesis Database! [Here’s the link.](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-43659)

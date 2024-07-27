@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Seminar with Lisa Lai at Piteå Percussion Repertoire Festival"
 ---
 
 Seminar with [Lisa Lai](http://www.laichihsia.com/) at [Piteå Percussion Repertoire Festival](https://charles-martin.squarespace.com/config/ensevolution):

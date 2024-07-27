@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "In late 2013, the Australian Music Examinations Board released a new syllabus for percussion from Preliminary level to the Licentiate Diploma. The much"
 ---
 
 In late 2013, the Australian Music Examinations Board released a new syllabus for percussion from Preliminary level to the Licentiate Diploma. The much anticipated new syllabus completely revises the set pieces and technical work for all levels and works in concert with new publications including grade books from Preliminary to Grade 4, two books of technical work, and a sight-reading book.

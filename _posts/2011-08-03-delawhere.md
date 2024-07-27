@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: ""
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2011-08-03-Delawhere1.jpg)

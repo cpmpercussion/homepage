@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Ensemble Evolution is on a mini tour in Pori, Finland. I gave a seminar and performance of my music for mobile computer and percussion today and we have a"
 ---
 
 Ensemble Evolution is on a mini tour in Pori, Finland. I gave a seminar and performance of my music for mobile computer and percussion today and we have a concert tomorrow at Palmgren Conservatory, including a performance of my piece _A Nice Theory_. Then driving back around the Baltic to Piteå!

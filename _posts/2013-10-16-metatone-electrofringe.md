@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Ensemble Metatone went to Electrofringe! It was fun! Here's the video"
 ---
 
 Ensemble Metatone went to Electrofringe! It was fun! Here's the video:

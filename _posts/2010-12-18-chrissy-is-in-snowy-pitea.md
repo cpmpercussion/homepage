@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "yay Chrissy is here! Unfortunately, it is extremely snowy. Makes it hard to walk around."
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-18-Christina1.jpg)

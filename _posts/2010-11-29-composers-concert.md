@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I played in a concert of the school's composition student's work. Fun!"
 ---
 
 I played in a concert of the school's composition student's work. Fun!

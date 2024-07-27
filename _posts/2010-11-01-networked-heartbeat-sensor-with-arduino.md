@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "This project was my first foray in the exciting world of bio-sensors! A few years ago I started a multimedia performance group called Last Man to Die, I"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-01-HearbeatSensor1.jpg)

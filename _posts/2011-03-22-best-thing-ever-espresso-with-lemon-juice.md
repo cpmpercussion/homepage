@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "THIS IS CRAZY."
 ---
 
 ![THIS IS CRAZY.]({{ site.baseurl }}/assets/squarespace_images/2011-03-22-EspressoLemon.jpg) 

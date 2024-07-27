@@ -14,6 +14,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I've just gotten back from NIME2015 in Baton Rouge where I presented a poster about my performance tracking system for iPad ensembles. Great to catch up"
 ---
 
 I've just gotten back from NIME2015 in Baton Rouge where I presented a poster about my performance tracking system for iPad ensembles. Great to catch up with new and old NIMErs! The paper is 

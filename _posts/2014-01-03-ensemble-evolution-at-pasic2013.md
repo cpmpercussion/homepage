@@ -12,7 +12,7 @@ tags:
 status: publish
 type: post
 published: true
-
+description: "After our performance at PASIC! One of my most exciting events of 2013 was performing with my group Ensemble Evolution at The Percussive Arts Society"
 ---
 
 ![After our performance at PASIC! ]({{ site.baseurl }}/assets/squarespace_images/2014-01-03-EEPASIC2013.jpg) 

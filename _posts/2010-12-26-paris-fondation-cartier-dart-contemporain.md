@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Went to this http//fondation.cartier.com/ Saw a great exhibition! Moebius-Trans-Forme"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-26-Cartier1.jpg)

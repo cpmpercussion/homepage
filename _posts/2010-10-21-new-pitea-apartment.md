@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Home sweet home. Posted via email from charles martin"
 ---
 
 Home sweet home.

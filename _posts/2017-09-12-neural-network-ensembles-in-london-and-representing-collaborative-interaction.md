@@ -15,6 +15,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I recently had the chance to present a paper about my "Neural iPad Ensemble" at the Audio Mostly conference in London. The paper, discusses how machine"
 ---
 
 I recently had the chance to present a paper about my "Neural iPad Ensemble" at the Audio Mostly conference in London. The 

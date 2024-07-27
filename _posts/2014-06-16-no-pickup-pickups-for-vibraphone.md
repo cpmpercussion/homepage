@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A few years ago I was really interested in finding ways to augment the vibraphone with computer music sounds, particularly ways that could fit in my"
 ---
 
 A few years ago I was really interested in finding ways to augment the vibraphone with computer music sounds, particularly ways that could fit in my backpack since I was travelling a lot and using other people's vibes!

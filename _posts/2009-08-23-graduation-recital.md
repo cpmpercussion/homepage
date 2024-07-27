@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I performed my final recital for the Master of Music course at the ANU School of Music in July. The video is available here. The program was Rebonds B + A"
 ---
 
 I performed my final recital for the Master of Music course at the ANU School of Music in July.

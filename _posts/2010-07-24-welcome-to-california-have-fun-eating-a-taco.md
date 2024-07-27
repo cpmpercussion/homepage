@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "The waitress was going around accusing customers of not eating their dinner, so I immediately got scared of not finishing!! Although I didn't finish it"
 ---
 
 The waitress was going around accusing customers of not eating their

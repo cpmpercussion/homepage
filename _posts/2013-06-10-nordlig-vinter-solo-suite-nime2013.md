@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I performed my solo suite from Nordlig Vinter recently at the New Interfaces for Musical Expression Conference at KAIST in Daejeon, Korea. This was a bit"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/NIME2013-NordligVinter-1.jpg)

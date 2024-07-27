@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "iPhone OS programming at NIME2010 in Sydney. --Charles Posted via email from charles martin"
 ---
 
 iPhone OS programming at NIME2010 in Sydney.

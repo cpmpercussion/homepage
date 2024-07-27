@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "(Corner Café, Northbridge, Perth)... Posted via email from charles martin"
 ---
 
 (Corner Café, Northbridge, Perth)... 

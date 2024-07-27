@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "I'm currently at PASIC2014 in Indianapolis to present a session on performing with iPads in percussion ensemble - here's the take home notes from my talk!"
 ---
 
 I'm currently at PASIC2014 in Indianapolis to present a session on performing with iPads in percussion ensemble - here's the take home notes from my talk!

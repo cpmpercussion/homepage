@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Distance test for Strike on Stage See and download the full gallery on posterous Set up the Strike on Stage screen, lights, projector and camera to"
 ---
 
 Distance test for Strike on Stage

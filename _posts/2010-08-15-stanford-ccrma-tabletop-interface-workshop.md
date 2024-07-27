@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I attended a workshop at Stanford CCRMA about tabletop interfaces which is related to the work that I do in new interfaces using realtime computer vision"
 ---
 
 I attended a workshop at Stanford CCRMA about tabletop interfaces which is related to the work that I do in new interfaces using realtime computer vision in performance. 

@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Woo! Time for cheap food!"
 ---
 
 Woo! Time for cheap food!

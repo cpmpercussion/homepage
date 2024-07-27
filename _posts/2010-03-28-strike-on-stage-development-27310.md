@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Development day at Belconnen Arts Centre. - Tested screen materials using speaker stands and pegs. White stretchy material is the winner. - Lights cheap"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-03-28-SOSDevelopment.jpg)

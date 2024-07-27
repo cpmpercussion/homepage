@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "When I started learning Pure Data (or Pd) a couple of weeks ago, it was difficult to find good tutorials and examples. In the end I used a couple of"
 ---
 
 When I started learning Pure Data (or Pd) a couple of weeks ago, it was difficult to find good tutorials and examples. In the end I used a couple of different tutorials to take my first steps in this language:

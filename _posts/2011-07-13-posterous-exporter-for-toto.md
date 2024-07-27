@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I’ve been experimenting a bit with a cute blogging engine called Toto and wanted to migrate my Posterous posts so I wrote a little script in Ruby to"
 ---
 
 I’ve been experimenting a bit with a cute blogging engine called 

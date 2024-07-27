@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Cigars for the Man invited us to Newcastle to play two shows with them over this weekend. On friday we played the Cambridge Hotel with them. For us, it"
 ---
 
 Cigars for the Man invited us to Newcastle to play two shows with them over this weekend. On friday we played the Cambridge Hotel with them. For us, it was a fairly unremarkable show. There were some technical difficulties with Tim's mic and the foldback for my pad but it wasn't too significant. Cigars were really fantastic though. AfThe bass player, Justin also plays in The Porkers as does Rob the trombonist. Their myspace belies the experience each of the members have as musicians and the energetic and convincing performance they made.

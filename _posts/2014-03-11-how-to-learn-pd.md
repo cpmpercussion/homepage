@@ -13,6 +13,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "The built-in tutorials for Pure Data are really good... Today, someone asked me about how to get started with computer music using Pd, so here's the ideas"
 ---
 
 ![The built-in tutorials for Pure Data are really good...]({{ site.baseurl }}/assets/squarespace_images/2014-03-11-PdTutorials.jpg)

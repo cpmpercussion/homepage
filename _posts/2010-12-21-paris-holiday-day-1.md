@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Finally we got to Paris, unfortunately, we had to get up at 430 to make the early flight, but we really made it. First on the agenda awesome fun times! We"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-21-ParisHoliday1.jpg)

@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Back in Piteå."
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-19-DarkSnowy1.jpg)

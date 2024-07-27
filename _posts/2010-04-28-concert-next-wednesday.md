@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Dave Samuels + Anders Åstrand + ANU DRUMatiX + Many guest percussionists from Canberra... including me! http//music.anu.edu.au/node/295 Posted via email"
 ---
 
 Dave Samuels + Anders Åstrand + ANU DRUMatiX + Many guest percussionists from Canberra... including me! 

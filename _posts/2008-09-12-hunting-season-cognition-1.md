@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm putting together a cool show that will be on this week at Belconnen Arts Centre! It's called Cognition part 1 and it's part of the Hunting Season"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/huntingseason08_show1_poster_V2.jpg)

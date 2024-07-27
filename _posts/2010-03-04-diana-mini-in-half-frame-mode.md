@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Canberra, February 2010."
 ---
 
 Canberra, February 2010.

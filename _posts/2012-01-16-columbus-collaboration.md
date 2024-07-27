@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "In November 2011, I visited Columbus, Ohio to work with my friend Noah Demland. We had met at the Percussive Arts Society's Convention (PASIC) in 2010 and"
 ---
 
 ![]({{site.baseurl}}/assets/blog/2012/2012-01-16-ColumbusCollab1.jpg)

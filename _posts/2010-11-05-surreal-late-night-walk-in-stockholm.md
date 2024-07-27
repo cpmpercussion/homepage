@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Came to Stockholm to work with Anders, Everisto and Rolf. I hacked together a little video mixer in oF for their concert at PASIC. After late dinner and"
 ---
 
 Came to Stockholm to work with Anders, Everisto and Rolf. I hacked together a little video mixer in oF for their concert at PASIC. After late dinner and listening at Anders' place I walked home to my hotel. Stockholm streets are quiet and surreal even during the day. But especially late at night. Stylish shop keepers leave their lights on so you can see their cool stuff. See below.

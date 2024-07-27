@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "We had a weekend in Melbourne to play two shows - The Esplanade on Friday and Sounds Like Chicken's final show out at a community centre in Bayswater. In"
 ---
 
 We had a weekend in Melbourne to play two shows - The Esplanade on Friday and Sounds Like Chicken's final show out at a community centre in Bayswater. In spite (or because of) the reputation of the venue I've been disappointed with our previous shows at the Espy, but I really enjoyed Friday night. A few fans in the crowd knew some words had everybody dancing and the awesome sound guy set up quickly and mixed up a great sound.

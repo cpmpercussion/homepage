@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Snug. Posted via email from charles martin"
 ---
 
 <!-- Double post? posterous version -->

@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "The cover of Ensemble Evolution's forthcoming album! Ensemble Evolution's final concert in Sweden was a commissioned performance of six new works for the"
 ---
 
 ![The cover of Ensemble Evolution's forthcoming album!]({{ site.baseurl }}/assets/squarespace_images/2012-10-08-Treetops.jpg) The cover of Ensemble Evolution's forthcoming album! 

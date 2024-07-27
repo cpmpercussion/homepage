@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I'm playing in LMTD at CCAS, Canberra tomorrow! This is my setup. Not the best room, but it works ok! Networked performance setup for Last Man to Die"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-03-LMTDNet.jpg)

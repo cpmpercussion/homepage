@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Airport times. Posted via email from charles martin"
 ---
 
 Airport times.

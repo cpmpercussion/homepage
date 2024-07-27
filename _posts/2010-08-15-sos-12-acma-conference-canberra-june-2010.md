@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "A video of our performance at the Australasian Computer Music Association's conference, ANU, Canberra. June 2010. Posted via email from Strike on Stage"
 ---
 
 A video of our performance at the Australasian Computer Music Association's conference, ANU, Canberra. June 2010. 

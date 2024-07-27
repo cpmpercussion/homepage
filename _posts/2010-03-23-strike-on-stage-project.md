@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "starting new project Strike on Stage. Today - organised studio hire - looked at blob tracking in open frameworks and put together a basic program, camera"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-03-23-SOSProject.jpg)

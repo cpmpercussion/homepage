@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "2014-10-02 - added some updates for XCode 6 So I've been working on submitting my Snow Music iOS app to app store, but was frustrated at the final step"
 ---
 
 **2014-10-02 - added some updates for XCode 6**

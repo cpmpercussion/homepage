@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Time to visit the Louvre! (I want to go back!)"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-12-24-Louvre1.jpg)

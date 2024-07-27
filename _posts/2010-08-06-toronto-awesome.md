@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Awesome times in Toronto. See and download the full gallery on posterous Posted via email from charles martin"
 ---
 
 Awesome times in Toronto.

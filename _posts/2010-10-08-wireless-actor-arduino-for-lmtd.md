@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "At NIME someone asked if I had tried using Xbee with my wearable Arduino setup for Last Man to Die. I hadn't then, but after today.... now I have! I"
 ---
 
 At NIME someone asked if I had tried using Xbee with my wearable Arduino setup for Last Man to Die. I hadn't then, but after today.... now I have!

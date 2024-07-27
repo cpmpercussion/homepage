@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I've been thinking a bit about "crowd funding" recently since some good friends were successful in using Kickstarter to fund their commissioning project"
 ---
 
 I've been thinking a bit about "crowd funding" recently since some good friends were successful in using Kickstarter to fund their commissioning project for percussion music. Kickstarter is for US residents only but I see that there's an similar product called [Pozible](http://www.pozible.com.au/) available for Australians.

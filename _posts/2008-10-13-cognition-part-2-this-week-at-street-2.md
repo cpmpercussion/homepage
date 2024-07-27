@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Cognition Part 2 is being performed this week in Street 2 at the Street Theatre, Canberra. There are shows on Wednesday 15th - Saturday 18th of October at"
 ---
 
 ![Cognition part 2 poster]({{ site.baseurl }}/assets/blogger/cognition2-poster.jpg)

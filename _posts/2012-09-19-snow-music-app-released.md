@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "The Snow Music app I developed with Ensemble Evolution as part of my research in Piteå, is now available for free on the iTunes store! Download it and"
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2012-09-19-SnowMusicArtwork.jpg)

@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Concept icons for new and old Metatone apps and our desktop application "Metatone Classifier" that can track and interact with a whole ensemble of iPad"
 ---
 
 ![Concept icons for new and old Metatone apps]({{ site.baseurl }}/assets/squarespaceblog/2014-10-27-new-app-developments.jpg) 

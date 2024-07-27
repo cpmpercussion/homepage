@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I've updated my website to use Squarespace 6, so to celebrate, here's some nice images. These are from Oslo and Stockholm, taken in June 2011 with my"
 ---
 
 I've updated my website to use Squarespace 6, so to celebrate, here's some nice images. These are from Oslo and Stockholm, taken in June 2011 with my Olympus XA.

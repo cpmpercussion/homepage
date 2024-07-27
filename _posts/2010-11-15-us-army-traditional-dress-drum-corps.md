@@ -13,6 +13,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "these guys are awesome."
 ---
 
 ![]({{ site.baseurl }}/assets/squarespace_images/2010-11-15-DrumCorps.jpg) 

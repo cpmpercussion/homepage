@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Fondation.cartier.com"
 ---
 
 ![Fondation.cartier.com]({{ site.baseurl }}/assets/squarespace_images/2010-12-26-Moebius.jpg) 

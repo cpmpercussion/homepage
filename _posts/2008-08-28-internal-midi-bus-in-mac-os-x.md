@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Suppose that you have a Pd program which outputs midi data that you want Ableton Live to receive. In Mac OS X you can create an internal midi bus and then"
 ---
 
 ![]({{ site.baseurl }}/assets/blogger/IAC-audio-midi-setup.jpg)

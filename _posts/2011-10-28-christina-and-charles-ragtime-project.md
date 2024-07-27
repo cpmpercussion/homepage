@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+description: "Christina’s favourite kind of percussion music is ragtime xylophone, so we’ve decided to start a duo project recording and performing the music of George"
 ---
 
 [Christina](http://www.cutiefulchristina.com/)’s favourite kind of percussion music is ragtime xylophone, so we’ve decided to start a duo project recording and performing the music of George Hamilton Green, Red Norvo and 

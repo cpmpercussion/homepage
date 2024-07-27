@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "![](http//www.flickr.com/photos/chucknotorious/2979386957/) I created a program in Pd that displays a set of jpeg images. You can flick through the images"
 ---
 
 [![]({{ site.baseurl }}/assets/blogger/Cognition2-PicturesPd.jpg)](http://www.flickr.com/photos/chuck_notorious/2979386957/)

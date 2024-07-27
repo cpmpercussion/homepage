@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "THE LAST MAN TO DIE is on at Street 2, The Street Theatre, Canberra next week! July 7-8, 830pm. It's going to be awesome. MORE ATTENTION CITIZEN YOU are"
 ---
 
 THE LAST MAN TO DIE is on at Street 2, The Street Theatre, Canberra next week! July 7-8, 8:30pm.

@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "Some thoughts about grant writing and funding… About more than just chasing money Writing grants and applications is an opportunity to clarify the concept"
 ---
 
 Some thoughts about grant writing and funding…

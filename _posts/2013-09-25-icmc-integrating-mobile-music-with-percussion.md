@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+description: "I recently presented a poster and paper at ICMC2013 (International Computer Music Conference) in Perth! Here's the text of the poster and a link to the"
 ---
 
 I recently presented a poster and paper at ICMC2013 (International Computer Music Conference) in Perth! Here's the text of the poster and a [link to the paper](/s/Martin-Integrating-Mobile-Music-with-Percussion.pdf) that went with it!
