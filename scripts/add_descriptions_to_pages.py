@@ -9,7 +9,7 @@ content_dir = Path('../_posts')
 def extract_description(text, max_length=155):
     # Remove markdown links/images, HTML tags, markdown headings, and special characters
     clean_text = re.sub(r'!\[.*?\]\(.*?\)|<[^>]+>|\[.*?\]\(.*?\)|#+', '', text)
-    clean_text = re.sub(r'[^A-Za-z0-9 ]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
+    clean_text = re.sub(r'[^A-Za-z0-9 åø]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()  # Normalize whitespace and strip leading/trailing whitespace
     if len(clean_text) > max_length:
         return clean_text[:max_length].rsplit(' ', 1)[0] + '...'
@@ -17,7 +17,6 @@ def extract_description(text, max_length=155):
 
 # Function to update the markdown file by appending the description to the front matter
 def update_file_with_description(md_file_path, front_matter, description):
-    # Append the generated description within the TOML front matter
     updated_front_matter = f'---\n{front_matter}\ndescription: "{description}"\n---\n\n'
     main_content = content[front_matter_match.end():].lstrip()
     updated_content = updated_front_matter + main_content
