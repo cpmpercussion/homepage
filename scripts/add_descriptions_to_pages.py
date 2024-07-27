@@ -8,11 +8,11 @@ content_dir = Path('../_posts')
 # Function to extract text for the description
 def extract_description(text, max_length=155):
     # Remove markdown links/images, HTML tags, markdown headings, and special characters
-    clean_text = re.sub(r'!\[.*?\]\(.*?\)|<[^>]+>|\[.*?\]\(.*?\)|#+', '', text)
-    clean_text = re.sub(r'[^A-Za-z0-9 åø]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
+    clean_text = re.sub(r'!\[.*?\]\(.*?\)|<[^>]+>|\[(.*?)\]\(.*?\)|#+|{%.*?%}|{{.*?}}', r'\1', text)
+    clean_text = re.sub(r'[*#_:]+', '', clean_text)  # Keeps only alphanumeric characters and spaces
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()  # Normalize whitespace and strip leading/trailing whitespace
     if len(clean_text) > max_length:
-        return clean_text[:max_length].rsplit(' ', 1)[0] + '...'
+        return clean_text[:max_length].rsplit(' ', 1)[0]
     return clean_text
 
 # Function to update the markdown file by appending the description to the front matter
@@ -40,9 +40,3 @@ for md_file in content_dir.rglob('*.md'):
         update_file_with_description(md_file, front_matter, description)
     else:
         print(f'No update required or front matter not found in {md_file}')
-
-print('Finished processing all files.')
-
-
-
-
