@@ -31,8 +31,6 @@ Bring some vibes mallets (or the closest you have) and any vibraphone
 music or parts you\'re working on. We\'ll have lots of vibraphones set
 up so everyone will get plenty of chances to play and try out new ideas!
 
-### Bookings essential! Send me a message on my [Contact Page](/contact) {#bookingsessentialsendmeamessageonmycontactpage1}
-
 ## Schedule and Topics! {#scheduleandtopics}
 
 -   9am: Technique

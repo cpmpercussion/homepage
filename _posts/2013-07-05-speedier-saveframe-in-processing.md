@@ -10,7 +10,7 @@ description: "I've been writing some very simple Processing sketches to visualis
 ---
 
 I've been writing some very simple Processing sketches to visualise logs of OSC messages for my 
-[Metatone project](/metatone) and I've wanted to turn these visualisations into videos to match up with the performances.
+Metatone project and I've wanted to turn these visualisations into videos to match up with the performances.
 
 No problem right? Just use Processing's saveFrame() method at the end of every draw() loop and then use the "Movie Maker" tool on the resulting folder of image files.
 

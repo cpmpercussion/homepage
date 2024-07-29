@@ -15,7 +15,7 @@ meta: {}
 description: "Seminar with Lisa Lai at Piteå Percussion Repertoire Festival"
 ---
 
-Seminar with [Lisa Lai](http://www.laichihsia.com/) at [Piteå Percussion Repertoire Festival](https://charles-martin.squarespace.com/config/ensevolution):
+Seminar with [Lisa Lai](http://www.laichihsia.com/) at the Piteå Percussion Repertoire Festival:
 
 <!-- https://vimeo.com/21555433 -->
 {% include vimeoPlayer.html id="21555433" %}
