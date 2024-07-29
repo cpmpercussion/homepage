@@ -52,7 +52,3 @@ notice. If you know you\'re going to miss a lesson, please get in touch
 as soon as possible to make an alternative arrangement. Missed lessons
 with no notice are forfeited. Payment in advance is required before
 lessons start for each term.
-
-![A percussion setup at the ANU School of Music\'s Big Band
-Room.](/squarespace_images/static_500baf96c4aa540325612fa5_t_521306d0e4b0c3075748fe5f_1376978643420_Ensemble+Metatone+Stage+setup.jpg_)
-A percussion setup at the ANU School of Music\'s Big Band Room.

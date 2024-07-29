@@ -40,12 +40,9 @@ Charles' home studio in Ainslie, ACT price: $80 per 1 hour lesson.
 If you don't have any mallets, here's a few models that are good for
 starting out.
 
--   [Innovative Percussion RS251 Medium
-    Vibraphone/Marimba](http://www.innovativepercussion.com/pages/products/product_groups.aspx?id=12)
--   [Innovative Percussion AA25 Medium
-    Vibraphone/Marimba](http://www.innovativepercussion.com/pages/products/product_groups.aspx?id=25)
--   [Mike Balter 41 Arthur Lipner Medium
-    Vibraphone](http://www.mikebalter.com/artist_series.htm)
+-   [Innovative Percussion RS251 Medium Vibraphone/Marimba]()
+-   [Innovative Percussion AA25 Medium Vibraphone/Marimba]()
+-   [Mike Balter 41 Arthur Lipner Medium Vibraphone]()
 
 ### Handbook for Percussion
 
@@ -65,8 +62,8 @@ Table of Contents:
 ### Beginner's Percussion Pack
 
 Here's a list of sticks and mallets that are appropriate for high school
-students in concert band, orchestra or percussion ensemble. [Optimum
-Percussion](http://optimumpercussion.com.au/) (Sydney) can give good
+students in concert band, orchestra or percussion ensemble. Optimum
+Percussion (Sydney) can give good
 advice on purchasing concert percussion equipment.
 
 ![](/assets/teaching/students1.jpg)

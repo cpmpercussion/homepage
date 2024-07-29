@@ -69,17 +69,10 @@ Vibes mallets are typically more rubbery than marimba mallets with a
 hard-wearing acrylic yarn and rattan shafts. If you need to buy some, I
 would recommend the following:
 
--   [Innovative Fundamental
-    5.5](http://optimumpercussion.com.au/innovative-perc-medium-vibes-mallets.html)
-    (a good first vibes mallet)
--   [Innovative Anders Åstrand
-    AÅ25](http://optimumpercussion.com.au/innovative-anders-anstrand-medium-vibes.html)
-    (my usual choice - heavy compared to other mallets)
--   [Mike Balter Basics BB5 Vibe
-    Mallet](http://optimumpercussion.com.au/mike-balter-bb5-basics-vibe-mallets-med.html)
-    (these are inexpensive, but have birch shafts)
+-   [Innovative Fundamental 5.5]() (a good first vibes mallet)
+-   [Innovative Anders Åstrand AÅ25]() (my usual choice - heavy compared to other mallets)
+-   [Mike Balter Basics BB5 Vibe Mallet]() (these are inexpensive, but have birch shafts)
 
 If you\'re buying a set - spring for two pairs of the same kind so you
 can play with four! The easiest way to get these is through Optimum
-Percussion in Sydney:
-[optimumpercussion.com.au](http://optimumpercussion.com.au)
+Percussion in Sydney.
