@@ -6,7 +6,20 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
-
+@InProceedings{Niu:2024ab,
+  title = {Latent Optimal Paths by {G}umbel Propagation for Variational {B}ayesian Dynamic Programming},
+  author = {Niu, Xinlei and Walder, Christian and Zhang, Jing and Martin, Charles Patrick},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  pages = {38316--38343},
+  year = {2024},
+  editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = {235},
+  series = {Proceedings of Machine Learning Research},
+  month = {21--27 Jul},
+  publisher = {PMLR},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/niu24b/niu24b.pdf},
+  url = {https://proceedings.mlr.press/v235/niu24b.html},
+  abstract = 	 {We propose the stochastic optimal path which solves the classical optimal path problem by a probability-softening solution. This unified approach transforms a wide range of DP problems into directed acyclic graphs in which all paths follow a Gibbs distribution. We show the equivalence of the Gibbs distribution to a message-passing algorithm by the properties of the Gumbel distribution and give all the ingredients required for variational Bayesian inference of a latent path, namely Bayesian dynamic programming (BDP). We demonstrate the usage of BDP in the latent space of variational autoencoders (VAEs) and propose the BDP-VAE which captures structured sparse optimal paths as latent variables. This enables end-to-end training for generative tasks in which models rely on unobserved structural information. At last, we validate the behavior of our approach and showcase its applicability in two real-world applications: text-to-speech and singing voice synthesis. Our implementation code is available at https://github.com/XinleiNIU/LatentOptimalPathsBayesianDP.}}
 
 @inproceedings{Wallace:2023aa,
 	abstract = {What expectations exist in the minds of dancers when interacting with a generative machine learning model? During two workshop events, experienced dancers explore these expectations through improvisation and role-play, embodying an imagined AI-dancer. The dancers explored how intuited flow, shared images, and the concept of a human replica might work in their imagined AI-human interaction. Our findings challenge existing assumptions about what is desired from generative models of dance, such as expectations of realism, and how such systems should be evaluated. We further advocate that such models should celebrate non-human artefacts, focus on the potential for serendipitous moments of discovery, and that dance practitioners should be included in their development. Our concrete suggestions show how our findings can be adapted into the development of improved generative and interactive machine learning models for dancers' creative practice.},
