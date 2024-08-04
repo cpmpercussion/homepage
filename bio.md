@@ -20,30 +20,17 @@ carousel:
   - image: /assets/bio/touch-and-tone-profile.jpg
 ---
 
-<div class="w-50 float-right">
-{% include carousel.html %}
-</div>
-
-## Major Projects
-
-<ul>
-<li><a href="https://microjam.info">MicroJam</a> (2016-) Exploring Tiny Performances and Prediction with Smartphones at the University of Oslo.</li>
-<li><a href="https://collectedresonances.bandcamp.com/album/andromeda-is-coming">Andromeda is Coming (2015-)</a> Improvised music and media duo with Alec Hunter.</li>
-<li><a href="https://charlesmartin.com.au/metatone">Metatone</a> (2012-2016) Research project extending ensemble improvisation with new music-making iPad apps, gesture recognition and machine learning.</li>
-<li><a href="http://www.sticksandtones.net">Sticks and Tones</a> (2012-) Mallet percussion duo that perform music from the ragtime era, classic films and video games!</li>
-<li><a href="https://charlesmartin.com.au/nordligvintersolosuite/">Nordlig Vinter</a> (2011-2013) A suite of compositions for percussion and iOS devices created by Charles Martin while living in Piteå, near the Arctic circle in northern Sweden.</li>
-<li><a href="http://ensemble-evolution.com">Ensemble Evolution</a> (2010-) An international ensemble exploring the future of percussion through composition, education and technology.</li>
-<li><a href="http://www.lastmantodie.net">Last Man to Die</a> (2008-2010) Cross-artform group that connect acting, drawing, and percussion through technology in installation/performances.</li>
-<li><a href="https://charlesmartin.com.au/strike-on-stage/">Strike on Stage</a> (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
-</ul>
-
-## Short Bio
-
 Charles Martin is an Australian computer scientist, percussionist and digital artist blending traditional instruments with cutting-edge technology. His innovative performances explore artificial intelligence and augmented realities, creating captivating sonic landscapes. Martin's work has been featured across Australia, Europe, and the USA.
 
-Charles develops musical apps such as MicroJam, and PhaseRings, researches creative AI, and performs music with Ensemble Metatone and Andromeda is Coming. At the ANU, Charles teaches creative computing and leads research into intelligent musical instruments. His lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.
+Charles develops musical apps such as MicroJam and PhaseRings, researches creative AI, and performs music with Ensemble Metatone and Andromeda is Coming. At the ANU, Charles teaches creative computing and leads research into intelligent musical instruments. His lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.
 
 Prior to his present appointment as a Senior Lecturer in ccomputer science at the ANU, Charles was a postdoctoral research fellow at the University of Oslo's [Robotics and Intelligent Systems](https://www.mn.uio.no/ifi/english/research/groups/robin/) research group (2016-2019).
+
+## Images
+
+<div class="container d-flex align-items-center justify-content-center">
+{% include carousel.html %}
+</div>
 
 ## More details
 
@@ -67,4 +54,17 @@ Charles’ work is deeply informed by the processes and structures of mathematic
 
 {% comment %}
 Charles Martin is a computer scientist specialising in music technology, creative AI and human-computer interaction at The Australian National University, Canberra. 
+
+## Major Projects
+
+<ul>
+<li><a href="https://microjam.info">MicroJam</a> (2016-) Exploring Tiny Performances and Prediction with Smartphones at the University of Oslo.</li>
+<li><a href="https://collectedresonances.bandcamp.com/album/andromeda-is-coming">Andromeda is Coming (2015-)</a> Improvised music and media duo with Alec Hunter.</li>
+<li><a href="https://charlesmartin.com.au/metatone">Metatone</a> (2012-2016) Research project extending ensemble improvisation with new music-making iPad apps, gesture recognition and machine learning.</li>
+<li><a href="http://www.sticksandtones.net">Sticks and Tones</a> (2012-) Mallet percussion duo that perform music from the ragtime era, classic films and video games!</li>
+<li><a href="https://charlesmartin.com.au/nordligvintersolosuite/">Nordlig Vinter</a> (2011-2013) A suite of compositions for percussion and iOS devices created by Charles Martin while living in Piteå, near the Arctic circle in northern Sweden.</li>
+<li><a href="http://ensemble-evolution.com">Ensemble Evolution</a> (2010-) An international ensemble exploring the future of percussion through composition, education and technology.</li>
+<li><a href="http://www.lastmantodie.net">Last Man to Die</a> (2008-2010) Cross-artform group that connect acting, drawing, and percussion through technology in installation/performances.</li>
+<li><a href="https://charlesmartin.com.au/strike-on-stage/">Strike on Stage</a> (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
+</ul>
 {% endcomment %}
