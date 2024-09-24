@@ -19,6 +19,9 @@
   {% if entry.preprint %}
   <a class="btn btn-outline-secondary" href="{{entry.preprint}}">Preprint PDF</a>
   {% endif %}
+  {% if entry.pdf %}
+  <a class="btn btn-outline-secondary" href="{{entry.pdf}}">PDF</a>
+  {% endif %}
   {% if entry.video %}
   <a class="btn btn-outline-secondary" href="{{entry.video}}">Video</a>
   {% endif %}
