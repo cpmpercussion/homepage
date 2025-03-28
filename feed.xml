@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2024-11-13T04:55:05+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2025-03-28T01:44:56+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">SMCClab projects on gesture, collaboration and intelligence</title><link href="https://charlesmartin.au/blog/2023/08/26/projects-in-24" rel="alternate" type="text/html" title="SMCClab projects on gesture, collaboration and intelligence" /><published>2023-08-26T00:00:00+00:00</published><updated>2023-08-26T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/08/26/projects-in-24</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/08/26/projects-in-24"><![CDATA[<p>I’ve recently been thinking about projects my lab has been working on and how
 to focus our work in future to take advantage of collaboration and
 knowledge-sharing within my group.</p>
@@ -62,7 +62,7 @@ hybrid setup.</p>
 
 <p>Last year I was part of the organising team for OzCHI 2022 in Canberra, a
 single track conference. Here’s approached doing <em>hybrid</em> aspects of the
-conference right, or as well as possible, within a very small budget<sup id="fnref:budget" role="doc-noteref"><a href="#fn:budget" class="footnote" rel="footnote">1</a></sup>.</p>
+conference right, or as well as possible, within a very small budget<sup id="fnref:budget"><a href="#fn:budget" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
 <p><img src="/assets/blog/2023/streaming-hybrid.jpg" alt="my hybrid prduction setup at the Shine Dome, Canberra" /></p>
 
@@ -139,7 +139,7 @@ pieces of hardware:</p>
     <p>A dedicated straming computer. I used a (now old) 2016 MacBook Pro. A fairly powerful laptop is needed as it will need to handle multiple video streams. The internet connection should be stable and fast.</p>
   </li>
   <li>
-    <p>A dedicated camera and microphone to point at the live presenter. I used a GoPro with a Rode VideoMicro microphone. The GoPro has an HDMI output (using the “Media Mod” for this model). A regular/nice webcam could work but I like the extreme wide-angle of the GoPro for capturing presenters who tend to move around a bit. With such a wide-angle this means the camera should basically attached to the speaker’s lectern. The neat little microphone seemed to work well to pick up the presenter and definitely made them feel super pro<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup>, having the microphone close to and pointed directly at the speaker helps more than the brand of microphone.</p>
+    <p>A dedicated camera and microphone to point at the live presenter. I used a GoPro with a Rode VideoMicro microphone. The GoPro has an HDMI output (using the “Media Mod” for this model). A regular/nice webcam could work but I like the extreme wide-angle of the GoPro for capturing presenters who tend to move around a bit. With such a wide-angle this means the camera should basically attached to the speaker’s lectern. The neat little microphone seemed to work well to pick up the presenter and definitely made them feel super pro<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, having the microphone close to and pointed directly at the speaker helps more than the brand of microphone.</p>
   </li>
 </ol>
 
@@ -218,10 +218,10 @@ hard work. Next time, I’d think about:</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:budget" role="doc-endnote">
+    <li id="fn:budget">
       <p>Budget was zero dollars, except, of course, for my time (possibly too much of that), and that I had equipment to hand, e.g., HDMI switcher, GoPro, Microphone, HDMI capture device, two pretty nice laptops, and an existing restream subscription. This is not really a post about cheap tech, but rather avoiding paying excessively for a poor product as I have seen at some very expensive and prestigious conferences. <a href="#fnref:budget" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>Anecdotal evidence can be supplied on request. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
