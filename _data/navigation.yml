@@ -18,8 +18,8 @@
 - title: projects
   url: /projects/
 
-- title: lab
-  url: /lab/
+- title: smcclab
+  url: https://smcclab.github.io
 
 # <ul class="links">
 #   <li><a href="{{ "/blog.html" | absolute_url }}">blog</a></li>
