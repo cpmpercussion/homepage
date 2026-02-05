@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2025-11-20T06:37:00+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
-</subtitle><entry><title type="html">SMCClab projects on gesture, collaboration and intelligence</title><link href="https://charlesmartin.au/blog/2023/08/26/projects-in-24" rel="alternate" type="text/html" title="SMCClab projects on gesture, collaboration and intelligence" /><published>2023-08-26T00:00:00+00:00</published><updated>2023-08-26T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/08/26/projects-in-24</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/08/26/projects-in-24"><![CDATA[<p>I’ve recently been thinking about projects my lab has been working on and how
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-05T03:46:55+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+</subtitle><entry><title type="html">Amazing weekend of performances at SoundOut 2026</title><link href="https://charlesmartin.au/blog/2026/02/01/soundout-2026" rel="alternate" type="text/html" title="Amazing weekend of performances at SoundOut 2026" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/01/soundout-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/01/soundout-2026"><![CDATA[<p>I had an amazing weekend performing at <a href="https://dhg.anu.edu.au/event_post/soundout-2026/">SoundOut 2026</a> at the ANU Drill Hall Gallery performing with some incredible Australian and international musicians. SoundOut is described as “one of the gateway exploratory music-art events in Australia” and a gem in Canberra’s yearly music schedule.</p>
+
+<p>I was lucky enough to perform wonderful sets with Jesse Twomey, Yichen Wang, Ben Carey, Jamie Lambert, Peter Bruun, Rhys Butler, Phil Durrant, Laura Altman and Nicci Haynes. It was wonderful to perform with these folks including some I hadn’t met before and some very old friends!</p>
+
+<p>Especially cool this year to show off two new instruments designed in the ANU SMCClab with Yichen Wang. We have been working hard in the lab to design new ways to build musical instruments involving AI and machine learning technologies.</p>
+
+<p>Huge thanks to Richard Johnson for inviting me to be a part of this SoundOut and congratulations on another amazing festival!</p>
+
+<p>Here’s a few images…</p>
+
+<p><img src="/assets/blog/2026/soundout2026-1.jpg" alt="Yichen Wang and Jesse Twomey setting up for performance." /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-2.jpg" alt="My instrument throughout the festival: IMPSYpi intelligent instrument platform plus Roland S-1 synth and Keith McMillen QuNeo" /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-3.jpg" alt="blinky lights" /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-4.jpg" alt="Ben Carey and Rhys Butler preparing for our ensemble performance." /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-5.jpg" alt="Yichen Wang's performance rig" /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-6.jpg" alt="Quintet in performance" /></p>
+
+<p><img src="/assets/blog/2026/soundout2026-7.jpg" alt="Large group packing up at the end of the festival." /></p>]]></content><author><name></name></author><category term="note" /><category term="projects" /><summary type="html"><![CDATA[I had an amazing weekend performing with intelligent musical instruments at SoundOut with incredible Australian and international musicians]]></summary></entry><entry><title type="html">SMCClab projects on gesture, collaboration and intelligence</title><link href="https://charlesmartin.au/blog/2023/08/26/projects-in-24" rel="alternate" type="text/html" title="SMCClab projects on gesture, collaboration and intelligence" /><published>2023-08-26T00:00:00+00:00</published><updated>2023-08-26T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/08/26/projects-in-24</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/08/26/projects-in-24"><![CDATA[<p>I’ve recently been thinking about projects my lab has been working on and how
 to focus our work in future to take advantage of collaboration and
 knowledge-sharing within my group.</p>
 
@@ -1242,135 +1264,4 @@ b.index.seq([2,3,4,5,6],1/16)
   <li><a href="https://github.com/charlieroberts/gibber.core.lib">gibber.core.lib</a>: A few shared objects and function for Gibber, mostly for sequencing. <code class="language-plaintext highlighter-rouge">euclid</code>, <code class="language-plaintext highlighter-rouge">seq</code>, and <code class="language-plaintext highlighter-rouge">tidal</code> are defined here.</li>
   <li><a href="https://github.com/gibber-cc/gibberish">gibberish</a>: a “fast JavaScript DSP library”. If you want to know where <code class="language-plaintext highlighter-rouge">Synth</code> or <code class="language-plaintext highlighter-rouge">Sampler</code> are defined, look here (actually look in <code class="language-plaintext highlighter-rouge">gibberish/js/instruments</code>).</li>
   <li><a href="https://github.com/charlieroberts/genish.js">genish</a>: this is a lower-level DSP library for doing “per-sample audio processing” (inspired by the <code class="language-plaintext highlighter-rouge">gen~</code> object from Max/MSP). To understand why this is cool, look at the <a href="http://www.charlie-roberts.com/genish/tutorial/index.html">genish tutorial</a>.</li>
-</ol>]]></content><author><name></name></author><category term="workshop" /><category term="class" /><category term="gibber" /><category term="computer-music" /><summary type="html"><![CDATA[This is a workshop designed for students who have never done any coding before to start by making some computer music! Here's the description > In this]]></summary></entry><entry><title type="html">How to present a student software project</title><link href="https://charlesmartin.au/blog/2020/08/09/student-project-repository" rel="alternate" type="text/html" title="How to present a student software project" /><published>2020-08-09T13:33:59+00:00</published><updated>2020-08-09T13:33:59+00:00</updated><id>https://charlesmartin.au/blog/2020/08/09/student-project-repository</id><content type="html" xml:base="https://charlesmartin.au/blog/2020/08/09/student-project-repository"><![CDATA[<p>So you’re a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the <em>software</em> as well as a <em>report</em>. So how are you going to present this great work? An email? A zipfile? A USB key?</p>
-
-<p>You might be thinking: “I’ve done a lot of programming assignments, this should be the same right?” Well, maybe, maybe not. Unlike an assignment, your audience for a software project <em>doesn’t know what your project is about</em>, so you have to be clear about telling them! Your project might be for a teacher or examiner at first, but you might want to show it to your colleagues, potential employers, or even to wider open source or research communities. These people will want to know what your project is about, might also want to be able to reuse your code, or see how it works.</p>
-
-<p>It’s <strong>really</strong> important that your project documents exactly <em>how to run your code</em>. Your audience, either an examiner, teacher, or anybody else, will not have time to try every python file to see which is the one that makes your project <em>go</em>, and they certainly won’t be able to magically know what the dependencies are for your code. To make these things <strong>obvious</strong> you need to write them in your readme file and provide a <code class="language-plaintext highlighter-rouge">requirements.txt</code> file (or similar) so that others can actually install and run your work!</p>
-
-<p>For a software project to be <strong>excellent</strong>, presentation matters. If I don’t know how code works, then it might as well be broken. Here’s some tips for getting this right and submitting work that you (and your teachers) can be proud of!</p>
-
-<p><strong>This is part of a series of posts for my undergraduate and honours project students at the ANU, but it could be useful to other people, even you!</strong></p>
-
-<h2 id="git-repository-as-artefact">Git Repository as Artefact</h2>
-
-<p><em>Most</em> student software projects should probably be presented as a git repository. This gives you a way to keep track of your work over the project, ways to experiment (<a href="https://www.atlassian.com/git/tutorials/using-branches">with branches</a>) and <a href="https://www.atlassian.com/git/tutorials/undoing-changes/git-revert">roll back</a> if you make mistakes. Your supervisor and other collaborators or advisers can check in on your work during the project, and, when it’s finished, you could publish your project to a public hosting platform such as <a href="https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">GitHub</a> as part of your online portfolio.</p>
-
-<p>Given that you are setting up a git repository, make sure you have a <code class="language-plaintext highlighter-rouge">.gitignore</code> file <a href="https://docs.github.com/en/github/using-git/ignoring-files">appropriate for your project</a>, so that you don’t commit temporary or unnecessary files.</p>
-
-<p>You should also practice <a href="https://leosaysger.github.io/blog/code/2019/01/10/git-hygiene.html">good git hygiene</a>. In particular, don’t commit huge binary files (e.g., PDF, zips, media files) in a git repo, and definitely don’t store <a href="https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/">passwords or API keys in a git repo</a>.</p>
-
-<p>If your project requires large data files, store them elsewhere (e.g., <a href="https://www.aarnet.edu.au/network-and-services/cloud-services/cloudstor">CloudStor</a> for Australian research and educational institutions.), and write a <a href="https://stackoverflow.com/questions/7243750/download-file-from-web-in-python-3">script to download them before they are needed</a>.</p>
-
-<p>As a bonus, you can access <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb">public Github repos from Google Colab</a> which is a neat way to show off a project to people without having them download it onto their system.</p>
-
-<p>As a second bonus, a nicely set out git repo will look cool in GitLab or GitHub:</p>
-
-<p><img src="/assets/blog/2020/keras-mdn-layer-project.png" alt="Charles' Keras MDN Layer Repository" /></p>
-
-<h2 id="project-structure">Project Structure</h2>
-
-<p>Most of my students do projects in Python or iPython Notebooks. Although there are many ways to structure a project, by following best-practices you know that your audience can quickly understand your project and might even try to test/use it!</p>
-
-<p>If your project is in Python, it might be best to structure it as module. You might like to follow the <a href="https://docs.python-guide.org/writing/structure/#sample-repository">“Structuring your Project” tutorial (Hitchhiker’s guide to python)</a>, or look at an <a href="https://github.com/navdeep-G/samplemod">example project on GitHub</a>.</p>
-
-<p>If your project was called <code class="language-plaintext highlighter-rouge">project_name</code>, it might look like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>charles_martin_compxxxx_project_2020/
-+-- README.md
-+-- LICENSE
-+-- setup.py 
-+-- requirements.txt
-+-- project_name/
-|   +-- __init__.py
-|   +-- core.py
-|   +-- utils.py
-+-- tests/
-|   +-- tests.py
-+-- data/
-|   +-- data.csv (perhaps include data if small)
-|   +-- README.md (explains how to download data if large)
-</code></pre></div></div>
-
-<p>A few notes here:</p>
-
-<ul>
-  <li>The git repository is not named <code class="language-plaintext highlighter-rouge">charles_martin_compxxxx_project_2020</code> (not <code class="language-plaintext highlighter-rouge">project_name</code>), so if you share it with a supervisor (who might have many <em>compxxxx</em> students), they can find <strong>your</strong> project.</li>
-  <li>Having a main <code class="language-plaintext highlighter-rouge">README.md</code> is pretty much mandatory (more below)</li>
-  <li>Having a license is good practice for any code you make public as it makes it clear who created the project and under what terms it can be used/reused (if at all).</li>
-  <li>The <code class="language-plaintext highlighter-rouge">requirements.txt</code> file is a lightweight way to list a Python module’s requirements. You can and should work in a virtual environment so that you can keep track of <a href="https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1">what other modules are required to run your code</a>. A more advanced way to do this would be with <a href="https://python-poetry.org">Poetry</a>.</li>
-  <li><code class="language-plaintext highlighter-rouge">setup.py</code> might allow others to <a href="https://stackoverflow.com/questions/1471994/what-is-setup-py">install your module, or for you to distribute it</a>. cool!</li>
-  <li>If you only need one code file for your project, you could simply name it <code class="language-plaintext highlighter-rouge">project_name.py</code> and place it in your repo. If you want multiple files as part of a module, you’ll need a directory called <code class="language-plaintext highlighter-rouge">project_name</code>, and (traditionally) <a href="https://stackoverflow.com/questions/448271/what-is-init-py-for">a main file</a> called <code class="language-plaintext highlighter-rouge">__init__.py</code>.</li>
-</ul>
-
-<p>If your project is  a collection of iPython Notebooks, you should use directories to make it obvious where the various parts of the project are (e.g., see <a href="https://stackoverflow.com/questions/45723751/how-to-structure-a-python-project-with-ipython-notebooks">this StackOverflow post</a>):</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>charles_martin_compxxxx_project_2020/
-+-- README.md
-+-- LICENSE
-+-- requirements.txt
-+-- notebooks/
-|   +-- experiment_1.ipynb
-|   +-- experiment_2.ipynb
-|   +-- prepare_data.ipynb
-|   +-- utils.py
-+-- data/
-|   +-- data.csv (perhaps include data if small)
-|   +-- README.md (explains how to download data if large)
-</code></pre></div></div>
-
-<p>The filenames here make it obvious why there are multiple notebook files, and we still have a readme, license, and <code class="language-plaintext highlighter-rouge">requirements.txt</code> files.</p>
-
-<p>For an example have a look at my <a href="https://github.com/cpmpercussion/keras-mdn-layer">Keras MDN project</a></p>
-
-<h2 id="readmemd">README.md</h2>
-
-<p>The readme is the most important file in your project. Really. If you don’t have a readme, nobody will know what your code is for, or how to install or use it.</p>
-
-<p>You might like to follow a <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">good readme template</a>, and include some of the following sections:</p>
-
-<ul>
-  <li>title</li>
-  <li>project overview</li>
-  <li>installing</li>
-  <li>downloading data</li>
-  <li>how to use</li>
-  <li>running the tests</li>
-  <li>references</li>
-</ul>
-
-<p>A really <strong>nice</strong> readme might have some cool things like <em>images</em> or demo gifs (see this list of <a href="https://github.com/matiassingers/awesome-readme">awesome READMEs for inspiration</a>, but the above things are a good place to start.</p>
-
-<h2 id="license">LICENSE</h2>
-
-<p>A license sets out the terms under which others can use, modify or share your code. Do you want to allow others to reuse your code in their own projects? Do you want others to use your code, but <em>only in similarly licensed projects</em>? Do you want to reserve all rights unless they negotiate with you?</p>
-
-<p>These are tricky questions. Many of my projects are licensed under the very permissive <a href="https://choosealicense.com/licenses/mit/">MIT License</a>, but this is an individual choice you should make for your own work.</p>
-
-<p>Luckily there’s a whole website to help you <a href="https://choosealicense.com">choose a license</a>.</p>
-
-<p>BTW, you can just <strong>not have a license</strong>, which basically means your code is available to view but you retain <a href="https://choosealicense.com/no-permission/">exclusive copyright</a> over the work. If somebody else wants to use, modify, or share your code, they would need to ask for your permission to do so.</p>
-
-<h2 id="status-badges">Status Badges</h2>
-
-<p>Oh you like my status badges? You want your repo to say <img src="https://travis-ci.org/dwyl/esta.svg?branch=master" alt="Build Passing" style="width:100px; display:inline-block;vertical-align:middle;" />?</p>
-
-<p>These little badge images appear on lots of nice Git Repos and generally advertise how great and well-tested and published our repos are.</p>
-
-<p>There are <a href="https://github.com/badges/shields">lots of them</a> available (here’s some <a href="https://github.com/dwyl/repo-badges">instructions</a> on how to find different types).</p>
-
-<p>If your project has tests, you might like to set up <a href="https://docs.github.com/en/actions/building-and-testing-code-with-continuous-integration/setting-up-continuous-integration-using-github-actions">continuous integration</a> so that anybody who visits <strong>knows it’s working</strong> without even trying it.</p>
-
-<p>You can also get a badge for your <a href="https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba">license</a>.</p>
-
-<p>Badges don’t mean very much, but they’re fun and colourful. Just another way you can show <strong>attention to detail</strong> in your work.</p>
-
-<h2 id="videos-sounds-gifs-images">Videos, Sounds, GIFs, Images</h2>
-
-<p>If your project has sound, visuals or an interactive system as the output, then it’s probably a good idea to include some documentation of this media in your readme.</p>
-
-<p>GitHub doesn’t allow HTML embeds when displaying readme files, but you might make a short (e.g., 10 sec) video into <a href="https://giphy.com">a gif</a> and include that instead, e.g.:</p>
-
-<p><img src="https://media.giphy.com/media/KFoOINQn0moVJB8uUe/giphy.gif" alt="" /></p>
-
-<p>For sound, you could link to soundfiles stored on <a href="https://soundcloud.com">Soundcloud</a> or <a href="https://clyp.it">clyp.it</a>, and for video you could link to a YouTube or Vimeo upload.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[So you're a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the software as well as a]]></summary></entry></feed>
+</ol>]]></content><author><name></name></author><category term="workshop" /><category term="class" /><category term="gibber" /><category term="computer-music" /><summary type="html"><![CDATA[This is a workshop designed for students who have never done any coding before to start by making some computer music! Here's the description > In this]]></summary></entry></feed>
