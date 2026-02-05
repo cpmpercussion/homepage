@@ -39,3 +39,5 @@ gem "webrick", "~> 1.7"
 
 # This is for debugging.
 gem "html-proofer"
+
+gem "jekyll-compose", "~> 0.12.0"
