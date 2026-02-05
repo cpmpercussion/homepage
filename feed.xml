@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-05T04:08:43+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-05T05:19:16+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">Amazing weekend of performances at SoundOut 2026</title><link href="https://charlesmartin.au/blog/2026/02/01/soundout-2026" rel="alternate" type="text/html" title="Amazing weekend of performances at SoundOut 2026" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/01/soundout-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/01/soundout-2026"><![CDATA[<p>I had an amazing weekend performing at <a href="https://dhg.anu.edu.au/event_post/soundout-2026/">SoundOut 2026</a> at the ANU Drill Hall Gallery performing with some incredible Australian and international musicians. SoundOut is described as “one of the gateway exploratory music-art events in Australia” and a gem in Canberra’s yearly music schedule.</p>
 
 <p>I was lucky enough to perform wonderful sets with Jesse Twomey, Yichen Wang, Ben Carey, Jamie Lambert, Peter Bruun, Rhys Butler, Phil Durrant, Laura Altman and Nicci Haynes. It was wonderful to perform with these folks including some I hadn’t met before and some very old friends!</p>
@@ -21,7 +21,111 @@
 
 <p><img src="/assets/blog/2026/soundout2026-6.jpg" alt="Quintet in performance" /></p>
 
-<p><img src="/assets/blog/2026/soundout2026-7.jpg" alt="Large group packing up at the end of the festival." /></p>]]></content><author><name></name></author><category term="note" /><category term="projects" /><summary type="html"><![CDATA[I had an amazing weekend performing with intelligent musical instruments at SoundOut with incredible Australian and international musicians]]></summary></entry><entry><title type="html">SMCClab projects on gesture, collaboration and intelligence</title><link href="https://charlesmartin.au/blog/2023/08/26/projects-in-24" rel="alternate" type="text/html" title="SMCClab projects on gesture, collaboration and intelligence" /><published>2023-08-26T00:00:00+00:00</published><updated>2023-08-26T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/08/26/projects-in-24</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/08/26/projects-in-24"><![CDATA[<p>I’ve recently been thinking about projects my lab has been working on and how
+<p><img src="/assets/blog/2026/soundout2026-7.jpg" alt="Large group packing up at the end of the festival." /></p>]]></content><author><name></name></author><category term="note" /><category term="projects" /><summary type="html"><![CDATA[I had an amazing weekend performing with intelligent musical instruments at SoundOut with incredible Australian and international musicians]]></summary></entry><entry><title type="html">SMCClablive #1 concert</title><link href="https://charlesmartin.au/blog/2025/11/24/smcclablive-1" rel="alternate" type="text/html" title="SMCClablive #1 concert" /><published>2025-11-24T00:00:00+00:00</published><updated>2025-11-24T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2025/11/24/smcclablive-1</id><content type="html" xml:base="https://charlesmartin.au/blog/2025/11/24/smcclablive-1"><![CDATA[<p>The first of our smcclablive concerts was held at the Peter Karmel Building Big Band Room on 7 November 2025. Works were presented from researchers and students in the ANU SMCClab with guests Charlie Roberts from Worcester Polytechnic Institute (USA) and Ben Swift from the ANU School of Cybernetics.</p>
+
+<p>The video from our concert is available <a href="https://youtu.be/S_JuZUTmwbk">here (YouTube)</a> and below.</p>
+
+<p>It was so wonderful to present new music with students and colleagues. We were thrilled to have a busy audience of interested folks at the intersections of art, music, and computing in Canberra.</p>
+
+<p>We plan to run smcclablive as an end-of-semester event every six months featuring visiting artists and researchers from Australia and around the world.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/S_JuZUTmwbk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+
+<h2 id="program">Program</h2>
+
+<ol>
+  <li>Yijia Wang - Objects in VR</li>
+  <li>Ben Swift - Live Code</li>
+  <li>Sandy Ma and Suhani Narang - Webcam Duet</li>
+  <li>Charles Martin and Yichen Wang - Beep Duet</li>
+  <li>Charlie Roberts - Live Code in Mutter (<strong>world premiere performance!</strong>)</li>
+</ol>
+
+<h2 id="images">Images</h2>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-1.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-2.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-3.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-5.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-6.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-7.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-8.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-9.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-10.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/2025-smcclablive-1-11.jpg" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[A wrapup of events at our SMCClablive #1 in early November 2025 with live coder Charlie Roberts (USA) and researchers from the ANU SMCClab]]></summary></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
+
+<p>Our concert took place on Wednesday 29 May 2024 at the Big Band Room, ANU School of Music. The whole concert can be viewed <a href="https://youtu.be/86yEZquWsPs">here</a> and below.</p>
+
+<p>It was an important moment for our lab to put together a whole concert of music, not just the typical 10-minute conference demo, and to invite the community to see it. As always, it was a privilege to share the stage with Alec Hunter, Yichen Wang, and Sandy Ma. I want to thank Craig Greening for helping with sound and Eric Byler for taking photos and video!</p>
+
+<p><strong>Update:</strong> the <a href="https://systems.anu.edu.au/news/whats-sound-duet-humans-and-ai-concert">College of Systems and Society has posted an article about our work at this concert!</a></p>
+
+<h2 id="program">Program</h2>
+
+<ol>
+  <li><strong>From the Earth</strong> (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).</li>
+  <li><strong>Unspoken</strong> (Yichen Wang and Sandy Ma) Augmented-reality-mediated collaboration for synthesiser and computer music drawing interface.</li>
+  <li><strong>Cubes and Freak</strong> (Yichen Wang and Charles Martin) Improvised with Augmented reality musical instrument and AI-assisted MicroFreak Synthesiser.</li>
+  <li><strong>Touching Wires</strong> (Sandy Ma) Improvisation for <a href="https://bela.io">Bela</a> sensor quilt musical instrument and live video processing.</li>
+  <li><strong>Off the Shelf</strong> (Yichen Wang) Improvisation for AI-powered Volca FM synthesiser and OP-1 synthesiser.</li>
+  <li><strong>Into the Sun</strong> (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).</li>
+</ol>
+
+<h2 id="video">Video</h2>
+
+<p><a href="https://youtu.be/86yEZquWsPs">video here</a></p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/86yEZquWsPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+
+<h2 id="images">Images</h2>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-1.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-2.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-3.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-4.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-5.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-6.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-7.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-8.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-9.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-10.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2024/2024-05-29-concert-11.jpg" alt="" /></p>
+
+<h2 id="concert-details">Concert Details</h2>
+
+<p><img src="/assets/blog/2024/2024-aicaif-concert.jpg" alt="" /></p>
+
+<p>A 60-minute performance of new music for new AI musical instruments featuring Alec Hunter, Charles Martin, Yichen Wang and Sandy Ma.</p>
+
+<p>Andromeda is Coming is the improvised music project of Charles Martin and Alec Hunter dedicated to exploring new sounds and music making technologies in long-form musical performances.</p>
+
+<p>For this performance, Andromeda adopt artificial intelligence and augmented reality musical instruments from the ANU Sound, Music and Creative Computing Lab. These include Charles Martin’s IMPSY system for building intelligent musical instruments and Yichen Wang’s “Cubing Sound” augmented reality musical instrument. These new musical instruments will be reflected by real-time interactive visualisation.
+We ask what new sounds and new music might be created with these new technologies, and what AI and virtual musical performances will look like?</p>
+
+<p>Poster Image Credit: Sandy Ma</p>
+
+<p><a href="https://music.cass.anu.edu.au/events/andromeda-coming-and-artificially-intelligent-friends">ANU School of Music Event Link</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Bringing back Andromed is Coming with new collaborators and new AI music systems.]]></summary></entry><entry><title type="html">SMCClab projects on gesture, collaboration and intelligence</title><link href="https://charlesmartin.au/blog/2023/08/26/projects-in-24" rel="alternate" type="text/html" title="SMCClab projects on gesture, collaboration and intelligence" /><published>2023-08-26T00:00:00+00:00</published><updated>2023-08-26T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2023/08/26/projects-in-24</id><content type="html" xml:base="https://charlesmartin.au/blog/2023/08/26/projects-in-24"><![CDATA[<p>I’ve recently been thinking about projects my lab has been working on and how
 to focus our work in future to take advantage of collaboration and
 knowledge-sharing within my group.</p>
 
@@ -952,316 +1056,4 @@ sudo systemctl restart docker
   <li>Introduction: <a href="https://patthomson.net/2014/06/02/the-thesis-introduction/">https://patthomson.net/2014/06/02/the-thesis-introduction/</a></li>
   <li>Conclusion: <a href="https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/">https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/</a></li>
   <li>More: <a href="https://thesiswhisperer.com">https://thesiswhisperer.com</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Now's the time of year that I get started with a new crop of Honours, Master and project students at the ANU School of Computing and at the UiO Department]]></summary></entry><entry><title type="html">Magic Lanterns in Canberra</title><link href="https://charlesmartin.au/blog/2021/08/02/magiclanterns" rel="alternate" type="text/html" title="Magic Lanterns in Canberra" /><published>2021-08-02T23:33:59+00:00</published><updated>2021-08-02T23:33:59+00:00</updated><id>https://charlesmartin.au/blog/2021/08/02/magiclanterns</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/08/02/magiclanterns"><![CDATA[<p>Over the last few years I’ve been invited to perform at several concerts with Martyn Jolley as part of his <a href="https://soad.cass.anu.edu.au/research/heritage-limelight"><em>Heritage in the Limelight</em></a> project. Martyn and fellow researcher Elisa deCourcy have been exploring magic lantern slide projection from a historical perspective and for creative re-use.</p>
-
-<p><img src="/assets/blog/2021/magiclantern-2021-charles.jpg" alt="Charles playing synthesisers with magic lanterns in the background" /></p>
-
-<p>The “creative re-use” bit is where I have been coming in as a musician along with <a href="https://www.alexanderhunter.com.au/">Alec Hunter</a>. Martyn and Elisa create new magic lantern shows, telling stories or exploring mechanical slides, then Alec and I work with them to create a live soundtrack.</p>
-
-<p>This is one of those projects where the events have been spread out enough for me to <strong>almost</strong> forget how to perform with the magic lanterns in between, but now I look back and see that we’ve created a significant series of performances.</p>
-
-<p>Martyn and Elisa have a collection of amazing <a href="https://soad.cass.anu.edu.au/research/heritage-limelight/videos">videos</a> documenting different performances.</p>
-
-<p>Here’s a few I worked on:</p>
-
-<ul>
-  <li>
-    <p>J. W. Newland’s “Beautiful Scientific Exhibition of Dissolving Views”, PhotoAccess, Canberra. (February 2021) <a href="https://vimeo.com/528049825">video</a></p>
-  </li>
-  <li>
-    <p>“Suburban Apparitions” - A Magic Lantern Performance at Calthorpe’s House, ACT Historic Places, Canberra (March 2020) <a href="https://vimeo.com/405336569">video</a></p>
-  </li>
-  <li>
-    <p>Camera Obscura, Ainslie Arts Centre (May 2016)</p>
-  </li>
-  <li>
-    <p>“Magic Lantern Horror Show”, National Portrait Gallery (February 2016) <a href="https://vimeo.com/172507859">video</a></p>
-  </li>
-</ul>
-
-<p>My favourate one is the <a href="https://vimeo.com/528049825">latest</a> shown in this dramatic video below was shot by Amr Tawfik.</p>
-
-<iframe style="display:block; margin:0 auto;" src="https://player.vimeo.com/video/528049825" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[Over the last few years I've been invited to perform at several concerts with Martyn Jolley as part of his Heritage in the Limelight project. Martyn and]]></summary></entry><entry><title type="html">Laptop Music Coding with Gibber</title><link href="https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop" rel="alternate" type="text/html" title="Laptop Music Coding with Gibber" /><published>2021-01-10T00:00:00+00:00</published><updated>2021-01-10T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop"><![CDATA[<p>This is a <em>workshop</em> designed for students who have never done any coding before to start by making some computer music! Here’s the description:</p>
-
-<blockquote>
-  <p>In this session you’ll try out some of the tools used in the <a href="https://comp.anu.edu.au/courses/laptop-ensemble">ANU Laptop Ensemble</a> for making music with code and have a computer music jam with a group! We’ll learn a bit about digital synthesis and algorithmic composition and how students in our laptop ensemble create new musical instruments using computing and creative skills.</p>
-</blockquote>
-
-<p>(<em>updated: 9/2/2024</em>)</p>
-
-<h1 id="making-your-laptop-into-a-musical-instrument">Making your Laptop into a Musical Instrument</h1>
-
-<p class="info-box">Welcome to our Laptop Music workshop! In this session we will create some music with computers using a <em>live coding</em> language called <a href="https://gibber.cc">gibber</a>. All you will need is a <strong>computer</strong>, a <strong>web browser</strong> (Chrome is preferred), and some <strong>headphones</strong>!</p>
-
-<h2 id="before-we-start">Before we start</h2>
-
-<p>Here’s the three things you’ll need:</p>
-
-<ul>
-  <li>
-    <p><strong>computer</strong>: any normal laptop/desktop will be work fine, if you’re on-campus the computer labs are already full of computers :-)</p>
-  </li>
-  <li>
-    <p><strong>web browser</strong>: musical websites tend to work best in <strong>Chrome</strong>, <strong>Firefox</strong>, and <strong>Safari</strong> in that order. If you’re a fan of freedom, you might like to try <a href="https://www.chromium.org/"><strong>Chromium</strong></a>, the free and open source version of Google’s Chrome browser (Chromium and Firefox are available in the ANU labs). Unfortunately Gibber doesn’t seem to work well on an iPad, and I haven’t tried on a Chromebook yet.</p>
-  </li>
-  <li>
-    <p><strong>headphones</strong>: this is just to avoid annoying your neighbours but also music tends to sound <em>better</em> with headphones. Note that we can’t provide these in our labs, so <strong>please bring some</strong> with a normal headphone plug.</p>
-  </li>
-</ul>
-
-<h2 id="getting-started-with-gibber">Getting started with Gibber</h2>
-
-<p>If you’re reading this, you’re probably on a computer and have a browser window open – that’s an excellent start already!</p>
-
-<p>Open a new tab or window and head over to <a href="https://gibber.cc">gibber.cc</a>. You’ll see a stylish looking dark, artistic website. Click the link that says “playground”.</p>
-
-<p>The first thing to do is to click anywhere in the main code window. The text will disappear and some example code will appear instead. Select all that code and delete it (just hit backspace); it’s nice to start from a clean slate!</p>
-
-<p>During this tutorial we’re going to enter some code in this editing window, then <strong>execute</strong> it to make a sound. Let’s start by typing in one simple line of code:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
-</code></pre></div></div>
-<p><strong>Executing</strong> this line of code means asking the computer to actually <strong>do</strong> what it says. In this case, it means “make a synth(esiser), and play a note at a frequency of 440 Hertz”.</p>
-
-<p>Use the arrow keys to place your cursor anywhere on the line with <code class="language-plaintext highlighter-rouge">Synth().notef(440)</code>, then hold the <code class="language-plaintext highlighter-rouge">Shift</code> key on your keyboard and press the <code class="language-plaintext highlighter-rouge">Enter</code> key to evaluate that line. You should hear a slightly annoying squawk!</p>
-
-<p>You can keep holding <code class="language-plaintext highlighter-rouge">Shift</code> and tapping <code class="language-plaintext highlighter-rouge">Enter</code> to play lots of 440Hz notes! Yay music!</p>
-
-<p>At this point you can play whatever note you want by entering in the correct
-frequency. But perhaps this seems inconvenient; you might like to define notes
-closer to how we read and write music. You actually have two options for
-creating a sound:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synth().notef(440)
-Synth().note(0)
-</code></pre></div></div>
-<p>If you play each of these lines, you might notice that they are making the same
-sound! That’s ok, it’s meant to happen. The second line is written slightly
-differently (can you see how?) and it is defining a pitch as a note in a scale.
-Try changing it to <code class="language-plaintext highlighter-rouge">Synth().note(1)</code> and play it again. Now it’s different!</p>
-
-<p class="info-box">Gibber understands <em>scale degrees</em> as the main way of representing pitches in sequences. A scale is a selection of pitches (usually 7 out of the 12 we usually have available in western music) that sound “good” together. Instead of writing “C” we could say “degree 0 of a C major scale”. Gibber has lots of scales built-in (see the Scales tutorial in Gibber’s menu), but you can get started by just using low numbers (e.g., 0-7) in your sequences.</p>
-
-<p>Before we move on, let’s make some more notes. We can change the pitch (frequency) of the note by changing the number in between the parentheses. For example: <code class="language-plaintext highlighter-rouge">Synth().notef(567)</code> will produce a note at 567Hz. Try it out.</p>
-
-<ul>
-  <li>If you press <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> (the control key and enter), instead of <code class="language-plaintext highlighter-rouge">Shift+Enter</code>, what happens?</li>
-  <li>If Gibber is ever too loud or playing sounds you don’t want, you can stop <strong>everything</strong> by hold the <code class="language-plaintext highlighter-rouge">Ctrl</code> key and press the full stop key (<code class="language-plaintext highlighter-rouge">.</code>).</li>
-  <li>By the way, from now on we’ll write the keyboard commands as <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> and <code class="language-plaintext highlighter-rouge">Ctrl+.</code>.</li>
-</ul>
-
-<h2 id="exercise-1-make-a-note">Exercise 1: Make a note</h2>
-
-<p>So far we’ve made “sounds”, but not exactly “music”</p>
-
-<p>To play a song, we need multiple notes in a sequence, not just one at a time.</p>
-
-<p>If you try executing <code class="language-plaintext highlighter-rouge">Synth()</code> you might find that it doesn’t actually do anything. We have to make a synth, and then give it a note to play:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
-s.note(0)
-</code></pre></div></div>
-<p>Try executing each line of code in succession. You should hear a sound start and then stop—that’s a note! You can play it again by just executing the second line.</p>
-
-<p>So what’s going on here? Why do we need two lines of code? The first line of code creates a <code class="language-plaintext highlighter-rouge">Synth</code> which doesn’t do anything until we ask it to play a note. Since we want to play lots of notes, we are going to keep this particular <code class="language-plaintext highlighter-rouge">Synth</code> around, so we will assign it to a variable called <code class="language-plaintext highlighter-rouge">s</code>.</p>
-
-<p>The line of code <code class="language-plaintext highlighter-rouge">s = Synth()</code> creates a <code class="language-plaintext highlighter-rouge">Synth</code> and then saves it to <code class="language-plaintext highlighter-rouge">s</code> so we can use it multiple times.</p>
-
-<p>The next line of code <code class="language-plaintext highlighter-rouge">s.note(0)</code> asks the Synth represented by <code class="language-plaintext highlighter-rouge">s</code> to play a note. The “dot” in between <code class="language-plaintext highlighter-rouge">s</code> and <code class="language-plaintext highlighter-rouge">note</code> is often used in programming to ask something to perform a certain action.</p>
-
-<p>You might notice there is a particular scale attached to the numbers. You can change the scale to the very familiar C major scale by running these lines of code:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Theory.root = 'c4'
-Theory.mode = 'ionian'
-</code></pre></div></div>
-<p>And then running some more <code class="language-plaintext highlighter-rouge">s.note(0)</code> lines with different numbers.</p>
-
-<p class="info-box">If you want to learn more about Gibber after this tutorial, you can look select some example compositions from the drop down menu next to “gibber” in the top left, or click the “reference” link at the top right to read the documentation.</p>
-
-<p>Let’s try a few experiments:</p>
-
-<ul>
-  <li>Can you play a short tune by setting up some “note” commands, and executing them in order?</li>
-  <li>If you happen to press <code class="language-plaintext highlighter-rouge">Ctrl-.</code> in between executing note commands, what happens?</li>
-</ul>
-
-<h2 id="exercise-2-play-a-tune">Exercise 2: Play a tune</h2>
-
-<p>Let’s play a melody, or a <strong>sequence</strong> of notes:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Synth()
-s.note.seq([0, 1, 2, 3, 4, 5], 1/4)
-</code></pre></div></div>
-<p>Execute these two lines of code and you should be able to hear a sequence of six notes.</p>
-
-<p>Gibber’s synth objects have a built-in sequencer, in this case, we’re sequencing the <code class="language-plaintext highlighter-rouge">note</code> command, so we’ve put a <code class="language-plaintext highlighter-rouge">seq</code> command after that, and then the parameters of our sequence inside the parentheses. The parameters have two parts”</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(
-    [0, 1, 2, 3, 4, 5], // a list of pitches
-    1/4 // a duration - one quarter of a bar (or a quarter note or crotchet).
-)
-</code></pre></div></div>
-<p>You might be able to hear that the sequence is going through the list of pitches over and over again, and that the duration of each note is the same. In fact, you should also be able to see it becuase Gibber highlights your code to show you what’s going on! So far so good!</p>
-
-<p>It might seem strange that the sequence loops over and over instead of playing just once. Gibber is designed to create electronic music which is often based on <em>looping sequences</em>. So the idea that a sequence of notes loops (by default) is build deeply into it.</p>
-
-<p>Let’s try a few sequence experiments:</p>
-
-<ul>
-  <li>
-    <p>try changing the duration from <code class="language-plaintext highlighter-rouge">1/4</code> to <code class="language-plaintext highlighter-rouge">1/8</code> or <code class="language-plaintext highlighter-rouge">1/16</code> and execute the sequence line again. What happens?</p>
-  </li>
-  <li>
-    <p>try replacing the duration with a <em>list</em> of durations (e.g, <code class="language-plaintext highlighter-rouge">[1/4, 1/8]</code>). What happens when the lists of durations and pitches are the different length?</p>
-  </li>
-  <li>
-    <p>can you figure out a sequence to play a tune you know?</p>
-  </li>
-</ul>
-
-<p class="info-box">A few <strong>sequence tips</strong>: you can stop the sequence by executing <code class="language-plaintext highlighter-rouge">s.stop()</code>. Gibber has a built in metronome to keep everything in time (have a look at the animation in the top left corner), if you want a sequence to start right at the start of the next bar, use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to execute it (this works for executing any other command as well)</p>
-
-<p>One more sequence trick before moving on! Let’s try a <em>randomised</em> sequence instead of going through the list of pitches in order by adding <code class="language-plaintext highlighter-rouge">.rnd()</code> to the list:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5].rnd(),1/4)
-</code></pre></div></div>
-<p>We can do this for the duration as well:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq([0, 1, 2, 3, 4, 5], [1/4,1/8].rnd())
-</code></pre></div></div>
-
-<h2 id="exercise-3-groove-with-drums">Exercise 3: Groove with drums</h2>
-
-<p>Let’s try some sequences with some of Gibber’s drum synths. Here’s a kick:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k = Kick()
-k.notef.seq(75, 1/4)
-</code></pre></div></div>
-<p>You might notice that there’s a very simple sequence here—just one pitch (75Hz) and a duration value—kick patterns can be simple!</p>
-
-<p>And some hi-hats:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h = Hat()
-h.trigger.seq(0.4,1/16)
-</code></pre></div></div>
-<p>Note that we are using <code class="language-plaintext highlighter-rouge">trigger.seq</code> with the hats, not <code class="language-plaintext highlighter-rouge">note.seq</code>. “Trigger” is useful when you don’t want to change the pitch, the “0.4” in that code refers to the volume (between 0 and 1).</p>
-
-<p>There’s another (maybe simpler) way of make a drum pattern in Gibber:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d = Drums()
-d.tidal('kd sd kd sd')
-</code></pre></div></div>
-<p>This synth includes four drum sounds: kick: <code class="language-plaintext highlighter-rouge">kd</code>, snare: <code class="language-plaintext highlighter-rouge">sd</code>, closed hat: <code class="language-plaintext highlighter-rouge">ch</code>, and open hat: <code class="language-plaintext highlighter-rouge">oh</code>.</p>
-
-<p>This uses a style of pattern notation called <code class="language-plaintext highlighter-rouge">tidal</code> (after another live coding system, <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal cycles</a>). You can easy make interestign patterns in a tidal sequence. E.g., to repeat a note two times, just add <code class="language-plaintext highlighter-rouge">*2</code> after it. So to do “we will rock you” you write:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('kd sd kd*2 sd')
-</code></pre></div></div>
-<p>To play two sounds together, you put them in square brackets with a comma in between, e.g.: <code class="language-plaintext highlighter-rouge">[kd, ch]</code>. So we could have a complete beat like this:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d.tidal('[kd, ch] ch [sd, ch] ch [kd, ch] ch [sd, ch] oh')
-</code></pre></div></div>
-
-<ul>
-  <li>
-    <p>Try out some different combinations of repeated and simultaneous notes in a drum pattern.</p>
-  </li>
-  <li>
-    <p>Try the <code class="language-plaintext highlighter-rouge">EDrums()</code> kit as well—these work the same way, but sound like a drum machine. You also get two extra sounds: clap <code class="language-plaintext highlighter-rouge">cp</code> and cowbell <code class="language-plaintext highlighter-rouge">cb</code>.</p>
-  </li>
-  <li>
-    <p>Try using <a href="https://tidalcycles.org/docs/patternlib/tutorials/mini_notation/">tidal</a> expressions with other synths, this is a really expressive way to write complicated sequences quickly!</p>
-  </li>
-</ul>
-
-<p class="info-box">The <code class="language-plaintext highlighter-rouge">Drums</code> synth plays back sound files (samples). So it is actually a bit different than the <code class="language-plaintext highlighter-rouge">Kick</code> and <code class="language-plaintext highlighter-rouge">Hat</code> instruments we used above. Have a look in the <a href="https://gibber.cc/playground/docs/index.html#instruments-drums">reference</a> to see how this works.</p>
-
-<h2 id="exercise-4-time-for-techno">Exercise 4: Time for techno</h2>
-
-<p>It’s been said that the minimum you need to make techno is <a href="https://youtu.be/4jCCzpWBsFs?t=160">drums, bass, a lead synth, and freaky noises</a>. So let’s get those things and make some <a href="https://en.wikipedia.org/wiki/Electronic_dance_music">EDM</a>.</p>
-
-<p>We’ve already got drums, and your <code class="language-plaintext highlighter-rouge">Synth</code> sequences from Exercise 2 can be the lead, so let’s get a bass sound:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b = FM('bass')
-b.note.seq(-7, 1/16)
-</code></pre></div></div>
-<p>This code uses the <code class="language-plaintext highlighter-rouge">FM</code> synth, a classic synthesis design and a preset to make a nice bassy sound. Done!</p>
-
-<p>Well, let’s make that bass a <em>little</em> bit interesting. The FM synth has a parameter called <em>index</em> which we can sequence to change it’s tone:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b.index.seq([2,3,4,5,6],1/16)
-</code></pre></div></div>
-<p>Now that sounds cool! Some things to try:</p>
-
-<ul>
-  <li>
-    <p>Set up drums, bass, and lead parts playing a pattern together. Use <code class="language-plaintext highlighter-rouge">Ctrl+Enter</code> to make sure your sequences all line up.</p>
-  </li>
-  <li>
-    <p>Once you have some patterns running, start making small changes to the sequences and executing them again—Now you’re live coding!</p>
-  </li>
-  <li>
-    <p>Try using <code class="language-plaintext highlighter-rouge">Rndi</code> in a note sequence to generate pitches randomly, e.g., <code class="language-plaintext highlighter-rouge">Rndi(0,7)</code> will generate random scale degrees from 0 to 7.</p>
-  </li>
-  <li>
-    <p>Rather than setting the durations manually, try using the <code class="language-plaintext highlighter-rouge">Euclid</code> function. This generates <a href="http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf">Euclidean rhythms</a>—even spacing of pulses in a bar that are algorithmically guaranteed to sound cool! You use this function with two numbers, e.g., <code class="language-plaintext highlighter-rouge">Euclid(3,8)</code> will generate three notes in a bar evenly divided into 8 parts.</p>
-  </li>
-</ul>
-
-<p>Combining the last two ideas, you could set up a sequence like this:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s.note.seq(Rndi(0,7), Euclid(7,16))
-</code></pre></div></div>
-
-<ul>
-  <li>What about the freaky noises? Maybe you could try another synth from the <a href="https://gibber.cc/playground/docs/index.html#instruments">Gibber manual</a>.</li>
-</ul>
-
-<h2 id="heres-one-i-made-earlier">Here’s one I made earlier</h2>
-
-<p>Well, here’s some techno I made a bit earlier. You could try this as a starting point for your own work or just look to see how some other modulations might work! (There’s a few things below that aren’t covered above!)</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clock.bpm = 120
-Theory.root = 'c4'
-Theory.mode = 'aeolian'
-
-s = Synth("bleep").fx.add(Reverb())
-s.note.seq(sine(btof(7.6),7,0), Euclid(5,16))
-
-s.stop()
-
-k = Kick()
-k.notef.seq(70, 1/4)
-
-k.stop()
-
-h = Hat()
-h.trigger.seq(sine(3,0.6,0.05), [1/16,1/8].rnd())
-h.tune.seq(Rndf(0.5,0.7), 1/16)
-
-h.stop()
-
-c = Clave().fx.add(Reverb())
-c.trigger.seq(sine(0.2,.1,.4), Euclid(6,16))
-c.note.seq(sine(5.01,4,5), Euclid(6,16))
-
-c.stop()
-
-cl = Clap().fx.add(Reverb())
-cl.trigger.seq(0.6,1,0,1/4)
-
-b = FM('bass')
-b.note.seq(-7,1/16)
-b.index.seq([2,3,4,5,6],1/16)
-</code></pre></div></div>
-
-<p class="info">One last key command: <code class="language-plaintext highlighter-rouge">Alt-Enter</code> will execute <em>multiple</em> lines of code at once as long as they don’t have empty lines in between. This can be handy for triggering a couple of musical actions to start at the same time.</p>
-
-<h2 id="this-is-just-the-start">This is just the start!</h2>
-
-<p>There’s a lot to learn about Gibber, synthesis, live coding, music tech, and computing! Don’t worry if this seems overwhelming. A good start for today is to make some sounds and try changing them a bit in Gibber!</p>
-
-<p>If you want to learn more about <em>computer music</em> have a look at these resources:</p>
-
-<ul>
-  <li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
-  <li><a href="https://noisecraft.app">NoiseCraft</a></li>
-  <li><a href="https://comp.anu.edu.au/courses/laptop-ensemble/">ANU Latptop Ensemble Page</a></li>
-</ul>
-
-<h2 id="much-later-music-and-code-resources">Much later… music and code resources</h2>
-
-<ol>
-  <li>ANU Sound and Music Computing <a href="https://www.youtube.com/watch?v=2EdxJ_aJRHA&amp;list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY">student performances.</a></li>
-  <li>The <a href="https://github.com/gibber-cc/gibber">gibber playground</a>: Gibber’s user interface, clone this repo to run Gibber locally.</li>
-  <li><a href="https://github.com/charlieroberts/gibber.audio.lib">gibber.audio.lib</a>: Audio components for Gibber, most of this wraps <code class="language-plaintext highlighter-rouge">gibberish</code> (see below), but it does include the <a href="https://github.com/charlieroberts/gibber.audio.lib/tree/main/js/presets">presets</a>.</li>
-  <li><a href="https://github.com/charlieroberts/gibber.graphics.lib">gibber.graphics.lib</a>: Graphics components for Gibber.</li>
-  <li><a href="https://github.com/charlieroberts/gibber.core.lib">gibber.core.lib</a>: A few shared objects and function for Gibber, mostly for sequencing. <code class="language-plaintext highlighter-rouge">euclid</code>, <code class="language-plaintext highlighter-rouge">seq</code>, and <code class="language-plaintext highlighter-rouge">tidal</code> are defined here.</li>
-  <li><a href="https://github.com/gibber-cc/gibberish">gibberish</a>: a “fast JavaScript DSP library”. If you want to know where <code class="language-plaintext highlighter-rouge">Synth</code> or <code class="language-plaintext highlighter-rouge">Sampler</code> are defined, look here (actually look in <code class="language-plaintext highlighter-rouge">gibberish/js/instruments</code>).</li>
-  <li><a href="https://github.com/charlieroberts/genish.js">genish</a>: this is a lower-level DSP library for doing “per-sample audio processing” (inspired by the <code class="language-plaintext highlighter-rouge">gen~</code> object from Max/MSP). To understand why this is cool, look at the <a href="http://www.charlie-roberts.com/genish/tutorial/index.html">genish tutorial</a>.</li>
-</ol>]]></content><author><name></name></author><category term="workshop" /><category term="class" /><category term="gibber" /><category term="computer-music" /><summary type="html"><![CDATA[This is a workshop designed for students who have never done any coding before to start by making some computer music! Here's the description > In this]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Now's the time of year that I get started with a new crop of Honours, Master and project students at the ANU School of Computing and at the UiO Department]]></summary></entry></feed>
