@@ -1,5 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-05T05:19:16+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
-</subtitle><entry><title type="html">Amazing weekend of performances at SoundOut 2026</title><link href="https://charlesmartin.au/blog/2026/02/01/soundout-2026" rel="alternate" type="text/html" title="Amazing weekend of performances at SoundOut 2026" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/01/soundout-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/01/soundout-2026"><![CDATA[<p>I had an amazing weekend performing at <a href="https://dhg.anu.edu.au/event_post/soundout-2026/">SoundOut 2026</a> at the ANU Drill Hall Gallery performing with some incredible Australian and international musicians. SoundOut is described as “one of the gateway exploratory music-art events in Australia” and a gem in Canberra’s yearly music schedule.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-05T23:28:34+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+</subtitle><entry><title type="html">On hosting NIME2025 in Canberra</title><link href="https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra" rel="alternate" type="text/html" title="On hosting NIME2025 in Canberra" /><published>2026-02-05T23:03:00+00:00</published><updated>2026-02-05T23:03:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra"><![CDATA[<p>In June 2025, I hosted the <a href="https://nime.org">New Interfaces for Musical Expression (NIME)</a> conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design.
+In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed. 
+Along the way, I have images from a few conference highlights.</p>
+
+<p>I’ve been a NIMEr since 2010 when I presented my first academic paper and performance at UTS in Sydney. 
+As NIME is my favourite academic community it’s been a career goal to host everybody at my home institution in Canberra.</p>
+
+<p>NIME is a truly interdisciplinary community of artist/scholars who present work as scientific papers, performances, installations and demonstrations. 
+While I’m deeply invested in paper writing as an academic, I find something really special about NIME’s music program. 
+The level of risk and commitment required to present research in performance form gives that knowledge a level of compelling authenticity. 
+At a time when the validity of written research and peer review is threatened, the embodied communication of research through artistic tracks seems all the more relevant.</p>
+
+<p>I’m so proud of what we have achieved in NIME2025. 
+You can find the whole program archived in the conference website <a href="https://nime.org/web_archive/2025/">here</a> and <a href="https://nime-conference.github.io/nime2025-website/">here</a>. Video from every session and concert is available in this <a href="https://www.youtube.com/playlist?list=PLF2XENwaPt72U-yGKI30SxxLNRCR-Tot1">Youtube Playlist</a> and to download here <a href="https://doi.org/10.5281/zenodo.17972009">https://doi.org/10.5281/zenodo.17972009</a>.</p>
+
+<h2 id="attendees">attendees</h2>
+
+<p>Our conference attendance and paper/music acceptances were reported in the <a href="https://nime.org/web_archive/2025/sessions/plenary-town-hall.html">town hall meeting (link)</a>, but here’s a short recap.</p>
+
+<p>With the conference held in Australia, the cost of travel affected potential attendance. We worked really hard to provide a great hybrid setup with synchronous and asynchronous participation for those who wanted to attend without travelling.</p>
+
+<p>In the end we had around 50 remote attendees and 149 in person. I wrote “around” because some folks switched attendance at the last minute due to personal travel arrangements or worries about border crossings.</p>
+
+<h2 id="papers">papers</h2>
+
+<p>NIME typically has around 100 accepted papers (presented either as seminar or poster) and we had 96 this year.
+Running a paper program means running submission, peer review, camera ready submissions, and (finally) programming the conference sessions. 
+Wrangling reviewers, meta-reviewers, and authors to all participate in this process is a huge job and lasts from the paper submission deadline up until the start of the conference. 
+<a href="https://hitmuri.net">Florent Berthaut</a> and <a href="https://pure.itu.dk/en/persons/doga-buse-cavdir/">Doga Cavdir</a> (paper chairs) and <a href="https://www.yichenwang.io">Yichen Wang</a> (poster chair) did an incredible job throughout.</p>
+
+<p>I worked closely with these three committee members to make sure we had the best and clearest guidance for <a href="https://nime.org/web_archive/2025/submissions/">submission</a> and <a href="https://nime.org/web_archive/2025/reviewing/">review</a> yet. 
+Clear instructions are an often overlooked measure for inclusion as some potential great contributors (for whatever reason) may not be confident in  the secret knowledge of how to write and review conference papers. 
+I think our efforts paid off in terms of the quality of reviews that our community wrote and received.</p>
+
+<h2 id="music">music</h2>
+
+<p>This year, we had 44 accepted musical works (performances, installations and remote presentations). 
+The music program is an area where local production knowledge is super important given that feasibility and technical support are crucial for how the music submissions re presented. 
+I felt very lucky to have Sophie Rose, Nicole Carroll and Jos Mulder as music chairs, all exemplary musicians and experienced concert producers. 
+As it turns out, even more help was needed, so Pia van Gelder, Alec Hunter and I jumped in towards the end of the peer review process to help with feasibility and programming of accepted works with Pia and Alec looking particularly at installations and me on concerts. 
+During the conference we had additional help from Chloë Hobbs, Richard Johnson, Sophie Edwards, Sam James, and Adrian Rytir.</p>
+
+<p>I want to single out Sophie and Nicole here for MCing and producing so many of the concerts while also continuing the fine tradition of NIME-themed standup comedy to cover last minute technical issues!</p>
+
+<p>Where paper chairing goes up until the start of the conference, music chairing continues at high intensity up to the actual concerts and installation showings as the artistic works require technical riders, input lists, stage plots, bumping in, rehearsal, installation, testing, (performance/showing) and bumping out.</p>
+
+<p>While the demands here can be quite extreme, the personal rewards are high to see concerts come together. 
+ANU is reasonably unique in having (multiple!) high quality, flexible artistic venues available in the middle of campus. 
+This was a first time for me to use our Drama Theatre and Recording Studio for concerts, and (approximately) the one millionth time I put on works in our Big Band Room (where I had spent a lot of time as an undergrad 20 years ago). 
+Seeing new and exciting NIME artistic research in these spaces was just the best.</p>
+
+<h2 id="workshops-and-extras">workshops and extras</h2>
+
+<p>The workshops program was in the capable hands of Minsik Choi and Alon Ilsar who managed the review process and organisation of workshops expertly. 
+Traditionally, workshops are on the first day of NIME so they set the tone for how our community interacts and set up NIME newbies with conference buddies for the rest of the event. 
+We held our workshops around our computer science, maths, and engineering classrooms in the College of Systems and Society. 
+This was a big moment for Sandy Ma and our team of volunteers who needed to meet all the conference attendees and help them get where they needed to go. 
+It was so great to see new ideas and sub-communities forming at these events, as well as NIMErs trying out new systems and learning new approaches.</p>
+
+<p>I want to shout out to Samantha Bennet of the ANU School of Music who provided an <em>extra</em> event: a live demonstration of the Fairlight CMI. 
+We held this event in the (packed) recording studio (as it turns out NIME has more than a few vintage synth fans). 
+Working with antique hardware is a huge challenge and Sam interspersed a live demo with discussion on the Firelight’s history (connections to ANU!), technology, ideology. 
+Again, this kind of presentation just felt so authentic to our work as music technology researchers. 
+There was a tense moment during the talk when it seemed like loading some samples wasn’t going to happen (with the Fairlight emitting loud and troubling BEEPs) and a cheer went out when at the last moment it worked and came through the speakers.</p>
+
+<p>As NIMErs, a lot of our work revolves around not just what is <em>possible</em> but what is reliably going to work on stage. 
+The workshops and our Fairlight demo foreground the frustrating but rewarding process of <em>making things work together</em> that is part of so much of our research.</p>
+
+<h2 id="hybrid">hybrid</h2>
+
+<p>Running a hybrid conference is certainly tough. 
+I’ve done it twice now (<a href="https://charlesmartin.au/blog/2023/07/20/hybrid-conference">OzCHI 2022</a>, and now NIME 2025) and although the effort is high I felt the impact was worthwhile.</p>
+
+<p>Our <a href="https://charlesmartin.au/blog/2023/07/20/hybrid-conference">hybrid approach</a> prioritised a great experience for folks in the lecture hall and a smooth stream output for viewers. All of our seminar paper presentations were required to be live with Q&amp;A.
+Our remote poster presenters submitted pre-recorded videos which were played on a loop during the poster sessions.</p>
+
+<p>In practice, the live paper sessions were effective in the room and online with genuine engagement between speakers and viewers. 
+The poster sessions were well produced with great videos but perhaps missed the excitement of in-person demonstration.</p>
+
+<p>Much credit should go to the paper chairs (Florent Berthaut and Doga Cavdir) who wrangled the timetable to make sure every remote author had an appropriate time to present. 
+Poster chair Yichen Wang managed the stressful process of bringing together all the pre-recorded poster videos.</p>
+
+<p>During any hybrid session, an expert is needed to make sure that the presenters are cued up, cameras pointing the right way, microphones switched on and streams streaming. 
+Our expert was Albert-Ngabo Niyonsenga who has my eternal gratitude for taking on this hard task not just during the paper sessions but at each of the 7 concerts!</p>
+
+<p>All of this was a lot of effort, but was it worth it? 
+I think so. 
+Many of the remote presenters were graduate students who were counting on conference publications as part of their studies but couldn’t afford the travel. 
+A remote participant saves themselves the high cost of international travel and they save the planet the carbon cost of intercontinental air travel, this means that effective hybrid arrangements are a measure to address inclusion and sustainability.</p>
+
+<h2 id="proceedings">proceedings</h2>
+
+<p>We were the first NIME in a while to publish paper proceedings in advance of the conference<sup id="fnref:paper-proceedings"><a href="#fn:paper-proceedings" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>. 
+After the accepted paper deadline, there is an enormous amount metadata, formatting, and file checking needed to create accurate proceedings entries. 
+Sam Trolland excelled in this role, taking over the publication process from the paper, music, and general chairs and communicating with the NIME Proceedings Officer Stefano Fasciani.</p>
+
+<p>Music proceedings took a little longer, but again, Sam managed the metadata and we had formatting help from Albert-Ngabo Niyonsenga, Yichen Wang, and a bit of last minute effort from me to get things to the finish line. 
+While the music proceedings took some time, the formatting quality has improved and we have sent our process and template improvements forward to the 2026 team.</p>
+
+<p>Proceedings are so important for establishing the credibility of NIME and I think it’s crucial that we commit to timely publication. 
+As an independent scholarly organisation we have the advantage of not having to wait for anybody else’s permission to publish the PDFs but the responsibilities of metadata checking and communicating with the very last uncommunicative author can be overwhelming.</p>
+
+<h2 id="budget">budget</h2>
+
+<p>It’s tough to make ends meet in a conference these days at all scales. Any event outside a <em>very</em> small conference is likely to have costs that need to be met. 
+For NIME, the main fixed costs come from securing a big enough hall for the single track paper events and venues (and technical staff) for the two concerts that need to take place each day.
+This year, we managed to make a profit, largely on the basis of tremendous amounts of volunteer work from the committee and the good engagement from remote participants.</p>
+
+<p>I hope that our example can encourage some of my colleagues that, yes, it is still possible to not lose money on a NIME-shaped conference and to have a (reasonably) good time doing so. 
+The community needs established scholars to volunteer their time and welcome folks to their institutions—but we shouldn’t be also asking them to take a financial loss.</p>
+
+<h2 id="thanks">thanks</h2>
+
+<p>I’ve mentioned them all above, but I want to thank all the committee members for NIME 2025 again:</p>
+
+<ul>
+  <li>General Chairs: Charles Martin, Pia van Gelder</li>
+  <li>Paper/Poster Chairs: Florent Berthaut, Doga Cavdir, Yichen Wang</li>
+  <li>Music Chairs: Sophie Rose, Nicole Carroll, Jos Mulder</li>
+  <li>Workshop Chairs: Minsik Choi, Alon Ilsar</li>
+  <li>Accessibility: Alexander Hunter</li>
+  <li>Hybrid: Albert-Ngabo Niyonsenga</li>
+  <li>Proceedings: Sam Trolland</li>
+  <li>Student Volunteers: Sandy Ma</li>
+  <li>Social Media: Patrick Hartono</li>
+</ul>
+
+<p>I especially want to shout out to the PhD students on the committee and members of my ANU SMCClab who were balancing their volunteer work with studies:</p>
+
+<p>ANU SMCClab (sound, music and creative computing lab):</p>
+
+<ul>
+  <li>Yichen Wang (posters!)</li>
+  <li>Sandy Ma (ambassadors/volunteers!)</li>
+  <li>Minsik Choi (workshops!)</li>
+  <li>Albert Niyonsenga (hybrid STREAMING!)</li>
+</ul>
+
+<p>Monash Sensilab:</p>
+
+<ul>
+  <li>Sam Trolland (proceedings!)</li>
+</ul>
+
+<p>And thank you to all the attendees for showing up and bringing your wonderful research and artistic creativity!</p>
+
+<h2 id="special-moments">special moments</h2>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:paper-proceedings">
+      <p>In ye olden days, the paper proceedings would have been finalised and <em>printed</em> in a <em>book</em> for conference attendees to purchase as part of the registration fee. So I can’t quite say we were the <em>first</em> to be ready in advance of the conference, but definitely the first <em>in a while</em>. <a href="#fnref:paper-proceedings" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[In June 2025, I hosted the New Interfaces for Musical Expression (NIME) conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design. In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed. Along the way, I have images from a few conference highlights.]]></summary></entry><entry><title type="html">Amazing weekend of performances at SoundOut 2026</title><link href="https://charlesmartin.au/blog/2026/02/01/soundout-2026" rel="alternate" type="text/html" title="Amazing weekend of performances at SoundOut 2026" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/01/soundout-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/01/soundout-2026"><![CDATA[<p>I had an amazing weekend performing at <a href="https://dhg.anu.edu.au/event_post/soundout-2026/">SoundOut 2026</a> at the ANU Drill Hall Gallery performing with some incredible Australian and international musicians. SoundOut is described as “one of the gateway exploratory music-art events in Australia” and a gem in Canberra’s yearly music schedule.</p>
 
 <p>I was lucky enough to perform wonderful sets with Jesse Twomey, Yichen Wang, Ben Carey, Jamie Lambert, Peter Bruun, Rhys Butler, Phil Durrant, Laura Altman and Nicci Haynes. It was wonderful to perform with these folks including some I hadn’t met before and some very old friends!</p>
 
@@ -931,129 +1085,4 @@ sudo systemctl restart docker
   <li>HPF: High-pass filter</li>
 </ul>
 
-<p>Music <em>does</em> tend to have a lot of overlapping technical terms. Can you think of any other musical concepts that have multiple names? (Think about how you describe <em>fast</em> in music, and the name for a note that goes for one beat of a bar).</p>]]></content><author><name>Charles Martin</name></author><category term="workshop" /><summary type="html"><![CDATA[In this tutorial you'll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the]]></summary></entry><entry><title type="html">How to get started with research writing</title><link href="https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing" rel="alternate" type="text/html" title="How to get started with research writing" /><published>2021-08-14T10:00:00+00:00</published><updated>2021-08-14T10:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/08/14/how-to-start-research-writing"><![CDATA[<p>Now’s the time of year that I get started with a new crop of Honours, Master and project students at the <a href="https://comp.anu.edu.au">ANU School of Computing</a> and at the <a href="https://ifi.uio.no">UiO Department of Informatics</a>.</p>
-
-<p>All of my CS project students produce a report or thesis for their assessment. This will be the most important part of the assessment for your project and you’ll probably put a lot of effort into writing it.</p>
-
-<p>In this post I’ll set down some of the most important advice I give students when getting stated.</p>
-
-<h2 id="structure">Structure</h2>
-
-<p>Is there a default structure for a thesis or report or should everybody write whatever they want? Although there usually aren’t <strong>rules</strong> about structuring a thesis, it’s usually a good idea to follow the usual <strong>conventions</strong> for academic writing which is often summed up as ILMRaD:</p>
-
-<ol>
-  <li>Introduction</li>
-  <li>Literature Review</li>
-  <li>Methods</li>
-  <li>Results</li>
-  <li>(and) Discussion</li>
-  <li>(and conclusion)</li>
-</ol>
-
-<p>The idea is that you have these words as the titles for the five-six chapters in your thesis. Pat Thomson writes about it more <a href="https://patthomson.net/2012/10/19/is-there-a-format-for-a-thesis/">here</a>.</p>
-
-<p>There are some field-specific chapter titles that you might also use. For instance, in computing where we build a new system and experiment with it, we often use a “System Design” chapter instead of “Methods” and you might discuss your experimental method at the start of the results section. The Conclusion is often it’s own chapter at the end. It’s often a good idea to combine the “discussion” content with Results, or with Conclusion so that the document ends up with five chapters instead of six.</p>
-
-<p>I suggest that most students use this convention. Why? Because it helps examiners to find the information they need quickly and helps you to make sure you provide the information that they typically look for.</p>
-
-<h2 id="formatting">Formatting</h2>
-
-<p>Most computer science and music tech papers and theses are formatted using LaTeX (not Microsoft Word). With LaTeX you edit a plain text document with markup to indicate formatting rather than what-you-see-is-what-you-get environments like Word. LaTeX is particularly good at displaying <strong>maths</strong> and handling <strong>references</strong> (with Bibtex). Overall many academic folks prefer the quality of the output document which seems a lot more polished than Word.</p>
-
-<p>You can get a TeX environment for your system which will include the software to compile e.g., <a href="https://www.tug.org/mactex/">MacTex</a> for macOS, <a href="https://www.tug.org/texlive/">TeXLive</a> for Linux, <a href="https://miktex.org">MiKTeX</a> for windows. TeX environments tend to be big (~3GB) and include lots of software and resources.</p>
-
-<ul>
-  <li>
-    <p>You can also use cloud-based editors like <a href="https://www.overleaf.com/">Overleaf</a>.</p>
-  </li>
-  <li>
-    <p>A similar but slightly more complicated  option is to write in Markdown and use <a href="https://pandoc.org/">Pandoc</a> to convert to a pdf (via LaTeX). Here’s a starting point for a <a href="https://github.com/cpmpercussion/chroma-template/">Markdown to PDF workflow (link)</a>.</p>
-  </li>
-</ul>
-
-<p>I have two LaTeX templates that you might find useful:</p>
-
-<ul>
-  <li><a href="https://gist.github.com/cpmpercussion/a6fb23976f3a8bf5c045f54ab62ee057">LaTeX Short Report Template (link)</a> - this might be good for a 6-12 unit report</li>
-  <li><a href="https://gist.github.com/cpmpercussion/cecdaf4e4ca9feea9a53">LaTeX Thesis Template (link)</a> - the template I used for my PhD thesis, works better for a longer (&gt;50 pages) document.</li>
-</ul>
-
-<p>You can see an example of the thesis template <a href="http://hdl.handle.net/1885/101786">here</a> in my PhD thesis :-)</p>
-
-<h2 id="length">Length</h2>
-
-<p>Length for a thesis or report can vary, but here are some guidelines for the <em>maximum</em> length of a LaTeX-generated PDF file for project courses of different sizes (in ANU course units where 48 units is 1-year full time).</p>
-
-<ul>
-  <li>30 pages for 6-unit projects,</li>
-  <li>50 pages for 12 units,</li>
-  <li>70 pages for 18 units,</li>
-  <li>90 pages for 24 units</li>
-</ul>
-
-<p>(BTW these are borrowed from our Engineering project courses! thx folks!)</p>
-
-<p>LaTeX generated theses tend to be a bit longer than a Word document because they add a bit more white space etc. Computing and engineering works often have lots of figures and images so the length can look extremely long for some people. In fact, many students end up blowing these page budgets and have to reduce the size of their work afterwards.</p>
-
-<p>The page limit here is counting the <em>significant content</em> of a thesis, that is the numbered pages starting from the first page of the introduction to the last page of the conclusion. Tables of contents, appendices and references aren’t counted.</p>
-
-<p>The <em>minimum</em> requirements could vary, but I would say that I expect a document of two-thirds the given length here (so ~60 pages for a 24-unit honours course).</p>
-
-<p>Another way to think about the <em>minimum</em> requirements is this: a “chapter” in an honours thesis is typically about 10 pages minimum, so to have a thesis with 5 chapters, you will end up with about 50-60 pages. Of course, some chapters may be shorter (e.g., conclusions) but some might be longer (methods/system design) to make up for it. An honours thesis consisting of chapters of only 2-3 pages each is not likely to be acceptable.</p>
-
-<h2 id="references">References</h2>
-
-<p>For a thesis I suggest following <a href="https://apastyle.apa.org/">APA Style</a> for citations and references. In particular I think author-date format (e.g., Martin, 2014) is more useful for a thesis rather than numbered references [e.g., 16]. Why? Well when reading a big document, after a while I’m likely to remember what “Martin, 2014” is, but I’ll <em>never</em> remember what “16” refers to.</p>
-
-<p>You should use a reference manager (e.g., <a href="https://bibdesk.sourceforge.io/">Bibdesk</a> or <a href="https://www.jabref.org/">JabRef</a>) to keep track of papers you read and keep references in <a href="http://www.bibtex.org/">BibTeX</a> format to integrate into your report</p>
-
-<h2 id="introduction-and-conclusion">Introduction and Conclusion</h2>
-
-<p>Here’s some specific advice for your intro and conclusion.</p>
-
-<h2 id="introduction">Introduction:</h2>
-
-<p>Your introduction needs to explain:</p>
-
-<ul>
-  <li>What is your problem?</li>
-  <li>Why is it interesting?</li>
-  <li>What have you done to solve it?  (What are your aims/research questions?)</li>
-  <li>What were the results?</li>
-</ul>
-
-<p>Basically a mini version of the whole thesis!</p>
-
-<p>Need to focus on the problem, and the “why” of your project.</p>
-
-<p>Important to set up the aims and research questions of the project clearly and to briefly state the main results so the reader knows what to expect and so that you can address them in more detail in the conclusion.</p>
-
-<h2 id="discussion-versus-results">Discussion versus Results</h2>
-
-<p>It’s sometimes hard to figure out why a thesis template has a “results” section <strong>and</strong> a “discussion” section. After all, don’t we use the “results” chapter to <em>discuss</em> the results? One way to understand this is that the results section is typically used for a fairly strict exposition of the results of different experiments or measurements. Each kind of experiment might have some specific findings or interpretation which are explained right after the results. The <em>discussion</em> section is where the researcher takes all the findings from different experiments together and distills broad contributions or outcomes from their work. They might find ways that the outcome of one finding explains another or make links with other research or a broader social context for their work.</p>
-
-<h2 id="conclusion">Conclusion:</h2>
-
-<p>Similar to your introduction!</p>
-
-<p>This time, focus on what you accomplished, addressing the aims/RQs with the findings.</p>
-
-<p>Also need to put your thesis into context a bit — this is where “future work” fits, but also writing about how your work could be applied and what it MEANS in the world outside of this project.</p>
-
-<h2 id="both-parts">Both parts</h2>
-
-<ul>
-  <li>Both intro and conclusion need to have the basic information of your thesis</li>
-  <li>Intro is more focussed on setting up the problem, the why, and you aims</li>
-  <li>Conclusion more focussed on address the aims using evidence from your findings.</li>
-  <li>Conclusion also puts work into context.</li>
-</ul>
-
-<h2 id="some-online-resources">Some online resources:</h2>
-
-<ul>
-  <li>Abstract: <a href="https://patthomson.net/2013/12/11/writing-the-thesis-abstract/">https://patthomson.net/2013/12/11/writing-the-thesis-abstract/</a></li>
-  <li>Introduction: <a href="https://patthomson.net/2014/06/02/the-thesis-introduction/">https://patthomson.net/2014/06/02/the-thesis-introduction/</a></li>
-  <li>Conclusion: <a href="https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/">https://patthomson.net/2012/12/19/conclusion-mise-en-place-christmas-present-six/</a></li>
-  <li>More: <a href="https://thesiswhisperer.com">https://thesiswhisperer.com</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Now's the time of year that I get started with a new crop of Honours, Master and project students at the ANU School of Computing and at the UiO Department]]></summary></entry></feed>
+<p>Music <em>does</em> tend to have a lot of overlapping technical terms. Can you think of any other musical concepts that have multiple names? (Think about how you describe <em>fast</em> in music, and the name for a note that goes for one beat of a bar).</p>]]></content><author><name>Charles Martin</name></author><category term="workshop" /><summary type="html"><![CDATA[In this tutorial you'll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the]]></summary></entry></feed>
