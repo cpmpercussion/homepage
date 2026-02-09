@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-09T04:43:32+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-09T04:47:09+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">On hosting NIME2025 in Canberra</title><link href="https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra" rel="alternate" type="text/html" title="On hosting NIME2025 in Canberra" /><published>2026-02-05T23:03:00+00:00</published><updated>2026-02-05T23:03:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/05/on-hosting-nime2025-in-canberra"><![CDATA[<p>In June 2025, I hosted the <a href="https://nime.org">New Interfaces for Musical Expression (NIME)</a> conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design.
 In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed. 
 Along the way, I have images from a few conference highlights.</p>
@@ -14,6 +14,10 @@ At a time when the validity of written research and peer review is threatened, t
 <p>I’m so proud of what we have achieved in NIME2025. 
 You can find the whole program archived in the conference website <a href="https://nime.org/web_archive/2025/">here</a> and <a href="https://nime-conference.github.io/nime2025-website/">here</a>. Video from every session and concert is available in this <a href="https://www.youtube.com/playlist?list=PLF2XENwaPt72U-yGKI30SxxLNRCR-Tot1">Youtube Playlist</a> and to download here <a href="https://doi.org/10.5281/zenodo.17972009">https://doi.org/10.5281/zenodo.17972009</a>.</p>
 
+<p><img src="/assets/blog/2025/NIME2025-selected-04.jpg" alt="Pia van Gelder (left) and Charles Martin (right) making welcoming remarks at the NIME2025 opening event." /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-07.jpg" alt="Welcome to Country from Senior Ngunnawal Elder Aunty Violet Sheridan" /></p>
+
 <h2 id="attendees">attendees</h2>
 
 <p>Our conference attendance and paper/music acceptances were reported in the <a href="https://nime.org/web_archive/2025/sessions/plenary-town-hall.html">town hall meeting (link)</a>, but here’s a short recap.</p>
@@ -21,6 +25,10 @@ You can find the whole program archived in the conference website <a href="https
 <p>With the conference held in Australia, the cost of travel affected potential attendance. We worked really hard to provide a great hybrid setup with synchronous and asynchronous participation for those who wanted to attend without travelling.</p>
 
 <p>In the end we had around 50 remote attendees and 149 in person. I wrote “around” because some folks switched attendance at the last minute due to personal travel arrangements or worries about border crossings.</p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-02.jpg" alt="Badges and stickers make the conference real!" /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-06.jpg" alt="Adam Schmidt and Sandy Ma discussing at the opening event." /></p>
 
 <h2 id="papers">papers</h2>
 
@@ -32,6 +40,12 @@ Wrangling reviewers, meta-reviewers, and authors to all participate in this proc
 <p>I worked closely with these three committee members to make sure we had the best and clearest guidance for <a href="https://nime.org/web_archive/2025/submissions/">submission</a> and <a href="https://nime.org/web_archive/2025/reviewing/">review</a> yet. 
 Clear instructions are an often overlooked measure for inclusion as some potential great contributors (for whatever reason) may not be confident in  the secret knowledge of how to write and review conference papers. 
 I think our efforts paid off in terms of the quality of reviews that our community wrote and received.</p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-10.jpg" alt="NIMErs ready for knowledge at the first paper session." /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-11.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-18.jpg" alt="Sandy Ma presenting &quot;Touching Wires&quot;, their first research publication!" /></p>
 
 <h2 id="music">music</h2>
 
@@ -50,6 +64,12 @@ ANU is reasonably unique in having (multiple!) high quality, flexible artistic v
 This was a first time for me to use our Drama Theatre and Recording Studio for concerts, and (approximately) the one millionth time I put on works in our Big Band Room (where I had spent a lot of time as an undergrad 20 years ago). 
 Seeing new and exciting NIME artistic research in these spaces was just the best.</p>
 
+<p><img src="/assets/blog/2025/NIME2025-selected-05.jpg" alt="Toby Gifford performing {riversynth}" /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-08.jpg" alt="Joseph Burgess performing Carpet Entanglement" /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-09.jpg" alt="Performance of &quot;Playing the Sound Image&quot; at the Opening Concert" /></p>
+
 <h2 id="workshops-and-extras">workshops and extras</h2>
 
 <p>The workshops program was in the capable hands of Minsik Choi and Alon Ilsar who managed the review process and organisation of workshops expertly. 
@@ -66,6 +86,12 @@ There was a tense moment during the talk when it seemed like loading some sample
 
 <p>As NIMErs, a lot of our work revolves around not just what is <em>possible</em> but what is reliably going to work on stage. 
 The workshops and our Fairlight demo foreground the frustrating but rewarding process of <em>making things work together</em> that is part of so much of our research.</p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-01.jpg" alt="Workshop attendees doing some listening in the Hanna Neumann building." /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-19.jpg" alt="Samantha Bennett introducing the (working!) Fairlight CMI in the ANU School of Music Recording Studio" /></p>
+
+<p><img src="/assets/blog/2025/NIME2025-selected-20.jpg" alt="NIMErs gather around the oscilloscope for an exciting demonstration at the Poster 2 session." /></p>
 
 <h2 id="hybrid">hybrid</h2>
 
@@ -147,27 +173,7 @@ The community needs established scholars to volunteer their time and welcome fol
 
 <h2 id="special-moments">special moments</h2>
 
-<p><img src="/assets/blog/2025/NIME2025-selected-01.jpg" alt="Workshop attendees doing some listening in the Hanna Neumann building." /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-02.jpg" alt="Badges and stickers make the conference real!" /></p>
-
 <p><img src="/assets/blog/2025/NIME2025-selected-03.jpg" alt="Dancer (left) and Risako Shibata (right) preparing for performance." /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-04.jpg" alt="Pia van Gelder (left) and Charles Martin (right) making welcoming remarks at the NIME2025 opening event." /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-05.jpg" alt="Toby Gifford performing {riversynth}" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-06.jpg" alt="Adam Schmidt and Sandy Ma discussing at the opening event." /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-07.jpg" alt="Welcome to Country from Senior Ngunnawal Elder Aunty Violet Sheridan" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-08.jpg" alt="Joseph Burgess performing Carpet Entanglement" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-09.jpg" alt="Performance of &quot;Playing the Sound Image&quot; at the Opening Concert" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-10.jpg" alt="NIMErs ready for knowledge at the first paper session." /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-11.jpg" alt="" /></p>
 
 <p><img src="/assets/blog/2025/NIME2025-selected-12.jpg" alt="Cheryl Hui demonstrating &quot;Harmonix Series&quot; to Darlene Castro at Posters 1." /></p>
 
@@ -180,12 +186,6 @@ The community needs established scholars to volunteer their time and welcome fol
 <p><img src="/assets/blog/2025/NIME2025-selected-16.jpg" alt="Mick Harding, Jordan Lacey and Toby Gifford performing &quot;Sonic Crucible Entanglements&quot; (zoomed)" /></p>
 
 <p><img src="/assets/blog/2025/NIME2025-selected-17.jpg" alt="Mick Harding, Jordan Lacey and Toby Gifford performing &quot;Sonic Crucible Entanglements&quot; (wide)" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-18.jpg" alt="Sandy Ma presenting &quot;Touching Wires&quot;, their first research publication!" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-19.jpg" alt="Samantha Bennett introducing the (working!) Fairlight CMI in the ANU School of Music Recording Studio" /></p>
-
-<p><img src="/assets/blog/2025/NIME2025-selected-20.jpg" alt="NIMErs gather around the oscilloscope for an exciting demonstration at the Poster 2 session." /></p>
 
 <p><img src="/assets/blog/2025/NIME2025-selected-21.jpg" alt="" /></p>
 
