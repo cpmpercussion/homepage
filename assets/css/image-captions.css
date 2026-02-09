@@ -1,0 +1,15 @@
+figure.post-image {
+  display: block;
+  text-align: center;
+  margin: 1.25rem 0;
+}
+figure.post-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+figure.post-image .post-image-caption {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
