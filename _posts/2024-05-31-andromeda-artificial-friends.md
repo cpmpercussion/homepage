@@ -30,32 +30,31 @@ It was an important moment for our lab to put together a whole concert of music,
 
 ## Images
 
-![]({% link assets/blog/2024/2024-05-29-concert-1.jpg %})
+![Alec Hunter setting up his intelligent Ableton Live set]({% link assets/blog/2024/2024-05-29-concert-1.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-2.jpg %})
+![Charles Martin performing at the intelligent Arturia Microfreak]({% link assets/blog/2024/2024-05-29-concert-2.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-3.jpg %})
+![Charles Martin and Alec Hunter performing as "Andromeda is Coming"]({% link assets/blog/2024/2024-05-29-concert-3.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-4.jpg %})
+![Charles Martin performing at the nanoKONTROL]({% link assets/blog/2024/2024-05-29-concert-4.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-5.jpg %})
+![Sandy Ma performing using a Hololens and her Pure Data drawing system in Unspoken]({% link assets/blog/2024/2024-05-29-concert-5.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-6.jpg %})
+![Charles Martin performing]({% link assets/blog/2024/2024-05-29-concert-6.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-7.jpg %})
+![Yichen Wang performing using Hololens and intelligent synths in "Off the Shelf"]({% link assets/blog/2024/2024-05-29-concert-7.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-8.jpg %})
+![Charles Martin and Yichen Wang performing together]({% link assets/blog/2024/2024-05-29-concert-8.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-9.jpg %})
+![Charles Martin and Yichen Wang performing together, Yichen performing with Cubing Sound on the Meta Quest headset.]({% link assets/blog/2024/2024-05-29-concert-9.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-10.jpg %})
+![Streaming setup for the performance on the ATEM HDMI switcher.]({% link assets/blog/2024/2024-05-29-concert-10.jpg %})
 
-![]({% link assets/blog/2024/2024-05-29-concert-11.jpg %})
+![Sandy Ma warming up for "Touching Wires"]({% link assets/blog/2024/2024-05-29-concert-11.jpg %})
 
 ## Concert Details
 
-![]({% link assets/blog/2024/2024-aicaif-concert.jpg %})
-
+![Andromeda is Coming and Artificially Intelligent Friends poster (design: Sandy Ma)]({% link assets/blog/2024/2024-aicaif-concert.jpg %})
 
 A 60-minute performance of new music for new AI musical instruments featuring Alec Hunter, Charles Martin, Yichen Wang and Sandy Ma.
 

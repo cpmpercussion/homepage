@@ -151,43 +151,82 @@ And thank you to all the attendees for showing up and bringing your wonderful re
 
 ## special moments
 
-![]({% link  assets/blog/2025/NIME2025-selected-01.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-02.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-03.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-04.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-05.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-06.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-07.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-08.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-09.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-10.jpg %})
+![Workshop attendees doing some listening in the Hanna Neumann building.]({% link  assets/blog/2025/NIME2025-selected-01.jpg %})
+
+![Badges and stickers make the conference real!]({% link  assets/blog/2025/NIME2025-selected-02.jpg %})
+
+![Dancer (left) and Risako Shibata (right) preparing for performance.]({% link  assets/blog/2025/NIME2025-selected-03.jpg %})
+
+![Pia van Gelder (left) and Charles Martin (right) making welcoming remarks at the NIME2025 opening event.]({% link  assets/blog/2025/NIME2025-selected-04.jpg %})
+
+![Toby Gifford performing \{riversynth\}]({% link  assets/blog/2025/NIME2025-selected-05.jpg %})
+
+![Adam Schmidt and Sandy Ma discussing at the opening event.]({% link  assets/blog/2025/NIME2025-selected-06.jpg %})
+
+![Welcome to Country from Senior Ngunnawal Elder Aunty Violet Sheridan]({% link  assets/blog/2025/NIME2025-selected-07.jpg %})
+
+![Joseph Burgess performing Carpet Entanglement]({% link  assets/blog/2025/NIME2025-selected-08.jpg %})
+
+![Performance of "Playing the Sound Image" at the Opening Concert]({% link  assets/blog/2025/NIME2025-selected-09.jpg %})
+
+![NIMErs ready for knowledge at the first paper session.]({% link  assets/blog/2025/NIME2025-selected-10.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-11.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-12.jpg %})
+
+![Cheryl Hui demonstrating "Harmonix Series" to Darlene Castro at Posters 1.]({% link  assets/blog/2025/NIME2025-selected-12.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-13.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-14.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-15.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-16.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-17.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-18.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-19.jpg %})
-![]({% link  assets/blog/2025/NIME2025-selected-20.jpg %})
+
+![Jocelyn Ho, Margaret Schedel, and Sofy Yuditskaya performing "Housework Commons: Textile Rhetorics II"]({% link  assets/blog/2025/NIME2025-selected-14.jpg %})
+
+![Jocelyn Ho performing "My sunset is your sunrise, yet we touch" with Dirk Stromberg and Michał Seta remote.]({% link  assets/blog/2025/NIME2025-selected-15.jpg %})
+
+![Mick Harding, Jordan Lacey and Toby Gifford performing "Sonic Crucible Entanglements" (zoomed)]({% link  assets/blog/2025/NIME2025-selected-16.jpg %})
+
+![Mick Harding, Jordan Lacey and Toby Gifford performing "Sonic Crucible Entanglements" (wide)]({% link  assets/blog/2025/NIME2025-selected-17.jpg %})
+
+![Sandy Ma presenting "Touching Wires", their first research publication!]({% link  assets/blog/2025/NIME2025-selected-18.jpg %})
+
+![Samantha Bennett introducing the (working!) Fairlight CMI in the ANU School of Music Recording Studio]({% link  assets/blog/2025/NIME2025-selected-19.jpg %})
+
+![NIMErs gather around the oscilloscope for an exciting demonstration at the Poster 2 session.]({% link  assets/blog/2025/NIME2025-selected-20.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-21.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-22.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-23.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-24.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-25.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-26.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-27.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-28.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-29.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-30.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-31.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-32.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-33.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-34.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-35.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-36.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-37.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-38.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-39.jpg %})
+
 ![]({% link  assets/blog/2025/NIME2025-selected-40.jpg %})
