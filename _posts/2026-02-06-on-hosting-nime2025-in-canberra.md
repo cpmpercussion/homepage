@@ -6,18 +6,18 @@ date: 2026-02-06 10:03 +1100
 
 
 In June 2025, I hosted the [New Interfaces for Musical Expression (NIME)](https://nime.org) conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design.
-In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed. 
+In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed.
 Along the way, I have images from a few conference highlights.
 
-I’ve been a NIMEr since 2010 when I presented my first academic paper and performance at UTS in Sydney. 
-As NIME is my favourite academic community it’s been a career goal to host everybody at my home institution in Canberra.
+I've been a NIMEr since 2010 when I presented my first academic paper and performance at UTS in Sydney.
+As NIME is my favourite academic community it's been a career goal to host everybody at my home institution in Canberra.
 
-NIME is a truly interdisciplinary community of artist/scholars who present work as scientific papers, performances, installations and demonstrations. 
-While I’m deeply invested in paper writing as an academic, I find something really special about NIME’s music program. 
-The level of risk and commitment required to present research in performance form gives that knowledge a level of compelling authenticity. 
+NIME is a truly interdisciplinary community of artist/scholars who present work as scientific papers, performances, installations and demonstrations.
+While I'm deeply invested in paper writing as an academic, I find something really special about NIME's music program.
+The level of risk and commitment required to present research in performance form gives that knowledge a level of compelling authenticity.
 At a time when the validity of written research and peer review is threatened, the embodied communication of research through artistic tracks seems all the more relevant.
 
-I’m so proud of what we have achieved in NIME2025. 
+I'm so proud of what we have achieved in NIME2025. 
 You can find the whole program archived in the conference website [here](https://nime.org/web_archive/2025/) and [here](https://nime-conference.github.io/nime2025-website/). Video from every session and concert is available in this [Youtube Playlist](https://www.youtube.com/playlist?list=PLF2XENwaPt72U-yGKI30SxxLNRCR-Tot1) and to download here <https://doi.org/10.5281/zenodo.17972009>.
 
 ![Pia van Gelder (left) and Charles Martin (right) making welcoming remarks at the NIME2025 opening event.]({% link  assets/blog/2025/NIME2025-selected-04.jpg %})
@@ -26,7 +26,7 @@ You can find the whole program archived in the conference website [here](https:/
 
 ## attendees
 
-Our conference attendance and paper/music acceptances were reported in the [town hall meeting (link)](https://nime.org/web_archive/2025/sessions/plenary-town-hall.html), but here’s a short recap.
+Our conference attendance and paper/music acceptances were reported in the [town hall meeting (link)](https://nime.org/web_archive/2025/sessions/plenary-town-hall.html), but here's a short recap.
 
 With the conference held in Australia, the cost of travel affected potential attendance. We worked really hard to provide a great hybrid setup with synchronous and asynchronous participation for those who wanted to attend without travelling.
 
@@ -87,9 +87,9 @@ It was so great to see new ideas and sub-communities forming at these events, as
 
 I want to shout out to Samantha Bennet of the ANU School of Music who provided an _extra_ event: a live demonstration of the Fairlight CMI. 
 We held this event in the (packed) recording studio (as it turns out NIME has more than a few vintage synth fans). 
-Working with antique hardware is a huge challenge and Sam interspersed a live demo with discussion on the Firelight’s history (connections to ANU!), technology, ideology. 
+Working with antique hardware is a huge challenge and Sam interspersed a live demo with discussion on the Firelight's history (connections to ANU!), technology, ideology. 
 Again, this kind of presentation just felt so authentic to our work as music technology researchers. 
-There was a tense moment during the talk when it seemed like loading some samples wasn’t going to happen (with the Fairlight emitting loud and troubling BEEPs) and a cheer went out when at the last moment it worked and came through the speakers. 
+There was a tense moment during the talk when it seemed like loading some samples wasn't going to happen (with the Fairlight emitting loud and troubling BEEPs) and a cheer went out when at the last moment it worked and came through the speakers. 
 
 As NIMErs, a lot of our work revolves around not just what is _possible_ but what is reliably going to work on stage. 
 The workshops and our Fairlight demo foreground the frustrating but rewarding process of _making things work together_ that is part of so much of our research.
@@ -103,7 +103,7 @@ The workshops and our Fairlight demo foreground the frustrating but rewarding pr
 ## hybrid
 
 Running a hybrid conference is certainly tough. 
-I’ve done it twice now ([OzCHI 2022](https://charlesmartin.au/blog/2023/07/20/hybrid-conference), and now NIME 2025) and although the effort is high I felt the impact was worthwhile.
+I've done it twice now ([OzCHI 2022](https://charlesmartin.au/blog/2023/07/20/hybrid-conference), and now NIME 2025) and although the effort is high I felt the impact was worthwhile.
 
 Our [hybrid approach](https://charlesmartin.au/blog/2023/07/20/hybrid-conference) prioritised a great experience for folks in the lecture hall and a smooth stream output for viewers. All of our seminar paper presentations were required to be live with Q&A.
 Our remote poster presenters submitted pre-recorded videos which were played on a loop during the poster sessions.
@@ -119,7 +119,7 @@ Our expert was Albert-Ngabo Niyonsenga who has my eternal gratitude for taking o
 
 All of this was a lot of effort, but was it worth it? 
 I think so. 
-Many of the remote presenters were graduate students who were counting on conference publications as part of their studies but couldn’t afford the travel. 
+Many of the remote presenters were graduate students who were counting on conference publications as part of their studies but couldn't afford the travel. 
 A remote participant saves themselves the high cost of international travel and they save the planet the carbon cost of intercontinental air travel, this means that effective hybrid arrangements are a measure to address inclusion and sustainability. 
 
 ## proceedings
@@ -133,8 +133,8 @@ Sam Trolland excelled in this role, taking over the publication process from the
 Music proceedings took a little longer, but again, Sam managed the metadata and we had formatting help from Albert-Ngabo Niyonsenga, Yichen Wang, and a bit of last minute effort from me to get things to the finish line. 
 While the music proceedings took some time, the formatting quality has improved and we have sent our process and template improvements forward to the 2026 team.
 
-Proceedings are so important for establishing the credibility of NIME and I think it’s crucial that we commit to timely publication. 
-As an independent scholarly organisation we have the advantage of not having to wait for anybody else’s permission to publish the PDFs but the responsibilities of metadata checking and communicating with the very last uncommunicative author can be overwhelming.
+Proceedings are so important for establishing the credibility of NIME and I think it's crucial that we commit to timely publication. 
+As an independent scholarly organisation we have the advantage of not having to wait for anybody else's permission to publish the PDFs but the responsibilities of metadata checking and communicating with the very last uncommunicative author can be overwhelming.
 
 ## budget
 
@@ -147,7 +147,7 @@ The community needs established scholars to volunteer their time and welcome fol
 
 ## thanks
 
-I’ve mentioned them all above, but I want to thank all the committee members for NIME 2025 again:
+I've mentioned them all above, but I want to thank all the committee members for NIME 2025 again:
 
 - General Chairs: Charles Martin, Pia van Gelder
 - Paper/Poster Chairs: Florent Berthaut, Doga Cavdir, Yichen Wang
