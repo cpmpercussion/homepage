@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-02-27T05:53:49+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-03-02T03:51:18+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">Training Tutors in the College of Systems and Society, Semester 1, 2026</title><link href="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026" rel="alternate" type="text/html" title="Training Tutors in the College of Systems and Society, Semester 1, 2026" /><published>2026-02-27T00:42:00+00:00</published><updated>2026-02-27T00:42:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026"><![CDATA[<p>I’ve just wrapped up five training sessions for around 130 tutors (small group teachers) across the College of Systems and Society: two full-day sessions for new starters and three two-hour refresher sessions for returning tutors (and there’s one extra session to come for late-comers). It’s an exhausting but rewarding process. I’ve now been reflecting on our tutor’s needs and how we can activate their knowledge and experience to provide a better student experience across our College.</p>
 
 <p>For the curious, my training materials are available online and updated every semester: <a href="https://cpmpercussion.github.io/soco-tutor-training/">https://cpmpercussion.github.io/soco-tutor-training/</a></p>
@@ -325,7 +325,34 @@ The community needs established scholars to volunteer their time and welcome fol
 
 <p><img src="/assets/blog/2025/2025-smcclablive-1-10.jpg" alt="" /></p>
 
-<p><img src="/assets/blog/2025/2025-smcclablive-1-11.jpg" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[A wrapup of events at our SMCClablive #1 in early November 2025 with live coder Charlie Roberts (USA) and researchers from the ANU SMCClab]]></summary></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
+<p><img src="/assets/blog/2025/2025-smcclablive-1-11.jpg" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[A wrapup of events at our SMCClablive #1 in early November 2025 with live coder Charlie Roberts (USA) and researchers from the ANU SMCClab]]></summary></entry><entry><title type="html">Dream Tent: a sonic reconstruction of a 19th-century mind therapy device</title><link href="https://charlesmartin.au/blog/2025/09/17/dream-tent" rel="alternate" type="text/html" title="Dream Tent: a sonic reconstruction of a 19th-century mind therapy device" /><published>2025-09-17T00:00:00+00:00</published><updated>2025-09-17T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2025/09/17/dream-tent</id><content type="html" xml:base="https://charlesmartin.au/blog/2025/09/17/dream-tent"><![CDATA[<p>Recently, <a href="https://martynjolly.com">Martyn Jolly</a> and I debuted our <em>Dream Tent</em> at the ANU Drill Hall Gallery as part of the <a href="https://dhg.anu.edu.au/event_post/rgb-film-and-re-enactment-events/">RGB+: Film and Re-enactment Events</a>. This was a curated evening of abstract colour film screening and live re-enactment within the <em>Light Source</em> exhibition.</p>
+
+<p><img src="/assets/blog/2025/2025-dream-tent-5.jpg" alt="The Dream Tent in operation, during the installation the sound is diffused quietly via small loudspeakers under the couch, inviting visitors to enter and experience full immersion with the side panel closed." /></p>
+
+<h2 id="the-original-dream-tent">The original Dream Tent</h2>
+
+<p>The <em>Dream Tent</em> is a reconstruction of an apparatus devised by the American neurologist James Leonard Corning in 1899. As Martyn wrote, Corning theorised that the brain was <a href="https://martynjolly.com/2025/10/22/charles-martin-martyn-jolly/">“susceptible to chromatic and sonic vibrations in the drowsy state before sleep,”</a> and built a device to explore this. Patients would recline wearing a padded helmet connected via tubing to a phonograph, and watch a motor-driven chromatrope project slowly rotating patterns of colour onto a screen before them. Corning reported treating conditions including “Matutinal Depression”, “Inertia”, “Insomnia”, “Morbid Dreams”, “Imperative Conceptions” and “Nervous Irritability”.</p>
+
+<p>Martyn has written a longer <a href="https://martynjolly.com/2025/10/22/charles-martin-martyn-jolly/">account of the project</a> covering the history, reconstruction, and experience of building it together. In our version, the chromatrope is a faithful reconstruction using authentic magic lantern technology. Visitors remove their shoes, recline on a low couch, put on headphones, and spend a few minutes immersed in colour and sound.</p>
+
+<p><img src="/assets/blog/2025/2025-dream-tent-2.jpg" alt="Martyn Jolly demonstrating use of the Dream Tent but without the tent fully zipped up." /></p>
+
+<h2 id="designing-a-soundtrack-for-an-installation">Designing a soundtrack for an installation</h2>
+
+<p>Previous work with Martyn have been tightly scripted magic lantern performances with live music, narration, and carefully sequenced slides. As an installation, the <em>Dream Tent</em> was a different challenge with visitors arriving when they like, spending as long as they like. The soundtrack needed to run continuously, evolve slowly, and never feel like it had started or ended.</p>
+
+<p>The acoustic dimension of Corning’s original was the wax cylinder phonograph, a physically rotating mechanical sound source. I wanted to honour that quality but rather than composing a fixed piece, I built a generative system that uses interlocking slow-moving cycles (I imagine them as big “wheels”) to drive layers of synthesis and musical events.
+Each wheel is a low-frequency oscillator (LFO) operating on a different timescale, gradually modulating amplitude, pitch, and timbre across multiple synthesiser layers. The effect is something that breathes and shifts over long periods without ever arriving at a clear beginning or end; an acoustic parallel to the chromatrope that endlessly turns via it’s electric motor.</p>
+
+<p><img src="/assets/blog/2025/2025-dream-tent-3.jpg" alt="The Bela Mini, mixer, and Magic Lantern." /></p>
+
+<h2 id="bela-and-pure-data">Bela and Pure Data</h2>
+
+<p>The soundtrack runs on a <a href="https://bela.io">Bela Mini</a>, a small, low-power embedded audio computer designed for real-time audio work. Bela boots directly into the audio patch with no operating system overhead, which means it can run for hours without attention and automatically restart in case of incidental interference (e.g., being uplugged momentarily) that might trouble a laptop.</p>
+
+<p>The patch itself is written in <a href="https://puredata.info">Pure Data</a> and lives in the <a href="https://github.com/cpmpercussion/dream-tent-soundtrack">dream-tent-soundtrack repository</a>. The synthesis draws on FM synthesis and detuned supersaw layers, tuned to mixolydian scales that suit the archaic and dreamlike quality we were after. Delay and reverb blur the edges of events into one another. The LFO wheels govern which events fire and when layering a gentle randomness on top of the slow cycles, so no two visitors hear quite the same texture.</p>
+
+<p><img src="/assets/blog/2025/2025-dream-tent-4.jpg" alt="Charles Martin (me!) and Martyn Jolly in front of the Dream Tent at Drill Hall Gallery, Canberra" /></p>]]></content><author><name></name></author><category term="performance" /><category term="installation" /><category term="bela" /><category term="pure-data" /><category term="magic-lantern" /><summary type="html"><![CDATA[Collaborating with Martyn Jolly to reconstruct James Leonard Corning's 1899 Dream Tent at the ANU Drill Hall Gallery, with a generative soundtrack built on Bela and Pure Data.]]></summary></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
 
 <p>Our concert took place on Wednesday 29 May 2024 at the Big Band Room, ANU School of Music. The whole concert can be viewed <a href="https://youtu.be/86yEZquWsPs">here</a> and below.</p>
 
@@ -736,113 +763,4 @@ works! It <em>is</em> possible to do a very low budget community-run journal and
 produce pretty good looking PDF output articles. Having tuned the latex
 template a bit, the production part is now very quick for a normal article. The
 main hassles with running the journal at this point are the normal human ones
-of interacting with reviewers and authors!</p>]]></content><author><name></name></author><category term="note" /><category term="publishing," /><category term="journal," /><category term="computer" /><category term="music" /><summary type="html"><![CDATA[I've just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it's a]]></summary></entry><entry><title type="html">Setting up Tensorflow with Docker</title><link href="https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker" rel="alternate" type="text/html" title="Setting up Tensorflow with Docker" /><published>2021-12-08T00:00:00+00:00</published><updated>2021-12-08T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker</id><content type="html" xml:base="https://charlesmartin.au/blog/2021/12/08/TensorFlowDocker"><![CDATA[<p>For the last five years, I’ve seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated musical machine learning research with TensorFlow and Keras.</p>
-
-<p>Each version of TensorFlow requires <a href="https://www.tensorflow.org/install/source#gpu"><em>specific</em> versions of CUDA and cuDNN</a>. The install instructions involve either installing very <a href="https://www.tensorflow.org/install/gpu#install_cuda_with_apt">strange apt packages</a> or finding and downloading binaries from NVIDIA. The whole things seems to take a day to get right. You know it’s bad when you have three or four conflicting gists and Medium articles open just to try to install a library.</p>
-
-<p>While it’s possible to sit on one version for a long time, for some reason or another one part seems to need to be upgraded and then whole system is broken.</p>
-
-<p>Well I say: <em>no more</em>. The <em>suggested</em> way to run TensorFlow is with a <a href="https://www.tensorflow.org/install/docker">docker container</a> and that’s what I’m going to do going forward.</p>
-
-<p>Mostly for my own benefit I’m going to document the setup for going from a new Ubuntu system to being able to run one command to get open a Jupyter notebook server with GPU-connected TensorFlow running. I promise it’s faster than installing CUDA.</p>
-
-<h2 id="install-nvidia-drivers">Install Nvidia Drivers</h2>
-
-<ol>
-  <li>Install Ubuntu</li>
-  <li>make sure you have a (physical) Nvidia GPU in your computer</li>
-  <li>make sure you have installed the Nvidia GPU drivers. This is pretty much the default these days, but here’s the one-liner to install proprietary drivers:</li>
-</ol>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ubuntu-drivers autoinstall
-</code></pre></div></div>
-
-<p>Once you have Nvidia drivers installed, you should be able to run the following command to list your installed GPUs:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvidia-smi
-</code></pre></div></div>
-
-<p>If the table shows your GPU(s) and driver version, then you’re ready.</p>
-
-<p>While we’re here, consider installing <a href="https://github.com/Syllo/nvtop"><code class="language-plaintext highlighter-rouge">nvtop</code></a>, a convenient command line tool for tracking GPU utilisation:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install nvtop
-</code></pre></div></div>
-
-<h2 id="install-docker">Install <code class="language-plaintext highlighter-rouge">docker</code></h2>
-
-<p>Installing Docker on Ubuntu is another one of those too-many-gist-and-medium-article questions.</p>
-
-<p>The <a href="https://stackoverflow.com/questions/45023363/what-is-docker-io-in-relation-to-docker-ce-and-docker-ee">current wisdom (2021)</a> seems to be to install <code class="language-plaintext highlighter-rouge">docker.io</code>, which is a <a href="https://www.collabora.com/news-and-blog/blog/2018/07/04/docker-io-debian-package-back-to-life/">Debian-provided package</a> in contrast to those provided by <a href="https://docs.docker.com/engine/install/ubuntu/">Docker Inc</a>.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install docker.io
-</code></pre></div></div>
-
-<p><strong>Issues:</strong> Running docker containers without <code class="language-plaintext highlighter-rouge">sudo</code> is a perennial issue in Ubuntu. Here’s some <a href="https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue">context and solutions (link)</a>.</p>
-
-<p>One fix I had to run was: <code class="language-plaintext highlighter-rouge">sudo chmod 666 /var/run/docker.sock</code></p>
-
-<p>You can test your docker install by running:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run hello-world
-</code></pre></div></div>
-
-<h2 id="install-nvidia-docker">Install <code class="language-plaintext highlighter-rouge">nvidia-docker</code></h2>
-
-<p>We need Nvidia’s <a href="https://github.com/NVIDIA/nvidia-docker">container toolkit (link)</a> to run GPU-accelerated docker containers. The install instructions are <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">here</a>, but the short summary is:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
-   &amp;&amp; curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
-   &amp;&amp; curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
-sudo apt update
-sudo apt install -y nvidia-docker2
-sudo systemctl restart docker
-</code></pre></div></div>
-
-<p>(This is the only weird extra package repository required for this setup.. phew.)</p>
-
-<p>You can test <code class="language-plaintext highlighter-rouge">nvidia-docker</code> by running a CUDA-enabled container and running <code class="language-plaintext highlighter-rouge">nvidia-smi</code> within it, e.g.:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
-</code></pre></div></div>
-
-<h2 id="trying-out-a-tensorflow-container">Trying out a Tensorflow Container</h2>
-
-<p>Ok–we’re ready to do some <strong>deep learning</strong> (really!)</p>
-
-<p>Copying an example from <a href="https://www.tensorflow.org/install/docker">TensorFlow’s documentation</a>, you can test your install with:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run --gpus all -it --rm tensorflow/tensorflow:latest-gpu \
-   python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
-</code></pre></div></div>
-
-<p>This should take quite a while to get started as it has to download the fairly large <code class="language-plaintext highlighter-rouge">tensorflow:latest-gpu</code> container, but that only has to be done once.</p>
-
-<!-- ## A few example commands -->
-
-<h2 id="setting-up-a-command-you-can-remember">Setting up a command you can remember</h2>
-
-<p>All these arguments are going to be hard to remember. I’ve set up an aliased command in my <code class="language-plaintext highlighter-rouge">.bashrc</code> file to start up a Jupyter Notebook server that can see my <code class="language-plaintext highlighter-rouge">~/src</code> directory. This is the workflow I use for <em>most</em> of my ML research with my workstation.</p>
-
-<p>Add this to <code class="language-plaintext highlighter-rouge">~/.bashrc</code>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias tfjupyter="docker run --gpus all -it -p 8888:8888 -v ~/src:/tf/notebooks tensorflow/tensorflow:latest-gpu-jupyter"
-</code></pre></div></div>
-
-<p>So now to start up a Jupyter Notebook with tensorflow and GPUs ready to go I just type <code class="language-plaintext highlighter-rouge">tfjupyter</code>.</p>
-
-<h3 id="packages">Packages</h3>
-
-<p>One downside here is that the docker container’s Python environment may not have every library that you want. For now, I’m planning to install extra packages inside my notebooks, e.g., something like:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!pip install keras-mdn-layer
-</code></pre></div></div>
-
-<h2 id="future-todos">Future TODOs</h2>
-
-<ul>
-  <li>get this working with Jupyter Lab.</li>
-  <li>test out <code class="language-plaintext highlighter-rouge">docker.io</code> working without <code class="language-plaintext highlighter-rouge">sudo</code></li>
-  <li>test out how this works with multiple users</li>
-  <li>figure out a similar workflow for research using PyTorch (seems like its <a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">similar to the above</a>)</li>
-</ul>]]></content><author><name></name></author><category term="note" /><category term="machine-learning," /><category term="research" /><summary type="html"><![CDATA[For the last five years, I've seemed to have a more-or-less annual fight with my Linux workstations over installing CUDA to keep on doing GPU-accelerated]]></summary></entry></feed>
+of interacting with reviewers and authors!</p>]]></content><author><name></name></author><category term="note" /><category term="publishing," /><category term="journal," /><category term="computer" /><category term="music" /><summary type="html"><![CDATA[I've just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it's a]]></summary></entry></feed>
