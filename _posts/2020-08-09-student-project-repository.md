@@ -5,6 +5,7 @@ date:   2020-08-09 23:33:59 +1000
 type: lab
 summary: Turning your code into a presentable artifact.
 description: "So you're a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the software as well as a"
+tags: teaching, research, git, python, software-engineering, students
 ---
 
 So you're a student working on an individual project this semester (how exciting!) and your supervisor has asked you to submit the _software_ as well as a _report_. So how are you going to present this great work? An email? A zipfile? A USB key?
