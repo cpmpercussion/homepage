@@ -1,6 +1,8 @@
 ---
 layout: page
 title: All Posts
+description: "Complete archive of all blog posts by Charles Martin on music, technology, research, and performance."
+tags: [blog, posts, archive]
 ---
 
 {% for post in site.posts %}    

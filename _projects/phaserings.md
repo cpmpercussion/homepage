@@ -6,7 +6,9 @@ summary: PhaseRings is a musical instrument for performing expressive music with
 image: /assets/projects/phaserings/phaserings.png
 image_alt: User interface of the PhaseRings app.
 started: 2014
-ended: 
+ended:
+description: "PhaseRings is a musical instrument app for iOS for performing expressive music with touch gestures and generative composition."
+tags: [PhaseRings, iOS app, musical instrument, touchscreen, generative music]
 ---
 
 ![PhaseRings App in action]({% link assets/projects/phaserings/phaserings.png %})

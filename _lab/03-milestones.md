@@ -4,6 +4,8 @@ title: PhD milestone expectations
 permalink: /lab/milestones/
 toc: true
 summary: A guide to completing research degree milestones in the SMCClab.
+description: "Guide to completing PhD research degree milestones in the Sound, Music and Creative Computing Lab at ANU."
+tags: [PhD, milestones, research degree, ANU, SMCClab]
 ---
 
 Here's some information for PhD/MPhil students in the Sound, Music and Creative Computing lab for what is expected for degree milestones.

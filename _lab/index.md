@@ -3,6 +3,9 @@ layout: page
 title: "SMCCLAB: Sound, Music and Creative Computing Lab"
 permalink: /lab/
 hidden: true
+description: "The Sound, Music and Creative Computing Lab at ANU develops new intelligent musical instruments that sense, understand, and respond to music."
+tags: [SMCCLAB, research lab, intelligent instruments, machine learning, ANU]
+image: /assets/images/performing/metatone-hands-header.jpg
 ---
 
 The Sound, Music and Creative Computing Lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.

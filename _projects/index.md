@@ -4,6 +4,9 @@ title: Projects
 hidden: true
 started: 2008
 permalink: /projects/
+description: "Projects and ensembles in music technology, intelligent musical interfaces, and computational intelligence by Charles Martin."
+tags: [projects, music technology, new interfaces, research, ensembles]
+image: /assets/images/charlesmartin-background.jpg
 ---
 
 I'm a performer and researcher in music technology, this page is about projects

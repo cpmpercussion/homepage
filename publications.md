@@ -2,6 +2,8 @@
 layout: page
 title: Publications
 permalink: /publications/
+description: "Refereed journal articles, conference papers, and book chapters by Charles Martin on computer music, machine learning, and musical interaction."
+tags: [publications, research, computer music, machine learning, human-computer interaction]
 ---
 
 This page shows refereed journal articles, conference articles, and book chapters.

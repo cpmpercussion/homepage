@@ -2,6 +2,8 @@
 layout: page
 title: Music
 permalink: /music/
+description: "Charles Martin performs as a percussionist and electronic musician with free improvisation groups and contemporary percussion ensembles."
+tags: [music, percussion, electronic music, improvisation, ensemble]
 ---
 
 Charles is active as a percussionist and electronic musician. He performs with free improvisation groups such as _Andromeda is Coming_ as well as contemporary percussion groups such as _Ensemble Metatone_ and _Ensemble Evolution_.

@@ -5,6 +5,8 @@ started: 2010
 summary: Compositions for percussion and computer with a focus on ensembles.
 image: /assets/compositions/gesture-study-1.jpg
 image_alt: An ensemble of percussionists performing Gesture Study 1 on iPads
+description: "Compositions for percussion and computer by Charles Martin, including iPad ensemble works, advanced solos, and educational music."
+tags: [compositions, percussion, iPad ensemble, computer music, ensemble]
 ---
 
 Charles composes music for percussion and computer with a focus on ensembles. He writes music from young beginner to professional level. These compositions are available as digital downloads including a recording of each piece.

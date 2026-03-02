@@ -3,6 +3,8 @@ layout: page
 title: Lab alumni and graduated students
 permalink: /lab/grads/
 summary: Links to research from lab alumni.
+description: "Research output and profiles of PhD, master and honours students who have graduated from the SMCClab at ANU."
+tags: [alumni, students, research, SMCClab, graduates]
 ---
 
 Here's some links to research produced by my PhD, Master and Honours students.

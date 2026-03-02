@@ -3,6 +3,9 @@ layout: page
 title: Join the SMCClab
 permalink: /students/
 summary: How to learn about sound, music and creative computing in the lab.
+description: "Join the SMCClab as a PhD student, honours student, or project student at ANU School of Computing for research in sound, music, and creative computing."
+tags: [PhD, students, research, ANU, SMCClab, teaching]
+image: /assets/images/performing/metatone-header.jpg
 ---
 
 ![Teaching header, a metatone performance with friends]({{site.baseurl}}/assets/images/performing/metatone-header.jpg)

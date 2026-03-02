@@ -2,10 +2,12 @@
 layout: project
 title: Interactive Music Prediction System (IMPS)
 started: 2019
-ended: 
+ended:
 summary: IMPS is a system for recording, learning, and generating musical control data in live performances.
 image: /assets/projects/imps/IMPS_connection_example.png
 image_alt: Connection diagram for the IMPS system from interface through IMPS, to a synthesiser
+description: "IMPS is a system for predicting musical control data in live performance using mixture density recurrent neural networks."
+tags: [IMPS, machine learning, neural network, interactive music, open source]
 ---
 
 IMPS is a system for predicting musical control data in live performance. It uses a mixture density recurrent neural network (MDRNN) to observe control inputs over multiple time steps, predicting the next value of each step, and the time that expects the next value to occur. It provides an input and output interface over OSC and can work with musical interfaces with any number of real valued inputs (we've tried from 1-8). Several interactive paradigms are supported for call-response improvisation, as well as independent operation, and "filtering" of the performer's input. Whenever you use IMPS, your input data is logged to build up a training corpus and a script is provided to train new versions of your model.

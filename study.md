@@ -2,6 +2,9 @@
 layout: page
 title: AI Musical Instrument Experiment
 permalink: /study/
+description: "Participate in a study of an AI-enhanced musical instrument at ANU, exploring machine learning in live musical performance."
+tags: [research, machine learning, musical instrument, ANU, study]
+image: /assets/images/research/empi-v3.jpg
 ---
 
 ### We need your help to study an AI-enhanced musical instrument!

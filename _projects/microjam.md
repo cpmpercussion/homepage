@@ -2,10 +2,12 @@
 layout: project
 title: Microjam
 summary: MicroJam was a mobile app for sharing tiny touch-screen performances.
-image: /assets/projects/microjam/microjam-outdoor-music-making.jpg 
+image: /assets/projects/microjam/microjam-outdoor-music-making.jpg
 image_alt: Creating music outdoors with microjam on iPhones
 started: 2016
 ended: 2022
+description: "MicroJam was a mobile app for sharing tiny touch-screen performances with social music-making features and AI-generated accompaniment."
+tags: [microjam, mobile app, music, touchscreen, iOS, machine learning]
 ---
 
 
