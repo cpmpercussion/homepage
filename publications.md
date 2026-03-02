@@ -6,11 +6,9 @@ description: "Refereed journal articles, conference papers, and book chapters by
 tags: [publications, research, computer music, machine learning, human-computer interaction]
 ---
 
-This page shows refereed journal articles, conference articles, and book chapters.
+This page shows refereed journal articles, conference articles, and book chapters. My [Google Scholar page](https://scholar.google.com/citations?user=mTlH4G8AAAAJ) is usually slightly more up to date than this list.
 
 {% bibliography --query @*[keywords ~= refereed] %}
-
-
 
 {% comment %}
 
