@@ -4,6 +4,8 @@ layout: page
 title: Honours, master, and project expectations
 toc: true
 summary: Expectations for Honours, master, and project students
+description: "Expectations and guidelines for Honours, master and project students in the SMCClab at ANU School of Computing."
+tags: [honours, master, project, research, SMCClab, ANU]
 ---
 
 This page is about setting expectations for Honours, master, and project
