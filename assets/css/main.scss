@@ -1,5 +1,6 @@
 ---
 ---
+@use "sass:color";
 // Inter Font
 // @import url('https://rsms.me/inter/inter.css');
 // @import url('https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.0/inter.css');
@@ -170,7 +171,7 @@ $ui-4: #DC702F;
 
 // swiped from ANU neotheme, but adjusted to use custom colours, not ANU colormap.
 @function get-custom-color-level($color, $level: 0) {
-	@return mix(#ffffff, $color, $level * 22%);
+	@return color.mix(#ffffff, $color, $level * 22%);
 }
 
 // colors follow the anu style guide: http://webpublishing.anu.edu.au/web-style-guide/style-sampler.php
