@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Creative Computing on the BBC micro:bit with Bare-Metal ARM Assembly | Charles Martin</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Creative Computing on the BBC micro:bit with Bare-Metal ARM Assembly" />
+<meta property="og:locale" content="en_AU" />
+<meta name="description" content="Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022." />
+<meta property="og:description" content="Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022." />
+<link rel="canonical" href="https://charlesmartin.au/blog/2025/08/01/baremetal-arm-microbit-teaching" />
+<meta property="og:url" content="https://charlesmartin.au/blog/2025/08/01/baremetal-arm-microbit-teaching" />
+<meta property="og:site_name" content="Charles Martin" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-01T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Creative Computing on the BBC micro:bit with Bare-Metal ARM Assembly" />
+<meta name="twitter:site" content="@cpmpercussion" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-01T00:00:00+00:00","datePublished":"2025-08-01T00:00:00+00:00","description":"Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022.","headline":"Creative Computing on the BBC micro:bit with Bare-Metal ARM Assembly","mainEntityOfPage":{"@type":"WebPage","@id":"https://charlesmartin.au/blog/2025/08/01/baremetal-arm-microbit-teaching"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg"}},"url":"https://charlesmartin.au/blog/2025/08/01/baremetal-arm-microbit-teaching"}</script>
+<!-- End Jekyll SEO tag -->
+
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<link rel="stylesheet" type="text/css" href='/assets/css/image-captions.css'>
+<!-- Bootstrap CSS -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> <!-- bootstrap v5.3.0 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="Logo">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://charlesmartin.bandcamp.com">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://smcclab.github.io">smcclab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link" aria-label="Mastodon profile">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link" aria-label="Pixelfed profile">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link" aria-label="GitHub profile">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link" aria-label="Bandcamp profile">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.com/citations?user=mTlH4G8AAAAJ" class="nav-link" aria-label="Google Scholar profile">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://dblp.org/pid/208/2413.html" class="nav-link" aria-label="dblp profile">
+		      <i class="ai ai-dblp-square"></i></a>
+</li>
+      <li class="nav-item">
+        <a href="https://orcid.org/my-orcid?orcid=0000-0001-5683-7529" class="nav-link" aria-label="ORCID profile">
+          <i class="ai ai-orcid-square"></i></a>
+</li>
+      <li class="nav-item">
+	<button class="btn" id="btnSwitch" aria-label="Toggle color mode">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewbox="0 0 16 16">
+  	  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"></path>
+	  </svg>
+	</button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- unlisted links -->
+<a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+<script>
+
+/*!
+ * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ */
+const storedTheme = localStorage.getItem('theme')
+
+  const getPreferredTheme = () => {
+    if (storedTheme) {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+
+  const setTheme = function (theme) {
+    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-bs-theme', 'dark')
+    } else {
+      document.documentElement.setAttribute('data-bs-theme', theme)
+    }
+  }
+
+  setTheme(getPreferredTheme())
+
+  // Super simple dark mode: Carol Skelly on StackOverflow
+  // https://stackoverflow.com/a/63087710
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        setTheme('light')
+    }
+    else {
+	setTheme('dark')
+    }
+})
+</script>
+
+
+    
+
+    
+
+    <div class="container rounded bg-body">	   
+      <main class="my-2 p-4" aria-label="Content">
+        <article>
+<div class="my-4">
+  <h1 class="">Creative Computing on the BBC micro:bit with Bare-Metal ARM Assembly</h1>
+  <h6 class="font-italic">01 Aug '25</h6>
+</div>
+
+
+
+
+<div class="my-4 p-2">
+  <p>In September 2022, I gave a talk at the University of Oslo’s Robotics and Intelligent Systems lab about my experience teaching <a href="https://comp.anu.edu.au/courses/comp2300/">COMP2300: Computer Organisation and Program Execution</a> at ANU. The core idea: teach second-year computing by writing creative ARM assembly programs and running them directly on real hardware. No operating system, no runtime, no guard rails. The course content is archived at <a href="https://cpmpercussion.github.io/twenty-three-hundred/">twenty-three-hundred</a>.</p>
+
+<p>The goals were:</p>
+
+<ul>
+  <li>To build and cement mental models for computer organisation and code execution</li>
+  <li>To give students the transformational experience of running code right on the metal</li>
+</ul>
+
+<p>tl;dr: Can students do it? <strong>Yes!</strong></p>
+
+<p>Here’s the talk:</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/mZrlSOVUIYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+
+<p>In this post, I’ll write out the slides and expand a bit on this experience. Looking back, this was transformational for <em>me</em> as well, as I had committed a new way of running this class and the assessments and weekly live-coded lecture demos were all new. The end point of the talk was a high-point of the course: live-coding a MIDI output on the microbit and sending MIDI messages to a synthesiser live in the lecture. It seems basic, but going from <code class="language-plaintext highlighter-rouge">add r0, #1</code> to MIDI in 12 weeks felt like an incredible journey.</p>
+
+<h2 id="the-hardware">The Hardware</h2>
+
+<p>The course uses the <a href="https://microbit.org/">BBC micro:bit v2</a>, a small ARM Cortex-M4 board designed for education. It has a 5x5 LED grid, buttons, a speaker, microphone, accelerometer, and a Bluetooth radio. Plenty of peripherals to make programming tangible and creative.</p>
+
+<h2 id="bare-metal-arm-assembly">Bare-Metal ARM Assembly</h2>
+
+<p>We start from scratch. The minimal bare-metal program looks like this, built and flashed with <a href="https://github.com/cpmpercussion/microbit-v2-baremetal/blob/main/nRF52833.ld">this <code class="language-plaintext highlighter-rouge">.ld</code> linker script</a> and <a href="https://github.com/cpmpercussion/microbit-v2-baremetal/blob/main/Makefile">this <code class="language-plaintext highlighter-rouge">Makefile</code></a>:</p>
+
+<div class="language-armasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">.</span><span class="nl">thumb</span>
+<span class="err">.</span><span class="nl">syntax</span> <span class="nb">unified</span>
+    <span class="err">.</span><span class="nb">global</span> <span class="nv">__reset</span>
+
+<span class="err">.</span><span class="nl">section</span> <span class="err">.</span><span class="nb">vectors</span>
+<span class="err">.</span><span class="nl">word</span> <span class="nf">__stack</span>
+<span class="err">.</span><span class="nl">word</span> <span class="nf">__reset</span>
+
+<span class="err">.</span><span class="nl">text</span>
+<span class="err">.</span><span class="nl">thumb_func</span>
+<span class="nl">__reset</span><span class="err">:</span>
+    <span class="nb">mov</span> <span class="nv">r0</span><span class="o">,</span> <span class="o">#</span><span class="mi">0</span>
+<span class="nl">loop</span><span class="err">:</span>
+    <span class="nb">add</span> <span class="nv">r0</span><span class="o">,</span> <span class="o">#</span><span class="mi">1</span>
+    <span class="nb">nop</span>
+    <span class="nb">b</span> <span class="nv">loop</span>
+</code></pre></div></div>
+
+<p>This sets up the vector table, defines a reset handler, and loops forever — that’s it. No C library, no startup code beyond what students write themselves. To keep the course accessible, a short <a href="https://github.com/cpmpercussion/microbit-vscode-simple/blob/master/lib/startup.S"><code class="language-plaintext highlighter-rouge">startup.S</code> program</a> handles loading static <code class="language-plaintext highlighter-rouge">.data</code> into RAM and setting up the interrupt vector, so students can write their <code class="language-plaintext highlighter-rouge">main</code> function in a slightly more familiar pattern:</p>
+
+<div class="language-armasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">.</span><span class="nl">syntax</span> <span class="nb">unified</span>
+<span class="err">.</span><span class="nl">global</span> <span class="nb">main</span>
+
+<span class="err">.</span><span class="nl">type</span> <span class="nb">main</span><span class="err">,</span> <span class="o">%</span><span class="nv">function</span>
+<span class="nl">main</span><span class="err">:</span>
+  <span class="nb">nop</span>
+  <span class="nb">ldr</span> <span class="nv">r0</span><span class="o">,</span> <span class="o">=</span><span class="nv">hello</span>
+
+  <span class="nb">b</span> <span class="nv">main</span>
+<span class="err">.</span><span class="nl">size</span> <span class="nb">main</span><span class="err">,</span> <span class="mf">.</span><span class="o">-</span><span class="nv">main</span>
+
+<span class="err">.</span><span class="nl">data</span>
+<span class="nl">hello</span><span class="err">:</span>
+<span class="err">.</span><span class="nl">word</span> <span class="err">0</span><span class="nb">x424242</span>
+</code></pre></div></div>
+
+<p>Throughout the course, we got to know this snippet very well. It was the starting point of every lecture demo, lab and assignment for the students.</p>
+
+<h2 id="toolchain">Toolchain</h2>
+
+<p>The toolchain is built around Visual Studio Code:</p>
+
+<ul>
+  <li>
+<a href="https://marketplace.visualstudio.com/items?itemName=comp2300-anu.comp2300-2021-extension">COMP2300 VS Code extension</a>
+    <ul>
+      <li><a href="https://github.com/Marus/cortex-debug">Cortex Debug Extension</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="https://github.com/cpmpercussion/comp2300-toolchain">COMP2300 toolchain</a>
+    <ul>
+      <li><a href="https://xpack.github.io/openocd/">xPack OpenOCD</a></li>
+      <li>
+<a href="https://xpack.github.io/arm-none-eabi-gcc/">xPack GNU Arm Embedded GCC</a> (<code class="language-plaintext highlighter-rouge">arm-none-eabi</code> — gcc, gdb, ld, objcopy, as)</li>
+      <li>
+<a href="https://github.com/cpmpercussion/comp2300-discoserver">COMP2300 discoserver</a>: ARM Cortex-M4 CPU emulator (by Benjamin Grey), so students can test code without hardware</li>
+      <li><code class="language-plaintext highlighter-rouge">make</code></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/cpmpercussion/microbit-vscode-simple">baremetal micro:bit VS Code template</a></li>
+  <li><a href="https://github.com/cpmpercussion/microbit-v2-baremetal">baremetal example</a></li>
+</ul>
+
+<p>Part of making this course inclusive and welcoming for students at all levels was providing a completely effortless toolchain with great debugging tools available.
+I made sure that students on all OSs would be able to install all the tools they needed from within VS Code. 
+I need to thank my tutor team for incredible work here. Harrison Shoebridge and Brent Schuetze developed the VS Code extension and Benjamin Grey (incredibly) put together an ARM CPU emulator, so students could test basic code without a microbit plugged in.</p>
+
+<h2 id="the-course">The Course</h2>
+
+<p>COMP2300/COMP6300 is a second-year computing course, obligatory for all undergraduate computing majors, the ANU equivalent of “intro to computer systems.” Since 2020 it has enrolled over 400 students per semester, with 325 passing in 2022. 
+The course has moved on a bit with more emphasis on digital logic since I last taught it in 2022 but my version of the curriculum is archived at <a href="https://cpmpercussion.github.io/twenty-three-hundred/">twenty-three-hundred</a>.</p>
+
+<p>The curriculum covers:</p>
+
+<ol>
+  <li>Digital logic, CPU architecture</li>
+  <li>Machine instructions, ALU operations</li>
+  <li>Memory and memory instructions</li>
+  <li>Conditional execution and control flow</li>
+  <li>Functions</li>
+  <li>Toolchains and compilers</li>
+  <li>Data structures in assembly</li>
+  <li>Interrupts, context switches, asynchronism</li>
+  <li>Networks</li>
+  <li>Operating systems</li>
+  <li>CPU architectures</li>
+</ol>
+
+<p>Labs are the core of the course. They start with <code class="language-plaintext highlighter-rouge">mov r0, #1</code> and end with students implementing a context switch between two programs — their own miniature OS.</p>
+
+<h2 id="the-assignments">The Assignments</h2>
+
+<p>Two open-ended creative programming assignments give students latitude to make something genuinely their own.</p>
+
+<p><strong>Assignment 1: <a href="https://comp.anu.edu.au/courses/comp2300/assessments/light-show/">Lightshow</a></strong> — use the LED matrix to create a light show that changes over time. The speaker is allowed; input peripherals are not. This scopes the task while still leaving enormous creative space. Students need ALU operations, memory operations, conditional branching, and <a href="https://comp.anu.edu.au/courses/comp2300/labs/04-blinky/">control structures (if/then/while/for in assembly)</a>. Functions, shifting operations, and reading the nrf52833 hardware manual help a lot.</p>
+
+<p><strong>Assignment 2: <a href="https://comp.anu.edu.au/courses/comp2300/assessments/digital-pet/">Digital Pet</a></strong> — build an interactive digital pet displayed on the LED matrix. Requirements: a data structure in memory to store the pet’s state, and <a href="https://comp.anu.edu.au/courses/comp2300/labs/08-interrupts/">interrupts</a> to detect button presses. Sound and any available peripheral are fair game. This introduces functions, calling conventions, structs and arrays in assembly, SysTick timers, and much deeper engagement with the hardware manual.</p>
+
+<h2 id="going-deeper-io-and-networks">Going Deeper: IO and Networks</h2>
+
+<p>Later in the semester, students explore how computers communicate. Starting from the concept of a voltage on a wire, they construct basic UART (RS-232/serial) communication from first principles and then using the nrf52833’s on-chip peripherals.</p>
+
+<p><img src="/assets/blog/2025/2025-baremetal-arm-serial.jpg" alt="Binary serial data on a wire"></p>
+
+<p>This extends naturally to MIDI — a serial protocol at the heart of electronic music since 1983.</p>
+
+<p><img src="/assets/blog/2025/2025-baremetal-arm-midi.png" alt="A MIDI message broken down byte-by-byte"></p>
+
+<h2 id="serial-experiments-charles">Serial Experiments Charles</h2>
+
+<p>The climax of the course, and of this talk, is a live lecture where I coded MIDI output in ARM assembly on a micro:bit in real time. The idea was to show students that you can tell stories in assembly code, that low-level programming can be expressive, even musical. Here’s a photo from that lecture:</p>
+
+<p><img src="/assets/blog/2025/2025-baremetal-arm-serial-experiments-charles.jpg" alt="Live-coding MIDI in ARM assembly on a BBC micro:bit in a lecture"></p>
+
+<p>And here’s the demo — MIDI output produced entirely from bare-metal ARM assembly, live:</p>
+
+<video controls="" loop="" style="width:100%; max-width:720px;">
+  <source src="/assets/blog/2025/2025-baremetal-arm-midi-demo.mp4" type="video/mp4"></source>
+</video>
+
+<p>No operating system. No MIDI library. Just ARM assembly instructions, a carefully crafted timing loop, sending bits to GPIO pins, and a micro:bit plugged into a synthesiser. The point is to demonstrate that this is <em>possible</em>, and doing it live in a lecture makes students see assembly in a completely different way. This scaffold the ideas of interrupts, timing, and real-world consequences of small deviation in the code (because of course it goes wrong when I make adjustments).</p>
+
+<h2 id="youros-10">YourOS 1.0</h2>
+
+<p>The most challenging lab in the course, originally written by the inimitable <a href="https://benswift.me">Ben Swift</a>, asks students to build a handcrafted context switch and use it to run two programs concurrently: one LED blinking on one side of the display, another on the other. Students define their own process table in memory:</p>
+
+<div class="language-armasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">.</span><span class="nl">data</span>
+<span class="nl">process_table</span><span class="err">:</span>
+<span class="err">.</span><span class="nl">word</span> <span class="err">0</span>            <span class="no">@</span> <span class="nv">index</span> <span class="nv">of</span> <span class="nv">currently</span><span class="o">-</span><span class="nv">operating</span> <span class="nv">process</span>
+<span class="err">.</span><span class="nl">word</span> <span class="err">0</span><span class="nb">x20008000</span>   <span class="no">@</span> <span class="nv">stack</span> <span class="nv">pointer</span> <span class="mi">1</span>
+<span class="err">.</span><span class="nl">word</span> <span class="err">0</span><span class="nb">x20007000</span>   <span class="no">@</span> <span class="nv">stack</span> <span class="nv">pointer</span> <span class="mi">2</span>
+</code></pre></div></div>
+
+<p>Getting this to work requires understanding the exception model, stack management, privilege levels, and scheduling. The same concepts behind every real operating system.</p>
+
+<h2 id="reflections">Reflections</h2>
+
+<p><strong>What can go wrong? Surprisingly little.</strong> We explicitly <em>don’t</em> tell students to be careful in this course. Across the whole cohort of ~400 students in 2022, there were only 1–2 instances of students physically breaking a micro:bit, and 2 instances of bricking one. The one real pitfall turned out to be toggling a GPIO pin as fast as possible (a one-cycle loop) can disrupt the USB connection. The micro:bit developers provided special firmware to handle this case.</p>
+
+<p><strong>What can go right?</strong></p>
+
+<p>Assignments students actually <em>want</em> to do. Student feedback at the end of the course was so positive and affirming:</p>
+
+<blockquote>
+  <p>“This is the best course I’ve ever taken.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“I thought assembly would be boring, but it was really fun!”</p>
+</blockquote>
+
+<blockquote>
+  <p>“I feel like I learnt a lot from taking this course.”</p>
+</blockquote>
+
+<p>There’s something genuinely exciting about running your own code on the metal with no abstractions hiding what’s happening. The live MIDI demo captures this impact. It’s one thing to tell students that assembly is powerful and another to show them music coming out of a chip programmed by hand.</p>
+
+<p>Students come in feeling intimidated and bored by assembly end up building creative, expressive programs in a language most people never touch. They come out feeling like original 1970s hackers or 90s demoscene programmers with creative achievements in their portfolios and a deeper understanding of how computers really work.</p>
+
+<p>The <a href="https://cpmpercussion.github.io/creative-prediction/presentations/2022-baremetal-arm/">presentation slides</a> from the Oslo talk are available online.</p>
+
+</div> 
+</article>
+
+
+      </main>
+    </div>
+
+    <footer class="container my-2 px-0">
+      <div class="mb-4">
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P. Martin 2022</p>
+        <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+<script src="/assets/js/image-captions.js"></script>
+
+  </body>
+</html>
