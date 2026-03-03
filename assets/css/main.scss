@@ -226,7 +226,7 @@ $extension-color: $ui-2;
 
 // Code styling — override Bootstrap's default pink (#d63384)
 code {
-    color: $ui-4;
+    color: $ui-4 !important;
 }
 
 // Inline code
