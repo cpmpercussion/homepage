@@ -223,3 +223,28 @@ $extension-color: $ui-2;
     border-color: $extension-color;
     background: get-custom-color-level($extension-color, 4);
 }
+
+// Code styling — override Bootstrap's default pink (#d63384)
+code {
+    color: $ui-4;
+}
+
+// Inline code
+:not(pre) > code {
+    background-color: rgba(247, 174, 72, 0.12); // light amber tint from $ui-3
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+}
+
+// Fenced code blocks (Rouge .highlight wrapper)
+div.highlight, pre.highlight {
+    background-color: $ui-0;
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+
+    code {
+        color: #f0e6d0; // warm off-white on dark background
+        background: none;
+    }
+}
