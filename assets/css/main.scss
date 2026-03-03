@@ -71,6 +71,11 @@ blockquote p {
     border-radius: 5px;
 }
 
+[data-bs-theme="dark"] blockquote p {
+    background: rgba(255, 255, 255, 0.08);
+    color: inherit;
+}
+
 article {
 
     img:not(.card-img-top) {
