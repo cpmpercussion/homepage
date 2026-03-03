@@ -6,7 +6,9 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(gh api:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "WebFetch(domain:cpmpercussion.github.io)",
+      "Bash(curl:*)"
     ]
   }
 }
