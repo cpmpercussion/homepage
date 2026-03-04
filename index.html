@@ -6,7 +6,7 @@ description: "Charles Martin is a researcher and musician working at the interse
 tags: [music technology, machine learning, research, ANU, computer music]
 ---
 
-<h1>Recent Posts</h1>
+<h2>Recent Posts</h2>
 
 <section class="row">
 	{% for post in site.posts limit:6 %}
@@ -20,3 +20,23 @@ tags: [music technology, machine learning, research, ANU, computer music]
 	</article>
 	{% endfor %}
 </section>
+
+<h2 class="mt-4">Topics</h2>
+{% assign top_tags = "" | split: "" %}
+{% for i in (1..8) %}
+  {% assign best_count = 0 %}
+  {% assign best_tag = "" %}
+  {% for tag in site.tags %}
+    {% unless top_tags contains tag[0] %}
+      {% if tag[1].size > best_count %}
+        {% assign best_count = tag[1].size %}
+        {% assign best_tag = tag[0] %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+  {% if best_tag != "" %}{% assign top_tags = top_tags | push: best_tag %}{% endif %}
+{% endfor %}
+<div class="d-flex flex-wrap align-items-center gap-2 mb-4">
+  {% for tag_name in top_tags %}<a href="{{ '/tags/' | relative_url }}?tag={{ tag_name | url_encode }}" class="btn btn-sm btn-outline-secondary">{{ tag_name }}</a>{% endfor %}
+  <a href="{{ '/tags/' | relative_url }}" class="btn btn-sm btn-secondary">All tags &rarr;</a>
+</div>

@@ -6,6 +6,12 @@ layout: default
 <div class="my-4">
   <h1 class="">{{ page.title }}</h1>
   <h6 class="font-italic">{{ page.date | date: "%d %b '%y" }}</h6>
+  {% if page.tags.size > 0 %}
+  <div class="mt-2">
+    {% for tag in page.tags %}<a href="{{ '/tags/' | relative_url }}?tag={{ tag | url_encode }}"
+       class="btn btn-sm btn-outline-secondary me-1 mb-1">{{ tag }}</a>{% endfor %}
+  </div>
+  {% endif %}
 </div>
 
 {% include tocdiv.html %}
