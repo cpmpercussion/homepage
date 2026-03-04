@@ -28,7 +28,7 @@ Most of the kickstarter projects that I see on the blogs area actually presales 
 
 Craigmod wrote a great [analysis](http://craigmod.com/journal/kickstartup/) of his Kickstarter experience which goes exactly like this.
 
-In all of these presale cases there's actually multiple steps for the whole and usually in the Kickstarter projects the cost of the early steps was "free", i.e. somebody gave up all there free time to make it happen. This is probably not a recipe for a sustainable business unless the final stage makes a LOT of money, i.e. enough to pay for all the time you gave away at the start. For making doodads, maybe it is if your doodad can go into further production after the initial run. For making contemporary art it's probably not.
+In all of these presale cases there's actually multiple steps for the whole and usually in the Kickstarter projects the cost of the early steps was "free", i.e. somebody gave up all their free time to make it happen. This is probably not a recipe for a sustainable business unless the final stage makes a LOT of money, i.e. enough to pay for all the time you gave away at the start. For making doodads, maybe it is if your doodad can go into further production after the initial run. For making contemporary art it's probably not.
 
 ****
 
