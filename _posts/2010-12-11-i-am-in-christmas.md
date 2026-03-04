@@ -4,9 +4,9 @@ title: i am in christmas
 categories:
 - Photoblog
 tags:
-- Sweden
-- Piteå
-- Lägenhet
+- sweden
+- piteå
+- lägenhet
 status: publish
 type: post
 published: true

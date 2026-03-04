@@ -4,9 +4,9 @@ title: Speaker noise instrument
 categories:
 - Photoblog
 tags:
-- Hardware Hacking
-- Oslo
-- NIME
+- hardware hacking
+- oslo
+- nime
 - workshop
 - noise
 status: publish

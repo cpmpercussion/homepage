@@ -4,9 +4,9 @@ title: Visiting the coast.
 categories:
 - photoblog
 tags:
-- Dalmeny
-- iPhone
-- Narooma
+- dalmeny
+- iphone
+- narooma
 status: publish
 type: post
 published: true

@@ -4,9 +4,9 @@ title: Paris, Antique market morning
 categories:
 - Photoblog
 tags:
-- France
-- Travel
-- Paris
+- france
+- travel
+- paris
 status: publish
 type: post
 published: true

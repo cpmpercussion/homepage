@@ -4,8 +4,8 @@ title: Finding a good OSC library for iOS
 categories:
 - news
 tags:
-- OSC
-- iOS
+- osc
+- ios
 - programming
 - research
 status: publish

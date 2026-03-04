@@ -2,7 +2,7 @@
 layout: post
 title: Japan Arduino Meeting
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

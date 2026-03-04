@@ -2,7 +2,7 @@
 layout: post
 title: Cool Reggae jam
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

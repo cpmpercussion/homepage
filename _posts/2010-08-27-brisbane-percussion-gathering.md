@@ -2,7 +2,10 @@
 layout: post
 title: Brisbane Percussion Gathering!
 categories: []
-tags: [blog, travel, percussion]
+tags:
+- blog
+- travel
+- percussion
 status: publish
 type: post
 published: true

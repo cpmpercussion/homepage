@@ -4,9 +4,9 @@ title: Visit to Notre Dame. Rainy!
 categories:
 - Photoblog
 tags:
-- France
-- Travel
-- Paris
+- france
+- travel
+- paris
 status: publish
 type: post
 published: true

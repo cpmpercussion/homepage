@@ -2,7 +2,7 @@
 layout: post
 title: Weekend in Melbourne
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

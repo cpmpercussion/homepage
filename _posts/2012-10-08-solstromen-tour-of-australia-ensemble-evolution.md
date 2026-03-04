@@ -10,7 +10,7 @@ tags:
 - improvisation
 - canberra
 - ensemble evolution
-- You Are Here
+- you are here
 - tour
 - computer music
 - sydney

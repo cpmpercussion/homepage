@@ -4,10 +4,10 @@ title: More Versailles
 categories:
 - Photoblog
 tags:
-- Christina
-- France
-- Travel
-- Versailles
+- christina
+- france
+- travel
+- versailles
 status: publish
 type: post
 published: true

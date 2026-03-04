@@ -4,9 +4,9 @@ title: Emergency Stockholm holiday
 categories:
 - Photoblog
 tags:
-- Sweden
-- Travel
-- Stockholm
+- sweden
+- travel
+- stockholm
 status: publish
 type: post
 published: true

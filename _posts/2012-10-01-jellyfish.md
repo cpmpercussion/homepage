@@ -2,7 +2,7 @@
 layout: post
 title: jellyfish
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

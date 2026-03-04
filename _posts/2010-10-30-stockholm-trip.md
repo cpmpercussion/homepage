@@ -4,9 +4,9 @@ title: Stockholm trip!
 categories:
 - Note
 tags:
-- Stockholm
-- Sweden
-- Travel
+- stockholm
+- sweden
+- travel
 status: publish
 type: post
 published: true

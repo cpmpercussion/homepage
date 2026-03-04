@@ -4,9 +4,9 @@ title: Snowy Piteå Photo Walk
 categories:
 - Photoblog
 tags:
-- Sweden
-- Snow
-- Piteå
+- sweden
+- snow
+- piteå
 status: publish
 type: post
 published: true

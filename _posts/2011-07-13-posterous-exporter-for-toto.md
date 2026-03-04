@@ -4,11 +4,11 @@ title: Posterous exporter for Toto
 categories:
 - Note
 tags:
-- Toto
-- Script
-- Ruby
+- toto
+- script
+- ruby
 - code
-- Posterous
+- posterous
 status: publish
 type: post
 published: true

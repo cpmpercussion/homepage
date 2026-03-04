@@ -2,7 +2,7 @@
 layout: post
 title: Concert Next Wednesday!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

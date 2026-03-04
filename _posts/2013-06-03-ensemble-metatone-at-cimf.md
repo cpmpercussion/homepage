@@ -6,8 +6,8 @@ categories:
 tags:
 - metatone
 - performance
-- ANU School of Music
-- CIMF
+- anu school of music
+- cimf
 status: publish
 type: post
 published: true

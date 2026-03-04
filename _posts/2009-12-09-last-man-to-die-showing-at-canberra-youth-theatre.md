@@ -2,7 +2,7 @@
 layout: post
 title: Last Man to Die Showing at Canberra Youth Theatre!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

@@ -4,12 +4,12 @@ title: Network performance setup for LMTD
 categories:
 - Note
 tags:
-- Setup
-- Percussion
-- Performance
-- Piteå
-- Malletkat
-- Last Man to Die
+- setup
+- percussion
+- performance
+- piteå
+- malletkat
+- last man to die
 status: publish
 type: post
 published: true

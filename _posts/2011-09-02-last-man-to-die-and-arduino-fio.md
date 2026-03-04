@@ -4,7 +4,7 @@ title: Last Man to Die and Arduino Fio
 categories:
 - news
 tags:
-- Arduino
+- arduino
 - last man to die
 - performance
 status: publish

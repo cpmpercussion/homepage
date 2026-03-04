@@ -3,7 +3,7 @@ layout: post
 title: A day at the In2Change - 1
 categories: []
 tags:
-- In2Change
+- in2change
 - supercollider
 status: publish
 type: post

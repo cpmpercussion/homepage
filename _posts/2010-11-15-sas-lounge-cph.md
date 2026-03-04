@@ -4,9 +4,9 @@ title: "@SAS lounge CPH."
 categories:
 - Photoblog
 tags:
-- Copenhagen
-- Travel
-- Airport
+- copenhagen
+- travel
+- airport
 status: publish
 type: post
 published: true

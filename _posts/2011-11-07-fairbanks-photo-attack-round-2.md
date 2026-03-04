@@ -4,13 +4,13 @@ title: Fairbanks photo attack round 2
 categories:
 - Photoblog
 tags:
-- Fairbanks
-- Alaska
+- fairbanks
+- alaska
 - percussion
 - travel
 - performance
 - rehearsal
-- Ensemble Evolution
+- ensemble evolution
 status: publish
 type: post
 published: true

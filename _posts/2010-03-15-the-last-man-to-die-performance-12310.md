@@ -6,8 +6,7 @@ categories:
 tags:
 - last man to die
 - performance
-- Belconnen
-- lmtd2010
+- belconnen
 - development
 status: publish
 type: post

@@ -5,7 +5,7 @@ categories:
 - Essay
 tags:
 - thoughts
-- Canberra
+- canberra
 type: post
 published: false
 meta: {}

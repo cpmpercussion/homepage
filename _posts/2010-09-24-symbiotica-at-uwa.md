@@ -2,7 +2,7 @@
 layout: post
 title: SymbioticA at UWA
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

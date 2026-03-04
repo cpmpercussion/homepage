@@ -4,12 +4,12 @@ title: Bird's Nest iPad app - premiered at PASIC2013!
 categories:
 - news
 tags:
-- '2013'
+- 2013
 - ipad
 - performance
 - ensemble evolution
 - percussion
-- PASIC
+- pasic
 - metatone
 status: publish
 type: post

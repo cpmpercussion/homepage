@@ -4,12 +4,12 @@ title: Composer's Concert
 categories:
 - Photoblog
 tags:
-- Setup
-- Percussion
-- Performance
-- Sweden
-- Piteå
-- Composition
+- setup
+- percussion
+- performance
+- sweden
+- piteå
+- composition
 status: publish
 type: post
 published: true

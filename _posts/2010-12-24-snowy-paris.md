@@ -4,10 +4,10 @@ title: Snowy Paris
 categories:
 - Photoblog
 tags:
-- Paris
-- France
-- Travel
-- Snow
+- paris
+- france
+- travel
+- snow
 status: publish
 type: post
 published: true

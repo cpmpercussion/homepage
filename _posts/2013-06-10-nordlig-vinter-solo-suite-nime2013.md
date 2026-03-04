@@ -6,8 +6,8 @@ categories:
 tags:
 - nordlig vinter
 - performance
-- NIME
-- Korea
+- nime
+- korea
 - vibraphone
 status: publish
 type: post

@@ -3,7 +3,12 @@ layout: post
 title:  "Concert with Andromeda is Coming and Artificially Intelligent Friends"
 date: 2024-05-31
 description: "Bringing back Andromed is Coming with new collaborators and new AI music systems."
-tags: performance, artificial-intelligence, concert, augmented-reality, computer-music, smcclab
+tags:
+- performance
+- machine-learning
+- augmented-reality
+- computer music
+- smcclab
 ---
 
 Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.

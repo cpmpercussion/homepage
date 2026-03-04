@@ -6,8 +6,8 @@ categories:
 tags:
 - vibraphone
 - computer music
-- iPhone
-- Mobile Music
+- iphone
+- mobile music
 - setup
 status: publish
 type: post

@@ -4,7 +4,7 @@ title: Vibes Workshop Concert
 categories:
 - photoblog
 tags:
-- USA
+- usa
 - travel
 - vibraphone
 status: publish

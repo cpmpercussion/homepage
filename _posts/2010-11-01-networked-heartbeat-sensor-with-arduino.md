@@ -4,7 +4,7 @@ title: Networked Heartbeat Sensor with Arduino!
 categories:
 - essay
 tags:
-- Arduino
+- arduino
 - performance
 - last man to die
 - heartbeat

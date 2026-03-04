@@ -4,10 +4,10 @@ title: 'More Objective C OSC Library Adventures: F53OSC and MetatoneOSC'
 categories:
 - note
 tags:
-- OSC
-- Objective-C
+- osc
+- objective-c
 - programming
-- iOS
+- ios
 status: publish
 type: post
 published: true

@@ -4,9 +4,9 @@ title: Poster Presentation at NIME2013
 categories:
 - news
 tags:
-- NIME
-- Korea
-- Daejeon
+- nime
+- korea
+- daejeon
 - poster
 status: publish
 type: post

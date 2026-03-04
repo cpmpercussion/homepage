@@ -2,7 +2,7 @@
 layout: post
 title: Last Man To Die PACT Setup.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

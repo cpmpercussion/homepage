@@ -3,10 +3,9 @@ layout: post
 title: Theremin to MIDI Control program in Pd
 categories: []
 tags:
-- Pd
+- pure data
 - duetforvibraphoneandcomputer
 - music
-- pure data
 - theremin
 status: publish
 type: post

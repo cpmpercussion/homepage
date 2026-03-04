@@ -3,7 +3,7 @@ layout: post
 title: Heartbeat Sensor
 categories: []
 tags:
-- Arduino
+- arduino
 - heartbeat
 status: publish
 type: post

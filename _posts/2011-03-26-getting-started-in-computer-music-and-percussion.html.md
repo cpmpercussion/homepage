@@ -9,9 +9,9 @@ tags:
 - teaching
 - percussion
 - computer music
-- pd
+- pure data
 - logic
-- Ableton Live
+- ableton live
 status: publish
 type: post
 published: true

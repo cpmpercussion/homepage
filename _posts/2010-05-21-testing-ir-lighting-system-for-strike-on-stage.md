@@ -2,7 +2,8 @@
 layout: post
 title: Testing IR Lighting System for Strike on Stage
 categories: []
-tags: [strikeonstage]
+tags:
+- strike on stage
 status: publish
 type: post
 published: true

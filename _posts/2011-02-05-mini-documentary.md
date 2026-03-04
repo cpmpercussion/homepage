@@ -7,11 +7,11 @@ categories:
 tags:
 - strike on stage
 - computer vision
-- openFrameworks
+- openframeworks
 - chi-hsia lai
 - documentary
 - computer music
-- SuperCollider
+- supercollider
 status: publish
 type: post
 published: true

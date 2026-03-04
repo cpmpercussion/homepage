@@ -2,7 +2,7 @@
 layout: post
 title: Last Man to Die at Brisbane UTR
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

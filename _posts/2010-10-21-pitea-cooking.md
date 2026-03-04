@@ -2,7 +2,7 @@
 layout: post
 title: Piteå cooking!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

@@ -4,7 +4,7 @@ title: Columbus Collaboration
 categories:
 - essay
 tags:
-- USA
+- usa
 - vibraphone
 - teaching
 - percussion

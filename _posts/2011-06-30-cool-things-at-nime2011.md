@@ -4,14 +4,14 @@ title: cool things at NIME2011
 categories:
 - News
 tags:
-- NIME
+- nime
 - travel
-- Oslo
-- Flickr
+- oslo
+- flickr
 - computer music
-- HCI
+- hci
 - conference
-- Strike On Stage
+- strike on stage
 status: publish
 type: post
 published: true

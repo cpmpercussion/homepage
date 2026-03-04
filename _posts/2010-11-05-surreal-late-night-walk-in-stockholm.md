@@ -4,8 +4,8 @@ title: Surreal late night walk in Stockholm
 categories:
 - Photoblog
 tags:
-- Stockholm
-- Sweden
+- stockholm
+- sweden
 status: publish
 type: post
 published: true

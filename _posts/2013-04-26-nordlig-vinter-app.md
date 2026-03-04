@@ -4,7 +4,7 @@ title: Nordlig Vinter app now available for iOS devices!
 categories:
 - news
 tags:
-- iOS
+- ios
 - nordlig vinter
 - computer music
 - libpd

@@ -4,10 +4,10 @@ title: Oh no mummies!
 categories:
 - Photoblog
 tags:
-- Paris
-- France
-- Museum
-- Travel
+- paris
+- france
+- museum
+- travel
 status: publish
 type: post
 published: true

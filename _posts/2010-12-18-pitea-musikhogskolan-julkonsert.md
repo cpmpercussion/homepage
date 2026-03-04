@@ -4,10 +4,10 @@ title: Piteå Musikhögskolan Julkonsert
 categories:
 - Photoblog
 tags:
-- Percussion
-- Performance
-- Piteå
-- Sweden
+- percussion
+- performance
+- piteå
+- sweden
 status: publish
 type: post
 published: true

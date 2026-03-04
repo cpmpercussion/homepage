@@ -2,7 +2,7 @@
 layout: post
 title: '"Sounds from the Treetops" - CD Available!'
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

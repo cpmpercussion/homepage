@@ -4,10 +4,10 @@ title: Paris - we went to the top of the eiffel tower!
 categories:
 - Photoblog
 tags:
-- Christina
-- Paris
-- France
-- Travel
+- christina
+- paris
+- france
+- travel
 status: publish
 type: post
 published: true

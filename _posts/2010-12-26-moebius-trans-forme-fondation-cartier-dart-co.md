@@ -4,10 +4,10 @@ title: Moebius-Trans-Forme @ Fondation Cartier d'Art Contemporain
 categories:
 - Photoblog
 tags:
-- Paris
-- France
-- Travel
-- Art
+- paris
+- france
+- travel
+- art
 status: publish
 type: post
 published: true

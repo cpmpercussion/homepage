@@ -6,8 +6,8 @@ categories:
 tags:
 - interactive media
 - percussion
-- Chi-Hsia Lai
-- Strike on Stage
+- chi-hsia lai
+- strike on stage
 status: publish
 type: post
 published: true

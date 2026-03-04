@@ -4,12 +4,12 @@ title: Metatone Apps at CHI2014
 categories:
 - news
 tags:
-- CHI
+- chi
 - conference
 - research
 - metatone
-- iOS
-- iPad
+- ios
+- ipad
 status: publish
 type: post
 published: true

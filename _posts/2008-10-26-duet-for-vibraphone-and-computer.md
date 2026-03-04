@@ -3,11 +3,10 @@ layout: post
 title: Duet for Vibraphone and Computer
 categories: []
 tags:
-- Ableton Live
-- Pd
+- ableton live
+- pure data
 - computer music
 - duetforvibraphoneandcomputer
-- pure data
 - vibraphone
 status: publish
 type: post

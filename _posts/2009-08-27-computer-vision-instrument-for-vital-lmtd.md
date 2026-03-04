@@ -8,7 +8,6 @@ tags:
 - last man to die
 - supercollider
 - ubuntu
-- vital lmtd
 status: publish
 type: post
 published: true

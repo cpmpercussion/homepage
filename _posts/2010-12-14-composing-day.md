@@ -4,10 +4,10 @@ title: composing day
 categories:
 - Photoblog
 tags:
-- Piteå
-- Percussion
-- Sweden
-- Composition
+- piteå
+- percussion
+- sweden
+- composition
 status: publish
 type: post
 published: true

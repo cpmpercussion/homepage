@@ -8,8 +8,8 @@ tags:
 - conference
 - publication
 - computer music
-- ICMC
-- Mobile Music
+- icmc
+- mobile music
 status: publish
 type: post
 published: true

@@ -5,7 +5,7 @@ categories:
 - photoblog
 tags:
 - last
-- lmtd2010
+- last man to die
 - postcard
 - development
 status: publish

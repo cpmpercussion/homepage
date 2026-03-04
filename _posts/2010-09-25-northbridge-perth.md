@@ -2,7 +2,7 @@
 layout: post
 title: Northbridge, Perth.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

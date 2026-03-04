@@ -2,7 +2,7 @@
 layout: post
 title: Last Man to Die 2010 - Promo Video
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

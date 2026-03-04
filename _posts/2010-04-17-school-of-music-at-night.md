@@ -2,7 +2,7 @@
 layout: post
 title: School of music at night
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

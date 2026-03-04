@@ -2,7 +2,7 @@
 layout: post
 title: 'Now: PER. Later: ARN'
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

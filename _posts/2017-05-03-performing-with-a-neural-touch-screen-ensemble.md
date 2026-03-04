@@ -6,7 +6,7 @@ tags:
 - deep learning
 - touch-screen
 - ensemble
-- EPEC
+- epec
 status: publish
 type: post
 published: true

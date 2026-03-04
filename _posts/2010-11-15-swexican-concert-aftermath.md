@@ -4,12 +4,12 @@ title: Swexican concert aftermath
 categories:
 - Photoblog
 tags:
-- Percussion
-- Performance
-- Travel
-- USA
-- PASIC
-- Indianapolis
+- percussion
+- performance
+- travel
+- usa
+- pasic
+- indianapolis
 status: publish
 type: post
 published: true

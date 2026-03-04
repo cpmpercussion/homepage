@@ -4,9 +4,9 @@ title: Sweet home Chicago
 categories:
 - Photoblog
 tags:
-- Chicago
-- Travel
-- USA
+- chicago
+- travel
+- usa
 status: publish
 type: post
 published: true

@@ -2,7 +2,7 @@
 layout: post
 title: Newcastle March 30/31
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

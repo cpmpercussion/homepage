@@ -2,7 +2,7 @@
 layout: post
 title: LMTD at Blue Room
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

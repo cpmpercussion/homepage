@@ -4,9 +4,9 @@ title: It's getting dark and snowy...
 categories:
 - Photoblog
 tags:
-- Piteå
-- Snow
-- Sweden
+- piteå
+- snow
+- sweden
 status: publish
 type: post
 published: true

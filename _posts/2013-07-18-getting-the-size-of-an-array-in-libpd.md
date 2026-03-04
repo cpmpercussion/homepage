@@ -2,7 +2,7 @@
 layout: post
 title: Getting the size of an array in libpd
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

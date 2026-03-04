@@ -4,11 +4,11 @@ title: PhaseRings released!
 categories:
 - News
 tags:
-- iPad
+- ipad
 - app
-- PASIC
-- iOS
-- PhaseRings
+- pasic
+- ios
+- phaserings
 status: publish
 type: post
 published: true

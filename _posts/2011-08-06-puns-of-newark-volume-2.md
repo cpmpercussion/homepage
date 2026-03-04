@@ -4,8 +4,8 @@ title: Puns of Newark volume 2
 categories:
 - Photoblog
 tags:
-- Newark
-- Delaware
+- newark
+- delaware
 - travel
 - puns
 status: publish

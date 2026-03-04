@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to California, have fun eating a taco.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

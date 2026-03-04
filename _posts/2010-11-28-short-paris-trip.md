@@ -4,11 +4,11 @@ title: Short Paris trip...
 categories:
 - Photoblog
 tags:
-- Stockholm
-- Paris
-- France
-- Sweden
-- Snow
+- stockholm
+- paris
+- france
+- sweden
+- snow
 status: publish
 type: post
 published: true

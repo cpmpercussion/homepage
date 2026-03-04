@@ -3,7 +3,12 @@ layout: post
 title: "Dream Tent: a sonic reconstruction of a 19th-century mind therapy device"
 date: 2025-09-17
 description: "Collaborating with Martyn Jolly to reconstruct James Leonard Corning's 1899 Dream Tent at the ANU Drill Hall Gallery, with a generative soundtrack built on Bela and Pure Data."
-tags: performance installation bela pure-data magic-lantern
+tags:
+- performance
+- installation
+- bela
+- pure data
+- magic-lantern
 ---
 
 Recently, [Martyn Jolly](https://martynjolly.com) and I debuted our *Dream Tent* at the ANU Drill Hall Gallery as part of the [RGB+: Film and Re-enactment Events](https://dhg.anu.edu.au/event_post/rgb-film-and-re-enactment-events/). This was a curated evening of abstract colour film screening and live re-enactment within the *Light Source* exhibition.

@@ -2,7 +2,10 @@
 layout: post
 title: SOS - Overview video
 categories: [strikeonstage]
-tags: [strikeonstage, blog, overview]
+tags:
+- strike on stage
+- blog
+- overview
 status: publish
 type: post
 published: true

@@ -4,11 +4,11 @@ title: A few bad photos of PASIC.
 categories:
 - Photoblog
 tags:
-- Percussion
-- Travel
-- USA
-- PASIC
-- Indianapolis
+- percussion
+- travel
+- usa
+- pasic
+- indianapolis
 status: publish
 type: post
 published: true

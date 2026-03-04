@@ -4,11 +4,11 @@ title: Concert at ICAD2016
 categories:
 - news
 tags:
-- concert
-- ICAD
-- Canberra
-- ANU School of Music
-- Experimental Music Studio
+- performance
+- icad
+- canberra
+- anu school of music
+- experimental music studio
 status: publish
 type: post
 published: true

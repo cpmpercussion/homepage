@@ -3,7 +3,7 @@ layout: post
 title: 'Howto: Roland VS-2000 Digital Studio Workstation'
 categories: []
 tags:
-- Digital Studio VS-2000
+- digital studio vs-2000
 - howto
 status: publish
 type: post

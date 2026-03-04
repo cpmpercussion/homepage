@@ -4,13 +4,13 @@ title: 'NIME2015: Tracking an iPad Ensemble with Gesture Classification and Tran
   Matrices'
 categories: []
 tags:
-- NIME
-- Poster
-- Conference
-- Research
-- iPad Ensemble
-- Gesture Classification
-- Transition Matrices
+- nime
+- poster
+- conference
+- research
+- ipad ensemble
+- gesture classification
+- transition matrices
 status: publish
 type: post
 published: true

@@ -5,10 +5,10 @@ date: 2025-08-01
 category: teaching
 tags:
 - teaching
-- ARM assembly
-- BBC micro:bit
+- arm assembly
+- bbc micro:bit
 - computer organisation
-- COMP2300
+- comp2300
 description: "Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022."
 ---
 

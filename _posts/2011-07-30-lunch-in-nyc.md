@@ -4,7 +4,7 @@ title: Lunch in NYC
 categories:
 - Photoblog
 tags:
-- New York
+- new york
 - travel
 status: publish
 type: post

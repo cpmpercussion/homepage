@@ -2,7 +2,7 @@
 layout: post
 title: 'DRUMatiX: The Next Phrase'
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

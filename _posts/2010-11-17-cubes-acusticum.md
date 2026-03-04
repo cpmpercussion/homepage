@@ -4,10 +4,10 @@ title: Cubes @ Acusticum
 categories:
 - Photoblog
 tags:
-- Art
-- Sweden
-- Piteå
-- Acusticum
+- art
+- sweden
+- piteå
+- acusticum
 status: publish
 type: post
 published: true

@@ -4,9 +4,9 @@ title: Paris, day of shopping and walking
 categories:
 - Photoblog
 tags:
-- Travel
-- France
-- Paris
+- travel
+- france
+- paris
 status: publish
 type: post
 published: true

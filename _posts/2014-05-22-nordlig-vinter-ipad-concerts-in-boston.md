@@ -4,8 +4,8 @@ title: 'Touch and Tone: Experimental music for iPad and Percussion in Boston'
 categories:
 - news
 tags:
-- iOS
-- iPad
+- ios
+- ipad
 - percussion
 - performance
 - computer music

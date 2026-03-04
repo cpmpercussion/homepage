@@ -4,10 +4,10 @@ title: Ensemble Evolution at PASIC2013
 categories:
 - news
 tags:
-- USA
+- usa
 - percussion
-- PASIC
-- Performance
+- pasic
+- performance
 - ensemble evolution
 status: publish
 type: post

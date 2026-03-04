@@ -5,7 +5,7 @@ categories:
 - news
 tags:
 - microjam
-- EPEC
+- epec
 - conference
 - demo
 status: publish

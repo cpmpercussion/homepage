@@ -6,7 +6,6 @@ categories:
   - workshop
   - class
 tags:
-- Pd
 - pure data
 - tutorial
 - computer music

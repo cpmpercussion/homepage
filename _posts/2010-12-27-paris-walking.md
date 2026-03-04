@@ -4,9 +4,9 @@ title: Paris walking
 categories:
 - Photoblog
 tags:
-- Paris
-- France
-- Travel
+- paris
+- france
+- travel
 status: publish
 type: post
 published: true

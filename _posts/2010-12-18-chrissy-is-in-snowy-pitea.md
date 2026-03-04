@@ -4,10 +4,10 @@ title: chrissy is in snowy Piteå!
 categories:
 - Photoblog
 tags:
-- Christina
-- Piteå
-- Sweden
-- Snow
+- christina
+- piteå
+- sweden
+- snow
 status: publish
 type: post
 published: true

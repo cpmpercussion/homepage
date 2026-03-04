@@ -2,7 +2,7 @@
 layout: post
 title: i have a new hat!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

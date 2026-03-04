@@ -2,7 +2,7 @@
 layout: post
 title: new Piteå apartment.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

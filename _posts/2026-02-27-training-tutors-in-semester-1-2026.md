@@ -4,7 +4,8 @@ title: Training Tutors in the College of Systems and Society, Semester 1, 2026
 date: 2026-02-27 11:42 +1100
 category: note
 summary: 
-tags: teaching
+tags:
+- teaching
 type: lab
 description: "My reflections on delivering tutor training across the College of Systems and Society in 2026, covering the experiences and concerns of both new and returning tutors, and the value of building ongoing professional development into the programme."
 ---

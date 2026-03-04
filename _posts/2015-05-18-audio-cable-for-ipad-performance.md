@@ -6,7 +6,7 @@ categories:
 tags:
 - note
 - computer music
-- iPad
+- ipad
 - performance
 - cables
 status: publish

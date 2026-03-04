@@ -2,7 +2,7 @@
 layout: post
 title: Computer Music Concert - Stanford CCRMA Listening Room - 30th July 2010
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

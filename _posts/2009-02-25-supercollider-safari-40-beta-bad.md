@@ -3,7 +3,7 @@ layout: post
 title: Supercollider + Safari 4.0 beta = bad
 categories: []
 tags:
-- Mac OS X
+- mac os x
 - supercollider
 status: publish
 type: post

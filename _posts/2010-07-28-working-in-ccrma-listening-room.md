@@ -2,7 +2,7 @@
 layout: post
 title: Working in CCRMA Listening room
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

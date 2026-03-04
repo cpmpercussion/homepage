@@ -4,11 +4,11 @@ title: Snowy Versailles
 categories:
 - Photoblog
 tags:
-- Christina
-- France
-- Travel
-- Versailles
-- Snow
+- christina
+- france
+- travel
+- versailles
+- snow
 status: publish
 type: post
 published: true

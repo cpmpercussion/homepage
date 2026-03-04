@@ -2,7 +2,7 @@
 layout: post
 title: Sweden Living Part 1
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

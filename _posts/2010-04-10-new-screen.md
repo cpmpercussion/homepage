@@ -2,7 +2,7 @@
 layout: post
 title: New screen!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

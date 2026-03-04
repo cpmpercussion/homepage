@@ -5,7 +5,7 @@ categories:
 - news
 tags:
 - press
-- Metatone
+- metatone
 status: publish
 type: post
 published: true

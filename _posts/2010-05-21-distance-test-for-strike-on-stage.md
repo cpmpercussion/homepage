@@ -2,7 +2,9 @@
 layout: post
 title: Distance test for Strike on Stage
 categories: []
-tags: [charlesmartin, strikeonstage]
+tags:
+- charlesmartin
+- strike on stage
 status: publish
 type: post
 published: true

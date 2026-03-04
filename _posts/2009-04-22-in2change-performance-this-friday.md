@@ -3,8 +3,8 @@ layout: post
 title: In2Change performance this Friday!
 categories: []
 tags:
-- Ableton Live
-- In2Change
+- ableton live
+- in2change
 - performance
 - supercollider
 status: publish

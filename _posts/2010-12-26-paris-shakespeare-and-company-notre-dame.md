@@ -4,9 +4,9 @@ title: 'Paris: Shakespeare and Company / Notre Dame'
 categories:
 - Photoblog
 tags:
-- Travel
-- France
-- Paris
+- travel
+- france
+- paris
 status: publish
 type: post
 published: true

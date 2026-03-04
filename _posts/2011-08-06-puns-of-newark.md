@@ -5,8 +5,8 @@ categories:
 - Photoblog
 tags:
 - travel
-- Newark
-- Delaware
+- newark
+- delaware
 status: publish
 type: post
 published: true

@@ -4,9 +4,9 @@ title: Paris, Fondation Cartier d'Art Contemporain
 categories:
 - Photoblog
 tags:
-- Travel
-- France
-- Paris
+- travel
+- france
+- paris
 status: publish
 type: post
 published: true

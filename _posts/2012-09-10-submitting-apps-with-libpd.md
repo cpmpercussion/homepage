@@ -4,9 +4,9 @@ title: Submitting iOS apps with libpd
 categories:
 - note
 tags:
-- XCode
+- xcode
 - programming
-- iOS
+- ios
 - libpd
 status: publish
 type: post

@@ -5,12 +5,12 @@ categories:
 - news
 tags:
 - theremin
-- ANU
-- ANU School of Art
-- ANU School of Music
-- Performance
-- Gallery
-- Canberra
+- anu
+- anu school of art
+- anu school of music
+- performance
+- gallery
+- canberra
 - metatone
 status: publish
 type: post

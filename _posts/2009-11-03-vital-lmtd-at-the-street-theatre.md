@@ -3,12 +3,10 @@ layout: post
 title: Vital LMTD at the Street Theatre
 categories: []
 tags:
-- Pd
+- pure data
 - last man to die
 - malletkat
 - performance
-- pure data
-- vital lmtd
 status: publish
 type: post
 published: true

@@ -2,7 +2,7 @@
 layout: post
 title: 'Hot tip: Self-soaping dish brush'
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

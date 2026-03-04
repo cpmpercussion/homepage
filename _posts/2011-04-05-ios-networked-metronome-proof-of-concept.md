@@ -5,11 +5,10 @@ categories:
 - news
 - note
 tags:
-- iOS
-- Pure Data
-- RjDj
+- ios
+- pure data
+- rjdj
 - network
-- Pd
 - metronome
 - work in progress
 status: publish

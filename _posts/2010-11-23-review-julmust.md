@@ -4,10 +4,10 @@ title: 'Review: Julmust'
 categories:
 - Review
 tags:
-- Julmust
-- Piteå
-- Lägenhet
-- Sweden
+- julmust
+- piteå
+- lägenhet
+- sweden
 status: publish
 type: post
 published: true

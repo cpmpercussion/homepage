@@ -2,7 +2,7 @@
 layout: post
 title: Stanford CCRMA Tabletop Interface Workshop
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

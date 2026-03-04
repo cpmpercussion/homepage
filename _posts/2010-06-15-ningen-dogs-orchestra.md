@@ -2,7 +2,7 @@
 layout: post
 title: Ningen dogs orchestra.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

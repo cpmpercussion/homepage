@@ -2,7 +2,7 @@
 layout: post
 title: straw secured!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

@@ -4,10 +4,10 @@ title: Piteå Ice River Walk
 categories:
 - Photoblog
 tags:
-- Piteå
-- Travel
-- Sweden
-- Ice
+- piteå
+- travel
+- sweden
+- ice
 status: publish
 type: post
 published: true

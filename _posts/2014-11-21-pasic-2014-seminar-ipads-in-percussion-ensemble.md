@@ -4,11 +4,11 @@ title: 'PASIC 2014 Seminar: iPads in Percussion Ensemble'
 categories:
 - note
 tags:
-- Metat
+- metat
 - seminar
 - percussion ensemble
-- PASIC
-- iPad
+- pasic
+- ipad
 status: publish
 type: post
 published: true

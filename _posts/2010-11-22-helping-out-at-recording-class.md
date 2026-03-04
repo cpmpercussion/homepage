@@ -4,11 +4,11 @@ title: Helping out at recording class!
 categories:
 - Photoblog
 tags:
-- Percussion
-- Piteå
-- Recording
-- Sweden
-- Performance
+- percussion
+- piteå
+- recording
+- sweden
+- performance
 status: publish
 type: post
 published: true

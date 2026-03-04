@@ -3,7 +3,7 @@ layout: post
 title: Show at the Front!
 categories: []
 tags:
-- Ableton Live
+- ableton live
 - duetforvibraphoneandcomputer
 - performance
 - pure data

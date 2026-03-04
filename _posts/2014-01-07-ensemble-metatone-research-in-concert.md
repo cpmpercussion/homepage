@@ -6,7 +6,7 @@ categories:
 tags:
 - metatone
 - performance
-- ANU School of Music
+- anu school of music
 - percussion
 - research
 status: publish

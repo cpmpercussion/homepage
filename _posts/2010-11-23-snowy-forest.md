@@ -4,10 +4,10 @@ title: Snowy forest.
 categories:
 - Photoblog
 tags:
-- Piteå
-- Sweden
-- Nordlig Vinter
-- Snow
+- piteå
+- sweden
+- nordlig vinter
+- snow
 status: publish
 type: post
 published: true

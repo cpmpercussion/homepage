@@ -2,7 +2,7 @@
 layout: post
 title: Webcam party for LMTD
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

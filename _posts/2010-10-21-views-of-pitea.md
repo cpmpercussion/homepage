@@ -4,9 +4,9 @@ title: Views of Piteå
 categories:
 - Photoblog
 tags:
-- Piteå
-- Sweden
-- Travel
+- piteå
+- sweden
+- travel
 status: publish
 type: post
 published: true

@@ -6,9 +6,9 @@ categories:
 tags:
 - performance
 - malletkat
-- iPad
-- Lonsdale
-- Canberra
+- ipad
+- lonsdale
+- canberra
 - metatone
 status: publish
 type: post

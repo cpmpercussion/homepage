@@ -2,7 +2,7 @@
 layout: post
 title: Diana Mini in half frame mode
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

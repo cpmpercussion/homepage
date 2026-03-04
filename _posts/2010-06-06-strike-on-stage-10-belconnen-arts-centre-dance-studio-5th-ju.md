@@ -2,7 +2,8 @@
 layout: post
 title: Strike on Stage 1.0 @ Belconnen Arts Centre, Dance Studio 5th June 2010
 categories: [strikeonstage]
-tags: [strikeonstage]
+tags:
+- strike on stage
 status: publish
 type: post
 published: true

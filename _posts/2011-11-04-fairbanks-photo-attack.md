@@ -4,9 +4,9 @@ title: Fairbanks photo attack
 categories:
 - Photoblog
 tags:
-- Fairbanks
-- Alaska
-- Ensemble Evolution
+- fairbanks
+- alaska
+- ensemble evolution
 - travel
 status: publish
 type: post

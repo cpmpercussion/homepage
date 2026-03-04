@@ -8,7 +8,7 @@ tags:
 - bar
 - percussion
 - performance
-- Boston
+- boston
 status: publish
 type: post
 published: true

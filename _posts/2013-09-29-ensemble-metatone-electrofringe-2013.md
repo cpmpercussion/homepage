@@ -5,7 +5,7 @@ categories:
 - news
 tags:
 - metatone
-- iPad
+- ipad
 - electrofringe
 - this is not art
 - performance

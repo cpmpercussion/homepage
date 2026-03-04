@@ -3,7 +3,7 @@ layout: post
 title: Global Tangible Interfaces Hack Day
 categories: []
 tags:
-- Pd
+- pure data
 - computer music
 - hackday
 - supercollider

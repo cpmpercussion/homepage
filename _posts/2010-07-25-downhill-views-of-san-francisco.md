@@ -2,7 +2,7 @@
 layout: post
 title: Downhill views of San Francisco
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

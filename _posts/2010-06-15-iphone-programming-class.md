@@ -2,7 +2,10 @@
 layout: post
 title: IPhone programming class.
 categories: [NIME]
-tags: [ios, nime, conference]
+tags:
+- ios
+- nime
+- conference
 status: publish
 type: post
 published: true

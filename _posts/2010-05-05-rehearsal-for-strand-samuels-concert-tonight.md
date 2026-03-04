@@ -2,7 +2,7 @@
 layout: post
 title: Rehearsal for Åstrand / Samuels concert tonight.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

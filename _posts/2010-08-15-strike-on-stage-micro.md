@@ -2,7 +2,10 @@
 layout: post
 title: Strike on Stage Micro
 categories: [strikeonstage]
-tags: [strikeonstage, blog, micro]
+tags:
+- strike on stage
+- blog
+- micro
 status: publish
 type: post
 published: true

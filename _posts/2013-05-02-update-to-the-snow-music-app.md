@@ -4,9 +4,9 @@ title: Update to the Snow Music app
 categories:
 - news
 tags:
-- iOS
-- iPad
-- Snow Music
+- ios
+- ipad
+- snow music
 - libpd
 status: publish
 type: post

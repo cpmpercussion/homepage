@@ -2,7 +2,7 @@
 layout: post
 title: Last morning at CNR.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

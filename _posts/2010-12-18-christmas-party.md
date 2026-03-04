@@ -4,8 +4,8 @@ title: Christmas party.
 categories:
 - Photoblog
 tags:
-- Sweden
-- Piteå
+- sweden
+- piteå
 status: publish
 type: post
 published: true

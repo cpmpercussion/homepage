@@ -4,7 +4,7 @@ title: Benjamin Forster's "Rational"
 categories:
 - news
 tags:
-- Benjamin Forster
+- benjamin forster
 - rational
 - exhibition
 - receipt printers

@@ -3,10 +3,10 @@ layout: post
 title: Snow Music App Released!
 categories: []
 tags:
-- iTunes
+- itunes
 - app
 - libpd
-- iOS
+- ios
 - snow music
 status: publish
 type: post

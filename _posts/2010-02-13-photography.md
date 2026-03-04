@@ -2,7 +2,7 @@
 layout: post
 title: photography
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

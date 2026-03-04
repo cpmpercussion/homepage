@@ -4,9 +4,9 @@ title: Vilnius Walk in the Rain
 categories:
 - Photoblog
 tags:
-- Vilnius
-- Lithuania
-- Ensemble Evolution
+- vilnius
+- lithuania
+- ensemble evolution
 - travel
 - photoblog
 status: publish

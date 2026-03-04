@@ -3,7 +3,10 @@ layout: post
 title: Rebooting Chroma 
 date: 2022-08-30
 category: note
-tags: publishing, journal, computer music
+tags:
+- publishing
+- journal
+- computer music
 description: "I've just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it's a"
 ---
 

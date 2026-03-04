@@ -2,7 +2,7 @@
 layout: post
 title: SOS 1.2 @ ACMA Conference, Canberra, June 2010
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

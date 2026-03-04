@@ -3,7 +3,7 @@ layout: post
 title: Internal MIDI Bus in Mac OS X
 categories: []
 tags:
-- Mac OS X
+- mac os x
 - midi
 status: publish
 type: post

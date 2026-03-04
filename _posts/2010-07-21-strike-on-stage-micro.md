@@ -2,7 +2,7 @@
 layout: post
 title: Strike on Stage Micro
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

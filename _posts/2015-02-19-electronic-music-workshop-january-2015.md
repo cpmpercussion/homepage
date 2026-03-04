@@ -4,12 +4,12 @@ title: Electronic Music Workshop - January 2015
 categories:
 - News
 tags:
-- Computer Music
+- computer music
 - workshop
-- Canberra
-- ANU School of Music
-- Hardware Hacking
-- Electronics
+- canberra
+- anu school of music
+- hardware hacking
+- electronics
 status: publish
 type: post
 published: true

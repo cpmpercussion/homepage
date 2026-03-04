@@ -2,7 +2,7 @@
 layout: post
 title: Camera 1 and Camera 2
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

@@ -2,7 +2,7 @@
 layout: post
 title: The Last Man to Die performance 1.
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

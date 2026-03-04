@@ -2,7 +2,7 @@
 layout: post
 title: Music Tech at IFI
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

@@ -4,7 +4,7 @@ title: Mobile Computer Music for Percussionists
 categories:
 - news
 tags:
-- LTU
+- ltu
 - computer music
 - percussion
 - publication

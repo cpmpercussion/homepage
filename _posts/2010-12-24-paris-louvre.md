@@ -4,11 +4,11 @@ title: Paris - Louvre
 categories:
 - Photoblog
 tags:
-- Paris
-- France
-- Museum
-- Travel
-- Art
+- paris
+- france
+- museum
+- travel
+- art
 status: publish
 type: post
 published: true

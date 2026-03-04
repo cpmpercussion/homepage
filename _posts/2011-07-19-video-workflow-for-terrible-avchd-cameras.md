@@ -4,11 +4,11 @@ title: Video workflow for terrible AVCHD cameras
 categories:
 - Note
 tags:
-- Script
-- Shell
+- script
+- shell
 - walkthrough
-- AVCHD
-- Quicktime
+- avchd
+- quicktime
 - video
 status: publish
 type: post

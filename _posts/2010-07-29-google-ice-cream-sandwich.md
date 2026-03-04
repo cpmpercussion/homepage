@@ -2,7 +2,7 @@
 layout: post
 title: Google ice cream sandwich!
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

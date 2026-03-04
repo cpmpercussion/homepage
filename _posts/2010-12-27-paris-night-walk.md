@@ -4,9 +4,9 @@ title: Paris night walk
 categories:
 - Photoblog
 tags:
-- France
-- Travel
-- Paris
+- france
+- travel
+- paris
 status: publish
 type: post
 published: true

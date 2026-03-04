@@ -2,7 +2,7 @@
 layout: post
 title: Toronto Electroacoustic Symposium
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

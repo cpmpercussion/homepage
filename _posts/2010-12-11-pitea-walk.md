@@ -4,9 +4,9 @@ title: piteå walk
 categories:
 - Photoblog
 tags:
-- Snow
-- Sweden
-- Piteå
+- snow
+- sweden
+- piteå
 status: publish
 type: post
 published: true

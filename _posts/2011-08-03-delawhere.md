@@ -4,8 +4,8 @@ title: Delawhere?
 categories:
 - Photoblog
 tags:
-- Newark
-- Delaware
+- newark
+- delaware
 status: publish
 type: post
 published: true

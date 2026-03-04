@@ -3,7 +3,7 @@ layout: post
 title: Laserjet 1022n in Leopard
 categories: []
 tags:
-- Mac OS X
+- mac os x
 status: publish
 type: post
 published: true

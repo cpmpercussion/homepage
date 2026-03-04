@@ -2,7 +2,7 @@
 layout: post
 title: Bakery - Perth, Zho
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

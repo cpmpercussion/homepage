@@ -4,12 +4,12 @@ title: Concerts with Anders Åstrand, Dave Samuels and Evaristo Aguilar
 categories:
 - Performance
 tags:
-- Piteå
-- Stockholm
-- Performance
-- Ensemble Evolution
-- Sweden
-- Percussion
+- piteå
+- stockholm
+- performance
+- ensemble evolution
+- sweden
+- percussion
 status: publish
 type: post
 published: true

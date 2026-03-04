@@ -2,7 +2,7 @@
 layout: post
 title: 'Review: 2014 AMEB Percussion Syllabus'
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

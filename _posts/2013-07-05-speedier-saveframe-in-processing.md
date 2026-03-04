@@ -2,7 +2,7 @@
 layout: post
 title: Speedier saveFrame() in Processing
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

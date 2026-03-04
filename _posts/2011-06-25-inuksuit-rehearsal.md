@@ -7,7 +7,7 @@ tags:
 - percussion
 - performance
 - canberra
-- National Gallery of Australia
+- national gallery of australia
 status: publish
 type: post
 published: true

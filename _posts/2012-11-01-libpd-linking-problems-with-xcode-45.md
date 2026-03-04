@@ -5,7 +5,7 @@ categories:
 - note
 tags:
 - xcode
-- iOS
+- ios
 - libpd
 status: publish
 type: post

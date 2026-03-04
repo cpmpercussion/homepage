@@ -4,8 +4,8 @@ title: At PASIC now.
 categories:
 - Note
 tags:
-- Travel
-- PASIC
+- travel
+- pasic
 status: publish
 type: post
 published: true

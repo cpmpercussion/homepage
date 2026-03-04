@@ -4,12 +4,12 @@ title: Neural Network Ensembles in London and Representing Collaborative Interac
 categories:
 - essay
 tags:
-- AI
-- RNN
+- machine-learning
+- rnn
 - music
-- iPad
-- Neural Network
-- Deep Learning
+- ipad
+- neural network
+- deep learning
 - conference
 status: publish
 type: post

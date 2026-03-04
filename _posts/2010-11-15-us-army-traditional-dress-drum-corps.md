@@ -4,11 +4,11 @@ title: US Army traditional dress drum corps.
 categories:
 - Photoblog
 tags:
-- Drum Corps
-- Percussion
-- Travel
-- PASIC
-- Indianapolis
+- drum corps
+- percussion
+- travel
+- pasic
+- indianapolis
 status: publish
 type: post
 published: true

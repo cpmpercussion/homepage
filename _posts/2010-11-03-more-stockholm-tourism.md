@@ -4,11 +4,11 @@ title: More Stockholm Tourism
 categories:
 - Photoblog
 tags:
-- Museum
-- Stockholm
-- Ensemble Evolution
-- Sweden
-- Travel
+- museum
+- stockholm
+- ensemble evolution
+- sweden
+- travel
 status: publish
 type: post
 published: true

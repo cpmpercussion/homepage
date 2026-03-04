@@ -2,7 +2,8 @@
 layout: post
 title: Composition ideas
 categories: []
-tags: [strikeonstage]
+tags:
+- strike on stage
 status: publish
 type: post
 published: true

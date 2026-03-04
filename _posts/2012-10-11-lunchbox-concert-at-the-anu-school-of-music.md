@@ -6,9 +6,9 @@ categories:
 tags:
 - vibraphone
 - marimba
-- Gary France
+- gary france
 - performance
-- ANU School of Music
+- anu school of music
 status: publish
 type: post
 published: true

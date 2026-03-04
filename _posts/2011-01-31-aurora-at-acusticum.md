@@ -4,10 +4,10 @@ title: Aurora at Acusticum
 categories:
 - Photoblog
 tags:
-- Aurora
-- Piteå
-- Sweden
-- Solstormen
+- aurora
+- piteå
+- sweden
+- solstormen
 status: publish
 type: post
 published: true

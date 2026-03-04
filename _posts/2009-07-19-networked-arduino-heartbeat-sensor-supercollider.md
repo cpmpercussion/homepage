@@ -3,8 +3,8 @@ layout: post
 title: Networked Arduino Heartbeat sensor + SuperCollider
 categories: []
 tags:
-- Arduino
-- OSC
+- arduino
+- osc
 - heartbeat
 - supercollider
 status: publish

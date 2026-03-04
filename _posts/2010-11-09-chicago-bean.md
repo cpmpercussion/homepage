@@ -4,10 +4,10 @@ title: Chicago bean
 categories:
 - Photoblog
 tags:
-- Travel
-- USA
-- Art
-- Chicago
+- travel
+- usa
+- art
+- chicago
 status: publish
 type: post
 published: true

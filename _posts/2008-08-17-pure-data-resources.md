@@ -4,10 +4,8 @@ title: Pure Data Resources
 categories:
 - Note
 tags:
-- pd
 - pure data
 - computer music
-- Pd
 status: publish
 type: post
 published: true

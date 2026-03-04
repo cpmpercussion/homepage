@@ -4,9 +4,9 @@ title: Library in rain
 categories:
 - photoblog
 tags:
-- iPhone
-- Library
-- ANU School of Music
+- iphone
+- library
+- anu school of music
 - reflection
 status: publish
 type: post

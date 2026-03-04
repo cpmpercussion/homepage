@@ -4,12 +4,12 @@ title: Choosing mallets at Capitol
 categories:
 - Photoblog
 tags:
-- Mallets
-- Stockholm
-- Setup
-- Sweden
-- Travel
-- Percussion
+- mallets
+- stockholm
+- setup
+- sweden
+- travel
+- percussion
 status: publish
 type: post
 published: true

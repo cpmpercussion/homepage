@@ -4,9 +4,9 @@ title: Strike on Stage project
 categories:
 - note
 tags:
-- Strike on Stage
-- Playstation Eye
-- Todo
+- strike on stage
+- playstation eye
+- todo
 status: publish
 type: post
 published: true

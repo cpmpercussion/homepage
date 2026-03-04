@@ -4,9 +4,9 @@ title: Stockholm Friday
 categories:
 - Performance
 tags:
-- Sweden
-- Stockholm
-- Travel
+- sweden
+- stockholm
+- travel
 status: publish
 type: post
 published: true

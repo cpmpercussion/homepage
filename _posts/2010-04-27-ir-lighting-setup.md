@@ -2,7 +2,7 @@
 layout: post
 title: IR Lighting Setup
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

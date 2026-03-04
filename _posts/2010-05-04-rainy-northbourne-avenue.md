@@ -2,7 +2,7 @@
 layout: post
 title: Rainy Northbourne avenue
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

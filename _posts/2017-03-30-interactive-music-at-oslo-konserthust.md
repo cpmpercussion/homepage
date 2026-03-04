@@ -7,7 +7,7 @@ tags:
 - oslo
 - konserthus
 - interactive music
-- EPEC
+- epec
 status: publish
 type: post
 published: true

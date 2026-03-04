@@ -4,10 +4,10 @@ title: Running Pd on the Intel Galileo
 categories:
 - note
 tags:
-- Intel Galileo
-- Physical Computing
-- Pd
-- Computer Music
+- intel galileo
+- physical computing
+- pure data
+- computer music
 status: publish
 type: post
 published: true

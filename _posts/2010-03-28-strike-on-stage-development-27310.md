@@ -5,7 +5,7 @@ categories: []
 tags:
 - belconnen
 - belconnen arts centre
-- Strike on Stage
+- strike on stage
 - development
 status: publish
 type: post

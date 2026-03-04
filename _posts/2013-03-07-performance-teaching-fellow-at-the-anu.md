@@ -6,8 +6,8 @@ categories:
 tags:
 - news
 - teaching
-- Canberra
-- ANU School of Music
+- canberra
+- anu school of music
 status: publish
 type: post
 published: true

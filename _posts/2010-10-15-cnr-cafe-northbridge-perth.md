@@ -2,7 +2,7 @@
 layout: post
 title: CNR Cafe, Northbridge, Perth
 categories: []
-tags: []
+tags:
 status: publish
 type: post
 published: true

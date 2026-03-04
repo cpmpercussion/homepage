@@ -3,9 +3,8 @@ layout: post
 title: Image viewing program in Pd
 categories: []
 tags:
-- Pd
-- music
 - pure data
+- music
 status: publish
 type: post
 published: true

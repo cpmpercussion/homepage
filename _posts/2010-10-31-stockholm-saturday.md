@@ -4,9 +4,9 @@ title: Stockholm Saturday
 categories:
 - Photoblog
 tags:
-- Stockholm
-- Travel
-- Sweden
+- stockholm
+- travel
+- sweden
 status: publish
 type: post
 published: true

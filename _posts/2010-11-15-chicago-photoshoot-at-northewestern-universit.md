@@ -4,9 +4,9 @@ title: Chicago photoshoot at Northewestern university.
 categories:
 - Photoblog
 tags:
-- Chicago
-- Travel
-- USA
+- chicago
+- travel
+- usa
 status: publish
 type: post
 published: true

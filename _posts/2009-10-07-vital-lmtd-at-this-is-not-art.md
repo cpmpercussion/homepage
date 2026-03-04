@@ -4,7 +4,7 @@ title: Vital LMTD at This Is Not Art
 categories:
 - news
 tags:
-- TINA
+- tina
 - crack theatre festival
 - newcastle
 - this is not art

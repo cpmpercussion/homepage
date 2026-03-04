@@ -6,7 +6,7 @@ categories:
 tags:
 - ensemble evolution
 - performance
-- Sweden
+- sweden
 status: publish
 type: post
 published: true

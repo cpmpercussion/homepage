@@ -2,7 +2,10 @@
 layout: post
 title: THE LAST MAN TO DIE - Pilot Season at The Street Theatre July 7-8
 categories: [lmtd]
-tags: [lmtd, show, announcement]
+tags:
+- last man to die
+- performance
+- announcement
 status: publish
 type: post
 published: true

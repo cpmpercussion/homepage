@@ -6,8 +6,8 @@ categories:
 tags:
 - review
 - performance
-- Piteå
-- Black Hole
+- piteå
+- black hole
 status: publish
 type: post
 published: true
