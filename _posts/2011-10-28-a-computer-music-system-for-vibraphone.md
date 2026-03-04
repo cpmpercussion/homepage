@@ -4,10 +4,9 @@ title: A computer music system for vibraphone
 categories:
 - news
 tags:
-- vibrpahone
+- vibraphone
 - rjdj
 - computer music
-- vibraphone
 status: publish
 type: post
 published: true
@@ -18,14 +17,12 @@ I recently finished my first prototype for a dedicated computer music system for
 [Electrofringe](http://www.electrofringe.net/) at the end of September and to take with me to Sweden!
 
 The idea is to have a battery powered computer system that can attach to a vibraphone, includes a microphone for processing the vibraphone sound and can output straight to the mixing desk at a gig.
-  
-       
-![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes1.jpg) 
 
-The whole system fits on the end of my vibraphone - compact! 
-  
+![The whole system fits on the end of my vibraphone - compact!]({{ site.baseurl }}/assets/squarespace_images/2011-10-28-CMSVibes1.jpg)
+
+The whole system fits on the end of my vibraphone - compact!
+
 The current setup has:
-
 
 * 4 electret microphones that blutack under the damper pedal in the vibraphone.
 * A [battery powered preamp and power supply](http://www.amazon.com/Handmade-Electronic-Music-Hardware-Hacking/dp/0415998735/ref=dp_ob_title_bk) for the microphones that mixes them down to a mono signal.
