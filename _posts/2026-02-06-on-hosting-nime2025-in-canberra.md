@@ -11,7 +11,6 @@ tags:
 - computer music
 ---
 
-
 In June 2025, I hosted the [New Interfaces for Musical Expression (NIME)](https://nime.org) conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design.
 In this post I want to talk a bit about the kind of conference we produced, discuss (brag about) what we achieved and thank everybody who contributed.
 Along the way, I have images from a few conference highlights.
