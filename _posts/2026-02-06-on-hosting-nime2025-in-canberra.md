@@ -2,6 +2,13 @@
 layout: post
 title: On hosting NIME2025 in Canberra
 date: 2026-02-06 10:03 +1100
+tags:
+- nime
+- school of computing
+- anu
+- conference
+- chairing
+- computer music
 ---
 
 
