@@ -6,12 +6,17 @@ permalink: /tags/
 ---
 
 <div id="tag-cloud" class="d-flex flex-wrap gap-2 mb-4">
-{% assign sorted_tags = site.tags | sort %}
-{% for tag in sorted_tags %}
-  <a href="/tags/?tag={{ tag[0] | url_encode }}"
+{% assign tag_names = "" | split: "" %}
+{% for tag in site.tags %}
+  {% assign tag_names = tag_names | push: tag[0] %}
+{% endfor %}
+{% assign tag_names = tag_names | sort_natural %}
+{% for tag_name in tag_names %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <a href="/tags/?tag={{ tag_name | url_encode }}"
      class="btn btn-sm btn-outline-secondary rounded-pill tag-filter-btn"
-     data-tag="{{ tag[0] | downcase }}">
-    {{ tag[0] }} <span class="ms-1 opacity-75">{{ tag[1].size }}</span>
+     data-tag="{{ tag_name | downcase }}">
+    {{ tag_name }} <span class="ms-1 opacity-75">{{ tag_posts.size }}</span>
   </a>
 {% endfor %}
 </div>
