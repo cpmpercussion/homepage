@@ -16,7 +16,7 @@ tags: [music technology, machine learning, research, ANU, computer music]
       <h6 class="font-italic">{{ post.date | date_to_string }}</h6>
 		</header>
 		{{ post.excerpt }}
-		<a class="btn btn-sm btn-outline-secondary" href="{{ post.url | relative_url }}">read more</a></li>
+		<a class="btn btn-sm btn-outline-secondary" href="{{ post.url | relative_url }}">read more<span class="visually-hidden"> about {{ post.title }}</span></a>
 	</article>
 	{% endfor %}
 </section>

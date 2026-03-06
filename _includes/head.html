@@ -7,6 +7,34 @@
 <meta name="description" content="{{ page.description }}">
 {% endcomment %} 
 {% seo %}
+{% if page.url == "/" or page.url == "" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Charles Martin",
+  "url": "https://charlesmartin.au",
+  "image": "https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg",
+  "jobTitle": "Senior Lecturer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Australian National University",
+    "url": "https://comp.anu.edu.au/people/charles-martin/"
+  },
+  "knowsAbout": ["Music Technology", "Creative AI", "Human-Computer Interaction", "Computer Music", "Machine Learning"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=mTlH4G8AAAAJ",
+    "https://orcid.org/0000-0001-5683-7529",
+    "https://arxiv.org/a/martin_c_1.html",
+    "https://dblp.org/pid/208/2413.html",
+    "https://github.com/cpmpercussion",
+    "https://aus.social/@charlesmartin",
+    "https://charlesmartin.bandcamp.com/",
+    "https://comp.anu.edu.au/people/charles-martin/"
+  ]
+}
+</script>
+{% endif %}
 <!-- favicons --> 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
