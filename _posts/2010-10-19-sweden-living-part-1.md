@@ -3,6 +3,9 @@ layout: post
 title: Sweden Living Part 1
 categories: []
 tags:
+- sweden
+- pitea
+- travel
 status: publish
 type: post
 published: true

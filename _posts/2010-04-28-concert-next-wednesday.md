@@ -3,6 +3,10 @@ layout: post
 title: Concert Next Wednesday!
 categories: []
 tags:
+- performance
+- canberra
+- percussion
+- vibraphone
 status: publish
 type: post
 published: true

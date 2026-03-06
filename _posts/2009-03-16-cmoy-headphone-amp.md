@@ -3,6 +3,10 @@ layout: post
 title: CMoy Headphone Amp~
 categories: []
 tags:
+- electronics
+- diy
+- hardware
+- audio
 status: publish
 type: post
 published: true

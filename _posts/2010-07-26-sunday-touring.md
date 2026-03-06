@@ -3,6 +3,10 @@ layout: post
 title: Sunday touring
 categories: []
 tags:
+- travel
+- san francisco
+- usa
+- photography
 status: publish
 type: post
 published: true

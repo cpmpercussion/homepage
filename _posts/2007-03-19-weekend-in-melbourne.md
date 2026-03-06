@@ -3,6 +3,10 @@ layout: post
 title: Weekend in Melbourne
 categories: []
 tags:
+- performance
+- los cap
+- melbourne
+- punk
 status: publish
 type: post
 published: true

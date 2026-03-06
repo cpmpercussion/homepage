@@ -3,6 +3,10 @@ layout: post
 title: Last Man To Die PACT Setup.
 categories: []
 tags:
+- last man to die
+- performance
+- canberra
+- setup
 status: publish
 type: post
 published: true

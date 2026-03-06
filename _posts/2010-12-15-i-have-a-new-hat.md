@@ -3,6 +3,8 @@ layout: post
 title: i have a new hat!
 categories: []
 tags:
+- sweden
+- pitea
 status: publish
 type: post
 published: true

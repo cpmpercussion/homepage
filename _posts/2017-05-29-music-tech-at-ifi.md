@@ -3,6 +3,11 @@ layout: post
 title: Music Tech at IFI
 categories: []
 tags:
+- research
+- performance
+- oslo
+- music technology
+- metatone
 status: publish
 type: post
 published: true

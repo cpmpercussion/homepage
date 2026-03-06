@@ -3,6 +3,10 @@ layout: post
 title: Piteå cooking!
 categories: []
 tags:
+- sweden
+- pitea
+- cooking
+- travel
 status: publish
 type: post
 published: true

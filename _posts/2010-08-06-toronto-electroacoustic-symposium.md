@@ -3,6 +3,10 @@ layout: post
 title: Toronto Electroacoustic Symposium
 categories: []
 tags:
+- conference
+- toronto
+- electroacoustic
+- malletkat
 status: publish
 type: post
 published: true

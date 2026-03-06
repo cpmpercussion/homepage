@@ -3,6 +3,10 @@ layout: post
 title: Strike on Stage Micro
 categories: []
 tags:
+- strike on stage
+- performance
+- stanford
+- ccrma
 status: publish
 type: post
 published: true

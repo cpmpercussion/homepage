@@ -3,6 +3,8 @@ layout: post
 title: Camera 1 and Camera 2
 categories: []
 tags:
+- perth
+- photography
 status: publish
 type: post
 published: true

@@ -3,6 +3,10 @@ layout: post
 title: Last Man to Die 2010 - Promo Video
 categories: []
 tags:
+- last man to die
+- performance
+- video
+- canberra
 status: publish
 type: post
 published: true

@@ -3,6 +3,10 @@ layout: post
 title: Japan Arduino Meeting
 categories: []
 tags:
+- arduino
+- japan
+- electronics
+- tokyo
 status: publish
 type: post
 published: true

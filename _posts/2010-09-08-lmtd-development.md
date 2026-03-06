@@ -3,6 +3,8 @@ layout: post
 title: Lmtd development.
 categories: []
 tags:
+- last man to die
+- development
 status: publish
 type: post
 published: true

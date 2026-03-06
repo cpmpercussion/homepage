@@ -3,6 +3,9 @@ layout: post
 title: The Last Man to Die performance 1.
 categories: []
 tags:
+- last man to die
+- performance
+- canberra
 status: publish
 type: post
 published: true

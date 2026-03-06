@@ -3,6 +3,8 @@ layout: post
 title: jellyfish
 categories: []
 tags:
+- photography
+- nature
 status: publish
 type: post
 published: true

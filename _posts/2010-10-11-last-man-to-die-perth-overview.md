@@ -3,6 +3,10 @@ layout: post
 title: 'Last Man to Die: Perth Overview'
 categories: []
 tags:
+- last man to die
+- performance
+- perth
+- video
 status: publish
 type: post
 published: true

@@ -3,6 +3,9 @@ layout: post
 title: Last Man to Die at Brisbane UTR
 categories: []
 tags:
+- last man to die
+- performance
+- brisbane
 status: publish
 type: post
 published: true

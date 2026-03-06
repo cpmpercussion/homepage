@@ -3,6 +3,10 @@ layout: post
 title: Cool Reggae jam
 categories: []
 tags:
+- music
+- composition
+- recording
+- reggae
 status: publish
 type: post
 published: true

@@ -3,6 +3,11 @@ layout: post
 title: Getting the size of an array in libpd
 categories: []
 tags:
+- libpd
+- ios
+- programming
+- pure data
+- tip
 status: publish
 type: post
 published: true

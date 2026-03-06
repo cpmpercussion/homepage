@@ -3,6 +3,10 @@ layout: post
 title: Black hole
 categories: []
 tags:
+- performance
+- sweden
+- studio acusticum
+- computer music
 status: publish
 type: post
 published: true

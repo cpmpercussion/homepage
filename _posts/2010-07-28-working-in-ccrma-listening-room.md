@@ -3,6 +3,10 @@ layout: post
 title: Working in CCRMA Listening room
 categories: []
 tags:
+- stanford
+- ccrma
+- computer music
+- supercollider
 status: publish
 type: post
 published: true

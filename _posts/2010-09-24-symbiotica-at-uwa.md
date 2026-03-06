@@ -3,6 +3,9 @@ layout: post
 title: SymbioticA at UWA
 categories: []
 tags:
+- art
+- perth
+- uwa
 status: publish
 type: post
 published: true

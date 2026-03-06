@@ -3,6 +3,10 @@ layout: post
 title: '"Sounds from the Treetops" - CD Available!'
 categories: []
 tags:
+- ensemble evolution
+- music
+- album
+- release
 status: publish
 type: post
 published: true

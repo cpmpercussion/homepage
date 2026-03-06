@@ -3,6 +3,9 @@ layout: post
 title: Ningen dogs orchestra.
 categories: []
 tags:
+- nime
+- performance
+- sydney
 status: publish
 type: post
 published: true

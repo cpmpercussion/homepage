@@ -3,6 +3,8 @@ layout: post
 title: new Piteå apartment.
 categories: []
 tags:
+- sweden
+- pitea
 status: publish
 type: post
 published: true

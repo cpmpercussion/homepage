@@ -3,6 +3,11 @@ layout: post
 title: 'DRUMatiX: The Next Phrase'
 categories: []
 tags:
+- performance
+- canberra
+- percussion
+- drumatix
+- concert
 status: publish
 type: post
 published: true

@@ -3,6 +3,9 @@ layout: post
 title: School of music at night
 categories: []
 tags:
+- canberra
+- photography
+- anu
 status: publish
 type: post
 published: true

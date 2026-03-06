@@ -3,6 +3,11 @@ layout: post
 title: SOS 1.2 @ ACMA Conference, Canberra, June 2010
 categories: []
 tags:
+- strike on stage
+- performance
+- acmc
+- canberra
+- computer music
 status: publish
 type: post
 published: true

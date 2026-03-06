@@ -3,6 +3,9 @@ layout: post
 title: LMTD at Blue Room
 categories: []
 tags:
+- last man to die
+- performance
+- perth
 status: publish
 type: post
 published: true

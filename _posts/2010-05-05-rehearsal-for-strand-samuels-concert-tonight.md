@@ -3,6 +3,9 @@ layout: post
 title: Rehearsal for Åstrand / Samuels concert tonight.
 categories: []
 tags:
+- performance
+- canberra
+- percussion
 status: publish
 type: post
 published: true

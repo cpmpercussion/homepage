@@ -3,6 +3,9 @@ layout: post
 title: New screen!
 categories: []
 tags:
+- strike on stage
+- equipment
+- hardware
 status: publish
 type: post
 published: true

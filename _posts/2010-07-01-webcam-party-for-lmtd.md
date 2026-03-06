@@ -3,6 +3,9 @@ layout: post
 title: Webcam party for LMTD
 categories: []
 tags:
+- last man to die
+- equipment
+- computer vision
 status: publish
 type: post
 published: true

@@ -3,6 +3,10 @@ layout: post
 title: Downhill views of San Francisco
 categories: []
 tags:
+- travel
+- san francisco
+- usa
+- photography
 status: publish
 type: post
 published: true

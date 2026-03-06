@@ -3,6 +3,8 @@ layout: post
 title: Rainy Northbourne avenue
 categories: []
 tags:
+- canberra
+- photography
 status: publish
 type: post
 published: true

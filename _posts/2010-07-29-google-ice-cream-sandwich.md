@@ -3,6 +3,9 @@ layout: post
 title: Google ice cream sandwich!
 categories: []
 tags:
+- travel
+- usa
+- food
 status: publish
 type: post
 published: true

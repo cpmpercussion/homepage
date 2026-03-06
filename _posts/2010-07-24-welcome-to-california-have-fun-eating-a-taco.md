@@ -3,6 +3,10 @@ layout: post
 title: Welcome to California, have fun eating a taco.
 categories: []
 tags:
+- travel
+- california
+- usa
+- food
 status: publish
 type: post
 published: true

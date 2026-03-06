@@ -3,6 +3,9 @@ layout: post
 title: Northbridge, Perth.
 categories: []
 tags:
+- perth
+- travel
+- photography
 status: publish
 type: post
 published: true

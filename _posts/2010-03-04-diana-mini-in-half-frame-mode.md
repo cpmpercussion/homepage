@@ -3,6 +3,10 @@ layout: post
 title: Diana Mini in half frame mode
 categories: []
 tags:
+- photography
+- diana mini
+- canberra
+- film
 status: publish
 type: post
 published: true

@@ -3,6 +3,11 @@ layout: post
 title: Wireless Actor Arduino for LMTD.
 categories: []
 tags:
+- arduino
+- last man to die
+- xbee
+- electronics
+- wireless
 status: publish
 type: post
 published: true

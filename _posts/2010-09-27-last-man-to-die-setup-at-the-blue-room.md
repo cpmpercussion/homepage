@@ -3,6 +3,10 @@ layout: post
 title: Last Man to Die - Setup at the Blue Room
 categories: []
 tags:
+- last man to die
+- perth
+- setup
+- performance
 status: publish
 type: post
 published: true

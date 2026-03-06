@@ -3,6 +3,10 @@ layout: post
 title: Newcastle March 30/31
 categories: []
 tags:
+- performance
+- los cap
+- newcastle
+- punk
 status: publish
 type: post
 published: true

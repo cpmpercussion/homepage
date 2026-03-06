@@ -3,6 +3,11 @@ layout: post
 title: Stanford CCRMA Tabletop Interface Workshop
 categories: []
 tags:
+- stanford
+- ccrma
+- multitouch
+- workshop
+- performance
 status: publish
 type: post
 published: true

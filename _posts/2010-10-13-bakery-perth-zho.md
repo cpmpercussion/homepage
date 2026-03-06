@@ -3,6 +3,9 @@ layout: post
 title: Bakery - Perth, Zho
 categories: []
 tags:
+- perth
+- concert
+- music
 status: publish
 type: post
 published: true

@@ -3,6 +3,10 @@ layout: post
 title: Speedier saveFrame() in Processing
 categories: []
 tags:
+- processing
+- tip
+- programming
+- metatone
 status: publish
 type: post
 published: true

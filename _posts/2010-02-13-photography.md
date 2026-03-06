@@ -3,6 +3,10 @@ layout: post
 title: photography
 categories: []
 tags:
+- photography
+- japan
+- tokyo
+- diana mini
 status: publish
 type: post
 published: true

@@ -3,6 +3,8 @@ layout: post
 title: Last morning at CNR.
 categories: []
 tags:
+- perth
+- coffee
 status: publish
 type: post
 published: true

@@ -3,6 +3,10 @@ layout: post
 title: IR Lighting Setup
 categories: []
 tags:
+- strike on stage
+- electronics
+- infrared
+- setup
 status: publish
 type: post
 published: true

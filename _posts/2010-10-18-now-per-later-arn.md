@@ -3,6 +3,8 @@ layout: post
 title: 'Now: PER. Later: ARN'
 categories: []
 tags:
+- travel
+- perth
 status: publish
 type: post
 published: true

@@ -3,6 +3,8 @@ layout: post
 title: straw secured!
 categories: []
 tags:
+- last man to die
+- setup
 status: publish
 type: post
 published: true
