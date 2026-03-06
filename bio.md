@@ -10,14 +10,23 @@ published: true
 meta: {}
 carousel:
   - image: /assets/bio/charlesmartin-synth-profile.jpg
+    alt: Charles Martin with a synthesiser
   - image: /assets/bio/charles-instudio.jpg
+    alt: Charles Martin in the recording studio
   - image: /assets/bio/charles-vibraphone-at-the-mirror-cube.jpg
+    alt: Charles Martin playing vibraphone at the Mirror Cube
   - image: /assets/bio/negative-space.jpg
+    alt: Charles Martin performing
   - image: /assets/bio/metatone-transfer-promo1.jpg
+    alt: Ensemble Metatone performing
   - image: /assets/bio/norravinter-tina2011-adamthomas.jpg
+    alt: Nordlig Vinter performance with Tina and Adam Thomas, 2011
   - image: /assets/bio/hos2.jpg
+    alt: Charles Martin performing
   - image: /assets/bio/charlesrecitalimage.jpg
+    alt: Charles Martin recital performance
   - image: /assets/bio/touch-and-tone-profile.jpg
+    alt: Charles Martin at Touch and Tone
 ---
 
 Charles Martin is an Australian computer scientist, percussionist and digital artist blending traditional instruments with cutting-edge technology. His innovative performances explore artificial intelligence and augmented realities, creating captivating sonic landscapes. Martin's work has been featured across Australia, Europe, and the USA.
