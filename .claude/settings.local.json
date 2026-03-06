@@ -11,7 +11,18 @@
       "Bash(curl:*)",
       "Bash(xargs:*)",
       "Bash(find:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(do if:*)",
+      "Bash(grep:*)",
+      "Bash(for f in _posts/2008-09-21-cognition.md _posts/2009-03-04-arduino.md _posts/2011-09-12-developing-for-rjdj-on-mac-os-x-lion.md _posts/2012-10-28-exporting-auxiliary-channels-in-logic.md _posts/2013-06-10-review-beiner-bags-m55-vibraphone-cases.md)",
+      "Bash(do)",
+      "Bash(echo \"=== $f ===\")",
+      "Read(//Users/charles/src/homepage/**)",
+      "Bash(done)",
+      "Bash(for f in _posts/2006-01-31-new-music.md _posts/2006-04-13-cool-reggae-jam.md _posts/2007-03-10-16.md _posts/2007-03-19-weekend-in-melbourne.md _posts/2007-04-09-newcastle-march-3031.md _posts/2009-03-16-cmoy-headphone-amp.md _posts/2009-12-09-last-man-to-die-showing-at-canberra-youth-theatre.md _posts/2010-01-30-japan-arduino-meeting.md _posts/2010-02-13-photography.md _posts/2010-03-04-diana-mini-in-half-frame-mode.md)",
+      "Bash(for f in _posts/2010-03-18-last-man-to-die-2010-promo-video.md _posts/2010-04-10-new-screen.md _posts/2010-04-17-school-of-music-at-night.md _posts/2010-04-22-last-man-to-die-pact-setup.md _posts/2010-04-22-straw-secured.md _posts/2010-04-27-ir-lighting-setup.md _posts/2010-04-28-concert-next-wednesday.md _posts/2010-05-04-rainy-northbourne-avenue.md _posts/2010-05-05-rehearsal-for-strand-samuels-concert-tonight.md _posts/2010-06-15-ningen-dogs-orchestra.md _posts/2010-06-17-nime2010-day-2.md _posts/2010-07-01-webcam-party-for-lmtd.md _posts/2010-07-08-the-last-man-to-die-performance-1.md _posts/2010-07-21-strike-on-stage-micro.md)",
+      "Bash(for f in _posts/2010-07-24-welcome-to-california-have-fun-eating-a-taco.md _posts/2010-07-25-downhill-views-of-san-francisco.md _posts/2010-07-26-sunday-touring.md _posts/2010-07-28-working-in-ccrma-listening-room.md _posts/2010-07-29-google-ice-cream-sandwich.md _posts/2010-07-30-computer-music-concert-stanford-ccrma-listening-room-30th-ju.md _posts/2010-08-06-toronto-electroacoustic-symposium.md _posts/2010-08-15-sos-12-acma-conference-canberra-june-2010.md _posts/2010-08-15-stanford-ccrma-tabletop-interface-workshop.md _posts/2010-09-08-lmtd-development.md _posts/2010-09-16-last-man-to-die-at-brisbane-utr.md _posts/2010-09-24-symbiotica-at-uwa.md _posts/2010-09-25-northbridge-perth.md _posts/2010-09-27-last-man-to-die-setup-at-the-blue-room.md)",
+      "Bash(for f in _posts/2010-09-30-lmtd-at-blue-room.md _posts/2010-10-03-perth.md _posts/2010-10-07-camera-1-and-camera-2.md _posts/2010-10-08-wireless-actor-arduino-for-lmtd.md _posts/2010-10-11-last-man-to-die-perth-overview.md _posts/2010-10-13-bakery-perth-zho.md _posts/2010-10-15-cnr-cafe-northbridge-perth.md _posts/2010-10-18-last-morning-at-cnr.md _posts/2010-10-18-now-per-later-arn.md _posts/2010-10-19-sweden-living-part-1.md _posts/2010-10-21-new-pitea-apartment.md _posts/2010-10-21-pitea-cooking.md _posts/2010-12-15-i-have-a-new-hat.md _posts/2011-04-20-black-hole.md _posts/2012-07-17-paper-in-acmc-2012.md _posts/2012-09-10-dishwashingbrush.md _posts/2012-10-01-jellyfish.md _posts/2012-11-19-drumatix-the-next-phrase.md _posts/2013-04-29-sounds-from-the-treetops-cd-available.md _posts/2013-07-05-speedier-saveframe-in-processing.md _posts/2013-07-18-getting-the-size-of-an-array-in-libpd.md _posts/2014-08-01-review-2014-ameb-percussion-syllabus.md _posts/2017-05-29-music-tech-at-ifi.md)"
     ]
   }
 }
