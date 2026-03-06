@@ -26,7 +26,13 @@ This is a **Jekyll 4** personal/academic website for Charles Martin (charlesmart
 
 ### Content collections
 
-- **`_posts/`** — Blog posts, named `YYYY-MM-DD-slug.md`. Front matter includes `layout: post`, `title`, `date`, `category`, `tags`, and optionally `type: lab` (marks the post as appearing on the SMCCLAB lab page).
+- **`_posts/`** — Blog posts, named `YYYY-MM-DD-slug.md`. Front matter includes `layout: post`, `title`, `date`, `category`, `tags`, and optionally `type: lab` (marks the post as appearing on the SMCCLAB lab page). Tags use multiline YAML list format:
+  ```yaml
+  tags:
+  - tag one
+  - tag two
+  ```
+  Older posts (2006–2014, migrated from WordPress/Posterous) may have legacy front matter fields like `status`, `meta`, `published`, and `categories: []` — these are harmless but not used by the current theme.
 - **`_projects/`** — Portfolio project pages, using `layout: project`. Front matter includes `started`, `ended`, `image`, `image_alt`, `summary`.
 - **`_lab/`** — Pages for the SMCCLAB research group section, using `layout: page`.
 - **`_bibliography/publications.bib`** — BibTeX file powering the publications page via `jekyll-scholar`. Updated by running `./get_publications.sh` (fetches from a separate GitHub repo). Publications are filtered by BibTeX `keywords` field (e.g. `refereed`, `conference-paper`, `journal-article`).
