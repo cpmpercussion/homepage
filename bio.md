@@ -24,7 +24,7 @@ Charles Martin is an Australian computer scientist, percussionist and digital ar
 
 Charles develops musical apps such as MicroJam and PhaseRings, researches creative AI, and performs music with Ensemble Metatone and Andromeda is Coming. At the ANU, Charles teaches creative computing and leads research into intelligent musical instruments. His lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.
 
-Prior to his present appointment as a Senior Lecturer in ccomputer science at the ANU, Charles was a postdoctoral research fellow at the University of Oslo's [Robotics and Intelligent Systems](https://www.mn.uio.no/ifi/english/research/groups/robin/) research group (2016-2019).
+Prior to his present appointment as a Senior Lecturer in computer science at the ANU, Charles was a postdoctoral research fellow at the University of Oslo's [Robotics and Intelligent Systems](https://www.mn.uio.no/ifi/english/research/groups/robin/) research group (2016-2019).
 
 ## Images
 
