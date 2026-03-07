@@ -69,3 +69,27 @@ Use Jekyll's `{% link %}` tag for internal links (e.g. `{% link _projects/microj
 ### Publications workflow
 
 The BibTeX file is maintained externally at `cpmpercussion/cpm-website-publications-list` on GitHub. Run `./get_publications.sh` to pull the latest version and strip metadata fields that cause parsing issues. Do not edit `_bibliography/publications.bib` directly.
+
+## SEO and accessibility conventions
+
+### Post front matter
+- Use `description:` for an explicit meta description (jekyll-seo-tag picks this up for `og:description` and `<meta name="description">`)
+- Use `image:` to set the `og:image` for social preview cards (important for Twitter `summary_large_image` card)
+- Tags use multiline YAML list format (see Content collections above)
+
+### Carousel images (`_includes/carousel.html`)
+Carousel entries in front matter support both `image:` and `alt:` fields:
+```yaml
+carousel:
+  - image: /assets/bio/example.jpg
+    alt: Descriptive alt text for the image
+```
+
+### Structured data
+- `llms.txt` at root — plain-text site summary for LLM crawlers (update if site content or profiles change)
+- Homepage (`index.html`) head includes a Schema.org `Person` JSON-LD block via `_includes/head.html` (only rendered on `/`) — update if job title, institution, or profile URLs change
+
+### Accessibility
+- Skip-to-content link is in `_includes/nav.html`; `<main>` has `id="main-content"` in `_layouts/default.html`
+- "Read more" links on the homepage use `visually-hidden` spans with post titles for screen readers
+- Twitter card type is `summary_large_image` (set in `_config.yml`)
