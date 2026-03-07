@@ -9,6 +9,7 @@ tags:
 - course-design
 - anu
 - research-methods
+description: "A reflection on redesigning ANU's COMP3900/6390 HCI course to scaffold the core skills of HCI research — needs finding, prototyping, qualitative and quantitative methods, and research reporting — so every student finishes the course having actually done HCI."
 ---
 
 Human-computer interaction is one of the most genuinely interdisciplinary fields in computing. It asks students to move between user experience theory, design practice, empirical research, and reflective communication — often within a single project. This semester I completed a [major redesign of COMP3900/6390](https://smcclab.au/thirty-nine-hundred-hci/), ANU's undergraduate and postgraduate introductory HCI course, with a clear goal: to scaffold all the core skills of HCI research so that every student who finishes the course has actually _done_ HCI, not just read about it.

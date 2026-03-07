@@ -9,6 +9,7 @@ tags:
 - conference
 - chairing
 - computer music
+description: "A reflection on hosting the New Interfaces for Musical Expression (NIME2025) conference at ANU in Canberra in June 2025, covering what the conference achieved, its interdisciplinary music and research program, and thanks to all who contributed."
 ---
 
 In June 2025, I hosted the [New Interfaces for Musical Expression (NIME)](https://nime.org) conference at ANU in Canberra, and served as a general chair along with Pia van Gelder from the ANU School of Art and Design.
