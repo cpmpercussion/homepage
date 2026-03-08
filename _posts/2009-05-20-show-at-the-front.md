@@ -26,4 +26,4 @@ Recordings:
 * [Duet for Vibraphone and Computer](http://www.charlesmartin.com.au/music/Abstraktions_5_files/090520-cpmTheFront-DuetVibe.mp3)
 * [Electric Counterpoint](http://www.charlesmartin.com.au/music/Abstraktions_5_files/090520-cpmTheFront-Electric.mp3) (Steve Reich)
 
-![]({{ site.baseurl }}/assets/squarespace_images/abstraktions-performing.jpg)
+![]({{ site.baseurl }}/assets/blogger/abstraktions-performing.jpg)

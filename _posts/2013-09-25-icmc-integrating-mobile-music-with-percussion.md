@@ -17,7 +17,7 @@ meta: {}
 description: "I recently presented a poster and paper at ICMC2013 (International Computer Music Conference) in Perth! Here's the text of the poster and a link to the"
 ---
 
-I recently presented a poster and paper at ICMC2013 (International Computer Music Conference) in Perth! Here's the text of the poster and a [link to the paper](/s/Martin-Integrating-Mobile-Music-with-Percussion.pdf) that went with it!
+I recently presented a poster and paper at ICMC2013 (International Computer Music Conference) in Perth! Here's the text of the poster and a link to the paper that went with it!
 
 > To introduce computer based instruments into a percussion ensemble with no experience in computer music, Charles Martin developed a series of musical works for percussion, iPhones and iPads.
 

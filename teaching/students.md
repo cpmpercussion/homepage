@@ -40,9 +40,9 @@ Charles' home studio in Ainslie, ACT price: $80 per 1 hour lesson.
 If you don't have any mallets, here's a few models that are good for
 starting out.
 
--   [Innovative Percussion RS251 Medium Vibraphone/Marimba]()
--   [Innovative Percussion AA25 Medium Vibraphone/Marimba]()
--   [Mike Balter 41 Arthur Lipner Medium Vibraphone]()
+-   Innovative Percussion RS251 Medium Vibraphone/Marimba
+-   Innovative Percussion AA25 Medium Vibraphone/Marimba
+-   Mike Balter 41 Arthur Lipner Medium Vibraphone
 
 ### Handbook for Percussion
 

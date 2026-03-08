@@ -15,7 +15,7 @@ description: "Webcam party for lmtd. - 2x xbox 360 camera - 1x PS3 camera - 5m U
 
 Webcam party for lmtd.
 
-![]({{site.baseurl}}/assets/charlesmartin/2010-07-lmtdcameraarrival.jpg)
+![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-lmtdcameraarrival.jpg)
 
 - 2x xbox 360 camera 
 - 1x PS3 camera 

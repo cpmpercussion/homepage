@@ -18,16 +18,16 @@ prepare repertoire for recitals or auditions.
 
 **Possible Topics for Lessons:**
 
--   Beginning Drumset
--   Beginning Mallet Percussion
--   Sight Reading
--   Vibraphone repertoire and technique
--   4-Mallet Marimba Repertoire
--   Jazz Vibraphone and Marimba
--   Electronic Percussion
--   Free improvisation
--   Composing for percussion
--   Recording
+- Beginning Drumset
+- Beginning Mallet Percussion
+- Sight Reading
+- Vibraphone repertoire and technique
+- 4-Mallet Marimba Repertoire
+- Jazz Vibraphone and Marimba
+- Electronic Percussion
+- Free improvisation
+- Composing for percussion
+- Recording
 
 Lessons take place in the School of Music's specialised percussion
 studios where we will have access to drumsets, marimbas, vibraphones,

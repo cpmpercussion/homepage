@@ -14,7 +14,7 @@ Charles composes music for percussion and computer with a focus on ensembles. He
 ## Works for iPad Ensemble
 
 <span class="image left">
-<img src="/assets/compositions/correspondences.jpg">
+<img src="/assets/compositions/correspondences.jpg" alt="Score or performance image for Correspondences for iPad/Percussion Ensemble">
 </span>
 
 ### Correspondences for iPad/Percussion Ensemble
@@ -28,7 +28,7 @@ Duration: 6'30"
 Correspondences was composed for Ensemble Metatone, a group dedicated to exploring performance with percussion and iPads. The [premiere](https://www.youtube.com/watch?v=ICeHWlNRsgU) took place in August 2014 at the Drill Hall Gallery, Canberra, Australia as part of their Colour Music exhibition. 
 
 <span class="image left">
-<img src="/assets/compositions/gesture-study-1.jpg">
+<img src="/assets/compositions/gesture-study-1.jpg" alt="An ensemble of percussionists performing Gesture Study No. 1 on iPads">
 </span>
 
 ### Gesture Study No. 1
@@ -56,7 +56,7 @@ For swirls, the speed of the swirling changes the dynamics. For taps, you can pl
 The iPad parts are written with three articulations to represent three touch-screen gestures. Staccato denotes a short tap, tenuto denotes a swipe for the duration of the note and a circle denotes a continuous swirling gesture. Where swirled notes coincide with tapped notes, one hand should swirl while the other hand taps.
 
 <span class="image left">
-<img src="/assets/compositions/gesture-study-2.jpg">
+<img src="/assets/compositions/gesture-study-2.jpg" alt="Score or performance image for Gesture Study No. 2">
 </span>
 
 ### Gesture Study No. 2
@@ -70,7 +70,7 @@ It's free so try it out!
 ## Advanced Solos and Ensemble Music
 
 <span class="image left">
-<img src="/assets/compositions/nordlig-vinter-solo-suite.jpg">
+<img src="/assets/compositions/nordlig-vinter-solo-suite.jpg" alt="Cover image for Nordlig Vinter Solo Suite">
 </span>
 
 ### Nordlig Vinter Solo Suite
@@ -84,7 +84,7 @@ Digital download of PDF scores for "Ice Drum", "Clusters", and "Snow Bells" for 
 - Snow Bells (vibraphone and digital effects)
 
 <span class="image left">
-<img src="/assets/compositions/even-the-trees-are-frozen.jpg">
+<img src="/assets/compositions/even-the-trees-are-frozen.jpg" alt="Cover image for Even the Trees are Frozen">
 </span>
 
 ### Even the Trees are Frozen
@@ -96,7 +96,7 @@ This score is fully realised and ready to perform but includes chord changes in 
 This work was composed in April 2011 in Piteå, Northern Sweden. Having made it through a long cold winter, the days were getting really long and I used the extra time for recording new music at the marimba in our studio. I premiered this work with Christina Hopgood at Electrofringe 2011 in Australia, but have recently performed an updated version in Boston with Maria Finkelmeier - [here's the video](https://www.youtube.com/watch?v=30_RamtnQcY)
 
 <span class="image left">
-<img src="/assets/compositions/walk-on-a-white-path-cover.jpg">
+<img src="/assets/compositions/walk-on-a-white-path-cover.jpg" alt="Cover image for Walk on a White Path">
 </span>
 
 ### Walk on a White Path (duo + sextet)
@@ -108,7 +108,7 @@ This score is fully realised and ready to perform but includes chord changes in 
 ## Educational Music
 
 <span class="image left">
-<img src="/assets/compositions/rebelrock.jpg">
+<img src="/assets/compositions/rebelrock.jpg" alt="Cover image for Rebel Rock">
 </span>
 
 ### Rebel Rock

@@ -23,7 +23,7 @@ description: "Update! Videos and photos from the event are in this post. I'm per
 
 **Update!**
 
-Videos and photos from the event are in [this post](/blog/2013/12/4/theremin-75-videos-and-pictures).
+Videos and photos from the event are in [this post](/blog/2013/12/04/theremin-75-videos-and-pictures).
 
 I'm performing with Ensemble Metatone at a very exciting concert on Friday 25/10 at the ANU School of Art Gallery!
 

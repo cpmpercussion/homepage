@@ -68,7 +68,7 @@ Projects should align with my current [focus areas]({% link _posts/2023-08-26-pr
 
 ![Charles Martin Background Areas]({{site.baseurl}}/assets/images/charlesmartin-background.jpg)
 
-Experience with a creative field is a must. Computing students should have taken either [COMP1720/6720 Art and Interaction Computing]() or [COMP4350/8350 Sound and Music Computing]() and obtained excellent results.
+Experience with a creative field is a must. Computing students should have taken either [COMP1720/6720 Art and Interaction Computing](https://comp.anu.edu.au/courses/comp1720) or [COMP4350/8350 Sound and Music Computing](https://comp.anu.edu.au/courses/comp4350) and obtained excellent results.
 
 {% comment %}
 ### Creating a New Interface for Musical Expression
