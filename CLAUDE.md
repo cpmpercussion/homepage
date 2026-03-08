@@ -58,6 +58,23 @@ Key Jekyll plugins configured in `_config.yml`:
 - `jekyll-toc` — Auto table of contents (used in post layout via `{% include tocdiv.html %}`)
 - `jekyll-seo-tag` — SEO meta tags in `<head>`
 
+### Homepage topic shortcuts
+
+`_config.yml` has a `shortcut_tags` list that controls the topic shortcut buttons shown above "Recent Posts" on the homepage:
+
+```yaml
+shortcut_tags:
+  - research
+  - teaching
+  - performance
+```
+
+These link to `/tags/?tag=<name>`. Values must match actual tag names used in posts (lowercase). To add or change shortcuts, edit this list — no changes to `index.html` needed. The tags page hides the full tag cloud when a filter is active, with a "Browse all tags" toggle to reveal it.
+
+### Button styles
+
+Use `btn-outline-secondary` for tag/filter buttons and secondary actions throughout the site. Use `btn-secondary` (filled) for primary navigation actions like "All tags →". Avoid `btn-outline-primary` or `btn-link` — these introduce colours outside the site's orange/amber scheme.
+
 ### Styling
 
 `assets/css/main.scss` and `assets/css/bibliography.scss` are Sass source files processed by Jekyll at build time (configured via `sass:` in `_config.yml`). Bootstrap, academicons, and `image-captions.css` are pre-compiled third-party files stored directly in `assets/css/`.

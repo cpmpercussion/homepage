@@ -239,7 +239,13 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
     <div class="container rounded bg-body">	   
       <main id="main-content" class="my-2 p-4" aria-label="Content">
-        <h2>Recent Posts</h2>
+        <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+  <small class="text-secondary me-1">Topics:</small>
+  <a href="/tags/" class="btn btn-sm btn-secondary">All tags →</a>
+  <a href="/tags/?tag=research" class="btn btn-sm btn-outline-secondary">Research</a><a href="/tags/?tag=teaching" class="btn btn-sm btn-outline-secondary">Teaching</a><a href="/tags/?tag=performance" class="btn btn-sm btn-outline-secondary">Performance</a>
+</div>
+
+<h2>Recent Posts</h2>
 
 <section class="row">
 	
@@ -306,14 +312,6 @@ Along the way, I have images from a few conference highlights.</p>
 	</article>
 	
 </section>
-
-<h2 class="mt-4">Topics</h2>
-
-
-<div class="d-flex flex-wrap align-items-center gap-2 mb-4">
-  <a href="/tags/?tag=performance" class="btn btn-sm btn-outline-secondary">performance</a><a href="/tags/?tag=travel" class="btn btn-sm btn-outline-secondary">travel</a><a href="/tags/?tag=percussion" class="btn btn-sm btn-outline-secondary">percussion</a><a href="/tags/?tag=sweden" class="btn btn-sm btn-outline-secondary">sweden</a><a href="/tags/?tag=computer+music" class="btn btn-sm btn-outline-secondary">computer music</a><a href="/tags/?tag=pite%C3%A5" class="btn btn-sm btn-outline-secondary">piteå</a><a href="/tags/?tag=last+man+to+die" class="btn btn-sm btn-outline-secondary">last man to die</a><a href="/tags/?tag=canberra" class="btn btn-sm btn-outline-secondary">canberra</a>
-  <a href="/tags/" class="btn btn-sm btn-secondary">All tags →</a>
-</div>
 
       </main>
     </div>
