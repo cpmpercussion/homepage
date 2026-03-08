@@ -70,10 +70,10 @@ Charles Martin is a computer scientist specialising in music technology, creativ
 <li><a href="https://microjam.info">MicroJam</a> (2016-) Exploring Tiny Performances and Prediction with Smartphones at the University of Oslo.</li>
 <li><a href="https://collectedresonances.bandcamp.com/album/andromeda-is-coming">Andromeda is Coming (2015-)</a> Improvised music and media duo with Alec Hunter.</li>
 <li><a href="https://charlesmartin.com.au/metatone">Metatone</a> (2012-2016) Research project extending ensemble improvisation with new music-making iPad apps, gesture recognition and machine learning.</li>
-<li><a href="http://www.sticksandtones.net">Sticks and Tones</a> (2012-) Mallet percussion duo that perform music from the ragtime era, classic films and video games!</li>
-<li><a href="https://charlesmartin.com.au/nordligvintersolosuite/">Nordlig Vinter</a> (2011-2013) A suite of compositions for percussion and iOS devices created by Charles Martin while living in Piteå, near the Arctic circle in northern Sweden.</li>
-<li><a href="http://ensemble-evolution.com">Ensemble Evolution</a> (2010-) An international ensemble exploring the future of percussion through composition, education and technology.</li>
-<li><a href="http://www.lastmantodie.net">Last Man to Die</a> (2008-2010) Cross-artform group that connect acting, drawing, and percussion through technology in installation/performances.</li>
-<li><a href="https://charlesmartin.com.au/strike-on-stage/">Strike on Stage</a> (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
+<li>Sticks and Tones (2012-) Mallet percussion duo that perform music from the ragtime era, classic films and video games!</li>
+<li>Nordlig Vinter (2011-2013) A suite of compositions for percussion and iOS devices created by Charles Martin while living in Piteå, near the Arctic circle in northern Sweden.</li>
+<li>Ensemble Evolution (2010-) An international ensemble exploring the future of percussion through composition, education and technology.</li>
+<li>Last Man to Die (2008-2010) Cross-artform group that connect acting, drawing, and percussion through technology in installation/performances.</li>
+<li>Strike on Stage (2009-2010) Percussion and multimedia performance using computer vision and augmented reality.</li>
 </ul>
 {% endcomment %}

@@ -166,7 +166,7 @@ Examiners look for your ability to:
 - create an artefact, or code project skillfully, and explain it
 - perform experiments or critically engage with your research problem.
 
-Your grade is **not** based on your results (really!) (see [Honours marking guidelines](http://users.cecs.anu.edu.au/~jks/Hons_May_17/Thesis_marking_guide.html))
+Your grade is **not** based on your results (really!) (see Honours marking guidelines)
 
 If you get "good" results (yay!) but don't discuss them in detail, or critically engage in _why_ they are good, you won't do well. (and the converse)
 

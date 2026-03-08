@@ -13,7 +13,7 @@ meta: {}
 description: "A review by Helen Musa appears in the 24th September 2008 edition of City News. The relevant excerpt is here Hunting season 08, Belconnen Theatre,"
 ---
 
-A [review by Helen Musa](http://www.citynews.com.au/index.php/content/article/challenge_to_new_worlders/) appears in the 24th September 2008 edition of City News. The relevant excerpt is here:
+A [review by Helen Musa](https://www.citynews.com.au/index.php/content/article/challenge_to_new_worlders/) appears in the 24th September 2008 edition of City News. The relevant excerpt is here:
 
 _Hunting season 08_, Belconnen Theatre, September 17-21.
 
