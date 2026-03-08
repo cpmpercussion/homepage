@@ -16,11 +16,15 @@ jobs:
       - name: build
         run: |
           bundle exec jekyll build
+      - name: Run HTML-proofer
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --no-enforce-https \
+            --assume-extension .html \
+            --ignore-urls "/twitter.com/,/x.com/,/linkedin.com/"
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _site # The folder the action should deploy.
-      # - name: run HTML-proofer
-      #   run: |
-      #     bundle exec htmlproofer --assume-extension ./_site
