@@ -22,6 +22,6 @@ I bought a Korg NanoKontrol in Japan in February and, before I even had one perf
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-korg-nano-repair3.jpg)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/usb-socket-repair-on-korg-nanokontrol) 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/usb-socket-repair-on-korg-nanokontrol)
+See and download the full gallery on posterous 
+Posted via email  from 
+charles martin

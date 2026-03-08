@@ -17,5 +17,5 @@ Airport times.
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101018-nowperlaterarn.jpg)
 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/now-per-later-arn)
+Posted via email  from 
+charles martin

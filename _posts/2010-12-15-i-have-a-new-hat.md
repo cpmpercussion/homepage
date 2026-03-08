@@ -18,5 +18,5 @@ Snug.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/12/20101215-newhat.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/i-have-a-new-hat)
+Posted via email  from 
+charles martin

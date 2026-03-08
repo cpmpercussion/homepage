@@ -22,5 +22,5 @@ Webcam party for lmtd.
 - 5m USB extension 
 - 10m USB extension 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/webcam-party-for-lmtd)
+Posted via email  from 
+charles martin

@@ -23,5 +23,5 @@ A few downhill views of San Francisco. Steep!
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-SanFran3.jpg)
 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/downhill-views-of-san-francisco)
+Posted via email  from 
+charles martin

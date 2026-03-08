@@ -18,5 +18,5 @@ Activating face scanning!
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100916-LMTDbrisbane.jpg)
 
 -Charles 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/last-man-to-die-at-brisbane-utr)
+Posted via email  from 
+charles martin

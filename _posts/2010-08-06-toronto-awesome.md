@@ -26,6 +26,6 @@ Awesome times in Toronto.
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/08/2010-08-IMG_4042.jpg)
 
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/toronto-awesome) 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/toronto-awesome)
+See and download the full gallery on posterous 
+Posted via email  from 
+charles martin

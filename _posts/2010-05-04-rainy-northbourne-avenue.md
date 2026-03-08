@@ -16,5 +16,5 @@ Rainy Northbourne Avenue
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/2010-05-rainynorthbourne.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/rainy-northbourne-avenue)
+Posted via email  from 
+charles martin

@@ -29,5 +29,5 @@ And a video of the short performance:
 
 {% include vimeoPlayer.html id=13845395 %}
  
-[Posted via email](http://posterous.com)  from 
-[Strike on Stage](http://strikeonstage.posterous.com/strike-on-stage-micro)
+Posted via email  from 
+Strike on Stage

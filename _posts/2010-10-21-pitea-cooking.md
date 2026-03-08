@@ -67,5 +67,5 @@ Next thing I really need are:
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-piteaapartment-IMG_5100.jpg) 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-piteaapartment-IMG_5102.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/pitea-cooking)
+Posted via email  from 
+charles martin

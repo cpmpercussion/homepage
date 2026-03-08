@@ -31,5 +31,5 @@ I can see an Arduino Pro Mini in my future... The ultimate minimal arduino! So c
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101008-actorarduino2.jpg)
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101008-actorarduino3.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/wireless-actor-arduino-for-lmtd)
+Posted via email  from 
+charles martin

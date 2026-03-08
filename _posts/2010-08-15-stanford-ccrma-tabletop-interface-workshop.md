@@ -60,6 +60,6 @@ Photos!
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/08/2010-08-multitouch_interface_for_research.jpg)
 
 
-[See the full gallery on posterous](http://charlesmartin.posterous.com/stanford-ccrma-tabletop-interface-workshop) 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/stanford-ccrma-tabletop-interface-workshop)
+See the full gallery on posterous 
+Posted via email  from 
+charles martin

@@ -20,8 +20,8 @@ I'm working on a piece for supercollider and multitouch surface at Stanford CCRM
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-CCRMA2.jpg)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/working-in-ccrma-listening-room)
+See and download the full gallery on posterous
 
 --Charles 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/working-in-ccrma-listening-room)
+Posted via email  from 
+charles martin

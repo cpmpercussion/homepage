@@ -26,8 +26,8 @@ Sunday touring in San Francisco.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-SanFran8.jpg)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/sunday-touring)
+See and download the full gallery on posterous
 
 -Charles 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/sunday-touring)
+Posted via email  from 
+charles martin

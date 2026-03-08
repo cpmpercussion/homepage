@@ -27,5 +27,5 @@ Walked in Perth today. Very hot. Empty block appears to be a desert.
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100925-northbridgeperth5.jpg)
 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/northbridge-perth)
+Posted via email  from 
+charles martin

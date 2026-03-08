@@ -26,5 +26,5 @@ Home sweet home.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101021-piteaapartment-IMG_5056.jpg) 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/new-pitea-apartment)
+Posted via email  from 
+charles martin

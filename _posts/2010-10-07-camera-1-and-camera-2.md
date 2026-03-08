@@ -16,5 +16,5 @@ description: "(Corner Café, Northbridge, Perth)... Posted via email from charle
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101007-IMG_4888.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/camera-1-and-camera-2)
+Posted via email  from 
+charles martin

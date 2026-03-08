@@ -24,5 +24,5 @@ Christina and I are in Brisbane at the Australian Percussion Gathering. ALL our 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/08/2010-08-BrisbanePercussion4.jpg)
 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/brisbane-percussion-gathering)
+Posted via email  from 
+charles martin

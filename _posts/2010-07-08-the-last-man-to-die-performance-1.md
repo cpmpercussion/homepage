@@ -23,5 +23,5 @@ There's still one performance to go: tonight, Thursday 8th of July, 8:30pm, Stre
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-lmtd-street-4.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/the-last-man-to-die-performance-1)
+Posted via email  from 
+charles martin

@@ -21,5 +21,5 @@ Cool show in Northbridge.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101013-IMG_4922.jpg) 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/bakery-perth-zho)
+Posted via email  from 
+charles martin

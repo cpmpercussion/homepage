@@ -22,6 +22,6 @@ Toronto happened to have a mini conference this week PLUS I was nearby. So I cam
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/08/2010-08-TorontoEAConf3.png)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/toronto-electroacoustic-symposium)
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/toronto-electroacoustic-symposium)
+See and download the full gallery on posterous
+Posted via email  from 
+charles martin

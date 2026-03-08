@@ -20,5 +20,5 @@ Dave Samuels + Anders Åstrand + ANU DRUMatiX + Many guest percussionists from C
  
 [http://music.anu.edu.au/node/295](http://music.anu.edu.au/node/295) 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/concert-next-wednesday)
+Posted via email  from 
+charles martin

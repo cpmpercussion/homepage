@@ -17,7 +17,7 @@ We carefully aimed our 8 infrared security lights at the screen and then stuck t
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/2010-05-LightingTestforStrikeonStage.jpg)
 
-[See and download the full gallery on posterous](http://charlesmartin.posterous.com/testing-ir-lighting-system-for-strike-on-stag)
+See and download the full gallery on posterous
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/testing-ir-lighting-system-for-strike-on-stag)
+Posted via email  from 
+charles martin

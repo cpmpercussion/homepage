@@ -21,5 +21,5 @@ escaped.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-WelcomeToAmerica.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/welcome-to-california-have-fun-eating-a-taco)
+Posted via email  from 
+charles martin

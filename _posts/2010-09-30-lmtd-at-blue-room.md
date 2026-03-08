@@ -23,5 +23,5 @@ Showing Last Man To Die at the Blue Room, Perth.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100930-lmtdblueroom4.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/lmtd-at-blue-room)
+Posted via email  from 
+charles martin

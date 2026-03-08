@@ -21,5 +21,5 @@ Tomorrow afternoon, the CCRMA Multitouch Tabletop Music workshop will present ou
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/07/2010-07-CCRMAtouchscreen.jpg)
 
 This free concert will be at the CCRMA Listening Room, The Knoll, Stanford University at 4pm.  
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/computer-music-concert-stanford-ccrma-listeni)
+Posted via email  from 
+charles martin

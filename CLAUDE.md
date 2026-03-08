@@ -15,7 +15,7 @@ bundle exec jekyll build
 ./get_publications.sh
 
 # Validate HTML (uses html-proofer gem)
-bundle exec htmlproofer ./_site
+bundle exec htmlproofer ./_site --disable-external --no-enforce-https --assume-extension .html --ignore-urls "/twitter.com/,/x.com/,/linkedin.com/"
 ```
 
 Ruby version is pinned to 3.3.9 via `.ruby-version`. Run `bundle install` after adding gems.

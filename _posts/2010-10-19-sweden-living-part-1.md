@@ -25,5 +25,5 @@ Tomorrow: Scenes of Piteå.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101019-swedenliving1-3.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/sweden-living-part-1)
+Posted via email  from 
+charles martin

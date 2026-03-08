@@ -17,5 +17,5 @@ Best espresso ever.
 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/10/20101015-cnrcoffee.jpg)
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/cnr-cafe-northbridge-perth)
+Posted via email  from 
+charles martin

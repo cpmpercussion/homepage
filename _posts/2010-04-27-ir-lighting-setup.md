@@ -25,5 +25,5 @@ Even without working on aiming and calibrating them too much they already work p
 
 Plus! We got our PS3 camera cases and lenses from peau productions! 
 
-[Posted via email](http://posterous.com)  from 
-[Strike on Stage](http://strikeonstage.posterous.com/ir-lighting-setup)
+Posted via email  from 
+Strike on Stage

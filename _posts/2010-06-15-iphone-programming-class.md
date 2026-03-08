@@ -18,5 +18,5 @@ iPhone OS programming at NIME2010 in Sydney.
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/2010-06-nime2010-iphoneprogramming.jpg)
 
 --Charles 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/iphone-programming-class)
+Posted via email  from 
+charles martin

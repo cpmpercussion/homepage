@@ -16,7 +16,7 @@ description: "In August and September 2011 I’m offering lessons in improvisati
 
 In August and September 2011 I’m offering lessons in improvisation and jazz interpretation on vibraphone and marimba. Lessons will be in my home studio where the student and I will have enough space for collaborative music making and exploration.
 
-![Studio](http://farm7.static.flickr.com/6201/6055246162_b785b16e37.jpg)
+![Studio](https://farm7.static.flickr.com/6201/6055246162_b785b16e37.jpg)
 
 In these lessons I want to help students explore their own musicality and give them tools to encourage them in improvisation, performance in jazz styles, song writing and composition. Students in high school and university are welcome as are adult learners. Students should probably understand the basics of keyboard percussion and need to bring a set of four marimba or vibraphone mallets. These lessons will be offered on an ad hoc basis with no commitment to any number of lessons.
 

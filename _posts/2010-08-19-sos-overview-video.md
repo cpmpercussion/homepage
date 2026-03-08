@@ -26,5 +26,5 @@ And a short documentary about our system:
 {% include vimeoPlayer.html id=14858453 %}
 
 
-[Posted via email](http://posterous.com)  from 
-[Strike on Stage](http://strikeonstage.posterous.com/sos-overview-video)
+Posted via email  from 
+Strike on Stage

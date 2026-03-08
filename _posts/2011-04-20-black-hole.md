@@ -24,5 +24,5 @@ Black box @ studio Acusticum. Now...
  
  
 --Charles 
-[Posted via email](http://posterous.com)  from 
+Posted via email  from 
 [charles martin](http://blog.charlesmartin.com.au/black-hole)

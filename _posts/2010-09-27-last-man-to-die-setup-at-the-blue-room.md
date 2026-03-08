@@ -23,5 +23,5 @@ Spending a few days building our installation and fixing our programs at the Blu
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100927-IMG_4594.jpg) 
 ![]({{site.baseurl}}/assets/posterous/charlesmartin/09/20100927-IMG_4601.jpg) 
 
-[Posted via email](http://posterous.com)  from 
-[charles martin](http://charlesmartin.posterous.com/last-man-to-die-setup-at-the-blue-room)
+Posted via email  from 
+charles martin
