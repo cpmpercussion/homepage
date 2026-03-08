@@ -46,12 +46,11 @@ As a supervisor I expect:
 - draft thesis/reports to be sent 2 weeks before any deadline
 - patience when asking questions or sending emails out of business hours
 
-
 ## Problems and meetings
 
 for Charles (or your supervisor):
 
-- there are lots of you and one of us
+- there are lots of you and one of me
 - some information needs to go to many students
 - progress on projects is uneven over the semester
 - sometimes students don't show up
@@ -64,15 +63,13 @@ for you:
 - research projects are tricky! sometimes ideas don't work out, you have to be flexible but committed to reaching the goal (handing in a report/artefact/thesis)
 - you're probably  _busy_! (other subjects, jobs, life!)
 
-To solve these problems, we tend to have three types of meetings in the lab: status, individual and seminars. 
-It's important to acknowledge that meetings are precious and important. To avoid mutual time wasting it's better to book meetings when they are needed, e.g., to discuss the results of an experiment or give feedback on some writing.
+To solve these problems, we tend to have three types of meetings in the lab: status, individual and seminars.
+It's important to acknowledge that meetings are precious and important.
+To avoid mutual time wasting it's better to book meetings when they are needed, e.g., to discuss the results of an experiment or give feedback on some writing.
 
-In exchange we have weekly group meetings where we will hear about everybody's
-progress, shared seminars to learn common background and an open lab culture
-where you can show up anytime and find help from _someone_ (not just Charles).
+In exchange we have weekly group meetings where we will hear about everybody's progress, shared seminars to learn common background and an open lab culture where you can show up anytime and find help from _someone_ (not just Charles).
 
-
-## The Weekly Status Meeting
+## The weekly status meeting
 
 **How it works:**
 
