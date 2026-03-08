@@ -27,7 +27,8 @@
       "Bash(bundle exec:*)",
       "Bash(make proof:*)",
       "Bash(perl:*)",
-      "Bash(gem contents:*)"
+      "Bash(gem contents:*)",
+      "Bash(gh run:*)"
     ]
   }
 }
