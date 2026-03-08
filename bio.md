@@ -31,7 +31,7 @@ carousel:
 
 Charles Martin is an Australian computer scientist, percussionist and digital artist blending traditional instruments with cutting-edge technology. His innovative performances explore artificial intelligence and augmented realities, creating captivating sonic landscapes. Martin's work has been featured across Australia, Europe, and the USA.
 
-Charles develops musical apps such as MicroJam and PhaseRings, researches creative AI, and performs music with Ensemble Metatone and Andromeda is Coming. At the ANU, Charles teaches creative computing and leads research into intelligent musical instruments. His lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.
+Charles develops musical apps such as MicroJam and PhaseRings, researches creative AI, and performs music with Ensemble Metatone and Andromeda is Coming. At the ANU, Charles teaches creative computing and leads research into intelligent musical instruments. His lab's focus is on developing new intelligent instruments, performing new music with them, and bringing them to a broad audience of musicians and performers.
 
 Prior to his present appointment as a Senior Lecturer in computer science at the ANU, Charles was a postdoctoral research fellow at the University of Oslo's [Robotics and Intelligent Systems](https://www.mn.uio.no/ifi/english/research/groups/robin/) research group (2016-2019).
 
@@ -43,9 +43,9 @@ Prior to his present appointment as a Senior Lecturer in computer science at the
 
 ## More details
 
-Charles is a co-founder of [Ensemble Evolution](https://ensembleevolution.bandcamp.com), an international percussion trio that has been featured at the Percussive Arts Society International Convention, Lithuania’s Procesas music laboratory, and Canberra’s You Are Here festival. The group released two albums of their own compositions, [Sounds from the Treetops](https://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops) and [Solstormen Live](https://ensembleevolution.bandcamp.com/album/solstormen-live). Charles also developed interactive soundtracks and media for his cross-artform group Last Man to Die that toured Australia with their performance/installation work in 2010.
+Charles is a co-founder of [Ensemble Evolution](https://ensembleevolution.bandcamp.com), an international percussion trio that has been featured at the Percussive Arts Society International Convention, Lithuania's Procesas music laboratory, and Canberra's You Are Here festival. The group released two albums of their own compositions, [Sounds from the Treetops](https://ensembleevolution.bandcamp.com/album/sounds-from-the-treetops) and [Solstormen Live](https://ensembleevolution.bandcamp.com/album/solstormen-live). Charles also developed interactive soundtracks and media for his cross-artform group Last Man to Die that toured Australia with their performance/installation work in 2010.
 
-In 2012, Charles completed a Master of Music Performance in Percussion at Luleå University of Technology’s School of Music and Media in Piteå, Sweden. The otherworldly environment of Northern Sweden became a rich source of inspiration for Charles, resulting in [Nordlig Vinter](https://charlesmartin.bandcamp.com/album/nordlig-vinter), his debut album of works for percussion and computer, which was released in 2013.
+In 2012, Charles completed a Master of Music Performance in Percussion at Luleå University of Technology's School of Music and Media in Piteå, Sweden. The otherworldly environment of Northern Sweden became a rich source of inspiration for Charles, resulting in [Nordlig Vinter](https://charlesmartin.bandcamp.com/album/nordlig-vinter), his debut album of works for percussion and computer, which was released in 2013.
 
 From 2013--2016, Charles was a PhD candidate at the ANU Research School of Computer Science, Charles created iPad apps for music-making and new networked software for mediating and extending ensemble improvisation through machine learning and gesture recognition. Charles' research work was published in ACM CHI, the premier international conference on Human-Computer Interaction, and at NIME (New Interfaces for Musical Interaction).
 
@@ -53,16 +53,16 @@ Charles was a postdoctoral fellow with the [Robotics and Intelligent Systems](ht
 
 In 2019, Charles returned to the ANU and is now a [senior lecturer in computer science](https://comp.anu.edu.au/people/charles-martin) where he teaches creative computing, music technology and continues his research in interactive intelligent systems. Charles believes strongly in collaboration between computing and creative arts to build better creative systems and train more "human" computer scientists. He is active in music technology outreach into the community such as developing autonomous guitar installations in Oslo and the electronic carillon clavier in Canberra as well as publicly releasing electronic music apps. He performs as a percussionist and computer musician both around Australia and internationally.
 
-More information about Charles’ music and research can be found on his website: <https://charlesmartin.au>
+More information about Charles' music and research can be found on his website: <https://charlesmartin.au>
 
 {% comment %}
-Charles Martin is a specialist in music technology, musical AI, and human-computer interaction from Canberra, Australia. He creates new technologies that extend and augment creative interactions. Charles' research has examined individual and group interactions with intelligent systems. He is an active percussionist and computer musician with works described as “a thing of rare beauty” in The West Australian, that have been performed throughout Australia, Europe and the USA and presented at international conferences on music technology and percussion. He has more than ten years experience teaching music and computer science.
+Charles Martin is a specialist in music technology, musical AI, and human-computer interaction from Canberra, Australia. He creates new technologies that extend and augment creative interactions. Charles' research has examined individual and group interactions with intelligent systems. He is an active percussionist and computer musician with works described as "a thing of rare beauty" in The West Australian, that have been performed throughout Australia, Europe and the USA and presented at international conferences on music technology and percussion. He has more than ten years experience teaching music and computer science.
 
-Charles’ work is deeply informed by the processes and structures of mathematics, computing and logic which he studied in his undergraduate degree at the Australian National University along with classical percussion. His first class honours thesis in mathematics was completed in 2008 with a focus in logic and computer-based proof.
+Charles' work is deeply informed by the processes and structures of mathematics, computing and logic which he studied in his undergraduate degree at the Australian National University along with classical percussion. His first class honours thesis in mathematics was completed in 2008 with a focus in logic and computer-based proof.
 {% endcomment %}
 
 {% comment %}
-Charles Martin is a computer scientist specialising in music technology, creative AI and human-computer interaction at The Australian National University, Canberra. 
+Charles Martin is a computer scientist specialising in music technology, creative AI and human-computer interaction at The Australian National University, Canberra.
 
 ## Major Projects
 
