@@ -11,7 +11,7 @@ meta: {}
 
 # Mini-Vibraphone Workshop
 
-![Reading some scores on the iPad](/squarespace_images/2012-02-21-iPad-score-reading-practice-session.jpg)
+![Reading some scores on the iPad]({% link assets/images/teaching/2012-02-21-iPad-score-reading-practice-session.jpg %})
 
 This holidays I'm running a Mini Vibraphone Workshop for high school
 and uni students! Lots of us have a big marimba focus but rarely develop
