@@ -8,8 +8,7 @@ published: false
 
 # ANU Music Lessons
 
-![Practicing improvisation at the
-vibraphone.](/squarespace_images/static_500baf96c4aa540325612fa5_t_521305c3e4b06d5f9d35d2a1_1376978375876_iPad+Score+reading+Practice+Session.jpg_)
+![Practicing improvisation at the vibraphone](/squarespace_images/2012-02-21-iPad-score-reading-practice-session.jpg)
 
 In our 30 or 60 minute lessons, I can work with you to start out playing
 drumset, mallet percussion, electronic instruments, to work on your
