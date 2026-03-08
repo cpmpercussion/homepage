@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Physical Musical RNN | Charles Martin</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Physical Musical RNN" />
+<meta property="og:locale" content="en_AU" />
+<meta name="description" content="A physically encapsulated musical neural network: a standalone box running a melody-generating recurrent neural network on a Raspberry Pi, with knobs to control tempo, model, and sampling diversity." />
+<meta property="og:description" content="A physically encapsulated musical neural network: a standalone box running a melody-generating recurrent neural network on a Raspberry Pi, with knobs to control tempo, model, and sampling diversity." />
+<link rel="canonical" href="https://charlesmartin.au/blog/2019/06/04/physical-musical-rnn" />
+<meta property="og:url" content="https://charlesmartin.au/blog/2019/06/04/physical-musical-rnn" />
+<meta property="og:site_name" content="Charles Martin" />
+<meta property="og:image" content="https://charlesmartin.au/assets/images/performing/physical-musical-rnn.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://charlesmartin.au/assets/images/performing/physical-musical-rnn.jpg" />
+<meta property="twitter:title" content="Physical Musical RNN" />
+<meta name="twitter:site" content="@cpmpercussion" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-06-04T00:00:00+00:00","datePublished":"2019-06-04T00:00:00+00:00","description":"A physically encapsulated musical neural network: a standalone box running a melody-generating recurrent neural network on a Raspberry Pi, with knobs to control tempo, model, and sampling diversity.","headline":"Physical Musical RNN","image":"https://charlesmartin.au/assets/images/performing/physical-musical-rnn.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://charlesmartin.au/blog/2019/06/04/physical-musical-rnn"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg"}},"url":"https://charlesmartin.au/blog/2019/06/04/physical-musical-rnn"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<link rel="stylesheet" type="text/css" href='/assets/css/image-captions.css'>
+<!-- Bootstrap CSS -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> <!-- bootstrap v5.3.0 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+
+  </head>
+  <body>
+    <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="Logo">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://charlesmartin.bandcamp.com">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://smcclab.github.io">smcclab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link" aria-label="Mastodon profile">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link" aria-label="Pixelfed profile">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link" aria-label="GitHub profile">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link" aria-label="Bandcamp profile">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.com/citations?user=mTlH4G8AAAAJ" class="nav-link" aria-label="Google Scholar profile">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://dblp.org/pid/208/2413.html" class="nav-link" aria-label="dblp profile">
+		      <i class="ai ai-dblp-square"></i></a>
+</li>
+      <li class="nav-item">
+        <a href="https://orcid.org/my-orcid?orcid=0000-0001-5683-7529" class="nav-link" aria-label="ORCID profile">
+          <i class="ai ai-orcid-square"></i></a>
+</li>
+      <li class="nav-item">
+	<button class="btn" id="btnSwitch" aria-label="Toggle color mode">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewbox="0 0 16 16">
+  	  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"></path>
+	  </svg>
+	</button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- unlisted links -->
+<a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+<script>
+
+/*!
+ * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ */
+const storedTheme = localStorage.getItem('theme')
+
+  const getPreferredTheme = () => {
+    if (storedTheme) {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+
+  const setTheme = function (theme) {
+    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-bs-theme', 'dark')
+    } else {
+      document.documentElement.setAttribute('data-bs-theme', theme)
+    }
+  }
+
+  setTheme(getPreferredTheme())
+
+  // Super simple dark mode: Carol Skelly on StackOverflow
+  // https://stackoverflow.com/a/63087710
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        setTheme('light')
+    }
+    else {
+	setTheme('dark')
+    }
+})
+</script>
+
+
+    
+
+    
+
+    <div class="container rounded bg-body">	   
+      <main id="main-content" class="my-2 p-4" aria-label="Content">
+        <article>
+<div class="my-4">
+  <h1 class="">Physical Musical RNN</h1>
+  <h6 class="font-italic">04 Jun '19</h6>
+  
+  <div class="mt-2">
+    <a href="/tags/?tag=research" class="btn btn-sm btn-outline-secondary me-1 mb-1">research</a><a href="/tags/?tag=machine-learning" class="btn btn-sm btn-outline-secondary me-1 mb-1">machine-learning</a><a href="/tags/?tag=neural-networks" class="btn btn-sm btn-outline-secondary me-1 mb-1">neural-networks</a><a href="/tags/?tag=nime" class="btn btn-sm btn-outline-secondary me-1 mb-1">nime</a><a href="/tags/?tag=raspberry-pi" class="btn btn-sm btn-outline-secondary me-1 mb-1">raspberry-pi</a><a href="/tags/?tag=music" class="btn btn-sm btn-outline-secondary me-1 mb-1">music</a>
+  </div>
+  
+</div>
+
+
+
+
+<div class="my-4 p-2">
+  <p>What happens if we make a music-generating neural network physically portable?</p>
+
+<p>This is the question that I explored with Torgrim Næss in his master project throughout 2018 and 2019. This project explored our shared interests of deep learning and embedded hardware to go from a “what if” question, to a physical prototype that help us unpack the user experience (or musician experience!) of musical RNNs.</p>
+
+<p>The Physical Musical RNN is a self-contained musical neural network in a small box. Inside is a Raspberry Pi running a melody-generating recurrent neural network that continually composes music. Five knobs let you adjust the sound, tempo, the ML model in use, and the “randomness” of the chosen samples to guide the music-making process.</p>
+
+<p><img src="/assets/images/performing/physical-musical-rnn.jpg" alt="The physical musical RNN, a black box with a small screen and five knobs."></p>
+
+<p>The melody RNN used in this project draws inspiration from popular CharRNN designs. RNNs like this are fun to build and (relatively) fast to train.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/2RDVyOTRAj4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+
+<p>This project was developed as a master’s thesis by Torgrim Næss at the Robotics and Intelligent Systems group, University of Oslo supervised by Charles Martin. A paper reporting on our results was presented at the International Conference on New Interfaces for Musical Expression (NIME) 2019 in Porto Alegre, Brazil.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{Naess2019,
+  author = {Næss, Torgrim Rudland and Martin, Charles Patrick},
+  title = {A Physical Intelligent Instrument using Recurrent Neural Networks},
+  pages = {79--82},
+  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+  editor = {Queiroz, Marcelo and Sedó, Anna Xambó},
+  year = {2019},
+  month = jun,
+  publisher = {UFRGS},
+  address = {Porto Alegre, Brazil},
+  issn = {2220-4806},
+  url = {http://www.nime.org/proceedings/2019/nime2019_paper016.pdf}
+}
+</code></pre></div></div>
+
+
+</div> 
+</article>
+
+
+      </main>
+    </div>
+
+    <footer class="container my-2 px-0">
+      <div class="mb-4">
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P Martin 2026</p>
+        <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+<script src="/assets/js/image-captions.js"></script>
+
+  </body>
+</html>
