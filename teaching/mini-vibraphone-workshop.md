@@ -56,8 +56,8 @@ up so everyone will get plenty of chances to play and try out new ideas!
 ## Why am I putting this on? {#whyamiputtingthison}
 
 Vibraphone has always been my favourite keyboard instrument, but it
-doesn\'t have the same status as marimba for solos and isn\'t played as
-much as xylophone or glockenspiel in ensembles. I\'ve spent years
+doesn't have the same status as marimba for solos and isn't played as
+much as xylophone or glockenspiel in ensembles. I've spent years
 working on vibraphone playing, finding repertoire for my recitals and
 other concerts and improvising my own parts so that I can play vibes in
 ensembles! I really want to share my passion for this great instrument!
