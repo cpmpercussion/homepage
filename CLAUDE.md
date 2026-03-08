@@ -26,7 +26,7 @@ This is a **Jekyll 4** personal/academic website for Charles Martin (charlesmart
 
 ### Content collections
 
-- **`_posts/`** — Blog posts, named `YYYY-MM-DD-slug.md`. Front matter includes `layout: post`, `title`, `date`, `category`, `tags`, and optionally `type: lab` (marks the post as appearing on the SMCCLAB lab page). Tags use multiline YAML list format:
+- **`_posts/`** — Blog posts, named `YYYY-MM-DD-slug.md`. Front matter includes `layout: post`, `title`, `date`, `category`, `tags`. Tags use multiline YAML list format:
   ```yaml
   tags:
   - tag one
@@ -34,7 +34,7 @@ This is a **Jekyll 4** personal/academic website for Charles Martin (charlesmart
   ```
   Older posts (2006–2014, migrated from WordPress/Posterous) may have legacy front matter fields like `status`, `meta`, `published`, and `categories: []` — these are harmless but not used by the current theme.
 - **`_projects/`** — Portfolio project pages, using `layout: project`. Front matter includes `started`, `ended`, `image`, `image_alt`, `summary`.
-- **`_lab/`** — Pages for the SMCCLAB research group section, using `layout: page`.
+- **`_lab/`** — Pages for the SMCCLAB research group section, using `layout: page`. The lab is being wound down on this site in favour of the separate [smcclab.au](https://smcclab.au) website. Lab project entries from `_data/lab-projects.yml` are being converted to regular blog posts instead.
 - **`_bibliography/publications.bib`** — BibTeX file powering the publications page via `jekyll-scholar`. Updated by running `./get_publications.sh` (fetches from a separate GitHub repo). Publications are filtered by BibTeX `keywords` field (e.g. `refereed`, `conference-paper`, `journal-article`).
 
 ### Data files (`_data/`)
@@ -42,7 +42,7 @@ This is a **Jekyll 4** personal/academic website for Charles Martin (charlesmart
 - `navigation.yml` — Top nav links
 - `lab-members.yml` — Current SMCCLAB members (rendered on `/lab/`)
 - `lab-alumni.yml` — Former lab members
-- `lab-projects.yml` — Lab project cards shown on `/lab/`
+- `lab-projects.yml` — Lab project cards shown on `/lab/`; being phased out as projects are converted to blog posts
 
 ### Layouts and includes
 
