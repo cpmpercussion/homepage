@@ -84,23 +84,3 @@ Projects from Charles and other members of the lab.
 {% endunless %}
 {% endfor %}
 </section>
-
-
-{% comment %}
-style="object-fit: cover; width: 100%; height: 40vh;"
-<!-- <a href="{{ entry.url | relative_url }}"> -->
-
-
-Summer project goals:
-Team project: Create an AI-enhanced band.
-Need ML-interactions for each performer in a small band (e.g., Jazz combo: bass, drums, piano, and sound engineer).
-Sound engineer: Apply techniques of Intelligent Music Production to assist a sound engineer in making a live or recorded mix of a band. This could include mic-placement, volume, EQ, panning, and application of audio effects.
-Piano: Need to use a cutting model such as Music Transformer to alternate between playing a song's melody, comping, and soloing. We will need to study data of each type of performance.
-Drums: We need to study drummer's playing styles to apply expression to stable drumset loops and introduce variations, fills, and stylistic changes.
-Bass: We need to develop 
-
-Individual Projects:
-- Enhance aspects of IMPS (Intelligent Music Prediction System)
-- Develop new MIR metrics for application in future collaborations. How do we know that generated signals are good?
-
-{% endcomment %}

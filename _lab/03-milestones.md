@@ -24,12 +24,9 @@ My experience has been that different groups have _quite different expectations_
 
 ## Annual Plans and Reports
 
-Your PhD will likely include four annual plans, three of which will also be an
-annual report. This is the official way to record your goals for the coming
-year and record your achievements from the previous year.
+Your PhD will likely include four annual plans, three of which will also be an annual report. This is the official way to record your goals for the coming year and record your achievements from the previous year.
 
 ### _First_ Annual Plan
-
 
 Your **First Annual Plan** will be due 3 months after you start your PhD. This means you have three months to:
 
@@ -42,21 +39,22 @@ Your **First Annual Plan** will be due 3 months after you start your PhD. This m
 - gain access to labs or facilities needed for your work including doing required inductions or becoming known to technical staff
 - **start developing your research artifacts or pursuing the initial studies in your program!**
 
-Your "plan" should be a 2--4 page PDF document created in LaTeX that outlines:
+Your "plan" should be a 2--4 page PDF document created in LaTeX that includes:
 
 1. The main idea/aim/area of your reseach (your research problem)
 2. An initial attempt to situate your research problem in the literature
 3. Plans for initial investigations into your research problem
+4. References to other scholarly texts that help contextualise your problem (about 15 is a good intiial goal)
 
-You should send your annual plan to me for feedback before submitting the "official" eForm.
+You should send your annual plan to me for feedback before submitting the "official" form.
 
 ### Later: Annual Report and Plan
 
 Your later annual plans also include a _report_ of your progress over the previous 12 months.
 
-Similarly to your _first_ plan, this should be a 2--4 page PDF document created in LaTeX. At this stage you will be articulating your work in more detail in your TPR and/or publications, so your Report and Plan can be a brief update on the "main idea" and definition of your research problem and lists of your completed and planned projects:
+Similarly to your _first_ plan, this should be a 2--4 page PDF document created in LaTeX. At this stage you will be articulating your work in more detail in your Confirmation of Candidature (CoC) and/or publications, so your Report and Plan can be a brief update on the "main idea" and definition of your research problem and lists of your completed and planned projects:
 
-1. The (updated) main idea/aim/area of your reseach (your research problem) in brief (elevator pitch)
+1. The (updated) main idea/aim/area of your research (your research problem) in brief (elevator pitch)
 2. A brief report on projects, publications, presentations, or studies completed in the previous year
 3. Plans for projects and studies that will take place over the next year.
 
