@@ -105,6 +105,11 @@ pagination:
   indexpage: 'index'
 
 
+shortcut_tags:
+  - research
+  - teaching
+  - performance
+
 collections:
   projects:
     output: true

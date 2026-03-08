@@ -5,6 +5,13 @@ description: "Browse all blog posts by topic tag."
 permalink: /tags/
 ---
 
+<div id="active-filter" class="mb-3 d-none">
+  <span class="text-secondary">Filtered by tag:</span>
+  <strong id="active-tag-name"></strong>
+  <a href="/tags/" class="btn btn-sm btn-outline-secondary ms-2">Clear</a>
+  <button class="btn btn-sm btn-outline-secondary ms-2" id="show-all-tags-btn">Browse all tags</button>
+</div>
+
 <div id="tag-cloud" class="d-flex flex-wrap gap-2 mb-4">
 {% assign tag_names = "" | split: "" %}
 {% for tag in site.tags %}
@@ -19,12 +26,6 @@ permalink: /tags/
     {{ tag_name }} <span class="ms-1 opacity-75">{{ tag_posts.size }}</span>
   </a>
 {% endfor %}
-</div>
-
-<div id="active-filter" class="mb-3 d-none">
-  <span class="text-secondary">Filtered by tag:</span>
-  <strong id="active-tag-name"></strong>
-  <a href="/tags/" class="btn btn-sm btn-outline-secondary ms-2">Clear</a>
 </div>
 
 <div id="post-list">
@@ -53,6 +54,13 @@ permalink: /tags/
 
   document.getElementById('active-filter').classList.remove('d-none');
   document.getElementById('active-tag-name').textContent = params.get('tag');
+  document.getElementById('tag-cloud').classList.add('d-none');
+
+  var showBtn = document.getElementById('show-all-tags-btn');
+  showBtn.addEventListener('click', function () {
+    document.getElementById('tag-cloud').classList.toggle('d-none');
+    showBtn.textContent = document.getElementById('tag-cloud').classList.contains('d-none') ? 'Browse all tags' : 'Hide tags';
+  });
 
   document.querySelectorAll('.post-item').forEach(function (el) {
     var tags = el.dataset.tags ? el.dataset.tags.split('|') : [];
