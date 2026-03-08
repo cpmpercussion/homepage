@@ -36,7 +36,6 @@ This page shows refereed journal articles, conference articles, and book chapter
 
 {% bibliography --query @*[keywords ^= conference-paper && keywords ^= non-refereed] %}
 
-
 ### Conference Presentations
 
 {% bibliography --query @*[keywords ^= conference-presentation] %}
@@ -56,6 +55,5 @@ This page shows refereed journal articles, conference articles, and book chapter
 ### Selected Music Recordings
 
 {% bibliography --query @*[keywords ^= music-recording] %}
-
 
 {% endcomment %}
