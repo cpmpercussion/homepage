@@ -7,7 +7,6 @@ tags:
 - art
 - sweden
 - piteå
-- acusticum
 status: publish
 type: post
 published: true

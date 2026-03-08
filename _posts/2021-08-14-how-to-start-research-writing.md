@@ -7,11 +7,11 @@ summary: Advice on writing your first research report or thesis.
 description: "Now's the time of year that I get started with a new crop of Honours, Master and project students at the ANU School of Computing and at the UiO Department"
 tags:
 - research
+- teaching
 - writing
 - thesis
 - students
 - latex
-- academia
 ---
 
 Now's the time of year that I get started with a new crop of Honours, Master and project students at the [ANU School of Computing](https://comp.anu.edu.au) and at the [UiO Department of Informatics](https://ifi.uio.no).
