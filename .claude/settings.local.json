@@ -28,7 +28,11 @@
       "Bash(make proof:*)",
       "Bash(perl:*)",
       "Bash(gem contents:*)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "Bash(du:*)",
+      "Bash(for dir in posterous squarespace_images blog projects images squarespaceblog blogger)",
+      "Bash(echo \"=== $dir ===\")",
+      "Read(//Users/charles/src/homepage/assets/**)"
     ]
   }
 }
