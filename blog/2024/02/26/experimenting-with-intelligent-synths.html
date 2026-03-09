@@ -6,24 +6,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
  
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>PhaseRings | Charles Martin</title>
+<title>Experimenting with Intelligent Synths and AI in a MIDI Plug | Charles Martin</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="PhaseRings" />
+<meta property="og:title" content="Experimenting with Intelligent Synths and AI in a MIDI Plug" />
 <meta property="og:locale" content="en_AU" />
-<meta name="description" content="PhaseRings is a musical instrument app for iOS for performing expressive music with touch gestures and generative composition." />
-<meta property="og:description" content="PhaseRings is a musical instrument app for iOS for performing expressive music with touch gestures and generative composition." />
-<link rel="canonical" href="https://charlesmartin.au/projects/phaserings/" />
-<meta property="og:url" content="https://charlesmartin.au/projects/phaserings/" />
+<meta name="description" content="Experimenting with IMPS running on a Raspberry Pi Zero 2 W and communicating via MIDI with regular synthesisers — a “GenAI MIDI plug” concept for intelligent musical instruments." />
+<meta property="og:description" content="Experimenting with IMPS running on a Raspberry Pi Zero 2 W and communicating via MIDI with regular synthesisers — a “GenAI MIDI plug” concept for intelligent musical instruments." />
+<link rel="canonical" href="https://charlesmartin.au/blog/2024/02/26/experimenting-with-intelligent-synths" />
+<meta property="og:url" content="https://charlesmartin.au/blog/2024/02/26/experimenting-with-intelligent-synths" />
 <meta property="og:site_name" content="Charles Martin" />
-<meta property="og:image" content="https://charlesmartin.au/assets/projects/phaserings/phaserings.png" />
+<meta property="og:image" content="https://charlesmartin.au/assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-03-09T11:40:30+00:00" />
+<meta property="article:published_time" content="2024-02-26T00:00:00+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://charlesmartin.au/assets/projects/phaserings/phaserings.png" />
-<meta property="twitter:title" content="PhaseRings" />
+<meta property="twitter:image" content="https://charlesmartin.au/assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg" />
+<meta property="twitter:title" content="Experimenting with Intelligent Synths and AI in a MIDI Plug" />
 <meta name="twitter:site" content="@cpmpercussion" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-03-09T11:40:30+00:00","datePublished":"2026-03-09T11:40:30+00:00","description":"PhaseRings is a musical instrument app for iOS for performing expressive music with touch gestures and generative composition.","headline":"PhaseRings","image":"https://charlesmartin.au/assets/projects/phaserings/phaserings.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://charlesmartin.au/projects/phaserings/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg"}},"url":"https://charlesmartin.au/projects/phaserings/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-26T00:00:00+00:00","datePublished":"2024-02-26T00:00:00+00:00","description":"Experimenting with IMPS running on a Raspberry Pi Zero 2 W and communicating via MIDI with regular synthesisers — a “GenAI MIDI plug” concept for intelligent musical instruments.","headline":"Experimenting with Intelligent Synths and AI in a MIDI Plug","image":"https://charlesmartin.au/assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://charlesmartin.au/blog/2024/02/26/experimenting-with-intelligent-synths"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg"}},"url":"https://charlesmartin.au/blog/2024/02/26/experimenting-with-intelligent-synths"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -193,51 +193,56 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
       <main id="main-content" class="my-2 p-4" aria-label="Content">
         <article>
 <div class="my-4">
-  <h1 class="">PhaseRings</h1>
+  <h1 class="">Experimenting with Intelligent Synths and AI in a MIDI Plug</h1>
+  <h6 class="font-italic">26 Feb '24</h6>
+  
+  <div class="mt-2">
+    <a href="/tags/?tag=research" class="btn btn-sm btn-outline-secondary me-1 mb-1">research</a><a href="/tags/?tag=music+technology" class="btn btn-sm btn-outline-secondary me-1 mb-1">music technology</a><a href="/tags/?tag=IMPS" class="btn btn-sm btn-outline-secondary me-1 mb-1">IMPS</a><a href="/tags/?tag=MIDI" class="btn btn-sm btn-outline-secondary me-1 mb-1">MIDI</a><a href="/tags/?tag=Raspberry+Pi" class="btn btn-sm btn-outline-secondary me-1 mb-1">Raspberry Pi</a>
+  </div>
+  
 </div>
 
 
 
 
 <div class="my-4 p-2">
-  <p><img src="/assets/projects/phaserings/phaserings.png" alt="PhaseRings App in action"></p>
+  <p>I’m back at work for a research-focussed year and getting back to the <em>Intelligent Musical Instruments</em> theme that I set for my <a href="https://smcclab.au">lab</a>.</p>
 
-<p><a href="https://itunes.apple.com/app/phaserings/id924795988">Now available in the AppStore for iOS devices</a></p>
+<p>One of the limitations of my previous work was that connecting IMPS to synth software was a fairly involved process. IMPS communicates with OSC messages and the assumption was that the musician would be designing a custom computer music instrument at the same time as training a machine-learning model.</p>
 
-<p><a href="https://zenodo.org/badge/latestdoi/20166/cpmpercussion/PhaseRings"><img src="https://zenodo.org/badge/20166/cpmpercussion/PhaseRings.svg" alt="DOI"></a></p>
+<p>Some of the most compelling IMPS work was the EMPI project involving an embedded and self-contained musical instrument running on a Raspberry Pi.</p>
 
-<p>PhaseRings is a musical instrument for performing expressive music with touch gestures. Anyone can create a beautiful piece of music with our sound schemes and generative composition engine!</p>
+<p>What I’ve been trying this year is to get IMPS working (again) on a Raspberry Pi, and communicating via MIDI with regular synthesisers.</p>
 
-<p>Each ring on the screen represents a different pitch, and you can tap and swirl on each ring to create combinations of long and short notes. The angle and size of your tap will change the timbre of the notes you create!</p>
+<p>One of the motivators here was discovering that IMPS should work a bit more easily on 64-bit Raspberry Pi OS and that the Raspberry Pi Zero 2 W could work as a way to encapsulate IMPS in a very small and low-powered package.</p>
 
-<p>PhaseRings includes seven expressive “sound schemes” featuring percussive sounds like marimba and singing bowls as well as pure synth sounds like phase and string synthesis.</p>
+<p><img src="/assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg" alt="The Raspberry Pi Zero 2 W with a MIDI output soldered directly on the board."></p>
 
-<p>Three “compositions” of pitches are included in the app, but you can also create your own custom composition by choosing three base notes and scales, PhaseRings will do the rest, generating a series of great setups from the harmony you choose!</p>
+<p>With a Raspberry Pi, you (strictly speaking) might not even need an external MIDI interface as you can get a MIDI signal straight off the Pi’s serial GPIO pins.</p>
 
-<p><a href="https://itunes.apple.com/app/phaserings/id924795988"><img src="/assets/projects/phaserings/appstorebadge.png" alt="Available in the App Store"></a></p>
+<p><img src="/assets/blog/2024/202402-intelligent-synths-4-circuit-diagram.jpg" alt="Circuit diagram for the MIDI output, two resistors are necessary which can be hidden inside the MIDI connector"></p>
 
-<p><img src="/assets/projects/phaserings/audiobusbadge.png" alt="Supports AudioBus"></p>
+<p>As an initial demo I connected a (somewhat refactored) IMPS Raspberry Pi to a Korg Volca FM.</p>
 
-<h3 id="features">Features:</h3>
+<p><img src="/assets/blog/2024/202402-intelligent-synths-2-volcafm.jpg" alt="An intelligent Korg Volca FM"></p>
 
-<ul>
-  <li>7 sound schemes</li>
-  <li>3 built-in setups</li>
-  <li>Custom generative composition</li>
-  <li>11 scales and modes</li>
-  <li>Audiobus and IAA support to stream audio to compatible apps!</li>
-  <li>Core MIDI support for iOS MIDI Accessories!</li>
-</ul>
+<p>The Volca FM is squeaky, self-contained, and reasonably fun to experiment with. So far, I’ve only got a MIDI out on the Raspberry Pi so the interaction is one way between the Pi and the Volca.</p>
 
-<h3 id="demo-video">Demo Video</h3>
+<p>Here’s a video with the volca demonstrating this idea. In this video, I explored the name “GenAI MIDI plug” for this idea, thinking of encapsulation to something that is close to a MIDI plug as the important part of this project.</p>
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/PBR-zQtVqZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/TU-jIDH9pYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
 
-<h3 id="get-in-touch">Get in touch!</h3>
+<p>Extending this idea, I connected the system to a Behringer K-2 synth. The Pi Zero 2 W actually fits right behind the synth. This suggests incorporating the Pi Zero into lots of different synths to start to explore many intelligent instrument designs.</p>
 
-<p>Having fun playing with PhaseRings? Want to beta test new versions? Get in touch at <a href="http://metatone.net/contact">the contact page</a> or on Twitter at <a href="http://twitter.com/cpmpercussion">@cpmpercussion!</a>!</p>
+<p><img src="/assets/blog/2024/202402-intelligent-synths-3-behringer.jpg" alt="The IMPS Pi connected to a Behringer K-2"></p>
 
+<p><em>Edit:</em> This work is (so far) exploratory but I’ve written up some of the early thought processes in a workshop paper for GenAICHI 2024:</p>
+
+<ul>
+  <li><a href="https://generativeaiandhci.github.io/papers/2024/genaichi2024_50.pdf">Generative AI for Musicians: Small-Data Prototyping to Design Intelligent
+Musical Instruments</a></li>
+</ul>
 
 </div> 
 </article>
