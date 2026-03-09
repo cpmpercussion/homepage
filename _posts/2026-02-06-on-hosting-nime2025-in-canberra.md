@@ -7,8 +7,8 @@ tags:
 - school of computing
 - anu
 - conference
-- chairing
 - computer music
+- research
 description: "A reflection on hosting the New Interfaces for Musical Expression (NIME2025) conference at ANU in Canberra in June 2025, covering what the conference achieved, its interdisciplinary music and research program, and thanks to all who contributed."
 ---
 

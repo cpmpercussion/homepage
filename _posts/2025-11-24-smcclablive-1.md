@@ -5,6 +5,7 @@ date: 2025-11-24
 description: "A wrapup of events at our SMCClablive #1 in early November 2025 with live coder Charlie Roberts (USA) and researchers from the ANU SMCClab"
 tags:
 - performance
+- research
 - live-coding
 - smcclab
 - computer music

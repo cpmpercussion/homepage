@@ -5,6 +5,7 @@ date: 2024-05-31
 description: "Bringing back Andromed is Coming with new collaborators and new AI music systems."
 tags:
 - performance
+- research
 - machine-learning
 - augmented-reality
 - computer music
