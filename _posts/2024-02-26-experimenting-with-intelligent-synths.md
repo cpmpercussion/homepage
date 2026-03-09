@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Experimenting with Intelligent Synths
+title: Experimenting with Intelligent Synths and AI in a MIDI Plug
 date: 2024-02-26
 category: posts
 tags:
 - research
 - music technology
-description:
-image:
+- IMPS
+- MIDI
+- Raspberry Pi
+description: Experimenting with IMPS running on a Raspberry Pi Zero 2 W and communicating via MIDI with regular synthesisers — a "GenAI MIDI plug" concept for intelligent musical instruments.
+image: /assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg
 ---
 
 I'm back at work for a research-focussed year and getting back to the _Intelligent Musical Instruments_ theme that I set for my [lab](https://smcclab.au).
@@ -32,11 +35,11 @@ As an initial demo I connected a (somewhat refactored) IMPS Raspberry Pi to a Ko
 
 ![An intelligent Korg Volca FM]({% link assets/blog/2024/202402-intelligent-synths-2-volcafm.jpg %})
 
-The Volca FM is squeaky, self-contained, and reasonably fun to experiment with. So far, I've only got a MIDI out on the Raspbery Pi so the interaction is one way between the Pi and the Volca. 
+The Volca FM is squeaky, self-contained, and reasonably fun to experiment with. So far, I've only got a MIDI out on the Raspberry Pi so the interaction is one way between the Pi and the Volca. 
 
 Here's a video with the volca demonstrating this idea. In this video, I explored the name "GenAI MIDI plug" for this idea, thinking of encapsulation to something that is close to a MIDI plug as the important part of this project.
 
-![Volca video (link)](https://youtu.be/TU-jIDH9pYU)
+{% include youtubePlayer.html id="TU-jIDH9pYU" %}
 
 
 Extending this idea, I connected the system to a Behringer K-2 synth. The Pi Zero 2 W actually fits right behind the synth. This suggests incorporating the Pi Zero into lots of different synths to start to explore many intelligent instrument designs.
@@ -50,5 +53,3 @@ _Edit:_ This work is (so far) exploratory but I've written up some of the early 
 
 - [Generative AI for Musicians: Small-Data Prototyping to Design Intelligent
 Musical Instruments](https://generativeaiandhci.github.io/papers/2024/genaichi2024_50.pdf)
-
-<!-- post content here -->
