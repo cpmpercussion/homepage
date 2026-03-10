@@ -9,6 +9,7 @@ tags:
 - music
 - ANU
 - computer music
+- computing education
 description: "A reflection on five years of running laptop ensemble as a credit course at ANU, and what it took to scale from 8 students to 61 in 2023 — with 14 ensembles performing at Llewellyn Hall."
 image: /assets/blog/2023/acmc2023-15-lens-concert-llewellyn-dramatic.jpg
 ---

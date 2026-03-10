@@ -9,6 +9,7 @@ tags:
 - course-design
 - anu
 - research-methods
+- computing education
 description: "A reflection on redesigning ANU's COMP3900/6390 HCI course to scaffold the core skills of HCI research — needs finding, prototyping, qualitative and quantitative methods, and research reporting — so every student finishes the course having actually done HCI."
 ---
 

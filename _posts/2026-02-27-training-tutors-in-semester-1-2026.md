@@ -10,6 +10,7 @@ tags:
 - computing
 - education
 - inclusion
+- computing education
 type: lab
 description: "My reflections on delivering tutor training across the College of Systems and Society in 2026, covering the experiences and concerns of both new and returning tutors, and the value of building ongoing professional development into the programme."
 ---

@@ -9,6 +9,7 @@ tags:
 - microsoft-teams
 - tutorial
 - covid
+- computing education
 ---
 
 This is part 2 of my series of posts on online teaching in 2020; this time I'm going to write about how we set up _tutorials_ for COMP2300 in Microsoft Teams. 
