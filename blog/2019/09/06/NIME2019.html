@@ -212,14 +212,14 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p><img src="/assets/blog/2019/NIME2019-workshop.jpg" alt="Creative Prediction Workshop at NIME 2019"></p>
 
-<p>The first event for me was presenting my workshop in Predictive NIMEs on the first day of the conference. This was in tutorial format and broadly followed the presentations and walkthroughs I’ve been developing on <a href="https://creativeprediction.xyz/tutorials/">creativeprediction.xyz</a>. I ended up a bit nervous about it because it was fully subscribed (we had to find some extra chairs) and the attendees included some of my favourite NIME contributors — this just shows that there is certainly an appetite in music technology to explore new ways to use machine learning and particularly deep neural networks.</p>
+<p>The first event for me was presenting my workshop in Predictive NIMEs on the first day of the conference. This was in tutorial format and broadly followed the presentations and walkthroughs I’ve been developing on <a href="https://cpmpercussion.github.io/creative-prediction/hack/">creative prediction</a>. I ended up a bit nervous about it because it was fully subscribed (we had to find some extra chairs) and the attendees included some of my favourite NIME contributors — this just shows that there is certainly an appetite in music technology to explore new ways to use machine learning and particularly deep neural networks.</p>
 
 <p>The best part of this workshop was working with a group of attendees to get my <a href="https://github.com/cpmpercussion/imps">IMPS</a> system up and running. I know at least one or two are now starting to use this in new projects!</p>
 
 <iframe src="https://giphy.com/embed/h73FNuA09RUpuERYJs" width="480" height="270" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <p><a href="https://giphy.com/gifs/h73FNuA09RUpuERYJs">via GIPHY</a></p>
 
-<p>If you’re interested in following the following the workshop materials, <a href="https://creativeprediction.xyz/nime/">they’re online here</a>.</p>
+<p>If you’re interested in following the following the workshop materials, <a href="https://cpmpercussion.github.io/creative-prediction/workshop/">they’re online here</a>.</p>
 
 <h3 id="interactive-musical-prediction-system">Interactive Musical Prediction System</h3>
 
@@ -227,7 +227,7 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p><a href="https://github.com/cpmpercussion/imps">IMPS</a> is a complete system for applying an RNN to predicting musical gesture data in a NIME or other music tech system. The IMPS system consists of an OSC server that receives gestural data and can predict future data using a mixture density recurrent neural network. Rather than using a big dataset, this system is designed to allow musicians and makers to record their own data, train a small MDRNN and start using it as soon as possible. You can use however many dimensions of gestural data you like, and it predicts future events in absolute time (i.e., a number of seconds). It’s easy to connect to environments like Max, Pd, and Processing and even works (kinda) on <em>very</em> small datasets, as shown in the workshop above!</p>
 
-<p><img src="/assets/blog/2019/NIME2019-predictive-interaction-motivation.jp2" alt="IMPS motivation"></p>
+<p><img src="/assets/blog/2019/NIME2019-predictive-interaction-motivation.png" alt="IMPS motivation and signal flow. Musicians interacts with an instrument which is in a loop with the IMPS prediction model, resulting in interesting music."></p>
 
 <p>The idea of the paper was to introduce IMPS, and show that it’s practical for it to train and predict data for typical NIME-tasks. We show that it’s even practical to run on a Raspberry Pi, as well as train the RNN on a typical laptop (no big GPU workstation required).</p>
 
@@ -309,7 +309,7 @@ document.getElementById('btnSwitch').addEventListener('click',()=>{
 
 <p>A couple of shoutouts to my colleagues:</p>
 
-<p>From the RITMO Centre, Cagri Erdem, Alexander Jensenius and Katja Schia had a <a href="http://www.nime.org/proceedings/2019/nime2019_paper037.pdf">paper</a> and performance on their Vrengt music-dance performance research. And also from IN5490, Aline Weber, Lucas Alegre, Jim Torresen, and Bruno Castro da Silva had <a href="http://www.nime.org/proceedings/2019/nime2019_paper035.pdf">a great paper on parametrising melody generation with Perlin noise</a>.</p>
+<p>From the RITMO Centre, Cagri Erdem, Alexander Jensenius and Katja Schia had a <a href="http://www.nime.org/proceedings/2019/nime2019_paper037.pdf">paper</a> and performance on their Vrengt music-dance performance research. And also from IN5490, Aline Weber, Lucas Alegre, Jim Torresen, and Bruno Castro da Silva had <a href="http://www.nime.org/proceedings/2019/nime2019_paper035.pdf">a great paper on parameterising melody generation with Perlin noise</a>.</p>
 
 </div> 
 </article>
