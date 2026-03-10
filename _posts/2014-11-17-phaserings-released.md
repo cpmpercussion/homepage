@@ -9,6 +9,8 @@ tags:
 - pasic
 - ios
 - phaserings
+- research
+- music technology
 status: publish
 type: post
 published: true

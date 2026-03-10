@@ -9,6 +9,7 @@ tags:
 - performance
 - ios
 - ensemble
+- music technology
 description: "PhaseRings is a touchscreen instrument for ML-connected ensemble performance, where a server tracks four performers' improvisations and adjusts their interfaces in real time."
 image: /assets/images/teaching/ipad-ensemble.jpg
 ---

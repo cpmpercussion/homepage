@@ -10,6 +10,8 @@ tags:
 - anu school of music
 - hardware hacking
 - electronics
+- teaching
+- music technology
 status: publish
 type: post
 published: true

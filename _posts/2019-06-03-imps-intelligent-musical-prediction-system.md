@@ -9,6 +9,7 @@ tags:
 - nime
 - open-source
 - music
+- music technology
 description: "IMPS connects musicians and interface developers with deep neural networks via OSC, enabling real-time musical prediction and performance without requiring large datasets or specialist hardware."
 image: /assets/images/performing/2019-laptop-setup.jpg
 ---
@@ -38,5 +39,3 @@ The source code is available on [GitHub](https://github.com/cpmpercussion/imps).
       issn = {2220-4806},
       url = {http://www.nime.org/proceedings/2019/nime2019_paper050.pdf}
     }
-
-

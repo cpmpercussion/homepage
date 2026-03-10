@@ -6,6 +6,9 @@ categories:
 tags:
 - metatone
 - album
+- music technology
+- research
+- performance
 status: publish
 type: post
 published: true

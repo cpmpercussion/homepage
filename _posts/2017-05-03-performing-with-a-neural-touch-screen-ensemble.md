@@ -7,6 +7,9 @@ tags:
 - touch-screen
 - ensemble
 - epec
+- music technology
+- research
+- performance
 status: publish
 type: post
 published: true

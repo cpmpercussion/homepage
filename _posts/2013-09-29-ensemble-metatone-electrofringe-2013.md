@@ -10,6 +10,7 @@ tags:
 - this is not art
 - performance
 - newcastle
+- music technology
 status: publish
 type: post
 published: true

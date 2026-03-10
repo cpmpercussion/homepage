@@ -7,6 +7,7 @@ tags:
 - machine-learning
 - neural-networks
 - music
+- music technology
 - raspberry-pi
 - performance
 description: "The EMPI is a minimal electronic musical instrument for experimenting with predictive interaction, featuring a single physical input lever, a matching physical output, and on-device ML on a Raspberry Pi."

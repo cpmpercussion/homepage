@@ -9,7 +9,7 @@ tags:
 - punk
 status: publish
 type: post
-published: true
+published: false
 meta: {}
 description: "We had a weekend in Melbourne to play two shows - The Esplanade on Friday and Sounds Like Chicken's final show out at a community centre in Bayswater. In"
 ---

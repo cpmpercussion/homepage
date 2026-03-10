@@ -6,9 +6,9 @@ category: posts
 tags:
 - research
 - music technology
-- IMPS
-- MIDI
-- Raspberry Pi
+- imps
+- midi
+- raspberry-pi
 description: Experimenting with IMPS running on a Raspberry Pi Zero 2 W and communicating via MIDI with regular synthesisers — a "GenAI MIDI plug" concept for intelligent musical instruments.
 image: /assets/blog/2024/202402-intelligent-synths-1-raspberrypi.jpg
 ---

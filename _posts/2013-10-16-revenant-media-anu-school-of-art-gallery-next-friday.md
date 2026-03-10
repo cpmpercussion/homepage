@@ -12,6 +12,9 @@ tags:
 - gallery
 - canberra
 - metatone
+- music technology
+- research
+- performance
 status: publish
 type: post
 published: true

@@ -8,6 +8,8 @@ tags:
 - theremin
 - canberra
 - metatone
+- research
+- music technology
 status: publish
 type: post
 published: true

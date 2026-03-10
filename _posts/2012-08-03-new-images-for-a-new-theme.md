@@ -8,6 +8,8 @@ tags:
 - stockholm
 - oslo
 - piteå
+- travel
+- photography
 status: publish
 type: post
 published: true

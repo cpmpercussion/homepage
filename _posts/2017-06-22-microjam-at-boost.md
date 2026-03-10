@@ -7,7 +7,9 @@ tags:
 - microjam
 - epec
 - conference
-- demo
+- music technology
+- research
+- oslo
 status: publish
 type: post
 published: true

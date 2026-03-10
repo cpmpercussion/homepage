@@ -10,6 +10,8 @@ tags:
 - percussion
 - pasic
 - metatone
+- music technology
+- research
 status: publish
 type: post
 published: true

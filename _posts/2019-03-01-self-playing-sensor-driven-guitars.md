@@ -9,6 +9,8 @@ tags:
 - bela
 - sensors
 - ritmo
+- music technology
+- performance
 description: "Reflections on installation of six self-playing sensor-driven guitars developed at RITMO, each using an infrared distance sensor to respond to listener movement and produce sound through an acoustic actuator."
 image: /assets/images/performing/bela-guitars2.jpg
 ---

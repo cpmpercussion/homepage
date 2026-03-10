@@ -4,9 +4,9 @@ title: Three new drumset etudes
 categories:
 - teaching
 tags:
-- score
 - drumset
-- etudes
+- composition
+- teaching
 status: publish
 type: post
 published: true

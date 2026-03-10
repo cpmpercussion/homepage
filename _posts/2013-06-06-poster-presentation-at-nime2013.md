@@ -8,6 +8,9 @@ tags:
 - korea
 - daejeon
 - poster
+- research
+- conference
+- travel
 status: publish
 type: post
 published: true

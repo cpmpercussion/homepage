@@ -4,7 +4,6 @@ title: Choosing mallets at Capitol
 categories:
 - Photoblog
 tags:
-- mallets
 - stockholm
 - setup
 - sweden

@@ -4,7 +4,6 @@ title: Performance Teaching Fellow at the ANU
 categories:
 - news
 tags:
-- news
 - teaching
 - canberra
 - anu school of music

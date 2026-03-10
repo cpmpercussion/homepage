@@ -5,9 +5,7 @@ categories: []
 tags:
 - pure data
 - computer music
-- hackday
 - supercollider
-- trackmate
 status: publish
 type: post
 published: true

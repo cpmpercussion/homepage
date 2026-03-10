@@ -7,6 +7,8 @@ tags:
 - metatone
 - development
 - icons
+- research
+- music technology
 status: publish
 type: post
 published: true

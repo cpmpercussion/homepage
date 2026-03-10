@@ -10,6 +10,9 @@ tags:
 - computer music
 - icmc
 - mobile music
+- research
+- travel
+- music technology
 status: publish
 type: post
 published: true

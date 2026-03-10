@@ -8,6 +8,8 @@ tags:
 - konserthus
 - interactive music
 - epec
+- music technology
+- research
 status: publish
 type: post
 published: true

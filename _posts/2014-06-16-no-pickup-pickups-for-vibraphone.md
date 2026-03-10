@@ -9,6 +9,7 @@ tags:
 - iphone
 - mobile music
 - setup
+- music technology
 status: publish
 type: post
 published: true

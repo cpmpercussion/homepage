@@ -9,6 +9,8 @@ tags:
 - carillon
 - music
 - canberra
+- music technology
+- computer music
 description: "This week I've been talking about our Christmas carillon installation at the Canberra Centre. The National Capital Authority has been upgrading the"
 image: /assets/blog/2019/20191223-carillon1.jpg
 ---

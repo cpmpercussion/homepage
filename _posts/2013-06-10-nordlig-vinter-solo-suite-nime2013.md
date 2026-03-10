@@ -9,6 +9,10 @@ tags:
 - nime
 - korea
 - vibraphone
+- music technology
+- research
+- conference
+- travel
 status: publish
 type: post
 published: true

@@ -9,6 +9,8 @@ tags:
 - canberra
 - anu school of music
 - experimental music studio
+- research
+- music technology
 status: publish
 type: post
 published: true

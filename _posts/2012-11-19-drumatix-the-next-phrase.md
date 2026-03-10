@@ -6,8 +6,6 @@ tags:
 - performance
 - canberra
 - percussion
-- drumatix
-- concert
 status: publish
 type: post
 published: true

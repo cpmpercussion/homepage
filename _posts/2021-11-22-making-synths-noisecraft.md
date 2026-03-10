@@ -14,6 +14,8 @@ tags:
 - computer music
 - tutorial
 - sound-design
+- teaching
+- music technology
 ---
 
 In this tutorial you'll follow simple plans to create different electronic sounds and then use your knowledge to create a synthesiser. To create the synthesiser you'll use [NoiseCraft](https://noisecraft.app/), a website that lets you build your own synthesiser by connecting together modules that create or modify electronic sounds.

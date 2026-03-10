@@ -4,11 +4,12 @@ title: Mobile Computer Music for Percussionists
 categories:
 - news
 tags:
-- ltu
 - computer music
 - percussion
 - publication
 - thesis
+- research
+- music technology
 status: publish
 type: post
 published: true

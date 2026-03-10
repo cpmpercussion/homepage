@@ -8,6 +8,8 @@ tags:
 - physical computing
 - pure data
 - computer music
+- music technology
+- research
 status: publish
 type: post
 published: true

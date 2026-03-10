@@ -9,6 +9,7 @@ tags:
 - nime
 - raspberry-pi
 - music
+- music technology
 description: "A physically encapsulated musical neural network: a standalone box running a melody-generating recurrent neural network on a Raspberry Pi, with knobs to control tempo, model, and sampling diversity."
 image: /assets/images/performing/physical-musical-rnn.jpg
 ---

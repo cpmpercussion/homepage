@@ -7,6 +7,7 @@ tags:
 - publishing
 - journal
 - computer music
+- music technology
 description: "I've just arrived in Te Whanganui-a-Tara/Wellington for the Australasian Computer Music Conference, the first in-person edition since 2019, and it's a"
 ---
 

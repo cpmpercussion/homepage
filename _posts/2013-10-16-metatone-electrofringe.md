@@ -8,6 +8,8 @@ tags:
 - metatone
 - performance
 - video
+- research
+- music technology
 status: publish
 type: post
 published: true

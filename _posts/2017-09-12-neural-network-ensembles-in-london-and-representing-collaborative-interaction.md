@@ -11,6 +11,9 @@ tags:
 - neural network
 - deep learning
 - conference
+- music technology
+- travel
+- research
 status: publish
 type: post
 published: true

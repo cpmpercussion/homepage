@@ -11,6 +11,7 @@ tags:
 - ipad ensemble
 - gesture classification
 - transition matrices
+- music technology
 status: publish
 type: post
 published: true

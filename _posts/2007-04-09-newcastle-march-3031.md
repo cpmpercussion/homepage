@@ -9,7 +9,7 @@ tags:
 - punk
 status: publish
 type: post
-published: true
+published: false
 meta: {}
 description: "Cigars for the Man invited us to Newcastle to play two shows with them over this weekend. On friday we played the Cambridge Hotel with them. For us, it"
 ---

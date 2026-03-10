@@ -9,6 +9,8 @@ tags:
 - pure data
 - tutorial
 - computer music
+- music technology
+- teaching
 status: publish
 type: post
 published: true

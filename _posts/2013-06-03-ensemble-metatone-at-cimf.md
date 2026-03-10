@@ -8,6 +8,7 @@ tags:
 - performance
 - anu school of music
 - cimf
+- music technology
 status: publish
 type: post
 published: true

@@ -4,11 +4,10 @@ title: Audio Cables for iPad Performance
 categories:
 - note
 tags:
-- note
 - computer music
 - ipad
 - performance
-- cables
+- music technology
 status: publish
 type: post
 published: true

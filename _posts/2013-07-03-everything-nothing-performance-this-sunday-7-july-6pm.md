@@ -10,6 +10,8 @@ tags:
 - lonsdale
 - canberra
 - metatone
+- music technology
+- research
 status: publish
 type: post
 published: true

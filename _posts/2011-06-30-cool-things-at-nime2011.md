@@ -7,10 +7,10 @@ tags:
 - nime
 - travel
 - oslo
-- flickr
 - computer music
 - hci
 - conference
+- travel
 - strike on stage
 status: publish
 type: post

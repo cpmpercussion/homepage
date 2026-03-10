@@ -6,6 +6,8 @@ categories:
 tags:
 - press
 - metatone
+- research
+- music technology
 status: publish
 type: post
 published: true
