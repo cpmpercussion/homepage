@@ -21,7 +21,7 @@ The programs are designed so that students at every level and in almost any degr
 - **[HCCC Minor](https://programsandcourses.anu.edu.au/minor/HCCC-MIN)**: open to _all_ ANU undergrads, regardless of degree. If you're studying law, science, humanities, or anything else and want to develop skills in human-computer interaction and creative computing, this is your entry point.
 - **[HCCC Major](https://programsandcourses.anu.edu.au/major/HCCC-MAJ)**: for undergraduate computing students who want to make HCCC a central focus of their bachelor's degree.
 - **[HCCC Undergraduate Specialisation](https://programsandcourses.anu.edu.au/specialisation/HCCC-SPEC)**: a deeper undergraduate track for students in the Bachelor of Advanced Computing program.
-- **[HCCC Postgraduate Specialisation](https://programsandcourses.anu.edu.au/specialisation/HCCM-SPEC)**:for students in the Master of Computing who want to specialise in this area.
+- **[HCCC Postgraduate Specialisation](https://programsandcourses.anu.edu.au/specialisation/HCCM-SPEC)**: for students in the Master of Computing who want to specialise in this area.
 
 All four subplans have consistent learning outcomes and goals, just at different scales and levels of study.
 
