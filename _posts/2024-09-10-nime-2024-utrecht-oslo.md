@@ -17,7 +17,10 @@ In September 2024 I travelled to Utrecht, Netherlands for NIME 2024, later stopp
 
 The trip to NIME involved presenting a workshop and seeing lab members Yichen Wang and Sandy Ma presenting their musical work at the conference.
 
-![NIME 2024 in Utrecht]({% link assets/blog/2024/2024-NIME-trip-01.jpg %})
+
+![Starting up my workshop session on Building NIMEs with Embedded AI]({% link assets/blog/2024/2024-NIME-trip-03-workshop.jpg %})
+
+![waterways of Utrecht]({% link assets/blog/2024/2024-NIME-trip-01.jpg %})
 
 ## Building NIMEs with Embedded AI Workshop
 
@@ -27,7 +30,8 @@ Teresa's research involves running AI models on the [Bela](https://bela.io), and
 
 We split the day into two long sessions with the goal of getting everybody to get a basic AI model working on our respective systems. The workshop was (as expected) very busy with interest from NIMErs new and old.
 
-![Workshop AI system]({% link assets/blog/2024/2024-NIME-trip-02-workshop-AI-system.jpg %})
+
+![My ultra-portable workshop AI system with a Raspberry Pi Zero 2 W and a Microbit]({% link assets/blog/2024/2024-NIME-trip-02-workshop-AI-system.jpg %})
 
 In preparation for my [half of the workshop](https://smcclab.au/nime-embedded-ai/rpi/), I had built some _ultraportable_ AI NIME development kits. Each kit included:
 
@@ -39,7 +43,6 @@ In preparation for my [half of the workshop](https://smcclab.au/nime-embedded-ai
 
 The Microbits were a bit of an unusual addition to the system. I wanted a _very_ lightweight way to connect the Pi Zeros to something with sensor input and sound output. I had last used Microbits for teaching _COMP2300_ and Sound and Music Computing so I had lots around my lab. The Microbits have an on board speaker (sound output check) and an accelerometer (sensor input check) and the little LED matrix display (more feedback check). Programming them in their native Python environment, I could get _sounds_, not necessarily anything interesting or very fun, but a noisy kind of sound effect related to the accelerometer. I frame these as the world's worst NIME and I may not be too far wrong. In any case, they worked for demonstration purposes connected to the IMPSY Pi systems.
 
-![Workshop session]({% link assets/blog/2024/2024-NIME-trip-03-workshop.jpg %})
 
 ![Workshop participants]({% link assets/blog/2024/2024-NIME-trip-04-workshop.jpg %})
 
@@ -47,19 +50,21 @@ The Microbits were a bit of an unusual addition to the system. I wanted a _very_
 
 The conference featured a rich program of performances and demos alongside the paper and workshop sessions.
 
-![NIME 2024]({% link assets/blog/2024/2024-NIME-trip-05.jpg %})
+![NIMErs workshopping paper-based circuits and DIY electronics.]({% link assets/blog/2024/2024-NIME-trip-05.jpg %})
 
-![NIME 2024]({% link assets/blog/2024/2024-NIME-trip-06.jpg %})
+![A duo movement-based performance in the first evening concert.]({% link assets/blog/2024/2024-NIME-trip-06.jpg %})
 
-![NIME 2024]({% link assets/blog/2024/2024-NIME-trip-07.jpg %})
+![Sophie Skach's yarn based NIMEs in a demo session]({% link assets/blog/2024/2024-NIME-trip-07.jpg %})
 
-![NIME 2024]({% link assets/blog/2024/2024-NIME-trip-08.jpg %})
+![The NIME dinner and concert in an incredible outdoor art venue.]({% link assets/blog/2024/2024-NIME-trip-08.jpg %})
 
-![NIME 2024]({% link assets/blog/2024/2024-NIME-trip-09.jpg %})
+![DIY synths using recovered vape batteries at the club concert.]({% link assets/blog/2024/2024-NIME-trip-09.jpg %})
 
-![Intelligent S1]({% link assets/blog/2024/2024-NIME-trip-10-intelligent-S1.jpg %})
+Sandy Ma and I presented our work in as "work in progress" demos (accurate as our works are works in progress! I showed my IMPSY intelligent music platform running with a Roland S-1 synth and Sandy demonstrated her Touching Wires sensor blanket.
 
-![Touching Wires performance]({% link assets/blog/2024/2024-NIME-trip-11-touching-wires.jpg %})
+![Interacting with the intelligent S-1 synthesiser]({% link assets/blog/2024/2024-NIME-trip-10-intelligent-S1.jpg %})
+
+![Touching Wires demonstration from Sandy Ma]({% link assets/blog/2024/2024-NIME-trip-11-touching-wires.jpg %})
 
 A highlight of this NIME was seeing my SMCClab students Yichen Wang and Sandy Ma performing their new work _Unspoken_ as part of the conference.
 
@@ -67,7 +72,7 @@ Getting music works into NIME is no easy task. Space (and time) is tighter in th
 
 Yichen describes Unspoken as: "A mixed reality duet performance that explores the aesthetic possibilities of augmented reality technology as a medium for collaborative musical expression. Musicians with their tangible musical systems, communicate gestural and spatial musical intentions through a shared AR interface."
 
-This work combines my lab's research directions of AR performance and collaboration to create an original work that couldn't exist without the technologies involved. The staging of Unspoken in Utrecht was just stunning — well done Yichen and Sandy!
+This work combines my lab's research directions of AR performance and collaboration to create an original work that couldn't exist without the technologies involved. The staging of Unspoken in Utrecht was just stunning. Well done Yichen and Sandy!
 
 ![Unspoken performance]({% link assets/blog/2024/2024-NIME-trip-12-unspoken.jpg %})
 
@@ -85,18 +90,23 @@ Next stop was Oslo to catch up with colleagues at the University of Oslo and aro
 
 Going back to Oslo always feels like heading to another home, even more so now that Oslo's new trams are the same as Canberra's.
 
-![Oslo trams]({% link assets/blog/2024/2024-NIME-trip-17-oslo-trams.jpg %})
+![Trams in Oslo, just like those in Canberra except blue!]({% link assets/blog/2024/2024-NIME-trip-17-oslo-trams.jpg %})
 
 Among many meetings with colleagues and new students I was able to repeat my AI NIME workshop with students from the Musicology Department (and give a little concert for them) as well as present my recent research on Intelligent Musical Instruments to the ROBIN group.
 
-![Oslo performance]({% link assets/blog/2024/2024-NIME-trip-15-oslo-performance.jpg %})
+![Performance setup with Intelligent S-1 and Intelligent Microfreak instruments]({% link assets/blog/2024/2024-NIME-trip-15-oslo-performance.jpg %})
 
-![Oslo performance]({% link assets/blog/2024/2024-NIME-trip-16-oslo-performance.jpg %})
+![Performing with intelligent musical instruments at the UiO Department of Musicology]({% link assets/blog/2024/2024-NIME-trip-16-oslo-performance.jpg %})
 
-![RITMO visit]({% link assets/blog/2024/2024-NIME-trip-19-oslo-ritmo.jpg %})
+![visiting RITMO during a workshop in the studio]({% link assets/blog/2024/2024-NIME-trip-19-oslo-ritmo.jpg %})
 
-![Seminar at Oslo]({% link assets/blog/2024/2024-NIME-trip-20-oslo-charles-seminar.jpg %})
+![Giving a seminar on recent progress in Intelligent Musical Instruments at the ROBIN group]({% link assets/blog/2024/2024-NIME-trip-20-oslo-charles-seminar.jpg %})
 
-![Oslo snacks]({% link assets/blog/2024/2024-NIME-trip-18-oslo-snacks.jpg %})
+![Back to some typically Norwegian snacks, (fancy) knekkebrød and bacon ost.]({% link assets/blog/2024/2024-NIME-trip-18-oslo-snacks.jpg %})
 
-![Oslo]({% link assets/blog/2024/2024-NIME-trip-21-oslo.jpg %})
+Thanks to colleagues and friends Jim, Kirsten, Kyrre, Alexander, Benedikte, Tejaswinee, and Bernt-Isak for the good conversations and productive meetings!
+
+
+{% comment %}
+![Catching up with old friends Jim and Kirsten]({% link assets/blog/2024/2024-NIME-trip-21-oslo.jpg %})
+{% endcomment %}
