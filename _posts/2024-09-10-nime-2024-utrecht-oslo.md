@@ -41,14 +41,16 @@ In preparation for my [half of the workshop](https://smcclab.au/nime-embedded-ai
 - 2x USB A to micro B cables, one for power and one for...
 - a BBC Microbit v2
 
-The Microbits were a bit of an unusual addition to the system. I wanted a _very_ lightweight way to connect the Pi Zeros to something with sensor input and sound output. I had last used Microbits for teaching _COMP2300_ and Sound and Music Computing so I had lots around my lab. The Microbits have an on board speaker (sound output check) and an accelerometer (sensor input check) and the little LED matrix display (more feedback check). Programming them in their native Python environment, I could get _sounds_, not necessarily anything interesting or very fun, but a noisy kind of sound effect related to the accelerometer. I frame these as the world's worst NIME and I may not be too far wrong. In any case, they worked for demonstration purposes connected to the IMPSY Pi systems.
-
+The Microbits were a bit of an unusual addition to the system. I wanted a _very_ lightweight way to connect the Pi Zeros to something with sensor input and sound output. 
+I had last used Microbits for teaching _COMP2300_ and Sound and Music Computing so I had lots around my lab. 
+The Microbits have an on board speaker (sound output check) and an accelerometer (sensor input check) and the little LED matrix display (more feedback check). 
+Programming them in their native micropython environment, I could get _sounds_, not necessarily anything interesting or very fun, but a noisy kind of sound effect related to the accelerometer. I frame these as the world's worst NIME and I may not be too far wrong. The [code is here if you are interested.](https://github.com/cpmpercussion/impsy/blob/main/examples/microbit_serial_example.py) In any case, they worked for demonstration purposes connected to the IMPSY Pi systems.
 
 ![Workshop participants]({% link assets/blog/2024/2024-NIME-trip-04-workshop.jpg %})
 
 ## Performances and Demos
 
-The conference featured a rich program of performances and demos alongside the paper and workshop sessions.
+The conference featured a rich program of performances and demos alongside the paper and workshop sessions. Here's a few images of NIMErs interacting with cool works.
 
 ![NIMErs workshopping paper-based circuits and DIY electronics.]({% link assets/blog/2024/2024-NIME-trip-05.jpg %})
 
@@ -66,13 +68,13 @@ Sandy Ma and I presented our work in as "work in progress" demos (accurate as ou
 
 ![Touching Wires demonstration from Sandy Ma]({% link assets/blog/2024/2024-NIME-trip-11-touching-wires.jpg %})
 
-A highlight of this NIME was seeing my SMCClab students Yichen Wang and Sandy Ma performing their new work _Unspoken_ as part of the conference.
+A highlight of this NIME was seeing my SMCClab students Yichen Wang and Sandy Ma performing their new work [_Unspoken_](https://www.nime.org/proc_music/nime2024_music_22/index.html) as part of the conference.
 
 Getting music works into NIME is no easy task. Space (and time) is tighter in the music program than for papers so fewer works are programmed and the competition can be really tough. I was so proud to contribute as a supervisor to this work, and happy to watch from the audience this time!
 
 Yichen describes Unspoken as: "A mixed reality duet performance that explores the aesthetic possibilities of augmented reality technology as a medium for collaborative musical expression. Musicians with their tangible musical systems, communicate gestural and spatial musical intentions through a shared AR interface."
 
-This work combines my lab's research directions of AR performance and collaboration to create an original work that couldn't exist without the technologies involved. The staging of Unspoken in Utrecht was just stunning. Well done Yichen and Sandy!
+This work combines my lab's research directions of AR performance and collaboration to create an original work that couldn't exist without the technologies involved. The staging and performance of Unspoken in Utrecht was just stunning. Well done Yichen and Sandy!
 
 ![Unspoken performance]({% link assets/blog/2024/2024-NIME-trip-12-unspoken.jpg %})
 
