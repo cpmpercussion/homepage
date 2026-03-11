@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-03-11T02:17:54+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-03-11T04:28:53+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">Training Tutors in the College of Systems and Society, Semester 1, 2026</title><link href="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026" rel="alternate" type="text/html" title="Training Tutors in the College of Systems and Society, Semester 1, 2026" /><published>2026-02-27T00:42:00+00:00</published><updated>2026-02-27T00:42:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026"><![CDATA[<p>I’ve just wrapped up five training sessions for around 130 tutors (small group teachers) across the College of Systems and Society: two full-day sessions for new starters and three two-hour refresher sessions for returning tutors (and there’s one extra session to come for late-comers). It’s an exhausting but rewarding process. I’ve now been reflecting on our tutor’s needs and how we can activate their knowledge and experience to provide a better student experience across our College.</p>
 
 <p>For the curious, my training materials are available online and updated every semester: <a href="https://cpmpercussion.github.io/soco-tutor-training/">https://cpmpercussion.github.io/soco-tutor-training/</a></p>
@@ -696,7 +696,9 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>The trip to NIME involved presenting a workshop and seeing lab members Yichen Wang and Sandy Ma presenting their musical work at the conference.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-01.jpg" alt="NIME 2024 in Utrecht" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-03-workshop.jpg" alt="Starting up my workshop session on Building NIMEs with Embedded AI" /></p>
+
+<p><img src="/assets/blog/2024/2024-NIME-trip-01.jpg" alt="waterways of Utrecht" /></p>
 
 <h2 id="building-nimes-with-embedded-ai-workshop">Building NIMEs with Embedded AI Workshop</h2>
 
@@ -706,7 +708,7 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>We split the day into two long sessions with the goal of getting everybody to get a basic AI model working on our respective systems. The workshop was (as expected) very busy with interest from NIMErs new and old.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-02-workshop-AI-system.jpg" alt="Workshop AI system" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-02-workshop-AI-system.jpg" alt="My ultra-portable workshop AI system with a Raspberry Pi Zero 2 W and a Microbit" /></p>
 
 <p>In preparation for my <a href="https://smcclab.au/nime-embedded-ai/rpi/">half of the workshop</a>, I had built some <em>ultraportable</em> AI NIME development kits. Each kit included:</p>
 
@@ -720,27 +722,27 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>The Microbits were a bit of an unusual addition to the system. I wanted a <em>very</em> lightweight way to connect the Pi Zeros to something with sensor input and sound output. I had last used Microbits for teaching <em>COMP2300</em> and Sound and Music Computing so I had lots around my lab. The Microbits have an on board speaker (sound output check) and an accelerometer (sensor input check) and the little LED matrix display (more feedback check). Programming them in their native Python environment, I could get <em>sounds</em>, not necessarily anything interesting or very fun, but a noisy kind of sound effect related to the accelerometer. I frame these as the world’s worst NIME and I may not be too far wrong. In any case, they worked for demonstration purposes connected to the IMPSY Pi systems.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-03-workshop.jpg" alt="Workshop session" /></p>
-
 <p><img src="/assets/blog/2024/2024-NIME-trip-04-workshop.jpg" alt="Workshop participants" /></p>
 
 <h2 id="performances-and-demos">Performances and Demos</h2>
 
 <p>The conference featured a rich program of performances and demos alongside the paper and workshop sessions.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-05.jpg" alt="NIME 2024" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-05.jpg" alt="NIMErs workshopping paper-based circuits and DIY electronics." /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-06.jpg" alt="NIME 2024" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-06.jpg" alt="A duo movement-based performance in the first evening concert." /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-07.jpg" alt="NIME 2024" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-07.jpg" alt="Sophie Skach's yarn based NIMEs in a demo session" /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-08.jpg" alt="NIME 2024" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-08.jpg" alt="The NIME dinner and concert in an incredible outdoor art venue." /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-09.jpg" alt="NIME 2024" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-09.jpg" alt="DIY synths using recovered vape batteries at the club concert." /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-10-intelligent-S1.jpg" alt="Intelligent S1" /></p>
+<p>Sandy Ma and I presented our work in as “work in progress” demos (accurate as our works are works in progress! I showed my IMPSY intelligent music platform running with a Roland S-1 synth and Sandy demonstrated her Touching Wires sensor blanket.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-11-touching-wires.jpg" alt="Touching Wires performance" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-10-intelligent-S1.jpg" alt="Interacting with the intelligent S-1 synthesiser" /></p>
+
+<p><img src="/assets/blog/2024/2024-NIME-trip-11-touching-wires.jpg" alt="Touching Wires demonstration from Sandy Ma" /></p>
 
 <p>A highlight of this NIME was seeing my SMCClab students Yichen Wang and Sandy Ma performing their new work <em>Unspoken</em> as part of the conference.</p>
 
@@ -748,7 +750,7 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>Yichen describes Unspoken as: “A mixed reality duet performance that explores the aesthetic possibilities of augmented reality technology as a medium for collaborative musical expression. Musicians with their tangible musical systems, communicate gestural and spatial musical intentions through a shared AR interface.”</p>
 
-<p>This work combines my lab’s research directions of AR performance and collaboration to create an original work that couldn’t exist without the technologies involved. The staging of Unspoken in Utrecht was just stunning — well done Yichen and Sandy!</p>
+<p>This work combines my lab’s research directions of AR performance and collaboration to create an original work that couldn’t exist without the technologies involved. The staging of Unspoken in Utrecht was just stunning. Well done Yichen and Sandy!</p>
 
 <p><img src="/assets/blog/2024/2024-NIME-trip-12-unspoken.jpg" alt="Unspoken performance" /></p>
 
@@ -766,21 +768,21 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>Going back to Oslo always feels like heading to another home, even more so now that Oslo’s new trams are the same as Canberra’s.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-17-oslo-trams.jpg" alt="Oslo trams" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-17-oslo-trams.jpg" alt="Trams in Oslo, just like those in Canberra except blue!" /></p>
 
 <p>Among many meetings with colleagues and new students I was able to repeat my AI NIME workshop with students from the Musicology Department (and give a little concert for them) as well as present my recent research on Intelligent Musical Instruments to the ROBIN group.</p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-15-oslo-performance.jpg" alt="Oslo performance" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-15-oslo-performance.jpg" alt="Performance setup with Intelligent S-1 and Intelligent Microfreak instruments" /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-16-oslo-performance.jpg" alt="Oslo performance" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-16-oslo-performance.jpg" alt="Performing with intelligent musical instruments at the UiO Department of Musicology" /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-19-oslo-ritmo.jpg" alt="RITMO visit" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-19-oslo-ritmo.jpg" alt="visiting RITMO during a workshop in the studio" /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-20-oslo-charles-seminar.jpg" alt="Seminar at Oslo" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-20-oslo-charles-seminar.jpg" alt="Giving a seminar on recent progress in Intelligent Musical Instruments at the ROBIN group" /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-18-oslo-snacks.jpg" alt="Oslo snacks" /></p>
+<p><img src="/assets/blog/2024/2024-NIME-trip-18-oslo-snacks.jpg" alt="Back to some typically Norwegian snacks, (fancy) knekkebrød and bacon ost." /></p>
 
-<p><img src="/assets/blog/2024/2024-NIME-trip-21-oslo.jpg" alt="Oslo" /></p>]]></content><author><name></name></author><category term="posts" /><category term="research" /><category term="conference" /><category term="travel" /><category term="photography" /><category term="nime" /><summary type="html"><![CDATA[Travelling to Utrecht for NIME 2024 to run a workshop on embedded AI, watching lab members Yichen Wang and Sandy Ma perform Unspoken, announcing NIME2025 in Canberra, and visiting colleagues at the University of Oslo.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
+<p>Thanks to colleagues and friends Jim, Kirsten, Kyrre, Alexander, Benedikte, Tejaswinee, and Bernt-Isak for the good conversations and productive meetings!</p>]]></content><author><name></name></author><category term="posts" /><category term="research" /><category term="conference" /><category term="travel" /><category term="photography" /><category term="nime" /><summary type="html"><![CDATA[Travelling to Utrecht for NIME 2024 to run a workshop on embedded AI, watching lab members Yichen Wang and Sandy Ma perform Unspoken, announcing NIME2025 in Canberra, and visiting colleagues at the University of Oslo.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
 
 <p>Our concert took place on Wednesday 29 May 2024 at the Big Band Room, ANU School of Music. The whole concert can be viewed <a href="https://youtu.be/86yEZquWsPs">here</a> and below.</p>
 
