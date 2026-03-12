@@ -32,7 +32,8 @@
       "Bash(du:*)",
       "Bash(for dir in posterous squarespace_images blog projects images squarespaceblog blogger)",
       "Bash(echo \"=== $dir ===\")",
-      "Read(//Users/charles/src/homepage/assets/**)"
+      "Read(//Users/charles/src/homepage/assets/**)",
+      "WebFetch(domain:www.headlandfestival.com.au)"
     ]
   }
 }
