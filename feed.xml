@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-03-11T06:24:05+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://charlesmartin.au/feed.xml" rel="self" type="application/atom+xml" /><link href="https://charlesmartin.au/" rel="alternate" type="text/html" /><updated>2026-03-12T03:16:13+00:00</updated><id>https://charlesmartin.au/feed.xml</id><title type="html">Charles Martin</title><subtitle>Charles Martin is a computer scientist and musician specialising in music technology, creative AI, and human-computer interaction.
 </subtitle><entry><title type="html">Training Tutors in the College of Systems and Society, Semester 1, 2026</title><link href="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026" rel="alternate" type="text/html" title="Training Tutors in the College of Systems and Society, Semester 1, 2026" /><published>2026-02-27T00:42:00+00:00</published><updated>2026-02-27T00:42:00+00:00</updated><id>https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026</id><content type="html" xml:base="https://charlesmartin.au/blog/2026/02/27/training-tutors-in-semester-1-2026"><![CDATA[<p>I’ve just wrapped up five training sessions for around 130 tutors (small group teachers) across the College of Systems and Society: two full-day sessions for new starters and three two-hour refresher sessions for returning tutors (and there’s one extra session to come for late-comers). It’s an exhausting but rewarding process. I’ve now been reflecting on our tutor’s needs and how we can activate their knowledge and experience to provide a better student experience across our College.</p>
 
 <p>For the curious, my training materials are available online and updated every semester: <a href="https://cpmpercussion.github.io/soco-tutor-training/">https://cpmpercussion.github.io/soco-tutor-training/</a></p>
@@ -692,7 +692,55 @@ The course has moved on a bit with more emphasis on digital logic since I last t
 
 <p>Students come in feeling intimidated and bored by assembly end up building creative, expressive programs in a language most people never touch. They come out feeling like original 1970s hackers or 90s demoscene programmers with creative achievements in their portfolios and a deeper understanding of how computers really work.</p>
 
-<p>The <a href="https://cpmpercussion.github.io/creative-prediction/presentations/2022-baremetal-arm/">presentation slides</a> from the Oslo talk are available online.</p>]]></content><author><name></name></author><category term="teaching" /><category term="teaching" /><category term="arm assembly" /><category term="bbc micro:bit" /><category term="computing education" /><summary type="html"><![CDATA[Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022.]]></summary></entry><entry><title type="html">NIME 2024 in Utrecht and Oslo</title><link href="https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo" rel="alternate" type="text/html" title="NIME 2024 in Utrecht and Oslo" /><published>2024-09-10T00:00:00+00:00</published><updated>2024-09-10T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo"><![CDATA[<p>In September 2024 I travelled to Utrecht, Netherlands for NIME 2024, later stopping by Oslo to visit colleagues at the University of Oslo.</p>
+<p>The <a href="https://cpmpercussion.github.io/creative-prediction/presentations/2022-baremetal-arm/">presentation slides</a> from the Oslo talk are available online.</p>]]></content><author><name></name></author><category term="teaching" /><category term="teaching" /><category term="arm assembly" /><category term="bbc micro:bit" /><category term="computing education" /><summary type="html"><![CDATA[Reflections on teaching second-year computing using ARM assembly on real hardware. A talk given at the University of Oslo Robotics and Intelligent Systems lab in September 2022.]]></summary></entry><entry><title type="html">Recording Hyphae with Intelligent Musical Instruments</title><link href="https://charlesmartin.au/blog/2025/01/15/hyphae-recording-andromeda-is-coming" rel="alternate" type="text/html" title="Recording Hyphae with Intelligent Musical Instruments" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2025/01/15/hyphae-recording-andromeda-is-coming</id><content type="html" xml:base="https://charlesmartin.au/blog/2025/01/15/hyphae-recording-andromeda-is-coming"><![CDATA[<p>In late 2024, <a href="https://alexanderhunter.com.au">Dr Alec Hunter</a> and I spent several days together at the ANU School of Music recording improvisations for a new album, <em>Hyphae</em>, the latest project from our ongoing collaboration, <strong>Andromeda is Coming</strong>.</p>
+
+<p>The recording sessions extended the practice we first showed publicly at the <a href="/blog/2024/05/31/andromeda-artificial-friends">Andromeda is Coming and Artificially Intelligent Friends concert in May 2024</a>. Over the course of 2024, we continued developing our intelligent musical instruments, and these sessions were a chance to explore what they could do in a more focused recorded setting.</p>
+
+<p><img src="/assets/blog/2025/2025-hyphae-1-recording-in-big-band-room.jpg" alt="Charles Martin and Alec Hunter recording Hyphae in the Big Band Room, ANU School of Music" /></p>
+
+<h2 id="intelligent-instruments">Intelligent Instruments</h2>
+
+<p>The centrepiece of both our setups is <strong>IMPSYpi</strong> — an AI musical instrument built on my <a href="https://github.com/cpmpercussion/impsy">IMPSY</a> platform. IMPSYpi connects to our synths via MIDI and controls synthesis parameters in real time. It listens to our physical MIDI controllers and, when we stop playing, attempts to continue performing on its own.</p>
+
+<p>Alec ran his intelligent instrument through <strong>Ableton Live</strong> on a laptop; I used <strong>AUM</strong> on an iPad. Both setups let IMPSYpi interact directly with our synth parameters, pushing sounds in directions neither of us would have taken on our own.</p>
+
+<h2 id="small-data-ai">Small Data AI</h2>
+
+<p>IMPSYpi is deliberately a <em>small-data</em> AI system, a contrast to the big-tech, scrape-everything approach to creative AI. The AI model powering it was trained on roughly an hour of improvisation that I recorded with an 8-input MIDI controller.</p>
+
+<p>The result is imperfect but intriguing. Sometimes IMPSYpi smoothly shifts a single parameter, much as a human player would. Sometimes it flips all eight parameters in rapid, inhuman jumps, leaving our synths in sonic states we’d never have reached ourselves.</p>
+
+<h2 id="liner-notes">Liner Notes</h2>
+
+<blockquote>
+  <p><strong>Letting things grow.</strong></p>
+
+  <p>IMPSYpi is an AI musical instrument that attempts to perform like a human by controlling parameters on our synths over a MIDI connection. The IMPSYpis listen to the signal from our physical MIDI controllers, and attempt to continue performing when we stop. In contrast with the big-tech steal-all-your-art approach to creative artificial intelligence, IMPSYpi is a small-data AI system. We used an AI model trained on about an hour of improvisation that Charles recorded with an 8-input MIDI controller. The trained AI model is beautifully imperfect; sometimes it smoothly changes individual parameters much as we do, sometimes it changes all eight parameters in ultra-quick jumps, leaving our synths in inhuman, but fascinating sonic states.</p>
+
+  <p>Even though our IMPSYpis are trained on human data, we don’t expect them to be humans. They blend into our instruments, pushing our sounds into unexpected places, leaving us to update our creative intentions moment-to-moment.</p>
+
+  <p>The goal here is not to make music with AI that just ends up imitating a larger ensemble. AI should help people make music that has never been heard before.</p>
+</blockquote>
+
+<p><img src="/assets/blog/2025/2025-hyphae-3-album-cover-candidate.jpg" alt="Album cover candidate for Hyphae by Andromeda is Coming" /></p>
+
+<p><em>Hyphae</em> is still in progress — more updates to come when it’s ready for release.</p>]]></content><author><name></name></author><category term="performance" /><category term="research" /><category term="machine-learning" /><category term="computer music" /><category term="andromeda is coming" /><summary type="html"><![CDATA[Andromeda is Coming, Charles Martin and Alec Hunter, spent time in late 2024 recording improvisations with our IMPSY-powered intelligent instruments.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2025/2025-hyphae-1-recording-in-big-band-room.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2025/2025-hyphae-1-recording-in-big-band-room.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wrecked: A Magic Lantern Show at the Headland Writers Festival</title><link href="https://charlesmartin.au/blog/2024/12/01/wrecked-magic-lantern-tathra" rel="alternate" type="text/html" title="Wrecked: A Magic Lantern Show at the Headland Writers Festival" /><published>2024-12-01T00:00:00+00:00</published><updated>2024-12-01T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/12/01/wrecked-magic-lantern-tathra</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/12/01/wrecked-magic-lantern-tathra"><![CDATA[<p>In October 2024 I travelled to Tathra on the NSW South Coast to perform <em>Wrecked</em>, a magic lantern show, as part of the prestigious <a href="https://www.headlandfestival.com.au">Headland Writers Festival</a>.</p>
+
+<p><img src="/assets/blog/2024/2024-magic-lanterns-tathra-1.jpg" alt="View from the headland at Tathra" /></p>
+
+<p><em>Wrecked</em> was the latest in our Magic Lanter performances led by <a href="https://martynjolly.com">Martyn Jolly</a> and Anita Pollard as magic lanternists, Andrew Gray as narrator, Bronwyn Coupe handling video production, and Alexander Hunter and me as composers and musicians.</p>
+
+<p>As alwasy, this show drew on the history of magic lantern performance and nineteenth-century technology in a modern reenactment with contemporary music. The themes this time: maritime disaster and the coastal history of the NSW south coast.</p>
+
+<p><img src="/assets/blog/2024/2024-magic-lanterns-tathra-2.jpg" alt="Soundcheck in Tathra Hall showing the magic lantern projection with a chromatrope slide" /></p>
+
+<p><img src="/assets/blog/2024/2024-magic-lanterns-tathra-3.jpg" alt="More rehearsals under red lighting." /></p>
+
+<p>The show this time, advertised as family friendly attracted an enthusiastic full house who responded exactly as intended with Andrew leading sound effects during the comedic slides and weeping and woeing during the tragic scenes. An excellent show!</p>
+
+<h2 id="the-headland-writers-festival">The Headland Writers Festival</h2>
+
+<p>The <a href="https://www.headlandfestival.com.au">Headland Writers Festival</a> is held each October in Tathra, a small coastal town between Merimbula and Bega on the NSW Sapphire Coast. The festival brings together writers, artists, and performers against the backdrop of Tathra’s beautiful headland and beach. Performing in the heritage Tathra Hall, a classic country hall, felt entirely fitting for a magic lantern show.</p>]]></content><author><name></name></author><category term="posts" /><category term="performance" /><category term="music" /><category term="magic lantern" /><category term="travel" /><summary type="html"><![CDATA[Performing "Wrecked", a magic lantern show, at the Headland Writers Festival in Tathra, NSW, in October 2024. A collaboration with Martyn Jolly, Anita Pollard, Andrew Gray, Alexander Hunter, and Bronwyn Coupe.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/2024-magic-lanterns-tathra-2.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/2024-magic-lanterns-tathra-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">NIME 2024 in Utrecht and Oslo</title><link href="https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo" rel="alternate" type="text/html" title="NIME 2024 in Utrecht and Oslo" /><published>2024-09-10T00:00:00+00:00</published><updated>2024-09-10T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/09/10/nime-2024-utrecht-oslo"><![CDATA[<p>In September 2024 I travelled to Utrecht, Netherlands for NIME 2024, later stopping by Oslo to visit colleagues at the University of Oslo.</p>
 
 <p>The trip to NIME involved presenting a workshop and seeing lab members Yichen Wang and Sandy Ma presenting their musical work at the conference.</p>
 
@@ -785,104 +833,4 @@ Programming them in their native micropython environment, I could get <em>sounds
 
 <p><img src="/assets/blog/2024/2024-NIME-trip-18-oslo-snacks.jpg" alt="Back to some typically Norwegian snacks, (fancy) knekkebrød and bacon ost." /></p>
 
-<p>Thanks to colleagues and friends Jim, Kirsten, Kyrre, Alexander, Benedikte, Tejaswinee, and Bernt-Isak for the good conversations and productive meetings!</p>]]></content><author><name></name></author><category term="posts" /><category term="research" /><category term="conference" /><category term="travel" /><category term="photography" /><category term="nime" /><summary type="html"><![CDATA[Travelling to Utrecht for NIME 2024 to run a workshop on embedded AI, watching lab members Yichen Wang and Sandy Ma perform Unspoken, announcing NIME2025 in Canberra, and visiting colleagues at the University of Oslo.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Concert with Andromeda is Coming and Artificially Intelligent Friends</title><link href="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends" rel="alternate" type="text/html" title="Concert with Andromeda is Coming and Artificially Intelligent Friends" /><published>2024-05-31T00:00:00+00:00</published><updated>2024-05-31T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/05/31/andromeda-artificial-friends"><![CDATA[<p>Andromeda is Coming, the exploratory music project of (me!) Charles Martin and Alec Hunter recently developed a concert of new works all featuring research into intelligent (or AI-enabled) musical instruments. Incorporating new perspectives in our work, we invited two members of my ANU SMCClab research lab, Yichen Wang and Sandy Ma to join us for a 60-minute concert of live audio-visual performances.</p>
-
-<p>Our concert took place on Wednesday 29 May 2024 at the Big Band Room, ANU School of Music. The whole concert can be viewed <a href="https://youtu.be/86yEZquWsPs">here</a> and below.</p>
-
-<p>It was an important moment for our lab to put together a whole concert of music, not just the typical 10-minute conference demo, and to invite the community to see it. As always, it was a privilege to share the stage with Alec Hunter, Yichen Wang, and Sandy Ma. I want to thank Craig Greening for helping with sound and Eric Byler for taking photos and video!</p>
-
-<p><strong>Update:</strong> the <a href="https://systems.anu.edu.au/news/whats-sound-duet-humans-and-ai-concert">College of Systems and Society has posted an article about our work at this concert!</a></p>
-
-<h2 id="program">Program</h2>
-
-<ol>
-  <li><strong>From the Earth</strong> (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).</li>
-  <li><strong>Unspoken</strong> (Yichen Wang and Sandy Ma) Augmented-reality-mediated collaboration for synthesiser and computer music drawing interface.</li>
-  <li><strong>Cubes and Freak</strong> (Yichen Wang and Charles Martin) Improvised with Augmented reality musical instrument and AI-assisted MicroFreak Synthesiser.</li>
-  <li><strong>Touching Wires</strong> (Sandy Ma) Improvisation for <a href="https://bela.io">Bela</a> sensor quilt musical instrument and live video processing.</li>
-  <li><strong>Off the Shelf</strong> (Yichen Wang) Improvisation for AI-powered Volca FM synthesiser and OP-1 synthesiser.</li>
-  <li><strong>Into the Sun</strong> (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).</li>
-</ol>
-
-<h2 id="video">Video</h2>
-
-<p><a href="https://youtu.be/86yEZquWsPs">video here</a></p>
-
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/86yEZquWsPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
-
-<h2 id="images">Images</h2>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-1.jpg" alt="Alec Hunter setting up his intelligent Ableton Live set" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-2.jpg" alt="Charles Martin performing at the intelligent Arturia Microfreak" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-3.jpg" alt="Charles Martin and Alec Hunter performing as &quot;Andromeda is Coming&quot;" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-4.jpg" alt="Charles Martin performing at the nanoKONTROL" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-5.jpg" alt="Sandy Ma performing using a Hololens and her Pure Data drawing system in Unspoken" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-6.jpg" alt="Charles Martin performing" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-7.jpg" alt="Yichen Wang performing using Hololens and intelligent synths in &quot;Off the Shelf&quot;" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-8.jpg" alt="Charles Martin and Yichen Wang performing together" /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-9.jpg" alt="Charles Martin and Yichen Wang performing together, Yichen performing with Cubing Sound on the Meta Quest headset." /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-10.jpg" alt="Streaming setup for the performance on the ATEM HDMI switcher." /></p>
-
-<p><img src="/assets/blog/2024/2024-05-29-concert-11.jpg" alt="Sandy Ma warming up for &quot;Touching Wires&quot;" /></p>
-
-<h2 id="concert-details">Concert Details</h2>
-
-<p><img src="/assets/blog/2024/2024-aicaif-concert.jpg" alt="Andromeda is Coming and Artificially Intelligent Friends poster (design: Sandy Ma)" /></p>
-
-<p>A 60-minute performance of new music for new AI musical instruments featuring Alec Hunter, Charles Martin, Yichen Wang and Sandy Ma.</p>
-
-<p>Andromeda is Coming is the improvised music project of Charles Martin and Alec Hunter dedicated to exploring new sounds and music making technologies in long-form musical performances.</p>
-
-<p>For this performance, Andromeda adopt artificial intelligence and augmented reality musical instruments from the ANU Sound, Music and Creative Computing Lab. These include Charles Martin’s IMPSY system for building intelligent musical instruments and Yichen Wang’s “Cubing Sound” augmented reality musical instrument. These new musical instruments will be reflected by real-time interactive visualisation.
-We ask what new sounds and new music might be created with these new technologies, and what AI and virtual musical performances will look like?</p>
-
-<p>Poster Image Credit: Sandy Ma</p>
-
-<p><a href="https://music.cass.anu.edu.au/events/andromeda-coming-and-artificially-intelligent-friends">ANU School of Music Event Link</a></p>]]></content><author><name></name></author><category term="performance" /><category term="research" /><category term="machine-learning" /><category term="augmented-reality" /><category term="computer music" /><category term="smcclab" /><summary type="html"><![CDATA[Bringing back Andromed is Coming with new collaborators and new AI music systems.]]></summary></entry><entry><title type="html">ICASSP 2024 in Seoul, Korea</title><link href="https://charlesmartin.au/blog/2024/04/30/icassp-2024-korea" rel="alternate" type="text/html" title="ICASSP 2024 in Seoul, Korea" /><published>2024-04-30T00:00:00+00:00</published><updated>2024-04-30T00:00:00+00:00</updated><id>https://charlesmartin.au/blog/2024/04/30/icassp-2024-korea</id><content type="html" xml:base="https://charlesmartin.au/blog/2024/04/30/icassp-2024-korea"><![CDATA[<p>I travelled to Seoul, Korea for <a href="https://2024.ieeeicassp.org">ICASSP 2024</a> to see Xinlei Niu present our paper <a href="https://doi.org/10.1109/ICASSP48485.2024.10446349">SoundLoCD: An Efficient Conditional Discrete Contrastive Latent Diffusion Model for Text-to-Sound Generation</a>.</p>
-
-<p>I hadn’t travelled for a conference for a few years and ICASSP is a big one so I took the opportunity to learn about the cutting edge of AI and signal processing while getting to see Xinlei’s presentation in person.</p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-2-xinlei-presenting.jpg" alt="Xinlei presenting at ICASSP 2024" /></p>
-
-<p>ICASSP is a really exciting community because, when you think about it, a <em>lot</em> of the interesting data we want to interact with in the world is a signal (of some kind or another). Given the scale of ICASSP I found it almost impossible to navigate the many parallel sessions effectively. I focussed on the plenary sessions which were really fascinating and the (many MANY) posters. I tend to find poster sessions more memorable than talks as I can filter through to the topics I’m focussed on (sound and music) and have quick discussions with the authors.</p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-1-plenary-session.jpg" alt="Plenary session" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-5-innovation-forum.jpg" alt="Innovation forum" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-7-plenary-4d.jpg" alt="Plenary 4D" /></p>
-
-<p>Filtering through to find many music posters, I learned a lot and I can make a few high level comments:</p>
-
-<ol>
-  <li>genAI for sound and music is popular but not ubiquitous, there is strong work but coming from a few focussed labs, groups and companies.</li>
-  <li>traditional industry names in sound/audio research (e.g., Sony, Bose, Dolby) are present along with the big tech interests (Meta, Apple, ByteDance) as collaborators on many of the audio projects.</li>
-</ol>
-
-<p>Interest and skills in sound and audio seem to be a bit sparser than traditional video/image AI research. I suspect that some of the industry players with deep pockets and/or music publishing may also be bringing data into the equation but this is speculation.</p>
-
-<p>Outside of the conference I had a chance to get some street photography, coffee drinking, and music enjoying in. Last time I was in Seoul was 2013 so I was ready to enjoy returning!</p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-3-bbq.jpg" alt="BBQ celebration after Xinlei's paper" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-4-dripcoffee.jpg" alt="Some incredible drip coffee" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-8-cakes.jpg" alt="Cakes" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-9-music-cafe.jpg" alt="Music cafe" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-6-starfield-library.jpg" alt="Starfield Library" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-10-walking.jpg" alt="Walking around Seoul" /></p>
-
-<p><img src="/assets/blog/2024/202404-icassp-korea-11-nobeer-nowork-store.jpg" alt="No Beer No Work" /></p>]]></content><author><name></name></author><category term="posts" /><category term="research" /><category term="conference" /><category term="travel" /><category term="photography" /><summary type="html"><![CDATA[Travelling to Seoul for ICASSP 2024 to see Xinlei Niu present our SoundLoCD paper on text-to-sound generation, plus reflections on the state of generative AI for audio and music at the conference.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/202404-icassp-korea-2-xinlei-presenting.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/202404-icassp-korea-2-xinlei-presenting.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Thanks to colleagues and friends Jim, Kirsten, Kyrre, Alexander, Benedikte, Tejaswinee, and Bernt-Isak for the good conversations and productive meetings!</p>]]></content><author><name></name></author><category term="posts" /><category term="research" /><category term="conference" /><category term="travel" /><category term="photography" /><category term="nime" /><summary type="html"><![CDATA[Travelling to Utrecht for NIME 2024 to run a workshop on embedded AI, watching lab members Yichen Wang and Sandy Ma perform Unspoken, announcing NIME2025 in Canberra, and visiting colleagues at the University of Oslo.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" /><media:content medium="image" url="https://charlesmartin.au/assets/blog/2024/2024-NIME-trip-01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
