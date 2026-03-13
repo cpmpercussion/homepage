@@ -13,8 +13,6 @@ _Hyphae_ is an album of improvisations by **Andromeda is Coming** — Charles Ma
 
 Read more about the recording sessions: [Recording Hyphae with Intelligent Musical Instruments]({% link _posts/2025-01-15-hyphae-recording-andromeda-is-coming.md %}).
 
-![Charles Martin and Alec Hunter recording Hyphae in the Big Band Room, ANU School of Music]({% link assets/blog/2025/2025-hyphae-1-recording-in-big-band-room.jpg %})
-
 _Hyphae_ is still in progress — more updates to come when it's ready for release.
 
 ## Preview Track
