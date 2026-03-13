@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Shape-shifting robots in the wild: the DyRET robot | Charles Martin</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Shape-shifting robots in the wild: the DyRET robot" />
+<meta property="og:locale" content="en_AU" />
+<meta name="description" content="Our research on DyRET, a four-legged robot that adapts its body shape to walk on new terrain, has been published in Nature Machine Intelligence." />
+<meta property="og:description" content="Our research on DyRET, a four-legged robot that adapts its body shape to walk on new terrain, has been published in Nature Machine Intelligence." />
+<link rel="canonical" href="https://charlesmartin.au/blog/2021/03/16/dyret-robot-nature-machine-intelligence" />
+<meta property="og:url" content="https://charlesmartin.au/blog/2021/03/16/dyret-robot-nature-machine-intelligence" />
+<meta property="og:site_name" content="Charles Martin" />
+<meta property="og:image" content="https://charlesmartin.au/assets/blog/2021/2021-dyret-robot.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-16T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://charlesmartin.au/assets/blog/2021/2021-dyret-robot.jpg" />
+<meta property="twitter:title" content="Shape-shifting robots in the wild: the DyRET robot" />
+<meta name="twitter:site" content="@cpmpercussion" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-03-16T00:00:00+00:00","datePublished":"2021-03-16T00:00:00+00:00","description":"Our research on DyRET, a four-legged robot that adapts its body shape to walk on new terrain, has been published in Nature Machine Intelligence.","headline":"Shape-shifting robots in the wild: the DyRET robot","image":"https://charlesmartin.au/assets/blog/2021/2021-dyret-robot.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://charlesmartin.au/blog/2021/03/16/dyret-robot-nature-machine-intelligence"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://charlesmartin.au/assets/bio/charlesmartin-synth-profile.jpg"}},"url":"https://charlesmartin.au/blog/2021/03/16/dyret-robot-nature-machine-intelligence"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- favicons --> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#e0e0e0">
+<!-- styles --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="/assets/css/academicons.min.css" />
+<link rel="stylesheet" type="text/css" href='/assets/css/main.css'>
+<link rel="stylesheet" type="text/css" href='/assets/css/image-captions.css'>
+<!-- Bootstrap CSS -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> <!-- bootstrap v5.3.0 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+
+  </head>
+  <body>
+    <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/cpm-logo-white.svg" width="40" class="d-inline-block align-top" alt="Logo">
+    cpm
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/">home</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/blog/">blog</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/bio/">bio</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://charlesmartin.bandcamp.com">music</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/publications/">publications</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="/projects/">projects</a>
+      </li>
+      
+      
+      
+      <li class="nav-item ">
+      <a class="nav-link " href="https://smcclab.github.io">smcclab</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	      <a rel="me" href="https://aus.social/@charlesmartin" class="nav-link" aria-label="Mastodon profile">
+		      <i class="fab fa-mastodon"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://pixelfed.au/charlesmartin" class="nav-link" aria-label="Pixelfed profile">
+		      <i class="fa fa-camera"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://github.com/cpmpercussion" class="nav-link" aria-label="GitHub profile">
+		      <i class="fab fa-github"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://charlesmartin.bandcamp.com/" class="nav-link" aria-label="Bandcamp profile">
+		      <i class="fab fa-bandcamp"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://scholar.google.com/citations?user=mTlH4G8AAAAJ" class="nav-link" aria-label="Google Scholar profile">
+		      <i class="ai ai-google-scholar-square"></i></a>
+</li>
+      <li class="nav-item">
+	      <a href="https://dblp.org/pid/208/2413.html" class="nav-link" aria-label="dblp profile">
+		      <i class="ai ai-dblp-square"></i></a>
+</li>
+      <li class="nav-item">
+        <a href="https://orcid.org/my-orcid?orcid=0000-0001-5683-7529" class="nav-link" aria-label="ORCID profile">
+          <i class="ai ai-orcid-square"></i></a>
+</li>
+      <li class="nav-item">
+	<button class="btn" id="btnSwitch" aria-label="Toggle color mode">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewbox="0 0 16 16">
+  	  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"></path>
+	  </svg>
+	</button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- unlisted links -->
+<a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+<script>
+
+/*!
+ * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ */
+const storedTheme = localStorage.getItem('theme')
+
+  const getPreferredTheme = () => {
+    if (storedTheme) {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+
+  const setTheme = function (theme) {
+    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-bs-theme', 'dark')
+    } else {
+      document.documentElement.setAttribute('data-bs-theme', theme)
+    }
+  }
+
+  setTheme(getPreferredTheme())
+
+  // Super simple dark mode: Carol Skelly on StackOverflow
+  // https://stackoverflow.com/a/63087710
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        setTheme('light')
+    }
+    else {
+	setTheme('dark')
+    }
+})
+</script>
+
+
+    
+
+    
+
+    <div class="container rounded bg-body">	   
+      <main id="main-content" class="my-2 p-4" aria-label="Content">
+        <article>
+<div class="my-4">
+  <h1 class="">Shape-shifting robots in the wild: the DyRET robot</h1>
+  <h6 class="font-italic">16 Mar '21</h6>
+  
+  <div class="mt-2">
+    <a href="/tags/?tag=research" class="btn btn-sm btn-outline-secondary me-1 mb-1">research</a><a href="/tags/?tag=robotics" class="btn btn-sm btn-outline-secondary me-1 mb-1">robotics</a><a href="/tags/?tag=machine+learning" class="btn btn-sm btn-outline-secondary me-1 mb-1">machine learning</a><a href="/tags/?tag=artificial+intelligence" class="btn btn-sm btn-outline-secondary me-1 mb-1">artificial intelligence</a>
+  </div>
+  
+</div>
+
+
+
+
+<div class="my-4 p-2">
+  <p>Imagine running on a cement footpath, and then suddenly through dry sand. Just to keep upright, you would have to slow down and change the way you run. In the same way, a walking robot would have to change its gait to handle different surfaces.</p>
+
+<p>Generally, humans and most robots can only change <em>how</em> we run. But what if we could also change the shape of our bodies to run as fast and safely as possible on any surface?</p>
+
+<p>We’d like to rely on robots for difficult and dangerous tasks — from inspecting failed nuclear reactors to space exploration. For these tasks, a static body could limit the robot’s adaptability. A shape-shifting body could make the difference between success and failure in unexpected environments. Even better, a shape-shifting robot could learn the best body shape for different environments and adapt as it encounters new ones.</p>
+
+<p>In a collaboration between the University of Oslo and CSIRO’s Data61, we’ve successfully tested this idea with a four-legged robot that adapts its body to walk on new surfaces as it encounters them, performing better than a static-body robot. Our research is published in <a href="https://doi.org/10.1038/s42256-021-00320-3"><em>Nature Machine Intelligence</em></a>.</p>
+
+<p><img src="/assets/blog/2021/2021-dyret-robot.jpg" alt="The DyRET robot walking outdoors on natural terrain"></p>
+
+<h2 id="a-shape-shifting-quadruped">A shape-shifting quadruped</h2>
+
+<p>DyRET — the Dynamic Robot for Embodied Testing, or “the animal” in Norwegian — was designed by Tønnes Nygaard to explore the idea of a shape-shifting robot. Each of DyRET’s four legs has two telescopic sections, so it can change the length of its thigh or shin bones. The adjustments are made by motors built into the legs, and the lengths can be changed automatically while the robot is operating.</p>
+
+<p>The motors can change DyRET’s height by around 20%, from 60cm to 73cm tall. That 13cm makes a dramatic difference to the robot’s walk. With short legs, DyRET is stable but slow, with a low centre of gravity. In its tallest mode, it is less stable but its stride is much longer, allowing it to travel faster and step over obstacles.</p>
+
+<p>DyRET also has sensors to track what it’s walking on. Each foot has a force sensor to feel how hard the ground is. A 3D camera points at the ground between its front legs to estimate how rough the surface is.</p>
+
+<h2 id="learning-to-adapt">Learning to adapt</h2>
+
+<p>When DyRET is walking, it continuously senses the environment through its feet and 3D camera. When the robot detects a change in ground conditions, it can switch to the best leg length. But how does it know what body shape works best?</p>
+
+<p>We explored two ways for DyRET to learn the best leg configuration: controlled indoor tests with known surfaces, and real-world outdoor tests.</p>
+
+<p>In the controlled tests, DyRET walked inside boxes about 5 metres long containing different surfaces: sand, gravel, and hard fibre-cement sheeting. The robot walked on each material in 25 different leg configurations to record the efficiency of its movement. We then tested its ability to automatically sense a surface change and choose the best body shape.</p>
+
+<p>The real world is a much more variable and unpredictable place, though. We extended this method to unseen terrain by having the robot estimate the best body shape for any surface it encounters. In our outdoor experiments, DyRET used a machine learning model seeded with knowledge about leg configurations from the controlled tests. As it walks, it continuously predicts the best body shape for the terrain, while updating its model with measurements of how well it’s actually moving. The predictions improve as it walks, allowing it to generate efficient movement even for terrain it hasn’t seen before.</p>
+
+<h2 id="are-shape-shifting-robots-the-future">Are shape-shifting robots the future?</h2>
+
+<p>DyRET explores the idea of “embodied cognition” — that a robot’s hardware body can be used to solve problems in collaboration with its software brain, by tightly linking them to the environment. Instead of the body being a constraint on movement, it becomes an adaptive tool for solving problems in challenging environments.</p>
+
+<p>This is especially valuable when we can’t predict environmental conditions in advance, making it very hard to pick a single “good” robot shape. A shape-shifting robot can adapt to a wide variety of conditions through body change rather than having to be redesigned.</p>
+
+<p>Our proof of concept has powerful implications for the future of robotic design, unlocking environments that are currently impossible to navigate. Future shape-shifting robots might be used on the sea floor, or for long-term missions in space.</p>
+
+<hr>
+
+<p>This post is adapted from <a href="https://theconversation.com/shape-shifting-robots-in-the-wild-the-dyret-robot-can-rearrange-its-body-to-walk-in-new-environments-157130">an article David Howard and I wrote for <em>The Conversation</em></a>. The research was carried out with Tønnes Nygaard, Jim Torresen, and Kyrre Glette at the University of Oslo, and David Howard at CSIRO’s Data61.</p>
+
+<p>This research is personally important as an impactful output from our EPEC (Engineering Predictability with Embodied Cognition) project at the University of Oslo. I spent 2016–2019 at UiO as a post-doc in the EPEC project and as one of Tønnes Nygaard’s supervisors. It’s so gratifying to see this robot go from barely-working initial concept in the lab to the subject of an international collaboration with a high-impact journal output in Nature Machine Intelligence.</p>
+
+</div> 
+</article>
+
+
+      </main>
+    </div>
+
+    <footer class="container my-2 px-0">
+      <div class="mb-4">
+	<p class="cpm-grad text-center rounded-3 py-2">© Charles P Martin 2026</p>
+        <a rel="me" href="https://mastodon.acm.org/@charlesmartin"></a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+<script src="/assets/js/image-captions.js"></script>
+
+  </body>
+</html>
