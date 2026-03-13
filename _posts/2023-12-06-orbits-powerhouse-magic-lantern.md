@@ -28,6 +28,8 @@ Unusually, we performed the show three times in one night with different audienc
 
 ![Martyn with the projector.]({% link assets/blog/2023/202308-lanterns-powerhouse-3.jpg %})
 
+You can watch [the whole show on Martyn's Youtube channel](https://www.youtube.com/watch?v=0F9FHzw72LE).
+
 ## Orbits
 
 The recording of the performance is now available as the album *Orbits* on Bandcamp. The development and practice behind this set and the repeated performances led to a product that I felt worked particularly well.
