@@ -23,6 +23,8 @@ The National Capital Authority has been upgrading the National Carillon and repl
 
 The carillonists, including Thomas Laue from the ANU School of Music had recorded a couple of Christmas Carols and some new bell samples for us to use. I worked with Terry McGee to make some modifications to the keyboard that would hold the batons up with springs and Alistair Riddell who built a sensor system using magnetic field sensors.
 
+The National Carillon is one of Canberra's national institutions. The carillon was a gift from the the British government to celebrate Canberra's 50th anniversary and was opened by Queen Elizabeth II in 1970. Modifying the original clavier (keyboard console) from the carillon felt like interacting with a part of Australia's cultural history.
+
 ![A test rig with one carillon baton and the Bela]({{site.baseurl}}/assets/blog/2019/20191223-carillon3.jpg)
 
 I coded up the electronic sounds and connections to the sensor board using the [Bela](https://bela.io) platform, this was great because the installation needed to work continuously in the Canberra Centre for the whole of December (and it has!). We used magnetic field sensors to trigger the sounds so that we wouldn't have any parts that could wear out in the clavier. Terry build a little test baton for us to make sure it would work.
