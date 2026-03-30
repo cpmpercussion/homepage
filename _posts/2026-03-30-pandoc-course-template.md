@@ -1,7 +1,18 @@
 ---
 layout: post
-title: A university course template focussed on pandoc 
+title: A university course template focused on pandoc
 date: 2026-03-30 13:17 +1100
+category: teaching
+tags:
+- teaching
+- pandoc
+- markdown
+- tools
+description: >-
+  A pandoc-based course template for authoring lectures, tutorials, and
+  assessments in Markdown, with automatic conversion to PDF and HTML and
+  deployment to GitHub Pages.
+image: /assets/blog/2025/2025-pandoc-website-hci-example.png
 ---
 
 This post is about a new course template I designed and have been using for my teaching at ANU. The idea is to author lectures, tutorials, and class resources in Markdown and then have files automatically converted to PDF and HTML and arranged in a simple website to share with students and colleagues.
@@ -82,6 +93,8 @@ The `Makefile` converts all the materials (depending on their type), and assembl
 
 The template is capital-T Template on Github to make it easy to adapt for different courses. It's licensed under CC-0.
 
+![The pandoc course template GitHub repository](/assets/blog/2025/2025-pandoc-course-template.png)
+
 The trickiest part of this template are the style configurations for the slides. For PDF, I use `pandoc`'s beamer template, the Metropolis theme and Owl colour theme.
 I've used `lualatex` and have a fallback font to support nice colour emojis in my slides.
 For HTML, I have a nice-ish custom-made dark reveal theme which builds from `scss`.
@@ -93,7 +106,11 @@ So far, I have used this template for my [Human-Computer
 Interaction](https://smcclab.au/thirty-nine-hundred-hci/) course (redesigned in
 2025) and my [Tutor Training
 Course](https://cpmpercussion.github.io/soco-tutor-training/). Both sites are
-humming along nicely. For the HCI course, I uploaded the PDFs (manually..) to
+humming along nicely.
+
+![Example of the pandoc course template in use for my Human-Computer Interaction course at ANU in 2025](/assets/blog/2025/2025-pandoc-website-hci-example.png)
+
+For the HCI course, I uploaded the PDFs (manually..) to
 Canvas and copy-pasted text from the assignments and workshops.
 
 While it's obviously annoying to copy-paste things, I find that having a
@@ -109,7 +126,4 @@ in my lectures. I find it helpful to keep track of how many slides I have
 across a course and especially how many images I have per slide. This helps me
 balance my course design and speak for too long in lectures!
 
-One drawback with this setup is speed. Pandoc to HTML is not too slow, but Pandoc to PDF is (unfortunately) _very slow_. This is a bit 
-
-
-
+One drawback with this setup is speed. Pandoc to HTML is not too slow, but Pandoc to PDF is (unfortunately) _very slow_. This is a bit of a pain with many lectures to convert and specifically for the Github action as all the lectures have to be rebuilt for each update.
