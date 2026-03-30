@@ -35,7 +35,8 @@
       "Read(//Users/charles/src/homepage/assets/**)",
       "WebFetch(domain:www.headlandfestival.com.au)",
       "WebSearch",
-      "WebFetch(domain:theconversation.com)"
+      "WebFetch(domain:theconversation.com)",
+      "WebFetch(domain:comp.anu.edu.au)"
     ]
   }
 }
