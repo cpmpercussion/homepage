@@ -5,11 +5,11 @@ started: 2024
 summary: An album of improvisations with intelligent musical instruments, by Andromeda is Coming.
 image: /assets/blog/2025/2025-hyphae-3-album-cover-candidate.jpg
 image_alt: Album cover candidate for Hyphae by Andromeda is Coming
-description: "Hyphae is an album of improvisations by Andromeda is Coming — Charles Martin and Alec Hunter — made with IMPSY-powered intelligent musical instruments."
+description: "Hyphae is an album of improvisations by Andromeda is Coming — Charles Martin and Alexander Hunter — made with IMPSY-powered intelligent musical instruments."
 tags: [performance, recording, machine-learning, computer music, andromeda is coming]
 ---
 
-_Hyphae_ is an album of improvisations by **Andromeda is Coming** — Charles Martin and [Dr Alec Hunter](https://alexanderhunter.com.au) — recorded in late 2024 at the ANU School of Music. The sessions used our IMPSY-powered intelligent instruments, which listen to our MIDI controllers and continue performing when we stop, pushing our synths into sonic states we'd never have reached on our own.
+_Hyphae_ is an album of improvisations by **Andromeda is Coming** — Charles Martin and [Dr Alexander Hunter](https://alexanderhunter.com.au) — recorded in late 2024 at the ANU School of Music. The sessions used our IMPSY-powered intelligent instruments, which listen to our MIDI controllers and continue performing when we stop, pushing our synths into sonic states we'd never have reached on our own.
 
 Read more about the recording sessions: [Recording Hyphae with Intelligent Musical Instruments]({% link _posts/2025-01-15-hyphae-recording-andromeda-is-coming.md %}).
 
@@ -29,7 +29,7 @@ _Hyphae_ will be release on 1 June 2026 through our [Collected Resonances label 
 
 Letting things grow.
 
-Hyphae is the co-creative project of Charles Martin and Alec Hunter performing electronic instruments in collaboration with two interconnected machine-learning agents. Reacting against big-tech steal-all-your-art approaches to creative artificial intelligence, this project emphasises human touch and gesture with continuous computational input and bespoke, self-collected data.
+Hyphae is the co-creative project of Charles Martin and Alexander Hunter performing electronic instruments in collaboration with two interconnected machine-learning agents. Reacting against big-tech steal-all-your-art approaches to creative artificial intelligence, this project emphasises human touch and gesture with continuous computational input and bespoke, self-collected data.
 
 Our work connects our unique synth and field-recording practice with, Charles Martin's IMPSYpi, an intelligent musical instrument platform that attempts to perform like a human by controlling parameters on our synths over a MIDI connection. The IMPSYpis listen to signals from our physical music controllers, and attempt to continue performing when we stop. IMPSYpi is deliberately small-data, using a machine-learning model trained on our own improvisation. These intelligent instruments are beautifully imperfect; sometimes playing like us but often defying expectations, leaving our synths in in-human, but fascinating sonic states.
 
@@ -43,8 +43,10 @@ This work was created on Ngunnawal and Ngambri land and we acknowledge the tradi
 
 Releases June 1, 2026
 
-- Charles Martin: iPad synths and samples with IMPSYpi instance 1
-- Alec Hunter: laptop synths and samples with IMPSYpi instance 2
+Credits:
+
+- **Charles Martin**: iPad synths and samples with IMPSYpi instance 1
+- **Alexander Hunter**: laptop synths and samples with IMPSYpi instance 2
 - Mixing and mastering by Kimmo Vennonen.
 
 ## Track 1: Spore
@@ -72,8 +74,3 @@ A percussive noise entry shapes a return to the dense noise of the opening track
 
 > The mycelium lifts/ascends, developing a fruiting body, where nuclei finally unite and meiosis produces new spores, scattering the network’s legacy into a shared field of air and soil.
 
-
-## Credits
-
-- **Alec Hunter:** laptop synths and samples with IMPSYpi instance 1
-- **Charles Martin:** iPad synths and samples with IMPSYpi instance 2
