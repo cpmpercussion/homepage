@@ -15,6 +15,8 @@ Read more about the recording sessions: [Recording Hyphae with Intelligent Music
 
 _Hyphae_ will be release on 1 June 2026 through our [Collected Resonances label on Bandcamp](https://collectedresonances.bandcamp.com/album/hyphae). You can stream _Hyphae_ below:
 
+You can stream it right now in your [music app of choice (link list)](https://li.sten.to/hyphae-andromeda-is-coming) or on Bandcamp below.
+
 <iframe style="border: 0; width: 400px; height: 638px;" src="https://bandcamp.com/EmbeddedPlayer/album=1085958039/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/tracklist=true/tracks=1928341001,3978658539,3431344621,3081235482/esig=6b9a6b5573f9c064b7f5a1e2c1c20f94/" seamless><a href="https://collectedresonances.bandcamp.com/album/hyphae">Hyphae by Andromeda is Coming</a></iframe>
 
 <!--
@@ -49,26 +51,26 @@ Credits:
 - **Alexander Hunter**: laptop synths and samples with IMPSYpi instance 2
 - Mixing and mastering by Kimmo Vennonen.
 
-## Track 1: Spore
+### Track 1: Spore
 
 A dense and synth driven dialogue between the two musicians and intelligent instruments. This track features a progression of unusual timbres and a shifting feeling of control.
 
 > A spore lands, germinates, and sends a hyphal tip into the dark, mapping the first edges of what will become a network of exploration and collaboration.
 
 
-## Track 2: Hyphal Growth
+### Track 2: Hyphal Growth
 
 This track moves from industrial to natural with an initial section applying field recordings and granular synthesis. These timbres support melodic lead elements interacting across the top in the second half of the track.
 
 > Hyphae from two compatible strains meet, fuse, and share a common cytoplasm, forming a dikaryotic mycelium that carries two nuclei in one body.
 
-## Track 3: Networked Body
+### Track 3: Networked Body
 
 A shifting morse-code sequence entry and motif distinguishes this track. The second half involves a dark atmosphere and an ambient shift between the musicians.
 
 > The mycelium spreads through the substrate, forming a hidden web that can link multiple plants and fungi via a common mycorrhizal network, exchanging nutrients and communicating signals.
 
-## Track 4: Release
+### Track 4: Release
 
 A percussive noise entry shapes a return to the dense noise of the opening track. Dramatic synth sirens resonate over the returning natural sounds leading to an intense final section.
 
